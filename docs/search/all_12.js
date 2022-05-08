@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['send_0',['send',['../classtransport_1_1tcp_1_1client.html#a6eb8fc40b408b7181aa09b481ca82643',1,'transport::tcp::client::send()'],['../classtransport_1_1client.html#a9d5e72080425f6093655f2820575c6c1',1,'transport::client::send()']]],
+  ['server_1',['server',['../classmemory_1_1server.html',1,'memory::server'],['../classtransport_1_1tcp_1_1server.html#a072581b46a2db24e284921178ebc7c52',1,'transport::tcp::server::server()'],['../classtransport_1_1server.html#af1b0e15aacac1ab5e2e9001a57a251eb',1,'transport::server::server()'],['../classmemory_1_1server.html#afc4dec957a29610da254bd18c58d6d8a',1,'memory::server::server()'],['../classtransport_1_1server.html',1,'transport::server'],['../classtransport_1_1tcp_1_1server.html',1,'transport::tcp::server']]],
+  ['servers_2',['servers',['../classservers.html',1,'']]],
+  ['servers_2ecpp_3',['servers.cpp',['../servers_8cpp.html',1,'']]],
+  ['servers_2eh_4',['servers.h',['../servers_8h.html',1,'']]],
+  ['set_5',['set',['../classwindow.html#a4021b4c8be7d05b9e32222473389cfc4',1,'window']]],
+  ['set_5fdefaults_6',['set_defaults',['../classconfig_1_1parser_1_1settings.html#a448c27926da7c1dd40b3db7bee92deb4',1,'config::parser::settings::set_defaults()'],['../classconfig_1_1parser_1_1cli.html#a227ec47b722585bd1479207879b9ae6b',1,'config::parser::cli::set_defaults()']]],
+  ['set_5fevent_7',['set_event',['../classtransport_1_1server.html#ad366b9e25f4ee9111367d5a17d85c9f7',1,'transport::server::set_event()'],['../classservers.html#a9490d04203e526693219d397ffc4fbc6',1,'servers::set_event()']]],
+  ['setting_8',['setting',['../structconfig_1_1setting.html',1,'config']]],
+  ['settings_9',['settings',['../classconfig_1_1parser_1_1settings.html',1,'config::parser::settings'],['../classconfig_1_1manager.html#a3d25de9d0d7103cfb786511ac86fc8a1',1,'config::manager::settings()']]],
+  ['settings_2ecpp_10',['settings.cpp',['../settings_8cpp.html',1,'']]],
+  ['settings_2eh_11',['settings.h',['../settings_8h.html',1,'']]],
+  ['severity_12',['severity',['../namespacelogging.html#a72e7a108a3928d5e407b6a7723799826',1,'logging']]],
+  ['shm_2ecpp_13',['shm.cpp',['../shm_8cpp.html',1,'']]],
+  ['shm_2eh_14',['shm.h',['../shm_8h.html',1,'']]],
+  ['shorthand_15',['shorthand',['../structconfig_1_1cli__option.html#aba3ef40d83ff39e43cbe26625023297f',1,'config::cli_option']]],
+  ['size_16',['size',['../classmemory_1_1manager.html#a85a29c93505883c92042b0b27c40f421',1,'memory::manager']]],
+  ['size_5fto_5fpages_17',['size_to_pages',['../classmemory_1_1manager.html#ad78b9374780721101350847b5bddaba8',1,'memory::manager']]],
+  ['sleep_5ffor_18',['sleep_for',['../namespaceutil.html#a28ff4dd2371068677e53af40f3d1be5b',1,'util']]],
+  ['socket_19',['SOCKET',['../transport_2tcp_2client_8h.html#aff55fe551a9992a54ec54621c524d0a4',1,'SOCKET():&#160;client.h'],['../transport_2tcp_2server_8h.html#aff55fe551a9992a54ec54621c524d0a4',1,'SOCKET():&#160;server.h']]],
+  ['stop_20',['stop',['../classrunnable.html#ab7117095b1382678c42c4979871f1d25',1,'runnable']]],
+  ['string_2eh_21',['string.h',['../string_8h.html',1,'']]],
+  ['systemd_22',['systemd',['../classlogging_1_1endpoint_1_1systemd.html',1,'logging::endpoint::systemd'],['../classlogging_1_1endpoint_1_1systemd.html#a7a80a4136b9356f655fa00b7c3445932',1,'logging::endpoint::systemd::systemd()']]],
+  ['systemd_2ecpp_23',['systemd.cpp',['../systemd_8cpp.html',1,'']]],
+  ['systemd_2eh_24',['systemd.h',['../systemd_8h.html',1,'']]]
+];
