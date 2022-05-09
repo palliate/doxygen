@@ -59,5 +59,6 @@ var annotated_dup =
     [ "servers", "classservers.html", "classservers" ],
     [ "tray", "classtray.html", "classtray" ],
     [ "ui", "classui.html", "classui" ],
+    [ "value_visitor", "structvalue__visitor.html", "structvalue__visitor" ],
     [ "window", "classwindow.html", "classwindow" ]
 ];

@@ -15,7 +15,7 @@
 <polygon fill="#bfbfbf" stroke="black" points="56.5,-127.5 56.5,-206.5 175.5,-206.5 175.5,-127.5 56.5,-127.5"/>
 <text text-anchor="middle" x="116" y="-194.5" font-family="Helvetica,sans-Serif" font-size="10.00">config::parser::parser</text>
 <polyline fill="none" stroke="black" points="56.5,-187.5 175.5,-187.5 "/>
-<text text-anchor="start" x="64.5" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00"># options</text>
+<text text-anchor="start" x="64.5" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ options</text>
 <polyline fill="none" stroke="black" points="56.5,-168.5 175.5,-168.5 "/>
 <text text-anchor="start" x="64.5" y="-156.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~parser()</text>
 <text text-anchor="start" x="64.5" y="-145.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ get()</text>
@@ -30,7 +30,7 @@
 <polygon fill="none" stroke="black" points="0,-0.5 0,-90.5 100,-90.5 100,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="50" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">config::parser::cli</text>
 <polyline fill="none" stroke="black" points="0,-71.5 100,-71.5 "/>
-<text text-anchor="middle" x="50" y="-59.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<text text-anchor="start" x="8" y="-59.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ options</text>
 <polyline fill="none" stroke="black" points="0,-52.5 100,-52.5 "/>
 <text text-anchor="start" x="8" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ set_defaults()</text>
 <text text-anchor="start" x="8" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ parse()</text>

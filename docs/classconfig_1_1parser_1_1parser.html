@@ -94,7 +94,7 @@ $(document).ready(function(){initNavTree('classconfig_1_1parser_1_1parser.html',
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="classconfig_1_1parser_1_1parser-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">config::parser::parser Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
 </div><!--header-->
@@ -112,15 +112,15 @@ Inheritance diagram for config::parser::parser:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a5cee31ff2fe58ab5d68505f53add9661"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconfig_1_1parser_1_1parser.html#a5cee31ff2fe58ab5d68505f53add9661">~parser</a> ()</td></tr>
 <tr class="separator:a5cee31ff2fe58ab5d68505f53add9661"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1af96e1315cedd6fb3d4521af9a8662"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceconfig.html#aa19e0146a4b3b514835aa266290cbef6">config::value_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconfig_1_1parser_1_1parser.html#af1af96e1315cedd6fb3d4521af9a8662">get</a> (std::string const &amp;opt)=0</td></tr>
-<tr class="separator:af1af96e1315cedd6fb3d4521af9a8662"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefd61b62372308e4e0d9818acb50f4ad"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="structconfig_1_1setting.html">config::setting</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconfig_1_1parser_1_1parser.html#aefd61b62372308e4e0d9818acb50f4ad">get</a> (std::string const &amp;opt)=0</td></tr>
+<tr class="separator:aefd61b62372308e4e0d9818acb50f4ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace76c95d87f14109fc725494a825ab0a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconfig_1_1parser_1_1parser.html#ace76c95d87f14109fc725494a825ab0a">print</a> () const</td></tr>
 <tr class="separator:ace76c95d87f14109fc725494a825ab0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:ae591699ba1823188e32e2059c3cde0dc"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, <a class="el" href="namespaceconfig.html#aa19e0146a4b3b514835aa266290cbef6">config::value_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconfig_1_1parser_1_1parser.html#ae591699ba1823188e32e2059c3cde0dc">options</a></td></tr>
-<tr class="separator:ae591699ba1823188e32e2059c3cde0dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a5ad38b073ef8f7f82dc04ca829c9d2dd"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, <a class="el" href="structconfig_1_1setting.html">config::setting</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconfig_1_1parser_1_1parser.html#a5ad38b073ef8f7f82dc04ca829c9d2dd">options</a></td></tr>
+<tr class="separator:a5ad38b073ef8f7f82dc04ca829c9d2dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5cee31ff2fe58ab5d68505f53add9661" name="a5cee31ff2fe58ab5d68505f53add9661"></a>
@@ -149,8 +149,8 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="af1af96e1315cedd6fb3d4521af9a8662" name="af1af96e1315cedd6fb3d4521af9a8662"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af1af96e1315cedd6fb3d4521af9a8662">&#9670;&nbsp;</a></span>get()</h2>
+<a id="aefd61b62372308e4e0d9818acb50f4ad" name="aefd61b62372308e4e0d9818acb50f4ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefd61b62372308e4e0d9818acb50f4ad">&#9670;&nbsp;</a></span>get()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -159,7 +159,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespaceconfig.html#aa19e0146a4b3b514835aa266290cbef6">config::value_t</a> config::parser::parser::get </td>
+          <td class="memname">virtual <a class="el" href="structconfig_1_1setting.html">config::setting</a> &amp; config::parser::parser::get </td>
           <td>(</td>
           <td class="paramtype">std::string const &amp;&#160;</td>
           <td class="paramname"><em>opt</em></td><td>)</td>
@@ -173,7 +173,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classconfig_1_1parser_1_1cli.html#a0f35f83ede73d573e8b154f2266ce3a0">config::parser::cli</a>, and <a class="el" href="classconfig_1_1parser_1_1settings.html#a0a90bafac3303972d0f7a0e855cac3fb">config::parser::settings</a>.</p>
+<p>Implemented in <a class="el" href="classconfig_1_1parser_1_1cli.html#a6cfc44869fcf4d23ef6bf012285227b1">config::parser::cli</a>, and <a class="el" href="classconfig_1_1parser_1_1settings.html#a07f780c0ebe1a522881a3d55ab355e66">config::parser::settings</a>.</p>
 
 </div>
 </div>
@@ -195,24 +195,16 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="ae591699ba1823188e32e2059c3cde0dc" name="ae591699ba1823188e32e2059c3cde0dc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae591699ba1823188e32e2059c3cde0dc">&#9670;&nbsp;</a></span>options</h2>
+<a id="a5ad38b073ef8f7f82dc04ca829c9d2dd" name="a5ad38b073ef8f7f82dc04ca829c9d2dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ad38b073ef8f7f82dc04ca829c9d2dd">&#9670;&nbsp;</a></span>options</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::map&lt;std::string, <a class="el" href="namespaceconfig.html#aa19e0146a4b3b514835aa266290cbef6">config::value_t</a>&gt; config::parser::parser::options</td>
+          <td class="memname">std::map&lt;std::string, <a class="el" href="structconfig_1_1setting.html">config::setting</a>&gt; config::parser::parser::options</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>

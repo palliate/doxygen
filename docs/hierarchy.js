@@ -11,7 +11,6 @@ var hierarchy =
     [ "backend", "classbackend.html", [
       [ "tray", "classtray.html", null ]
     ] ],
-    [ "config::cli_option", "structconfig_1_1cli__option.html", null ],
     [ "atomic_cr< size >::element", "classatomic__cr_1_1element.html", null ],
     [ "atomic_mpsc::element", "structatomic__mpsc_1_1element.html", null ],
     [ "element", "structelement.html", null ],
@@ -61,6 +60,9 @@ var hierarchy =
       [ "ui", "classui.html", null ]
     ] ],
     [ "servers", "classservers.html", null ],
-    [ "config::setting", "structconfig_1_1setting.html", null ],
+    [ "config::setting", "structconfig_1_1setting.html", [
+      [ "config::cli_option", "structconfig_1_1cli__option.html", null ]
+    ] ],
+    [ "value_visitor", "structvalue__visitor.html", null ],
     [ "window", "classwindow.html", null ]
 ];
