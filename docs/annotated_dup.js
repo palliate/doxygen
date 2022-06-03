@@ -39,7 +39,10 @@ var annotated_dup =
       [ "server", "classtransport_1_1server.html", "classtransport_1_1server" ]
     ] ],
     [ "util", "namespaceutil.html", [
-      [ "rect", "structutil_1_1rect.html", "structutil_1_1rect" ]
+      [ "configurable", "classutil_1_1configurable.html", "classutil_1_1configurable" ],
+      [ "factory", "classutil_1_1factory.html", "classutil_1_1factory" ],
+      [ "rect", "structutil_1_1rect.html", "structutil_1_1rect" ],
+      [ "uuid", "structutil_1_1uuid.html", "structutil_1_1uuid" ]
     ] ],
     [ "atomic_cr", "classatomic__cr.html", "classatomic__cr" ],
     [ "atomic_mpsc", "classatomic__mpsc.html", "classatomic__mpsc" ],
@@ -48,6 +51,8 @@ var annotated_dup =
     [ "atomic_semaphore", "classatomic__semaphore.html", "classatomic__semaphore" ],
     [ "atomic_stack", "classatomic__stack.html", "classatomic__stack" ],
     [ "backend", "classbackend.html", "classbackend" ],
+    [ "cli", "classcli.html", "classcli" ],
+    [ "configuration", "classconfiguration.html", "classconfiguration" ],
     [ "consumer", "classconsumer.html", "classconsumer" ],
     [ "element", "structelement.html", "structelement" ],
     [ "ivshmem", "classivshmem.html", "classivshmem" ],

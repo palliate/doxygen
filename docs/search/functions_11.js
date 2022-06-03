@@ -1,5 +1,6 @@
 var searchData=
 [
   ['ui_0',['ui',['../classui.html#a3de3734002912a7b8be2284521b28402',1,'ui']]],
-  ['unlink_1',['unlink',['../structmemory_1_1node__t.html#acf294062229d0048ebb2bd0c228e67fb',1,'memory::node_t']]]
+  ['unlink_1',['unlink',['../structmemory_1_1node__t.html#acf294062229d0048ebb2bd0c228e67fb',1,'memory::node_t']]],
+  ['uuid_2',['uuid',['../structutil_1_1uuid.html#ab156aaf9bfac9465cdbacb733ae559a5',1,'util::uuid::uuid()'],['../structutil_1_1uuid.html#a4a9c1598130051da891b001ef9a7cdd4',1,'util::uuid::uuid(uint64_t v)'],['../structutil_1_1uuid.html#ad7e711b5568dce48380ac0d387cbdc6c',1,'util::uuid::uuid(const char v[])'],['../structutil_1_1uuid.html#ae8cd23caf7554e2c91ce28e5cb6dd97b',1,'util::uuid::uuid(std::string v)'],['../structutil_1_1uuid.html#a1b359473e6c3a5d1b502e069b1e68b2d',1,'util::uuid::uuid(const toml::value &amp;v)']]]
 ];

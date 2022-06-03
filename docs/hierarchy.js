@@ -11,6 +11,15 @@ var hierarchy =
     [ "backend", "classbackend.html", [
       [ "tray", "classtray.html", null ]
     ] ],
+    [ "base_t", null, [
+      [ "util::factory< base_t >::registrar< T, Config >", "structutil_1_1factory_1_1registrar.html", null ]
+    ] ],
+    [ "cli", "classcli.html", null ],
+    [ "util::configurable< T >", "classutil_1_1configurable.html", null ],
+    [ "util::configurable< Config >", "classutil_1_1configurable.html", [
+      [ "util::factory< base_t >::registrar< T, Config >", "structutil_1_1factory_1_1registrar.html", null ]
+    ] ],
+    [ "configuration", "classconfiguration.html", null ],
     [ "atomic_cr< size >::element", "classatomic__cr_1_1element.html", null ],
     [ "atomic_mpsc::element", "structatomic__mpsc_1_1element.html", null ],
     [ "element", "structelement.html", null ],
@@ -30,6 +39,7 @@ var hierarchy =
       [ "logging::endpoint::systemd", "classlogging_1_1endpoint_1_1systemd.html", null ],
       [ "logging::endpoint::terminal", "classlogging_1_1endpoint_1_1terminal.html", null ]
     ] ],
+    [ "util::factory< base_t >", "classutil_1_1factory.html", null ],
     [ "ivshmem", "classivshmem.html", null ],
     [ "logging::logger", "classlogging_1_1logger.html", null ],
     [ "config::manager", "classconfig_1_1manager.html", null ],
@@ -63,6 +73,7 @@ var hierarchy =
     [ "config::setting", "structconfig_1_1setting.html", [
       [ "config::cli_option", "structconfig_1_1cli__option.html", null ]
     ] ],
+    [ "util::uuid", "structutil_1_1uuid.html", null ],
     [ "value_visitor", "structvalue__visitor.html", null ],
     [ "window", "classwindow.html", null ]
 ];

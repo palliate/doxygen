@@ -1,4 +1,7 @@
 var searchData=
 [
-  ['expiration_5ftime_0',['expiration_time',['../structelement.html#a47aedbe14fa4a3d2a854a28f33298295',1,'element::expiration_time()'],['../structelement.html#a1a9dc3402e5120a14646f6c1eddcbb1e',1,'element::expiration_time()']]]
+  ['data_0',['data',['../structelement.html#a44febad4972af6eca8253bd78413f230',1,'element::data()'],['../structatomic__stack_1_1node.html#ac93d7137bbf3e8995c6c2e787a1848ff',1,'atomic_stack::node::data()'],['../classproducer.html#a1f6c9a17540b037c4b1b44f5810011bb',1,'producer::data()']]],
+  ['default_5fvalue_1',['default_value',['../structconfig_1_1setting.html#ada0a275cb0d157719fb699e0c5229df0',1,'config::setting']]],
+  ['delimeter_2',['delimeter',['../structutil_1_1uuid.html#a25bd0ca81702648da80e0aee3ee15a5a',1,'util::uuid']]],
+  ['description_3',['description',['../structconfig_1_1setting.html#af94306e1189afc228a150a08b6461c64',1,'config::setting']]]
 ];

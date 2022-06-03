@@ -10,9 +10,11 @@ var searchData=
   ['insert_7',['insert',['../structvalue__visitor.html#a625cf3ff67f556cc5331fb323b38fac0',1,'value_visitor::insert()'],['../classpatricia.html#a659ac04ca615587c9376b5b3833504ba',1,'patricia::insert()']]],
   ['insert_5fafter_8',['insert_after',['../structmemory_1_1bin__t.html#a284a3baa28f4361a0ef0452ea7d04abc',1,'memory::bin_t']]],
   ['insert_5fbefore_9',['insert_before',['../structmemory_1_1bin__t.html#a56e3098f47a9f47116fd4fb8512ab3bd',1,'memory::bin_t']]],
-  ['instance_10',['Instance',['../classconfig_1_1manager.html#ad192dc8ffda825d3c5bff25e3220cc74',1,'config::manager::Instance()'],['../classui.html#aaa157ba4489ac066594540334a2fda5c',1,'ui::Instance()'],['../classlogging_1_1logger.html#a2d9bc3ff3e6fea4ca03c0cc0ff8096fa',1,'logging::logger::Instance()']]],
+  ['instance_10',['Instance',['../classlogging_1_1logger.html#a2d9bc3ff3e6fea4ca03c0cc0ff8096fa',1,'logging::logger::Instance()'],['../classui.html#aaa157ba4489ac066594540334a2fda5c',1,'ui::Instance()'],['../classconfig_1_1manager.html#ad192dc8ffda825d3c5bff25e3220cc74',1,'config::manager::Instance()']]],
   ['instream_5ft_11',['instream_t',['../namespacetransport_1_1tcp.html#a5f80c241dc7aa7346c2a2544be26a998',1,'transport::tcp']]],
-  ['invalid_12',['INVALID',['../namespacememory.html#a5489f7fba409dae5923725a7831d5026a08fef16c3401434dafddf345706e06b1',1,'memory']]],
-  ['invalid_5fsocket_13',['INVALID_SOCKET',['../transport_2tcp_2client_8cpp.html#a26769957ec1a2beaf223f33b66ee64ab',1,'INVALID_SOCKET():&#160;client.cpp'],['../transport_2tcp_2server_8cpp.html#a26769957ec1a2beaf223f33b66ee64ab',1,'INVALID_SOCKET():&#160;server.cpp']]],
-  ['ivshmem_14',['ivshmem',['../classivshmem.html#ad351bdc6547f943f8dad16dd09982cfb',1,'ivshmem::ivshmem()'],['../classivshmem.html',1,'ivshmem']]]
+  ['into_5ftoml_12',['into_toml',['../structutil_1_1uuid.html#a6dea46d1bec12acd406de349fd7fd151',1,'util::uuid']]],
+  ['invalid_13',['INVALID',['../namespacememory.html#a5489f7fba409dae5923725a7831d5026a08fef16c3401434dafddf345706e06b1',1,'memory']]],
+  ['invalid_5fsocket_14',['INVALID_SOCKET',['../transport_2tcp_2client_8cpp.html#a26769957ec1a2beaf223f33b66ee64ab',1,'INVALID_SOCKET():&#160;client.cpp'],['../transport_2tcp_2server_8cpp.html#a26769957ec1a2beaf223f33b66ee64ab',1,'INVALID_SOCKET():&#160;server.cpp']]],
+  ['is_5fnumeric_15',['is_numeric',['../namespaceutil.html#a4d65ad322ce3b71c439a6ee721f22d36',1,'util']]],
+  ['ivshmem_16',['ivshmem',['../classivshmem.html#ad351bdc6547f943f8dad16dd09982cfb',1,'ivshmem::ivshmem()'],['../classivshmem.html',1,'ivshmem']]]
 ];

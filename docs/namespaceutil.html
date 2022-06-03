@@ -93,21 +93,27 @@ $(document).ready(function(){initNavTree('namespaceutil.html',''); initResizable
 
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a> &#124;
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#concepts">Concepts</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">util Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:namespaceutil_1_1uuid"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceutil_1_1uuid.html">uuid</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1configurable.html">configurable</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1factory.html">factory</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structutil_1_1rect.html">rect</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structutil_1_1uuid.html">uuid</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="concepts" name="concepts"></a>
+Concepts</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">concept &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conceptutil_1_1toml__convertible.html">toml_convertible</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -137,6 +143,8 @@ Functions</h2></td></tr>
 <tr class="separator:ac7410bd8afe6cf1f78b754e443040daf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1c935c09a8ea8a65f35335ab1439772"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceutil.html#ae1c935c09a8ea8a65f35335ab1439772">iequal</a> (std::string_view lhs, std::string_view rhs)</td></tr>
 <tr class="separator:ae1c935c09a8ea8a65f35335ab1439772"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d65ad322ce3b71c439a6ee721f22d36"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceutil.html#a4d65ad322ce3b71c439a6ee721f22d36">is_numeric</a> (std::string_view str)</td></tr>
+<tr class="separator:a4d65ad322ce3b71c439a6ee721f22d36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0b080debd3f1f7aca9c77c94089b62f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceutil.html#af0b080debd3f1f7aca9c77c94089b62f">to_bool</a> (std::string_view str)</td></tr>
 <tr class="separator:af0b080debd3f1f7aca9c77c94089b62f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59a85cee997adfe832494c28f51fca5d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceutil.html#a59a85cee997adfe832494c28f51fca5d">to_int</a> (std::string_view str)</td></tr>
@@ -236,6 +244,32 @@ requires (std::integral&lt;T&gt;)</td></tr>
           <td></td>
           <td>)</td>
           <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4d65ad322ce3b71c439a6ee721f22d36" name="a4d65ad322ce3b71c439a6ee721f22d36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d65ad322ce3b71c439a6ee721f22d36">&#9670;&nbsp;</a></span>is_numeric()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool util::is_numeric </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>

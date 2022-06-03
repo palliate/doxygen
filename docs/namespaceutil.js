@@ -1,14 +1,15 @@
 var namespaceutil =
 [
-    [ "uuid", "namespaceutil_1_1uuid.html", [
-      [ "from_str", "namespaceutil_1_1uuid.html#a77a8fc2ad58a72cdc05b25b8998036be", null ],
-      [ "to_str", "namespaceutil_1_1uuid.html#a132242df31a1634b5fa353df229bd09f", null ]
-    ] ],
+    [ "configurable", "classutil_1_1configurable.html", "classutil_1_1configurable" ],
+    [ "factory", "classutil_1_1factory.html", "classutil_1_1factory" ],
     [ "rect", "structutil_1_1rect.html", "structutil_1_1rect" ],
+    [ "uuid", "structutil_1_1uuid.html", "structutil_1_1uuid" ],
+    [ "toml_convertible", "conceptutil_1_1toml__convertible.html", null ],
     [ "basename", "namespaceutil.html#aee407cb6fb68403461bd3c148d52ad0f", null ],
     [ "binary_dir", "namespaceutil.html#ad7c9c525adbd8a47673863e9960173ed", null ],
     [ "config_dir", "namespaceutil.html#ac7410bd8afe6cf1f78b754e443040daf", null ],
     [ "iequal", "namespaceutil.html#ae1c935c09a8ea8a65f35335ab1439772", null ],
+    [ "is_numeric", "namespaceutil.html#a4d65ad322ce3b71c439a6ee721f22d36", null ],
     [ "max_key_length", "namespaceutil.html#a4f6f8dee332f1978483c78676fe5d254", null ],
     [ "print_binary", "namespaceutil.html#a27808b38a1c5eb0838a765220546e51d", null ],
     [ "remove_basedir", "namespaceutil.html#a9eb772a26c1ab47b1b4fa0f299634ac8", null ],
