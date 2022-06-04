@@ -51,8 +51,6 @@ var annotated_dup =
     [ "atomic_semaphore", "classatomic__semaphore.html", "classatomic__semaphore" ],
     [ "atomic_stack", "classatomic__stack.html", "classatomic__stack" ],
     [ "backend", "classbackend.html", "classbackend" ],
-    [ "cli", "classcli.html", "classcli" ],
-    [ "configuration", "classconfiguration.html", "classconfiguration" ],
     [ "consumer", "classconsumer.html", "classconsumer" ],
     [ "element", "structelement.html", "structelement" ],
     [ "ivshmem", "classivshmem.html", "classivshmem" ],

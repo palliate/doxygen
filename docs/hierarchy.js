@@ -14,12 +14,10 @@ var hierarchy =
     [ "base_t", null, [
       [ "util::factory< base_t >::registrar< T, Config >", "structutil_1_1factory_1_1registrar.html", null ]
     ] ],
-    [ "cli", "classcli.html", null ],
     [ "util::configurable< T >", "classutil_1_1configurable.html", null ],
     [ "util::configurable< Config >", "classutil_1_1configurable.html", [
       [ "util::factory< base_t >::registrar< T, Config >", "structutil_1_1factory_1_1registrar.html", null ]
     ] ],
-    [ "configuration", "classconfiguration.html", null ],
     [ "atomic_cr< size >::element", "classatomic__cr_1_1element.html", null ],
     [ "atomic_mpsc::element", "structatomic__mpsc_1_1element.html", null ],
     [ "element", "structelement.html", null ],

@@ -2,7 +2,7 @@ var searchData=
 [
   ['recv_0',['recv',['../classtransport_1_1tcp_1_1client.html#af52d3f58bb37e3e3387a043b358cdf13',1,'transport::tcp::client::recv()'],['../classtransport_1_1client.html#a7576744e1293dd7f4ba03d1f40ba46f5',1,'transport::client::recv()']]],
   ['register_5fthread_1',['register_thread',['../classlogging_1_1logger.html#a4942038faa58d2728bfee0b5130eefd7',1,'logging::logger::register_thread(std::string_view name)'],['../classlogging_1_1logger.html#afb75d5f5dc04cb16944faf9223ae3409',1,'logging::logger::register_thread(std::thread::id thread_id, std::string_view name)']]],
-  ['registert_2',['registerT',['../structutil_1_1factory_1_1registrar.html#a44c6b292253f82bf334ed1b037bd8ab9',1,'util::factory::registrar']]],
+  ['registert_2',['registerT',['../structutil_1_1factory_1_1registrar.html#a87f60372a1b2e7ca89c331487dd0b7dd',1,'util::factory::registrar']]],
   ['remove_3',['remove',['../classpatricia.html#a2fcc568288e27bfe53fcac14187fbfe4',1,'patricia::remove(T *value)'],['../classpatricia.html#aabdf1be9cad8b8e4720fb1b67e94e115',1,'patricia::remove(pkey_t key)'],['../classservers.html#a73e31527bb0b73ba25989ed31521a797',1,'servers::remove()'],['../classtransport_1_1server.html#a04c25a3bf11bde3d13a527d588b3941c',1,'transport::server::remove()']]],
   ['remove_5fbasedir_4',['remove_basedir',['../namespaceutil.html#a9eb772a26c1ab47b1b4fa0f299634ac8',1,'util']]],
   ['remove_5ffile_5fextension_5',['remove_file_extension',['../namespaceutil.html#a0e5257e7e83846d3465993f58a9ce917',1,'util']]],
