@@ -100,10 +100,12 @@ $(document).ready(function(){initNavTree('conceptutil_1_1toml__convertible.html'
 <h2 class="groupheader">Concept definition</h2>
 <div class="fragment"><div class="line"><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
 <div class="line"><span class="keyword">concept </span><a class="code hl_concept" href="conceptutil_1_1toml__convertible.html">util::toml_convertible</a> =  <span class="keyword">requires</span>(T t) {</div>
-<div class="line">  { toml::find&lt;T&gt;(toml::value(), toml::key()) } -&gt; std::same_as&lt;T&gt;;</div>
+<div class="line">  { toml::find&lt;T&gt;(<a class="code hl_class" href="classtoml_1_1basic__value.html">toml::value</a>(), <a class="code hl_typedef" href="namespacetoml.html#ab00c292fbb2e761ef69fdafd6b813348">toml::key</a>()) } -&gt; std::same_as&lt;T&gt;;</div>
 <div class="line">  { t.into_toml() } -&gt; std::convertible_to&lt;toml::value&gt;;</div>
 <div class="line">}</div>
+<div class="ttc" id="aclasstoml_1_1basic__value_html"><div class="ttname"><a href="classtoml_1_1basic__value.html">toml::basic_value</a></div><div class="ttdef"><b>Definition:</b> value.hpp:172</div></div>
 <div class="ttc" id="aconceptutil_1_1toml__convertible_html"><div class="ttname"><a href="conceptutil_1_1toml__convertible.html">util::toml_convertible</a></div><div class="ttdef"><b>Definition:</b> toml.h:7</div></div>
+<div class="ttc" id="anamespacetoml_html_ab00c292fbb2e761ef69fdafd6b813348"><div class="ttname"><a href="namespacetoml.html#ab00c292fbb2e761ef69fdafd6b813348">toml::key</a></div><div class="ttdeci">std::string key</div><div class="ttdef"><b>Definition:</b> types.hpp:22</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.9.3-->

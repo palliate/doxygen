@@ -1,13 +1,7 @@
 var searchData=
 [
-  ['endpoint_0',['endpoint',['../namespacelogging_1_1endpoint.html',1,'logging']]],
-  ['leaf_5ft_1',['leaf_t',['../structpatricia_1_1leaf__t.html#ae089a5a3b44a52eb8ec5e78e356777d0',1,'patricia::leaf_t::leaf_t()'],['../structpatricia_1_1leaf__t.html',1,'patricia::leaf_t']]],
-  ['level_2',['level',['../structlogging_1_1annotated__severity.html#a358c1ddc1d306aeb7717e0cd9d369507',1,'logging::annotated_severity::level()'],['../structlogging_1_1message.html#ad803fcb8ce8fa046bccbfb46bef2aed2',1,'logging::message::level()']]],
-  ['location_3',['location',['../structlogging_1_1message.html#ac2ef5f66ef1f54523c25e912d74119a1',1,'logging::message::location()'],['../structlogging_1_1annotated__severity.html#a73d51be5fc6f721626472e56d0c774eb',1,'logging::annotated_severity::location()']]],
-  ['lock_4',['lock',['../classutil_1_1configurable.html#a3b5774c5dd703e52991e6167274d9b80',1,'util::configurable']]],
-  ['logger_5',['logger',['../classlogging_1_1logger.html#ac0bf604d91ba5424679a714ef697c85d',1,'logging::logger::logger()'],['../classlogging_1_1logger.html',1,'logging::logger']]],
-  ['logger_2ecpp_6',['logger.cpp',['../logger_8cpp.html',1,'']]],
-  ['logger_2eh_7',['logger.h',['../logger_8h.html',1,'']]],
-  ['logging_8',['logging',['../namespacelogging.html',1,'']]],
-  ['loop_9',['loop',['../classconsumer.html#a0b2389e21c50045e8e649cdb5ae4e3d4',1,'consumer::loop()'],['../classtransport_1_1client.html#ae5523592615c3cb20157511a6fa25ea2',1,'transport::client::loop()'],['../classtransport_1_1tcp_1_1server.html#a8dcf4082a07c55957c0a0e0d499d85b2',1,'transport::tcp::server::loop()'],['../classrunnable.html#a384ff934ec8c466eb7ef018ffe10e909',1,'runnable::loop()']]]
+  ['key_0',['key',['../structpatricia_1_1element__t.html#a0dfc08271cdaf85a10f7ca60b966dcc6',1,'patricia::element_t::key()'],['../namespacetoml.html#ab00c292fbb2e761ef69fdafd6b813348',1,'toml::key()']]],
+  ['key_5fcast_1',['key_cast',['../namespacetoml_1_1detail.html#a2a5edd1d651144d5a8f504363b5b46ed',1,'toml::detail::key_cast(T &amp;&amp;v) noexcept'],['../namespacetoml_1_1detail.html#ad4438aabaa3c4a6dbd0c4d051e41b858',1,'toml::detail::key_cast(T &amp;&amp;v) noexcept']]],
+  ['key_5ftype_2',['key_type',['../structtoml_1_1serializer.html#abdccf89d2127b64339cbec8d60875fac',1,'toml::serializer::key_type()'],['../classtoml_1_1basic__value.html#a0b0664d2c7f6f4d7562560f9378ea002',1,'toml::basic_value::key_type()']]],
+  ['kind_3',['kind',['../structtoml_1_1string.html#a18fe37d79cc0714a21301b29eaf946c1',1,'toml::string']]]
 ];

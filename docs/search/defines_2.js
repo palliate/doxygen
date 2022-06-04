@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['win32_5flean_5fand_5fmean_0',['WIN32_LEAN_AND_MEAN',['../platform_2windows_2terminal_8cpp.html#ac7bef5d85e3dcd73eef56ad39ffc84a9',1,'terminal.cpp']]]
+  ['socket_0',['SOCKET',['../transport_2tcp_2client_8h.html#aff55fe551a9992a54ec54621c524d0a4',1,'SOCKET():&#160;client.h'],['../transport_2tcp_2server_8h.html#aff55fe551a9992a54ec54621c524d0a4',1,'SOCKET():&#160;server.h']]]
 ];

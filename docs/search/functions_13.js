@@ -1,8 +1,9 @@
 var searchData=
 [
-  ['wait_0',['wait',['../namespaceutil.html#a5171aaaa27dfde89ecb0319b157874fa',1,'util']]],
-  ['wait_5fdesired_1',['wait_desired',['../namespaceutil.html#a9eba3c287782cbce127626d9ad74912f',1,'util']]],
-  ['wait_5fundesired_2',['wait_undesired',['../namespaceutil.html#a6945bf8bbdf0205f8a0803e63cda042e',1,'util']]],
-  ['window_3',['window',['../classwindow.html#a6d3235fb1490acf32a94e5a05e26c08d',1,'window']]],
-  ['wireframe_4',['wireframe',['../classwindow.html#a8ed4e92551e894bc9cd649949294b4bb',1,'window']]]
+  ['ui_0',['ui',['../classui.html#a3de3734002912a7b8be2284521b28402',1,'ui']]],
+  ['unlink_1',['unlink',['../structmemory_1_1node__t.html#acf294062229d0048ebb2bd0c228e67fb',1,'memory::node_t']]],
+  ['unwrap_2',['unwrap',['../structtoml_1_1result.html#ac75aa56aa20416f01244e1936b74dbc3',1,'toml::result::unwrap() &amp;'],['../structtoml_1_1result.html#ab7174af4f142252c8cc979e229ae4dc2',1,'toml::result::unwrap() const &amp;'],['../structtoml_1_1result.html#a1fdcfafe6ab6972e537f6347d4400769',1,'toml::result::unwrap() &amp;&amp;']]],
+  ['unwrap_5ferr_3',['unwrap_err',['../structtoml_1_1result.html#a9f8688e18874027ce0ccc1eb4dc49486',1,'toml::result::unwrap_err() &amp;'],['../structtoml_1_1result.html#a4aab3e92f73bb52232dbf00e8f602e89',1,'toml::result::unwrap_err() const &amp;'],['../structtoml_1_1result.html#ae291950945f17b68b167c4bb08b25db0',1,'toml::result::unwrap_err() &amp;&amp;']]],
+  ['unwrap_5for_4',['unwrap_or',['../structtoml_1_1result.html#a9228eb4b14467fc5ca9cda8df9105dc6',1,'toml::result::unwrap_or(value_type &amp;opt) &amp;'],['../structtoml_1_1result.html#aba9a87bb14037085457bad30853ea637',1,'toml::result::unwrap_or(value_type const &amp;opt) const &amp;'],['../structtoml_1_1result.html#af8d1ded0824e0d8d761aeb65136b01ee',1,'toml::result::unwrap_or(value_type opt) &amp;&amp;']]],
+  ['uuid_5',['uuid',['../structutil_1_1uuid.html#ad00a1793fedd71952899ec73ef4784fc',1,'util::uuid::uuid()'],['../structutil_1_1uuid.html#a4a9c1598130051da891b001ef9a7cdd4',1,'util::uuid::uuid(uint64_t v)'],['../structutil_1_1uuid.html#ad7e711b5568dce48380ac0d387cbdc6c',1,'util::uuid::uuid(const char v[])'],['../structutil_1_1uuid.html#ae8cd23caf7554e2c91ce28e5cb6dd97b',1,'util::uuid::uuid(std::string v)'],['../structutil_1_1uuid.html#a1b359473e6c3a5d1b502e069b1e68b2d',1,'util::uuid::uuid(const toml::value &amp;v)']]]
 ];

@@ -1,10 +1,8 @@
 var searchData=
 [
-  ['t_0',['T',['../structutil_1_1factory_1_1registrar.html#a64c3f0fe7646b6596c78b665bc5fdd4c',1,'util::factory::registrar']]],
-  ['table_1',['table',['../structvalue__visitor.html#a4fed58277d986449a4857248772c2ff0',1,'value_visitor']]],
-  ['tail_2',['tail',['../classatomic__mpsc.html#ac5f281cc2b7deb6bb043737f6251d632',1,'atomic_mpsc']]],
-  ['text_3',['text',['../structlogging_1_1message.html#a6a1b9dde5bbc6004c177dd573ad3126e',1,'logging::message']]],
-  ['thread_4',['thread',['../classrunnable.html#a2af67a3067df242083a64c3add4f150a',1,'runnable']]],
-  ['thread_5fid_5',['thread_id',['../structlogging_1_1annotated__severity.html#a4dba3bae8de6ab6ec40bf4e846fce9c8',1,'logging::annotated_severity::thread_id()'],['../structlogging_1_1message.html#aaed623e9629f0361a876e9457607efdc',1,'logging::message::thread_id()']]],
-  ['thread_5fname_6',['thread_name',['../structlogging_1_1message.html#a73a67ef7edb030c335c1cde8e1d2e122',1,'logging::message']]]
+  ['second_0',['second',['../structtoml_1_1local__time.html#a8fbc45c5e3f4406e115883169e813c15',1,'toml::local_time']]],
+  ['size_1',['size',['../classmemory_1_1manager.html#a85a29c93505883c92042b0b27c40f421',1,'memory::manager']]],
+  ['str_2',['str',['../structtoml_1_1string.html#a5274c75c1109869cf58054277c3d7ebe',1,'toml::string']]],
+  ['string_5f_3',['string_',['../classtoml_1_1basic__value.html#a0369a126d63e8b6da909aa54c40b4cbc',1,'toml::basic_value']]],
+  ['succ_4',['succ',['../structtoml_1_1result.html#a1cd008a6d4136271139a0b0a4b8fe254',1,'toml::result']]]
 ];

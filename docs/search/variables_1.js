@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['base_0',['base',['../classmemory_1_1manager.html#a594bb1a33c323ff0bb2a9c5de7d237aa',1,'memory::manager']]],
-  ['base_5ft_1',['base_t',['../classutil_1_1factory.html#adff5ac3ccc52291d0186e5d8e9e9fa49',1,'util::factory']]],
-  ['branchbit_2',['branchbit',['../structpatricia_1_1element__t.html#a9ad6aa47dc44f3aa93d4544eb8f483c3',1,'patricia::element_t']]]
+  ['a_0',['a',['../structextlib_1_1foo.html#ab02d8906e77fe1449a9689220e2fee16',1,'extlib::foo::a()'],['../structextlib_1_1bar.html#ae19c5f9257cf47f4724e0ce5d3da5573',1,'extlib::bar::a()'],['../structextlib_1_1baz.html#a6506b696c1fa219908446668c263ffb5',1,'extlib::baz::a()'],['../structextlib_1_1qux.html#ab5974a816a58041fda34662c5d4f830b',1,'extlib::qux::a()'],['../structextlib_1_1foobar.html#af5f4aaad13900b0d35bffed41a54441e',1,'extlib::foobar::a()'],['../structextlib2_1_1foo.html#aa71ced89a9b56c35ee12bdac9f159caa',1,'extlib2::foo::a()'],['../structextlib2_1_1bar.html#a9dff3068159d1ddd3bb82637f1324f62',1,'extlib2::bar::a()'],['../structextlib2_1_1baz.html#a50d34a1db93fe947cff0dcb8e7045b5f',1,'extlib2::baz::a()'],['../structextlib2_1_1qux.html#aa327b56e5e5b5e836feb9946ac8ca961',1,'extlib2::qux::a()'],['../structextlib2_1_1foobar.html#a71b724710829e64f04b1e11d3275dd18',1,'extlib2::foobar::a()'],['../structextlib3_1_1foo.html#afff6a87a86ef6b1c7d4a13a0b53364df',1,'extlib3::foo::a()'],['../structextlib3_1_1bar.html#a0a9bdfbb57faf64f80b0202d43bd867a',1,'extlib3::bar::a()']]],
+  ['array_5f_1',['array_',['../classtoml_1_1basic__value.html#a1b8d00f53199da592e861261a95f35b6',1,'toml::basic_value']]]
 ];

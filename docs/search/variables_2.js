@@ -1,12 +1,8 @@
 var searchData=
 [
-  ['callback_0',['callback',['../classrunnable.html#a43fefab36614b0cf701b2af4d83cf52e',1,'runnable']]],
-  ['children_1',['children',['../structpatricia_1_1node__t.html#aee8927bb224c19433f7489e4f2966604',1,'patricia::node_t']]],
-  ['cli_2',['cli',['../classconfig_1_1manager.html#a58db05eece1de717b64905128c5f92d7',1,'config::manager']]],
-  ['client_5fhandle_3',['client_handle',['../classconsumer.html#a62b7f3a1771d691e050168f362f534fd',1,'consumer']]],
-  ['clients_4',['clients',['../classtransport_1_1server.html#a892d3c4a99544df3ccca5477e8eec3c8',1,'transport::server']]],
-  ['clients_5fmutex_5',['clients_mutex',['../classtransport_1_1server.html#a2ecd4ed5d1b3d684c2c3abc52d09cf24',1,'transport::server']]],
-  ['config_6',['config',['../classutil_1_1configurable.html#a3cac56b2ee4686dc24f3b4c5e9df3554',1,'util::configurable']]],
-  ['control_7',['control',['../classproducer.html#ac2e7c67333a72622f7fd04f824238ece',1,'producer']]],
-  ['count_8',['count',['../classatomic__cr.html#aec0e1e80414365959696930fc417960c',1,'atomic_cr']]]
+  ['b_0',['b',['../structextlib_1_1foo.html#a0e9df4024d445be95f8a4a5a6c4231c4',1,'extlib::foo::b()'],['../structextlib_1_1bar.html#ab14f9d267d45b2357b7fe244b4caae44',1,'extlib::bar::b()'],['../structextlib_1_1baz.html#a15338b52e8ef5d916cfdfff481751806',1,'extlib::baz::b()'],['../structextlib_1_1qux.html#ad46886c48827017b952e478d6bbafa79',1,'extlib::qux::b()'],['../structextlib_1_1foobar.html#a0d2081360cd4eedd30a3536374a808be',1,'extlib::foobar::b()'],['../structextlib2_1_1foo.html#a148811c94de22bf2e970217830225b57',1,'extlib2::foo::b()'],['../structextlib2_1_1bar.html#a95684d0c920eedb0f666a320f17ba9c3',1,'extlib2::bar::b()'],['../structextlib2_1_1baz.html#a957caf88519af6de74a8d3100d3e96ee',1,'extlib2::baz::b()'],['../structextlib2_1_1qux.html#ac0a5d70ce891212e3f8e7eb3998a82fe',1,'extlib2::qux::b()'],['../structextlib2_1_1foobar.html#a548d42776a27e68a6dc5ea88aa1f33e0',1,'extlib2::foobar::b()'],['../structextlib3_1_1foo.html#a3c3887830a84783f95c1671351c3736d',1,'extlib3::foo::b()'],['../structextlib3_1_1bar.html#aad919fde13dcf9a7af68b06167508771',1,'extlib3::bar::b()']]],
+  ['base_1',['base',['../classmemory_1_1manager.html#a594bb1a33c323ff0bb2a9c5de7d237aa',1,'memory::manager']]],
+  ['base_5ft_2',['base_t',['../classutil_1_1factory.html#adff5ac3ccc52291d0186e5d8e9e9fa49',1,'util::factory']]],
+  ['boolean_5f_3',['boolean_',['../classtoml_1_1basic__value.html#a31a4863f2acd08964a2a8d5d37fb7645',1,'toml::basic_value']]],
+  ['branchbit_4',['branchbit',['../structpatricia_1_1element__t.html#a9ad6aa47dc44f3aa93d4544eb8f483c3',1,'patricia::element_t']]]
 ];

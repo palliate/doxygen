@@ -1,6 +1,11 @@
 var searchData=
 [
-  ['element_0',['element',['../classatomic__cr_1_1element.html',1,'atomic_cr&lt; size &gt;::element'],['../structatomic__mpsc_1_1element.html',1,'atomic_mpsc::element'],['../structelement.html',1,'element']]],
-  ['element_5ft_1',['element_t',['../structmemory_1_1element__t.html',1,'memory::element_t'],['../structmpsc_1_1element__t.html',1,'mpsc&lt; T, size &gt;::element_t'],['../structpatricia_1_1element__t.html',1,'patricia::element_t']]],
-  ['endpoint_2',['endpoint',['../classlogging_1_1endpoint_1_1endpoint.html',1,'logging::endpoint']]]
+  ['discard_5fcomments_0',['discard_comments',['../structtoml_1_1discard__comments.html',1,'toml']]],
+  ['disjunction_1',['disjunction',['../structtoml_1_1detail_1_1disjunction.html',1,'toml::detail']]],
+  ['disjunction_3c_20std_3a_3ais_5fsame_3c_20const_20char_20_2a_2c_20t_20_3e_2c_20conjunction_3c_20std_3a_3ais_5farray_3c_20t_20_3e_2c_20std_3a_3ais_5fsame_3c_20const_20char_2c_20std_3a_3aremove_5fextent_3c_20t_20_3e_3a_3atype_20_3e_20_3e_20_3e_2',['disjunction&lt; std::is_same&lt; const char *, T &gt;, conjunction&lt; std::is_array&lt; T &gt;, std::is_same&lt; const char, std::remove_extent&lt; T &gt;::type &gt; &gt; &gt;',['../structtoml_1_1detail_1_1disjunction.html',1,'toml::detail']]],
+  ['disjunction_3c_20std_3a_3ais_5fsame_3c_20t_2c_20boolean_20_3e_2c_20std_3a_3ais_5fsame_3c_20t_2c_20integer_20_3e_2c_20std_3a_3ais_5fsame_3c_20t_2c_20floating_20_3e_2c_20std_3a_3ais_5fsame_3c_20t_2c_20string_20_3e_2c_20std_3a_3ais_5fsame_3c_20t_2c_20offset_5fdatetime_20_3e_2c_20std_3a_3ais_5fsame_3c_20t_2c_20local_5fdatetime_20_3e_2c_20std_3a_3ais_5fsame_3c_20t_2c_20local_5fdate_20_3e_2c_20std_3a_3ais_5fsame_3c_20t_2c_20local_5ftime_20_3e_2c_20std_3a_3ais_5fsame_3c_20t_2c_20value_3a_3aarray_5ftype_20_3e_2c_20std_3a_3ais_5fsame_3c_20t_2c_20value_3a_3atable_5ftype_20_3e_20_3e_3',['disjunction&lt; std::is_same&lt; T, boolean &gt;, std::is_same&lt; T, integer &gt;, std::is_same&lt; T, floating &gt;, std::is_same&lt; T, string &gt;, std::is_same&lt; T, offset_datetime &gt;, std::is_same&lt; T, local_datetime &gt;, std::is_same&lt; T, local_date &gt;, std::is_same&lt; T, local_time &gt;, std::is_same&lt; T, Value::array_type &gt;, std::is_same&lt; T, Value::table_type &gt; &gt;',['../structtoml_1_1detail_1_1disjunction.html',1,'toml::detail']]],
+  ['disjunction_3c_20t_20_3e_4',['disjunction&lt; T &gt;',['../structtoml_1_1detail_1_1disjunction_3_01T_01_4.html',1,'toml::detail']]],
+  ['disjunction_3c_20t_2c_20ts_2e_2e_2e_20_3e_5',['disjunction&lt; T, Ts... &gt;',['../structtoml_1_1detail_1_1disjunction_3_01T_00_01Ts_8_8_8_01_4.html',1,'toml::detail']]],
+  ['dummy_5fcontainer_6',['dummy_container',['../structdummy__container.html',1,'']]],
+  ['dummy_5ftype_7',['dummy_type',['../structdummy__type.html',1,'']]]
 ];

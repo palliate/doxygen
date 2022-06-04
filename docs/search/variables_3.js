@@ -1,7 +1,11 @@
 var searchData=
 [
-  ['data_0',['data',['../structelement.html#a44febad4972af6eca8253bd78413f230',1,'element::data()'],['../structatomic__stack_1_1node.html#ac93d7137bbf3e8995c6c2e787a1848ff',1,'atomic_stack::node::data()'],['../classproducer.html#a1f6c9a17540b037c4b1b44f5810011bb',1,'producer::data()']]],
-  ['default_5fvalue_1',['default_value',['../structconfig_1_1setting.html#ada0a275cb0d157719fb699e0c5229df0',1,'config::setting']]],
-  ['delimeter_2',['delimeter',['../structutil_1_1uuid.html#a25bd0ca81702648da80e0aee3ee15a5a',1,'util::uuid']]],
-  ['description_3',['description',['../structconfig_1_1setting.html#af94306e1189afc228a150a08b6461c64',1,'config::setting']]]
+  ['callback_0',['callback',['../classrunnable.html#a43fefab36614b0cf701b2af4d83cf52e',1,'runnable']]],
+  ['children_1',['children',['../structpatricia_1_1node__t.html#aee8927bb224c19433f7489e4f2966604',1,'patricia::node_t']]],
+  ['client_5fhandle_2',['client_handle',['../classconsumer.html#a62b7f3a1771d691e050168f362f534fd',1,'consumer']]],
+  ['clients_3',['clients',['../classtransport_1_1server.html#a892d3c4a99544df3ccca5477e8eec3c8',1,'transport::server']]],
+  ['clients_5fmutex_4',['clients_mutex',['../classtransport_1_1server.html#a2ecd4ed5d1b3d684c2c3abc52d09cf24',1,'transport::server']]],
+  ['config_5',['config',['../classutil_1_1configurable.html#a3cac56b2ee4686dc24f3b4c5e9df3554',1,'util::configurable']]],
+  ['control_6',['control',['../classproducer.html#ac2e7c67333a72622f7fd04f824238ece',1,'producer']]],
+  ['count_7',['count',['../classatomic__cr.html#aec0e1e80414365959696930fc417960c',1,'atomic_cr']]]
 ];

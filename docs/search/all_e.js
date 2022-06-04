@@ -1,11 +1,17 @@
 var searchData=
 [
-  ['offset_5ft_0',['offset_t',['../namespacememory.html#a49b99d557a2403a7fe32340facbed47a',1,'memory']]],
-  ['operator_28_29_1',['operator()',['../structvalue__visitor.html#abdda25fb0b9b9dfdad8631e3b2c5145b',1,'value_visitor::operator()(bool value)'],['../structvalue__visitor.html#a9ccdacdc4ef95094b8bf6f77a9139f93',1,'value_visitor::operator()(int value)'],['../structvalue__visitor.html#aca7f5f76cd2a3d4dd4705ba1a80a50a7',1,'value_visitor::operator()(std::string_view value)'],['../structvalue__visitor.html#aeea8908a286c013b5e4fdae523ef5b06',1,'value_visitor::operator()(auto invalid)'],['../classrunnable.html#a2490159bff269a448bf21446bebcecb3',1,'runnable::operator()(std::stop_token token={})']]],
-  ['operator_3c_3d_3e_2',['operator&lt;=&gt;',['../classrunnable.html#a95d5a63e6ef290fc57c6c7d9218369c5',1,'runnable']]],
-  ['operator_3d_3',['operator=',['../classconfig_1_1manager.html#a1fb896bd40347181bf33184cd2a62fdf',1,'config::manager::operator=()'],['../classlogging_1_1logger.html#a35de66a9ab60b93a8c4f40b063f103fd',1,'logging::logger::operator=()'],['../classui.html#a21af14ebe7cce6a28ea0485adfcbe34a',1,'ui::operator=()']]],
-  ['operator_5b_5d_4',['operator[]',['../classconfig_1_1manager.html#a05c390c30e72ad179b3ae01784b50c82',1,'config::manager']]],
-  ['options_5',['options',['../classconfig_1_1parser_1_1cli.html#afbe64da8d63af6201c11fd71f4eb89c9',1,'config::parser::cli::options()'],['../classconfig_1_1parser_1_1parser.html#a5ad38b073ef8f7f82dc04ca829c9d2dd',1,'config::parser::parser::options()']]],
-  ['outstream_5ft_6',['outstream_t',['../namespacetransport_1_1tcp.html#adf921b175447f8adbead1acd87bc8f94',1,'transport::tcp']]],
-  ['overwrite_7',['overwrite',['../structvalue__visitor.html#a9fcaf1c6086bb867326fd1cdda5a8658',1,'value_visitor']]]
+  ['name_0',['name',['../classplugin.html#aeeb8d123636d7045f06b0498ae71c8c7',1,'plugin::name()'],['../classrunnable.html#ae439e2b4206f8024660013d3c3dacc18',1,'runnable::name()'],['../structtoml_1_1detail_1_1region__base.html#af1e9c07f9510f553e33277207249b980',1,'toml::detail::region_base::name()'],['../structtoml_1_1detail_1_1location.html#ad6a386a1bb61633d7dc51025ee4bd6be',1,'toml::detail::location::name()'],['../structtoml_1_1detail_1_1region.html#ab2940e58e40a9dc9da8bce16372cefec',1,'toml::detail::region::name()']]],
+  ['name_5f_1',['name_',['../structmove__only__type.html#a9d3350424382d295967473960e4c50f0',1,'move_only_type']]],
+  ['nanosecond_2',['nanosecond',['../structtoml_1_1local__time.html#a9bcf84d9eee020b6ce7d5c6fe335d0dc',1,'toml::local_time']]],
+  ['negation_3',['negation',['../structtoml_1_1detail_1_1negation.html',1,'toml::detail']]],
+  ['next_4',['next',['../structpatricia_1_1node__t.html#a5300ca7794d6e7ddd5b9fae9404867bd',1,'patricia::node_t::next()'],['../structmemory_1_1node__t.html#acb9db24c0ef15841e3df4e56210c2a22',1,'memory::node_t::next()'],['../structmemory_1_1bin__t.html#ac8ea5a4ba03c095891eec4c5748a5d18',1,'memory::bin_t::next()'],['../structatomic__mpsc_1_1element.html#a0285db49c7c272055ff62e1589e7c857',1,'atomic_mpsc::element::next()'],['../structatomic__stack_1_1node.html#aad4b4c6db6239edd47d375e9486a03d0',1,'atomic_stack::node::next()']]],
+  ['nocolorize_5',['nocolorize',['../namespacetoml_1_1color__ansi.html#a58e9623eaa14637162672aaf66107aae',1,'toml::color_ansi']]],
+  ['nocomment_6',['nocomment',['../namespacetoml.html#aa91272393b6055932099c3978967c361',1,'toml']]],
+  ['node_7',['node',['../structatomic__stack_1_1node.html',1,'atomic_stack&lt; T &gt;::node'],['../structatomic__stack_1_1node.html#a9a95b98ce7605d256b5a3853dedfea0c',1,'atomic_stack::node::node()']]],
+  ['node_2ecpp_8',['node.cpp',['../node_8cpp.html',1,'']]],
+  ['node_2eh_9',['node.h',['../node_8h.html',1,'']]],
+  ['node_5ft_10',['node_t',['../structmemory_1_1node__t.html',1,'memory::node_t'],['../structpatricia_1_1node__t.html#a3c3d333d01ff0c9e6d3a0b72e46d5454',1,'patricia::node_t::node_t()'],['../structmemory_1_1node__t.html#a5c49c4a16eea1d71f8c6b710e6511def',1,'memory::node_t::node_t()'],['../structpatricia_1_1node__t.html',1,'patricia::node_t']]],
+  ['none_11',['none',['../namespacetoml_1_1detail.html#af16c59120242cf5708a3d4763ef84fda',1,'toml::detail']]],
+  ['none_5ft_12',['none_t',['../structtoml_1_1detail_1_1none__t.html',1,'toml::detail']]],
+  ['nov_13',['Nov',['../namespacetoml.html#a89509f5839cddbb6cc3205611e198ca5a343e6957be77c6247aa2b8d0deb68bd6',1,'toml']]]
 ];

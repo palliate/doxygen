@@ -1,13 +1,6 @@
 var searchData=
 [
-  ['icon_0',['icon',['../classwindow.html#a576dd32de1540f82dd7963ec024b5b30',1,'window']]],
-  ['iequal_1',['iequal',['../namespaceutil.html#ae1c935c09a8ea8a65f35335ab1439772',1,'util']]],
-  ['insert_2',['insert',['../structvalue__visitor.html#a625cf3ff67f556cc5331fb323b38fac0',1,'value_visitor::insert()'],['../classpatricia.html#a659ac04ca615587c9376b5b3833504ba',1,'patricia::insert()']]],
-  ['insert_5fafter_3',['insert_after',['../structmemory_1_1bin__t.html#a284a3baa28f4361a0ef0452ea7d04abc',1,'memory::bin_t']]],
-  ['insert_5fbefore_4',['insert_before',['../structmemory_1_1bin__t.html#a56e3098f47a9f47116fd4fb8512ab3bd',1,'memory::bin_t']]],
-  ['instance_5',['Instance',['../classconfig_1_1manager.html#ad192dc8ffda825d3c5bff25e3220cc74',1,'config::manager::Instance()'],['../classlogging_1_1logger.html#a2d9bc3ff3e6fea4ca03c0cc0ff8096fa',1,'logging::logger::Instance()'],['../classui.html#aaa157ba4489ac066594540334a2fda5c',1,'ui::Instance()']]],
-  ['into_5ftoml_6',['into_toml',['../structutil_1_1uuid.html#a133e0a5c1ad0f0819ee5a73d42085af2',1,'util::uuid']]],
-  ['is_5ffile_7',['is_file',['../namespaceutil.html#a7b51aea44ee66c8397dda19963868b97',1,'util']]],
-  ['is_5fnumeric_8',['is_numeric',['../namespaceutil.html#a4d65ad322ce3b71c439a6ee721f22d36',1,'util']]],
-  ['ivshmem_9',['ivshmem',['../classivshmem.html#ad351bdc6547f943f8dad16dd09982cfb',1,'ivshmem']]]
+  ['handle_0',['handle',['../classconsumer.html#ac1728735dec2db0a6a58ff92a5afa021',1,'consumer']]],
+  ['handle_5fflag_1',['handle_flag',['../classwindow.html#ab6cfb724a530ed7e385d0ce4f1bbc9f7',1,'window']]],
+  ['has_5fcomment_5finside_2',['has_comment_inside',['../test__serialize__file_8cpp.html#a8ec2a10071cffdd61a1e685367133517',1,'test_serialize_file.cpp']]]
 ];

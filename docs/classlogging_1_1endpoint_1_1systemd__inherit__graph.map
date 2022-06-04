@@ -1,4 +1,5 @@
 <map id="logging::endpoint::systemd" name="logging::endpoint::systemd">
-<area shape="rect" id="node1" title=" " alt="" coords="5,160,148,267"/>
-<area shape="rect" id="node2" href="$classlogging_1_1endpoint_1_1endpoint.html" title=" " alt="" coords="5,5,148,112"/>
+<area shape="rect" id="node1" title=" " alt="" coords="26,300,169,407"/>
+<area shape="rect" id="node2" href="$structlogging_1_1endpoint_1_1endpoint.html" title=" " alt="" coords="26,131,169,252"/>
+<area shape="rect" id="node3" href="$classutil_1_1factory.html" title=" " alt="" coords="5,5,189,83"/>
 </map>

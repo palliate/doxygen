@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['value_5fvisitor_0',['value_visitor',['../structvalue__visitor.html',1,'']]]
+  ['qux_0',['qux',['../structextlib2_1_1qux.html',1,'extlib2::qux'],['../structextlib_1_1qux.html',1,'extlib::qux']]]
 ];

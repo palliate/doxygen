@@ -1,7 +1,22 @@
 var searchData=
 [
-  ['value_0',['value',['../structconfig_1_1setting.html#a7526ee152daccc9db085ac7a98049007',1,'config::setting::value()'],['../structutil_1_1uuid.html#a68346a1e70be6b0fbe1155dad2f927cb',1,'util::uuid::value()']]],
-  ['value_5ft_1',['value_t',['../namespaceconfig.html#af86569f81ff9a2ffe8abec02f52be521',1,'config']]],
-  ['value_5fvisitor_2',['value_visitor',['../structvalue__visitor.html',1,'value_visitor'],['../structvalue__visitor.html#a08194843bd62093f57da61c078820d26',1,'value_visitor::value_visitor()']]],
-  ['visible_3',['visible',['../classwindow.html#aef77ff2dda8ad9f644927c92da52a5a9a8fd385de63f1cecd41a711f03a00330e',1,'window']]]
+  ['is_5fnamed_0',['is_named',['../conceptutil_1_1is__named.html',1,'util']]],
+  ['toml_5fconvertible_1',['toml_convertible',['../conceptutil_1_1toml__convertible.html',1,'util']]],
+  ['ui_2',['ui',['../classui.html',1,'ui'],['../classui.html#a3de3734002912a7b8be2284521b28402',1,'ui::ui()']]],
+  ['ui_2ecpp_3',['ui.cpp',['../ui_8cpp.html',1,'']]],
+  ['ui_2eh_4',['ui.h',['../ui_8h.html',1,'']]],
+  ['unlimited_5',['unlimited',['../structtoml_1_1detail_1_1unlimited.html',1,'toml::detail']]],
+  ['unlink_6',['unlink',['../structmemory_1_1node__t.html#acf294062229d0048ebb2bd0c228e67fb',1,'memory::node_t']]],
+  ['unused_7',['UNUSED',['../namespacememory.html#a5489f7fba409dae5923725a7831d5026a8ac40d941598ae0db2ec23c50389c675',1,'memory::UNUSED()'],['../classatomic__cr.html#a805df950e26e64524d14bf44c2aa7f6faa342d63b4bcba020a3b172c580dd4dc6',1,'atomic_cr::UNUSED()']]],
+  ['unwrap_8',['unwrap',['../structtoml_1_1result.html#ab7174af4f142252c8cc979e229ae4dc2',1,'toml::result::unwrap() const &amp;'],['../structtoml_1_1result.html#a1fdcfafe6ab6972e537f6347d4400769',1,'toml::result::unwrap() &amp;&amp;'],['../structtoml_1_1result.html#ac75aa56aa20416f01244e1936b74dbc3',1,'toml::result::unwrap() &amp;']]],
+  ['unwrap_5ferr_9',['unwrap_err',['../structtoml_1_1result.html#a9f8688e18874027ce0ccc1eb4dc49486',1,'toml::result::unwrap_err() &amp;'],['../structtoml_1_1result.html#a4aab3e92f73bb52232dbf00e8f602e89',1,'toml::result::unwrap_err() const &amp;'],['../structtoml_1_1result.html#ae291950945f17b68b167c4bb08b25db0',1,'toml::result::unwrap_err() &amp;&amp;']]],
+  ['unwrap_5for_10',['unwrap_or',['../structtoml_1_1result.html#a9228eb4b14467fc5ca9cda8df9105dc6',1,'toml::result::unwrap_or(value_type &amp;opt) &amp;'],['../structtoml_1_1result.html#aba9a87bb14037085457bad30853ea637',1,'toml::result::unwrap_or(value_type const &amp;opt) const &amp;'],['../structtoml_1_1result.html#af8d1ded0824e0d8d761aeb65136b01ee',1,'toml::result::unwrap_or(value_type opt) &amp;&amp;']]],
+  ['upper_11',['upper',['../structtoml_1_1detail_1_1in__range.html#af134b9bec2b5ad95b1948b7281c79265',1,'toml::detail::in_range']]],
+  ['used_12',['used',['../structmpsc_1_1element__t.html#a66bae648e15710837a6963f676942e39',1,'mpsc::element_t']]],
+  ['util_13',['util',['../namespaceutil.html',1,'']]],
+  ['util_2eh_14',['util.h',['../util_8h.html',1,'']]],
+  ['utility_2ehpp_15',['utility.hpp',['../utility_8hpp.html',1,'']]],
+  ['uuid_16',['uuid',['../structutil_1_1uuid.html',1,'util::uuid'],['../namespacetransport.html#ad81281f4f8754e5e329167abb7219623',1,'transport::uuid()'],['../structutil_1_1uuid.html#a1b359473e6c3a5d1b502e069b1e68b2d',1,'util::uuid::uuid(const toml::value &amp;v)'],['../structutil_1_1uuid.html#ae8cd23caf7554e2c91ce28e5cb6dd97b',1,'util::uuid::uuid(std::string v)'],['../structutil_1_1uuid.html#ad7e711b5568dce48380ac0d387cbdc6c',1,'util::uuid::uuid(const char v[])'],['../structutil_1_1uuid.html#a4a9c1598130051da891b001ef9a7cdd4',1,'util::uuid::uuid(uint64_t v)'],['../structutil_1_1uuid.html#ad00a1793fedd71952899ec73ef4784fc',1,'util::uuid::uuid()']]],
+  ['uuid_2ecpp_17',['uuid.cpp',['../uuid_8cpp.html',1,'']]],
+  ['uuid_2eh_18',['uuid.h',['../uuid_8h.html',1,'']]]
 ];

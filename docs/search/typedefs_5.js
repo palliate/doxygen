@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['reader_5ft_0',['reader_t',['../namespacetransport.html#a922ed358b4d4f0ce1e47ea1cf1b9d285',1,'transport']]],
-  ['request_5ft_1',['request_t',['../classatomic__cr.html#adb45c11eeb16e64831db8d8c8e495cc3',1,'atomic_cr']]],
-  ['response_5ft_2',['response_t',['../classatomic__cr.html#a0c71d9d0aa6a277625bcb6b76b1da068',1,'atomic_cr']]]
+  ['failure_5ftype_0',['failure_type',['../structtoml_1_1result.html#a8ae6354b5d46aa704147b437d457659f',1,'toml::result']]],
+  ['floating_1',['floating',['../namespacetoml.html#a54f4b85eab8f0d6e6f0149c5ba338f6a',1,'toml']]],
+  ['floating_5ftype_2',['floating_type',['../structtoml_1_1serializer.html#a3181ea8262bdac5c3a3cf6a44d0d723d',1,'toml::serializer::floating_type()'],['../classtoml_1_1basic__value.html#abcbcd1275dac02abb4d04248d8584db7',1,'toml::basic_value::floating_type()']]]
 ];
