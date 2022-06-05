@@ -1,5 +1,14 @@
 var NAVTREEINDEX4 =
 {
+"get_8hpp.html#a9bac8bbf4a0c5bc6bf7c99435615bdf6":[4,0,0,4,1,6,42],
+"get_8hpp.html#a9d037a90a8e081bed62df5ca627d02ed":[4,0,0,4,1,6,37],
+"get_8hpp.html#a9eba384204ba88c885ba78f190e597ca":[4,0,0,4,1,6,44],
+"get_8hpp.html#a9f06b255c9a103b100d9cf14d3131257":[4,0,0,4,1,6,14],
+"get_8hpp.html#a9fb4cd871c358e0e89054107a67c3a9d":[4,0,0,4,1,6,55],
+"get_8hpp.html#a9ff07b39606121da2f748ab9dd4f12d4":[4,0,0,4,1,6,20],
+"get_8hpp.html#aa0df34dae6aa7a4a11cfb1947d8ddb5b":[4,0,0,4,1,6,32],
+"get_8hpp.html#aac8e620fd3e66be36a2824c9b52dcc0e":[4,0,0,4,1,6,52],
+"get_8hpp.html#aacd5809ef81c57540e113e43c0c2579b":[4,0,0,4,1,6,12],
 "get_8hpp.html#ab1954c060b780114811ab1da388c3e2b":[4,0,0,4,1,6,9],
 "get_8hpp.html#ab8a821e13ec13374c93121d4bcb7b905":[4,0,0,4,1,6,36],
 "get_8hpp.html#abbb32281594436244c5651bec4530c8f":[4,0,0,4,1,6,19],
@@ -240,14 +249,5 @@ var NAVTREEINDEX4 =
 "md____w_libpalliate_libpalliate_libpalliate_toml11_README.html#autotoc_md42":[0,24],
 "md____w_libpalliate_libpalliate_libpalliate_toml11_README.html#autotoc_md43":[0,25],
 "md____w_libpalliate_libpalliate_libpalliate_toml11_README.html#autotoc_md44":[0,26],
-"md____w_libpalliate_libpalliate_libpalliate_toml11_README.html#autotoc_md5":[0,2,0],
-"md____w_libpalliate_libpalliate_libpalliate_toml11_README.html#autotoc_md6":[0,2,1],
-"md____w_libpalliate_libpalliate_libpalliate_toml11_README.html#autotoc_md7":[0,2,2],
-"md____w_libpalliate_libpalliate_libpalliate_toml11_README.html#autotoc_md9":[0,2,3],
-"memory_2client_8cpp.html":[4,0,0,2,1],
-"memory_2client_8h.html":[4,0,0,2,2],
-"memory_2constants_8h.html":[4,0,0,2,3],
-"memory_2constants_8h.html#a49b99d557a2403a7fe32340facbed47a":[4,0,0,2,3,0],
-"memory_2server_8cpp.html":[4,0,0,2,6],
-"memory_2server_8h.html":[4,0,0,2,7]
+"md____w_libpalliate_libpalliate_libpalliate_toml11_README.html#autotoc_md5":[0,2,0]
 };

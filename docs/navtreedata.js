@@ -116,21 +116,21 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"classtoml_1_1basic__value.html#a066d3bee724889bd583eeb9efbb92ce6",
-"classtoml_1_1basic__value.html#aa752eae716a788c66f020dc68602174b",
-"classwindow.html#aef77ff2dda8ad9f644927c92da52a5a9aea24d58ed0be8723b9bff6355ac874d6",
-"get_8hpp.html#ab1954c060b780114811ab1da388c3e2b",
-"memory__map_8cpp.html",
-"namespacetoml.html#ad9642acd2a70ea10c7c6c1b53a3caac9",
-"namespacetransport_1_1tcp.html#a5f80c241dc7aa7346c2a2544be26a998",
-"structextlib_1_1foobar.html#a0d2081360cd4eedd30a3536374a808be",
+"classtoml_1_1basic__value.html#a02d80ca9d8d19ac48b88464478f51550",
+"classtoml_1_1basic__value.html#aa3ffdc3a4df542fc4bc140fa74b21e59",
+"classwindow.html#a6c3706054a72d094118f4a9132955314",
+"get_8hpp.html#a9bac8bbf4a0c5bc6bf7c99435615bdf6",
+"md____w_libpalliate_libpalliate_libpalliate_toml11_README.html#autotoc_md6",
+"namespacetoml.html#acf855f0adf051797079a57130604f628",
+"namespacetoml_1_1literals_1_1toml__literals.html#a20a98173d1553ae30b2f0d51029186b6",
+"structextlib_1_1foo.html",
 "structtoml_1_1detail_1_1enum__to__type_3_01value__t_1_1local__datetime_00_01Value_01_4.html",
 "structtoml_1_1detail_1_1region.html#a9282bb9395b88ce24da0e0c2d59dc787",
 "structtoml_1_1discard__comments.html#ad868e3c5d73b970a037d19b06ce374f2",
 "structtoml_1_1preserve__comments.html#a46022433008d38032c25b4e1703a6dcf",
 "structtoml_1_1result.html#aded304df3cb1bbc7892b679855de7d6a",
 "terminal_8h.html",
-"test__parse__floating_8cpp.html#a2993c8a51c38eed61b932829134e2797"
+"test__parse__file_8cpp.html#aee219bb18a0911a6b6a1690bb66cbfd5"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

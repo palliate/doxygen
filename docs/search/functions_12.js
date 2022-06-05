@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['terminal_0',['terminal',['../structlogging_1_1endpoint_1_1terminal.html#a43e82af4a578479c7b5cb79fdb6916f9',1,'logging::endpoint::terminal']]],
+  ['terminal_0',['terminal',['../classlogging_1_1endpoint_1_1terminal.html#a2b70ef201f1dd5602a3a1427bd01afa8',1,'logging::endpoint::terminal']]],
   ['throw_5fbad_5fcast_1',['throw_bad_cast',['../namespacetoml_1_1detail.html#a30e75a0d1f0d08d1b978c4260c8d36fb',1,'toml::detail']]],
   ['throw_5fkey_5fnot_5ffound_5ferror_2',['throw_key_not_found_error',['../namespacetoml_1_1detail.html#aeeb2c5b93a35ab7ab068c8479e5dd54f',1,'toml::detail']]],
   ['time_5foffset_3',['time_offset',['../structtoml_1_1time__offset.html#afc93860b4f3c310cb10a58adeae1724a',1,'toml::time_offset::time_offset(int h, int m)'],['../structtoml_1_1time__offset.html#aeed99533d8379569ebd0d15b96301fdc',1,'toml::time_offset::time_offset(time_offset &amp;&amp;)=default'],['../structtoml_1_1time__offset.html#af6edd404924ab93bf2d3cda9a6a573cf',1,'toml::time_offset::time_offset(time_offset const &amp;)=default'],['../structtoml_1_1time__offset.html#a3489ef3aa2639009c247ec5cc00fe897',1,'toml::time_offset::time_offset()=default']]],

@@ -9,7 +9,7 @@ var searchData=
   ['what_5f_6',['what_',['../structtoml_1_1syntax__error.html#a715f7c1eaa9dabb4b96735e6cba7802e',1,'toml::syntax_error::what_()'],['../structtoml_1_1type__error.html#a2ae2e26e66ee8286715593acbb95a0de',1,'toml::type_error::what_()'],['../structtoml_1_1internal__error.html#a4b7695ed150d5bffd25f827ab462a479',1,'toml::internal_error::what_()']]],
   ['white_7',['white',['../namespacetoml_1_1color__ansi.html#a633c6d497f0179cdacafd9e599c1608c',1,'toml::color_ansi']]],
   ['width_8',['width',['../structutil_1_1rect.html#adf21eb2e93d2edc96c80d29f796d5491',1,'util::rect']]],
-  ['win32_5flean_5fand_5fmean_9',['WIN32_LEAN_AND_MEAN',['../platform_2windows_2terminal_8cpp.html#ac7bef5d85e3dcd73eef56ad39ffc84a9',1,'terminal.cpp']]],
+  ['win32_5flean_5fand_5fmean_9',['WIN32_LEAN_AND_MEAN',['../terminal_8windows_8cpp.html#ac7bef5d85e3dcd73eef56ad39ffc84a9',1,'terminal.windows.cpp']]],
   ['window_10',['window',['../classwindow.html#a6d3235fb1490acf32a94e5a05e26c08d',1,'window::window()'],['../classwindow.html',1,'window']]],
   ['window_2ecpp_11',['window.cpp',['../window_8cpp.html',1,'']]],
   ['window_2eh_12',['window.h',['../window_8h.html',1,'']]],
