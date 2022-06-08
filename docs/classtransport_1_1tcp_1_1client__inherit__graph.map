@@ -1,5 +1,5 @@
 <map id="transport::tcp::client" name="transport::tcp::client">
-<area shape="rect" id="node1" title=" " alt="" coords="5,461,159,597"/>
-<area shape="rect" id="node2" href="$classtransport_1_1client.html" title=" " alt="" coords="12,263,152,413"/>
-<area shape="rect" id="node3" href="$classrunnable.html" title=" " alt="" coords="15,5,149,215"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,447,159,583"/>
+<area shape="rect" id="node2" href="$classtransport_1_1client.html" title=" " alt="" coords="12,248,152,399"/>
+<area shape="rect" id="node3" href="$classrunnable.html" title=" " alt="" coords="15,5,149,200"/>
 </map>

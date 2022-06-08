@@ -11,6 +11,5 @@ var classrunnable =
     [ "run", "classrunnable.html#af6c84adda2b18930d439cecaf4805dae", null ],
     [ "stop", "classrunnable.html#ab7117095b1382678c42c4979871f1d25", null ],
     [ "callback", "classrunnable.html#a43fefab36614b0cf701b2af4d83cf52e", null ],
-    [ "name", "classrunnable.html#ae439e2b4206f8024660013d3c3dacc18", null ],
     [ "thread", "classrunnable.html#a2af67a3067df242083a64c3add4f150a", null ]
 ];

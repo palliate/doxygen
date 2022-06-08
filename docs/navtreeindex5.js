@@ -1,6 +1,5 @@
 var NAVTREEINDEX5 =
 {
-"md____w_libpalliate_libpalliate_libpalliate_toml11_README.html#autotoc_md6":[0,2,1],
 "md____w_libpalliate_libpalliate_libpalliate_toml11_README.html#autotoc_md7":[0,2,2],
 "md____w_libpalliate_libpalliate_libpalliate_toml11_README.html#autotoc_md9":[0,2,3],
 "memory_2client_8cpp.html":[4,0,0,2,1],
@@ -23,16 +22,18 @@ var NAVTREEINDEX5 =
 "namespaceextlib2.html":[1,0,1],
 "namespaceextlib3.html":[1,0,2],
 "namespacelogging.html":[1,0,3],
+"namespacelogging.html#a32af4ba58c16d1549c151a543f5be250":[1,0,3,7],
 "namespacelogging.html#a72e7a108a3928d5e407b6a7723799826":[1,0,3,4],
 "namespacelogging.html#a72e7a108a3928d5e407b6a7723799826a4cd4cc508dacd5b0007018c45a446ee4":[1,0,3,4,1],
 "namespacelogging.html#a72e7a108a3928d5e407b6a7723799826a53dcd4887683847f344507340d236621":[1,0,3,4,4],
 "namespacelogging.html#a72e7a108a3928d5e407b6a7723799826a66700fb5e035d3906738d73fc57579f0":[1,0,3,4,3],
 "namespacelogging.html#a72e7a108a3928d5e407b6a7723799826aa8e7bccd55418c8ecc7a23bb5d9afcff":[1,0,3,4,0],
 "namespacelogging.html#a72e7a108a3928d5e407b6a7723799826afe6af08edd74e3e77e5ec1058844088c":[1,0,3,4,2],
-"namespacelogging.html#ad783a01da1251ad13579c8d27e65dded":[1,0,3,5],
+"namespacelogging.html#ad16d03f4bf331fb5ae5e0d19dcc72562":[1,0,3,5],
+"namespacelogging.html#ae84cc3764d34e4332c3e6b26dbcc3441":[1,0,3,6],
 "namespacelogging_1_1endpoint.html":[1,0,3,0],
-"namespacemembers.html":[1,1,0,0],
 "namespacemembers.html":[1,1,0],
+"namespacemembers.html":[1,1,0,0],
 "namespacemembers_b.html":[1,1,0,1],
 "namespacemembers_c.html":[1,1,0,2],
 "namespacemembers_d.html":[1,1,0,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX5 =
 "namespacetoml.html#ac3d6191211e58a592190751a6c5ca92f":[1,0,6,75],
 "namespacetoml.html#ac5860e02c6a476e5c04a4b36ecd1b1f8":[1,0,6,61],
 "namespacetoml.html#ac6cedd38d7f06988d0e842452da992ac":[1,0,6,191],
-"namespacetoml.html#acbb3a32f389eaf9e5097d2b23df77b4e":[1,0,6,137],
-"namespacetoml.html#acf4a80d2e36cd2bfe2b78ead81c34c82":[1,0,6,68]
+"namespacetoml.html#acbb3a32f389eaf9e5097d2b23df77b4e":[1,0,6,137]
 };

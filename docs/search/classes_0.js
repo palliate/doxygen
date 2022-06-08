@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['annotated_5fseverity_0',['annotated_severity',['../structlogging_1_1annotated__severity.html',1,'logging']]],
+  ['annotated_0',['annotated',['../structlogging_1_1annotated.html',1,'logging']]],
   ['at_5fleast_1',['at_least',['../structtoml_1_1detail_1_1at__least.html',1,'toml::detail']]],
   ['atomic_5fcr_2',['atomic_cr',['../classatomic__cr.html',1,'']]],
   ['atomic_5fcr_3c_208_20_3e_3',['atomic_cr&lt; 8 &gt;',['../classatomic__cr.html',1,'']]],

@@ -113,21 +113,32 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aadd537feeeb16186f6aeb4ca0267a8d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee168a758465750b6358dae0b52a41bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogging_1_1logger.html#aee168a758465750b6358dae0b52a41bd">configure</a> (config::logging const &amp;cfg)</td></tr>
 <tr class="separator:aee168a758465750b6358dae0b52a41bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb75d5f5dc04cb16944faf9223ae3409"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogging_1_1logger.html#afb75d5f5dc04cb16944faf9223ae3409">register_thread</a> (std::thread::id thread_id, std::string_view name)</td></tr>
-<tr class="separator:afb75d5f5dc04cb16944faf9223ae3409"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69912ed8d22cf35ae5633271ebe8b9ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogging_1_1logger.html#a69912ed8d22cf35ae5633271ebe8b9ad">print</a> (<a class="el" href="structlogging_1_1message.html">message</a> &amp;msg)</td></tr>
 <tr class="separator:a69912ed8d22cf35ae5633271ebe8b9ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af06db48ddbe443b13b9765af9968b486"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogging_1_1logger.html#af06db48ddbe443b13b9765af9968b486">enable</a> ()</td></tr>
 <tr class="separator:af06db48ddbe443b13b9765af9968b486"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adedc6a7dd56445683ec75377347b1017"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogging_1_1logger.html#adedc6a7dd56445683ec75377347b1017">get_name</a> (std::thread::id thread_id)</td></tr>
-<tr class="separator:adedc6a7dd56445683ec75377347b1017"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a2d9bc3ff3e6fea4ca03c0cc0ff8096fa"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classlogging_1_1logger.html">logger</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogging_1_1logger.html#a2d9bc3ff3e6fea4ca03c0cc0ff8096fa">Instance</a> ()</td></tr>
 <tr class="separator:a2d9bc3ff3e6fea4ca03c0cc0ff8096fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4942038faa58d2728bfee0b5130eefd7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogging_1_1logger.html#a4942038faa58d2728bfee0b5130eefd7">register_thread</a> (std::string_view name)</td></tr>
-<tr class="separator:a4942038faa58d2728bfee0b5130eefd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e43231ab6556eb4da2184ffa69fd978"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogging_1_1logger.html#a8e43231ab6556eb4da2184ffa69fd978">thread_name</a> (std::string const &amp;new_name={})</td></tr>
+<tr class="separator:a8e43231ab6556eb4da2184ffa69fd978"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afafe4de4755da1197d54b5cce259198d"><td class="memTemplParams" colspan="2">template&lt;typename... Ts&gt; </td></tr>
+<tr class="memitem:afafe4de4755da1197d54b5cce259198d"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classlogging_1_1logger.html#afafe4de4755da1197d54b5cce259198d">debug</a> (<a class="el" href="structlogging_1_1annotated.html">annotated</a>&lt; char const * &gt; str, Ts &amp;&amp;... ts)</td></tr>
+<tr class="separator:afafe4de4755da1197d54b5cce259198d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3abc99d59f2b04f0c0de1cac0d98ac33"><td class="memTemplParams" colspan="2">template&lt;typename... Ts&gt; </td></tr>
+<tr class="memitem:a3abc99d59f2b04f0c0de1cac0d98ac33"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classlogging_1_1logger.html#a3abc99d59f2b04f0c0de1cac0d98ac33">info</a> (<a class="el" href="structlogging_1_1annotated.html">annotated</a>&lt; char const * &gt; str, Ts &amp;&amp;... ts)</td></tr>
+<tr class="separator:a3abc99d59f2b04f0c0de1cac0d98ac33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5439d8eb06c59af6ed9ccb68b83adeb1"><td class="memTemplParams" colspan="2">template&lt;typename... Ts&gt; </td></tr>
+<tr class="memitem:a5439d8eb06c59af6ed9ccb68b83adeb1"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classlogging_1_1logger.html#a5439d8eb06c59af6ed9ccb68b83adeb1">warning</a> (<a class="el" href="structlogging_1_1annotated.html">annotated</a>&lt; char const * &gt; str, Ts &amp;&amp;... ts)</td></tr>
+<tr class="separator:a5439d8eb06c59af6ed9ccb68b83adeb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fe5f9a886bebf7c0dfab9a2f7a8c450"><td class="memTemplParams" colspan="2">template&lt;typename... Ts&gt; </td></tr>
+<tr class="memitem:a6fe5f9a886bebf7c0dfab9a2f7a8c450"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classlogging_1_1logger.html#a6fe5f9a886bebf7c0dfab9a2f7a8c450">error</a> (<a class="el" href="structlogging_1_1annotated.html">annotated</a>&lt; char const * &gt; str, Ts &amp;&amp;... ts)</td></tr>
+<tr class="separator:a6fe5f9a886bebf7c0dfab9a2f7a8c450"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb42cbc03681a8dd8b973aa6dce00e4d"><td class="memTemplParams" colspan="2">template&lt;typename... Ts&gt; </td></tr>
+<tr class="memitem:afb42cbc03681a8dd8b973aa6dce00e4d"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classlogging_1_1logger.html#afb42cbc03681a8dd8b973aa6dce00e4d">fatal</a> (<a class="el" href="structlogging_1_1annotated.html">annotated</a>&lt; char const * &gt; str, Ts &amp;&amp;... ts)</td></tr>
+<tr class="separator:afb42cbc03681a8dd8b973aa6dce00e4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -197,6 +208,44 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="afafe4de4755da1197d54b5cce259198d" name="afafe4de4755da1197d54b5cce259198d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afafe4de4755da1197d54b5cce259198d">&#9670;&nbsp;</a></span>debug()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename... Ts&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void logging::logger::debug </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structlogging_1_1annotated.html">annotated</a>&lt; char const * &gt;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Ts &amp;&amp;...&#160;</td>
+          <td class="paramname"><em>ts</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af06db48ddbe443b13b9765af9968b486" name="af06db48ddbe443b13b9765af9968b486"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af06db48ddbe443b13b9765af9968b486">&#9670;&nbsp;</a></span>enable()</h2>
 
@@ -214,20 +263,116 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="adedc6a7dd56445683ec75377347b1017" name="adedc6a7dd56445683ec75377347b1017"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adedc6a7dd56445683ec75377347b1017">&#9670;&nbsp;</a></span>get_name()</h2>
+<a id="a6fe5f9a886bebf7c0dfab9a2f7a8c450" name="a6fe5f9a886bebf7c0dfab9a2f7a8c450"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fe5f9a886bebf7c0dfab9a2f7a8c450">&#9670;&nbsp;</a></span>error()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename... Ts&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string logger::get_name </td>
+          <td class="memname">static void logging::logger::error </td>
           <td>(</td>
-          <td class="paramtype">std::thread::id&#160;</td>
-          <td class="paramname"><em>thread_id</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="structlogging_1_1annotated.html">annotated</a>&lt; char const * &gt;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">Ts &amp;&amp;...&#160;</td>
+          <td class="paramname"><em>ts</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afb42cbc03681a8dd8b973aa6dce00e4d" name="afb42cbc03681a8dd8b973aa6dce00e4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb42cbc03681a8dd8b973aa6dce00e4d">&#9670;&nbsp;</a></span>fatal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename... Ts&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void logging::logger::fatal </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structlogging_1_1annotated.html">annotated</a>&lt; char const * &gt;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Ts &amp;&amp;...&#160;</td>
+          <td class="paramname"><em>ts</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3abc99d59f2b04f0c0de1cac0d98ac33" name="a3abc99d59f2b04f0c0de1cac0d98ac33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3abc99d59f2b04f0c0de1cac0d98ac33">&#9670;&nbsp;</a></span>info()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename... Ts&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void logging::logger::info </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structlogging_1_1annotated.html">annotated</a>&lt; char const * &gt;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Ts &amp;&amp;...&#160;</td>
+          <td class="paramname"><em>ts</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -301,8 +446,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a4942038faa58d2728bfee0b5130eefd7" name="a4942038faa58d2728bfee0b5130eefd7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4942038faa58d2728bfee0b5130eefd7">&#9670;&nbsp;</a></span>register_thread() <span class="overload">[1/2]</span></h2>
+<a id="a8e43231ab6556eb4da2184ffa69fd978" name="a8e43231ab6556eb4da2184ffa69fd978"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e43231ab6556eb4da2184ffa69fd978">&#9670;&nbsp;</a></span>thread_name()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -311,10 +456,10 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void logger::register_thread </td>
+          <td class="memname">const std::string logger::thread_name </td>
           <td>(</td>
-          <td class="paramtype">std::string_view&#160;</td>
-          <td class="paramname"><em>name</em></td><td>)</td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>new_name</em> = <code>{}</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -327,23 +472,28 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="afb75d5f5dc04cb16944faf9223ae3409" name="afb75d5f5dc04cb16944faf9223ae3409"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afb75d5f5dc04cb16944faf9223ae3409">&#9670;&nbsp;</a></span>register_thread() <span class="overload">[2/2]</span></h2>
+<a id="a5439d8eb06c59af6ed9ccb68b83adeb1" name="a5439d8eb06c59af6ed9ccb68b83adeb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5439d8eb06c59af6ed9ccb68b83adeb1">&#9670;&nbsp;</a></span>warning()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename... Ts&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void logger::register_thread </td>
+          <td class="memname">static void logging::logger::warning </td>
           <td>(</td>
-          <td class="paramtype">std::thread::id&#160;</td>
-          <td class="paramname"><em>thread_id</em>, </td>
+          <td class="paramtype"><a class="el" href="structlogging_1_1annotated.html">annotated</a>&lt; char const * &gt;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string_view&#160;</td>
-          <td class="paramname"><em>name</em>&#160;</td>
+          <td class="paramtype">Ts &amp;&amp;...&#160;</td>
+          <td class="paramname"><em>ts</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -351,6 +501,11 @@ Public Attributes</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

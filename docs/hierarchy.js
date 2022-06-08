@@ -1,6 +1,6 @@
 var hierarchy =
 [
-    [ "logging::annotated_severity", "structlogging_1_1annotated__severity.html", null ],
+    [ "logging::annotated< T >", "structlogging_1_1annotated.html", null ],
     [ "toml::detail::at_least< N >", "structtoml_1_1detail_1_1at__least.html", null ],
     [ "atomic_cr< size >", "classatomic__cr.html", null ],
     [ "atomic_cr< 8 >", "classatomic__cr.html", null ],

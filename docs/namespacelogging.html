@@ -108,7 +108,7 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlogging_1_1annotated__severity.html">annotated_severity</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlogging_1_1annotated.html">annotated</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogging_1_1logger.html">logger</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -130,9 +130,15 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ad783a01da1251ad13579c8d27e65dded"><td class="memTemplParams" colspan="2">template&lt;typename... Ts&gt; </td></tr>
-<tr class="memitem:ad783a01da1251ad13579c8d27e65dded"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelogging.html#ad783a01da1251ad13579c8d27e65dded">print</a> (<a class="el" href="structlogging_1_1annotated__severity.html">annotated_severity</a> meta, Ts &amp;&amp;... ts)</td></tr>
-<tr class="separator:ad783a01da1251ad13579c8d27e65dded"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32af4ba58c16d1549c151a543f5be250"><td class="memTemplParams" colspan="2">template&lt;typename... Ts&gt; </td></tr>
+<tr class="memitem:a32af4ba58c16d1549c151a543f5be250"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelogging.html#a32af4ba58c16d1549c151a543f5be250">print</a> (std::source_location location, <a class="el" href="namespacelogging.html#a72e7a108a3928d5e407b6a7723799826">severity</a> level, Ts &amp;&amp;... ts)</td></tr>
+<tr class="separator:a32af4ba58c16d1549c151a543f5be250"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae84cc3764d34e4332c3e6b26dbcc3441"><td class="memTemplParams" colspan="2">template&lt;typename... Ts&gt; </td></tr>
+<tr class="memitem:ae84cc3764d34e4332c3e6b26dbcc3441"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelogging.html#ae84cc3764d34e4332c3e6b26dbcc3441">print</a> (<a class="el" href="structlogging_1_1annotated.html">annotated</a>&lt; <a class="el" href="namespacelogging.html#a72e7a108a3928d5e407b6a7723799826">severity</a> &gt; meta, Ts &amp;&amp;... ts)</td></tr>
+<tr class="separator:ae84cc3764d34e4332c3e6b26dbcc3441"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad16d03f4bf331fb5ae5e0d19dcc72562"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="namespacelogging.html#a72e7a108a3928d5e407b6a7723799826">severity</a> level, typename... Ts&gt; </td></tr>
+<tr class="memitem:ad16d03f4bf331fb5ae5e0d19dcc72562"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelogging.html#ad16d03f4bf331fb5ae5e0d19dcc72562">print</a> (<a class="el" href="structlogging_1_1annotated.html">annotated</a>&lt; char const * &gt; meta, Ts &amp;&amp;... ts)</td></tr>
+<tr class="separator:ad16d03f4bf331fb5ae5e0d19dcc72562"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="a72e7a108a3928d5e407b6a7723799826" name="a72e7a108a3928d5e407b6a7723799826"></a>
@@ -157,8 +163,38 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ad783a01da1251ad13579c8d27e65dded" name="ad783a01da1251ad13579c8d27e65dded"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad783a01da1251ad13579c8d27e65dded">&#9670;&nbsp;</a></span>print()</h2>
+<a id="ad16d03f4bf331fb5ae5e0d19dcc72562" name="ad16d03f4bf331fb5ae5e0d19dcc72562"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad16d03f4bf331fb5ae5e0d19dcc72562">&#9670;&nbsp;</a></span>print() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="namespacelogging.html#a72e7a108a3928d5e407b6a7723799826">severity</a> level, typename... Ts&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void logging::print </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structlogging_1_1annotated.html">annotated</a>&lt; char const * &gt;&#160;</td>
+          <td class="paramname"><em>meta</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Ts &amp;&amp;...&#160;</td>
+          <td class="paramname"><em>ts</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae84cc3764d34e4332c3e6b26dbcc3441" name="ae84cc3764d34e4332c3e6b26dbcc3441"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae84cc3764d34e4332c3e6b26dbcc3441">&#9670;&nbsp;</a></span>print() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -168,8 +204,44 @@ template&lt;typename... Ts&gt; </div>
         <tr>
           <td class="memname">void logging::print </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structlogging_1_1annotated__severity.html">annotated_severity</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="structlogging_1_1annotated.html">annotated</a>&lt; <a class="el" href="namespacelogging.html#a72e7a108a3928d5e407b6a7723799826">severity</a> &gt;&#160;</td>
           <td class="paramname"><em>meta</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Ts &amp;&amp;...&#160;</td>
+          <td class="paramname"><em>ts</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a32af4ba58c16d1549c151a543f5be250" name="a32af4ba58c16d1549c151a543f5be250"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32af4ba58c16d1549c151a543f5be250">&#9670;&nbsp;</a></span>print() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename... Ts&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void logging::print </td>
+          <td>(</td>
+          <td class="paramtype">std::source_location&#160;</td>
+          <td class="paramname"><em>location</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacelogging.html#a72e7a108a3928d5e407b6a7723799826">severity</a>&#160;</td>
+          <td class="paramname"><em>level</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

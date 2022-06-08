@@ -26,7 +26,7 @@ var annotated_dup =
         [ "systemd", "classlogging_1_1endpoint_1_1systemd.html", "classlogging_1_1endpoint_1_1systemd" ],
         [ "terminal", "classlogging_1_1endpoint_1_1terminal.html", "classlogging_1_1endpoint_1_1terminal" ]
       ] ],
-      [ "annotated_severity", "structlogging_1_1annotated__severity.html", "structlogging_1_1annotated__severity" ],
+      [ "annotated", "structlogging_1_1annotated.html", "structlogging_1_1annotated" ],
       [ "logger", "classlogging_1_1logger.html", "classlogging_1_1logger" ],
       [ "message", "structlogging_1_1message.html", "structlogging_1_1message" ]
     ] ],

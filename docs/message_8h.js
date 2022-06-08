@@ -1,6 +1,6 @@
 var message_8h =
 [
-    [ "logging::annotated_severity", "structlogging_1_1annotated__severity.html", "structlogging_1_1annotated__severity" ],
+    [ "logging::annotated< T >", "structlogging_1_1annotated.html", "structlogging_1_1annotated" ],
     [ "logging::message", "structlogging_1_1message.html", "structlogging_1_1message" ],
     [ "severity", "message_8h.html#a72e7a108a3928d5e407b6a7723799826", [
       [ "debug", "message_8h.html#a72e7a108a3928d5e407b6a7723799826aa8e7bccd55418c8ecc7a23bb5d9afcff", null ],

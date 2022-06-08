@@ -104,11 +104,11 @@ $(document).ready(function(){initNavTree('logger_8h.html',''); initResizable(); 
 <code>#include &lt;map&gt;</code><br />
 <code>#include &lt;mutex&gt;</code><br />
 <code>#include &lt;set&gt;</code><br />
-<code>#include &lt;string_view&gt;</code><br />
-<code>#include &lt;thread&gt;</code><br />
 <code>#include &quot;<a class="el" href="endpoint_8h.html">endpoints/endpoint.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="message_8h.html">message.h</a>&quot;</code><br />
 <code>#include &lt;generated/config/logging.h&gt;</code><br />
+<code>#include &lt;source_location&gt;</code><br />
+<code>#include &lt;thread&gt;</code><br />
 <code>#include &quot;logger.tpp&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
@@ -123,9 +123,15 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ad783a01da1251ad13579c8d27e65dded"><td class="memTemplParams" colspan="2">template&lt;typename... Ts&gt; </td></tr>
-<tr class="memitem:ad783a01da1251ad13579c8d27e65dded"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelogging.html#ad783a01da1251ad13579c8d27e65dded">logging::print</a> (annotated_severity meta, Ts &amp;&amp;... ts)</td></tr>
-<tr class="separator:ad783a01da1251ad13579c8d27e65dded"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32af4ba58c16d1549c151a543f5be250"><td class="memTemplParams" colspan="2">template&lt;typename... Ts&gt; </td></tr>
+<tr class="memitem:a32af4ba58c16d1549c151a543f5be250"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelogging.html#a32af4ba58c16d1549c151a543f5be250">logging::print</a> (std::source_location location, severity level, Ts &amp;&amp;... ts)</td></tr>
+<tr class="separator:a32af4ba58c16d1549c151a543f5be250"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae84cc3764d34e4332c3e6b26dbcc3441"><td class="memTemplParams" colspan="2">template&lt;typename... Ts&gt; </td></tr>
+<tr class="memitem:ae84cc3764d34e4332c3e6b26dbcc3441"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelogging.html#ae84cc3764d34e4332c3e6b26dbcc3441">logging::print</a> (annotated&lt; severity &gt; meta, Ts &amp;&amp;... ts)</td></tr>
+<tr class="separator:ae84cc3764d34e4332c3e6b26dbcc3441"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad16d03f4bf331fb5ae5e0d19dcc72562"><td class="memTemplParams" colspan="2">template&lt;severity level, typename... Ts&gt; </td></tr>
+<tr class="memitem:ad16d03f4bf331fb5ae5e0d19dcc72562"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelogging.html#ad16d03f4bf331fb5ae5e0d19dcc72562">logging::print</a> (annotated&lt; char const * &gt; meta, Ts &amp;&amp;... ts)</td></tr>
+<tr class="separator:ad16d03f4bf331fb5ae5e0d19dcc72562"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

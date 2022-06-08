@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['name_0',['name',['../classplugin.html#aeeb8d123636d7045f06b0498ae71c8c7',1,'plugin::name()'],['../classrunnable.html#ae439e2b4206f8024660013d3c3dacc18',1,'runnable::name()'],['../structtoml_1_1detail_1_1region__base.html#af1e9c07f9510f553e33277207249b980',1,'toml::detail::region_base::name()'],['../structtoml_1_1detail_1_1location.html#ad6a386a1bb61633d7dc51025ee4bd6be',1,'toml::detail::location::name()'],['../structtoml_1_1detail_1_1region.html#ab2940e58e40a9dc9da8bce16372cefec',1,'toml::detail::region::name()']]],
+  ['name_0',['name',['../classplugin.html#aeeb8d123636d7045f06b0498ae71c8c7',1,'plugin::name()'],['../structtoml_1_1detail_1_1region__base.html#af1e9c07f9510f553e33277207249b980',1,'toml::detail::region_base::name()'],['../structtoml_1_1detail_1_1location.html#ad6a386a1bb61633d7dc51025ee4bd6be',1,'toml::detail::location::name()'],['../structtoml_1_1detail_1_1region.html#ab2940e58e40a9dc9da8bce16372cefec',1,'toml::detail::region::name()']]],
   ['name_5f_1',['name_',['../structmove__only__type.html#a9d3350424382d295967473960e4c50f0',1,'move_only_type']]],
   ['nanosecond_2',['nanosecond',['../structtoml_1_1local__time.html#a9bcf84d9eee020b6ce7d5c6fe335d0dc',1,'toml::local_time']]],
   ['negation_3',['negation',['../structtoml_1_1detail_1_1negation.html',1,'toml::detail']]],

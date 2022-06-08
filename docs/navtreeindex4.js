@@ -1,8 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"get_8hpp.html#a9bac8bbf4a0c5bc6bf7c99435615bdf6":[4,0,0,4,1,6,42],
-"get_8hpp.html#a9d037a90a8e081bed62df5ca627d02ed":[4,0,0,4,1,6,37],
-"get_8hpp.html#a9eba384204ba88c885ba78f190e597ca":[4,0,0,4,1,6,44],
 "get_8hpp.html#a9f06b255c9a103b100d9cf14d3131257":[4,0,0,4,1,6,14],
 "get_8hpp.html#a9fb4cd871c358e0e89054107a67c3a9d":[4,0,0,4,1,6,55],
 "get_8hpp.html#a9ff07b39606121da2f748ab9dd4f12d4":[4,0,0,4,1,6,20],
@@ -37,8 +34,8 @@ var NAVTREEINDEX4 =
 "globals.html":[4,1,0],
 "globals.html":[4,1,0,0],
 "globals_defs.html":[4,1,3],
-"globals_func.html":[4,1,1,0],
 "globals_func.html":[4,1,1],
+"globals_func.html":[4,1,1,0],
 "globals_func_h.html":[4,1,1,1],
 "globals_func_m.html":[4,1,1,2],
 "globals_func_o.html":[4,1,1,3],
@@ -161,7 +158,9 @@ var NAVTREEINDEX4 =
 "literal_8hpp.html#a20a98173d1553ae30b2f0d51029186b6":[4,0,0,4,1,9,1],
 "logger_8cpp.html":[4,0,0,1,1],
 "logger_8h.html":[4,0,0,1,2],
-"logger_8h.html#ad783a01da1251ad13579c8d27e65dded":[4,0,0,1,2,1],
+"logger_8h.html#a32af4ba58c16d1549c151a543f5be250":[4,0,0,1,2,3],
+"logger_8h.html#ad16d03f4bf331fb5ae5e0d19dcc72562":[4,0,0,1,2,1],
+"logger_8h.html#ae84cc3764d34e4332c3e6b26dbcc3441":[4,0,0,1,2,2],
 "macros_8hpp.html":[4,0,0,4,1,10],
 "macros_8hpp.html#a0e5d02e365be84d566e000f29a3ff630":[4,0,0,4,1,10,40],
 "macros_8hpp.html#a1802424ec3c5059a0e3df5518e994347":[4,0,0,4,1,10,7],
@@ -249,5 +248,6 @@ var NAVTREEINDEX4 =
 "md____w_libpalliate_libpalliate_libpalliate_toml11_README.html#autotoc_md42":[0,24],
 "md____w_libpalliate_libpalliate_libpalliate_toml11_README.html#autotoc_md43":[0,25],
 "md____w_libpalliate_libpalliate_libpalliate_toml11_README.html#autotoc_md44":[0,26],
-"md____w_libpalliate_libpalliate_libpalliate_toml11_README.html#autotoc_md5":[0,2,0]
+"md____w_libpalliate_libpalliate_libpalliate_toml11_README.html#autotoc_md5":[0,2,0],
+"md____w_libpalliate_libpalliate_libpalliate_toml11_README.html#autotoc_md6":[0,2,1]
 };
