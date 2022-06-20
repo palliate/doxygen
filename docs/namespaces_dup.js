@@ -1,5 +1,8 @@
 var namespaces_dup =
 [
+    [ "detail", "namespacedetail.html", [
+      [ "init", "namespacedetail.html#ad417d5a0e5c6b6fd05004c05b0516408", null ]
+    ] ],
     [ "extlib", "namespaceextlib.html", "namespaceextlib" ],
     [ "extlib2", "namespaceextlib2.html", "namespaceextlib2" ],
     [ "extlib3", "namespaceextlib3.html", "namespaceextlib3" ],

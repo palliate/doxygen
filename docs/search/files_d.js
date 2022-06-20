@@ -10,7 +10,5 @@ var searchData=
   ['source_5flocation_2ehpp_7',['source_location.hpp',['../source__location_8hpp.html',1,'']]],
   ['storage_2ehpp_8',['storage.hpp',['../storage_8hpp.html',1,'']]],
   ['string_2eh_9',['string.h',['../string_8h.html',1,'']]],
-  ['string_2ehpp_10',['string.hpp',['../string_8hpp.html',1,'']]],
-  ['systemd_2eh_11',['systemd.h',['../systemd_8h.html',1,'']]],
-  ['systemd_2elinux_2ecpp_12',['systemd.linux.cpp',['../systemd_8linux_8cpp.html',1,'']]]
+  ['string_2ehpp_10',['string.hpp',['../string_8hpp.html',1,'']]]
 ];

@@ -15,6 +15,5 @@ var searchData=
   ['success_12',['success',['../structtoml_1_1success.html',1,'toml']]],
   ['success_3c_20value_5ftype_20_3e_13',['success&lt; value_type &gt;',['../structtoml_1_1success.html',1,'toml']]],
   ['switch_5fcast_14',['switch_cast',['../structtoml_1_1detail_1_1switch__cast.html',1,'toml::detail']]],
-  ['syntax_5ferror_15',['syntax_error',['../structtoml_1_1syntax__error.html',1,'toml']]],
-  ['systemd_16',['systemd',['../classlogging_1_1endpoint_1_1systemd.html',1,'logging::endpoint']]]
+  ['syntax_5ferror_15',['syntax_error',['../structtoml_1_1syntax__error.html',1,'toml']]]
 ];

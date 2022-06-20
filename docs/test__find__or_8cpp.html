@@ -230,12 +230,13 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">    {                                                           \</div>
 <div class="line">        using <span class="keyword">namespace </span><a class="code hl_namespace" href="namespacetest.html">test</a>;                                   \</div>
-<div class="line">        const toml::toml_type init init_expr ;                  \</div>
+<div class="line">        const toml::toml_type <a class="code hl_function" href="namespacedetail.html#ad417d5a0e5c6b6fd05004c05b0516408">init</a> init_expr ;                  \</div>
 <div class="line">        const toml::toml_type opt  opt_expr ;                   \</div>
-<div class="line">        const value_type v{{<span class="stringliteral">&quot;key&quot;</span>, init}};                      \</div>
-<div class="line">        BOOST_TEST(init != opt);                                \</div>
-<div class="line">        BOOST_TEST(init == <a class="code hl_function" href="namespacetoml.html#a34fb7cea6c5ed3988dd2d3944bfd6b2a">toml::find_or</a>(v, <span class="stringliteral">&quot;key&quot;</span>, opt));       \</div>
+<div class="line">        const value_type v{{<span class="stringliteral">&quot;key&quot;</span>, <a class="code hl_function" href="namespacedetail.html#ad417d5a0e5c6b6fd05004c05b0516408">init</a>}};                      \</div>
+<div class="line">        BOOST_TEST(<a class="code hl_function" href="namespacedetail.html#ad417d5a0e5c6b6fd05004c05b0516408">init</a> != opt);                                \</div>
+<div class="line">        BOOST_TEST(<a class="code hl_function" href="namespacedetail.html#ad417d5a0e5c6b6fd05004c05b0516408">init</a> == <a class="code hl_function" href="namespacetoml.html#a34fb7cea6c5ed3988dd2d3944bfd6b2a">toml::find_or</a>(v, <span class="stringliteral">&quot;key&quot;</span>, opt));       \</div>
 <div class="line">    }                                                           \</div>
+<div class="ttc" id="anamespacedetail_html_ad417d5a0e5c6b6fd05004c05b0516408"><div class="ttname"><a href="namespacedetail.html#ad417d5a0e5c6b6fd05004c05b0516408">detail::init</a></div><div class="ttdeci">auto init(std::string_view name)</div><div class="ttdef"><b>Definition:</b> exports.h:16</div></div>
 <div class="ttc" id="anamespacetest_html"><div class="ttname"><a href="namespacetest.html">test</a></div><div class="ttdef"><b>Definition:</b> test_find_or.cpp:27</div></div>
 <div class="ttc" id="anamespacetoml_html_a34fb7cea6c5ed3988dd2d3944bfd6b2a"><div class="ttname"><a href="namespacetoml.html#a34fb7cea6c5ed3988dd2d3944bfd6b2a">toml::find_or</a></div><div class="ttdeci">basic_value&lt; C, M, V &gt; const &amp; find_or(const basic_value&lt; C, M, V &gt; &amp;v, const key &amp;ky, const basic_value&lt; C, M, V &gt; &amp;opt)</div><div class="ttdef"><b>Definition:</b> get.hpp:902</div></div>
 </div><!-- fragment -->
@@ -307,11 +308,11 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">    {                                                             \</div>
 <div class="line">        using <span class="keyword">namespace </span><a class="code hl_namespace" href="namespacetest.html">test</a>;                                     \</div>
-<div class="line">        const toml::toml_type init init_expr ;                    \</div>
+<div class="line">        const toml::toml_type <a class="code hl_function" href="namespacedetail.html#ad417d5a0e5c6b6fd05004c05b0516408">init</a> init_expr ;                    \</div>
 <div class="line">        toml::toml_type       opt1 opt_expr ;                     \</div>
 <div class="line">        toml::toml_type       opt2 opt_expr ;                     \</div>
-<div class="line">        value_type v{{<span class="stringliteral">&quot;key&quot;</span>, init}};                              \</div>
-<div class="line">        BOOST_TEST(init != opt1);                                 <a class="code hl_function" href="namespacetoml.html#a34fb7cea6c5ed3988dd2d3944bfd6b2a">\</a></div>
+<div class="line">        value_type v{{<span class="stringliteral">&quot;key&quot;</span>, <a class="code hl_function" href="namespacedetail.html#ad417d5a0e5c6b6fd05004c05b0516408">init</a>}};                              \</div>
+<div class="line">        BOOST_TEST(<a class="code hl_function" href="namespacedetail.html#ad417d5a0e5c6b6fd05004c05b0516408">init</a> != opt1);                                 <a class="code hl_function" href="namespacetoml.html#a34fb7cea6c5ed3988dd2d3944bfd6b2a">\</a></div>
 <div class="line"><a class="code hl_function" href="namespacetoml.html#a34fb7cea6c5ed3988dd2d3944bfd6b2a">        toml::find_or</a>(v, <span class="stringliteral">&quot;key&quot;</span>, opt2) = opt1;                     \</div>
 <div class="line">        BOOST_TEST(opt1 == toml::find&lt;toml::toml_type&gt;(v, <span class="stringliteral">&quot;key&quot;</span>));\</div>
 <div class="line">    }                                                             \</div>
@@ -351,12 +352,12 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">    {                                                              \</div>
 <div class="line">        using <span class="keyword">namespace </span><a class="code hl_namespace" href="namespacetest.html">test</a>;                                      \</div>
-<div class="line">        const toml::toml_type init init_expr ;                     \</div>
+<div class="line">        const toml::toml_type <a class="code hl_function" href="namespacedetail.html#ad417d5a0e5c6b6fd05004c05b0516408">init</a> init_expr ;                     \</div>
 <div class="line">        toml::toml_type opt  opt_expr ;                            \</div>
-<div class="line">        value_type v{{<span class="stringliteral">&quot;key&quot;</span>, init}};                               \</div>
-<div class="line">        BOOST_TEST(init != opt);                                   \</div>
+<div class="line">        value_type v{{<span class="stringliteral">&quot;key&quot;</span>, <a class="code hl_function" href="namespacedetail.html#ad417d5a0e5c6b6fd05004c05b0516408">init</a>}};                               \</div>
+<div class="line">        BOOST_TEST(<a class="code hl_function" href="namespacedetail.html#ad417d5a0e5c6b6fd05004c05b0516408">init</a> != opt);                                   \</div>
 <div class="line">        const <span class="keyword">auto</span> moved = <a class="code hl_function" href="namespacetoml.html#a34fb7cea6c5ed3988dd2d3944bfd6b2a">toml::find_or</a>(std::move(v), <span class="stringliteral">&quot;key&quot;</span>, std::move(opt));\</div>
-<div class="line">        BOOST_TEST(init == moved);                                 \</div>
+<div class="line">        BOOST_TEST(<a class="code hl_function" href="namespacedetail.html#ad417d5a0e5c6b6fd05004c05b0516408">init</a> == moved);                                 \</div>
 <div class="line">    }                                                              \</div>
 </div><!-- fragment -->
 </div>

@@ -192,6 +192,7 @@ var menudata={children:[
 {text:"File Members",url:"globals.html",children:[
 {text:"All",url:"globals.html",children:[
 {text:"b",url:"globals.html#index_b"},
+{text:"e",url:"globals_e.html#index_e"},
 {text:"h",url:"globals_h.html#index_h"},
 {text:"i",url:"globals_i.html#index_i"},
 {text:"m",url:"globals_m.html#index_m"},
@@ -210,7 +211,9 @@ var menudata={children:[
 {text:"Typedefs",url:"globals_type.html"},
 {text:"Macros",url:"globals_defs.html",children:[
 {text:"b",url:"globals_defs.html#index_b"},
+{text:"e",url:"globals_defs.html#index_e"},
 {text:"i",url:"globals_defs.html#index_i"},
+{text:"r",url:"globals_defs.html#index_r"},
 {text:"s",url:"globals_defs.html#index_s"},
 {text:"t",url:"globals_defs.html#index_t"},
 {text:"w",url:"globals_defs.html#index_w"}]}]}]}]}

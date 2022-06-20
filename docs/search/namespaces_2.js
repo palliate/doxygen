@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['memory_0',['memory',['../namespacememory.html',1,'']]]
+  ['endpoint_0',['endpoint',['../namespacelogging_1_1endpoint.html',1,'logging']]],
+  ['logging_1',['logging',['../namespacelogging.html',1,'']]]
 ];

@@ -201,7 +201,6 @@ var hierarchy =
     [ "endpoint::registrar", null, [
       [ "logging::endpoint::file", "classlogging_1_1endpoint_1_1file.html", null ],
       [ "logging::endpoint::serial", "classlogging_1_1endpoint_1_1serial.html", null ],
-      [ "logging::endpoint::systemd", "classlogging_1_1endpoint_1_1systemd.html", null ],
       [ "logging::endpoint::terminal", "classlogging_1_1endpoint_1_1terminal.html", null ]
     ] ],
     [ "toml::detail::remove_cvref< T >", "structtoml_1_1detail_1_1remove__cvref.html", null ],
