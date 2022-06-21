@@ -10,7 +10,7 @@ var searchData=
   ['failure_5ftype_7',['failure_type',['../structtoml_1_1result.html#a8ae6354b5d46aa704147b437d457659f',1,'toml::result']]],
   ['fatal_8',['fatal',['../classlogging_1_1logger.html#afb42cbc03681a8dd8b973aa6dce00e4d',1,'logging::logger::fatal()'],['../namespacelogging.html#a72e7a108a3928d5e407b6a7723799826a53dcd4887683847f344507340d236621',1,'logging::fatal()']]],
   ['feb_9',['Feb',['../namespacetoml.html#a89509f5839cddbb6cc3205611e198ca5aea171d540ccd5f0669171ef06d3cd848',1,'toml']]],
-  ['file_10',['file',['../classlogging_1_1endpoint_1_1file.html#abb690fe22b573382c27c2e3075bf2def',1,'logging::endpoint::file::file()'],['../classlogging_1_1endpoint_1_1file.html',1,'logging::endpoint::file']]],
+  ['file_10',['file',['../classlogging_1_1endpoints_1_1file.html#abb690fe22b573382c27c2e3075bf2def',1,'logging::endpoints::file::file()'],['../classlogging_1_1endpoints_1_1file.html',1,'logging::endpoints::file']]],
   ['file_2ecpp_11',['file.cpp',['../file_8cpp.html',1,'']]],
   ['file_2eh_12',['file.h',['../file_8h.html',1,'']]],
   ['file_5fname_13',['file_name',['../structtoml_1_1source__location.html#a981e64ae5ff2ee9ca10df468ea7a1fd5',1,'toml::source_location']]],

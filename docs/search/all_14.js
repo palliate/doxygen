@@ -15,7 +15,7 @@ var searchData=
   ['tail_12',['tail',['../classatomic__mpsc.html#ac5f281cc2b7deb6bb043737f6251d632',1,'atomic_mpsc']]],
   ['target_13',['target',['../structtoml_1_1detail_1_1character.html#ad5cd128a9f4280cf845be6afa3c3961c',1,'toml::detail::character']]],
   ['tcp_14',['tcp',['../namespacetransport_1_1tcp.html',1,'transport']]],
-  ['terminal_15',['terminal',['../classlogging_1_1endpoint_1_1terminal.html',1,'logging::endpoint::terminal'],['../classlogging_1_1endpoint_1_1terminal.html#a2b70ef201f1dd5602a3a1427bd01afa8',1,'logging::endpoint::terminal::terminal()']]],
+  ['terminal_15',['terminal',['../classlogging_1_1endpoints_1_1terminal.html',1,'logging::endpoints::terminal'],['../classlogging_1_1endpoints_1_1terminal.html#a2b70ef201f1dd5602a3a1427bd01afa8',1,'logging::endpoints::terminal::terminal()']]],
   ['terminal_2ecpp_16',['terminal.cpp',['../terminal_8cpp.html',1,'']]],
   ['terminal_2eh_17',['terminal.h',['../terminal_8h.html',1,'']]],
   ['terminal_2elinux_2ecpp_18',['terminal.linux.cpp',['../terminal_8linux_8cpp.html',1,'']]],

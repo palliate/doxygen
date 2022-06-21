@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['endpoint_0',['endpoint',['../namespacelogging_1_1endpoint.html',1,'logging']]],
+  ['endpoints_0',['endpoints',['../namespacelogging_1_1endpoints.html',1,'logging']]],
   ['last_1',['last',['../structtoml_1_1detail_1_1region.html#a9282bb9395b88ce24da0e0c2d59dc787',1,'toml::detail::region']]],
   ['last_5fone_2',['last_one',['../namespacetoml_1_1detail.html#a9381dda5d5adbfc55bdb38355ac9969f',1,'toml::detail::last_one(T &amp;&amp;tail) noexcept'],['../namespacetoml_1_1detail.html#ad1be9dc4ceeafd0a75d86489e7288a8a',1,'toml::detail::last_one(T &amp;&amp;, Ts &amp;&amp;... tail)']]],
   ['last_5fone_5fin_5fpack_3',['last_one_in_pack',['../structtoml_1_1detail_1_1last__one__in__pack.html',1,'toml::detail']]],

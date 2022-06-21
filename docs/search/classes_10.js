@@ -3,7 +3,7 @@ var searchData=
   ['sequence_0',['sequence',['../structtoml_1_1detail_1_1sequence.html',1,'toml::detail']]],
   ['sequence_3c_20head_20_3e_1',['sequence&lt; Head &gt;',['../structtoml_1_1detail_1_1sequence_3_01Head_01_4.html',1,'toml::detail']]],
   ['sequence_3c_20head_2c_20tail_2e_2e_2e_20_3e_2',['sequence&lt; Head, Tail... &gt;',['../structtoml_1_1detail_1_1sequence_3_01Head_00_01Tail_8_8_8_01_4.html',1,'toml::detail']]],
-  ['serial_3',['serial',['../classlogging_1_1endpoint_1_1serial.html',1,'logging::endpoint']]],
+  ['serial_3',['serial',['../classlogging_1_1endpoints_1_1serial.html',1,'logging::endpoints']]],
   ['serializer_4',['serializer',['../structtoml_1_1serializer.html',1,'toml']]],
   ['server_5',['server',['../classmemory_1_1server.html',1,'memory::server'],['../classtransport_1_1server.html',1,'transport::server'],['../classtransport_1_1tcp_1_1server.html',1,'transport::tcp::server']]],
   ['servers_6',['servers',['../classservers.html',1,'']]],

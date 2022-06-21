@@ -104,7 +104,7 @@ var hierarchy =
     [ "toml::detail::exclude< Combinator >", "structtoml_1_1detail_1_1exclude.html", null ],
     [ "util::factory< base_t >", "classutil_1_1factory.html", null ],
     [ "util::factory< endpoint >", "classutil_1_1factory.html", [
-      [ "logging::endpoint::endpoint", "structlogging_1_1endpoint_1_1endpoint.html", null ]
+      [ "logging::endpoint", "structlogging_1_1endpoint.html", null ]
     ] ],
     [ "toml::failure< T >", "structtoml_1_1failure.html", null ],
     [ "toml::failure< error_type >", "structtoml_1_1failure.html", null ],
@@ -199,9 +199,9 @@ var hierarchy =
       [ "toml::detail::region", "structtoml_1_1detail_1_1region.html", null ]
     ] ],
     [ "endpoint::registrar", null, [
-      [ "logging::endpoint::file", "classlogging_1_1endpoint_1_1file.html", null ],
-      [ "logging::endpoint::serial", "classlogging_1_1endpoint_1_1serial.html", null ],
-      [ "logging::endpoint::terminal", "classlogging_1_1endpoint_1_1terminal.html", null ]
+      [ "logging::endpoints::file", "classlogging_1_1endpoints_1_1file.html", null ],
+      [ "logging::endpoints::serial", "classlogging_1_1endpoints_1_1serial.html", null ],
+      [ "logging::endpoints::terminal", "classlogging_1_1endpoints_1_1terminal.html", null ]
     ] ],
     [ "toml::detail::remove_cvref< T >", "structtoml_1_1detail_1_1remove__cvref.html", null ],
     [ "toml::detail::repeat< T, N >", "structtoml_1_1detail_1_1repeat.html", null ],

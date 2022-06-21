@@ -6,7 +6,7 @@ var searchData=
   ['element_3',['element',['../classatomic__cr_1_1element.html',1,'atomic_cr&lt; size &gt;::element'],['../structatomic__mpsc_1_1element.html',1,'atomic_mpsc::element'],['../structelement.html',1,'element']]],
   ['element_5ft_4',['element_t',['../structmemory_1_1element__t.html',1,'memory::element_t'],['../structmpsc_1_1element__t.html',1,'mpsc&lt; T, size &gt;::element_t'],['../structpatricia_1_1element__t.html',1,'patricia::element_t']]],
   ['empty_5fiterator_5',['empty_iterator',['../structtoml_1_1detail_1_1empty__iterator.html',1,'toml::detail']]],
-  ['endpoint_6',['endpoint',['../structlogging_1_1endpoint_1_1endpoint.html',1,'logging::endpoint']]],
+  ['endpoint_6',['endpoint',['../structlogging_1_1endpoint.html',1,'logging']]],
   ['enum_5fto_5ftype_7',['enum_to_type',['../structtoml_1_1detail_1_1enum__to__type.html',1,'toml::detail']]],
   ['enum_5fto_5ftype_3c_20value_5ft_3a_3aarray_2c_20value_20_3e_8',['enum_to_type&lt; value_t::array, Value &gt;',['../structtoml_1_1detail_1_1enum__to__type_3_01value__t_1_1array_00_01Value_01_4.html',1,'toml::detail']]],
   ['enum_5fto_5ftype_3c_20value_5ft_3a_3aboolean_2c_20value_20_3e_9',['enum_to_type&lt; value_t::boolean, Value &gt;',['../structtoml_1_1detail_1_1enum__to__type_3_01value__t_1_1boolean_00_01Value_01_4.html',1,'toml::detail']]],

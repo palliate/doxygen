@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['terminal_0',['terminal',['../classlogging_1_1endpoint_1_1terminal.html',1,'logging::endpoint']]],
+  ['terminal_0',['terminal',['../classlogging_1_1endpoints_1_1terminal.html',1,'logging::endpoints']]],
   ['time_5foffset_1',['time_offset',['../structtoml_1_1time__offset.html',1,'toml']]],
   ['tray_2',['tray',['../classtray.html',1,'']]],
   ['type_5ferror_3',['type_error',['../structtoml_1_1type__error.html',1,'toml']]],

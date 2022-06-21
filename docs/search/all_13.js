@@ -6,7 +6,7 @@ var searchData=
   ['sequence_3',['sequence',['../structtoml_1_1detail_1_1sequence.html',1,'toml::detail']]],
   ['sequence_3c_20head_20_3e_4',['sequence&lt; Head &gt;',['../structtoml_1_1detail_1_1sequence_3_01Head_01_4.html',1,'toml::detail']]],
   ['sequence_3c_20head_2c_20tail_2e_2e_2e_20_3e_5',['sequence&lt; Head, Tail... &gt;',['../structtoml_1_1detail_1_1sequence_3_01Head_00_01Tail_8_8_8_01_4.html',1,'toml::detail']]],
-  ['serial_6',['serial',['../classlogging_1_1endpoint_1_1serial.html',1,'logging::endpoint::serial'],['../classlogging_1_1endpoint_1_1serial.html#ac42d260df030ec4626bc04191fd2ee17',1,'logging::endpoint::serial::serial()']]],
+  ['serial_6',['serial',['../classlogging_1_1endpoints_1_1serial.html',1,'logging::endpoints::serial'],['../classlogging_1_1endpoints_1_1serial.html#ac42d260df030ec4626bc04191fd2ee17',1,'logging::endpoints::serial::serial()']]],
   ['serial_2ecpp_7',['serial.cpp',['../serial_8cpp.html',1,'']]],
   ['serial_2eh_8',['serial.h',['../serial_8h.html',1,'']]],
   ['serializer_9',['serializer',['../structtoml_1_1serializer.html#a84a3932550107d11bf1223609f8bd01a',1,'toml::serializer::serializer()'],['../structtoml_1_1serializer.html',1,'toml::serializer&lt; Value &gt;']]],

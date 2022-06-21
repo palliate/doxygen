@@ -1,7 +1,7 @@
 var searchData=
 [
   ['send_0',['send',['../classtransport_1_1tcp_1_1client.html#a6eb8fc40b408b7181aa09b481ca82643',1,'transport::tcp::client::send()'],['../classtransport_1_1client.html#a9d5e72080425f6093655f2820575c6c1',1,'transport::client::send()']]],
-  ['serial_1',['serial',['../classlogging_1_1endpoint_1_1serial.html#ac42d260df030ec4626bc04191fd2ee17',1,'logging::endpoint::serial']]],
+  ['serial_1',['serial',['../classlogging_1_1endpoints_1_1serial.html#ac42d260df030ec4626bc04191fd2ee17',1,'logging::endpoints::serial']]],
   ['serializer_2',['serializer',['../structtoml_1_1serializer.html#a84a3932550107d11bf1223609f8bd01a',1,'toml::serializer']]],
   ['server_3',['server',['../classmemory_1_1server.html#afc4dec957a29610da254bd18c58d6d8a',1,'memory::server::server()'],['../classtransport_1_1server.html#af1b0e15aacac1ab5e2e9001a57a251eb',1,'transport::server::server()'],['../classtransport_1_1tcp_1_1server.html#a072581b46a2db24e284921178ebc7c52',1,'transport::tcp::server::server()']]],
   ['set_4',['set',['../classwindow.html#a4021b4c8be7d05b9e32222473389cfc4',1,'window']]],

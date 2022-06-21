@@ -19,13 +19,13 @@ var annotated_dup =
       [ "foo", "structextlib3_1_1foo.html", "structextlib3_1_1foo" ]
     ] ],
     [ "logging", "namespacelogging.html", [
-      [ "endpoint", "namespacelogging_1_1endpoint.html", [
-        [ "endpoint", "structlogging_1_1endpoint_1_1endpoint.html", "structlogging_1_1endpoint_1_1endpoint" ],
-        [ "file", "classlogging_1_1endpoint_1_1file.html", "classlogging_1_1endpoint_1_1file" ],
-        [ "serial", "classlogging_1_1endpoint_1_1serial.html", "classlogging_1_1endpoint_1_1serial" ],
-        [ "terminal", "classlogging_1_1endpoint_1_1terminal.html", "classlogging_1_1endpoint_1_1terminal" ]
+      [ "endpoints", "namespacelogging_1_1endpoints.html", [
+        [ "file", "classlogging_1_1endpoints_1_1file.html", "classlogging_1_1endpoints_1_1file" ],
+        [ "serial", "classlogging_1_1endpoints_1_1serial.html", "classlogging_1_1endpoints_1_1serial" ],
+        [ "terminal", "classlogging_1_1endpoints_1_1terminal.html", "classlogging_1_1endpoints_1_1terminal" ]
       ] ],
       [ "annotated", "structlogging_1_1annotated.html", "structlogging_1_1annotated" ],
+      [ "endpoint", "structlogging_1_1endpoint.html", "structlogging_1_1endpoint" ],
       [ "logger", "classlogging_1_1logger.html", "classlogging_1_1logger" ],
       [ "message", "structlogging_1_1message.html", "structlogging_1_1message" ]
     ] ],
