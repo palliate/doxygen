@@ -112,10 +112,16 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5418a702ebe20e622a5962c9cc22b559"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRPC_1_1Context.html#a5418a702ebe20e622a5962c9cc22b559">Context</a> (kj::Own&lt; kj::AsyncIoStream &gt; &amp;&amp;<a class="el" href="structRPC_1_1Context.html#a8bfe97f5ea44f6a5800d505d3b3d5c35">stream</a>, capnp::Capability::Client interface)</td></tr>
-<tr class="separator:a5418a702ebe20e622a5962c9cc22b559"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13a13b751d11be537b3561a3e775e915"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRPC_1_1Context.html#a13a13b751d11be537b3561a3e775e915">Context</a> (kj::Own&lt; kj::AsyncIoStream &gt; &amp;&amp;<a class="el" href="structRPC_1_1Context.html#a8bfe97f5ea44f6a5800d505d3b3d5c35">stream</a>)</td></tr>
 <tr class="separator:a13a13b751d11be537b3561a3e775e915"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5418a702ebe20e622a5962c9cc22b559"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRPC_1_1Context.html#a5418a702ebe20e622a5962c9cc22b559">Context</a> (kj::Own&lt; kj::AsyncIoStream &gt; &amp;&amp;<a class="el" href="structRPC_1_1Context.html#a8bfe97f5ea44f6a5800d505d3b3d5c35">stream</a>, capnp::Capability::Client interface)</td></tr>
+<tr class="separator:a5418a702ebe20e622a5962c9cc22b559"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb5f9041aa7627f75f8bca1f0c70790f"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; <br />
+requires requires { typename T::Client; }</td></tr>
+<tr class="memitem:acb5f9041aa7627f75f8bca1f0c70790f"><td class="memTemplItemLeft" align="right" valign="top">T::Client&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structRPC_1_1Context.html#acb5f9041aa7627f75f8bca1f0c70790f">get_interface</a> ()</td></tr>
+<tr class="separator:acb5f9041aa7627f75f8bca1f0c70790f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ebb064c98ae7fda772db641803cf2b2"><td class="memItemLeft" align="right" valign="top">capnp::Capability::Client&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRPC_1_1Context.html#a6ebb064c98ae7fda772db641803cf2b2">bootstrap</a> ()</td></tr>
+<tr class="separator:a6ebb064c98ae7fda772db641803cf2b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -148,8 +154,34 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a13a13b751d11be537b3561a3e775e915" name="a13a13b751d11be537b3561a3e775e915"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13a13b751d11be537b3561a3e775e915">&#9670;&nbsp;</a></span>Context() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">RPC::Context::Context </td>
+          <td>(</td>
+          <td class="paramtype">kj::Own&lt; kj::AsyncIoStream &gt; &amp;&amp;&#160;</td>
+          <td class="paramname"><em>stream</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a5418a702ebe20e622a5962c9cc22b559" name="a5418a702ebe20e622a5962c9cc22b559"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5418a702ebe20e622a5962c9cc22b559">&#9670;&nbsp;</a></span>Context() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5418a702ebe20e622a5962c9cc22b559">&#9670;&nbsp;</a></span>Context() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -184,26 +216,46 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a13a13b751d11be537b3561a3e775e915" name="a13a13b751d11be537b3561a3e775e915"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a13a13b751d11be537b3561a3e775e915">&#9670;&nbsp;</a></span>Context() <span class="overload">[2/2]</span></h2>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a6ebb064c98ae7fda772db641803cf2b2" name="a6ebb064c98ae7fda772db641803cf2b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ebb064c98ae7fda772db641803cf2b2">&#9670;&nbsp;</a></span>bootstrap()</h2>
 
 <div class="memitem">
 <div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">capnp::Capability::Client RPC::Context::bootstrap </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acb5f9041aa7627f75f8bca1f0c70790f" name="acb5f9041aa7627f75f8bca1f0c70790f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb5f9041aa7627f75f8bca1f0c70790f">&#9670;&nbsp;</a></span>get_interface()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; <br />
+requires requires { typename T::Client; }</div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">RPC::Context::Context </td>
+          <td class="memname">T::Client RPC::Context::get_interface </td>
           <td>(</td>
-          <td class="paramtype">kj::Own&lt; kj::AsyncIoStream &gt; &amp;&amp;&#160;</td>
-          <td class="paramname"><em>stream</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -267,8 +319,9 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<hr/>The documentation for this struct was generated from the following file:<ul>
+<hr/>The documentation for this struct was generated from the following files:<ul>
 <li><a class="el" href="context_8h.html">context.h</a></li>
+<li><a class="el" href="context_8cpp.html">context.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

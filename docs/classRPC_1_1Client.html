@@ -95,9 +95,8 @@ $(document).ready(function(){initNavTree('classRPC_1_1Client.html',''); initResi
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classRPC_1_1Client-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">RPC::Client Class Reference</div></div>
+  <div class="headertitle"><div class="title">RPC::Client Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -105,55 +104,38 @@ $(document).ready(function(){initNavTree('classRPC_1_1Client.html',''); initResi
 <div class="dynheader">
 Inheritance diagram for RPC::Client:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classRPC_1_1Client__inherit__graph.svg" width="144" height="316"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classRPC_1_1Client__inherit__graph.svg" width="178" height="258"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae51af7aa6b8f591496a8f6a4a87a14bf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRPC_1_1Client.html#ae51af7aa6b8f591496a8f6a4a87a14bf">Client</a> ()</td></tr>
-<tr class="separator:ae51af7aa6b8f591496a8f6a4a87a14bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:affdc51e5b272d617227175dbbb63ef49"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRPC_1_1Client.html#affdc51e5b272d617227175dbbb63ef49">Client</a> (kj::Own&lt; kj::AsyncIoStream &gt; &amp;&amp;stream)</td></tr>
-<tr class="separator:affdc51e5b272d617227175dbbb63ef49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79eac0dc40ce2a829172c293b0fe6e2b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRPC_1_1Client.html#a79eac0dc40ce2a829172c293b0fe6e2b">Client</a> (kj::Own&lt; kj::AsyncIoStream &gt; &amp;&amp;stream, capnp::Capability::Client interface)</td></tr>
-<tr class="separator:a79eac0dc40ce2a829172c293b0fe6e2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addf51a46219ba5da1ed510839ac9909a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRPC_1_1Client.html#addf51a46219ba5da1ed510839ac9909a">Client</a> (Key)</td></tr>
+<tr class="separator:addf51a46219ba5da1ed510839ac9909a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f6125696cf2bf4220dc1938379ed8c1"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRPC_1_1Client.html#a6f6125696cf2bf4220dc1938379ed8c1">~Client</a> ()</td></tr>
 <tr class="separator:a6f6125696cf2bf4220dc1938379ed8c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ea2bc1e7d04f9668ef964a181073121"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; <br />
-requires requires { typename T::Client; }</td></tr>
-<tr class="memitem:a3ea2bc1e7d04f9668ef964a181073121"><td class="memTemplItemLeft" align="right" valign="top">T::Client&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classRPC_1_1Client.html#a3ea2bc1e7d04f9668ef964a181073121">get_interface</a> ()</td></tr>
-<tr class="separator:a3ea2bc1e7d04f9668ef964a181073121"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a459fa7f7f66445ffaf7d585df7545cea"><td class="memItemLeft" align="right" valign="top">virtual kj::WaitScope &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRPC_1_1Client.html#a459fa7f7f66445ffaf7d585df7545cea">wait_scope</a> ()=0</td></tr>
+<tr class="separator:a459fa7f7f66445ffaf7d585df7545cea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a925e0b4161e7d3db17d7f44f06060347"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structRPC_1_1Context.html">RPC::Context</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRPC_1_1Client.html#a925e0b4161e7d3db17d7f44f06060347">context</a></td></tr>
 <tr class="separator:a925e0b4161e7d3db17d7f44f06060347"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_classutil_1_1Factory"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classutil_1_1Factory')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classutil_1_1Factory.html">util::Factory&lt; Client &gt;</a></td></tr>
+<tr class="memitem:a451b54294d90a4aeaba47d9d27ae41a4 inherit pub_attribs_classutil_1_1Factory"><td class="memItemLeft" align="right" valign="top">friend&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1Factory.html#a451b54294d90a4aeaba47d9d27ae41a4">base_t</a></td></tr>
+<tr class="separator:a451b54294d90a4aeaba47d9d27ae41a4 inherit pub_attribs_classutil_1_1Factory"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:a85a2ee54200fa08a6e2d160e1306e892"><td class="memItemLeft" align="right" valign="top">capnp::Capability::Client&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRPC_1_1Client.html#a85a2ee54200fa08a6e2d160e1306e892">bootstrap</a> ()</td></tr>
-<tr class="separator:a85a2ee54200fa08a6e2d160e1306e892"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_static_methods_classutil_1_1Factory"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classutil_1_1Factory')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classutil_1_1Factory.html">util::Factory&lt; Client &gt;</a></td></tr>
+<tr class="memitem:a63a11fc7d7410f8f027e8cb98f5691e1 inherit pub_static_methods_classutil_1_1Factory"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; Client &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1Factory.html#a63a11fc7d7410f8f027e8cb98f5691e1">make</a> (<a class="el" href="namespacetoml.html#a34e466167cc683c477838accdebb2578">toml::value</a> const &amp;node, std::string const &amp;key)</td></tr>
+<tr class="separator:a63a11fc7d7410f8f027e8cb98f5691e1 inherit pub_static_methods_classutil_1_1Factory"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0644d51c791bb4c910ddf678dc3f9187 inherit pub_static_methods_classutil_1_1Factory"><td class="memItemLeft" align="right" valign="top">static auto &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1Factory.html#a0644d51c791bb4c910ddf678dc3f9187">map</a> ()</td></tr>
+<tr class="separator:a0644d51c791bb4c910ddf678dc3f9187 inherit pub_static_methods_classutil_1_1Factory"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ae51af7aa6b8f591496a8f6a4a87a14bf" name="ae51af7aa6b8f591496a8f6a4a87a14bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae51af7aa6b8f591496a8f6a4a87a14bf">&#9670;&nbsp;</a></span>Client() <span class="overload">[1/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Client::Client </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="affdc51e5b272d617227175dbbb63ef49" name="affdc51e5b272d617227175dbbb63ef49"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#affdc51e5b272d617227175dbbb63ef49">&#9670;&nbsp;</a></span>Client() <span class="overload">[2/3]</span></h2>
+<a id="addf51a46219ba5da1ed510839ac9909a" name="addf51a46219ba5da1ed510839ac9909a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addf51a46219ba5da1ed510839ac9909a">&#9670;&nbsp;</a></span>Client()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -162,46 +144,18 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Client::Client </td>
+          <td class="memname">RPC::Client::Client </td>
           <td>(</td>
-          <td class="paramtype">kj::Own&lt; kj::AsyncIoStream &gt; &amp;&amp;&#160;</td>
-          <td class="paramname"><em>stream</em></td><td>)</td>
+          <td class="paramtype">Key&#160;</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a79eac0dc40ce2a829172c293b0fe6e2b" name="a79eac0dc40ce2a829172c293b0fe6e2b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79eac0dc40ce2a829172c293b0fe6e2b">&#9670;&nbsp;</a></span>Client() <span class="overload">[3/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Client::Client </td>
-          <td>(</td>
-          <td class="paramtype">kj::Own&lt; kj::AsyncIoStream &gt; &amp;&amp;&#160;</td>
-          <td class="paramname"><em>stream</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">capnp::Capability::Client&#160;</td>
-          <td class="paramname"><em>interface</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
 </div><div class="memdoc">
 
 </div>
@@ -229,13 +183,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classRPC_1_1TCP_1_1Client.html#aca7924f1fba5cbdc6d527d825bd56e64">RPC::TCP::Client</a>.</p>
-
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a85a2ee54200fa08a6e2d160e1306e892" name="a85a2ee54200fa08a6e2d160e1306e892"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85a2ee54200fa08a6e2d160e1306e892">&#9670;&nbsp;</a></span>bootstrap()</h2>
+<a id="a459fa7f7f66445ffaf7d585df7545cea" name="a459fa7f7f66445ffaf7d585df7545cea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a459fa7f7f66445ffaf7d585df7545cea">&#9670;&nbsp;</a></span>wait_scope()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -244,7 +196,7 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">capnp::Capability::Client RPC::Client::bootstrap </td>
+          <td class="memname">virtual kj::WaitScope &amp; RPC::Client::wait_scope </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -252,35 +204,7 @@ Protected Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3ea2bc1e7d04f9668ef964a181073121" name="a3ea2bc1e7d04f9668ef964a181073121"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ea2bc1e7d04f9668ef964a181073121">&#9670;&nbsp;</a></span>get_interface()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; <br />
-requires requires { typename T::Client; }</div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">T::Client RPC::Client::get_interface </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -302,9 +226,8 @@ requires requires { typename T::Client; }</div>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following files:<ul>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="rpc_2client_8h.html">rpc/client.h</a></li>
-<li><a class="el" href="rpc_2client_8cpp.html">rpc/client.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

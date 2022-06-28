@@ -40,7 +40,7 @@ var searchData=
   ['_7eserial_37',['~serial',['../classlogging_1_1endpoints_1_1serial.html#a1ad8c30459ed7ffe912ed8b6f596c0e4',1,'logging::endpoints::serial']]],
   ['_7eserializer_38',['~serializer',['../structtoml_1_1serializer.html#ac1e249df1614b27b9819ccc9772162ee',1,'toml::serializer']]],
   ['_7eserver_39',['~server',['../classmemory_1_1server.html#a082284e960949ae7809b4ebbc9ceb52c',1,'memory::server']]],
-  ['_7eserver_40',['~Server',['../classtransport_1_1Server.html#a8c9e08df9ade8395b336648d5c4af182',1,'transport::Server::~Server()'],['../classRPC_1_1TCP_1_1Server.html#a3c40ce0558fc25d84ca97f4e84ff7de2',1,'RPC::TCP::Server::~Server()'],['../classRPC_1_1Server.html#ac0bb74261bc82b5a86a4c83e4b718f1d',1,'RPC::Server::~Server()']]],
+  ['_7eserver_40',['~Server',['../classtransport_1_1Server.html#a8c9e08df9ade8395b336648d5c4af182',1,'transport::Server::~Server()'],['../classRPC_1_1TCP_1_1Server.html#ad434c31de91e2558a23ba2a4f6804991',1,'RPC::TCP::Server::~Server()'],['../classRPC_1_1Server.html#af72d1d9a80b16070359fe3b376ef9c36',1,'RPC::Server::~Server()']]],
   ['_7esource_5flocation_41',['~source_location',['../structtoml_1_1source__location.html#a6d846958faefc95bbd78feda0a5cb842',1,'toml::source_location']]],
   ['_7estorage_42',['~storage',['../structtoml_1_1detail_1_1storage.html#a4309e00c77968b8b5610fde05ea2a290',1,'toml::detail::storage']]],
   ['_7estring_43',['~string',['../structtoml_1_1string.html#a2f55dc01f6f320de416eb17c45379ebf',1,'toml::string']]],

@@ -11,5 +11,6 @@ var searchData=
   ['configurable_2eh_8',['configurable.h',['../configurable_8h.html',1,'']]],
   ['consumer_2ecpp_9',['consumer.cpp',['../consumer_8cpp.html',1,'']]],
   ['consumer_2eh_10',['consumer.h',['../consumer_8h.html',1,'']]],
-  ['context_2eh_11',['context.h',['../context_8h.html',1,'']]]
+  ['context_2ecpp_11',['context.cpp',['../context_8cpp.html',1,'']]],
+  ['context_2eh_12',['context.h',['../context_8h.html',1,'']]]
 ];

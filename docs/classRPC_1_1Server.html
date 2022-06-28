@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('classRPC_1_1Server.html',''); initResi
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classRPC_1_1Server-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">RPC::Server Class Reference</div></div>
+  <div class="headertitle"><div class="title">RPC::Server Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -105,64 +105,79 @@ $(document).ready(function(){initNavTree('classRPC_1_1Server.html',''); initResi
 <div class="dynheader">
 Inheritance diagram for RPC::Server:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classRPC_1_1Server__inherit__graph.svg" width="142" height="316"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classRPC_1_1Server__inherit__graph.svg" width="182" height="346"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:acf7386f0af17e8d7422fa2cdb2ce424e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRPC_1_1Server.html#acf7386f0af17e8d7422fa2cdb2ce424e">Server</a> (kj::TaskSet &amp;_tasks, capnp::Capability::Client _interface)</td></tr>
-<tr class="separator:acf7386f0af17e8d7422fa2cdb2ce424e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0bb74261bc82b5a86a4c83e4b718f1d"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRPC_1_1Server.html#ac0bb74261bc82b5a86a4c83e4b718f1d">~Server</a> ()</td></tr>
-<tr class="separator:ac0bb74261bc82b5a86a4c83e4b718f1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0eccd57fe950224d66a3f01bc1bd076c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRPC_1_1Server.html#a0eccd57fe950224d66a3f01bc1bd076c">Server</a> (Key)</td></tr>
+<tr class="separator:a0eccd57fe950224d66a3f01bc1bd076c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af72d1d9a80b16070359fe3b376ef9c36"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRPC_1_1Server.html#af72d1d9a80b16070359fe3b376ef9c36">~Server</a> () noexcept</td></tr>
+<tr class="separator:af72d1d9a80b16070359fe3b376ef9c36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad80641f113817f364ef867810f9fbe79"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRPC_1_1Server.html#ad80641f113817f364ef867810f9fbe79">enable</a> (capnp::Capability::Client _interface)</td></tr>
+<tr class="separator:ad80641f113817f364ef867810f9fbe79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9026e882c491c0b55806fc69fe27c8f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRPC_1_1Server.html#ac9026e882c491c0b55806fc69fe27c8f">run</a> ()=0</td></tr>
+<tr class="separator:ac9026e882c491c0b55806fc69fe27c8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e0c5dcec5f72fce2e929e28b24f4e24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRPC_1_1Server.html#a8e0c5dcec5f72fce2e929e28b24f4e24">accept</a> (kj::Own&lt; kj::ConnectionReceiver &gt; &amp;&amp;listener)</td></tr>
 <tr class="separator:a8e0c5dcec5f72fce2e929e28b24f4e24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a435f82ce6531c2637b1cd03de70cdd3e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRPC_1_1Server.html#a435f82ce6531c2637b1cd03de70cdd3e">remove</a> (<a class="el" href="classRPC_1_1Client.html">Client</a> const *ptr)</td></tr>
-<tr class="separator:a435f82ce6531c2637b1cd03de70cdd3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a251f49078124dd3e8e577c2d4f659fe2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRPC_1_1Server.html#a251f49078124dd3e8e577c2d4f659fe2">remove</a> (<a class="el" href="structRPC_1_1Context.html">Context</a> const *ptr)</td></tr>
+<tr class="separator:a251f49078124dd3e8e577c2d4f659fe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a8c572ff2f7471b64b0e7687595aec0e7"><td class="memItemLeft" align="right" valign="top">kj::TaskSet &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRPC_1_1Server.html#a8c572ff2f7471b64b0e7687595aec0e7">tasks</a></td></tr>
-<tr class="separator:a8c572ff2f7471b64b0e7687595aec0e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6cfbdfff623da0dacb10726815e1b3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structRPC_1_1ErrorHandler.html">ErrorHandler</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRPC_1_1Server.html#ac6cfbdfff623da0dacb10726815e1b3e">err_handler</a></td></tr>
+<tr class="separator:ac6cfbdfff623da0dacb10726815e1b3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96f2a298b5a39943bdbbe883b2f2513a"><td class="memItemLeft" align="right" valign="top">kj::TaskSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRPC_1_1Server.html#a96f2a298b5a39943bdbbe883b2f2513a">tasks</a> {{<a class="el" href="classRPC_1_1Server.html#ac6cfbdfff623da0dacb10726815e1b3e">err_handler</a>}}</td></tr>
+<tr class="separator:a96f2a298b5a39943bdbbe883b2f2513a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a866d51bece811d11362e9e4899661d92"><td class="memItemLeft" align="right" valign="top">capnp::Capability::Client&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRPC_1_1Server.html#a866d51bece811d11362e9e4899661d92">interface</a> { nullptr }</td></tr>
 <tr class="separator:a866d51bece811d11362e9e4899661d92"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f213d24f4ba981a59ebb15a1d861df8"><td class="memItemLeft" align="right" valign="top">std::list&lt; kj::Own&lt; <a class="el" href="classRPC_1_1Client.html">Client</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRPC_1_1Server.html#a7f213d24f4ba981a59ebb15a1d861df8">clients</a> {}</td></tr>
-<tr class="separator:a7f213d24f4ba981a59ebb15a1d861df8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a780889679d417b2923c51a62d5424df4"><td class="memItemLeft" align="right" valign="top">std::list&lt; kj::Own&lt; <a class="el" href="structRPC_1_1Context.html">Context</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRPC_1_1Server.html#a780889679d417b2923c51a62d5424df4">contexts</a> {}</td></tr>
+<tr class="separator:a780889679d417b2923c51a62d5424df4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_static_methods_classutil_1_1Factory"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classutil_1_1Factory')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classutil_1_1Factory.html">util::Factory&lt; Server &gt;</a></td></tr>
+<tr class="memitem:a63a11fc7d7410f8f027e8cb98f5691e1 inherit pub_static_methods_classutil_1_1Factory"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; Server &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1Factory.html#a63a11fc7d7410f8f027e8cb98f5691e1">make</a> (<a class="el" href="namespacetoml.html#a34e466167cc683c477838accdebb2578">toml::value</a> const &amp;node, std::string const &amp;key)</td></tr>
+<tr class="separator:a63a11fc7d7410f8f027e8cb98f5691e1 inherit pub_static_methods_classutil_1_1Factory"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0644d51c791bb4c910ddf678dc3f9187 inherit pub_static_methods_classutil_1_1Factory"><td class="memItemLeft" align="right" valign="top">static auto &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1Factory.html#a0644d51c791bb4c910ddf678dc3f9187">map</a> ()</td></tr>
+<tr class="separator:a0644d51c791bb4c910ddf678dc3f9187 inherit pub_static_methods_classutil_1_1Factory"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_classutil_1_1Factory"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classutil_1_1Factory')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classutil_1_1Factory.html">util::Factory&lt; Server &gt;</a></td></tr>
+<tr class="memitem:a451b54294d90a4aeaba47d9d27ae41a4 inherit pub_attribs_classutil_1_1Factory"><td class="memItemLeft" align="right" valign="top">friend&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1Factory.html#a451b54294d90a4aeaba47d9d27ae41a4">base_t</a></td></tr>
+<tr class="separator:a451b54294d90a4aeaba47d9d27ae41a4 inherit pub_attribs_classutil_1_1Factory"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="acf7386f0af17e8d7422fa2cdb2ce424e" name="acf7386f0af17e8d7422fa2cdb2ce424e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf7386f0af17e8d7422fa2cdb2ce424e">&#9670;&nbsp;</a></span>Server()</h2>
+<a id="a0eccd57fe950224d66a3f01bc1bd076c" name="a0eccd57fe950224d66a3f01bc1bd076c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0eccd57fe950224d66a3f01bc1bd076c">&#9670;&nbsp;</a></span>Server()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Server::Server </td>
+          <td class="memname">RPC::Server::Server </td>
           <td>(</td>
-          <td class="paramtype">kj::TaskSet &amp;&#160;</td>
-          <td class="paramname"><em>_tasks</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">Key&#160;</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype">capnp::Capability::Client&#160;</td>
-          <td class="paramname"><em>_interface</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="ac0bb74261bc82b5a86a4c83e4b718f1d" name="ac0bb74261bc82b5a86a4c83e4b718f1d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac0bb74261bc82b5a86a4c83e4b718f1d">&#9670;&nbsp;</a></span>~Server()</h2>
+<a id="af72d1d9a80b16070359fe3b376ef9c36" name="af72d1d9a80b16070359fe3b376ef9c36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af72d1d9a80b16070359fe3b376ef9c36">&#9670;&nbsp;</a></span>~Server()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -179,12 +194,10 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Reimplemented in <a class="el" href="classRPC_1_1TCP_1_1Server.html#a3c40ce0558fc25d84ca97f4e84ff7de2">RPC::TCP::Server</a>.</p>
 
 </div>
 </div>
@@ -207,8 +220,26 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a435f82ce6531c2637b1cd03de70cdd3e" name="a435f82ce6531c2637b1cd03de70cdd3e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a435f82ce6531c2637b1cd03de70cdd3e">&#9670;&nbsp;</a></span>remove()</h2>
+<a id="ad80641f113817f364ef867810f9fbe79" name="ad80641f113817f364ef867810f9fbe79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad80641f113817f364ef867810f9fbe79">&#9670;&nbsp;</a></span>enable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Server::enable </td>
+          <td>(</td>
+          <td class="paramtype">capnp::Capability::Client&#160;</td>
+          <td class="paramname"><em>_interface</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a251f49078124dd3e8e577c2d4f659fe2" name="a251f49078124dd3e8e577c2d4f659fe2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a251f49078124dd3e8e577c2d4f659fe2">&#9670;&nbsp;</a></span>remove()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -219,7 +250,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">void Server::remove </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classRPC_1_1Client.html">Client</a> const *&#160;</td>
+          <td class="paramtype"><a class="el" href="structRPC_1_1Context.html">Context</a> const *&#160;</td>
           <td class="paramname"><em>ptr</em></td><td>)</td>
           <td></td>
         </tr>
@@ -233,9 +264,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a7f213d24f4ba981a59ebb15a1d861df8" name="a7f213d24f4ba981a59ebb15a1d861df8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f213d24f4ba981a59ebb15a1d861df8">&#9670;&nbsp;</a></span>clients</h2>
+<a id="ac9026e882c491c0b55806fc69fe27c8f" name="ac9026e882c491c0b55806fc69fe27c8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9026e882c491c0b55806fc69fe27c8f">&#9670;&nbsp;</a></span>run()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -244,7 +274,55 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::list&lt;kj::Own&lt;<a class="el" href="classRPC_1_1Client.html">Client</a>&gt; &gt; RPC::Server::clients {}</td>
+          <td class="memname">virtual void RPC::Server::run </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a780889679d417b2923c51a62d5424df4" name="a780889679d417b2923c51a62d5424df4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a780889679d417b2923c51a62d5424df4">&#9670;&nbsp;</a></span>contexts</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::list&lt;kj::Own&lt;<a class="el" href="structRPC_1_1Context.html">Context</a>&gt; &gt; RPC::Server::contexts {}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac6cfbdfff623da0dacb10726815e1b3e" name="ac6cfbdfff623da0dacb10726815e1b3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6cfbdfff623da0dacb10726815e1b3e">&#9670;&nbsp;</a></span>err_handler</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structRPC_1_1ErrorHandler.html">ErrorHandler</a> RPC::Server::err_handler</td>
         </tr>
       </table>
   </td>
@@ -278,8 +356,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a8c572ff2f7471b64b0e7687595aec0e7" name="a8c572ff2f7471b64b0e7687595aec0e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c572ff2f7471b64b0e7687595aec0e7">&#9670;&nbsp;</a></span>tasks</h2>
+<a id="a96f2a298b5a39943bdbbe883b2f2513a" name="a96f2a298b5a39943bdbbe883b2f2513a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96f2a298b5a39943bdbbe883b2f2513a">&#9670;&nbsp;</a></span>tasks</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -288,7 +366,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">kj::TaskSet&amp; RPC::Server::tasks</td>
+          <td class="memname">kj::TaskSet RPC::Server::tasks {{<a class="el" href="classRPC_1_1Server.html#ac6cfbdfff623da0dacb10726815e1b3e">err_handler</a>}}</td>
         </tr>
       </table>
   </td>

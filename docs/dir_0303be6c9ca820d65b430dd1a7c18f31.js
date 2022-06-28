@@ -5,6 +5,7 @@ var dir_0303be6c9ca820d65b430dd1a7c18f31 =
     [ "rpc/client.cpp", "rpc_2client_8cpp.html", null ],
     [ "rpc/client.h", "rpc_2client_8h.html", "rpc_2client_8h" ],
     [ "rpc/constants.h", "rpc_2constants_8h.html", "rpc_2constants_8h" ],
+    [ "context.cpp", "context_8cpp.html", null ],
     [ "context.h", "context_8h.html", "context_8h" ],
     [ "error_handler.h", "error__handler_8h.html", "error__handler_8h" ],
     [ "rpc/server.cpp", "rpc_2server_8cpp.html", null ],

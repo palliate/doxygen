@@ -55,9 +55,6 @@ var hierarchy =
     [ "decltypehas_from_toml_method_impl::check< T, C, Tb, A >nullptr", null, [
       [ "toml::detail::has_from_toml_method< T, C, Tb, A >", "structtoml_1_1detail_1_1has__from__toml__method.html", null ]
     ] ],
-    [ "RPC::Client", "classRPC_1_1Client.html", [
-      [ "RPC::TCP::Client", "classRPC_1_1TCP_1_1Client.html", null ]
-    ] ],
     [ "toml::color_ansi::detail::color_mode", "classtoml_1_1color__ansi_1_1detail_1_1color__mode.html", null ],
     [ "util::configurable< T >", "classutil_1_1configurable.html", null ],
     [ "util::configurable< Config >", "classutil_1_1configurable.html", [
@@ -110,8 +107,14 @@ var hierarchy =
     ] ],
     [ "toml::detail::exclude< Combinator >", "structtoml_1_1detail_1_1exclude.html", null ],
     [ "util::Factory< base_t >", "classutil_1_1Factory.html", null ],
+    [ "util::Factory< Client >", "classutil_1_1Factory.html", [
+      [ "RPC::Client", "classRPC_1_1Client.html", null ]
+    ] ],
     [ "util::Factory< Endpoint >", "classutil_1_1Factory.html", [
       [ "logging::Endpoint", "structlogging_1_1Endpoint.html", null ]
+    ] ],
+    [ "util::Factory< Server >", "classutil_1_1Factory.html", [
+      [ "RPC::Server", "classRPC_1_1Server.html", null ]
     ] ],
     [ "toml::failure< T >", "structtoml_1_1failure.html", null ],
     [ "toml::failure< error_type >", "structtoml_1_1failure.html", null ],
@@ -210,6 +213,12 @@ var hierarchy =
       [ "logging::endpoints::serial", "classlogging_1_1endpoints_1_1serial.html", null ],
       [ "logging::endpoints::terminal", "classlogging_1_1endpoints_1_1terminal.html", null ]
     ] ],
+    [ "RPC::Client::registrar", null, [
+      [ "RPC::TCP::Client", "classRPC_1_1TCP_1_1Client.html", null ]
+    ] ],
+    [ "RPC::Server::registrar", null, [
+      [ "RPC::TCP::Server", "classRPC_1_1TCP_1_1Server.html", null ]
+    ] ],
     [ "toml::detail::remove_cvref< T >", "structtoml_1_1detail_1_1remove__cvref.html", null ],
     [ "toml::detail::repeat< T, N >", "structtoml_1_1detail_1_1repeat.html", null ],
     [ "toml::detail::repeat< T, at_least< N > >", "structtoml_1_1detail_1_1repeat_3_01T_00_01at__least_3_01N_01_4_01_4.html", null ],
@@ -231,9 +240,6 @@ var hierarchy =
     [ "toml::detail::sequence< Head >", "structtoml_1_1detail_1_1sequence_3_01Head_01_4.html", null ],
     [ "toml::detail::sequence< Head, Tail... >", "structtoml_1_1detail_1_1sequence_3_01Head_00_01Tail_8_8_8_01_4.html", null ],
     [ "toml::serializer< Value >", "structtoml_1_1serializer.html", null ],
-    [ "RPC::Server", "classRPC_1_1Server.html", [
-      [ "RPC::TCP::Server", "classRPC_1_1TCP_1_1Server.html", null ]
-    ] ],
     [ "Servers", "classServers.html", null ],
     [ "toml::source_location", "structtoml_1_1source__location.html", null ],
     [ "toml::detail::storage< T >", "structtoml_1_1detail_1_1storage.html", null ],

@@ -1,7 +1,9 @@
 var structRPC_1_1Context =
 [
-    [ "Context", "structRPC_1_1Context.html#a5418a702ebe20e622a5962c9cc22b559", null ],
     [ "Context", "structRPC_1_1Context.html#a13a13b751d11be537b3561a3e775e915", null ],
+    [ "Context", "structRPC_1_1Context.html#a5418a702ebe20e622a5962c9cc22b559", null ],
+    [ "bootstrap", "structRPC_1_1Context.html#a6ebb064c98ae7fda772db641803cf2b2", null ],
+    [ "get_interface", "structRPC_1_1Context.html#acb5f9041aa7627f75f8bca1f0c70790f", null ],
     [ "network", "structRPC_1_1Context.html#a5f42203a18c9190f93bd36e23e963297", null ],
     [ "rpc", "structRPC_1_1Context.html#a569f6df0b622453f891e32c627974f94", null ],
     [ "side", "structRPC_1_1Context.html#a979ec59aeb05182bd186a305e2d5c5d8", null ],
