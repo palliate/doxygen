@@ -2,7 +2,7 @@ var searchData=
 [
   ['wait_0',['wait',['../namespaceutil.html#a5171aaaa27dfde89ecb0319b157874fa',1,'util']]],
   ['wait_5fdesired_1',['wait_desired',['../namespaceutil.html#a9eba3c287782cbce127626d9ad74912f',1,'util']]],
-  ['wait_5fscope_2',['wait_scope',['../classtransport_1_1TCP_1_1Client.html#a48120d4928cdf919c6595d3143bc7168',1,'transport::TCP::Client']]],
+  ['wait_5fscope_2',['wait_scope',['../classRPC_1_1TCP_1_1Client.html#a36a85c70de1d8e265b2520986fe51bce',1,'RPC::TCP::Client']]],
   ['wait_5fundesired_3',['wait_undesired',['../namespaceutil.html#a6945bf8bbdf0205f8a0803e63cda042e',1,'util']]],
   ['waive_4',['WAIVE',['../namespacememory.html#a5489f7fba409dae5923725a7831d5026a26ac6ccdbd6eb122a03e0fdadf2a8b33',1,'memory']]],
   ['warning_5',['warning',['../namespacelogging.html#a72e7a108a3928d5e407b6a7723799826afe6af08edd74e3e77e5ec1058844088c',1,'logging::warning()'],['../classlogging_1_1logger.html#a5439d8eb06c59af6ed9ccb68b83adeb1',1,'logging::logger::warning()']]],

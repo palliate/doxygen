@@ -116,21 +116,22 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"classtoml_1_1basic__value.html#a0d39990ac7a3394568165926aed4634a",
-"classtoml_1_1basic__value.html#aac1f3b81e234f588c62fc491b8328b20",
-"classwindow.html#ab6cfb724a530ed7e385d0ce4f1bbc9f7",
-"get_8hpp.html#a98bb90cdc1f8d715b958e772c4f18700",
-"md____w_libpalliate_libpalliate_libpalliate_toml11_README.html#autotoc_md43",
-"namespacetoml.html#ac367edbc5bd982fe5c635d88da0a3647",
-"namespacetoml_1_1literals_1_1toml__literals.html",
-"structextlib_1_1baz.html#a15338b52e8ef5d916cfdfff481751806",
-"structtoml_1_1detail_1_1enum__to__type_3_01value__t_1_1local__date_00_01Value_01_4.html#a4805e39376ef518223b1ac2d8dc2508e",
-"structtoml_1_1detail_1_1region.html#a87508e13996dd9305fcbb7a99d7d12d1",
-"structtoml_1_1discard__comments.html#ad66a95b8cb49d9455ae208317ed0f11d",
-"structtoml_1_1preserve__comments.html#a3de6cc5635f6a4e6d157bcd6279091a0",
-"structtoml_1_1result.html#adda76790d56057a8322936b1e7e4bdd6",
-"structutil_1_1uuid.html",
-"test__parse__datetime_8cpp.html#aba179db61dbf6a5a74224cd35904b52a"
+"classpatricia.html#aabdf1be9cad8b8e4720fb1b67e94e115",
+"classtoml_1_1basic__value.html#a8c80028f02dae5fce11fa2de46e5a202",
+"classtransport_1_1TCP_1_1Client.html#ac124e47c22ae9703516bdcb2040a5ae5",
+"functions_i.html",
+"macros_8hpp.html#adc92d50ba245c3ef2edea4651c51733c",
+"namespacetoml.html#a99b223fe1b911188b415ace2e80d9aaaa84e2c64f38f78ba3ea5c905ab5a2da27",
+"namespacetoml_1_1detail.html#acb4f25d375836faf1f80d8d3e0e38048",
+"structatomic__stack_1_1node.html#a9a95b98ce7605d256b5a3853dedfea0c",
+"structtoml_1_1detail_1_1disjunction.html",
+"structtoml_1_1detail_1_1location.html#a77acc2849bdd83eca982742d351c763a",
+"structtoml_1_1discard__comments.html#a3ff5b4d3b124970303e54e605e314e8f",
+"structtoml_1_1local__time.html#a72d8ddb60132940e69383e21668f1250",
+"structtoml_1_1result.html#a4aab3e92f73bb52232dbf00e8f602e89",
+"structtoml_1_1success.html#a799a68a3a2b0d4ca379a1e1da75d6ede",
+"test__lex__floating_8cpp.html#a119b54460e6621b138905a55a97b9a1d",
+"transport_2tcp_2server_8cpp.html#a26769957ec1a2beaf223f33b66ee64ab"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

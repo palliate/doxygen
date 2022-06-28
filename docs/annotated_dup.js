@@ -38,6 +38,16 @@ var annotated_dup =
       [ "node_t", "structmemory_1_1node__t.html", "structmemory_1_1node__t" ],
       [ "server", "classmemory_1_1server.html", "classmemory_1_1server" ]
     ] ],
+    [ "RPC", "namespaceRPC.html", [
+      [ "TCP", "namespaceRPC_1_1TCP.html", [
+        [ "Client", "classRPC_1_1TCP_1_1Client.html", "classRPC_1_1TCP_1_1Client" ],
+        [ "Server", "classRPC_1_1TCP_1_1Server.html", "classRPC_1_1TCP_1_1Server" ]
+      ] ],
+      [ "Client", "classRPC_1_1Client.html", "classRPC_1_1Client" ],
+      [ "Context", "structRPC_1_1Context.html", "structRPC_1_1Context" ],
+      [ "ErrorHandler", "structRPC_1_1ErrorHandler.html", "structRPC_1_1ErrorHandler" ],
+      [ "Server", "classRPC_1_1Server.html", "classRPC_1_1Server" ]
+    ] ],
     [ "toml", "namespacetoml.html", [
       [ "color_ansi", "namespacetoml_1_1color__ansi.html", [
         [ "detail", "namespacetoml_1_1color__ansi_1_1detail.html", [
@@ -189,8 +199,6 @@ var annotated_dup =
         [ "Server", "classtransport_1_1TCP_1_1Server.html", "classtransport_1_1TCP_1_1Server" ]
       ] ],
       [ "Client", "classtransport_1_1Client.html", "classtransport_1_1Client" ],
-      [ "Context", "structtransport_1_1Context.html", "structtransport_1_1Context" ],
-      [ "ErrorHandler", "structtransport_1_1ErrorHandler.html", "structtransport_1_1ErrorHandler" ],
       [ "Server", "classtransport_1_1Server.html", "classtransport_1_1Server" ]
     ] ],
     [ "util", "namespaceutil.html", [
@@ -206,6 +214,7 @@ var annotated_dup =
     [ "atomic_semaphore", "classatomic__semaphore.html", "classatomic__semaphore" ],
     [ "atomic_stack", "classatomic__stack.html", "classatomic__stack" ],
     [ "backend", "classbackend.html", "classbackend" ],
+    [ "consumer", "classconsumer.html", "classconsumer" ],
     [ "dummy_container", "structdummy__container.html", "structdummy__container" ],
     [ "dummy_type", "structdummy__type.html", null ],
     [ "element", "structelement.html", "structelement" ],
@@ -215,6 +224,7 @@ var annotated_dup =
     [ "mpsc", "classmpsc.html", "classmpsc" ],
     [ "patricia", "classpatricia.html", "classpatricia" ],
     [ "plugin", "classplugin.html", "classplugin" ],
+    [ "producer", "classproducer.html", "classproducer" ],
     [ "runnable", "classrunnable.html", "classrunnable" ],
     [ "Servers", "classServers.html", "classServers" ],
     [ "tray", "classtray.html", "classtray" ],

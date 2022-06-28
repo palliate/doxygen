@@ -1,4 +1,4 @@
 var error__handler_8h =
 [
-    [ "transport::ErrorHandler", "structtransport_1_1ErrorHandler.html", "structtransport_1_1ErrorHandler" ]
+    [ "RPC::ErrorHandler", "structRPC_1_1ErrorHandler.html", "structRPC_1_1ErrorHandler" ]
 ];

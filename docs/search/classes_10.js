@@ -6,7 +6,7 @@ var searchData=
   ['serial_3',['serial',['../classlogging_1_1endpoints_1_1serial.html',1,'logging::endpoints']]],
   ['serializer_4',['serializer',['../structtoml_1_1serializer.html',1,'toml']]],
   ['server_5',['server',['../classmemory_1_1server.html',1,'memory']]],
-  ['server_6',['Server',['../classtransport_1_1Server.html',1,'transport::Server'],['../classtransport_1_1TCP_1_1Server.html',1,'transport::TCP::Server']]],
+  ['server_6',['Server',['../classRPC_1_1Server.html',1,'RPC::Server'],['../classRPC_1_1TCP_1_1Server.html',1,'RPC::TCP::Server'],['../classtransport_1_1Server.html',1,'transport::Server'],['../classtransport_1_1TCP_1_1Server.html',1,'transport::TCP::Server']]],
   ['servers_7',['Servers',['../classServers.html',1,'']]],
   ['source_5flocation_8',['source_location',['../structtoml_1_1source__location.html',1,'toml']]],
   ['storage_9',['storage',['../structtoml_1_1detail_1_1storage.html',1,'toml::detail']]],

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['taskfailed_0',['taskFailed',['../structtransport_1_1ErrorHandler.html#adf1db054bfc7e0a8dbad10501d4076a3',1,'transport::ErrorHandler']]],
+  ['taskfailed_0',['taskFailed',['../structRPC_1_1ErrorHandler.html#a2b5f2f0219c6e377a456444e84553dd2',1,'RPC::ErrorHandler']]],
   ['terminal_1',['terminal',['../classlogging_1_1endpoints_1_1terminal.html#a2b70ef201f1dd5602a3a1427bd01afa8',1,'logging::endpoints::terminal']]],
   ['thread_5fname_2',['thread_name',['../classlogging_1_1logger.html#a8e43231ab6556eb4da2184ffa69fd978',1,'logging::logger']]],
   ['throw_5fbad_5fcast_3',['throw_bad_cast',['../namespacetoml_1_1detail.html#a30e75a0d1f0d08d1b978c4260c8d36fb',1,'toml::detail']]],

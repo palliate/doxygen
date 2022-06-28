@@ -19,7 +19,7 @@ var searchData=
   ['enum_5fto_5ftype_3c_20value_5ft_3a_3aoffset_5fdatetime_2c_20value_20_3e_16',['enum_to_type&lt; value_t::offset_datetime, Value &gt;',['../structtoml_1_1detail_1_1enum__to__type_3_01value__t_1_1offset__datetime_00_01Value_01_4.html',1,'toml::detail']]],
   ['enum_5fto_5ftype_3c_20value_5ft_3a_3astring_2c_20value_20_3e_17',['enum_to_type&lt; value_t::string, Value &gt;',['../structtoml_1_1detail_1_1enum__to__type_3_01value__t_1_1string_00_01Value_01_4.html',1,'toml::detail']]],
   ['enum_5fto_5ftype_3c_20value_5ft_3a_3atable_2c_20value_20_3e_18',['enum_to_type&lt; value_t::table, Value &gt;',['../structtoml_1_1detail_1_1enum__to__type_3_01value__t_1_1table_00_01Value_01_4.html',1,'toml::detail']]],
-  ['errorhandler_19',['ErrorHandler',['../structtransport_1_1ErrorHandler.html',1,'transport']]],
+  ['errorhandler_19',['ErrorHandler',['../structRPC_1_1ErrorHandler.html',1,'RPC']]],
   ['exactly_20',['exactly',['../structtoml_1_1detail_1_1exactly.html',1,'toml::detail']]],
   ['exception_21',['exception',['../structtoml_1_1exception.html',1,'toml']]],
   ['exclude_22',['exclude',['../structtoml_1_1detail_1_1exclude.html',1,'toml::detail']]]

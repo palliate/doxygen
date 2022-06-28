@@ -24,11 +24,11 @@ var searchData=
   ['is_5flocal_5ftime_21',['is_local_time',['../classtoml_1_1basic__value.html#ada3bd713ab6e0aba5ed3e177417450d4',1,'toml::basic_value']]],
   ['is_5fnumeric_22',['is_numeric',['../namespaceutil.html#a4d65ad322ce3b71c439a6ee721f22d36',1,'util']]],
   ['is_5foffset_5fdatetime_23',['is_offset_datetime',['../classtoml_1_1basic__value.html#a9f593a66f7919c9e4f3c0e00a93cec88',1,'toml::basic_value']]],
-  ['is_5fok_24',['is_ok',['../structtoml_1_1detail_1_1region__base.html#a04d30cc67ae064dcb5124a6d6c0d8829',1,'toml::detail::region_base::is_ok()'],['../structtoml_1_1detail_1_1storage.html#ad01c804b05feedb4ecdcdcda802f6b5c',1,'toml::detail::storage::is_ok()'],['../structtoml_1_1result.html#a024b6a6a853f3b3efa5097261f86dc05',1,'toml::result::is_ok()'],['../structtoml_1_1detail_1_1region.html#a87508e13996dd9305fcbb7a99d7d12d1',1,'toml::detail::region::is_ok()'],['../structtoml_1_1detail_1_1location.html#a7f06f6621d30b69718c08e8ee2f33644',1,'toml::detail::location::is_ok()']]],
+  ['is_5fok_24',['is_ok',['../structtoml_1_1detail_1_1location.html#a7f06f6621d30b69718c08e8ee2f33644',1,'toml::detail::location::is_ok()'],['../structtoml_1_1detail_1_1storage.html#ad01c804b05feedb4ecdcdcda802f6b5c',1,'toml::detail::storage::is_ok()'],['../structtoml_1_1result.html#a024b6a6a853f3b3efa5097261f86dc05',1,'toml::result::is_ok()'],['../structtoml_1_1detail_1_1region.html#a87508e13996dd9305fcbb7a99d7d12d1',1,'toml::detail::region::is_ok()'],['../structtoml_1_1detail_1_1region__base.html#a04d30cc67ae064dcb5124a6d6c0d8829',1,'toml::detail::region_base::is_ok()']]],
   ['is_5fstring_25',['is_string',['../classtoml_1_1basic__value.html#aa7484eeb07b564c7ea8b9728995c60c0',1,'toml::basic_value']]],
   ['is_5ftable_26',['is_table',['../classtoml_1_1basic__value.html#a93c66a2b01a1022e57fc21ad5a781c1a',1,'toml::basic_value']]],
   ['is_5funinitialized_27',['is_uninitialized',['../classtoml_1_1basic__value.html#aa9e0adf3eaf980cd7ec1224fa675280c',1,'toml::basic_value']]],
   ['is_5fvalid_5fforward_5ftable_5fdefinition_28',['is_valid_forward_table_definition',['../namespacetoml_1_1detail.html#a76b45d2fab6622b5fcbdd3b9aebd5a1f',1,'toml::detail']]],
   ['iter_29',['iter',['../structtoml_1_1detail_1_1location.html#a3fec075fe10382a901104613f84b37ee',1,'toml::detail::location']]],
-  ['ivshmem_30',['ivshmem',['../classivshmem.html#ad351bdc6547f943f8dad16dd09982cfb',1,'ivshmem']]]
+  ['ivshmem_30',['ivshmem',['../classivshmem.html#ad351bdc6547f943f8dad16dd09982cfb',1,'ivshmem::ivshmem(memory::manager &amp;_backend)'],['../classivshmem.html#ad351bdc6547f943f8dad16dd09982cfb',1,'ivshmem::ivshmem(memory::manager &amp;_backend)']]]
 ];

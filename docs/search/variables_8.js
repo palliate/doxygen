@@ -4,5 +4,5 @@ var searchData=
   ['in_5fuse_1',['in_use',['../structmemory_1_1node__t.html#a7da281b98d434558e4444b160a947ce0',1,'memory::node_t']]],
   ['inner_2',['inner',['../structmpsc_1_1element__t.html#a20420aaaa91c6b4bc5602b3aa46e2b1a',1,'mpsc::element_t']]],
   ['integer_5f_3',['integer_',['../classtoml_1_1basic__value.html#a07fccbc3a86b0ae1fc50faf6a5e55f80',1,'toml::basic_value']]],
-  ['interface_4',['interface',['../classtransport_1_1Server.html#a4316f2a922c1ef9c66757a7bc0f91aa0',1,'transport::Server']]]
+  ['interface_4',['interface',['../classRPC_1_1Server.html#a866d51bece811d11362e9e4899661d92',1,'RPC::Server']]]
 ];
