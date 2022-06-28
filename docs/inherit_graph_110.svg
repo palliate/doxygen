@@ -11,10 +11,10 @@
 <!-- Node0 -->
 <g id="node1" class="node">
 <title>Node0</title>
-<g id="a_node1"><a xlink:href="structtoml_1_1detail_1_1repeat_3_01T_00_01unlimited_01_4.html" target="_top" xlink:title=" ">
+<g id="a_node1"><a xlink:href="structtoml_1_1detail_1_1repeat.html" target="_top" xlink:title=" ">
 <polygon fill="none" stroke="black" points="0,-0.5 0,-30.5 110,-30.5 110,-0.5 0,-0.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">toml::detail::repeat</text>
-<text text-anchor="middle" x="55" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; T, unlimited &gt;</text>
+<text text-anchor="middle" x="55" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; T, N &gt;</text>
 </a>
 </g>
 </g>

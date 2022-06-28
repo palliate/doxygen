@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['packed_0',['packed',['../classtransport_1_1client.html#a1465454e063aa2a5c55e0236db1328d0',1,'transport::client::packed()'],['../classtransport_1_1server.html#a1e328dae47b0f20c77e8c50ee2115512',1,'transport::server::packed()']]],
+  ['packed_0',['packed',['../classtransport_1_1Client.html#a60cb9a2fc20100ebf7251b04ae6c0868',1,'transport::Client::packed()'],['../classtransport_1_1Server.html#a213212642e0b4da62197662d3960ebe7',1,'transport::Server::packed()']]],
   ['page_5fsize_1',['PAGE_SIZE',['../classmemory_1_1manager.html#afc63cc465f81e3d8c932da1acaf1b60a',1,'memory::manager']]],
   ['pages_2',['pages',['../structmemory_1_1element__t.html#a74fdd81a5db2c0dd26b38648cd6dc3e1',1,'memory::element_t']]],
   ['parent_3',['parent',['../structpatricia_1_1element__t.html#ab77eeaa8f11ddce04e1bf848be53735a',1,'patricia::element_t']]],

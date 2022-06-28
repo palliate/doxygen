@@ -25,7 +25,7 @@ var annotated_dup =
         [ "terminal", "classlogging_1_1endpoints_1_1terminal.html", "classlogging_1_1endpoints_1_1terminal" ]
       ] ],
       [ "annotated", "structlogging_1_1annotated.html", "structlogging_1_1annotated" ],
-      [ "endpoint", "structlogging_1_1endpoint.html", "structlogging_1_1endpoint" ],
+      [ "Endpoint", "structlogging_1_1Endpoint.html", "structlogging_1_1Endpoint" ],
       [ "logger", "classlogging_1_1logger.html", "classlogging_1_1logger" ],
       [ "message", "structlogging_1_1message.html", "structlogging_1_1message" ]
     ] ],
@@ -184,16 +184,18 @@ var annotated_dup =
       [ "type_error", "structtoml_1_1type__error.html", "structtoml_1_1type__error" ]
     ] ],
     [ "transport", "namespacetransport.html", [
-      [ "tcp", "namespacetransport_1_1tcp.html", [
-        [ "client", "classtransport_1_1tcp_1_1client.html", "classtransport_1_1tcp_1_1client" ],
-        [ "server", "classtransport_1_1tcp_1_1server.html", "classtransport_1_1tcp_1_1server" ]
+      [ "TCP", "namespacetransport_1_1TCP.html", [
+        [ "Client", "classtransport_1_1TCP_1_1Client.html", "classtransport_1_1TCP_1_1Client" ],
+        [ "Server", "classtransport_1_1TCP_1_1Server.html", "classtransport_1_1TCP_1_1Server" ]
       ] ],
-      [ "client", "classtransport_1_1client.html", "classtransport_1_1client" ],
-      [ "server", "classtransport_1_1server.html", "classtransport_1_1server" ]
+      [ "Client", "classtransport_1_1Client.html", "classtransport_1_1Client" ],
+      [ "Context", "structtransport_1_1Context.html", "structtransport_1_1Context" ],
+      [ "ErrorHandler", "structtransport_1_1ErrorHandler.html", "structtransport_1_1ErrorHandler" ],
+      [ "Server", "classtransport_1_1Server.html", "classtransport_1_1Server" ]
     ] ],
     [ "util", "namespaceutil.html", [
       [ "configurable", "classutil_1_1configurable.html", "classutil_1_1configurable" ],
-      [ "factory", "classutil_1_1factory.html", "classutil_1_1factory" ],
+      [ "Factory", "classutil_1_1Factory.html", "classutil_1_1Factory" ],
       [ "rect", "structutil_1_1rect.html", "structutil_1_1rect" ],
       [ "uuid", "structutil_1_1uuid.html", "structutil_1_1uuid" ]
     ] ],
@@ -204,7 +206,6 @@ var annotated_dup =
     [ "atomic_semaphore", "classatomic__semaphore.html", "classatomic__semaphore" ],
     [ "atomic_stack", "classatomic__stack.html", "classatomic__stack" ],
     [ "backend", "classbackend.html", "classbackend" ],
-    [ "consumer", "classconsumer.html", "classconsumer" ],
     [ "dummy_container", "structdummy__container.html", "structdummy__container" ],
     [ "dummy_type", "structdummy__type.html", null ],
     [ "element", "structelement.html", "structelement" ],
@@ -214,9 +215,8 @@ var annotated_dup =
     [ "mpsc", "classmpsc.html", "classmpsc" ],
     [ "patricia", "classpatricia.html", "classpatricia" ],
     [ "plugin", "classplugin.html", "classplugin" ],
-    [ "producer", "classproducer.html", "classproducer" ],
     [ "runnable", "classrunnable.html", "classrunnable" ],
-    [ "servers", "classservers.html", "classservers" ],
+    [ "Servers", "classServers.html", "classServers" ],
     [ "tray", "classtray.html", "classtray" ],
     [ "ui", "classui.html", "classui" ],
     [ "window", "classwindow.html", "classwindow" ]

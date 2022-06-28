@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['factory_0',['factory',['../classutil_1_1factory.html',1,'util']]],
-  ['factory_3c_20endpoint_20_3e_1',['factory&lt; endpoint &gt;',['../classutil_1_1factory.html',1,'util']]],
+  ['factory_0',['Factory',['../classutil_1_1Factory.html',1,'util']]],
+  ['factory_3c_20endpoint_20_3e_1',['Factory&lt; Endpoint &gt;',['../classutil_1_1Factory.html',1,'util']]],
   ['failure_2',['failure',['../structtoml_1_1failure.html',1,'toml']]],
   ['failure_3c_20error_5ftype_20_3e_3',['failure&lt; error_type &gt;',['../structtoml_1_1failure.html',1,'toml']]],
   ['file_4',['file',['../classlogging_1_1endpoints_1_1file.html',1,'logging::endpoints']]],

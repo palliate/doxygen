@@ -1,7 +1,7 @@
 var namespaceutil =
 [
     [ "configurable", "classutil_1_1configurable.html", "classutil_1_1configurable" ],
-    [ "factory", "classutil_1_1factory.html", "classutil_1_1factory" ],
+    [ "Factory", "classutil_1_1Factory.html", "classutil_1_1Factory" ],
     [ "rect", "structutil_1_1rect.html", "structutil_1_1rect" ],
     [ "uuid", "structutil_1_1uuid.html", "structutil_1_1uuid" ],
     [ "is_named", "conceptutil_1_1is__named.html", null ],

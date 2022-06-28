@@ -2,7 +2,7 @@ var namespacelogging =
 [
     [ "endpoints", "namespacelogging_1_1endpoints.html", "namespacelogging_1_1endpoints" ],
     [ "annotated", "structlogging_1_1annotated.html", "structlogging_1_1annotated" ],
-    [ "endpoint", "structlogging_1_1endpoint.html", "structlogging_1_1endpoint" ],
+    [ "Endpoint", "structlogging_1_1Endpoint.html", "structlogging_1_1Endpoint" ],
     [ "logger", "classlogging_1_1logger.html", "classlogging_1_1logger" ],
     [ "message", "structlogging_1_1message.html", "structlogging_1_1message" ],
     [ "severity", "namespacelogging.html#a72e7a108a3928d5e407b6a7723799826", [

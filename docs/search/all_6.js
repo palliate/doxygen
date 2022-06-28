@@ -1,9 +1,9 @@
 var searchData=
 [
   ['f_0',['f',['../structextlib3_1_1bar.html#af138820b05c3c5697f643ae063d5f1de',1,'extlib3::bar']]],
-  ['factory_1',['factory',['../classutil_1_1factory.html',1,'util']]],
+  ['factory_1',['Factory',['../classutil_1_1Factory.html',1,'util']]],
   ['factory_2eh_2',['factory.h',['../factory_8h.html',1,'']]],
-  ['factory_3c_20endpoint_20_3e_3',['factory&lt; endpoint &gt;',['../classutil_1_1factory.html',1,'util']]],
+  ['factory_3c_20endpoint_20_3e_3',['Factory&lt; Endpoint &gt;',['../classutil_1_1Factory.html',1,'util']]],
   ['fail_4',['fail',['../structtoml_1_1result.html#a164eaf2931830770dbbc22f16b08e4ad',1,'toml::result']]],
   ['failure_5',['failure',['../structtoml_1_1failure.html#ae6120e392c9b89e55f6ed868041c05d3',1,'toml::failure::failure(failure &amp;&amp;)=default'],['../structtoml_1_1failure.html#a0eeb2c533238e57043212f1fafa49a2b',1,'toml::failure::failure(const failure &amp;)=default'],['../structtoml_1_1failure.html#a5495dd70db972ff9e79f686ecbd540f9',1,'toml::failure::failure(failure&lt; U &gt; &amp;&amp;v)'],['../structtoml_1_1failure.html#ab40c468eddee1237f891578fcb67f506',1,'toml::failure::failure(const failure&lt; U &gt; &amp;v)'],['../structtoml_1_1failure.html#a818fa901c8f674e96d7b189a8729e88c',1,'toml::failure::failure(U &amp;&amp;v)'],['../structtoml_1_1failure.html#a9c11a5e56ff9af3f1ce804471a10aa46',1,'toml::failure::failure(value_type &amp;&amp;v) noexcept(std::is_nothrow_move_constructible&lt; value_type &gt;::value)'],['../structtoml_1_1failure.html#a80b69ca3c94f49932833afa4ef9f6c50',1,'toml::failure::failure(const value_type &amp;v) noexcept(std::is_nothrow_copy_constructible&lt; value_type &gt;::value)'],['../structtoml_1_1failure.html',1,'toml::failure&lt; T &gt;']]],
   ['failure_3c_20error_5ftype_20_3e_6',['failure&lt; error_type &gt;',['../structtoml_1_1failure.html',1,'toml']]],

@@ -13,7 +13,7 @@
 <title>Node0</title>
 <g id="a_node1"><a xlink:title=" ">
 <polygon fill="none" stroke="#bfbfbf" points="0,-55 0,-74 107,-74 107,-55 0,-55"/>
-<text text-anchor="middle" x="53.5" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">endpoint::registrar</text>
+<text text-anchor="middle" x="53.5" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">Endpoint::registrar</text>
 </a>
 </g>
 </g>

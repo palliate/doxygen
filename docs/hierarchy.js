@@ -16,7 +16,7 @@ var hierarchy =
     [ "extlib3::bar", "structextlib3_1_1bar.html", null ],
     [ "extlib::bar", "structextlib_1_1bar.html", null ],
     [ "base_t", null, [
-      [ "util::factory< base_t >::registrar< T, Config >", "structutil_1_1factory_1_1registrar.html", null ]
+      [ "util::Factory< base_t >::registrar< T, Config >", "structutil_1_1Factory_1_1registrar.html", null ]
     ] ],
     [ "toml::basic_value< Comment, Table, Array >", "classtoml_1_1basic__value.html", null ],
     [ "extlib2::baz", "structextlib2_1_1baz.html", null ],
@@ -55,11 +55,15 @@ var hierarchy =
     [ "decltypehas_from_toml_method_impl::check< T, C, Tb, A >nullptr", null, [
       [ "toml::detail::has_from_toml_method< T, C, Tb, A >", "structtoml_1_1detail_1_1has__from__toml__method.html", null ]
     ] ],
+    [ "transport::Client", "classtransport_1_1Client.html", [
+      [ "transport::TCP::Client", "classtransport_1_1TCP_1_1Client.html", null ]
+    ] ],
     [ "toml::color_ansi::detail::color_mode", "classtoml_1_1color__ansi_1_1detail_1_1color__mode.html", null ],
     [ "util::configurable< T >", "classutil_1_1configurable.html", null ],
     [ "util::configurable< Config >", "classutil_1_1configurable.html", [
-      [ "util::factory< base_t >::registrar< T, Config >", "structutil_1_1factory_1_1registrar.html", null ]
+      [ "util::Factory< base_t >::registrar< T, Config >", "structutil_1_1Factory_1_1registrar.html", null ]
     ] ],
+    [ "transport::Context", "structtransport_1_1Context.html", null ],
     [ "toml::discard_comments", "structtoml_1_1discard__comments.html", null ],
     [ "dummy_container< T >", "structdummy__container.html", null ],
     [ "dummy_type", "structdummy__type.html", null ],
@@ -93,6 +97,9 @@ var hierarchy =
     [ "toml::detail::enum_to_type< value_t::offset_datetime, Value >", "structtoml_1_1detail_1_1enum__to__type_3_01value__t_1_1offset__datetime_00_01Value_01_4.html", null ],
     [ "toml::detail::enum_to_type< value_t::string, Value >", "structtoml_1_1detail_1_1enum__to__type_3_01value__t_1_1string_00_01Value_01_4.html", null ],
     [ "toml::detail::enum_to_type< value_t::table, Value >", "structtoml_1_1detail_1_1enum__to__type_3_01value__t_1_1table_00_01Value_01_4.html", null ],
+    [ "kj::TaskSet::ErrorHandler", null, [
+      [ "transport::ErrorHandler", "structtransport_1_1ErrorHandler.html", null ]
+    ] ],
     [ "toml::detail::exactly< N >", "structtoml_1_1detail_1_1exactly.html", null ],
     [ "std::exception", null, [
       [ "toml::exception", "structtoml_1_1exception.html", [
@@ -102,9 +109,9 @@ var hierarchy =
       ] ]
     ] ],
     [ "toml::detail::exclude< Combinator >", "structtoml_1_1detail_1_1exclude.html", null ],
-    [ "util::factory< base_t >", "classutil_1_1factory.html", null ],
-    [ "util::factory< endpoint >", "classutil_1_1factory.html", [
-      [ "logging::endpoint", "structlogging_1_1endpoint.html", null ]
+    [ "util::Factory< base_t >", "classutil_1_1Factory.html", null ],
+    [ "util::Factory< Endpoint >", "classutil_1_1Factory.html", [
+      [ "logging::Endpoint", "structlogging_1_1Endpoint.html", null ]
     ] ],
     [ "toml::failure< T >", "structtoml_1_1failure.html", null ],
     [ "toml::failure< error_type >", "structtoml_1_1failure.html", null ],
@@ -198,7 +205,7 @@ var hierarchy =
       [ "toml::detail::location", "structtoml_1_1detail_1_1location.html", null ],
       [ "toml::detail::region", "structtoml_1_1detail_1_1region.html", null ]
     ] ],
-    [ "endpoint::registrar", null, [
+    [ "Endpoint::registrar", null, [
       [ "logging::endpoints::file", "classlogging_1_1endpoints_1_1file.html", null ],
       [ "logging::endpoints::serial", "classlogging_1_1endpoints_1_1serial.html", null ],
       [ "logging::endpoints::terminal", "classlogging_1_1endpoints_1_1terminal.html", null ]
@@ -210,21 +217,16 @@ var hierarchy =
     [ "toml::detail::repeat< T, unlimited >", "structtoml_1_1detail_1_1repeat_3_01T_00_01unlimited_01_4.html", null ],
     [ "toml::result< T, E >", "structtoml_1_1result.html", null ],
     [ "runnable", "classrunnable.html", [
-      [ "consumer", "classconsumer.html", null ],
-      [ "producer", "classproducer.html", null ],
-      [ "transport::client", "classtransport_1_1client.html", [
-        [ "transport::tcp::client", "classtransport_1_1tcp_1_1client.html", null ]
-      ] ],
-      [ "transport::server", "classtransport_1_1server.html", [
-        [ "transport::tcp::server", "classtransport_1_1tcp_1_1server.html", null ]
-      ] ],
       [ "ui", "classui.html", null ]
     ] ],
     [ "toml::detail::sequence< Ts >", "structtoml_1_1detail_1_1sequence.html", null ],
     [ "toml::detail::sequence< Head >", "structtoml_1_1detail_1_1sequence_3_01Head_01_4.html", null ],
     [ "toml::detail::sequence< Head, Tail... >", "structtoml_1_1detail_1_1sequence_3_01Head_00_01Tail_8_8_8_01_4.html", null ],
     [ "toml::serializer< Value >", "structtoml_1_1serializer.html", null ],
-    [ "servers", "classservers.html", null ],
+    [ "transport::Server", "classtransport_1_1Server.html", [
+      [ "transport::TCP::Server", "classtransport_1_1TCP_1_1Server.html", null ]
+    ] ],
+    [ "Servers", "classServers.html", null ],
     [ "toml::source_location", "structtoml_1_1source__location.html", null ],
     [ "toml::detail::storage< T >", "structtoml_1_1detail_1_1storage.html", null ],
     [ "toml::detail::storage< array_type >", "structtoml_1_1detail_1_1storage.html", null ],

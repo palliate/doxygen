@@ -1,10 +1,4 @@
 <map id="runnable" name="runnable">
-<area shape="rect" id="node1" title=" " alt="" coords="317,5,452,200"/>
-<area shape="rect" id="node2" href="$classconsumer.html" title=" " alt="" coords="5,292,129,413"/>
-<area shape="rect" id="node3" href="$classproducer.html" title=" " alt="" coords="154,292,290,413"/>
-<area shape="rect" id="node4" href="$classtransport_1_1client.html" title=" " alt="" coords="315,277,455,428"/>
-<area shape="rect" id="node6" href="$classtransport_1_1server.html" title=" " alt="" coords="479,248,619,457"/>
-<area shape="rect" id="node8" href="$classui.html" title=" " alt="" coords="643,277,801,428"/>
-<area shape="rect" id="node5" href="$classtransport_1_1tcp_1_1client.html" title=" " alt="" coords="300,505,453,641"/>
-<area shape="rect" id="node7" href="$classtransport_1_1tcp_1_1server.html" title=" " alt="" coords="477,527,636,619"/>
+<area shape="rect" id="node1" title=" " alt="" coords="17,5,152,200"/>
+<area shape="rect" id="node2" href="$classui.html" title=" " alt="" coords="5,248,164,399"/>
 </map>

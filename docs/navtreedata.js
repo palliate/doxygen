@@ -116,21 +116,21 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"classtoml_1_1basic__value.html#a05aa134b8e1898b6537eccc353c55080",
-"classtoml_1_1basic__value.html#aa7484eeb07b564c7ea8b9728995c60c0",
-"classwindow.html#aef77ff2dda8ad9f644927c92da52a5a9a8766a1d48ad7c64d1c61aa0ef5c42faa",
-"get_8hpp.html#a9ff07b39606121da2f748ab9dd4f12d4",
-"md____w_libpalliate_libpalliate_libpalliate_toml11_README.html#autotoc_md9",
-"namespacetoml.html#acbb3a32f389eaf9e5097d2b23df77b4e",
-"namespacetoml_1_1literals_1_1toml__literals.html#a1fce2e7bf1c3e9c72746c794fba65eba",
-"structextlib_1_1baz.html#a6506b696c1fa219908446668c263ffb5",
-"structtoml_1_1detail_1_1enum__to__type_3_01value__t_1_1local__datetime_00_01Value_01_4.html",
-"structtoml_1_1detail_1_1region.html#a9282bb9395b88ce24da0e0c2d59dc787",
-"structtoml_1_1discard__comments.html#ad868e3c5d73b970a037d19b06ce374f2",
-"structtoml_1_1preserve__comments.html#a46022433008d38032c25b4e1703a6dcf",
-"structtoml_1_1result.html#aded304df3cb1bbc7892b679855de7d6a",
-"terminal_8windows_8cpp.html",
-"test__parse__floating_8cpp.html#a082e0b2c684390de8578c9dfd4e23eb1"
+"classtoml_1_1basic__value.html#a0d39990ac7a3394568165926aed4634a",
+"classtoml_1_1basic__value.html#aac1f3b81e234f588c62fc491b8328b20",
+"classwindow.html#ab6cfb724a530ed7e385d0ce4f1bbc9f7",
+"get_8hpp.html#a98bb90cdc1f8d715b958e772c4f18700",
+"md____w_libpalliate_libpalliate_libpalliate_toml11_README.html#autotoc_md43",
+"namespacetoml.html#ac367edbc5bd982fe5c635d88da0a3647",
+"namespacetoml_1_1literals_1_1toml__literals.html",
+"structextlib_1_1baz.html#a15338b52e8ef5d916cfdfff481751806",
+"structtoml_1_1detail_1_1enum__to__type_3_01value__t_1_1local__date_00_01Value_01_4.html#a4805e39376ef518223b1ac2d8dc2508e",
+"structtoml_1_1detail_1_1region.html#a87508e13996dd9305fcbb7a99d7d12d1",
+"structtoml_1_1discard__comments.html#ad66a95b8cb49d9455ae208317ed0f11d",
+"structtoml_1_1preserve__comments.html#a3de6cc5635f6a4e6d157bcd6279091a0",
+"structtoml_1_1result.html#adda76790d56057a8322936b1e7e4bdd6",
+"structutil_1_1uuid.html",
+"test__parse__datetime_8cpp.html#aba179db61dbf6a5a74224cd35904b52a"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

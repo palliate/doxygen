@@ -29,7 +29,7 @@
 <title>Node2</title>
 <g id="a_node2"><a xlink:title=" ">
 <polygon fill="none" stroke="black" points="0,-127.5 0,-206.5 110,-206.5 110,-127.5 0,-127.5"/>
-<text text-anchor="start" x="8" y="-194.5" font-family="Helvetica,sans-Serif" font-size="10.00">endpoint::registrar</text>
+<text text-anchor="start" x="8" y="-194.5" font-family="Helvetica,sans-Serif" font-size="10.00">Endpoint::registrar</text>
 <text text-anchor="start" x="8" y="-183.5" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; terminal, config::</text>
 <text text-anchor="middle" x="55" y="-172.5" font-family="Helvetica,sans-Serif" font-size="10.00">terminal &gt;</text>
 <polyline fill="none" stroke="black" points="0,-165.5 110,-165.5 "/>
