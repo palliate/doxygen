@@ -1,10 +1,10 @@
 var searchData=
 [
   ['send_0',['send',['../classtransport_1_1TCP_1_1Client.html#ac124e47c22ae9703516bdcb2040a5ae5',1,'transport::TCP::Client::send()'],['../classtransport_1_1Client.html#a02cb597402a3e22d4cd24386733d5a24',1,'transport::Client::send()']]],
-  ['serial_1',['serial',['../classlogging_1_1endpoints_1_1serial.html#ac42d260df030ec4626bc04191fd2ee17',1,'logging::endpoints::serial']]],
+  ['serial_1',['serial',['../classlogging_1_1endpoint_1_1serial.html#ac42d260df030ec4626bc04191fd2ee17',1,'logging::endpoint::serial']]],
   ['serializer_2',['serializer',['../structtoml_1_1serializer.html#a84a3932550107d11bf1223609f8bd01a',1,'toml::serializer']]],
-  ['server_3',['Server',['../classRPC_1_1Server.html#a0eccd57fe950224d66a3f01bc1bd076c',1,'RPC::Server::Server()'],['../classRPC_1_1TCP_1_1Server.html#ac415099608b4c60e120dff7540eda40a',1,'RPC::TCP::Server::Server()'],['../classtransport_1_1Server.html#a39a4d29cad9d51f83410a2074c557fe7',1,'transport::Server::Server()'],['../classtransport_1_1TCP_1_1Server.html#a27e80eeedc337d15b231254ad55dbf85',1,'transport::TCP::Server::Server()']]],
-  ['server_4',['server',['../classmemory_1_1server.html#afc4dec957a29610da254bd18c58d6d8a',1,'memory::server']]],
+  ['server_3',['server',['../classmemory_1_1server.html#afc4dec957a29610da254bd18c58d6d8a',1,'memory::server']]],
+  ['server_4',['Server',['../classrpc_1_1Server.html#a1de34dec61a6959ce9159a8700ea0c4a',1,'rpc::Server::Server()'],['../classrpc_1_1tcp_1_1Server.html#a9f629587f4e16e88642a7fdcc576cf8f',1,'rpc::tcp::Server::Server()'],['../classtransport_1_1Server.html#a39a4d29cad9d51f83410a2074c557fe7',1,'transport::Server::Server()'],['../classtransport_1_1TCP_1_1Server.html#a27e80eeedc337d15b231254ad55dbf85',1,'transport::TCP::Server::Server()']]],
   ['set_5',['set',['../classwindow.html#a4021b4c8be7d05b9e32222473389cfc4',1,'window']]],
   ['set_5fevent_6',['set_event',['../classServers.html#a79ad2cb8b9fa26f87845cf14af6225db',1,'Servers::set_event()'],['../classtransport_1_1Server.html#ada48f2e99dce8ba31ad091277d211792',1,'transport::Server::set_event()']]],
   ['should_5fcolor_7',['should_color',['../namespacetoml_1_1color__ansi.html#aa701c0bbe30db71fd6c7578e0d13fe1a',1,'toml::color_ansi::should_color()'],['../classtoml_1_1color__ansi_1_1detail_1_1color__mode.html#a0ab71ebfe78a5c93ace42c9d91eb3797',1,'toml::color_ansi::detail::color_mode::should_color()']]],

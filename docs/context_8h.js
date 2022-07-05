@@ -1,4 +1,4 @@
 var context_8h =
 [
-    [ "RPC::Context", "structRPC_1_1Context.html", "structRPC_1_1Context" ]
+    [ "rpc::Context", "structrpc_1_1Context.html", "structrpc_1_1Context" ]
 ];

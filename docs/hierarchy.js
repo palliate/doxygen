@@ -16,7 +16,7 @@ var hierarchy =
     [ "extlib3::bar", "structextlib3_1_1bar.html", null ],
     [ "extlib::bar", "structextlib_1_1bar.html", null ],
     [ "base_t", null, [
-      [ "util::Factory< base_t >::registrar< T, Config >", "structutil_1_1Factory_1_1registrar.html", null ]
+      [ "util::Factory< base_t, Args >::registrar< T, Config >", "structutil_1_1Factory_1_1registrar.html", null ]
     ] ],
     [ "toml::basic_value< Comment, Table, Array >", "classtoml_1_1basic__value.html", null ],
     [ "extlib2::baz", "structextlib2_1_1baz.html", null ],
@@ -55,12 +55,13 @@ var hierarchy =
     [ "decltypehas_from_toml_method_impl::check< T, C, Tb, A >nullptr", null, [
       [ "toml::detail::has_from_toml_method< T, C, Tb, A >", "structtoml_1_1detail_1_1has__from__toml__method.html", null ]
     ] ],
+    [ "util::Collection< Interface, Args >", "classutil_1_1Collection.html", null ],
     [ "toml::color_ansi::detail::color_mode", "classtoml_1_1color__ansi_1_1detail_1_1color__mode.html", null ],
     [ "util::configurable< T >", "classutil_1_1configurable.html", null ],
     [ "util::configurable< Config >", "classutil_1_1configurable.html", [
-      [ "util::Factory< base_t >::registrar< T, Config >", "structutil_1_1Factory_1_1registrar.html", null ]
+      [ "util::Factory< base_t, Args >::registrar< T, Config >", "structutil_1_1Factory_1_1registrar.html", null ]
     ] ],
-    [ "RPC::Context", "structRPC_1_1Context.html", null ],
+    [ "rpc::Context", "structrpc_1_1Context.html", null ],
     [ "toml::discard_comments", "structtoml_1_1discard__comments.html", null ],
     [ "dummy_container< T >", "structdummy__container.html", null ],
     [ "dummy_type", "structdummy__type.html", null ],
@@ -95,7 +96,7 @@ var hierarchy =
     [ "toml::detail::enum_to_type< value_t::string, Value >", "structtoml_1_1detail_1_1enum__to__type_3_01value__t_1_1string_00_01Value_01_4.html", null ],
     [ "toml::detail::enum_to_type< value_t::table, Value >", "structtoml_1_1detail_1_1enum__to__type_3_01value__t_1_1table_00_01Value_01_4.html", null ],
     [ "kj::TaskSet::ErrorHandler", null, [
-      [ "RPC::ErrorHandler", "structRPC_1_1ErrorHandler.html", null ]
+      [ "rpc::ErrorHandler", "structrpc_1_1ErrorHandler.html", null ]
     ] ],
     [ "toml::detail::exactly< N >", "structtoml_1_1detail_1_1exactly.html", null ],
     [ "std::exception", null, [
@@ -106,15 +107,15 @@ var hierarchy =
       ] ]
     ] ],
     [ "toml::detail::exclude< Combinator >", "structtoml_1_1detail_1_1exclude.html", null ],
-    [ "util::Factory< base_t >", "classutil_1_1Factory.html", null ],
+    [ "util::Factory< base_t, Args >", "classutil_1_1Factory.html", null ],
     [ "util::Factory< Client >", "classutil_1_1Factory.html", [
-      [ "RPC::Client", "classRPC_1_1Client.html", null ]
+      [ "rpc::Client", "classrpc_1_1Client.html", null ]
     ] ],
     [ "util::Factory< Endpoint >", "classutil_1_1Factory.html", [
-      [ "logging::Endpoint", "structlogging_1_1Endpoint.html", null ]
+      [ "logging::Endpoint", "classlogging_1_1Endpoint.html", null ]
     ] ],
-    [ "util::Factory< Server >", "classutil_1_1Factory.html", [
-      [ "RPC::Server", "classRPC_1_1Server.html", null ]
+    [ "util::Factory< Server, capnp::Capability::Client >", "classutil_1_1Factory.html", [
+      [ "rpc::Server", "classrpc_1_1Server.html", null ]
     ] ],
     [ "toml::failure< T >", "structtoml_1_1failure.html", null ],
     [ "toml::failure< error_type >", "structtoml_1_1failure.html", null ],
@@ -209,15 +210,15 @@ var hierarchy =
       [ "toml::detail::region", "structtoml_1_1detail_1_1region.html", null ]
     ] ],
     [ "Endpoint::registrar", null, [
-      [ "logging::endpoints::file", "classlogging_1_1endpoints_1_1file.html", null ],
-      [ "logging::endpoints::serial", "classlogging_1_1endpoints_1_1serial.html", null ],
-      [ "logging::endpoints::terminal", "classlogging_1_1endpoints_1_1terminal.html", null ]
+      [ "logging::endpoint::file", "classlogging_1_1endpoint_1_1file.html", null ],
+      [ "logging::endpoint::serial", "classlogging_1_1endpoint_1_1serial.html", null ],
+      [ "logging::endpoint::terminal", "classlogging_1_1endpoint_1_1terminal.html", null ]
     ] ],
-    [ "RPC::Client::registrar", null, [
-      [ "RPC::TCP::Client", "classRPC_1_1TCP_1_1Client.html", null ]
+    [ "rpc::Client::registrar", null, [
+      [ "rpc::tcp::Client", "classrpc_1_1tcp_1_1Client.html", null ]
     ] ],
-    [ "RPC::Server::registrar", null, [
-      [ "RPC::TCP::Server", "classRPC_1_1TCP_1_1Server.html", null ]
+    [ "rpc::Server::registrar", null, [
+      [ "rpc::tcp::Server", "classrpc_1_1tcp_1_1Server.html", null ]
     ] ],
     [ "toml::detail::remove_cvref< T >", "structtoml_1_1detail_1_1remove__cvref.html", null ],
     [ "toml::detail::repeat< T, N >", "structtoml_1_1detail_1_1repeat.html", null ],

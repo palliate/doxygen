@@ -1,4 +1,4 @@
 var endpoint_8h =
 [
-    [ "logging::Endpoint", "structlogging_1_1Endpoint.html", "structlogging_1_1Endpoint" ]
+    [ "logging::Endpoint", "classlogging_1_1Endpoint.html", "classlogging_1_1Endpoint" ]
 ];

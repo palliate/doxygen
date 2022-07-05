@@ -8,7 +8,7 @@ var namespaces_dup =
     [ "extlib3", "namespaceextlib3.html", "namespaceextlib3" ],
     [ "logging", "namespacelogging.html", "namespacelogging" ],
     [ "memory", "namespacememory.html", "namespacememory" ],
-    [ "RPC", "namespaceRPC.html", "namespaceRPC" ],
+    [ "rpc", "namespacerpc.html", "namespacerpc" ],
     [ "test", "namespacetest.html", [
       [ "operator<<", "namespacetest.html#aabc89e0062bdaff0c7f749775da8709e", null ],
       [ "operator<<", "namespacetest.html#a935b6516abbc6feb76b321c29b3af7aa", null ],

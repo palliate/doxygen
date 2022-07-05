@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.4"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>libpalliate: util::Factory&lt; base_t &gt; Class Template Reference</title>
+<title>libpalliate: util::Factory&lt; base_t, Args &gt; Class Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -94,10 +94,11 @@ $(document).ready(function(){initNavTree('classutil_1_1Factory.html',''); initRe
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="classutil_1_1Factory-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">util::Factory&lt; base_t &gt; Class Template Reference</div></div>
+  <div class="headertitle"><div class="title">util::Factory&lt; base_t, Args &gt; Class Template Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -108,32 +109,57 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structutil_1_1Factory_1_1registrar.html">registrar</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a160f6fe28d047c2f0ffb8adf93652d02"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1Factory.html#a160f6fe28d047c2f0ffb8adf93652d02">Collection</a> = <a class="el" href="classutil_1_1Collection.html">util::Collection</a>&lt; <a class="el" href="classutil_1_1Factory.html#a4cb6e20d49795bbe18dcfeff2a2ba418">base_t</a>, Args... &gt;</td></tr>
+<tr class="separator:a160f6fe28d047c2f0ffb8adf93652d02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a63a11fc7d7410f8f027e8cb98f5691e1"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="classutil_1_1Factory.html#a451b54294d90a4aeaba47d9d27ae41a4">base_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1Factory.html#a63a11fc7d7410f8f027e8cb98f5691e1">make</a> (<a class="el" href="namespacetoml.html#a34e466167cc683c477838accdebb2578">toml::value</a> const &amp;node, std::string const &amp;key)</td></tr>
-<tr class="separator:a63a11fc7d7410f8f027e8cb98f5691e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0644d51c791bb4c910ddf678dc3f9187"><td class="memItemLeft" align="right" valign="top">static auto &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1Factory.html#a0644d51c791bb4c910ddf678dc3f9187">map</a> ()</td></tr>
-<tr class="separator:a0644d51c791bb4c910ddf678dc3f9187"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc2aeba859345a8685e9977eb19025b4"><td class="memTemplParams" colspan="2">template&lt;class... T&gt; </td></tr>
+<tr class="memitem:afc2aeba859345a8685e9977eb19025b4"><td class="memTemplItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="classutil_1_1Factory.html#a4cb6e20d49795bbe18dcfeff2a2ba418">base_t</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classutil_1_1Factory.html#afc2aeba859345a8685e9977eb19025b4">make</a> (<a class="el" href="namespacetoml.html#a34e466167cc683c477838accdebb2578">toml::value</a> const &amp;node, std::string const &amp;key, T &amp;&amp;... args)</td></tr>
+<tr class="separator:afc2aeba859345a8685e9977eb19025b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a852f8039628bd76ecb53faf1dc99719d"><td class="memItemLeft" align="right" valign="top">static auto &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1Factory.html#a852f8039628bd76ecb53faf1dc99719d">map</a> ()</td></tr>
+<tr class="separator:a852f8039628bd76ecb53faf1dc99719d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a451b54294d90a4aeaba47d9d27ae41a4"><td class="memItemLeft" align="right" valign="top">friend&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1Factory.html#a451b54294d90a4aeaba47d9d27ae41a4">base_t</a></td></tr>
-<tr class="separator:a451b54294d90a4aeaba47d9d27ae41a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cb6e20d49795bbe18dcfeff2a2ba418"><td class="memItemLeft" align="right" valign="top">friend&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1Factory.html#a4cb6e20d49795bbe18dcfeff2a2ba418">base_t</a></td></tr>
+<tr class="separator:a4cb6e20d49795bbe18dcfeff2a2ba418"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a63a11fc7d7410f8f027e8cb98f5691e1" name="a63a11fc7d7410f8f027e8cb98f5691e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a63a11fc7d7410f8f027e8cb98f5691e1">&#9670;&nbsp;</a></span>make()</h2>
+<h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a160f6fe28d047c2f0ffb8adf93652d02" name="a160f6fe28d047c2f0ffb8adf93652d02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a160f6fe28d047c2f0ffb8adf93652d02">&#9670;&nbsp;</a></span>Collection</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class <a class="el" href="classutil_1_1Factory.html#a451b54294d90a4aeaba47d9d27ae41a4">base_t</a> &gt; </div>
+template&lt;class <a class="el" href="classutil_1_1Factory.html#a4cb6e20d49795bbe18dcfeff2a2ba418">base_t</a> , class... Args&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classutil_1_1Factory.html">util::Factory</a>&lt; <a class="el" href="classutil_1_1Factory.html#a4cb6e20d49795bbe18dcfeff2a2ba418">base_t</a>, Args &gt;::Collection =  <a class="el" href="classutil_1_1Collection.html">util::Collection</a>&lt;<a class="el" href="classutil_1_1Factory.html#a4cb6e20d49795bbe18dcfeff2a2ba418">base_t</a>, Args...&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="afc2aeba859345a8685e9977eb19025b4" name="afc2aeba859345a8685e9977eb19025b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc2aeba859345a8685e9977eb19025b4">&#9670;&nbsp;</a></span>make()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class <a class="el" href="classutil_1_1Factory.html#a4cb6e20d49795bbe18dcfeff2a2ba418">base_t</a> , class... Args&gt; </div>
+<div class="memtemplate">
+template&lt;class... T&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static std::unique_ptr&lt; <a class="el" href="classutil_1_1Factory.html#a451b54294d90a4aeaba47d9d27ae41a4">base_t</a> &gt; <a class="el" href="classutil_1_1Factory.html">util::Factory</a>&lt; <a class="el" href="classutil_1_1Factory.html#a451b54294d90a4aeaba47d9d27ae41a4">base_t</a> &gt;::make </td>
+          <td class="memname">static std::unique_ptr&lt; <a class="el" href="classutil_1_1Factory.html#a4cb6e20d49795bbe18dcfeff2a2ba418">base_t</a> &gt; <a class="el" href="classutil_1_1Factory.html">util::Factory</a>&lt; <a class="el" href="classutil_1_1Factory.html#a4cb6e20d49795bbe18dcfeff2a2ba418">base_t</a>, Args &gt;::make </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespacetoml.html#a34e466167cc683c477838accdebb2578">toml::value</a> const &amp;&#160;</td>
           <td class="paramname"><em>node</em>, </td>
@@ -142,7 +168,13 @@ template&lt;class <a class="el" href="classutil_1_1Factory.html#a451b54294d90a4a
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>key</em>&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T &amp;&amp;...&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -159,19 +191,19 @@ template&lt;class <a class="el" href="classutil_1_1Factory.html#a451b54294d90a4a
 
 </div>
 </div>
-<a id="a0644d51c791bb4c910ddf678dc3f9187" name="a0644d51c791bb4c910ddf678dc3f9187"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0644d51c791bb4c910ddf678dc3f9187">&#9670;&nbsp;</a></span>map()</h2>
+<a id="a852f8039628bd76ecb53faf1dc99719d" name="a852f8039628bd76ecb53faf1dc99719d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a852f8039628bd76ecb53faf1dc99719d">&#9670;&nbsp;</a></span>map()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class <a class="el" href="classutil_1_1Factory.html#a451b54294d90a4aeaba47d9d27ae41a4">base_t</a> &gt; </div>
+template&lt;class <a class="el" href="classutil_1_1Factory.html#a4cb6e20d49795bbe18dcfeff2a2ba418">base_t</a> , class... Args&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static auto &amp; <a class="el" href="classutil_1_1Factory.html">util::Factory</a>&lt; <a class="el" href="classutil_1_1Factory.html#a451b54294d90a4aeaba47d9d27ae41a4">base_t</a> &gt;::map </td>
+          <td class="memname">static auto &amp; <a class="el" href="classutil_1_1Factory.html">util::Factory</a>&lt; <a class="el" href="classutil_1_1Factory.html#a4cb6e20d49795bbe18dcfeff2a2ba418">base_t</a>, Args &gt;::map </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -187,23 +219,24 @@ template&lt;class <a class="el" href="classutil_1_1Factory.html#a451b54294d90a4a
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a451b54294d90a4aeaba47d9d27ae41a4" name="a451b54294d90a4aeaba47d9d27ae41a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a451b54294d90a4aeaba47d9d27ae41a4">&#9670;&nbsp;</a></span>base_t</h2>
+<a id="a4cb6e20d49795bbe18dcfeff2a2ba418" name="a4cb6e20d49795bbe18dcfeff2a2ba418"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cb6e20d49795bbe18dcfeff2a2ba418">&#9670;&nbsp;</a></span>base_t</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class base_t &gt; </div>
+template&lt;class base_t , class... Args&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">friend <a class="el" href="classutil_1_1Factory.html">util::Factory</a>&lt; base_t &gt;::base_t</td>
+          <td class="memname">friend <a class="el" href="classutil_1_1Factory.html">util::Factory</a>&lt; base_t, Args &gt;::base_t</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<hr/>The documentation for this class was generated from the following files:<ul>
+<li><a class="el" href="collection_8h.html">collection.h</a></li>
 <li><a class="el" href="factory_8h.html">factory.h</a></li>
 </ul>
 </div><!-- contents -->

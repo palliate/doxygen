@@ -116,22 +116,22 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"classpatricia.html#a659ac04ca615587c9376b5b3833504ba",
-"classtoml_1_1basic__value.html#a8a6ad4c36dd5c1cf02979e4865ac5a5a",
-"classtransport_1_1TCP_1_1Client.html#ab115990fa63a7ebeacbca4355b85036d",
-"functions_func_~.html",
-"macros_8hpp.html#ab76e415cd68fb194d116cd9447531498",
-"namespacetoml.html#a99b223fe1b911188b415ace2e80d9aaaa3453afefc0169f713370ff6bea1dc9a5",
-"namespacetoml_1_1detail.html#ac710d6135936a580d7b3949744e488ca",
-"structatomic__mpsc_1_1element.html",
-"structtoml_1_1detail_1_1character.html",
-"structtoml_1_1detail_1_1location.html#a4df51ed73488866dcc16c61553c3ef00",
-"structtoml_1_1discard__comments.html#a34d9175c22073985c7e973f4ea4dd31b",
-"structtoml_1_1local__time.html#a609d0e68525d1a8ecabc716a9fdead89",
-"structtoml_1_1result.html#a3850c14cafad48d0b8125f3aa40fdbd5",
-"structtoml_1_1success.html#a3e5aa0d4e59a65f9a7718b74873d9fe4",
-"test__lex__datetime_8cpp.html#a4ebec10bf2be96ba1bb2ae04ab453eec",
-"transport_2tcp_2client_8cpp.html"
+"classrpc_1_1Server.html#a251f49078124dd3e8e577c2d4f659fe2",
+"classtoml_1_1basic__value.html#a86ba3098eae5ab2e79b51442ae472c49",
+"classtransport_1_1Server.html#ada48f2e99dce8ba31ad091277d211792",
+"functions.html",
+"macros_8hpp.html#a1802424ec3c5059a0e3df5518e994347",
+"namespacetoml.html#a786250bd7babba1948976732c51c6b81",
+"namespacetoml_1_1detail.html#a9398cd7ca0c3d28d1e0713875342e45d",
+"string_8hpp.html#adacb7fb70084b050e3a485f27289e558",
+"structrpc_1_1Context.html#a51065e7d54827455a899d63c671b98f3",
+"structtoml_1_1detail_1_1last__one__in__pack.html#ac2bcda5a619e4f192519a63660f5cbdc",
+"structtoml_1_1discard__comments.html#a094add2b8544cec13501aed3a9994a17",
+"structtoml_1_1local__datetime.html#a67661503e7b2843effbb0672bf081364",
+"structtoml_1_1result.html#a164eaf2931830770dbbc22f16b08e4ad",
+"structtoml_1_1string.html#a81362490c9ff0407f7e6c5dcff577cb6",
+"test__get__or_8cpp.html#a31da2cd00a044b752457c9c2932cf48b",
+"test__value_8cpp.html#aee219bb18a0911a6b6a1690bb66cbfd5"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

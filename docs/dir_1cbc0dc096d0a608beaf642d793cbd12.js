@@ -1,6 +1,7 @@
 var dir_1cbc0dc096d0a608beaf642d793cbd12 =
 [
     [ "clock.h", "clock_8h.html", "clock_8h" ],
+    [ "collection.h", "collection_8h.html", "collection_8h" ],
     [ "concepts.h", "concepts_8h.html", "concepts_8h" ],
     [ "configurable.h", "configurable_8h.html", "configurable_8h" ],
     [ "factory.h", "factory_8h.html", "factory_8h" ],

@@ -1,9 +1,11 @@
 var namespaceutil =
 [
+    [ "Collection", "classutil_1_1Collection.html", "classutil_1_1Collection" ],
     [ "configurable", "classutil_1_1configurable.html", "classutil_1_1configurable" ],
     [ "Factory", "classutil_1_1Factory.html", "classutil_1_1Factory" ],
     [ "rect", "structutil_1_1rect.html", "structutil_1_1rect" ],
     [ "uuid", "structutil_1_1uuid.html", "structutil_1_1uuid" ],
+    [ "is_factory", "conceptutil_1_1is__factory.html", null ],
     [ "is_named", "conceptutil_1_1is__named.html", null ],
     [ "toml_convertible", "conceptutil_1_1toml__convertible.html", null ],
     [ "basename", "namespaceutil.html#aee407cb6fb68403461bd3c148d52ad0f", null ],

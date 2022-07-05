@@ -19,13 +19,13 @@ var annotated_dup =
       [ "foo", "structextlib3_1_1foo.html", "structextlib3_1_1foo" ]
     ] ],
     [ "logging", "namespacelogging.html", [
-      [ "endpoints", "namespacelogging_1_1endpoints.html", [
-        [ "file", "classlogging_1_1endpoints_1_1file.html", "classlogging_1_1endpoints_1_1file" ],
-        [ "serial", "classlogging_1_1endpoints_1_1serial.html", "classlogging_1_1endpoints_1_1serial" ],
-        [ "terminal", "classlogging_1_1endpoints_1_1terminal.html", "classlogging_1_1endpoints_1_1terminal" ]
+      [ "endpoint", "namespacelogging_1_1endpoint.html", [
+        [ "file", "classlogging_1_1endpoint_1_1file.html", "classlogging_1_1endpoint_1_1file" ],
+        [ "serial", "classlogging_1_1endpoint_1_1serial.html", "classlogging_1_1endpoint_1_1serial" ],
+        [ "terminal", "classlogging_1_1endpoint_1_1terminal.html", "classlogging_1_1endpoint_1_1terminal" ]
       ] ],
       [ "annotated", "structlogging_1_1annotated.html", "structlogging_1_1annotated" ],
-      [ "Endpoint", "structlogging_1_1Endpoint.html", "structlogging_1_1Endpoint" ],
+      [ "Endpoint", "classlogging_1_1Endpoint.html", "classlogging_1_1Endpoint" ],
       [ "logger", "classlogging_1_1logger.html", "classlogging_1_1logger" ],
       [ "message", "structlogging_1_1message.html", "structlogging_1_1message" ]
     ] ],
@@ -38,15 +38,15 @@ var annotated_dup =
       [ "node_t", "structmemory_1_1node__t.html", "structmemory_1_1node__t" ],
       [ "server", "classmemory_1_1server.html", "classmemory_1_1server" ]
     ] ],
-    [ "RPC", "namespaceRPC.html", [
-      [ "TCP", "namespaceRPC_1_1TCP.html", [
-        [ "Client", "classRPC_1_1TCP_1_1Client.html", "classRPC_1_1TCP_1_1Client" ],
-        [ "Server", "classRPC_1_1TCP_1_1Server.html", "classRPC_1_1TCP_1_1Server" ]
+    [ "rpc", "namespacerpc.html", [
+      [ "tcp", "namespacerpc_1_1tcp.html", [
+        [ "Client", "classrpc_1_1tcp_1_1Client.html", "classrpc_1_1tcp_1_1Client" ],
+        [ "Server", "classrpc_1_1tcp_1_1Server.html", "classrpc_1_1tcp_1_1Server" ]
       ] ],
-      [ "Client", "classRPC_1_1Client.html", "classRPC_1_1Client" ],
-      [ "Context", "structRPC_1_1Context.html", "structRPC_1_1Context" ],
-      [ "ErrorHandler", "structRPC_1_1ErrorHandler.html", "structRPC_1_1ErrorHandler" ],
-      [ "Server", "classRPC_1_1Server.html", "classRPC_1_1Server" ]
+      [ "Client", "classrpc_1_1Client.html", "classrpc_1_1Client" ],
+      [ "Context", "structrpc_1_1Context.html", "structrpc_1_1Context" ],
+      [ "ErrorHandler", "structrpc_1_1ErrorHandler.html", "structrpc_1_1ErrorHandler" ],
+      [ "Server", "classrpc_1_1Server.html", "classrpc_1_1Server" ]
     ] ],
     [ "toml", "namespacetoml.html", [
       [ "color_ansi", "namespacetoml_1_1color__ansi.html", [
@@ -202,6 +202,7 @@ var annotated_dup =
       [ "Server", "classtransport_1_1Server.html", "classtransport_1_1Server" ]
     ] ],
     [ "util", "namespaceutil.html", [
+      [ "Collection", "classutil_1_1Collection.html", "classutil_1_1Collection" ],
       [ "configurable", "classutil_1_1configurable.html", "classutil_1_1configurable" ],
       [ "Factory", "classutil_1_1Factory.html", "classutil_1_1Factory" ],
       [ "rect", "structutil_1_1rect.html", "structutil_1_1rect" ],

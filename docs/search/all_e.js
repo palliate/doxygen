@@ -4,7 +4,7 @@ var searchData=
   ['name_5f_1',['name_',['../structmove__only__type.html#a9d3350424382d295967473960e4c50f0',1,'move_only_type']]],
   ['nanosecond_2',['nanosecond',['../structtoml_1_1local__time.html#a9bcf84d9eee020b6ce7d5c6fe335d0dc',1,'toml::local_time']]],
   ['negation_3',['negation',['../structtoml_1_1detail_1_1negation.html',1,'toml::detail']]],
-  ['network_4',['network',['../structRPC_1_1Context.html#a5f42203a18c9190f93bd36e23e963297',1,'RPC::Context']]],
+  ['network_4',['network',['../structrpc_1_1Context.html#a6271873a8b9ea182c388645d6764c963',1,'rpc::Context']]],
   ['next_5',['next',['../structpatricia_1_1node__t.html#a5300ca7794d6e7ddd5b9fae9404867bd',1,'patricia::node_t::next()'],['../structmemory_1_1node__t.html#acb9db24c0ef15841e3df4e56210c2a22',1,'memory::node_t::next()'],['../structmemory_1_1bin__t.html#ac8ea5a4ba03c095891eec4c5748a5d18',1,'memory::bin_t::next()'],['../structatomic__mpsc_1_1element.html#a0285db49c7c272055ff62e1589e7c857',1,'atomic_mpsc::element::next()'],['../structatomic__stack_1_1node.html#aad4b4c6db6239edd47d375e9486a03d0',1,'atomic_stack::node::next()']]],
   ['nocolorize_6',['nocolorize',['../namespacetoml_1_1color__ansi.html#a58e9623eaa14637162672aaf66107aae',1,'toml::color_ansi']]],
   ['nocomment_7',['nocomment',['../namespacetoml.html#aa91272393b6055932099c3978967c361',1,'toml']]],

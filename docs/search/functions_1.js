@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['accept_0',['accept',['../classRPC_1_1Server.html#a8e0c5dcec5f72fce2e929e28b24f4e24',1,'RPC::Server']]],
+  ['accept_0',['accept',['../classrpc_1_1Server.html#a8e0c5dcec5f72fce2e929e28b24f4e24',1,'rpc::Server']]],
   ['add_1',['add',['../classServers.html#a23e9d9aa1dd071b071e21f60c63eb339',1,'Servers::add()'],['../classtransport_1_1Server.html#a22201fbd657b6081e4b3676e081c7bc5',1,'transport::Server::add()']]],
   ['add_5freader_2',['add_reader',['../classatomic__semaphore.html#abe8bec37943f99266771d7798026a072',1,'atomic_semaphore']]],
   ['advance_3',['advance',['../structtoml_1_1detail_1_1location.html#a97b2915707242c6ffe7452431ed09333',1,'toml::detail::location']]],
