@@ -229,6 +229,7 @@ var hierarchy =
     [ "runnable", "classrunnable.html", [
       [ "consumer", "classconsumer.html", null ],
       [ "producer", "classproducer.html", null ],
+      [ "rpc::Server", "classrpc_1_1Server.html", null ],
       [ "transport::Client", "classtransport_1_1Client.html", [
         [ "transport::TCP::Client", "classtransport_1_1TCP_1_1Client.html", null ]
       ] ],

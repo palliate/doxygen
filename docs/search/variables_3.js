@@ -8,6 +8,7 @@ var searchData=
   ['config_5',['config',['../classutil_1_1configurable.html#a3cac56b2ee4686dc24f3b4c5e9df3554',1,'util::configurable']]],
   ['context_6',['context',['../classrpc_1_1Client.html#ae4e094d542938b7beee86b0a7c32d39e',1,'rpc::Client']]],
   ['contexts_7',['contexts',['../classrpc_1_1Server.html#a98e7bb75f79493966a23d25f900caf70',1,'rpc::Server']]],
-  ['control_8',['control',['../classproducer.html#aeae7d6b81d2341f72bd78ceb4e6067ac',1,'producer']]],
-  ['count_9',['count',['../classatomic__cr.html#aec0e1e80414365959696930fc417960c',1,'atomic_cr']]]
+  ['contexts_5fmutex_8',['contexts_mutex',['../classrpc_1_1Server.html#a461e850d1c05a0fe406674691fb6a66e',1,'rpc::Server']]],
+  ['control_9',['control',['../classproducer.html#aeae7d6b81d2341f72bd78ceb4e6067ac',1,'producer']]],
+  ['count_10',['count',['../classatomic__cr.html#aec0e1e80414365959696930fc417960c',1,'atomic_cr']]]
 ];

@@ -9,6 +9,7 @@ var classrunnable =
     [ "operator<=>", "classrunnable.html#a95d5a63e6ef290fc57c6c7d9218369c5", null ],
     [ "run", "classrunnable.html#a42e0a52707ace5412561ed203467f8e9", null ],
     [ "run", "classrunnable.html#af6c84adda2b18930d439cecaf4805dae", null ],
+    [ "setup", "classrunnable.html#a29c37cd6327ee6c3a896628ecd6935df", null ],
     [ "stop", "classrunnable.html#ab7117095b1382678c42c4979871f1d25", null ],
     [ "callback", "classrunnable.html#a43fefab36614b0cf701b2af4d83cf52e", null ],
     [ "thread", "classrunnable.html#a2af67a3067df242083a64c3add4f150a", null ]

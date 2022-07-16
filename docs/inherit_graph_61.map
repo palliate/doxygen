@@ -1,7 +1,22 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" title=" " alt="" coords="5,56,120,83"/>
-<area shape="rect" id="node2" href="$structtoml_1_1exception.html" title=" " alt="" coords="168,56,292,83"/>
-<area shape="rect" id="node3" href="$structtoml_1_1internal__error.html" title=" " alt="" coords="340,5,488,32"/>
-<area shape="rect" id="node4" href="$structtoml_1_1syntax__error.html" title=" " alt="" coords="343,56,485,83"/>
-<area shape="rect" id="node5" href="$structtoml_1_1type__error.html" title=" " alt="" coords="351,107,477,133"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,501,124,527"/>
+<area shape="rect" id="node2" title=" " alt="" coords="172,73,444,246"/>
+<area shape="rect" id="node9" title=" " alt="" coords="189,271,427,371"/>
+<area shape="rect" id="node11" href="$structtoml_1_1detail_1_1disjunction.html" title=" " alt="" coords="220,395,396,436"/>
+<area shape="rect" id="node12" href="$structtoml_1_1detail_1_1is__basic__value.html" title=" " alt="" coords="229,460,387,501"/>
+<area shape="rect" id="node17" href="$structtoml_1_1detail_1_1is__chrono__duration.html" title=" " alt="" coords="225,525,391,567"/>
+<area shape="rect" id="node18" href="$structtoml_1_1detail_1_1is__std__forward__list.html" title=" " alt="" coords="236,591,380,632"/>
+<area shape="rect" id="node19" href="$structtoml_1_1detail_1_1is__std__pair.html" title=" " alt="" coords="237,656,379,697"/>
+<area shape="rect" id="node20" href="$structtoml_1_1detail_1_1is__std__tuple.html" title=" " alt="" coords="237,721,379,763"/>
+<area shape="rect" id="node3" href="$structtoml_1_1detail_1_1is__exact__toml__type.html" title=" " alt="" coords="517,107,676,148"/>
+<area shape="rect" id="node8" href="$structtoml_1_1detail_1_1is__exact__toml__type.html" title=" " alt="" coords="508,172,685,213"/>
+<area shape="rect" id="node4" href="$structtoml_1_1detail_1_1is__exact__toml__type_3_01T_01_6_00_01V_01_4.html" title=" " alt="" coords="773,5,937,47"/>
+<area shape="rect" id="node5" href="$structtoml_1_1detail_1_1is__exact__toml__type_3_01T_01const_01_6_00_01V_01_4.html" title=" " alt="" coords="753,71,956,112"/>
+<area shape="rect" id="node6" href="$structtoml_1_1detail_1_1is__exact__toml__type_3_01T_01const_01volatile_01_6_00_01V_01_4.html" title=" " alt="" coords="749,137,960,193"/>
+<area shape="rect" id="node7" href="$structtoml_1_1detail_1_1is__exact__toml__type_3_01T_01volatile_01_6_00_01V_01_4.html" title=" " alt="" coords="769,217,940,273"/>
+<area shape="rect" id="node10" href="$structtoml_1_1detail_1_1is__string__literal.html" title=" " alt="" coords="517,300,677,341"/>
+<area shape="rect" id="node13" href="$structtoml_1_1detail_1_1is__basic__value_3_01T_01_6_01_4.html" title=" " alt="" coords="518,380,675,421"/>
+<area shape="rect" id="node14" href="$structtoml_1_1detail_1_1is__basic__value_3_01T_01const_01_6_01_4.html" title=" " alt="" coords="518,445,675,487"/>
+<area shape="rect" id="node15" href="$structtoml_1_1detail_1_1is__basic__value_3_01T_01const_01volatile_01_6_01_4.html" title=" " alt="" coords="492,511,701,552"/>
+<area shape="rect" id="node16" href="$structtoml_1_1detail_1_1is__basic__value_3_01T_01volatile_01_6_01_4.html" title=" " alt="" coords="511,576,682,617"/>
 </map>

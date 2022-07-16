@@ -1,4 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" title=" " alt="" coords="5,13,164,39"/>
-<area shape="rect" id="node2" href="$structtoml_1_1detail_1_1conjunction_3_01T_00_01Ts_8_8_8_01_4.html" title=" " alt="" coords="212,5,392,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,120,83"/>
+<area shape="rect" id="node2" href="$structtoml_1_1exception.html" title=" " alt="" coords="168,56,292,83"/>
+<area shape="rect" id="node3" href="$structtoml_1_1internal__error.html" title=" " alt="" coords="340,5,488,32"/>
+<area shape="rect" id="node4" href="$structtoml_1_1syntax__error.html" title=" " alt="" coords="343,56,485,83"/>
+<area shape="rect" id="node5" href="$structtoml_1_1type__error.html" title=" " alt="" coords="351,107,477,133"/>
 </map>

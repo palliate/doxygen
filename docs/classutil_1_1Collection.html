@@ -103,8 +103,8 @@ $(document).ready(function(){initNavTree('classutil_1_1Collection.html',''); ini
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a18e1c8c7c4129b4e9f470534767112f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1Collection.html#a18e1c8c7c4129b4e9f470534767112f5">create</a> (<a class="el" href="namespacetoml.html#af7d788a576baa570efd4793cd5df8ac7">toml::table</a> const &amp;node, Args &amp;&amp;... args)</td></tr>
-<tr class="separator:a18e1c8c7c4129b4e9f470534767112f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab161555990d62512358adf931a22c285"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1Collection.html#ab161555990d62512358adf931a22c285">create</a> (<a class="el" href="namespacetoml.html#af7d788a576baa570efd4793cd5df8ac7">toml::table</a> const &amp;node, Args &amp;&amp;... args)</td></tr>
+<tr class="separator:ab161555990d62512358adf931a22c285"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8d7d84c15a97d7b8f451fab1b7f79be"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1Collection.html#ab8d7d84c15a97d7b8f451fab1b7f79be">insert</a> (<a class="el" href="namespacetoml.html#ab00c292fbb2e761ef69fdafd6b813348">toml::key</a> const &amp;key, <a class="el" href="namespacetoml.html#af7d788a576baa570efd4793cd5df8ac7">toml::table</a> const &amp;config, Args &amp;&amp;... args)</td></tr>
 <tr class="separator:ab8d7d84c15a97d7b8f451fab1b7f79be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80225a34509d1e49a96ad6230b5ddc94"><td class="memItemLeft" align="right" valign="top">auto &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1Collection.html#a80225a34509d1e49a96ad6230b5ddc94">operator&lt;&lt;</a> (<a class="el" href="namespacetoml.html#af7d788a576baa570efd4793cd5df8ac7">toml::table</a> const &amp;node)</td></tr>
@@ -117,6 +117,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa9e4907f937d3ab2923ff821b7c1b629"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f1981f420c8a9814102dd8fe4aedab1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1Collection.html#a2f1981f420c8a9814102dd8fe4aedab1">contains</a> (std::string const &amp;key) const</td></tr>
 <tr class="separator:a2f1981f420c8a9814102dd8fe4aedab1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8eed954f30cbbe15f90fc9aa28bbd5b5"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1Collection.html#a8eed954f30cbbe15f90fc9aa28bbd5b5">size</a> () const noexcept</td></tr>
+<tr class="separator:a8eed954f30cbbe15f90fc9aa28bbd5b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a2ab8b0d695ac29d93549989b1c2a7874" name="a2ab8b0d695ac29d93549989b1c2a7874"></a>
@@ -174,8 +176,8 @@ template&lt;class Interface , typename... Args&gt; </div>
 
 </div>
 </div>
-<a id="a18e1c8c7c4129b4e9f470534767112f5" name="a18e1c8c7c4129b4e9f470534767112f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a18e1c8c7c4129b4e9f470534767112f5">&#9670;&nbsp;</a></span>create()</h2>
+<a id="ab161555990d62512358adf931a22c285" name="ab161555990d62512358adf931a22c285"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab161555990d62512358adf931a22c285">&#9670;&nbsp;</a></span>create()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -186,7 +188,7 @@ template&lt;class Interface , typename... Args&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classutil_1_1Collection.html">util::Collection</a>&lt; Interface, Args &gt;::create </td>
+          <td class="memname">auto <a class="el" href="classutil_1_1Collection.html">util::Collection</a>&lt; Interface, Args &gt;::create </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespacetoml.html#af7d788a576baa570efd4793cd5df8ac7">toml::table</a> const &amp;&#160;</td>
           <td class="paramname"><em>node</em>, </td>
@@ -333,6 +335,33 @@ template&lt;class Interface , typename... Args&gt; </div>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8eed954f30cbbe15f90fc9aa28bbd5b5" name="a8eed954f30cbbe15f90fc9aa28bbd5b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8eed954f30cbbe15f90fc9aa28bbd5b5">&#9670;&nbsp;</a></span>size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Interface , typename... Args&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto <a class="el" href="classutil_1_1Collection.html">util::Collection</a>&lt; Interface, Args &gt;::size </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

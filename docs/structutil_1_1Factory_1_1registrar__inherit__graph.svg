@@ -21,7 +21,7 @@
 <text text-anchor="start" x="23.5" y="-37.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ registered</text>
 <polyline fill="none" stroke="black" points="15.5,-30.5 127.5,-30.5 "/>
 <text text-anchor="start" x="23.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~registrar()</text>
-<text text-anchor="start" x="23.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ registerT()</text>
+<text text-anchor="start" x="23.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ register_type()</text>
 </a>
 </g>
 </g>
