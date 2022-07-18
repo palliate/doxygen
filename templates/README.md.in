@@ -1,0 +1,15 @@
+## {{ name }}
+
+{% if directories -%}
+### Directories
+{% for name, id in directories.items() -%}
+* [{{ name }}]({{ id }})
+{% endfor -%}
+{%- endif -%}
+
+{% if files -%}
+### Files
+{% for name, id in files.items() -%}
+* [{{ name }}]({{ id }})
+{% endfor -%}
+{% endif %}
