@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['testmod_0',['testmod',['../classtestmod.html',1,'']]],
-  ['tray_5fimpl_1',['tray_impl',['../classtray__impl.html',1,'']]]
+  ['leaf_5ft_0',['leaf_t',['../../libpalliate/structpatricia_1_1leaf__t.html',1,'patricia']]],
+  ['library_1',['library',['../classlibrary.html',1,'']]],
+  ['logger_2',['logger',['../../libpalliate/classlogging_1_1logger.html',1,'logging']]]
 ];

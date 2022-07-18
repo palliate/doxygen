@@ -1,5 +1,20 @@
 var searchData=
 [
-  ['version_0',['version',['../classConfiguration.html#a9703979ba355df47245c7e8a121493fc',1,'Configuration']]],
-  ['vtty_1',['vtty',['../classvtty.html#ac43a93cd50bb8042ac2094cd2e2894e9',1,'vtty']]]
+  ['taskfailed_0',['taskFailed',['../../libpalliate/structrpc_1_1ErrorHandler.html#a7a31fee351ee2ab3e761800cb1180cfc',1,'rpc::ErrorHandler']]],
+  ['terminal_1',['terminal',['../../libpalliate/classlogging_1_1endpoint_1_1terminal.html#a2b70ef201f1dd5602a3a1427bd01afa8',1,'logging::endpoint::terminal']]],
+  ['terminate_5fhandler_2',['terminate_handler',['../main_8cpp.html#a6d3e224dbaae674825482b0dbb1d8579',1,'main.cpp']]],
+  ['test_3',['test',['../classtestmod.html#a31fd3a392ea95e0c4580df0a77bb985c',1,'testmod']]],
+  ['testmod_4',['testmod',['../classtestmod.html#a801c18e5ea171f87bf11ef9ab5752640',1,'testmod']]],
+  ['thread_5fname_5',['thread_name',['../../libpalliate/classlogging_1_1logger.html#a8e43231ab6556eb4da2184ffa69fd978',1,'logging::logger']]],
+  ['timestamp_6',['timestamp',['../../libpalliate/namespaceutil.html#a211993f85d0b44090dd95e4a7b551545',1,'util']]],
+  ['title_7',['title',['../../libpalliate/classwindow.html#ace38456c6311b4413488ed6bc8809dd2',1,'window::title()'],['../classglfw__window.html#a734d15b9c8be4968e6b19f193307acd5',1,'glfw_window::title()']]],
+  ['to_5fbool_8',['to_bool',['../../libpalliate/namespaceutil.html#af0b080debd3f1f7aca9c77c94089b62f',1,'util']]],
+  ['to_5fint_9',['to_int',['../../libpalliate/namespaceutil.html#a59a85cee997adfe832494c28f51fca5d',1,'util']]],
+  ['to_5foffset_10',['to_offset',['../../libpalliate/classmemory_1_1manager.html#ae0ac8e94a2ebe13cb6cb23796b2ebc0b',1,'memory::manager']]],
+  ['to_5fptr_11',['to_ptr',['../../libpalliate/classmemory_1_1manager.html#a481f7f9fb3f7c762c1f004a04b37a0f5',1,'memory::manager']]],
+  ['to_5fstr_12',['to_str',['../../libpalliate/structutil_1_1uuid.html#a4ebe9897d9cfcd9586367ffdf78475e1',1,'util::uuid::to_str()'],['../../libpalliate/structmemory_1_1node__t.html#a53ca033f775beed0f47f820501dce690',1,'memory::node_t::to_str()'],['../../libpalliate/structpatricia_1_1leaf__t.html#a06dab8fbf2f78e1a86e685c474052dde',1,'patricia::leaf_t::to_str()']]],
+  ['toggle_5ffullscreen_13',['toggle_fullscreen',['../../libpalliate/classui.html#aec6b0fed1a4ba4c866ccd4302bd1c33a',1,'ui']]],
+  ['tokenize_14',['tokenize',['../classCli.html#ad30fe82b57d5b6b1308d4989ae5b63ff',1,'Cli']]],
+  ['traverse_15',['traverse',['../../libpalliate/structpatricia_1_1node__t.html#aecf86dbf8935ae47f32522f771ceff9d',1,'patricia::node_t']]],
+  ['tray_5fimpl_16',['tray_impl',['../classtray__impl.html#a09e4c4bf911cf6e7163046e4594be1ab',1,'tray_impl']]]
 ];

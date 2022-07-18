@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "libpalliate", "index.html", [
+  [ "palliate", "index.html", [
     [ "Landing page", "../index.html", null ],
     [ "Core library documentation", "../libpalliate/index.html", null ],
     [ "Namespaces", "namespaces.html", [
@@ -55,7 +55,9 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"../index.html"
+"../index.html",
+"classplugin.html#ac51eb269648cffefe2914fac6e9e0185",
+"structlogging_1_1message.html#a73a67ef7edb030c335c1cde8e1d2e122"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

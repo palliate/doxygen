@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['library_5fptr_0',['library_ptr',['../classplugin__manager.html#a40be8cdbd6308fbe4d860106d4571152',1,'plugin_manager']]]
+  ['builder_5ft_0',['builder_t',['../../libpalliate/namespacetransport.html#a0eb232425bd97e075552bb60e1ba2677',1,'transport']]]
 ];

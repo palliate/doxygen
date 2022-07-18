@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.4"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>libpalliate: logging Namespace Reference</title>
+<title>palliate: logging Namespace Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -34,9 +34,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libpalliate<span id="projectnumber">&#160;v0.0.1</span>
+   <div id="projectname">palliate<span id="projectnumber">&#160;v0.0.1</span>
    </div>
-   <div id="projectbrief">Palliate core library</div>
+   <div id="projectbrief">Palliate application and built-in plugins</div>
   </td>
  </tr>
  </tbody>
@@ -93,7 +93,11 @@ $(document).ready(function(){initNavTree('namespacelogging.html',''); initResiza
 
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">logging Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -102,6 +106,44 @@ $(document).ready(function(){initNavTree('namespacelogging.html',''); initResiza
 Namespaces</h2></td></tr>
 <tr class="memitem:namespacelogging_1_1endpoint"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacelogging_1_1endpoint.html">endpoint</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../libpalliate/structlogging_1_1annotated.html">annotated</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../libpalliate/classlogging_1_1Endpoint.html">Endpoint</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../libpalliate/classlogging_1_1logger.html">logger</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../libpalliate/structlogging_1_1message.html">message</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a72e7a108a3928d5e407b6a7723799826"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><b>severity</b> </td></tr>
+<tr class="separator:a72e7a108a3928d5e407b6a7723799826"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a32af4ba58c16d1549c151a543f5be250"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../libpalliate/namespacelogging.html#a32af4ba58c16d1549c151a543f5be250">print</a> (std::source_location location, <a class="elRef" href="../libpalliate/namespacelogging.html#a72e7a108a3928d5e407b6a7723799826">severity</a> level, Ts &amp;&amp;... ts)</td></tr>
+<tr class="separator:a32af4ba58c16d1549c151a543f5be250"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae84cc3764d34e4332c3e6b26dbcc3441"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../libpalliate/namespacelogging.html#ae84cc3764d34e4332c3e6b26dbcc3441">print</a> (<a class="elRef" href="../libpalliate/structlogging_1_1annotated.html">annotated</a>&lt; <a class="elRef" href="../libpalliate/namespacelogging.html#a72e7a108a3928d5e407b6a7723799826">severity</a> &gt; meta, Ts &amp;&amp;... ts)</td></tr>
+<tr class="separator:ae84cc3764d34e4332c3e6b26dbcc3441"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad16d03f4bf331fb5ae5e0d19dcc72562"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../libpalliate/namespacelogging.html#ad16d03f4bf331fb5ae5e0d19dcc72562">print</a> (<a class="elRef" href="../libpalliate/structlogging_1_1annotated.html">annotated</a>&lt; char const * &gt; meta, Ts &amp;&amp;... ts)</td></tr>
+<tr class="separator:ad16d03f4bf331fb5ae5e0d19dcc72562"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a72e7a108a3928d5e407b6a7723799826aa8e7bccd55418c8ecc7a23bb5d9afcff"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../libpalliate/namespacelogging.html#a72e7a108a3928d5e407b6a7723799826aa8e7bccd55418c8ecc7a23bb5d9afcff">debug</a></td></tr>
+<tr class="separator:a72e7a108a3928d5e407b6a7723799826aa8e7bccd55418c8ecc7a23bb5d9afcff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72e7a108a3928d5e407b6a7723799826a4cd4cc508dacd5b0007018c45a446ee4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../libpalliate/namespacelogging.html#a72e7a108a3928d5e407b6a7723799826a4cd4cc508dacd5b0007018c45a446ee4">info</a></td></tr>
+<tr class="separator:a72e7a108a3928d5e407b6a7723799826a4cd4cc508dacd5b0007018c45a446ee4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72e7a108a3928d5e407b6a7723799826afe6af08edd74e3e77e5ec1058844088c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../libpalliate/namespacelogging.html#a72e7a108a3928d5e407b6a7723799826afe6af08edd74e3e77e5ec1058844088c">warning</a></td></tr>
+<tr class="separator:a72e7a108a3928d5e407b6a7723799826afe6af08edd74e3e77e5ec1058844088c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72e7a108a3928d5e407b6a7723799826a66700fb5e035d3906738d73fc57579f0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../libpalliate/namespacelogging.html#a72e7a108a3928d5e407b6a7723799826a66700fb5e035d3906738d73fc57579f0">error</a></td></tr>
+<tr class="separator:a72e7a108a3928d5e407b6a7723799826a66700fb5e035d3906738d73fc57579f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72e7a108a3928d5e407b6a7723799826a53dcd4887683847f344507340d236621"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../libpalliate/namespacelogging.html#a72e7a108a3928d5e407b6a7723799826a53dcd4887683847f344507340d236621">fatal</a></td></tr>
+<tr class="separator:a72e7a108a3928d5e407b6a7723799826a53dcd4887683847f344507340d236621"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

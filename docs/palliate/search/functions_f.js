@@ -1,9 +1,16 @@
 var searchData=
 [
-  ['terminate_5fhandler_0',['terminate_handler',['../main_8cpp.html#a6d3e224dbaae674825482b0dbb1d8579',1,'main.cpp']]],
-  ['test_1',['test',['../classtestmod.html#a31fd3a392ea95e0c4580df0a77bb985c',1,'testmod']]],
-  ['testmod_2',['testmod',['../classtestmod.html#a801c18e5ea171f87bf11ef9ab5752640',1,'testmod']]],
-  ['title_3',['title',['../classglfw__window.html#a734d15b9c8be4968e6b19f193307acd5',1,'glfw_window']]],
-  ['tokenize_4',['tokenize',['../classCli.html#ad30fe82b57d5b6b1308d4989ae5b63ff',1,'Cli']]],
-  ['tray_5fimpl_5',['tray_impl',['../classtray__impl.html#a09e4c4bf911cf6e7163046e4594be1ab',1,'tray_impl']]]
+  ['recv_0',['recv',['../../libpalliate/classtransport_1_1Client.html#a7321574b5f18600eccbd3d4aab1c0ce9',1,'transport::Client::recv()'],['../../libpalliate/classtransport_1_1TCP_1_1Client.html#aa37d32a373866fdb0d79a654378c3047',1,'transport::TCP::Client::recv()'],['../../libpalliate/classrpc_1_1Client.html#a9145ad0948f4016beb356e6905c41a6e',1,'rpc::Client::recv()']]],
+  ['register_5fplugin_1',['REGISTER_PLUGIN',['../capture_2plugin_8cpp.html#aa30de626816541e098dba3f8f7435f2f',1,'REGISTER_PLUGIN(capture):&#160;plugin.cpp'],['../input_2plugin_8cpp.html#aa6ebc960a238d41699070d9a47c18ba8',1,'REGISTER_PLUGIN(input):&#160;plugin.cpp'],['../systemd_2plugin_8cpp.html#a311322742bdd4b0831d4fe56f7835cbb',1,'REGISTER_PLUGIN(systemd):&#160;plugin.cpp'],['../test_8cpp.html#a3b4def47e0382bb0a656a1406a00370e',1,'REGISTER_PLUGIN(testmod):&#160;test.cpp'],['../vtty_2plugin_8cpp.html#aada0195da3e8a7b4f5aacf3769dd57d4',1,'REGISTER_PLUGIN(vtty):&#160;plugin.cpp'],['../wm_2plugin_8cpp.html#a4b16c9f0b20ffe21392c76d3475f1a11',1,'REGISTER_PLUGIN(wm):&#160;plugin.cpp']]],
+  ['register_5ftype_2',['register_type',['../../libpalliate/structutil_1_1Factory_1_1registrar.html#a872939412eb732519186d4c971a2d6ca',1,'util::Factory::registrar']]],
+  ['remove_3',['remove',['../../libpalliate/classServers.html#ab83929ebe8f364cb1a7efbddd32d98d6',1,'Servers::remove()'],['../../libpalliate/classtransport_1_1Server.html#a8a8ae4f62d6d895c8991faa001549b59',1,'transport::Server::remove()'],['../../libpalliate/classrpc_1_1Server.html#a251f49078124dd3e8e577c2d4f659fe2',1,'rpc::Server::remove()'],['../../libpalliate/classpatricia.html#aabdf1be9cad8b8e4720fb1b67e94e115',1,'patricia::remove(pkey_t key)'],['../../libpalliate/classpatricia.html#a2fcc568288e27bfe53fcac14187fbfe4',1,'patricia::remove(T *value)']]],
+  ['remove_5fbasedir_4',['remove_basedir',['../../libpalliate/namespaceutil.html#a9eb772a26c1ab47b1b4fa0f299634ac8',1,'util']]],
+  ['remove_5ffile_5fextension_5',['remove_file_extension',['../../libpalliate/namespaceutil.html#a0e5257e7e83846d3465993f58a9ce917',1,'util']]],
+  ['remove_5freader_6',['remove_reader',['../../libpalliate/classatomic__semaphore.html#aace5f9281f89aa88a2426d8a713f4886',1,'atomic_semaphore']]],
+  ['render_7',['render',['../classtray__impl.html#a54360c7d870ca4b1f669894b1d71f230',1,'tray_impl::render()'],['../classglfw__window.html#aba56d4064e25ebcc0878b79834fc8afb',1,'glfw_window::render()'],['../classdisplays.html#a3fd6eb05414cad137f7dfb808d877f45',1,'displays::render()'],['../classglfw__backend.html#ae016de034821ca3f52cafcef68527a82',1,'glfw_backend::render()'],['../../libpalliate/classwindow.html#a5189d6e23b54550c8ef0be530f5cee7c',1,'window::render()'],['../../libpalliate/classtray.html#a61642b5276311d98cc872423523f0d6f',1,'tray::render()'],['../../libpalliate/classbackend.html#a34f36b7f086ca4a5efc7b63f2872dbe9',1,'backend::render()']]],
+  ['request_8',['request',['../../libpalliate/classatomic__cr.html#a9710c0cc4ce7e0b58c27f994cdd01a4c',1,'atomic_cr']]],
+  ['resize_9',['resize',['../../libpalliate/classwindow.html#a9476cbee18eb41a1a8e91c4adfdf9f05',1,'window::resize()'],['../classglfw__window.html#abf9c308ef869e75141d5e5d9f6ef328b',1,'glfw_window::resize()']]],
+  ['respond_10',['respond',['../../libpalliate/classatomic__cr_1_1element.html#a950707ba2d933f0682e61e674a32cd60',1,'atomic_cr::element']]],
+  ['run_11',['run',['../../libpalliate/classrunnable.html#a42e0a52707ace5412561ed203467f8e9',1,'runnable::run()'],['../../libpalliate/classrunnable.html#af6c84adda2b18930d439cecaf4805dae',1,'runnable::run(callback_f _callback)'],['../../libpalliate/classmemory_1_1server.html#a66bd9eb32455d0581abe2c82dda4dc87',1,'memory::server::run()']]],
+  ['runnable_12',['runnable',['../../libpalliate/classrunnable.html#a8fd64913596654286fc52e92f247b6f6',1,'runnable']]]
 ];

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['parse_5fcli_0',['parse_cli',['../classConfiguration.html#ac6cfac2f9462a86ee65e61547d248c10',1,'Configuration']]],
-  ['plugin_5fmanager_1',['plugin_manager',['../classplugin__manager.html#ad54f141def21df6411146329df11af60',1,'plugin_manager']]],
-  ['print_2',['print',['../classlogging_1_1endpoint_1_1bridge.html#a568d85fdb36f72b3e6e40620fadc7093',1,'logging::endpoint::bridge::print()'],['../classlogging_1_1endpoint_1_1systemd.html#a9a47c43bc5d7ffdcde3361b8296e98d7',1,'logging::endpoint::systemd::print()']]]
+  ['next_0',['next',['../../libpalliate/structpatricia_1_1node__t.html#a5300ca7794d6e7ddd5b9fae9404867bd',1,'patricia::node_t']]],
+  ['node_1',['node',['../../libpalliate/structatomic__stack_1_1node.html#a9a95b98ce7605d256b5a3853dedfea0c',1,'atomic_stack::node']]],
+  ['node_5ft_2',['node_t',['../../libpalliate/structmemory_1_1node__t.html#a5c49c4a16eea1d71f8c6b710e6511def',1,'memory::node_t::node_t()'],['../../libpalliate/structpatricia_1_1node__t.html#a3c3d333d01ff0c9e6d3a0b72e46d5454',1,'patricia::node_t::node_t()']]]
 ];

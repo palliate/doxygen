@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['context_5fguard_0',['context_guard',['../classglfw__window.html#a5ba0b1a5357a4aa78f0f4470c7350621',1,'glfw_window']]]
+  ['atomic_5fcr_0',['atomic_cr',['../../libpalliate/classatomic__cr_1_1element.html#a0d25b278e194a2b0b60a855bfa0b4eb3',1,'atomic_cr::element']]]
 ];

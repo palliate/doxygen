@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['tbo_0',['TBO',['../classglfw__window.html#a8569d703efc421596f86d13f488294ee',1,'glfw_window']]],
-  ['tex_5fcoords_1',['tex_coords',['../classglfw__window.html#a20955c5d7406bb328a552e26e9b183a5',1,'glfw_window']]],
-  ['texture_2',['texture',['../classglfw__window.html#a5af9ed871a9461b75dc3a2002ea9f0a9',1,'glfw_window']]],
-  ['texture_5fheight_3',['texture_height',['../classglfw__window.html#a9a6e1bc6b52a3cbf471e373d634f7b69',1,'glfw_window']]],
-  ['texture_5fshift_4',['texture_shift',['../classglfw__window.html#ada3fc8ff36e49183924e69c4f89aa2c2',1,'glfw_window']]],
-  ['texture_5fwidth_5',['texture_width',['../classglfw__window.html#a37be84c8a32ec337d622dac7d8c9adad',1,'glfw_window']]]
+  ['id_0',['id',['../../libpalliate/classatomic__cr.html#aab2a0e85f787b8b988f012d9d00c0b56',1,'atomic_cr']]],
+  ['in_5fuse_1',['in_use',['../../libpalliate/structmemory_1_1node__t.html#a7da281b98d434558e4444b160a947ce0',1,'memory::node_t']]],
+  ['info_2',['info',['../../libpalliate/namespacelogging.html#a72e7a108a3928d5e407b6a7723799826a4cd4cc508dacd5b0007018c45a446ee4',1,'logging']]],
+  ['inner_3',['inner',['../../libpalliate/structmpsc_1_1element__t.html#a20420aaaa91c6b4bc5602b3aa46e2b1a',1,'mpsc::element_t']]],
+  ['interface_4',['interface',['../../libpalliate/classrpc_1_1Server.html#a45630a1fed178c549a49353e0766cc42',1,'rpc::Server']]],
+  ['invalid_5',['INVALID',['../../libpalliate/namespacememory.html#a5489f7fba409dae5923725a7831d5026a08fef16c3401434dafddf345706e06b1',1,'memory']]]
 ];

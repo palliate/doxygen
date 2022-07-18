@@ -1,9 +1,26 @@
 var searchData=
 [
-  ['backend_2ecpp_0',['backend.cpp',['../backend_8cpp.html',1,'']]],
-  ['backend_2eh_1',['backend.h',['../backend_8h.html',1,'']]],
-  ['begin_2',['begin',['../classplugin__manager.html#a1826108c177017762d46cca46dcdfc29',1,'plugin_manager']]],
-  ['bridge_3',['bridge',['../classlogging_1_1endpoint_1_1bridge.html#a0586318c0b367f66bfc8a885255e0809',1,'logging::endpoint::bridge::bridge()'],['../classlogging_1_1endpoint_1_1bridge.html',1,'logging::endpoint::bridge']]],
-  ['bridge_2ecpp_4',['bridge.cpp',['../bridge_8cpp.html',1,'']]],
-  ['bridge_2eh_5',['bridge.h',['../bridge_8h.html',1,'']]]
+  ['accept_0',['accept',['../../libpalliate/classrpc_1_1Server.html#a8e0c5dcec5f72fce2e929e28b24f4e24',1,'rpc::Server']]],
+  ['add_1',['add',['../../libpalliate/classServers.html#a23e9d9aa1dd071b071e21f60c63eb339',1,'Servers::add()'],['../../libpalliate/classtransport_1_1Server.html#a22201fbd657b6081e4b3676e081c7bc5',1,'transport::Server::add()']]],
+  ['add_5freader_2',['add_reader',['../../libpalliate/classatomic__semaphore.html#abe8bec37943f99266771d7798026a072',1,'atomic_semaphore']]],
+  ['alloc_3',['alloc',['../../libpalliate/classmemory_1_1memory__map.html#a23ce898098f5305ec27a3371ffe9c952',1,'memory::memory_map::alloc()'],['../../libpalliate/classmemory_1_1manager.html#a05ea67584c8ec004fce63a65a2130e40',1,'memory::manager::alloc()']]],
+  ['annotated_4',['annotated',['../../libpalliate/structlogging_1_1annotated.html#ac2eee421dfb9f415485d165eb630b985',1,'logging::annotated::annotated()'],['../../libpalliate/structlogging_1_1annotated.html',1,'logging::annotated&lt; typename T &gt;']]],
+  ['atomic_5fcr_5',['atomic_cr',['../../libpalliate/classatomic__cr.html',1,'atomic_cr&lt; unsigned size &gt;'],['../../libpalliate/classatomic__cr_1_1element.html#a0d25b278e194a2b0b60a855bfa0b4eb3',1,'atomic_cr::element::atomic_cr()'],['../../libpalliate/classatomic__cr.html#ad3a0cf0fa2093bd81ccd91bc243135e0',1,'atomic_cr::atomic_cr()']]],
+  ['atomic_5fcr_2eh_6',['atomic_cr.h',['../../libpalliate/atomic__cr_8h.html',1,'']]],
+  ['atomic_5fcr_3c_208_20_3e_7',['atomic_cr&lt; 8 &gt;',['../../libpalliate/classatomic__cr.html',1,'']]],
+  ['atomic_5fmpsc_8',['atomic_mpsc',['../../libpalliate/classatomic__mpsc.html',1,'atomic_mpsc'],['../../libpalliate/classatomic__mpsc.html#a42006057a8147520ddb867953d603059',1,'atomic_mpsc::atomic_mpsc()']]],
+  ['atomic_5fmpsc_2eh_9',['atomic_mpsc.h',['../../libpalliate/atomic__mpsc_8h.html',1,'']]],
+  ['atomic_5fqueue_10',['atomic_queue',['../../libpalliate/classatomic__queue.html',1,'atomic_queue'],['../../libpalliate/classatomic__queue.html#a9fcd269a98dfbfdd228b06c51844d31d',1,'atomic_queue::atomic_queue()']]],
+  ['atomic_5fqueue_2ecpp_11',['atomic_queue.cpp',['../../libpalliate/atomic__queue_8cpp.html',1,'']]],
+  ['atomic_5fqueue_2eh_12',['atomic_queue.h',['../../libpalliate/atomic__queue_8h.html',1,'']]],
+  ['atomic_5freqresp_13',['atomic_reqresp',['../../libpalliate/classatomic__reqresp.html#ae973fb4a0074544c134a8d14175beeb5',1,'atomic_reqresp::atomic_reqresp()'],['../../libpalliate/classatomic__reqresp.html',1,'atomic_reqresp']]],
+  ['atomic_5freqresp_2eh_14',['atomic_reqresp.h',['../../libpalliate/atomic__reqresp_8h.html',1,'']]],
+  ['atomic_5fsemaphore_15',['atomic_semaphore',['../../libpalliate/classatomic__semaphore.html#ac6fc15bf48282667feebefea2c7ac288',1,'atomic_semaphore::atomic_semaphore()'],['../../libpalliate/classatomic__semaphore.html',1,'atomic_semaphore']]],
+  ['atomic_5fsemaphore_2ecpp_16',['atomic_semaphore.cpp',['../../libpalliate/atomic__semaphore_8cpp.html',1,'']]],
+  ['atomic_5fsemaphore_2eh_17',['atomic_semaphore.h',['../../libpalliate/atomic__semaphore_8h.html',1,'']]],
+  ['atomic_5fstack_18',['atomic_stack',['../../libpalliate/classatomic__stack.html',1,'']]],
+  ['atomic_5fstack_2eh_19',['atomic_stack.h',['../../libpalliate/atomic__stack_8h.html',1,'']]],
+  ['attach_20',['attach',['../../libpalliate/classui.html#a1b194bf77cb4e97083a9612d9996cec7',1,'ui']]],
+  ['attention_21',['attention',['../../libpalliate/classwindow.html#a69a48b055884eee77f8b4517ee916e93',1,'window::attention()'],['../classglfw__window.html#a989b21928120dfe08522b7d91849e184',1,'glfw_window::attention()']]],
+  ['authenticate_22',['authenticate',['../classlogging_1_1endpoint_1_1bridge.html#a0d3409109ed80f7261b8047356fe0fd1',1,'logging::endpoint::bridge']]]
 ];

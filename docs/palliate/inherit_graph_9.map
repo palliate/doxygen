@@ -1,7 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" title=" " alt="" coords="5,107,136,133"/>
-<area shape="rect" id="node2" href="$classControl.html" title=" " alt="" coords="213,56,282,83"/>
-<area shape="rect" id="node3" href="$classplugin__manager.html" title=" " alt="" coords="184,107,311,133"/>
-<area shape="rect" id="node4" title=" " alt="" coords="31,5,110,32"/>
-<area shape="rect" id="node5" title=" " alt="" coords="22,56,119,83"/>
+<area shape="rect" id="node1" href="/__w/palliate/palliate/docs/tags/libpalliate.tag$classbackend.html" title=" " alt="" coords="5,31,81,57"/>
+<area shape="rect" id="node2" href="$classglfw__backend.html" title=" " alt="" coords="129,5,240,32"/>
+<area shape="rect" id="node3" href="/__w/palliate/palliate/docs/tags/libpalliate.tag$classtray.html" title=" " alt="" coords="161,56,209,83"/>
+<area shape="rect" id="node4" href="$classtray__impl.html" title=" " alt="" coords="288,56,372,83"/>
 </map>

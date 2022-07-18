@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['systemd_0',['systemd',['../classlogging_1_1endpoint_1_1systemd.html',1,'logging::endpoint::systemd'],['../classsystemd.html',1,'systemd']]]
+  ['input_0',['input',['../classinput.html',1,'']]],
+  ['ivshmem_1',['ivshmem',['../../libpalliate/classivshmem.html',1,'']]]
 ];

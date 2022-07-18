@@ -1,6 +1,10 @@
 var searchData=
 [
-  ['register_5fplugin_0',['REGISTER_PLUGIN',['../capture_2plugin_8cpp.html#aa30de626816541e098dba3f8f7435f2f',1,'REGISTER_PLUGIN(capture):&#160;plugin.cpp'],['../input_2plugin_8cpp.html#aa6ebc960a238d41699070d9a47c18ba8',1,'REGISTER_PLUGIN(input):&#160;plugin.cpp'],['../systemd_2plugin_8cpp.html#a311322742bdd4b0831d4fe56f7835cbb',1,'REGISTER_PLUGIN(systemd):&#160;plugin.cpp'],['../test_8cpp.html#a3b4def47e0382bb0a656a1406a00370e',1,'REGISTER_PLUGIN(testmod):&#160;test.cpp'],['../vtty_2plugin_8cpp.html#aada0195da3e8a7b4f5aacf3769dd57d4',1,'REGISTER_PLUGIN(vtty):&#160;plugin.cpp'],['../wm_2plugin_8cpp.html#a4b16c9f0b20ffe21392c76d3475f1a11',1,'REGISTER_PLUGIN(wm):&#160;plugin.cpp']]],
-  ['render_1',['render',['../classglfw__backend.html#ae016de034821ca3f52cafcef68527a82',1,'glfw_backend::render()'],['../classdisplays.html#a3fd6eb05414cad137f7dfb808d877f45',1,'displays::render()'],['../classglfw__window.html#aba56d4064e25ebcc0878b79834fc8afb',1,'glfw_window::render()'],['../classtray__impl.html#a54360c7d870ca4b1f669894b1d71f230',1,'tray_impl::render()']]],
-  ['resize_2',['resize',['../classglfw__window.html#abf9c308ef869e75141d5e5d9f6ef328b',1,'glfw_window']]]
+  ['operator_28_29_0',['operator()',['../../libpalliate/classrunnable.html#a2490159bff269a448bf21446bebcecb3',1,'runnable']]],
+  ['operator_2a_1',['operator*',['../classlibrary.html#a579ec8e1475ca11b066c558e9ed4a342',1,'library']]],
+  ['operator_2d_3e_2',['operator-&gt;',['../classlibrary.html#a378f78c2b294f109b44287c1b4480e4c',1,'library']]],
+  ['operator_3c_3c_3',['operator&lt;&lt;',['../../libpalliate/classutil_1_1Collection.html#a80225a34509d1e49a96ad6230b5ddc94',1,'util::Collection']]],
+  ['operator_3c_3d_3e_4',['operator&lt;=&gt;',['../../libpalliate/classrunnable.html#a95d5a63e6ef290fc57c6c7d9218369c5',1,'runnable']]],
+  ['operator_3d_5',['operator=',['../../libpalliate/classlogging_1_1logger.html#a35de66a9ab60b93a8c4f40b063f103fd',1,'logging::logger::operator=()'],['../../libpalliate/classui.html#a21af14ebe7cce6a28ea0485adfcbe34a',1,'ui::operator=()'],['../structcontext__guard.html#abe5f3e0efb8caebcd4e43e13e7114c5e',1,'context_guard::operator=(context_guard &amp;&amp;)=delete'],['../structcontext__guard.html#a68847a5e9218c6299837c18502da06cc',1,'context_guard::operator=(const context_guard &amp;)=delete']]],
+  ['operator_5b_5d_6',['operator[]',['../../libpalliate/classutil_1_1Collection.html#af7e2d53bb701b14edc5d589e44090bc5',1,'util::Collection::operator[]()'],['../classplugin__manager.html#ae182b632c35b3027d39cb32ad694b5d4',1,'plugin_manager::operator[]()']]]
 ];

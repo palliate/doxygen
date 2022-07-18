@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.4"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>libpalliate: input Class Reference</title>
+<title>palliate: input Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -34,9 +34,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libpalliate<span id="projectnumber">&#160;v0.0.1</span>
+   <div id="projectname">palliate<span id="projectnumber">&#160;v0.0.1</span>
    </div>
-   <div id="projectbrief">Palliate core library</div>
+   <div id="projectbrief">Palliate application and built-in plugins</div>
   </td>
  </tr>
  </tbody>
@@ -103,7 +103,7 @@ $(document).ready(function(){initNavTree('classinput.html',''); initResizable();
 <div class="dynheader">
 Inheritance diagram for input:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classinput__inherit__graph.svg" width="142" height="243"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinput__inherit__graph.svg" width="166" height="287"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -111,10 +111,28 @@ Inheritance diagram for input:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a70b8b2cea44e337c629bb9a808ff3127"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classinput.html#a70b8b2cea44e337c629bb9a808ff3127">input</a> (std::string_view _name)</td></tr>
 <tr class="separator:a70b8b2cea44e337c629bb9a808ff3127"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9771de499107713834a4bd2a9017ae0"><td class="memItemLeft" align="right" valign="top">producer *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classinput.html#ab9771de499107713834a4bd2a9017ae0">make_server</a> () override</td></tr>
+<tr class="memitem:ab9771de499107713834a4bd2a9017ae0"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../libpalliate/classproducer.html">producer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classinput.html#ab9771de499107713834a4bd2a9017ae0">make_server</a> () override</td></tr>
 <tr class="separator:ab9771de499107713834a4bd2a9017ae0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0fd7e9ffc5fc0bcd8800ad0579f62012"><td class="memItemLeft" align="right" valign="top">client *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classinput.html#a0fd7e9ffc5fc0bcd8800ad0579f62012">make_client</a> (transport &amp;handle) override</td></tr>
 <tr class="separator:a0fd7e9ffc5fc0bcd8800ad0579f62012"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classplugin"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classplugin')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el"  href="../libpalliate/classplugin.html">plugin</a></td></tr>
+<tr class="memitem:ae733e0f771cfee8212c941fbdaa8dfc1 inherit pub_methods_classplugin"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../libpalliate/classplugin.html#ae733e0f771cfee8212c941fbdaa8dfc1">plugin</a> (std::string_view _name)</td></tr>
+<tr class="separator:ae733e0f771cfee8212c941fbdaa8dfc1 inherit pub_methods_classplugin"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac51eb269648cffefe2914fac6e9e0185 inherit pub_methods_classplugin"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../libpalliate/classplugin.html#ac51eb269648cffefe2914fac6e9e0185">~plugin</a> ()=default</td></tr>
+<tr class="separator:ac51eb269648cffefe2914fac6e9e0185 inherit pub_methods_classplugin"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c613f683d2b735ae9f0103fcd8bef30 inherit pub_methods_classplugin"><td class="memItemLeft" align="right" valign="top">virtual std::unique_ptr&lt; <a class="elRef" href="../libpalliate/classconsumer.html">consumer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../libpalliate/classplugin.html#a4c613f683d2b735ae9f0103fcd8bef30">make_consumer</a> (<a class="elRef" href="../libpalliate/classtransport_1_1Client.html">transport::Client</a> &amp;handle)=0</td></tr>
+<tr class="separator:a4c613f683d2b735ae9f0103fcd8bef30 inherit pub_methods_classplugin"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac32ba21a634870abc22befb331828819 inherit pub_methods_classplugin"><td class="memItemLeft" align="right" valign="top">virtual std::unique_ptr&lt; <a class="elRef" href="../libpalliate/classproducer.html">producer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../libpalliate/classplugin.html#ac32ba21a634870abc22befb331828819">make_producer</a> ()=0</td></tr>
+<tr class="separator:ac32ba21a634870abc22befb331828819 inherit pub_methods_classplugin"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_types_classplugin"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classplugin')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el"  href="../libpalliate/classplugin.html">plugin</a></td></tr>
+<tr class="memitem:af392bbb6194f8cefad89f44fc9e1c6b6 inherit pub_types_classplugin"><td class="memItemLeft" align="right" valign="top">typedef std::shared_ptr&lt; <a class="elRef" href="../libpalliate/classplugin.html">plugin</a> &gt;(*)(&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../libpalliate/classplugin.html#af392bbb6194f8cefad89f44fc9e1c6b6">init_f</a>)</td></tr>
+<tr class="separator:af392bbb6194f8cefad89f44fc9e1c6b6 inherit pub_types_classplugin"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_classplugin"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classplugin')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el"  href="../libpalliate/classplugin.html">plugin</a></td></tr>
+<tr class="memitem:aeeb8d123636d7045f06b0498ae71c8c7 inherit pub_attribs_classplugin"><td class="memItemLeft" align="right" valign="top">std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../libpalliate/classplugin.html#aeeb8d123636d7045f06b0498ae71c8c7">name</a></td></tr>
+<tr class="separator:aeeb8d123636d7045f06b0498ae71c8c7 inherit pub_attribs_classplugin"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a70b8b2cea44e337c629bb9a808ff3127" name="a70b8b2cea44e337c629bb9a808ff3127"></a>
@@ -180,7 +198,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">producer * input::make_server </td>
+          <td class="memname"><a class="elRef" href="../libpalliate/classproducer.html">producer</a> * input::make_server </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>

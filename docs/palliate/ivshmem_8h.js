@@ -1,4 +1,4 @@
 var ivshmem_8h =
 [
-    [ "ivshmem", "classivshmem.html", "classivshmem" ]
+    [ "ivshmem", "../libpalliate/classivshmem.html", "classivshmem" ]
 ];

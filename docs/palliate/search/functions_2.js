@@ -1,12 +1,12 @@
 var searchData=
 [
-  ['capture_0',['capture',['../classcapture.html#a8fb1b2d72460f5920389abd310f8cf0e',1,'capture']]],
-  ['cli_1',['Cli',['../classCli.html#a06e278a3ce0dadd470d1e5fb2f0d58c1',1,'Cli']]],
-  ['compile_5fshaders_2',['compile_shaders',['../classglfw__backend.html#a5416812d265d6ef9b4a1afcb49e90b46',1,'glfw_backend']]],
-  ['configuration_3',['Configuration',['../classConfiguration.html#a779947337bf652f0e773cb29f37f14ba',1,'Configuration']]],
-  ['connect_4',['connect',['../classControl.html#a49f85e4111f62eacd55903fa3e6cb054',1,'Control']]],
-  ['contains_5',['contains',['../classplugin__manager.html#aa1e634de056213ed033631cda7dc126e',1,'plugin_manager']]],
-  ['context_5fguard_6',['context_guard',['../structcontext__guard.html#a1807cc6b10a6653fe74a89f96718baee',1,'context_guard::context_guard(GLFWwindow *context)'],['../structcontext__guard.html#ac38f0d9aa5414bee280abc8942c24ff0',1,'context_guard::context_guard(glfw_window *window)'],['../structcontext__guard.html#a5825eafbae4089499d1d9a725446c4b0',1,'context_guard::context_guard(context_guard &amp;&amp;)=default'],['../structcontext__guard.html#aa55ac1e26532472661d7cb7f91b7536d',1,'context_guard::context_guard(const context_guard &amp;)=delete']]],
-  ['control_7',['Control',['../classControl.html#a0e480921b68dc8944331642b29118849',1,'Control']]],
-  ['count_8',['count',['../classplugin__manager.html#a8db915ac9fd88653f21f2b75a75f46ab',1,'plugin_manager']]]
+  ['basename_0',['basename',['../../libpalliate/namespaceutil.html#aee407cb6fb68403461bd3c148d52ad0f',1,'util']]],
+  ['begin_1',['begin',['../../libpalliate/classutil_1_1Collection.html#a2ab8b0d695ac29d93549989b1c2a7874',1,'util::Collection::begin()'],['../classplugin__manager.html#a1826108c177017762d46cca46dcdfc29',1,'plugin_manager::begin()']]],
+  ['bin_5ft_2',['bin_t',['../../libpalliate/structmemory_1_1bin__t.html#a76f1876a035b3aa32c043cceb44cf971',1,'memory::bin_t::bin_t()'],['../../libpalliate/structmemory_1_1bin__t.html#ae965dd2eac9f225d8a7c8db87336357b',1,'memory::bin_t::bin_t(node_t *_first)']]],
+  ['binary_5fdir_3',['binary_dir',['../../libpalliate/namespaceutil.html#ad7c9c525adbd8a47673863e9960173ed',1,'util']]],
+  ['bootstrap_4',['bootstrap',['../../libpalliate/structrpc_1_1Context.html#af757661af32f31aba9e023b3af8dec98',1,'rpc::Context']]],
+  ['branch_5',['branch',['../../libpalliate/structpatricia_1_1node__t.html#a9a3e1a5e8ea63d6025442daa9f90a95a',1,'patricia::node_t']]],
+  ['bridge_6',['bridge',['../classlogging_1_1endpoint_1_1bridge.html#a0586318c0b367f66bfc8a885255e0809',1,'logging::endpoint::bridge']]],
+  ['broadcast_7',['broadcast',['../../libpalliate/classrpc_1_1Server.html#a7d4e4af7a6de4089779ad8f2324262b1',1,'rpc::Server::broadcast()'],['../../libpalliate/classtransport_1_1Server.html#a7d4e4af7a6de4089779ad8f2324262b1',1,'transport::Server::broadcast()'],['../../libpalliate/classServers.html#aafd5b3a76987382868057e6732f81a6c',1,'Servers::broadcast()']]],
+  ['build_8',['build',['../../libpalliate/namespacetransport.html#a588d3594fceba5f41ba899f24e8bf194',1,'transport']]]
 ];
