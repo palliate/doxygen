@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['jan_0',['Jan',['../namespacetoml.html#a89509f5839cddbb6cc3205611e198ca5ae68564f23e0e939acea76dc3d2bc01bf',1,'toml']]],
-  ['jul_1',['Jul',['../namespacetoml.html#a89509f5839cddbb6cc3205611e198ca5aa2866cd6efaa65c92278d4771a9eaec7',1,'toml']]],
-  ['jun_2',['Jun',['../namespacetoml.html#a89509f5839cddbb6cc3205611e198ca5aeb4b40c1221dad5b23fe7ef84d292be1',1,'toml']]]
+  ['server_0',['server',['../structrpc_1_1Context.html#ac2962eb95dd1d7d81698f539766af02aa3e41509e5d6ef703d28550b31596f65f',1,'rpc::Context']]]
 ];

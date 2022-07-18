@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['empty_0',['empty',['../namespacetoml.html#a99b223fe1b911188b415ace2e80d9aaaaa2e4822a98337283e39f7b60acf85ec9',1,'toml']]],
-  ['error_1',['error',['../namespacelogging.html#a72e7a108a3928d5e407b6a7723799826a66700fb5e035d3906738d73fc57579f0',1,'logging']]]
+  ['info_0',['info',['../namespacelogging.html#a72e7a108a3928d5e407b6a7723799826a4cd4cc508dacd5b0007018c45a446ee4',1,'logging']]],
+  ['invalid_1',['INVALID',['../namespacememory.html#a5489f7fba409dae5923725a7831d5026a08fef16c3401434dafddf345706e06b1',1,'memory']]]
 ];

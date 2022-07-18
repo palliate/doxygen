@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['register_5fplugin_0',['REGISTER_PLUGIN',['../exports_8h.html#a4cf506f51698a114e0f6db2418d87420',1,'exports.h']]]
+  ['socket_0',['SOCKET',['../transport_2tcp_2client_8h.html#aff55fe551a9992a54ec54621c524d0a4',1,'SOCKET():&#160;client.h'],['../transport_2tcp_2server_8h.html#aff55fe551a9992a54ec54621c524d0a4',1,'SOCKET():&#160;server.h']]]
 ];

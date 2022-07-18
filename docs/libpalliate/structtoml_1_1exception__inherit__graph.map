@@ -1,7 +1,0 @@
-<map id="toml::exception" name="toml::exception">
-<area shape="rect" id="node1" title=" " alt="" coords="187,131,311,252"/>
-<area shape="rect" id="node3" href="$structtoml_1_1internal__error.html" title=" " alt="" coords="5,300,153,407"/>
-<area shape="rect" id="node4" href="$structtoml_1_1syntax__error.html" title=" " alt="" coords="177,300,320,407"/>
-<area shape="rect" id="node5" href="$structtoml_1_1type__error.html" title=" " alt="" coords="344,300,471,407"/>
-<area shape="rect" id="node2" title=" " alt="" coords="191,5,306,83"/>
-</map>

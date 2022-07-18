@@ -1,15 +1,13 @@
 var searchData=
 [
-  ['client_2ecpp_0',['client.cpp',['../memory_2client_8cpp.html',1,'']]],
-  ['client_2eh_1',['client.h',['../memory_2client_8h.html',1,'']]],
-  ['constants_2eh_2',['constants.h',['../memory_2constants_8h.html',1,'']]],
-  ['macros_2ehpp_3',['macros.hpp',['../macros_8hpp.html',1,'']]],
-  ['manager_2ecpp_4',['manager.cpp',['../manager_8cpp.html',1,'']]],
-  ['manager_2eh_5',['manager.h',['../manager_8h.html',1,'']]],
-  ['memory_5fmap_2ecpp_6',['memory_map.cpp',['../memory__map_8cpp.html',1,'']]],
-  ['memory_5fmap_2eh_7',['memory_map.h',['../memory__map_8h.html',1,'']]],
-  ['message_2eh_8',['message.h',['../message_8h.html',1,'']]],
-  ['mpsc_2eh_9',['mpsc.h',['../mpsc_8h.html',1,'']]],
-  ['server_2ecpp_10',['server.cpp',['../memory_2server_8cpp.html',1,'']]],
-  ['server_2eh_11',['server.h',['../memory_2server_8h.html',1,'']]]
+  ['client_2ecpp_0',['client.cpp',['../rpc_2client_8cpp.html',1,'(Global Namespace)'],['../rpc_2tcp_2client_8cpp.html',1,'(Global Namespace)']]],
+  ['client_2eh_1',['client.h',['../rpc_2client_8h.html',1,'(Global Namespace)'],['../rpc_2tcp_2client_8h.html',1,'(Global Namespace)']]],
+  ['constants_2eh_2',['constants.h',['../rpc_2constants_8h.html',1,'']]],
+  ['rect_2eh_3',['rect.h',['../rect_8h.html',1,'']]],
+  ['runnable_2ecpp_4',['runnable.cpp',['../runnable_8cpp.html',1,'']]],
+  ['runnable_2eh_5',['runnable.h',['../runnable_8h.html',1,'']]],
+  ['server_2ecpp_6',['server.cpp',['../rpc_2server_8cpp.html',1,'(Global Namespace)'],['../rpc_2tcp_2server_8cpp.html',1,'(Global Namespace)']]],
+  ['server_2eh_7',['server.h',['../rpc_2server_8h.html',1,'(Global Namespace)'],['../rpc_2tcp_2server_8h.html',1,'(Global Namespace)']]],
+  ['shm_2ecpp_8',['shm.cpp',['../rpc_2shm_2shm_8cpp.html',1,'']]],
+  ['shm_2eh_9',['shm.h',['../rpc_2shm_2shm_8h.html',1,'']]]
 ];
