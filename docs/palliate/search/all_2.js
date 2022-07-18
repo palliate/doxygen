@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['capture_0',['capture',['../classcapture.html',1,'capture'],['../classcapture.html#a8fb1b2d72460f5920389abd310f8cf0e',1,'capture::capture()']]],
+  ['cli_1',['Cli',['../classCli.html',1,'Cli'],['../classCli.html#a06e278a3ce0dadd470d1e5fb2f0d58c1',1,'Cli::Cli()']]],
+  ['cli_2ecpp_2',['cli.cpp',['../cli_8cpp.html',1,'']]],
+  ['cli_2eh_3',['cli.h',['../cli_8h.html',1,'']]],
+  ['compile_5fshaders_4',['compile_shaders',['../classglfw__backend.html#a5416812d265d6ef9b4a1afcb49e90b46',1,'glfw_backend']]],
+  ['config_5',['config',['../classConfiguration.html#a416517702541b3f86ed2fdbec26c7855',1,'Configuration']]],
+  ['configuration_6',['Configuration',['../classConfiguration.html#a779947337bf652f0e773cb29f37f14ba',1,'Configuration::Configuration()'],['../classConfiguration.html',1,'Configuration']]],
+  ['configuration_2ecpp_7',['configuration.cpp',['../configuration_8cpp.html',1,'']]],
+  ['configuration_2eh_8',['configuration.h',['../configuration_8h.html',1,'']]],
+  ['connect_9',['connect',['../classControl.html#a49f85e4111f62eacd55903fa3e6cb054',1,'Control']]],
+  ['contains_10',['contains',['../classplugin__manager.html#aa1e634de056213ed033631cda7dc126e',1,'plugin_manager']]],
+  ['context_11',['context',['../classglfw__window.html#affe9aca9307653430fceabf031060932',1,'glfw_window']]],
+  ['context_5fguard_12',['context_guard',['../structcontext__guard.html#aa55ac1e26532472661d7cb7f91b7536d',1,'context_guard::context_guard(const context_guard &amp;)=delete'],['../structcontext__guard.html#a5825eafbae4089499d1d9a725446c4b0',1,'context_guard::context_guard(context_guard &amp;&amp;)=default'],['../structcontext__guard.html',1,'context_guard'],['../classglfw__window.html#a5ba0b1a5357a4aa78f0f4470c7350621',1,'glfw_window::context_guard()'],['../structcontext__guard.html#a1807cc6b10a6653fe74a89f96718baee',1,'context_guard::context_guard(GLFWwindow *context)'],['../structcontext__guard.html#ac38f0d9aa5414bee280abc8942c24ff0',1,'context_guard::context_guard(glfw_window *window)']]],
+  ['context_5fguard_2eh_13',['context_guard.h',['../context__guard_8h.html',1,'']]],
+  ['control_14',['Control',['../classControl.html#a0e480921b68dc8944331642b29118849',1,'Control::Control()'],['../classControl.html',1,'Control']]],
+  ['control_2ecpp_15',['control.cpp',['../control_8cpp.html',1,'']]],
+  ['control_2eh_16',['control.h',['../control_8h.html',1,'']]],
+  ['count_17',['count',['../classplugin__manager.html#a8db915ac9fd88653f21f2b75a75f46ab',1,'plugin_manager']]],
+  ['current_5ficon_18',['current_icon',['../classglfw__window.html#af21f8d8aaf3c8aeb4a7946ac9cf5dd0d',1,'glfw_window']]],
+  ['current_5ftitle_19',['current_title',['../classglfw__window.html#ac4540343e5e22c2c8083d0633bb73102',1,'glfw_window']]],
+  ['plugin_2ecpp_20',['plugin.cpp',['../capture_2plugin_8cpp.html',1,'']]],
+  ['plugin_2eh_21',['plugin.h',['../capture_2plugin_8h.html',1,'']]]
+];
