@@ -1,225 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
 <tagfile doxygen_version="1.9.4" doxygen_gitid="5d15657a55555e6181a7830a5c723af75e7577e2">
   <compound kind="file">
-    <name>cli.cpp</name>
-    <path>/__w/palliate/palliate/app/configuration/</path>
-    <filename>cli_8cpp.html</filename>
-    <includes id="cli_8h" name="cli.h" local="yes" imported="no">cli.h</includes>
-  </compound>
-  <compound kind="file">
-    <name>cli.h</name>
-    <path>/__w/palliate/palliate/app/configuration/</path>
-    <filename>cli_8h.html</filename>
-    <class kind="class">Cli</class>
-  </compound>
-  <compound kind="file">
-    <name>configuration.cpp</name>
-    <path>/__w/palliate/palliate/app/configuration/</path>
-    <filename>configuration_8cpp.html</filename>
-    <includes id="configuration_8h" name="configuration.h" local="yes" imported="no">configuration.h</includes>
-  </compound>
-  <compound kind="file">
-    <name>configuration.h</name>
-    <path>/__w/palliate/palliate/app/configuration/</path>
-    <filename>configuration_8h.html</filename>
-    <includes id="cli_8h" name="cli.h" local="yes" imported="no">cli.h</includes>
-    <class kind="class">Configuration</class>
-  </compound>
-  <compound kind="file">
-    <name>control.cpp</name>
-    <path>/__w/palliate/palliate/app/control/</path>
-    <filename>control_8cpp.html</filename>
-    <includes id="control_8h" name="control.h" local="yes" imported="no">control.h</includes>
-    <includes id="backend_8h" name="backend.h" local="no" imported="no">renderer/glfw/backend.h</includes>
-    <includes id="tray_8h" name="tray.h" local="no" imported="no">renderer/tray/tray.h</includes>
-  </compound>
-  <compound kind="file">
-    <name>control.h</name>
-    <path>/__w/palliate/palliate/app/control/</path>
-    <filename>control_8h.html</filename>
-    <includes id="configuration_8h" name="configuration.h" local="yes" imported="no">configuration/configuration.h</includes>
-    <includes id="plugin__manager_8h" name="plugin_manager.h" local="yes" imported="no">plugin_manager/plugin_manager.h</includes>
-    <class kind="class">Control</class>
-  </compound>
-  <compound kind="file">
-    <name>test.dox</name>
-    <path>/__w/palliate/palliate/app/control/</path>
-    <filename>test_8dox.html</filename>
-  </compound>
-  <compound kind="file">
-    <name>ivshmem.h</name>
-    <path>/__w/palliate/palliate/app/ivshmem/</path>
-    <filename>ivshmem_8h.html</filename>
-  </compound>
-  <compound kind="file">
-    <name>linux/ivshmem.cpp</name>
-    <path>/__w/palliate/palliate/app/ivshmem/platform/linux/</path>
-    <filename>linux_2ivshmem_8cpp.html</filename>
-    <includes id="ivshmem_8h" name="ivshmem.h" local="yes" imported="no">ivshmem.h</includes>
-  </compound>
-  <compound kind="file">
-    <name>windows/ivshmem.cpp</name>
-    <path>/__w/palliate/palliate/app/ivshmem/platform/windows/</path>
-    <filename>windows_2ivshmem_8cpp.html</filename>
-    <includes id="ivshmem_8h" name="ivshmem.h" local="yes" imported="no">ivshmem.h</includes>
-  </compound>
-  <compound kind="file">
-    <name>bridge.cpp</name>
-    <path>/__w/palliate/palliate/app/logging/</path>
-    <filename>bridge_8cpp.html</filename>
-    <includes id="bridge_8h" name="bridge.h" local="yes" imported="no">bridge.h</includes>
-  </compound>
-  <compound kind="file">
-    <name>bridge.h</name>
-    <path>/__w/palliate/palliate/app/logging/</path>
-    <filename>bridge_8h.html</filename>
-    <class kind="class">logging::endpoint::bridge</class>
-    <namespace>logging</namespace>
-    <namespace>logging::endpoint</namespace>
-  </compound>
-  <compound kind="file">
-    <name>main.cpp</name>
-    <path>/__w/palliate/palliate/app/</path>
-    <filename>main_8cpp.html</filename>
-    <includes id="control_8h" name="control.h" local="yes" imported="no">control/control.h</includes>
-    <includes id="configuration_8h" name="configuration.h" local="yes" imported="no">configuration/configuration.h</includes>
-    <member kind="function">
-      <type>void</type>
-      <name>terminate_handler</name>
-      <anchorfile>main_8cpp.html</anchorfile>
-      <anchor>a6d3e224dbaae674825482b0dbb1d8579</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>int</type>
-      <name>main</name>
-      <anchorfile>main_8cpp.html</anchorfile>
-      <anchor>a0ddf1224851353fc92bfbff6f499fa97</anchor>
-      <arglist>(int argc, char *argv[])</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>library.h</name>
-    <path>/__w/palliate/palliate/app/plugin_manager/</path>
-    <filename>library_8h.html</filename>
-    <class kind="class">library</class>
-  </compound>
-  <compound kind="file">
-    <name>library.linux.cpp</name>
-    <path>/__w/palliate/palliate/app/plugin_manager/</path>
-    <filename>library_8linux_8cpp.html</filename>
-    <includes id="library_8h" name="library.h" local="yes" imported="no">library.h</includes>
-  </compound>
-  <compound kind="file">
-    <name>library.windows.cpp</name>
-    <path>/__w/palliate/palliate/app/plugin_manager/</path>
-    <filename>library_8windows_8cpp.html</filename>
-    <includes id="library_8h" name="library.h" local="yes" imported="no">library.h</includes>
-    <member kind="define">
-      <type>#define</type>
-      <name>WIN32_LEAN_AND_MEAN</name>
-      <anchorfile>library_8windows_8cpp.html</anchorfile>
-      <anchor>ac7bef5d85e3dcd73eef56ad39ffc84a9</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>plugin_manager.cpp</name>
-    <path>/__w/palliate/palliate/app/plugin_manager/</path>
-    <filename>plugin__manager_8cpp.html</filename>
-    <includes id="plugin__manager_8h" name="plugin_manager.h" local="yes" imported="no">plugin_manager.h</includes>
-  </compound>
-  <compound kind="file">
-    <name>plugin_manager.h</name>
-    <path>/__w/palliate/palliate/app/plugin_manager/</path>
-    <filename>plugin__manager_8h.html</filename>
-    <includes id="library_8h" name="library.h" local="yes" imported="no">library.h</includes>
-    <class kind="class">plugin_manager</class>
-  </compound>
-  <compound kind="file">
-    <name>backend.cpp</name>
-    <path>/__w/palliate/palliate/app/renderer/glfw/</path>
-    <filename>backend_8cpp.html</filename>
-    <includes id="backend_8h" name="backend.h" local="yes" imported="no">backend.h</includes>
-    <includes id="window_8h" name="window.h" local="yes" imported="no">window.h</includes>
-    <includes id="context__guard_8h" name="context_guard.h" local="yes" imported="no">context_guard.h</includes>
-    <member kind="define">
-      <type>#define</type>
-      <name>GLFW_INCLUDE_NONE</name>
-      <anchorfile>backend_8cpp.html</anchorfile>
-      <anchor>a088324ad8995e3eb76024e3e79083d48</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>backend.h</name>
-    <path>/__w/palliate/palliate/app/renderer/glfw/</path>
-    <filename>backend_8h.html</filename>
-    <includes id="window_8h" name="window.h" local="yes" imported="no">window.h</includes>
-    <includes id="displays_8h" name="displays.h" local="yes" imported="no">displays.h</includes>
-    <class kind="class">glfw_backend</class>
-  </compound>
-  <compound kind="file">
-    <name>context_guard.h</name>
-    <path>/__w/palliate/palliate/app/renderer/glfw/</path>
-    <filename>context__guard_8h.html</filename>
-    <includes id="window_8h" name="window.h" local="yes" imported="no">window.h</includes>
-    <class kind="struct">context_guard</class>
-  </compound>
-  <compound kind="file">
-    <name>displays.cpp</name>
-    <path>/__w/palliate/palliate/app/renderer/glfw/</path>
-    <filename>displays_8cpp.html</filename>
-    <includes id="displays_8h" name="displays.h" local="yes" imported="no">displays.h</includes>
-    <includes id="context__guard_8h" name="context_guard.h" local="yes" imported="no">context_guard.h</includes>
-  </compound>
-  <compound kind="file">
-    <name>displays.h</name>
-    <path>/__w/palliate/palliate/app/renderer/glfw/</path>
-    <filename>displays_8h.html</filename>
-    <includes id="window_8h" name="window.h" local="yes" imported="no">window.h</includes>
-    <class kind="class">displays</class>
-  </compound>
-  <compound kind="file">
-    <name>window.cpp</name>
-    <path>/__w/palliate/palliate/app/renderer/glfw/</path>
-    <filename>window_8cpp.html</filename>
-    <includes id="window_8h" name="window.h" local="yes" imported="no">window.h</includes>
-    <includes id="context__guard_8h" name="context_guard.h" local="yes" imported="no">context_guard.h</includes>
-  </compound>
-  <compound kind="file">
-    <name>window.h</name>
-    <path>/__w/palliate/palliate/app/renderer/glfw/</path>
-    <filename>window_8h.html</filename>
-    <class kind="class">glfw_window</class>
-    <member kind="define">
-      <type>#define</type>
-      <name>GLFW_INCLUDE_NONE</name>
-      <anchorfile>window_8h.html</anchorfile>
-      <anchor>a088324ad8995e3eb76024e3e79083d48</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>tray.h</name>
-    <path>/__w/palliate/palliate/app/renderer/tray/</path>
-    <filename>tray_8h.html</filename>
-    <class kind="class">tray_impl</class>
-  </compound>
-  <compound kind="file">
-    <name>tray.linux.cpp</name>
-    <path>/__w/palliate/palliate/app/renderer/tray/</path>
-    <filename>tray_8linux_8cpp.html</filename>
-    <includes id="tray_8h" name="tray.h" local="yes" imported="no">tray.h</includes>
-    <member kind="define">
-      <type>#define</type>
-      <name>GDK_PIXBUF_DISABLE_DEPRECATED</name>
-      <anchorfile>tray_8linux_8cpp.html</anchorfile>
-      <anchor>a291fd99be095900be884f4a158270ca0</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="file">
     <name>systemd.cpp</name>
     <path>/__w/palliate/palliate/plugins/systemd/logging/</path>
     <filename>systemd_8cpp.html</filename>
@@ -346,6 +127,294 @@
     <path>/__w/palliate/palliate/plugins/wm/</path>
     <filename>wm_2plugin_8h.html</filename>
     <class kind="class">wm</class>
+  </compound>
+  <compound kind="file">
+    <name>application.cpp</name>
+    <path>/__w/palliate/palliate/src/application/</path>
+    <filename>application_8cpp.html</filename>
+    <includes id="application_8h" name="application.h" local="yes" imported="no">application.h</includes>
+    <includes id="backend_8h" name="backend.h" local="no" imported="no">renderer/glfw/backend.h</includes>
+    <includes id="tray_8h" name="tray.h" local="no" imported="no">renderer/tray/tray.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>application.h</name>
+    <path>/__w/palliate/palliate/src/application/</path>
+    <filename>application_8h.html</filename>
+    <includes id="configuration_8h" name="configuration.h" local="yes" imported="no">configuration/configuration.h</includes>
+    <includes id="plugin__manager_8h" name="plugin_manager.h" local="yes" imported="no">plugin_manager/plugin_manager.h</includes>
+    <class kind="class">Application</class>
+  </compound>
+  <compound kind="file">
+    <name>test.dox</name>
+    <path>/__w/palliate/palliate/src/application/</path>
+    <filename>test_8dox.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>cli.cpp</name>
+    <path>/__w/palliate/palliate/src/configuration/</path>
+    <filename>cli_8cpp.html</filename>
+    <includes id="cli_8h" name="cli.h" local="yes" imported="no">cli.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>cli.h</name>
+    <path>/__w/palliate/palliate/src/configuration/</path>
+    <filename>cli_8h.html</filename>
+    <class kind="class">Cli</class>
+  </compound>
+  <compound kind="file">
+    <name>configuration.cpp</name>
+    <path>/__w/palliate/palliate/src/configuration/</path>
+    <filename>configuration_8cpp.html</filename>
+    <includes id="configuration_8h" name="configuration.h" local="yes" imported="no">configuration.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>configuration.h</name>
+    <path>/__w/palliate/palliate/src/configuration/</path>
+    <filename>configuration_8h.html</filename>
+    <includes id="cli_8h" name="cli.h" local="yes" imported="no">cli.h</includes>
+    <class kind="class">Configuration</class>
+  </compound>
+  <compound kind="file">
+    <name>ivshmem.h</name>
+    <path>/__w/palliate/palliate/src/ivshmem/</path>
+    <filename>ivshmem_8h.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>linux/ivshmem.cpp</name>
+    <path>/__w/palliate/palliate/src/ivshmem/platform/linux/</path>
+    <filename>linux_2ivshmem_8cpp.html</filename>
+    <includes id="ivshmem_8h" name="ivshmem.h" local="yes" imported="no">ivshmem.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>windows/ivshmem.cpp</name>
+    <path>/__w/palliate/palliate/src/ivshmem/platform/windows/</path>
+    <filename>windows_2ivshmem_8cpp.html</filename>
+    <includes id="ivshmem_8h" name="ivshmem.h" local="yes" imported="no">ivshmem.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>bridge.cpp</name>
+    <path>/__w/palliate/palliate/src/logging/</path>
+    <filename>bridge_8cpp.html</filename>
+    <includes id="bridge_8h" name="bridge.h" local="yes" imported="no">bridge.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>bridge.h</name>
+    <path>/__w/palliate/palliate/src/logging/</path>
+    <filename>bridge_8h.html</filename>
+    <class kind="class">logging::endpoint::bridge</class>
+    <namespace>logging</namespace>
+    <namespace>logging::endpoint</namespace>
+  </compound>
+  <compound kind="file">
+    <name>main.cpp</name>
+    <path>/__w/palliate/palliate/src/</path>
+    <filename>main_8cpp.html</filename>
+    <includes id="application_8h" name="application.h" local="yes" imported="no">application/application.h</includes>
+    <includes id="configuration_8h" name="configuration.h" local="yes" imported="no">configuration/configuration.h</includes>
+    <member kind="function">
+      <type>void</type>
+      <name>terminate_handler</name>
+      <anchorfile>main_8cpp.html</anchorfile>
+      <anchor>a6d3e224dbaae674825482b0dbb1d8579</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>main</name>
+      <anchorfile>main_8cpp.html</anchorfile>
+      <anchor>a0ddf1224851353fc92bfbff6f499fa97</anchor>
+      <arglist>(int argc, char *argv[])</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>library.h</name>
+    <path>/__w/palliate/palliate/src/plugin_manager/</path>
+    <filename>library_8h.html</filename>
+    <class kind="class">library</class>
+  </compound>
+  <compound kind="file">
+    <name>library.linux.cpp</name>
+    <path>/__w/palliate/palliate/src/plugin_manager/</path>
+    <filename>library_8linux_8cpp.html</filename>
+    <includes id="library_8h" name="library.h" local="yes" imported="no">library.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>library.windows.cpp</name>
+    <path>/__w/palliate/palliate/src/plugin_manager/</path>
+    <filename>library_8windows_8cpp.html</filename>
+    <includes id="library_8h" name="library.h" local="yes" imported="no">library.h</includes>
+    <member kind="define">
+      <type>#define</type>
+      <name>WIN32_LEAN_AND_MEAN</name>
+      <anchorfile>library_8windows_8cpp.html</anchorfile>
+      <anchor>ac7bef5d85e3dcd73eef56ad39ffc84a9</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>plugin_manager.cpp</name>
+    <path>/__w/palliate/palliate/src/plugin_manager/</path>
+    <filename>plugin__manager_8cpp.html</filename>
+    <includes id="plugin__manager_8h" name="plugin_manager.h" local="yes" imported="no">plugin_manager.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>plugin_manager.h</name>
+    <path>/__w/palliate/palliate/src/plugin_manager/</path>
+    <filename>plugin__manager_8h.html</filename>
+    <includes id="library_8h" name="library.h" local="yes" imported="no">library.h</includes>
+    <class kind="class">plugin_manager</class>
+  </compound>
+  <compound kind="file">
+    <name>backend.cpp</name>
+    <path>/__w/palliate/palliate/src/renderer/glfw/</path>
+    <filename>backend_8cpp.html</filename>
+    <includes id="backend_8h" name="backend.h" local="yes" imported="no">backend.h</includes>
+    <includes id="window_8h" name="window.h" local="yes" imported="no">window.h</includes>
+    <includes id="context__guard_8h" name="context_guard.h" local="yes" imported="no">context_guard.h</includes>
+    <member kind="define">
+      <type>#define</type>
+      <name>GLFW_INCLUDE_NONE</name>
+      <anchorfile>backend_8cpp.html</anchorfile>
+      <anchor>a088324ad8995e3eb76024e3e79083d48</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>backend.h</name>
+    <path>/__w/palliate/palliate/src/renderer/glfw/</path>
+    <filename>backend_8h.html</filename>
+    <includes id="window_8h" name="window.h" local="yes" imported="no">window.h</includes>
+    <includes id="displays_8h" name="displays.h" local="yes" imported="no">displays.h</includes>
+    <class kind="class">glfw_backend</class>
+  </compound>
+  <compound kind="file">
+    <name>context_guard.h</name>
+    <path>/__w/palliate/palliate/src/renderer/glfw/</path>
+    <filename>context__guard_8h.html</filename>
+    <includes id="window_8h" name="window.h" local="yes" imported="no">window.h</includes>
+    <class kind="struct">context_guard</class>
+  </compound>
+  <compound kind="file">
+    <name>displays.cpp</name>
+    <path>/__w/palliate/palliate/src/renderer/glfw/</path>
+    <filename>displays_8cpp.html</filename>
+    <includes id="displays_8h" name="displays.h" local="yes" imported="no">displays.h</includes>
+    <includes id="context__guard_8h" name="context_guard.h" local="yes" imported="no">context_guard.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>displays.h</name>
+    <path>/__w/palliate/palliate/src/renderer/glfw/</path>
+    <filename>displays_8h.html</filename>
+    <includes id="window_8h" name="window.h" local="yes" imported="no">window.h</includes>
+    <class kind="class">displays</class>
+  </compound>
+  <compound kind="file">
+    <name>window.cpp</name>
+    <path>/__w/palliate/palliate/src/renderer/glfw/</path>
+    <filename>window_8cpp.html</filename>
+    <includes id="window_8h" name="window.h" local="yes" imported="no">window.h</includes>
+    <includes id="context__guard_8h" name="context_guard.h" local="yes" imported="no">context_guard.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>window.h</name>
+    <path>/__w/palliate/palliate/src/renderer/glfw/</path>
+    <filename>window_8h.html</filename>
+    <class kind="class">glfw_window</class>
+    <member kind="define">
+      <type>#define</type>
+      <name>GLFW_INCLUDE_NONE</name>
+      <anchorfile>window_8h.html</anchorfile>
+      <anchor>a088324ad8995e3eb76024e3e79083d48</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>tray.h</name>
+    <path>/__w/palliate/palliate/src/renderer/tray/</path>
+    <filename>tray_8h.html</filename>
+    <class kind="class">tray_impl</class>
+  </compound>
+  <compound kind="file">
+    <name>tray.linux.cpp</name>
+    <path>/__w/palliate/palliate/src/renderer/tray/</path>
+    <filename>tray_8linux_8cpp.html</filename>
+    <includes id="tray_8h" name="tray.h" local="yes" imported="no">tray.h</includes>
+    <member kind="define">
+      <type>#define</type>
+      <name>GDK_PIXBUF_DISABLE_DEPRECATED</name>
+      <anchorfile>tray_8linux_8cpp.html</anchorfile>
+      <anchor>a291fd99be095900be884f4a158270ca0</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>Application</name>
+    <filename>classApplication.html</filename>
+    <base>configurable&lt; config::application &gt;</base>
+    <base>runnable</base>
+    <member kind="function">
+      <type></type>
+      <name>Application</name>
+      <anchorfile>classApplication.html</anchorfile>
+      <anchor>af7974ce565faff1d79c5a0ab946ae6ed</anchor>
+      <arglist>(Configuration &amp;_conf)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~Application</name>
+      <anchorfile>classApplication.html</anchorfile>
+      <anchor>a444b0b6d9162b14d5262b81bd75586df</anchor>
+      <arglist>() override</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>setup</name>
+      <anchorfile>classApplication.html</anchorfile>
+      <anchor>a0a42c17d664f9f4f1d1d30c0c99c15a2</anchor>
+      <arglist>() override</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>loop</name>
+      <anchorfile>classApplication.html</anchorfile>
+      <anchor>ae380fbd2a978d89746454561b3ac5cca</anchor>
+      <arglist>() override</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>load_plugins</name>
+      <anchorfile>classApplication.html</anchorfile>
+      <anchor>ab903c2f9ea44b98f2c542e05b85f0bdf</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>kj::Promise&lt; void &gt;</type>
+      <name>handshake</name>
+      <anchorfile>classApplication.html</anchorfile>
+      <anchor>ad32f4aa6508ac9e429169b65048f5780</anchor>
+      <arglist>(HandshakeContext context) override</arglist>
+    </member>
+    <member kind="function">
+      <type>kj::Promise&lt; void &gt;</type>
+      <name>serve</name>
+      <anchorfile>classApplication.html</anchorfile>
+      <anchor>aea4183e1d12b9048e698dfdb0721820b</anchor>
+      <arglist>(ServeContext context) override</arglist>
+    </member>
+    <member kind="function">
+      <type>kj::Promise&lt; void &gt;</type>
+      <name>connect</name>
+      <anchorfile>classApplication.html</anchorfile>
+      <anchor>a8414ddeb554674d2229f836655b20461</anchor>
+      <arglist>(ConnectContext context) override</arglist>
+    </member>
+    <member kind="function">
+      <type>kj::Promise&lt; void &gt;</type>
+      <name>status</name>
+      <anchorfile>classApplication.html</anchorfile>
+      <anchor>a8c810655142b4d1190dd5fd14c244a07</anchor>
+      <arglist>(StatusContext context) override</arglist>
+    </member>
   </compound>
   <compound kind="class">
     <name>logging::endpoint::bridge</name>
@@ -569,75 +638,6 @@
       <anchorfile>structcontext__guard.html</anchorfile>
       <anchor>a9acde0a3db732b73fd0c9ff1a95252d4</anchor>
       <arglist>()</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>Control</name>
-    <filename>classControl.html</filename>
-    <base>configurable&lt; config::application &gt;</base>
-    <base>runnable</base>
-    <member kind="function">
-      <type></type>
-      <name>Control</name>
-      <anchorfile>classControl.html</anchorfile>
-      <anchor>a0e480921b68dc8944331642b29118849</anchor>
-      <arglist>(Configuration &amp;_conf)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>~Control</name>
-      <anchorfile>classControl.html</anchorfile>
-      <anchor>a9576170831507d8bd38c804518612ad2</anchor>
-      <arglist>() override</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>setup</name>
-      <anchorfile>classControl.html</anchorfile>
-      <anchor>ad5925f36820da9275655edc979e6f63e</anchor>
-      <arglist>() override</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>loop</name>
-      <anchorfile>classControl.html</anchorfile>
-      <anchor>a11736d07a063070ef0d73ebd7383893a</anchor>
-      <arglist>() override</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>load_plugins</name>
-      <anchorfile>classControl.html</anchorfile>
-      <anchor>ab88fa02fb808816c1cc18932d13872d7</anchor>
-      <arglist>() noexcept</arglist>
-    </member>
-    <member kind="function">
-      <type>kj::Promise&lt; void &gt;</type>
-      <name>handshake</name>
-      <anchorfile>classControl.html</anchorfile>
-      <anchor>a6da22842039e02aac16261fa516195b4</anchor>
-      <arglist>(HandshakeContext context) override</arglist>
-    </member>
-    <member kind="function">
-      <type>kj::Promise&lt; void &gt;</type>
-      <name>serve</name>
-      <anchorfile>classControl.html</anchorfile>
-      <anchor>a171fbe0ded2ef8c8fc95f507301cc008</anchor>
-      <arglist>(ServeContext context) override</arglist>
-    </member>
-    <member kind="function">
-      <type>kj::Promise&lt; void &gt;</type>
-      <name>connect</name>
-      <anchorfile>classControl.html</anchorfile>
-      <anchor>a49f85e4111f62eacd55903fa3e6cb054</anchor>
-      <arglist>(ConnectContext context) override</arglist>
-    </member>
-    <member kind="function">
-      <type>kj::Promise&lt; void &gt;</type>
-      <name>status</name>
-      <anchorfile>classControl.html</anchorfile>
-      <anchor>ac1bb093a9d8130f824e679a305f83e2c</anchor>
-      <arglist>(StatusContext context) override</arglist>
     </member>
   </compound>
   <compound kind="class">

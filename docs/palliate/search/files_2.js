@@ -13,8 +13,6 @@ var searchData=
   ['context_2ecpp_10',['context.cpp',['../../libpalliate/context_8cpp.html',1,'']]],
   ['context_2eh_11',['context.h',['../../libpalliate/context_8h.html',1,'']]],
   ['context_5fguard_2eh_12',['context_guard.h',['../context__guard_8h.html',1,'']]],
-  ['control_2ecpp_13',['control.cpp',['../control_8cpp.html',1,'']]],
-  ['control_2eh_14',['control.h',['../control_8h.html',1,'']]],
-  ['plugin_2ecpp_15',['plugin.cpp',['../capture_2plugin_8cpp.html',1,'']]],
-  ['plugin_2eh_16',['plugin.h',['../capture_2plugin_8h.html',1,'']]]
+  ['plugin_2ecpp_13',['plugin.cpp',['../capture_2plugin_8cpp.html',1,'']]],
+  ['plugin_2eh_14',['plugin.h',['../capture_2plugin_8h.html',1,'']]]
 ];

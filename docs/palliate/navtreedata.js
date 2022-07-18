@@ -56,7 +56,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../index.html",
-"classplugin.html#ac51eb269648cffefe2914fac6e9e0185",
+"classplugin.html#a4c613f683d2b735ae9f0103fcd8bef30",
 "structlogging_1_1message.html#a73a67ef7edb030c335c1cde8e1d2e122"
 ];
 

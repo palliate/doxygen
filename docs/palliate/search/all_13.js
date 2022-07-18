@@ -16,7 +16,7 @@ var searchData=
   ['test_2ecpp_13',['test.cpp',['../test_8cpp.html',1,'']]],
   ['test_2edox_14',['test.dox',['../test_8dox.html',1,'']]],
   ['test_2eh_15',['test.h',['../test_8h.html',1,'']]],
-  ['testmod_16',['testmod',['../classtestmod.html',1,'testmod'],['../classtestmod.html#a801c18e5ea171f87bf11ef9ab5752640',1,'testmod::testmod()']]],
+  ['testmod_16',['testmod',['../classtestmod.html#a801c18e5ea171f87bf11ef9ab5752640',1,'testmod::testmod()'],['../classtestmod.html',1,'testmod']]],
   ['tex_5fcoords_17',['tex_coords',['../classglfw__window.html#a20955c5d7406bb328a552e26e9b183a5',1,'glfw_window']]],
   ['text_18',['text',['../../libpalliate/structlogging_1_1message.html#a6a1b9dde5bbc6004c177dd573ad3126e',1,'logging::message']]],
   ['texture_19',['texture',['../classglfw__window.html#a5af9ed871a9461b75dc3a2002ea9f0a9',1,'glfw_window']]],

@@ -19,7 +19,7 @@ var hierarchy =
     [ "util::Collection< class Interface, typename... Args >", "../libpalliate/classutil_1_1Collection.html", null ],
     [ "util::configurable< typename T >", "../libpalliate/classutil_1_1configurable.html", null ],
     [ "util::configurable< config::application >", "../libpalliate/classutil_1_1configurable.html", [
-      [ "Control", "classControl.html", null ]
+      [ "Application", "classApplication.html", null ]
     ] ],
     [ "util::configurable< config::plugins >", "../libpalliate/classutil_1_1configurable.html", [
       [ "plugin_manager", "classplugin__manager.html", null ]
@@ -72,7 +72,7 @@ var hierarchy =
     ] ],
     [ "util::Factory< class base_t, class... Args >::registrar", "../libpalliate/structutil_1_1Factory_1_1registrar.html", null ],
     [ "runnable", "../libpalliate/classrunnable.html", [
-      [ "Control", "classControl.html", null ],
+      [ "Application", "classApplication.html", null ],
       [ "consumer", "../libpalliate/classconsumer.html", null ],
       [ "producer", "../libpalliate/classproducer.html", null ],
       [ "rpc::Server", "../libpalliate/classrpc_1_1Server.html", null ],
@@ -86,7 +86,7 @@ var hierarchy =
     ] ],
     [ "logging::endpoint::serial", "../libpalliate/classlogging_1_1endpoint_1_1serial.html", null ],
     [ "App::Server", null, [
-      [ "Control", "classControl.html", null ]
+      [ "Application", "classApplication.html", null ]
     ] ],
     [ "DataChannel::Server", null, [
       [ "logging::endpoint::bridge", "classlogging_1_1endpoint_1_1bridge.html", null ]

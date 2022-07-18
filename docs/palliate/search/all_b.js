@@ -12,12 +12,12 @@ var searchData=
   ['load_9',['load',['../classplugin__manager.html#a420427dd289ba370482698d0734febd6',1,'plugin_manager::load(std::string const &amp;name)'],['../classplugin__manager.html#aaffd0ce5d2bc0a8a9265e761e21253b0',1,'plugin_manager::load(std::filesystem::path const &amp;path)']]],
   ['load_5fdefaults_10',['load_defaults',['../classConfiguration.html#aad6862e96671ff1f0596319b3e43f8bd',1,'Configuration']]],
   ['load_5ffile_11',['load_file',['../classConfiguration.html#a1ab0085af110c8d7cf4bc1379dac2ba1',1,'Configuration']]],
-  ['load_5fplugins_12',['load_plugins',['../classControl.html#ab88fa02fb808816c1cc18932d13872d7',1,'Control']]],
+  ['load_5fplugins_12',['load_plugins',['../classApplication.html#ab903c2f9ea44b98f2c542e05b85f0bdf',1,'Application']]],
   ['location_13',['location',['../../libpalliate/structlogging_1_1annotated.html#acb0ba93cd3c907e413c82a17a33b982e',1,'logging::annotated::location()'],['../../libpalliate/structlogging_1_1message.html#ac2ef5f66ef1f54523c25e912d74119a1',1,'logging::message::location()']]],
   ['lock_14',['lock',['../../libpalliate/classutil_1_1configurable.html#a3b5774c5dd703e52991e6167274d9b80',1,'util::configurable']]],
   ['logger_15',['logger',['../../libpalliate/classlogging_1_1logger.html#ac0bf604d91ba5424679a714ef697c85d',1,'logging::logger::logger()'],['../../libpalliate/classlogging_1_1logger.html',1,'logging::logger']]],
   ['logger_2ecpp_16',['logger.cpp',['../../libpalliate/logger_8cpp.html',1,'']]],
   ['logger_2eh_17',['logger.h',['../../libpalliate/logger_8h.html',1,'']]],
   ['logging_18',['logging',['../namespacelogging.html',1,'']]],
-  ['loop_19',['loop',['../../libpalliate/classtransport_1_1Client.html#a9c7dee1c80c67a92026d2043ba01f044',1,'transport::Client::loop()'],['../../libpalliate/classconsumer.html#a0b2389e21c50045e8e649cdb5ae4e3d4',1,'consumer::loop()'],['../../libpalliate/classrunnable.html#a384ff934ec8c466eb7ef018ffe10e909',1,'runnable::loop()'],['../../libpalliate/classrpc_1_1tcp_1_1Server.html#a3a4fd983bbd5011098dee3125dfc2e43',1,'rpc::tcp::Server::loop()'],['../../libpalliate/classtransport_1_1TCP_1_1Server.html#a3a4fd983bbd5011098dee3125dfc2e43',1,'transport::TCP::Server::loop()'],['../classControl.html#a11736d07a063070ef0d73ebd7383893a',1,'Control::loop()']]]
+  ['loop_19',['loop',['../../libpalliate/classtransport_1_1Client.html#a9c7dee1c80c67a92026d2043ba01f044',1,'transport::Client::loop()'],['../../libpalliate/classconsumer.html#a0b2389e21c50045e8e649cdb5ae4e3d4',1,'consumer::loop()'],['../../libpalliate/classrunnable.html#a384ff934ec8c466eb7ef018ffe10e909',1,'runnable::loop()'],['../../libpalliate/classrpc_1_1tcp_1_1Server.html#a3a4fd983bbd5011098dee3125dfc2e43',1,'rpc::tcp::Server::loop()'],['../../libpalliate/classtransport_1_1TCP_1_1Server.html#a3a4fd983bbd5011098dee3125dfc2e43',1,'transport::TCP::Server::loop()'],['../classApplication.html#ae380fbd2a978d89746454561b3ac5cca',1,'Application::loop()']]]
 ];

@@ -12,6 +12,5 @@ var searchData=
   ['configuration_9',['Configuration',['../classConfiguration.html',1,'']]],
   ['consumer_10',['consumer',['../../libpalliate/classconsumer.html',1,'']]],
   ['context_11',['Context',['../../libpalliate/structrpc_1_1Context.html',1,'rpc']]],
-  ['context_5fguard_12',['context_guard',['../structcontext__guard.html',1,'']]],
-  ['control_13',['Control',['../classControl.html',1,'']]]
+  ['context_5fguard_12',['context_guard',['../structcontext__guard.html',1,'']]]
 ];

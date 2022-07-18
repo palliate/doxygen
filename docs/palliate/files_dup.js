@@ -1,12 +1,12 @@
 var files_dup =
 [
-    [ "app", "dir_d422163b96683743ed3963d4aac17747.html", "dir_d422163b96683743ed3963d4aac17747" ],
     [ "plugins", "dir_38c8d24aef3972a7f87b834274e76e31.html", "dir_38c8d24aef3972a7f87b834274e76e31" ],
+    [ "src", "dir_68267d1309a1af8e8297ef4c3efbcdba.html", "dir_68267d1309a1af8e8297ef4c3efbcdba" ],
+    [ "plugin.h", "../libpalliate/plugin_8h.html", null ],
     [ "backend.h", "../libpalliate/backend_8h.html", null ],
     [ "window.cpp", "../libpalliate/window_8cpp.html", null ],
     [ "window.h", "../libpalliate/window_8h.html", null ],
     [ "tray.h", "../libpalliate/tray_8h.html", null ],
-    [ "plugin.h", "../libpalliate/plugin_8h.html", null ],
     [ "atomic_cr.h", "../libpalliate/atomic__cr_8h.html", null ],
     [ "atomic_mpsc.h", "../libpalliate/atomic__mpsc_8h.html", null ],
     [ "atomic_queue.h", "../libpalliate/atomic__queue_8h.html", null ],

@@ -13,6 +13,7 @@ var annotated_dup =
       [ "logger", "../libpalliate/classlogging_1_1logger.html", "classlogging_1_1logger" ],
       [ "message", "../libpalliate/structlogging_1_1message.html", "structlogging_1_1message" ]
     ] ],
+    [ "Application", "classApplication.html", "classApplication" ],
     [ "atomic_cr", "../libpalliate/classatomic__cr.html", "classatomic__cr" ],
     [ "atomic_mpsc", "../libpalliate/classatomic__mpsc.html", "classatomic__mpsc" ],
     [ "atomic_queue", "../libpalliate/classatomic__queue.html", "classatomic__queue" ],
@@ -25,7 +26,6 @@ var annotated_dup =
     [ "Configuration", "classConfiguration.html", "classConfiguration" ],
     [ "consumer", "../libpalliate/classconsumer.html", "classconsumer" ],
     [ "context_guard", "structcontext__guard.html", "structcontext__guard" ],
-    [ "Control", "classControl.html", "classControl" ],
     [ "displays", "classdisplays.html", "classdisplays" ],
     [ "element", "../libpalliate/structelement.html", "structelement" ],
     [ "glfw_backend", "classglfw__backend.html", "classglfw__backend" ],
