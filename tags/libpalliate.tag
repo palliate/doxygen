@@ -247,185 +247,6 @@
     </member>
   </compound>
   <compound kind="file">
-    <name>bin.cpp</name>
-    <path>/__w/libpalliate/libpalliate/src/memory/datastructures/</path>
-    <filename>bin_8cpp.html</filename>
-    <includes id="bin_8h" name="bin.h" local="yes" imported="no">bin.h</includes>
-    <includes id="logger_8h" name="logger.h" local="yes" imported="no">logging/logger.h</includes>
-    <includes id="node_8h" name="node.h" local="yes" imported="no">node.h</includes>
-  </compound>
-  <compound kind="file">
-    <name>bin.h</name>
-    <path>/__w/libpalliate/libpalliate/src/memory/datastructures/</path>
-    <filename>bin_8h.html</filename>
-    <includes id="element_8h" name="element.h" local="yes" imported="no">element.h</includes>
-    <includes id="node_8h" name="node.h" local="yes" imported="no">node.h</includes>
-    <class kind="struct">memory::bin_t</class>
-    <namespace>memory</namespace>
-  </compound>
-  <compound kind="file">
-    <name>element.h</name>
-    <path>/__w/libpalliate/libpalliate/src/memory/datastructures/</path>
-    <filename>element_8h.html</filename>
-    <class kind="struct">memory::element_t</class>
-    <namespace>memory</namespace>
-  </compound>
-  <compound kind="file">
-    <name>memory_map.cpp</name>
-    <path>/__w/libpalliate/libpalliate/src/memory/datastructures/</path>
-    <filename>memory__map_8cpp.html</filename>
-    <includes id="memory__map_8h" name="memory_map.h" local="yes" imported="no">memory_map.h</includes>
-    <includes id="logger_8h" name="logger.h" local="yes" imported="no">logging/logger.h</includes>
-  </compound>
-  <compound kind="file">
-    <name>memory_map.h</name>
-    <path>/__w/libpalliate/libpalliate/src/memory/datastructures/</path>
-    <filename>memory__map_8h.html</filename>
-    <includes id="bin_8h" name="bin.h" local="yes" imported="no">bin.h</includes>
-    <includes id="patricia_8h" name="patricia.h" local="yes" imported="no">datastructures/patricia/patricia.h</includes>
-    <includes id="node_8h" name="node.h" local="yes" imported="no">node.h</includes>
-    <class kind="class">memory::memory_map</class>
-    <namespace>memory</namespace>
-  </compound>
-  <compound kind="file">
-    <name>node.cpp</name>
-    <path>/__w/libpalliate/libpalliate/src/memory/datastructures/</path>
-    <filename>node_8cpp.html</filename>
-    <includes id="node_8h" name="node.h" local="yes" imported="no">node.h</includes>
-    <includes id="bin_8h" name="bin.h" local="yes" imported="no">bin.h</includes>
-    <includes id="logger_8h" name="logger.h" local="yes" imported="no">logging/logger.h</includes>
-  </compound>
-  <compound kind="file">
-    <name>node.h</name>
-    <path>/__w/libpalliate/libpalliate/src/memory/datastructures/</path>
-    <filename>node_8h.html</filename>
-    <includes id="patricia_8h" name="patricia.h" local="yes" imported="no">datastructures/patricia/patricia.h</includes>
-    <includes id="element_8h" name="element.h" local="yes" imported="no">element.h</includes>
-    <class kind="struct">memory::node_t</class>
-    <namespace>memory</namespace>
-  </compound>
-  <compound kind="file">
-    <name>manager.cpp</name>
-    <path>/__w/libpalliate/libpalliate/src/memory/</path>
-    <filename>manager_8cpp.html</filename>
-    <includes id="manager_8h" name="manager.h" local="yes" imported="no">manager.h</includes>
-    <includes id="logger_8h" name="logger.h" local="yes" imported="no">logging/logger.h</includes>
-    <includes id="util_8h" name="util.h" local="yes" imported="no">util/util.h</includes>
-  </compound>
-  <compound kind="file">
-    <name>manager.h</name>
-    <path>/__w/libpalliate/libpalliate/src/memory/</path>
-    <filename>manager_8h.html</filename>
-    <includes id="memory_2constants_8h" name="memory/constants.h" local="yes" imported="no">constants.h</includes>
-    <includes id="atomic__cr_8h" name="atomic_cr.h" local="yes" imported="no">datastructures/atomic/atomic_cr.h</includes>
-    <class kind="class">memory::manager</class>
-    <namespace>memory</namespace>
-  </compound>
-  <compound kind="file">
-    <name>consumer.cpp</name>
-    <path>/__w/libpalliate/libpalliate/src/plugin/</path>
-    <filename>consumer_8cpp.html</filename>
-    <includes id="consumer_8h" name="consumer.h" local="yes" imported="no">consumer.h</includes>
-    <includes id="logger_8h" name="logger.h" local="no" imported="no">logging/logger.h</includes>
-  </compound>
-  <compound kind="file">
-    <name>consumer.h</name>
-    <path>/__w/libpalliate/libpalliate/src/plugin/</path>
-    <filename>consumer_8h.html</filename>
-    <includes id="transport_2client_8h" name="transport/client.h" local="no" imported="no">transport/client.h</includes>
-    <includes id="runnable_8h" name="runnable.h" local="no" imported="no">util/runnable.h</includes>
-    <class kind="class">consumer</class>
-  </compound>
-  <compound kind="file">
-    <name>exports.h</name>
-    <path>/__w/libpalliate/libpalliate/src/plugin/</path>
-    <filename>exports_8h.html</filename>
-    <includes id="plugin_8h" name="plugin.h" local="yes" imported="no">plugin.h</includes>
-    <namespace>detail</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXPORT_SYMBOL</name>
-      <anchorfile>exports_8h.html</anchorfile>
-      <anchor>ab57c319c35ea0fbacf781f2ecb3a4339</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>REGISTER_PLUGIN</name>
-      <anchorfile>exports_8h.html</anchorfile>
-      <anchor>a4cf506f51698a114e0f6db2418d87420</anchor>
-      <arglist>(target)</arglist>
-    </member>
-    <member kind="function">
-      <type>auto</type>
-      <name>init</name>
-      <anchorfile>namespacedetail.html</anchorfile>
-      <anchor>ad417d5a0e5c6b6fd05004c05b0516408</anchor>
-      <arglist>(std::string_view name)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>plugin.h</name>
-    <path>/__w/libpalliate/libpalliate/src/plugin/</path>
-    <filename>plugin_8h.html</filename>
-    <includes id="consumer_8h" name="consumer.h" local="yes" imported="no">consumer.h</includes>
-    <includes id="producer_8h" name="producer.h" local="yes" imported="no">producer.h</includes>
-    <class kind="class">plugin</class>
-  </compound>
-  <compound kind="file">
-    <name>producer.cpp</name>
-    <path>/__w/libpalliate/libpalliate/src/plugin/</path>
-    <filename>producer_8cpp.html</filename>
-    <includes id="producer_8h" name="producer.h" local="yes" imported="no">producer.h</includes>
-    <includes id="logger_8h" name="logger.h" local="no" imported="no">logging/logger.h</includes>
-  </compound>
-  <compound kind="file">
-    <name>producer.h</name>
-    <path>/__w/libpalliate/libpalliate/src/plugin/</path>
-    <filename>producer_8h.html</filename>
-    <includes id="servers_8h" name="servers.h" local="yes" imported="no">servers.h</includes>
-    <includes id="transport_2client_8h" name="transport/client.h" local="no" imported="no">transport/client.h</includes>
-    <includes id="transport_2constants_8h" name="transport/constants.h" local="no" imported="no">transport/constants.h</includes>
-    <includes id="transport_2server_8h" name="transport/server.h" local="no" imported="no">transport/server.h</includes>
-    <includes id="runnable_8h" name="runnable.h" local="no" imported="no">util/runnable.h</includes>
-    <includes id="atomic__stack_8h" name="atomic_stack.h" local="no" imported="no">datastructures/atomic_stack.h</includes>
-    <class kind="class">producer</class>
-  </compound>
-  <compound kind="file">
-    <name>servers.cpp</name>
-    <path>/__w/libpalliate/libpalliate/src/plugin/</path>
-    <filename>servers_8cpp.html</filename>
-    <includes id="servers_8h" name="servers.h" local="yes" imported="no">servers.h</includes>
-  </compound>
-  <compound kind="file">
-    <name>servers.h</name>
-    <path>/__w/libpalliate/libpalliate/src/plugin/</path>
-    <filename>servers_8h.html</filename>
-    <includes id="transport_2client_8h" name="transport/client.h" local="no" imported="no">transport/client.h</includes>
-    <includes id="transport_2server_8h" name="transport/server.h" local="no" imported="no">transport/server.h</includes>
-    <class kind="class">Servers</class>
-  </compound>
-  <compound kind="file">
-    <name>context.cpp</name>
-    <path>/__w/libpalliate/libpalliate/src/rpc/</path>
-    <filename>context_8cpp.html</filename>
-    <includes id="context_8h" name="context.h" local="yes" imported="no">context.h</includes>
-  </compound>
-  <compound kind="file">
-    <name>context.h</name>
-    <path>/__w/libpalliate/libpalliate/src/rpc/</path>
-    <filename>context_8h.html</filename>
-    <class kind="struct">rpc::Context</class>
-    <namespace>rpc</namespace>
-  </compound>
-  <compound kind="file">
-    <name>error_handler.h</name>
-    <path>/__w/libpalliate/libpalliate/src/rpc/</path>
-    <filename>error__handler_8h.html</filename>
-    <class kind="struct">rpc::ErrorHandler</class>
-    <namespace>rpc</namespace>
-  </compound>
-  <compound kind="file">
     <name>memory/client.cpp</name>
     <path>/__w/libpalliate/libpalliate/src/memory/</path>
     <filename>memory_2client_8cpp.html</filename>
@@ -627,6 +448,81 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>bin.cpp</name>
+    <path>/__w/libpalliate/libpalliate/src/memory/datastructures/</path>
+    <filename>bin_8cpp.html</filename>
+    <includes id="bin_8h" name="bin.h" local="yes" imported="no">bin.h</includes>
+    <includes id="logger_8h" name="logger.h" local="yes" imported="no">logging/logger.h</includes>
+    <includes id="node_8h" name="node.h" local="yes" imported="no">node.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>bin.h</name>
+    <path>/__w/libpalliate/libpalliate/src/memory/datastructures/</path>
+    <filename>bin_8h.html</filename>
+    <includes id="element_8h" name="element.h" local="yes" imported="no">element.h</includes>
+    <includes id="node_8h" name="node.h" local="yes" imported="no">node.h</includes>
+    <class kind="struct">memory::bin_t</class>
+    <namespace>memory</namespace>
+  </compound>
+  <compound kind="file">
+    <name>element.h</name>
+    <path>/__w/libpalliate/libpalliate/src/memory/datastructures/</path>
+    <filename>element_8h.html</filename>
+    <class kind="struct">memory::element_t</class>
+    <namespace>memory</namespace>
+  </compound>
+  <compound kind="file">
+    <name>memory_map.cpp</name>
+    <path>/__w/libpalliate/libpalliate/src/memory/datastructures/</path>
+    <filename>memory__map_8cpp.html</filename>
+    <includes id="memory__map_8h" name="memory_map.h" local="yes" imported="no">memory_map.h</includes>
+    <includes id="logger_8h" name="logger.h" local="yes" imported="no">logging/logger.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>memory_map.h</name>
+    <path>/__w/libpalliate/libpalliate/src/memory/datastructures/</path>
+    <filename>memory__map_8h.html</filename>
+    <includes id="bin_8h" name="bin.h" local="yes" imported="no">bin.h</includes>
+    <includes id="patricia_8h" name="patricia.h" local="yes" imported="no">datastructures/patricia/patricia.h</includes>
+    <includes id="node_8h" name="node.h" local="yes" imported="no">node.h</includes>
+    <class kind="class">memory::memory_map</class>
+    <namespace>memory</namespace>
+  </compound>
+  <compound kind="file">
+    <name>node.cpp</name>
+    <path>/__w/libpalliate/libpalliate/src/memory/datastructures/</path>
+    <filename>node_8cpp.html</filename>
+    <includes id="node_8h" name="node.h" local="yes" imported="no">node.h</includes>
+    <includes id="bin_8h" name="bin.h" local="yes" imported="no">bin.h</includes>
+    <includes id="logger_8h" name="logger.h" local="yes" imported="no">logging/logger.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>node.h</name>
+    <path>/__w/libpalliate/libpalliate/src/memory/datastructures/</path>
+    <filename>node_8h.html</filename>
+    <includes id="patricia_8h" name="patricia.h" local="yes" imported="no">datastructures/patricia/patricia.h</includes>
+    <includes id="element_8h" name="element.h" local="yes" imported="no">element.h</includes>
+    <class kind="struct">memory::node_t</class>
+    <namespace>memory</namespace>
+  </compound>
+  <compound kind="file">
+    <name>manager.cpp</name>
+    <path>/__w/libpalliate/libpalliate/src/memory/</path>
+    <filename>manager_8cpp.html</filename>
+    <includes id="manager_8h" name="manager.h" local="yes" imported="no">manager.h</includes>
+    <includes id="logger_8h" name="logger.h" local="yes" imported="no">logging/logger.h</includes>
+    <includes id="util_8h" name="util.h" local="yes" imported="no">util/util.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>manager.h</name>
+    <path>/__w/libpalliate/libpalliate/src/memory/</path>
+    <filename>manager_8h.html</filename>
+    <includes id="memory_2constants_8h" name="memory/constants.h" local="yes" imported="no">constants.h</includes>
+    <includes id="atomic__cr_8h" name="atomic_cr.h" local="yes" imported="no">datastructures/atomic/atomic_cr.h</includes>
+    <class kind="class">memory::manager</class>
+    <namespace>memory</namespace>
+  </compound>
+  <compound kind="file">
     <name>memory/server.cpp</name>
     <path>/__w/libpalliate/libpalliate/src/memory/</path>
     <filename>memory_2server_8cpp.html</filename>
@@ -725,6 +621,110 @@
       <anchor>aff55fe551a9992a54ec54621c524d0a4</anchor>
       <arglist></arglist>
     </member>
+  </compound>
+  <compound kind="file">
+    <name>consumer.cpp</name>
+    <path>/__w/libpalliate/libpalliate/src/plugin/</path>
+    <filename>consumer_8cpp.html</filename>
+    <includes id="consumer_8h" name="consumer.h" local="yes" imported="no">consumer.h</includes>
+    <includes id="logger_8h" name="logger.h" local="no" imported="no">logging/logger.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>consumer.h</name>
+    <path>/__w/libpalliate/libpalliate/src/plugin/</path>
+    <filename>consumer_8h.html</filename>
+    <includes id="transport_2client_8h" name="transport/client.h" local="no" imported="no">transport/client.h</includes>
+    <includes id="runnable_8h" name="runnable.h" local="no" imported="no">util/runnable.h</includes>
+    <class kind="class">consumer</class>
+  </compound>
+  <compound kind="file">
+    <name>exports.h</name>
+    <path>/__w/libpalliate/libpalliate/src/plugin/</path>
+    <filename>exports_8h.html</filename>
+    <includes id="plugin_8h" name="plugin.h" local="yes" imported="no">plugin.h</includes>
+    <namespace>detail</namespace>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXPORT_SYMBOL</name>
+      <anchorfile>exports_8h.html</anchorfile>
+      <anchor>ab57c319c35ea0fbacf781f2ecb3a4339</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>REGISTER_PLUGIN</name>
+      <anchorfile>exports_8h.html</anchorfile>
+      <anchor>a4cf506f51698a114e0f6db2418d87420</anchor>
+      <arglist>(target)</arglist>
+    </member>
+    <member kind="function">
+      <type>auto</type>
+      <name>init</name>
+      <anchorfile>namespacedetail.html</anchorfile>
+      <anchor>ad417d5a0e5c6b6fd05004c05b0516408</anchor>
+      <arglist>(std::string_view name)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>plugin.h</name>
+    <path>/__w/libpalliate/libpalliate/src/plugin/</path>
+    <filename>plugin_8h.html</filename>
+    <includes id="consumer_8h" name="consumer.h" local="yes" imported="no">consumer.h</includes>
+    <includes id="producer_8h" name="producer.h" local="yes" imported="no">producer.h</includes>
+    <class kind="class">plugin</class>
+  </compound>
+  <compound kind="file">
+    <name>producer.cpp</name>
+    <path>/__w/libpalliate/libpalliate/src/plugin/</path>
+    <filename>producer_8cpp.html</filename>
+    <includes id="producer_8h" name="producer.h" local="yes" imported="no">producer.h</includes>
+    <includes id="logger_8h" name="logger.h" local="no" imported="no">logging/logger.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>producer.h</name>
+    <path>/__w/libpalliate/libpalliate/src/plugin/</path>
+    <filename>producer_8h.html</filename>
+    <includes id="servers_8h" name="servers.h" local="yes" imported="no">servers.h</includes>
+    <includes id="transport_2client_8h" name="transport/client.h" local="no" imported="no">transport/client.h</includes>
+    <includes id="transport_2constants_8h" name="transport/constants.h" local="no" imported="no">transport/constants.h</includes>
+    <includes id="transport_2server_8h" name="transport/server.h" local="no" imported="no">transport/server.h</includes>
+    <includes id="runnable_8h" name="runnable.h" local="no" imported="no">util/runnable.h</includes>
+    <includes id="atomic__stack_8h" name="atomic_stack.h" local="no" imported="no">datastructures/atomic_stack.h</includes>
+    <class kind="class">producer</class>
+  </compound>
+  <compound kind="file">
+    <name>servers.cpp</name>
+    <path>/__w/libpalliate/libpalliate/src/plugin/</path>
+    <filename>servers_8cpp.html</filename>
+    <includes id="servers_8h" name="servers.h" local="yes" imported="no">servers.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>servers.h</name>
+    <path>/__w/libpalliate/libpalliate/src/plugin/</path>
+    <filename>servers_8h.html</filename>
+    <includes id="transport_2client_8h" name="transport/client.h" local="no" imported="no">transport/client.h</includes>
+    <includes id="transport_2server_8h" name="transport/server.h" local="no" imported="no">transport/server.h</includes>
+    <class kind="class">Servers</class>
+  </compound>
+  <compound kind="file">
+    <name>context.cpp</name>
+    <path>/__w/libpalliate/libpalliate/src/rpc/</path>
+    <filename>context_8cpp.html</filename>
+    <includes id="context_8h" name="context.h" local="yes" imported="no">context.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>context.h</name>
+    <path>/__w/libpalliate/libpalliate/src/rpc/</path>
+    <filename>context_8h.html</filename>
+    <class kind="struct">rpc::Context</class>
+    <namespace>rpc</namespace>
+  </compound>
+  <compound kind="file">
+    <name>error_handler.h</name>
+    <path>/__w/libpalliate/libpalliate/src/rpc/</path>
+    <filename>error__handler_8h.html</filename>
+    <class kind="struct">rpc::ErrorHandler</class>
+    <namespace>rpc</namespace>
   </compound>
   <compound kind="file">
     <name>rpc/shm/shm.cpp</name>
@@ -3204,6 +3204,13 @@
       <anchor>a251f49078124dd3e8e577c2d4f659fe2</anchor>
       <arglist>(Context const *ptr)</arglist>
     </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual kj::Promise&lt; void &gt;</type>
+      <name>authenticate</name>
+      <anchorfile>classrpc_1_1Server.html</anchorfile>
+      <anchor>a2111c9d328800f2607bf931d4b5f6904</anchor>
+      <arglist>(kj::Own&lt; rpc::Context &gt;)</arglist>
+    </member>
     <member kind="variable" protection="protected">
       <type>ErrorHandler</type>
       <name>err_handler</name>
@@ -3226,6 +3233,13 @@
       <arglist></arglist>
     </member>
     <member kind="variable" protection="protected">
+      <type>bool</type>
+      <name>datachannel</name>
+      <anchorfile>classrpc_1_1Server.html</anchorfile>
+      <anchor>a6271837ddc7483ef3e00ebc6f0841d2c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
       <type>std::mutex</type>
       <name>contexts_mutex</name>
       <anchorfile>classrpc_1_1Server.html</anchorfile>
@@ -3237,6 +3251,13 @@
       <name>contexts</name>
       <anchorfile>classrpc_1_1Server.html</anchorfile>
       <anchor>a98e7bb75f79493966a23d25f900caf70</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>std::unique_ptr&lt; kj::AsyncIoContext &gt;</type>
+      <name>io</name>
+      <anchorfile>classrpc_1_1Server.html</anchorfile>
+      <anchor>a5f2abd835ca1b0f63238eedfa7dc4e1d</anchor>
       <arglist></arglist>
     </member>
   </compound>

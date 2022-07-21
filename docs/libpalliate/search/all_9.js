@@ -17,7 +17,8 @@ var searchData=
   ['into_5ftoml_14',['into_toml',['../structutil_1_1uuid.html#a133e0a5c1ad0f0819ee5a73d42085af2',1,'util::uuid']]],
   ['invalid_15',['INVALID',['../namespacememory.html#a5489f7fba409dae5923725a7831d5026a08fef16c3401434dafddf345706e06b1',1,'memory']]],
   ['invalid_5fsocket_16',['INVALID_SOCKET',['../transport_2tcp_2client_8cpp.html#a26769957ec1a2beaf223f33b66ee64ab',1,'INVALID_SOCKET():&#160;client.cpp'],['../transport_2tcp_2server_8cpp.html#a26769957ec1a2beaf223f33b66ee64ab',1,'INVALID_SOCKET():&#160;server.cpp']]],
-  ['is_5ffile_17',['is_file',['../namespaceutil.html#a7b51aea44ee66c8397dda19963868b97',1,'util']]],
-  ['is_5fnumeric_18',['is_numeric',['../namespaceutil.html#a4d65ad322ce3b71c439a6ee721f22d36',1,'util']]],
-  ['ivshmem_19',['ivshmem',['../classivshmem.html#ad351bdc6547f943f8dad16dd09982cfb',1,'ivshmem::ivshmem(memory::manager &amp;_backend)'],['../classivshmem.html#ad351bdc6547f943f8dad16dd09982cfb',1,'ivshmem::ivshmem(memory::manager &amp;_backend)'],['../classivshmem.html',1,'ivshmem']]]
+  ['io_17',['io',['../classrpc_1_1Server.html#a5f2abd835ca1b0f63238eedfa7dc4e1d',1,'rpc::Server']]],
+  ['is_5ffile_18',['is_file',['../namespaceutil.html#a7b51aea44ee66c8397dda19963868b97',1,'util']]],
+  ['is_5fnumeric_19',['is_numeric',['../namespaceutil.html#a4d65ad322ce3b71c439a6ee721f22d36',1,'util']]],
+  ['ivshmem_20',['ivshmem',['../classivshmem.html#ad351bdc6547f943f8dad16dd09982cfb',1,'ivshmem::ivshmem(memory::manager &amp;_backend)'],['../classivshmem.html#ad351bdc6547f943f8dad16dd09982cfb',1,'ivshmem::ivshmem(memory::manager &amp;_backend)'],['../classivshmem.html',1,'ivshmem']]]
 ];
