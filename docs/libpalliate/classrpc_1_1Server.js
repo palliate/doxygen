@@ -3,7 +3,7 @@ var classrpc_1_1Server =
     [ "Server", "classrpc_1_1Server.html#a1de34dec61a6959ce9159a8700ea0c4a", null ],
     [ "~Server", "classrpc_1_1Server.html#a1079ff18b7c76e687ab891c6c3be8a6f", null ],
     [ "accept", "classrpc_1_1Server.html#a8e0c5dcec5f72fce2e929e28b24f4e24", null ],
-    [ "authenticate", "classrpc_1_1Server.html#a2111c9d328800f2607bf931d4b5f6904", null ],
+    [ "authenticate", "classrpc_1_1Server.html#a2fa3907d5f33838d4c38fd3b2a7fe250", null ],
     [ "broadcast", "classrpc_1_1Server.html#a7d4e4af7a6de4089779ad8f2324262b1", null ],
     [ "remove", "classrpc_1_1Server.html#a251f49078124dd3e8e577c2d4f659fe2", null ],
     [ "contexts", "classrpc_1_1Server.html#a98e7bb75f79493966a23d25f900caf70", null ],

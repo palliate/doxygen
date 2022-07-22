@@ -3208,8 +3208,8 @@
       <type>virtual kj::Promise&lt; void &gt;</type>
       <name>authenticate</name>
       <anchorfile>classrpc_1_1Server.html</anchorfile>
-      <anchor>a2111c9d328800f2607bf931d4b5f6904</anchor>
-      <arglist>(kj::Own&lt; rpc::Context &gt;)</arglist>
+      <anchor>a2fa3907d5f33838d4c38fd3b2a7fe250</anchor>
+      <arglist>(kj::Own&lt; rpc::Context &gt; &amp;&amp;context)</arglist>
     </member>
     <member kind="variable" protection="protected">
       <type>ErrorHandler</type>
