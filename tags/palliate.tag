@@ -1,39 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
 <tagfile doxygen_version="1.9.4" doxygen_gitid="5d15657a55555e6181a7830a5c723af75e7577e2">
   <compound kind="file">
-    <name>systemd.cpp</name>
-    <path>/__w/palliate/palliate/plugins/systemd/logging/</path>
-    <filename>systemd_8cpp.html</filename>
-    <includes id="systemd_8h" name="systemd.h" local="yes" imported="no">systemd.h</includes>
-  </compound>
-  <compound kind="file">
-    <name>systemd.h</name>
-    <path>/__w/palliate/palliate/plugins/systemd/logging/</path>
-    <filename>systemd_8h.html</filename>
-    <class kind="class">logging::endpoint::systemd</class>
-    <namespace>logging</namespace>
-    <namespace>logging::endpoint</namespace>
-  </compound>
-  <compound kind="file">
-    <name>test.cpp</name>
-    <path>/__w/palliate/palliate/plugins/testplugin/</path>
-    <filename>test_8cpp.html</filename>
-    <includes id="test_8h" name="test.h" local="yes" imported="no">test.h</includes>
-    <member kind="function">
-      <type></type>
-      <name>REGISTER_PLUGIN</name>
-      <anchorfile>test_8cpp.html</anchorfile>
-      <anchor>a3b4def47e0382bb0a656a1406a00370e</anchor>
-      <arglist>(testmod)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>test.h</name>
-    <path>/__w/palliate/palliate/plugins/testplugin/</path>
-    <filename>test_8h.html</filename>
-    <class kind="class">testmod</class>
-  </compound>
-  <compound kind="file">
     <name>capture/plugin.cpp</name>
     <path>/__w/palliate/palliate/plugins/capture/</path>
     <filename>capture_2plugin_8cpp.html</filename>
@@ -127,6 +94,39 @@
     <path>/__w/palliate/palliate/plugins/wm/</path>
     <filename>wm_2plugin_8h.html</filename>
     <class kind="class">wm</class>
+  </compound>
+  <compound kind="file">
+    <name>systemd.cpp</name>
+    <path>/__w/palliate/palliate/plugins/systemd/logging/</path>
+    <filename>systemd_8cpp.html</filename>
+    <includes id="systemd_8h" name="systemd.h" local="yes" imported="no">systemd.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>systemd.h</name>
+    <path>/__w/palliate/palliate/plugins/systemd/logging/</path>
+    <filename>systemd_8h.html</filename>
+    <class kind="class">logging::endpoint::systemd</class>
+    <namespace>logging</namespace>
+    <namespace>logging::endpoint</namespace>
+  </compound>
+  <compound kind="file">
+    <name>test.cpp</name>
+    <path>/__w/palliate/palliate/plugins/testplugin/</path>
+    <filename>test_8cpp.html</filename>
+    <includes id="test_8h" name="test.h" local="yes" imported="no">test.h</includes>
+    <member kind="function">
+      <type></type>
+      <name>REGISTER_PLUGIN</name>
+      <anchorfile>test_8cpp.html</anchorfile>
+      <anchor>a3b4def47e0382bb0a656a1406a00370e</anchor>
+      <arglist>(testmod)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>test.h</name>
+    <path>/__w/palliate/palliate/plugins/testplugin/</path>
+    <filename>test_8h.html</filename>
+    <class kind="class">testmod</class>
   </compound>
   <compound kind="file">
     <name>application.cpp</name>
