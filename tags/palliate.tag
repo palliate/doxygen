@@ -145,9 +145,9 @@
     <class kind="class">Application</class>
   </compound>
   <compound kind="file">
-    <name>test.dox</name>
+    <name>README.dox</name>
     <path>/__w/palliate/palliate/src/application/</path>
-    <filename>test_8dox.html</filename>
+    <filename>README_8dox.html</filename>
   </compound>
   <compound kind="file">
     <name>cli.cpp</name>
