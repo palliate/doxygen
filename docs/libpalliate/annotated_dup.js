@@ -1,11 +1,6 @@
 var annotated_dup =
 [
     [ "logging", "namespacelogging.html", [
-      [ "endpoint", "namespacelogging_1_1endpoint.html", [
-        [ "file", "classlogging_1_1endpoint_1_1file.html", "classlogging_1_1endpoint_1_1file" ],
-        [ "serial", "classlogging_1_1endpoint_1_1serial.html", "classlogging_1_1endpoint_1_1serial" ],
-        [ "terminal", "classlogging_1_1endpoint_1_1terminal.html", "classlogging_1_1endpoint_1_1terminal" ]
-      ] ],
       [ "Annotated", "structlogging_1_1Annotated.html", "structlogging_1_1Annotated" ],
       [ "Endpoint", "classlogging_1_1Endpoint.html", "classlogging_1_1Endpoint" ],
       [ "Logger", "classlogging_1_1Logger.html", "classlogging_1_1Logger" ],

@@ -1,6 +1,5 @@
 var searchData=
 [
   ['_5f_5f_0',['__',['../namespacelogging_1_1____.html',1,'logging']]],
-  ['endpoint_1',['endpoint',['../namespacelogging_1_1endpoint.html',1,'logging']]],
-  ['logging_2',['logging',['../namespacelogging.html',1,'']]]
+  ['logging_1',['logging',['../namespacelogging.html',1,'']]]
 ];

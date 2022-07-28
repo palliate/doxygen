@@ -60,11 +60,6 @@ var hierarchy =
     [ "patricia", "classpatricia.html", null ],
     [ "plugin", "classplugin.html", null ],
     [ "util::rect", "structutil_1_1rect.html", null ],
-    [ "Endpoint::registrar", null, [
-      [ "logging::endpoint::file", "classlogging_1_1endpoint_1_1file.html", null ],
-      [ "logging::endpoint::serial", "classlogging_1_1endpoint_1_1serial.html", null ],
-      [ "logging::endpoint::terminal", "classlogging_1_1endpoint_1_1terminal.html", null ]
-    ] ],
     [ "rpc::Client::registrar", null, [
       [ "rpc::tcp::Client", "classrpc_1_1tcp_1_1Client.html", null ]
     ] ],

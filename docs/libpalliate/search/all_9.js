@@ -11,7 +11,7 @@ var searchData=
   ['insert_8',['insert',['../classpatricia.html#a659ac04ca615587c9376b5b3833504ba',1,'patricia::insert()'],['../classutil_1_1Collection.html#ab8d7d84c15a97d7b8f451fab1b7f79be',1,'util::Collection::insert()']]],
   ['insert_5fafter_9',['insert_after',['../structmemory_1_1bin__t.html#a284a3baa28f4361a0ef0452ea7d04abc',1,'memory::bin_t']]],
   ['insert_5fbefore_10',['insert_before',['../structmemory_1_1bin__t.html#a56e3098f47a9f47116fd4fb8512ab3bd',1,'memory::bin_t']]],
-  ['instance_11',['Instance',['../classlogging_1_1Logger.html#a4f2905744864800fa2999ea5691806e9',1,'logging::Logger::Instance()'],['../classui.html#aaa157ba4489ac066594540334a2fda5c',1,'ui::Instance()']]],
+  ['instance_11',['Instance',['../classui.html#aaa157ba4489ac066594540334a2fda5c',1,'ui']]],
   ['instream_5ft_12',['instream_t',['../namespacetransport_1_1TCP.html#a8ff1ca4f59ca63030ff934ca98d6bc4f',1,'transport::TCP']]],
   ['interface_13',['interface',['../classrpc_1_1Server.html#a45630a1fed178c549a49353e0766cc42',1,'rpc::Server']]],
   ['into_5ftoml_14',['into_toml',['../structutil_1_1uuid.html#a133e0a5c1ad0f0819ee5a73d42085af2',1,'util::uuid']]],

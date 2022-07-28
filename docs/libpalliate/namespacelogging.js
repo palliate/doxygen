@@ -1,7 +1,6 @@
 var namespacelogging =
 [
     [ "__", "namespacelogging_1_1____.html", null ],
-    [ "endpoint", "namespacelogging_1_1endpoint.html", "namespacelogging_1_1endpoint" ],
     [ "Annotated", "structlogging_1_1Annotated.html", "structlogging_1_1Annotated" ],
     [ "Endpoint", "classlogging_1_1Endpoint.html", "classlogging_1_1Endpoint" ],
     [ "Logger", "classlogging_1_1Logger.html", "classlogging_1_1Logger" ],

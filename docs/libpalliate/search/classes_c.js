@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['terminal_0',['terminal',['../classlogging_1_1endpoint_1_1terminal.html',1,'logging::endpoint']]],
-  ['tray_1',['tray',['../classtray.html',1,'']]]
+  ['tray_0',['tray',['../classtray.html',1,'']]]
 ];

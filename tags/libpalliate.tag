@@ -99,73 +99,6 @@
     <namespace>logging</namespace>
   </compound>
   <compound kind="file">
-    <name>file.cpp</name>
-    <path>/__w/libpalliate/libpalliate/src/logging/endpoint/</path>
-    <filename>file_8cpp.html</filename>
-    <includes id="file_8h" name="file.h" local="yes" imported="no">file.h</includes>
-    <includes id="logger_8h" name="logger.h" local="no" imported="no">logging/logger.h</includes>
-    <includes id="filesystem_8h" name="filesystem.h" local="no" imported="no">util/filesystem.h</includes>
-  </compound>
-  <compound kind="file">
-    <name>file.h</name>
-    <path>/__w/libpalliate/libpalliate/src/logging/endpoint/</path>
-    <filename>file_8h.html</filename>
-    <includes id="endpoint_8h" name="endpoint.h" local="no" imported="no">logging/endpoint.h</includes>
-    <class kind="class">logging::endpoint::file</class>
-    <namespace>logging</namespace>
-    <namespace>logging::endpoint</namespace>
-  </compound>
-  <compound kind="file">
-    <name>serial.cpp</name>
-    <path>/__w/libpalliate/libpalliate/src/logging/endpoint/</path>
-    <filename>serial_8cpp.html</filename>
-    <includes id="serial_8h" name="serial.h" local="yes" imported="no">serial.h</includes>
-  </compound>
-  <compound kind="file">
-    <name>serial.h</name>
-    <path>/__w/libpalliate/libpalliate/src/logging/endpoint/</path>
-    <filename>serial_8h.html</filename>
-    <includes id="endpoint_8h" name="endpoint.h" local="no" imported="no">logging/endpoint.h</includes>
-    <class kind="class">logging::endpoint::serial</class>
-    <namespace>logging</namespace>
-    <namespace>logging::endpoint</namespace>
-  </compound>
-  <compound kind="file">
-    <name>terminal.cpp</name>
-    <path>/__w/libpalliate/libpalliate/src/logging/endpoint/</path>
-    <filename>terminal_8cpp.html</filename>
-    <includes id="terminal_8h" name="terminal.h" local="yes" imported="no">terminal.h</includes>
-    <includes id="filesystem_8h" name="filesystem.h" local="no" imported="no">util/filesystem.h</includes>
-  </compound>
-  <compound kind="file">
-    <name>terminal.h</name>
-    <path>/__w/libpalliate/libpalliate/src/logging/endpoint/</path>
-    <filename>terminal_8h.html</filename>
-    <includes id="endpoint_8h" name="endpoint.h" local="no" imported="no">logging/endpoint.h</includes>
-    <class kind="class">logging::endpoint::terminal</class>
-    <namespace>logging</namespace>
-    <namespace>logging::endpoint</namespace>
-  </compound>
-  <compound kind="file">
-    <name>terminal.linux.cpp</name>
-    <path>/__w/libpalliate/libpalliate/src/logging/endpoint/</path>
-    <filename>terminal_8linux_8cpp.html</filename>
-    <includes id="terminal_8h" name="terminal.h" local="yes" imported="no">terminal.h</includes>
-  </compound>
-  <compound kind="file">
-    <name>terminal.windows.cpp</name>
-    <path>/__w/libpalliate/libpalliate/src/logging/endpoint/</path>
-    <filename>terminal_8windows_8cpp.html</filename>
-    <includes id="terminal_8h" name="terminal.h" local="yes" imported="no">terminal.h</includes>
-    <member kind="define">
-      <type>#define</type>
-      <name>WIN32_LEAN_AND_MEAN</name>
-      <anchorfile>terminal_8windows_8cpp.html</anchorfile>
-      <anchor>ac7bef5d85e3dcd73eef56ad39ffc84a9</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="file">
     <name>logger.cpp</name>
     <path>/__w/libpalliate/libpalliate/src/logging/</path>
     <filename>logger_8cpp.html</filename>
@@ -2173,31 +2106,6 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>logging::endpoint::file</name>
-    <filename>classlogging_1_1endpoint_1_1file.html</filename>
-    <member kind="function">
-      <type></type>
-      <name>file</name>
-      <anchorfile>classlogging_1_1endpoint_1_1file.html</anchorfile>
-      <anchor>abb690fe22b573382c27c2e3075bf2def</anchor>
-      <arglist>(config_t const &amp;c)</arglist>
-    </member>
-    <member kind="function" virtualness="virtual">
-      <type>virtual</type>
-      <name>~file</name>
-      <anchorfile>classlogging_1_1endpoint_1_1file.html</anchorfile>
-      <anchor>a7174566303bcda6dc7d47cc0997c8c42</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>print</name>
-      <anchorfile>classlogging_1_1endpoint_1_1file.html</anchorfile>
-      <anchor>acc7c818c82a9735272197f1aea7c19db</anchor>
-      <arglist>(message &amp;msg) override</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
     <name>ivshmem</name>
     <filename>classivshmem.html</filename>
     <member kind="function">
@@ -2362,13 +2270,6 @@
       <anchorfile>classlogging_1_1Logger.html</anchorfile>
       <anchor>a3f2721316999e36bce10d4dfbff924cb</anchor>
       <arglist>(Annotated&lt; char const * &gt; str, Ts &amp;&amp;... ts)</arglist>
-    </member>
-    <member kind="function" static="yes">
-      <type>static Logger &amp;</type>
-      <name>Instance</name>
-      <anchorfile>classlogging_1_1Logger.html</anchorfile>
-      <anchor>a4f2905744864800fa2999ea5691806e9</anchor>
-      <arglist>()</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static const std::string</type>
@@ -3109,31 +3010,6 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>logging::endpoint::serial</name>
-    <filename>classlogging_1_1endpoint_1_1serial.html</filename>
-    <member kind="function">
-      <type></type>
-      <name>serial</name>
-      <anchorfile>classlogging_1_1endpoint_1_1serial.html</anchorfile>
-      <anchor>ac42d260df030ec4626bc04191fd2ee17</anchor>
-      <arglist>(config_t const &amp;c)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>~serial</name>
-      <anchorfile>classlogging_1_1endpoint_1_1serial.html</anchorfile>
-      <anchor>a67fc0fa282decb6abde760597ef66320</anchor>
-      <arglist>() override</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>print</name>
-      <anchorfile>classlogging_1_1endpoint_1_1serial.html</anchorfile>
-      <anchor>a3db479be9c39368c11db1b196fa51dfb</anchor>
-      <arglist>(logging::message &amp;msg) override</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
     <name>memory::server</name>
     <filename>classmemory_1_1server.html</filename>
     <base>memory::manager</base>
@@ -3440,31 +3316,6 @@
       <anchorfile>classServers.html</anchorfile>
       <anchor>a79ad2cb8b9fa26f87845cf14af6225db</anchor>
       <arglist>(std::function&lt; void(Client *, reader_t)&gt; message_event)</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>logging::endpoint::terminal</name>
-    <filename>classlogging_1_1endpoint_1_1terminal.html</filename>
-    <member kind="function">
-      <type></type>
-      <name>terminal</name>
-      <anchorfile>classlogging_1_1endpoint_1_1terminal.html</anchorfile>
-      <anchor>a2b70ef201f1dd5602a3a1427bd01afa8</anchor>
-      <arglist>(config_t const &amp;c)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>~terminal</name>
-      <anchorfile>classlogging_1_1endpoint_1_1terminal.html</anchorfile>
-      <anchor>a1a6cd2bf48de06f78766e939afe4e38b</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>print</name>
-      <anchorfile>classlogging_1_1endpoint_1_1terminal.html</anchorfile>
-      <anchor>a22da5f78d7ef47436bb0181dbb406ff8</anchor>
-      <arglist>(logging::message &amp;msg) override</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -3782,7 +3633,6 @@
     <name>logging</name>
     <filename>namespacelogging.html</filename>
     <namespace>logging::__</namespace>
-    <namespace>logging::endpoint</namespace>
     <class kind="struct">logging::Annotated</class>
     <class kind="class">logging::Endpoint</class>
     <class kind="class">logging::Logger</class>
@@ -3828,13 +3678,6 @@
   <compound kind="namespace">
     <name>logging::__</name>
     <filename>namespacelogging_1_1____.html</filename>
-  </compound>
-  <compound kind="namespace">
-    <name>logging::endpoint</name>
-    <filename>namespacelogging_1_1endpoint.html</filename>
-    <class kind="class">logging::endpoint::file</class>
-    <class kind="class">logging::endpoint::serial</class>
-    <class kind="class">logging::endpoint::terminal</class>
   </compound>
   <compound kind="namespace">
     <name>memory</name>
