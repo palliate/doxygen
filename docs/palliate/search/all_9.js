@@ -14,7 +14,7 @@ var searchData=
   ['insert_11',['insert',['../../libpalliate/classutil_1_1Collection.html#ab8d7d84c15a97d7b8f451fab1b7f79be',1,'util::Collection::insert()'],['../../libpalliate/classpatricia.html#a659ac04ca615587c9376b5b3833504ba',1,'patricia::insert()']]],
   ['insert_5fafter_12',['insert_after',['../../libpalliate/structmemory_1_1bin__t.html#a284a3baa28f4361a0ef0452ea7d04abc',1,'memory::bin_t']]],
   ['insert_5fbefore_13',['insert_before',['../../libpalliate/structmemory_1_1bin__t.html#a56e3098f47a9f47116fd4fb8512ab3bd',1,'memory::bin_t']]],
-  ['instance_14',['Instance',['../../libpalliate/classlogging_1_1Logger.html#a4f2905744864800fa2999ea5691806e9',1,'logging::Logger::Instance()'],['../../libpalliate/classui.html#aaa157ba4489ac066594540334a2fda5c',1,'ui::Instance()']]],
+  ['instance_14',['Instance',['../../libpalliate/classui.html#aaa157ba4489ac066594540334a2fda5c',1,'ui']]],
   ['instream_5ft_15',['instream_t',['../../libpalliate/namespacetransport_1_1TCP.html#a8ff1ca4f59ca63030ff934ca98d6bc4f',1,'transport::TCP']]],
   ['interface_16',['interface',['../../libpalliate/classrpc_1_1Server.html#a45630a1fed178c549a49353e0766cc42',1,'rpc::Server']]],
   ['into_5ftoml_17',['into_toml',['../../libpalliate/structutil_1_1uuid.html#a133e0a5c1ad0f0819ee5a73d42085af2',1,'util::uuid']]],

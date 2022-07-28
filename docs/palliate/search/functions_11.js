@@ -1,7 +1,7 @@
 var searchData=
 [
   ['taskfailed_0',['taskFailed',['../../libpalliate/structrpc_1_1ErrorHandler.html#a7a31fee351ee2ab3e761800cb1180cfc',1,'rpc::ErrorHandler']]],
-  ['terminal_1',['terminal',['../../libpalliate/classlogging_1_1endpoint_1_1terminal.html#a2b70ef201f1dd5602a3a1427bd01afa8',1,'logging::endpoint::terminal']]],
+  ['terminal_1',['terminal',['../classlogging_1_1endpoint_1_1terminal.html#a2b70ef201f1dd5602a3a1427bd01afa8',1,'logging::endpoint::terminal']]],
   ['terminate_5fhandler_2',['terminate_handler',['../main_8cpp.html#a6d3e224dbaae674825482b0dbb1d8579',1,'main.cpp']]],
   ['test_3',['test',['../classtestmod.html#a31fd3a392ea95e0c4580df0a77bb985c',1,'testmod']]],
   ['testmod_4',['testmod',['../classtestmod.html#a801c18e5ea171f87bf11ef9ab5752640',1,'testmod']]],

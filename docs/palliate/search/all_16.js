@@ -10,7 +10,7 @@ var searchData=
   ['waive_7',['WAIVE',['../../libpalliate/namespacememory.html#a5489f7fba409dae5923725a7831d5026a26ac6ccdbd6eb122a03e0fdadf2a8b33',1,'memory']]],
   ['warning_8',['warning',['../../libpalliate/namespacelogging.html#a72e7a108a3928d5e407b6a7723799826afe6af08edd74e3e77e5ec1058844088c',1,'logging::warning()'],['../../libpalliate/classlogging_1_1Logger.html#a04f317bbf64fdbf8d1648311484840fc',1,'logging::Logger::warning()']]],
   ['width_9',['width',['../../libpalliate/structutil_1_1rect.html#adf21eb2e93d2edc96c80d29f796d5491',1,'util::rect']]],
-  ['win32_5flean_5fand_5fmean_10',['WIN32_LEAN_AND_MEAN',['../library_8windows_8cpp.html#ac7bef5d85e3dcd73eef56ad39ffc84a9',1,'library.windows.cpp']]],
+  ['win32_5flean_5fand_5fmean_10',['WIN32_LEAN_AND_MEAN',['../library_8windows_8cpp.html#ac7bef5d85e3dcd73eef56ad39ffc84a9',1,'WIN32_LEAN_AND_MEAN():&#160;library.windows.cpp'],['../terminal_8windows_8cpp.html#ac7bef5d85e3dcd73eef56ad39ffc84a9',1,'WIN32_LEAN_AND_MEAN():&#160;terminal.windows.cpp']]],
   ['window_11',['window',['../../libpalliate/classwindow.html#a6d3235fb1490acf32a94e5a05e26c08d',1,'window::window()'],['../../libpalliate/classwindow.html',1,'window']]],
   ['window_2ecpp_12',['window.cpp',['../../libpalliate/window_8cpp.html',1,'(Global Namespace)'],['../window_8cpp.html',1,'(Global Namespace)']]],
   ['window_2eh_13',['window.h',['../../libpalliate/window_8h.html',1,'(Global Namespace)'],['../window_8h.html',1,'(Global Namespace)']]],

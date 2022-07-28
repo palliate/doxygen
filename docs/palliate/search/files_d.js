@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['terminal_2ecpp_0',['terminal.cpp',['../../libpalliate/terminal_8cpp.html',1,'']]],
-  ['terminal_2eh_1',['terminal.h',['../../libpalliate/terminal_8h.html',1,'']]],
-  ['terminal_2elinux_2ecpp_2',['terminal.linux.cpp',['../../libpalliate/terminal_8linux_8cpp.html',1,'']]],
-  ['terminal_2ewindows_2ecpp_3',['terminal.windows.cpp',['../../libpalliate/terminal_8windows_8cpp.html',1,'']]],
+  ['terminal_2ecpp_0',['terminal.cpp',['../terminal_8cpp.html',1,'']]],
+  ['terminal_2eh_1',['terminal.h',['../terminal_8h.html',1,'']]],
+  ['terminal_2elinux_2ecpp_2',['terminal.linux.cpp',['../terminal_8linux_8cpp.html',1,'']]],
+  ['terminal_2ewindows_2ecpp_3',['terminal.windows.cpp',['../terminal_8windows_8cpp.html',1,'']]],
   ['test_2ecpp_4',['test.cpp',['../test_8cpp.html',1,'']]],
   ['test_2eh_5',['test.h',['../test_8h.html',1,'']]],
   ['toml_2eh_6',['toml.h',['../../libpalliate/toml_8h.html',1,'']]],

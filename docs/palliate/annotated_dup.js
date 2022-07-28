@@ -3,10 +3,10 @@ var annotated_dup =
     [ "logging", "namespacelogging.html", [
       [ "endpoint", "namespacelogging_1_1endpoint.html", [
         [ "Bridge", "classlogging_1_1endpoint_1_1Bridge.html", "classlogging_1_1endpoint_1_1Bridge" ],
-        [ "file", "../libpalliate/classlogging_1_1endpoint_1_1file.html", "classlogging_1_1endpoint_1_1file" ],
-        [ "serial", "../libpalliate/classlogging_1_1endpoint_1_1serial.html", "classlogging_1_1endpoint_1_1serial" ],
+        [ "file", "classlogging_1_1endpoint_1_1file.html", "classlogging_1_1endpoint_1_1file" ],
+        [ "serial", "classlogging_1_1endpoint_1_1serial.html", "classlogging_1_1endpoint_1_1serial" ],
         [ "Systemd", "classlogging_1_1endpoint_1_1Systemd.html", "classlogging_1_1endpoint_1_1Systemd" ],
-        [ "terminal", "../libpalliate/classlogging_1_1endpoint_1_1terminal.html", "classlogging_1_1endpoint_1_1terminal" ]
+        [ "terminal", "classlogging_1_1endpoint_1_1terminal.html", "classlogging_1_1endpoint_1_1terminal" ]
       ] ],
       [ "Annotated", "../libpalliate/structlogging_1_1Annotated.html", "structlogging_1_1Annotated" ],
       [ "Endpoint", "../libpalliate/classlogging_1_1Endpoint.html", "classlogging_1_1Endpoint" ],

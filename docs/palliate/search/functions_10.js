@@ -1,7 +1,7 @@
 var searchData=
 [
   ['send_0',['send',['../../libpalliate/classtransport_1_1TCP_1_1Client.html#ac124e47c22ae9703516bdcb2040a5ae5',1,'transport::TCP::Client::send()'],['../../libpalliate/classtransport_1_1Client.html#a02cb597402a3e22d4cd24386733d5a24',1,'transport::Client::send()']]],
-  ['serial_1',['serial',['../../libpalliate/classlogging_1_1endpoint_1_1serial.html#ac42d260df030ec4626bc04191fd2ee17',1,'logging::endpoint::serial']]],
+  ['serial_1',['serial',['../classlogging_1_1endpoint_1_1serial.html#ac42d260df030ec4626bc04191fd2ee17',1,'logging::endpoint::serial']]],
   ['serve_2',['serve',['../classApplication.html#aea4183e1d12b9048e698dfdb0721820b',1,'Application']]],
   ['server_3',['Server',['../../libpalliate/classrpc_1_1Server.html#a1de34dec61a6959ce9159a8700ea0c4a',1,'rpc::Server::Server()'],['../../libpalliate/classrpc_1_1tcp_1_1Server.html#a9f629587f4e16e88642a7fdcc576cf8f',1,'rpc::tcp::Server::Server()'],['../../libpalliate/classtransport_1_1Server.html#a39a4d29cad9d51f83410a2074c557fe7',1,'transport::Server::Server()'],['../../libpalliate/classtransport_1_1TCP_1_1Server.html#a27e80eeedc337d15b231254ad55dbf85',1,'transport::TCP::Server::Server()']]],
   ['server_4',['server',['../../libpalliate/classmemory_1_1server.html#afc4dec957a29610da254bd18c58d6d8a',1,'memory::server']]],
@@ -13,6 +13,6 @@ var searchData=
   ['sleep_5ffor_10',['sleep_for',['../../libpalliate/namespaceutil.html#a28ff4dd2371068677e53af40f3d1be5b',1,'util']]],
   ['status_11',['status',['../classApplication.html#a8c810655142b4d1190dd5fd14c244a07',1,'Application']]],
   ['stop_12',['stop',['../../libpalliate/classrunnable.html#ab7117095b1382678c42c4979871f1d25',1,'runnable']]],
-  ['systemd_13',['systemd',['../classsystemd.html#a058fbd52d68076ab21e2f0926a81e1db',1,'systemd']]],
-  ['systemd_14',['Systemd',['../classlogging_1_1endpoint_1_1Systemd.html#ae28c686ec6ead34aa5f981c968997fdb',1,'logging::endpoint::Systemd']]]
+  ['systemd_13',['Systemd',['../classlogging_1_1endpoint_1_1Systemd.html#ae28c686ec6ead34aa5f981c968997fdb',1,'logging::endpoint::Systemd']]],
+  ['systemd_14',['systemd',['../classsystemd.html#a058fbd52d68076ab21e2f0926a81e1db',1,'systemd']]]
 ];

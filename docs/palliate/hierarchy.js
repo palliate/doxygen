@@ -44,7 +44,6 @@ var hierarchy =
     [ "logging::Endpoint", "../libpalliate/classlogging_1_1Endpoint.html", null ],
     [ "rpc::ErrorHandler", "../libpalliate/structrpc_1_1ErrorHandler.html", null ],
     [ "util::Factory< class base_t, class... Args >", "../libpalliate/classutil_1_1Factory.html", null ],
-    [ "logging::endpoint::file", "../libpalliate/classlogging_1_1endpoint_1_1file.html", null ],
     [ "ivshmem", "../libpalliate/classivshmem.html", null ],
     [ "library", "classlibrary.html", null ],
     [ "logging::Logger", "../libpalliate/classlogging_1_1Logger.html", null ],
@@ -68,7 +67,10 @@ var hierarchy =
     [ "util::rect", "../libpalliate/structutil_1_1rect.html", null ],
     [ "Endpoint::registrar", null, [
       [ "logging::endpoint::Bridge", "classlogging_1_1endpoint_1_1Bridge.html", null ],
-      [ "logging::endpoint::Systemd", "classlogging_1_1endpoint_1_1Systemd.html", null ]
+      [ "logging::endpoint::Systemd", "classlogging_1_1endpoint_1_1Systemd.html", null ],
+      [ "logging::endpoint::file", "classlogging_1_1endpoint_1_1file.html", null ],
+      [ "logging::endpoint::serial", "classlogging_1_1endpoint_1_1serial.html", null ],
+      [ "logging::endpoint::terminal", "classlogging_1_1endpoint_1_1terminal.html", null ]
     ] ],
     [ "util::Factory< class base_t, class... Args >::registrar", "../libpalliate/structutil_1_1Factory_1_1registrar.html", null ],
     [ "runnable", "../libpalliate/classrunnable.html", [
@@ -84,7 +86,6 @@ var hierarchy =
       ] ],
       [ "ui", "../libpalliate/classui.html", null ]
     ] ],
-    [ "logging::endpoint::serial", "../libpalliate/classlogging_1_1endpoint_1_1serial.html", null ],
     [ "App::Server", null, [
       [ "Application", "classApplication.html", null ]
     ] ],
@@ -93,7 +94,6 @@ var hierarchy =
     ] ],
     [ "rpc::tcp::Server", "../libpalliate/classrpc_1_1tcp_1_1Server.html", null ],
     [ "Servers", "../libpalliate/classServers.html", null ],
-    [ "logging::endpoint::terminal", "../libpalliate/classlogging_1_1endpoint_1_1terminal.html", null ],
     [ "util::uuid", "../libpalliate/structutil_1_1uuid.html", null ],
     [ "window", "../libpalliate/classwindow.html", [
       [ "glfw_window", "classglfw__window.html", [
