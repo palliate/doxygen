@@ -20,7 +20,7 @@ var searchData=
   ['text_17',['text',['../structlogging_1_1message.html#a6a1b9dde5bbc6004c177dd573ad3126e',1,'logging::message']]],
   ['thread_18',['thread',['../classrunnable.html#a2af67a3067df242083a64c3add4f150a',1,'runnable']]],
   ['thread_5fid_19',['thread_id',['../structlogging_1_1message.html#aaed623e9629f0361a876e9457607efdc',1,'logging::message']]],
-  ['thread_5fname_20',['thread_name',['../structlogging_1_1message.html#a73a67ef7edb030c335c1cde8e1d2e122',1,'logging::message::thread_name()'],['../classlogging_1_1logger.html#a8e43231ab6556eb4da2184ffa69fd978',1,'logging::logger::thread_name()']]],
+  ['thread_5fname_20',['thread_name',['../structlogging_1_1message.html#a73a67ef7edb030c335c1cde8e1d2e122',1,'logging::message::thread_name()'],['../classlogging_1_1Logger.html#a05904975be0b6ab1576b67332c3418eb',1,'logging::Logger::thread_name()']]],
   ['timestamp_21',['timestamp',['../namespaceutil.html#a211993f85d0b44090dd95e4a7b551545',1,'util']]],
   ['title_22',['title',['../classwindow.html#ace38456c6311b4413488ed6bc8809dd2',1,'window']]],
   ['to_5fbool_23',['to_bool',['../namespaceutil.html#af0b080debd3f1f7aca9c77c94089b62f',1,'util']]],

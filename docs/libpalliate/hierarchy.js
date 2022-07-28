@@ -1,6 +1,6 @@
 var hierarchy =
 [
-    [ "logging::annotated< T >", "structlogging_1_1annotated.html", null ],
+    [ "logging::Annotated< T >", "structlogging_1_1Annotated.html", null ],
     [ "atomic_cr< size >", "classatomic__cr.html", null ],
     [ "atomic_cr< 8 >", "classatomic__cr.html", null ],
     [ "atomic_mpsc", "classatomic__mpsc.html", null ],
@@ -48,7 +48,7 @@ var hierarchy =
       [ "rpc::Server", "classrpc_1_1Server.html", null ]
     ] ],
     [ "ivshmem", "classivshmem.html", null ],
-    [ "logging::logger", "classlogging_1_1logger.html", null ],
+    [ "logging::Logger", "classlogging_1_1Logger.html", null ],
     [ "memory::manager", "classmemory_1_1manager.html", [
       [ "memory::client", "classmemory_1_1client.html", null ],
       [ "memory::server", "classmemory_1_1server.html", null ]

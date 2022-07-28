@@ -5,7 +5,7 @@ var searchData=
   ['factory_3c_20client_20_3e_2',['Factory&lt; Client &gt;',['../classutil_1_1Factory.html',1,'util']]],
   ['factory_3c_20endpoint_20_3e_3',['Factory&lt; Endpoint &gt;',['../classutil_1_1Factory.html',1,'util']]],
   ['factory_3c_20server_2c_20capnp_3a_3acapability_3a_3aclient_20_3e_4',['Factory&lt; Server, capnp::Capability::Client &gt;',['../classutil_1_1Factory.html',1,'util']]],
-  ['fatal_5',['fatal',['../namespacelogging.html#a72e7a108a3928d5e407b6a7723799826a53dcd4887683847f344507340d236621',1,'logging::fatal()'],['../classlogging_1_1logger.html#afb42cbc03681a8dd8b973aa6dce00e4d',1,'logging::logger::fatal()']]],
+  ['fatal_5',['fatal',['../namespacelogging.html#a72e7a108a3928d5e407b6a7723799826a53dcd4887683847f344507340d236621',1,'logging::fatal()'],['../classlogging_1_1Logger.html#a3f2721316999e36bce10d4dfbff924cb',1,'logging::Logger::fatal()']]],
   ['file_6',['file',['../classlogging_1_1endpoint_1_1file.html#abb690fe22b573382c27c2e3075bf2def',1,'logging::endpoint::file::file()'],['../classlogging_1_1endpoint_1_1file.html',1,'logging::endpoint::file']]],
   ['file_2ecpp_7',['file.cpp',['../file_8cpp.html',1,'']]],
   ['file_2eh_8',['file.h',['../file_8h.html',1,'']]],

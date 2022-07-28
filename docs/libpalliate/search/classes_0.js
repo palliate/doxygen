@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['annotated_0',['annotated',['../structlogging_1_1annotated.html',1,'logging']]],
+  ['annotated_0',['Annotated',['../structlogging_1_1Annotated.html',1,'logging']]],
   ['atomic_5fcr_1',['atomic_cr',['../classatomic__cr.html',1,'']]],
   ['atomic_5fcr_3c_208_20_3e_2',['atomic_cr&lt; 8 &gt;',['../classatomic__cr.html',1,'']]],
   ['atomic_5fmpsc_3',['atomic_mpsc',['../classatomic__mpsc.html',1,'']]],

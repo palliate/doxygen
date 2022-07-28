@@ -4,7 +4,7 @@ var searchData=
   ['add_1',['add',['../classServers.html#a23e9d9aa1dd071b071e21f60c63eb339',1,'Servers::add()'],['../classtransport_1_1Server.html#a22201fbd657b6081e4b3676e081c7bc5',1,'transport::Server::add()']]],
   ['add_5freader_2',['add_reader',['../classatomic__semaphore.html#abe8bec37943f99266771d7798026a072',1,'atomic_semaphore']]],
   ['alloc_3',['alloc',['../classmemory_1_1memory__map.html#a23ce898098f5305ec27a3371ffe9c952',1,'memory::memory_map::alloc()'],['../classmemory_1_1manager.html#a05ea67584c8ec004fce63a65a2130e40',1,'memory::manager::alloc()']]],
-  ['annotated_4',['annotated',['../structlogging_1_1annotated.html#ac2eee421dfb9f415485d165eb630b985',1,'logging::annotated']]],
+  ['annotated_4',['Annotated',['../structlogging_1_1Annotated.html#a39d2fdf918dc619b0519741b3ddfe6bc',1,'logging::Annotated']]],
   ['atomic_5fcr_5',['atomic_cr',['../classatomic__cr.html#ad3a0cf0fa2093bd81ccd91bc243135e0',1,'atomic_cr']]],
   ['atomic_5fmpsc_6',['atomic_mpsc',['../classatomic__mpsc.html#a42006057a8147520ddb867953d603059',1,'atomic_mpsc']]],
   ['atomic_5fqueue_7',['atomic_queue',['../classatomic__queue.html#a9fcd269a98dfbfdd228b06c51844d31d',1,'atomic_queue']]],

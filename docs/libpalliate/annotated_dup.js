@@ -6,9 +6,9 @@ var annotated_dup =
         [ "serial", "classlogging_1_1endpoint_1_1serial.html", "classlogging_1_1endpoint_1_1serial" ],
         [ "terminal", "classlogging_1_1endpoint_1_1terminal.html", "classlogging_1_1endpoint_1_1terminal" ]
       ] ],
-      [ "annotated", "structlogging_1_1annotated.html", "structlogging_1_1annotated" ],
+      [ "Annotated", "structlogging_1_1Annotated.html", "structlogging_1_1Annotated" ],
       [ "Endpoint", "classlogging_1_1Endpoint.html", "classlogging_1_1Endpoint" ],
-      [ "logger", "classlogging_1_1logger.html", "classlogging_1_1logger" ],
+      [ "Logger", "classlogging_1_1Logger.html", "classlogging_1_1Logger" ],
       [ "message", "structlogging_1_1message.html", "structlogging_1_1message" ]
     ] ],
     [ "memory", "namespacememory.html", [

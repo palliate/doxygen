@@ -170,6 +170,15 @@
     <path>/__w/libpalliate/libpalliate/src/logging/</path>
     <filename>logger_8cpp.html</filename>
     <includes id="logger_8h" name="logger.h" local="yes" imported="no">logger.h</includes>
+    <namespace>logging</namespace>
+    <namespace>logging::__</namespace>
+    <member kind="variable">
+      <type>logging::Logger &amp;</type>
+      <name>logger</name>
+      <anchorfile>logger_8cpp.html</anchorfile>
+      <anchor>a9961c09b66545cb29298e80f301950dd</anchor>
+      <arglist></arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>logger.h</name>
@@ -177,35 +186,21 @@
     <filename>logger_8h.html</filename>
     <includes id="endpoint_8h" name="endpoint.h" local="yes" imported="no">endpoint.h</includes>
     <includes id="message_8h" name="message.h" local="yes" imported="no">message.h</includes>
-    <class kind="class">logging::logger</class>
+    <class kind="class">logging::Logger</class>
     <namespace>logging</namespace>
-    <member kind="function">
-      <type>void</type>
-      <name>print</name>
-      <anchorfile>namespacelogging.html</anchorfile>
-      <anchor>a32af4ba58c16d1549c151a543f5be250</anchor>
-      <arglist>(std::source_location location, severity level, Ts &amp;&amp;... ts)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>print</name>
-      <anchorfile>namespacelogging.html</anchorfile>
-      <anchor>ae84cc3764d34e4332c3e6b26dbcc3441</anchor>
-      <arglist>(annotated&lt; severity &gt; meta, Ts &amp;&amp;... ts)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>print</name>
-      <anchorfile>namespacelogging.html</anchorfile>
-      <anchor>ad16d03f4bf331fb5ae5e0d19dcc72562</anchor>
-      <arglist>(annotated&lt; char const * &gt; meta, Ts &amp;&amp;... ts)</arglist>
+    <member kind="variable">
+      <type>logging::Logger &amp;</type>
+      <name>logger</name>
+      <anchorfile>logger_8h.html</anchorfile>
+      <anchor>a9961c09b66545cb29298e80f301950dd</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="file">
     <name>message.h</name>
     <path>/__w/libpalliate/libpalliate/src/logging/</path>
     <filename>message_8h.html</filename>
-    <class kind="struct">logging::annotated</class>
+    <class kind="struct">logging::Annotated</class>
     <class kind="struct">logging::message</class>
     <namespace>logging</namespace>
     <member kind="enumeration">
@@ -1035,28 +1030,28 @@
     <namespace>util</namespace>
   </compound>
   <compound kind="struct">
-    <name>logging::annotated</name>
-    <filename>structlogging_1_1annotated.html</filename>
+    <name>logging::Annotated</name>
+    <filename>structlogging_1_1Annotated.html</filename>
     <templarg>typename T</templarg>
     <member kind="function">
       <type></type>
-      <name>annotated</name>
-      <anchorfile>structlogging_1_1annotated.html</anchorfile>
-      <anchor>ac2eee421dfb9f415485d165eb630b985</anchor>
+      <name>Annotated</name>
+      <anchorfile>structlogging_1_1Annotated.html</anchorfile>
+      <anchor>a39d2fdf918dc619b0519741b3ddfe6bc</anchor>
       <arglist>(T _data, std::source_location _location=std::source_location::current())</arglist>
     </member>
     <member kind="variable">
       <type>T</type>
       <name>data</name>
-      <anchorfile>structlogging_1_1annotated.html</anchorfile>
-      <anchor>a4deccd3e075b8a1323e0f4c00f975bf0</anchor>
+      <anchorfile>structlogging_1_1Annotated.html</anchorfile>
+      <anchor>a5bd6d6cf2a251d8eabf4f5b6171f2dff</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>std::source_location</type>
       <name>location</name>
-      <anchorfile>structlogging_1_1annotated.html</anchorfile>
-      <anchor>acb0ba93cd3c907e413c82a17a33b982e</anchor>
+      <anchorfile>structlogging_1_1Annotated.html</anchorfile>
+      <anchor>a4658360ddea477c39e9107ae1d3564c8</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -2261,111 +2256,132 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>logging::logger</name>
-    <filename>classlogging_1_1logger.html</filename>
+    <name>logging::Logger</name>
+    <filename>classlogging_1_1Logger.html</filename>
     <member kind="function">
       <type></type>
-      <name>logger</name>
-      <anchorfile>classlogging_1_1logger.html</anchorfile>
-      <anchor>ac0bf604d91ba5424679a714ef697c85d</anchor>
-      <arglist>(logger const &amp;)=delete</arglist>
+      <name>Logger</name>
+      <anchorfile>classlogging_1_1Logger.html</anchorfile>
+      <anchor>a845f2ced80172c1be1e2d9ab8e918aa2</anchor>
+      <arglist>(Logger const &amp;)=delete</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>operator=</name>
-      <anchorfile>classlogging_1_1logger.html</anchorfile>
-      <anchor>a35de66a9ab60b93a8c4f40b063f103fd</anchor>
-      <arglist>(logger const &amp;)=delete</arglist>
+      <anchorfile>classlogging_1_1Logger.html</anchorfile>
+      <anchor>a8a1d919e4214c2f2d61efcc0af57148f</anchor>
+      <arglist>(Logger const &amp;)=delete</arglist>
     </member>
     <member kind="function">
       <type></type>
-      <name>~logger</name>
-      <anchorfile>classlogging_1_1logger.html</anchorfile>
-      <anchor>aadd537feeeb16186f6aeb4ca0267a8d7</anchor>
+      <name>~Logger</name>
+      <anchorfile>classlogging_1_1Logger.html</anchorfile>
+      <anchor>acb668a9e186a25fbaad2e4af6d1ed00a</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>configure</name>
-      <anchorfile>classlogging_1_1logger.html</anchorfile>
-      <anchor>aee168a758465750b6358dae0b52a41bd</anchor>
+      <anchorfile>classlogging_1_1Logger.html</anchorfile>
+      <anchor>a54cb5a902b9518c44b9da942b472a676</anchor>
       <arglist>(config::logging const &amp;cfg)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>has_endpoint</name>
-      <anchorfile>classlogging_1_1logger.html</anchorfile>
-      <anchor>a2e98a58db89221c5eba2df677960fab6</anchor>
+      <anchorfile>classlogging_1_1Logger.html</anchorfile>
+      <anchor>a8f7ec0036d8a376113632774f7cb229d</anchor>
       <arglist>(std::string const &amp;name) const</arglist>
     </member>
     <member kind="function">
       <type>void</type>
+      <name>enable</name>
+      <anchorfile>classlogging_1_1Logger.html</anchorfile>
+      <anchor>af2f7ea41236b2dfa06a7bc88786395bd</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
       <name>print</name>
-      <anchorfile>classlogging_1_1logger.html</anchorfile>
-      <anchor>a69912ed8d22cf35ae5633271ebe8b9ad</anchor>
+      <anchorfile>classlogging_1_1Logger.html</anchorfile>
+      <anchor>a0670269fd3e09344126cc429ed4ba9ef</anchor>
       <arglist>(message &amp;msg)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
-      <name>enable</name>
-      <anchorfile>classlogging_1_1logger.html</anchorfile>
-      <anchor>af06db48ddbe443b13b9765af9968b486</anchor>
-      <arglist>()</arglist>
+      <name>print</name>
+      <anchorfile>classlogging_1_1Logger.html</anchorfile>
+      <anchor>a873640980670866b9044ab14504835aa</anchor>
+      <arglist>(std::source_location location, severity level, Ts &amp;&amp;... ts)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>print</name>
+      <anchorfile>classlogging_1_1Logger.html</anchorfile>
+      <anchor>a773419b529a989d8c016ffe23f25ae9f</anchor>
+      <arglist>(Annotated&lt; severity &gt; meta, Ts &amp;&amp;... ts)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>print</name>
+      <anchorfile>classlogging_1_1Logger.html</anchorfile>
+      <anchor>ae4734aecf6f8fe73592e6ef678bcf76d</anchor>
+      <arglist>(Annotated&lt; char const * &gt; meta, Ts &amp;&amp;... ts)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>debug</name>
+      <anchorfile>classlogging_1_1Logger.html</anchorfile>
+      <anchor>af3d02c7495c2309e51ca32b1c256c903</anchor>
+      <arglist>(Annotated&lt; char const * &gt; str, Ts &amp;&amp;... ts)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>info</name>
+      <anchorfile>classlogging_1_1Logger.html</anchorfile>
+      <anchor>a22cd5a007b967abf6dc1ce38d8d2ba87</anchor>
+      <arglist>(Annotated&lt; char const * &gt; str, Ts &amp;&amp;... ts)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>warning</name>
+      <anchorfile>classlogging_1_1Logger.html</anchorfile>
+      <anchor>a04f317bbf64fdbf8d1648311484840fc</anchor>
+      <arglist>(Annotated&lt; char const * &gt; str, Ts &amp;&amp;... ts)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>error</name>
+      <anchorfile>classlogging_1_1Logger.html</anchorfile>
+      <anchor>af23ee806a4074b12f4171ce39e266291</anchor>
+      <arglist>(Annotated&lt; char const * &gt; str, Ts &amp;&amp;... ts)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>fatal</name>
+      <anchorfile>classlogging_1_1Logger.html</anchorfile>
+      <anchor>a3f2721316999e36bce10d4dfbff924cb</anchor>
+      <arglist>(Annotated&lt; char const * &gt; str, Ts &amp;&amp;... ts)</arglist>
     </member>
     <member kind="function" static="yes">
-      <type>static logger &amp;</type>
+      <type>static Logger &amp;</type>
       <name>Instance</name>
-      <anchorfile>classlogging_1_1logger.html</anchorfile>
-      <anchor>a2d9bc3ff3e6fea4ca03c0cc0ff8096fa</anchor>
+      <anchorfile>classlogging_1_1Logger.html</anchorfile>
+      <anchor>a4f2905744864800fa2999ea5691806e9</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static const std::string</type>
       <name>thread_name</name>
-      <anchorfile>classlogging_1_1logger.html</anchorfile>
-      <anchor>a8e43231ab6556eb4da2184ffa69fd978</anchor>
+      <anchorfile>classlogging_1_1Logger.html</anchorfile>
+      <anchor>a05904975be0b6ab1576b67332c3418eb</anchor>
       <arglist>(std::string const &amp;new_name={})</arglist>
-    </member>
-    <member kind="function" static="yes">
-      <type>static void</type>
-      <name>debug</name>
-      <anchorfile>classlogging_1_1logger.html</anchorfile>
-      <anchor>afafe4de4755da1197d54b5cce259198d</anchor>
-      <arglist>(annotated&lt; char const * &gt; str, Ts &amp;&amp;... ts)</arglist>
-    </member>
-    <member kind="function" static="yes">
-      <type>static void</type>
-      <name>info</name>
-      <anchorfile>classlogging_1_1logger.html</anchorfile>
-      <anchor>a3abc99d59f2b04f0c0de1cac0d98ac33</anchor>
-      <arglist>(annotated&lt; char const * &gt; str, Ts &amp;&amp;... ts)</arglist>
-    </member>
-    <member kind="function" static="yes">
-      <type>static void</type>
-      <name>warning</name>
-      <anchorfile>classlogging_1_1logger.html</anchorfile>
-      <anchor>a5439d8eb06c59af6ed9ccb68b83adeb1</anchor>
-      <arglist>(annotated&lt; char const * &gt; str, Ts &amp;&amp;... ts)</arglist>
-    </member>
-    <member kind="function" static="yes">
-      <type>static void</type>
-      <name>error</name>
-      <anchorfile>classlogging_1_1logger.html</anchorfile>
-      <anchor>a6fe5f9a886bebf7c0dfab9a2f7a8c450</anchor>
-      <arglist>(annotated&lt; char const * &gt; str, Ts &amp;&amp;... ts)</arglist>
-    </member>
-    <member kind="function" static="yes">
-      <type>static void</type>
-      <name>fatal</name>
-      <anchorfile>classlogging_1_1logger.html</anchorfile>
-      <anchor>afb42cbc03681a8dd8b973aa6dce00e4d</anchor>
-      <arglist>(annotated&lt; char const * &gt; str, Ts &amp;&amp;... ts)</arglist>
     </member>
     <member kind="variable">
       <type>severity</type>
       <name>min_level</name>
-      <anchorfile>classlogging_1_1logger.html</anchorfile>
-      <anchor>ac8d9305ad4e5f3a2803ce412c06ad9f3</anchor>
+      <anchorfile>classlogging_1_1Logger.html</anchorfile>
+      <anchor>aeca20d74efe39904a658ea6038b57790</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -3113,8 +3129,8 @@
       <type>void</type>
       <name>print</name>
       <anchorfile>classlogging_1_1endpoint_1_1serial.html</anchorfile>
-      <anchor>a1aaa055ee317e8d4a19d860e7b1e35a8</anchor>
-      <arglist>(message &amp;msg) override</arglist>
+      <anchor>a3db479be9c39368c11db1b196fa51dfb</anchor>
+      <arglist>(logging::message &amp;msg) override</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -3447,8 +3463,8 @@
       <type>void</type>
       <name>print</name>
       <anchorfile>classlogging_1_1endpoint_1_1terminal.html</anchorfile>
-      <anchor>aa0e6826971c637e7a11e872dc1a7f953</anchor>
-      <arglist>(message &amp;msg) override</arglist>
+      <anchor>a22da5f78d7ef47436bb0181dbb406ff8</anchor>
+      <arglist>(logging::message &amp;msg) override</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -3765,10 +3781,11 @@
   <compound kind="namespace">
     <name>logging</name>
     <filename>namespacelogging.html</filename>
+    <namespace>logging::__</namespace>
     <namespace>logging::endpoint</namespace>
-    <class kind="struct">logging::annotated</class>
+    <class kind="struct">logging::Annotated</class>
     <class kind="class">logging::Endpoint</class>
-    <class kind="class">logging::logger</class>
+    <class kind="class">logging::Logger</class>
     <class kind="struct">logging::message</class>
     <member kind="enumeration">
       <type></type>
@@ -3807,27 +3824,10 @@
       <anchor>a72e7a108a3928d5e407b6a7723799826a53dcd4887683847f344507340d236621</anchor>
       <arglist></arglist>
     </member>
-    <member kind="function">
-      <type>void</type>
-      <name>print</name>
-      <anchorfile>namespacelogging.html</anchorfile>
-      <anchor>a32af4ba58c16d1549c151a543f5be250</anchor>
-      <arglist>(std::source_location location, severity level, Ts &amp;&amp;... ts)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>print</name>
-      <anchorfile>namespacelogging.html</anchorfile>
-      <anchor>ae84cc3764d34e4332c3e6b26dbcc3441</anchor>
-      <arglist>(annotated&lt; severity &gt; meta, Ts &amp;&amp;... ts)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>print</name>
-      <anchorfile>namespacelogging.html</anchorfile>
-      <anchor>ad16d03f4bf331fb5ae5e0d19dcc72562</anchor>
-      <arglist>(annotated&lt; char const * &gt; meta, Ts &amp;&amp;... ts)</arglist>
-    </member>
+  </compound>
+  <compound kind="namespace">
+    <name>logging::__</name>
+    <filename>namespacelogging_1_1____.html</filename>
   </compound>
   <compound kind="namespace">
     <name>logging::endpoint</name>

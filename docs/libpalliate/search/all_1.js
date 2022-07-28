@@ -4,7 +4,7 @@ var searchData=
   ['add_1',['add',['../classServers.html#a23e9d9aa1dd071b071e21f60c63eb339',1,'Servers::add()'],['../classtransport_1_1Server.html#a22201fbd657b6081e4b3676e081c7bc5',1,'transport::Server::add()']]],
   ['add_5freader_2',['add_reader',['../classatomic__semaphore.html#abe8bec37943f99266771d7798026a072',1,'atomic_semaphore']]],
   ['alloc_3',['alloc',['../classmemory_1_1memory__map.html#a23ce898098f5305ec27a3371ffe9c952',1,'memory::memory_map::alloc()'],['../classmemory_1_1manager.html#a05ea67584c8ec004fce63a65a2130e40',1,'memory::manager::alloc()']]],
-  ['annotated_4',['annotated',['../structlogging_1_1annotated.html#ac2eee421dfb9f415485d165eb630b985',1,'logging::annotated::annotated()'],['../structlogging_1_1annotated.html',1,'logging::annotated&lt; T &gt;']]],
+  ['annotated_4',['Annotated',['../structlogging_1_1Annotated.html#a39d2fdf918dc619b0519741b3ddfe6bc',1,'logging::Annotated::Annotated()'],['../structlogging_1_1Annotated.html',1,'logging::Annotated&lt; T &gt;']]],
   ['atomic_5fcr_5',['atomic_cr',['../classatomic__cr.html',1,'atomic_cr&lt; size &gt;'],['../classatomic__cr_1_1element.html#a0d25b278e194a2b0b60a855bfa0b4eb3',1,'atomic_cr::element::atomic_cr()'],['../classatomic__cr.html#ad3a0cf0fa2093bd81ccd91bc243135e0',1,'atomic_cr::atomic_cr()']]],
   ['atomic_5fcr_2eh_6',['atomic_cr.h',['../atomic__cr_8h.html',1,'']]],
   ['atomic_5fcr_3c_208_20_3e_7',['atomic_cr&lt; 8 &gt;',['../classatomic__cr.html',1,'']]],

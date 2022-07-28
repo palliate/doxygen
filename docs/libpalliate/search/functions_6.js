@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['fatal_0',['fatal',['../classlogging_1_1logger.html#afb42cbc03681a8dd8b973aa6dce00e4d',1,'logging::logger']]],
+  ['fatal_0',['fatal',['../classlogging_1_1Logger.html#a3f2721316999e36bce10d4dfbff924cb',1,'logging::Logger']]],
   ['file_1',['file',['../classlogging_1_1endpoint_1_1file.html#abb690fe22b573382c27c2e3075bf2def',1,'logging::endpoint::file']]],
   ['find_2',['find',['../classpatricia.html#a412a58404a59eba6bcf459001df41be9',1,'patricia']]],
   ['find_5fbin_3',['find_bin',['../classmemory_1_1memory__map.html#aabf8a080a56ee0b44763312dbc6167ea',1,'memory::memory_map']]],
