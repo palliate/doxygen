@@ -8,9 +8,9 @@ var searchData=
   ['serial_2eh_5',['serial.h',['../../libpalliate/serial_8h.html',1,'']]],
   ['serve_6',['serve',['../classApplication.html#aea4183e1d12b9048e698dfdb0721820b',1,'Application']]],
   ['server_7',['server',['../../libpalliate/classmemory_1_1server.html',1,'memory']]],
-  ['server_8',['Server',['../../libpalliate/classrpc_1_1Server.html',1,'rpc::Server'],['../../libpalliate/classrpc_1_1tcp_1_1Server.html',1,'rpc::tcp::Server'],['../../libpalliate/classtransport_1_1TCP_1_1Server.html#a27e80eeedc337d15b231254ad55dbf85',1,'transport::TCP::Server::Server()'],['../../libpalliate/classtransport_1_1Server.html#a39a4d29cad9d51f83410a2074c557fe7',1,'transport::Server::Server()'],['../../libpalliate/classrpc_1_1tcp_1_1Server.html#a9f629587f4e16e88642a7fdcc576cf8f',1,'rpc::tcp::Server::Server()'],['../../libpalliate/classrpc_1_1Server.html#a1de34dec61a6959ce9159a8700ea0c4a',1,'rpc::Server::Server()']]],
+  ['server_8',['Server',['../../libpalliate/classrpc_1_1Server.html',1,'rpc::Server'],['../../libpalliate/classrpc_1_1tcp_1_1Server.html',1,'rpc::tcp::Server']]],
   ['server_9',['server',['../../libpalliate/classmemory_1_1server.html#afc4dec957a29610da254bd18c58d6d8a',1,'memory::server::server()'],['../../libpalliate/structrpc_1_1Context.html#ac2962eb95dd1d7d81698f539766af02aa3e41509e5d6ef703d28550b31596f65f',1,'rpc::Context::server()']]],
-  ['server_10',['Server',['../../libpalliate/classtransport_1_1Server.html',1,'transport::Server'],['../../libpalliate/classtransport_1_1TCP_1_1Server.html',1,'transport::TCP::Server']]],
+  ['server_10',['Server',['../../libpalliate/classtransport_1_1TCP_1_1Server.html#a27e80eeedc337d15b231254ad55dbf85',1,'transport::TCP::Server::Server()'],['../../libpalliate/classtransport_1_1Server.html#a39a4d29cad9d51f83410a2074c557fe7',1,'transport::Server::Server()'],['../../libpalliate/classrpc_1_1tcp_1_1Server.html#a9f629587f4e16e88642a7fdcc576cf8f',1,'rpc::tcp::Server::Server()'],['../../libpalliate/classrpc_1_1Server.html#a1de34dec61a6959ce9159a8700ea0c4a',1,'rpc::Server::Server()'],['../../libpalliate/classtransport_1_1Server.html',1,'transport::Server'],['../../libpalliate/classtransport_1_1TCP_1_1Server.html',1,'transport::TCP::Server']]],
   ['servers_11',['Servers',['../../libpalliate/classServers.html',1,'']]],
   ['servers_2ecpp_12',['servers.cpp',['../../libpalliate/servers_8cpp.html',1,'']]],
   ['servers_2eh_13',['servers.h',['../../libpalliate/servers_8h.html',1,'']]],
@@ -26,7 +26,9 @@ var searchData=
   ['stop_23',['stop',['../../libpalliate/classrunnable.html#ab7117095b1382678c42c4979871f1d25',1,'runnable']]],
   ['stream_24',['stream',['../../libpalliate/structrpc_1_1Context.html#ab8692dea660d58f7b9fced8cfdb26461',1,'rpc::Context']]],
   ['string_2eh_25',['string.h',['../../libpalliate/string_8h.html',1,'']]],
-  ['systemd_26',['systemd',['../classlogging_1_1endpoint_1_1systemd.html',1,'logging::endpoint::systemd'],['../classsystemd.html',1,'systemd'],['../classlogging_1_1endpoint_1_1systemd.html#aade80e305d087c5dcc64a415858b8ae4',1,'logging::endpoint::systemd::systemd()'],['../classsystemd.html#a058fbd52d68076ab21e2f0926a81e1db',1,'systemd::systemd()']]],
-  ['systemd_2ecpp_27',['systemd.cpp',['../systemd_8cpp.html',1,'']]],
-  ['systemd_2eh_28',['systemd.h',['../systemd_8h.html',1,'']]]
+  ['systemd_26',['Systemd',['../classlogging_1_1endpoint_1_1Systemd.html',1,'logging::endpoint']]],
+  ['systemd_27',['systemd',['../classsystemd.html',1,'systemd'],['../classsystemd.html#a058fbd52d68076ab21e2f0926a81e1db',1,'systemd::systemd()']]],
+  ['systemd_28',['Systemd',['../classlogging_1_1endpoint_1_1Systemd.html#ae28c686ec6ead34aa5f981c968997fdb',1,'logging::endpoint::Systemd']]],
+  ['systemd_2ecpp_29',['systemd.cpp',['../systemd_8cpp.html',1,'']]],
+  ['systemd_2eh_30',['systemd.h',['../systemd_8h.html',1,'']]]
 ];

@@ -4,7 +4,7 @@ var searchData=
   ['add_1',['add',['../../libpalliate/classServers.html#a23e9d9aa1dd071b071e21f60c63eb339',1,'Servers::add()'],['../../libpalliate/classtransport_1_1Server.html#a22201fbd657b6081e4b3676e081c7bc5',1,'transport::Server::add()']]],
   ['add_5freader_2',['add_reader',['../../libpalliate/classatomic__semaphore.html#abe8bec37943f99266771d7798026a072',1,'atomic_semaphore']]],
   ['alloc_3',['alloc',['../../libpalliate/classmemory_1_1memory__map.html#a23ce898098f5305ec27a3371ffe9c952',1,'memory::memory_map::alloc()'],['../../libpalliate/classmemory_1_1manager.html#a05ea67584c8ec004fce63a65a2130e40',1,'memory::manager::alloc()']]],
-  ['annotated_4',['annotated',['../../libpalliate/structlogging_1_1annotated.html#ac2eee421dfb9f415485d165eb630b985',1,'logging::annotated::annotated()'],['../../libpalliate/structlogging_1_1annotated.html',1,'logging::annotated&lt; typename T &gt;']]],
+  ['annotated_4',['Annotated',['../../libpalliate/structlogging_1_1Annotated.html#a39d2fdf918dc619b0519741b3ddfe6bc',1,'logging::Annotated::Annotated()'],['../../libpalliate/structlogging_1_1Annotated.html',1,'logging::Annotated&lt; typename T &gt;']]],
   ['application_5',['Application',['../classApplication.html',1,'Application'],['../classApplication.html#af7974ce565faff1d79c5a0ab946ae6ed',1,'Application::Application()']]],
   ['application_2ecpp_6',['application.cpp',['../application_8cpp.html',1,'']]],
   ['application_2eh_7',['application.h',['../application_8h.html',1,'']]],
@@ -25,5 +25,5 @@ var searchData=
   ['atomic_5fstack_2eh_22',['atomic_stack.h',['../../libpalliate/atomic__stack_8h.html',1,'']]],
   ['attach_23',['attach',['../../libpalliate/classui.html#a1b194bf77cb4e97083a9612d9996cec7',1,'ui']]],
   ['attention_24',['attention',['../../libpalliate/classwindow.html#a69a48b055884eee77f8b4517ee916e93',1,'window::attention()'],['../classglfw__window.html#a989b21928120dfe08522b7d91849e184',1,'glfw_window::attention()']]],
-  ['authenticate_25',['authenticate',['../../libpalliate/classrpc_1_1Server.html#a2fa3907d5f33838d4c38fd3b2a7fe250',1,'rpc::Server::authenticate()'],['../classlogging_1_1endpoint_1_1bridge.html#a0d3409109ed80f7261b8047356fe0fd1',1,'logging::endpoint::bridge::authenticate()']]]
+  ['authenticate_25',['authenticate',['../../libpalliate/classrpc_1_1Server.html#a2fa3907d5f33838d4c38fd3b2a7fe250',1,'rpc::Server::authenticate()'],['../classlogging_1_1endpoint_1_1Bridge.html#a8439e2ecedfdb3ea14aa031afae42f4c',1,'logging::endpoint::Bridge::authenticate()']]]
 ];

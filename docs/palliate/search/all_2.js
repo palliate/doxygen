@@ -14,7 +14,7 @@ var searchData=
   ['bootstrap_11',['bootstrap',['../../libpalliate/structrpc_1_1Context.html#af757661af32f31aba9e023b3af8dec98',1,'rpc::Context']]],
   ['branch_12',['branch',['../../libpalliate/structpatricia_1_1node__t.html#a9a3e1a5e8ea63d6025442daa9f90a95a',1,'patricia::node_t']]],
   ['branchbit_13',['branchbit',['../../libpalliate/structpatricia_1_1element__t.html#a9ad6aa47dc44f3aa93d4544eb8f483c3',1,'patricia::element_t']]],
-  ['bridge_14',['bridge',['../classlogging_1_1endpoint_1_1bridge.html#a0586318c0b367f66bfc8a885255e0809',1,'logging::endpoint::bridge::bridge()'],['../classlogging_1_1endpoint_1_1bridge.html',1,'logging::endpoint::bridge']]],
+  ['bridge_14',['Bridge',['../classlogging_1_1endpoint_1_1Bridge.html#aeea81b4d0c33fd72b1123c47ce43ec42',1,'logging::endpoint::Bridge::Bridge()'],['../classlogging_1_1endpoint_1_1Bridge.html',1,'logging::endpoint::Bridge']]],
   ['bridge_2ecpp_15',['bridge.cpp',['../bridge_8cpp.html',1,'']]],
   ['bridge_2eh_16',['bridge.h',['../bridge_8h.html',1,'']]],
   ['broadcast_17',['broadcast',['../../libpalliate/classrpc_1_1Server.html#a7d4e4af7a6de4089779ad8f2324262b1',1,'rpc::Server::broadcast()'],['../../libpalliate/classtransport_1_1Server.html#a7d4e4af7a6de4089779ad8f2324262b1',1,'transport::Server::broadcast()'],['../../libpalliate/classServers.html#aafd5b3a76987382868057e6732f81a6c',1,'Servers::broadcast()']]],

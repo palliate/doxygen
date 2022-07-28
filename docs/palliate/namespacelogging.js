@@ -1,14 +1,11 @@
 var namespacelogging =
 [
     [ "endpoint", "namespacelogging_1_1endpoint.html", "namespacelogging_1_1endpoint" ],
-    [ "annotated", "../libpalliate/structlogging_1_1annotated.html", "structlogging_1_1annotated" ],
+    [ "Annotated", "../libpalliate/structlogging_1_1Annotated.html", "structlogging_1_1Annotated" ],
     [ "Endpoint", "../libpalliate/classlogging_1_1Endpoint.html", "classlogging_1_1Endpoint" ],
-    [ "logger", "../libpalliate/classlogging_1_1logger.html", "classlogging_1_1logger" ],
+    [ "Logger", "../libpalliate/classlogging_1_1Logger.html", "classlogging_1_1Logger" ],
     [ "message", "../libpalliate/structlogging_1_1message.html", "structlogging_1_1message" ],
     [ "severity", "../libpalliate/namespacelogging.html#a72e7a108a3928d5e407b6a7723799826", null ],
-    [ "print", "../libpalliate/namespacelogging.html#ad16d03f4bf331fb5ae5e0d19dcc72562", null ],
-    [ "print", "../libpalliate/namespacelogging.html#ae84cc3764d34e4332c3e6b26dbcc3441", null ],
-    [ "print", "../libpalliate/namespacelogging.html#a32af4ba58c16d1549c151a543f5be250", null ],
     [ "debug", "../libpalliate/namespacelogging.html#a72e7a108a3928d5e407b6a7723799826aa8e7bccd55418c8ecc7a23bb5d9afcff", null ],
     [ "error", "../libpalliate/namespacelogging.html#a72e7a108a3928d5e407b6a7723799826a66700fb5e035d3906738d73fc57579f0", null ],
     [ "fatal", "../libpalliate/namespacelogging.html#a72e7a108a3928d5e407b6a7723799826a53dcd4887683847f344507340d236621", null ],

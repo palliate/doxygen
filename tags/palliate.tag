@@ -105,7 +105,7 @@
     <name>systemd.h</name>
     <path>/__w/palliate/palliate/plugins/systemd/logging/</path>
     <filename>systemd_8h.html</filename>
-    <class kind="class">logging::endpoint::systemd</class>
+    <class kind="class">logging::endpoint::Systemd</class>
     <namespace>logging</namespace>
     <namespace>logging::endpoint</namespace>
   </compound>
@@ -201,7 +201,7 @@
     <name>bridge.h</name>
     <path>/__w/palliate/palliate/src/logging/</path>
     <filename>bridge_8h.html</filename>
-    <class kind="class">logging::endpoint::bridge</class>
+    <class kind="class">logging::endpoint::Bridge</class>
     <namespace>logging</namespace>
     <namespace>logging::endpoint</namespace>
   </compound>
@@ -417,34 +417,34 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>logging::endpoint::bridge</name>
-    <filename>classlogging_1_1endpoint_1_1bridge.html</filename>
+    <name>logging::endpoint::Bridge</name>
+    <filename>classlogging_1_1endpoint_1_1Bridge.html</filename>
     <member kind="function">
       <type></type>
-      <name>bridge</name>
-      <anchorfile>classlogging_1_1endpoint_1_1bridge.html</anchorfile>
-      <anchor>a0586318c0b367f66bfc8a885255e0809</anchor>
+      <name>Bridge</name>
+      <anchorfile>classlogging_1_1endpoint_1_1Bridge.html</anchorfile>
+      <anchor>aeea81b4d0c33fd72b1123c47ce43ec42</anchor>
       <arglist>(config_t const &amp;c)</arglist>
     </member>
     <member kind="function" virtualness="virtual">
       <type>virtual</type>
-      <name>~bridge</name>
-      <anchorfile>classlogging_1_1endpoint_1_1bridge.html</anchorfile>
-      <anchor>a0fb5bee6f9360227837a91aaae227482</anchor>
+      <name>~Bridge</name>
+      <anchorfile>classlogging_1_1endpoint_1_1Bridge.html</anchorfile>
+      <anchor>a812b325fbb4f4b589e68f11f443a7ee4</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
       <type>kj::Promise&lt; void &gt;</type>
       <name>authenticate</name>
-      <anchorfile>classlogging_1_1endpoint_1_1bridge.html</anchorfile>
-      <anchor>a0d3409109ed80f7261b8047356fe0fd1</anchor>
+      <anchorfile>classlogging_1_1endpoint_1_1Bridge.html</anchorfile>
+      <anchor>a8439e2ecedfdb3ea14aa031afae42f4c</anchor>
       <arglist>(AuthenticateContext context) override</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>print</name>
-      <anchorfile>classlogging_1_1endpoint_1_1bridge.html</anchorfile>
-      <anchor>a568d85fdb36f72b3e6e40620fadc7093</anchor>
+      <anchorfile>classlogging_1_1endpoint_1_1Bridge.html</anchorfile>
+      <anchor>a6080d797e72682aaa1e5365c85837c02</anchor>
       <arglist>(logging::message &amp;msg) override</arglist>
     </member>
   </compound>
@@ -1069,21 +1069,21 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>logging::endpoint::systemd</name>
-    <filename>classlogging_1_1endpoint_1_1systemd.html</filename>
+    <name>logging::endpoint::Systemd</name>
+    <filename>classlogging_1_1endpoint_1_1Systemd.html</filename>
     <member kind="function">
       <type></type>
-      <name>systemd</name>
-      <anchorfile>classlogging_1_1endpoint_1_1systemd.html</anchorfile>
-      <anchor>aade80e305d087c5dcc64a415858b8ae4</anchor>
+      <name>Systemd</name>
+      <anchorfile>classlogging_1_1endpoint_1_1Systemd.html</anchorfile>
+      <anchor>ae28c686ec6ead34aa5f981c968997fdb</anchor>
       <arglist>(config_t const &amp;c)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>print</name>
-      <anchorfile>classlogging_1_1endpoint_1_1systemd.html</anchorfile>
-      <anchor>a9a47c43bc5d7ffdcde3361b8296e98d7</anchor>
-      <arglist>(message &amp;msg) override</arglist>
+      <anchorfile>classlogging_1_1endpoint_1_1Systemd.html</anchorfile>
+      <anchor>a60c4b103a58bb0ac53664684e405d2ba</anchor>
+      <arglist>(logging::message &amp;msg) override</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -1231,7 +1231,7 @@
   <compound kind="namespace">
     <name>logging::endpoint</name>
     <filename>namespacelogging_1_1endpoint.html</filename>
-    <class kind="class">logging::endpoint::bridge</class>
-    <class kind="class">logging::endpoint::systemd</class>
+    <class kind="class">logging::endpoint::Bridge</class>
+    <class kind="class">logging::endpoint::Systemd</class>
   </compound>
 </tagfile>

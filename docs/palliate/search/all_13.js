@@ -24,7 +24,7 @@ var searchData=
   ['texture_5fwidth_21',['texture_width',['../classglfw__window.html#a37be84c8a32ec337d622dac7d8c9adad',1,'glfw_window']]],
   ['thread_22',['thread',['../../libpalliate/classrunnable.html#a2af67a3067df242083a64c3add4f150a',1,'runnable']]],
   ['thread_5fid_23',['thread_id',['../../libpalliate/structlogging_1_1message.html#aaed623e9629f0361a876e9457607efdc',1,'logging::message']]],
-  ['thread_5fname_24',['thread_name',['../../libpalliate/classlogging_1_1logger.html#a8e43231ab6556eb4da2184ffa69fd978',1,'logging::logger::thread_name()'],['../../libpalliate/structlogging_1_1message.html#a73a67ef7edb030c335c1cde8e1d2e122',1,'logging::message::thread_name()']]],
+  ['thread_5fname_24',['thread_name',['../../libpalliate/classlogging_1_1Logger.html#a05904975be0b6ab1576b67332c3418eb',1,'logging::Logger::thread_name()'],['../../libpalliate/structlogging_1_1message.html#a73a67ef7edb030c335c1cde8e1d2e122',1,'logging::message::thread_name()']]],
   ['timestamp_25',['timestamp',['../../libpalliate/namespaceutil.html#a211993f85d0b44090dd95e4a7b551545',1,'util']]],
   ['title_26',['title',['../classglfw__window.html#a734d15b9c8be4968e6b19f193307acd5',1,'glfw_window::title()'],['../../libpalliate/classwindow.html#ace38456c6311b4413488ed6bc8809dd2',1,'window::title()']]],
   ['to_5fbool_27',['to_bool',['../../libpalliate/namespaceutil.html#af0b080debd3f1f7aca9c77c94089b62f',1,'util']]],

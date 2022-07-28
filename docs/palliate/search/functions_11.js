@@ -5,7 +5,7 @@ var searchData=
   ['terminate_5fhandler_2',['terminate_handler',['../main_8cpp.html#a6d3e224dbaae674825482b0dbb1d8579',1,'main.cpp']]],
   ['test_3',['test',['../classtestmod.html#a31fd3a392ea95e0c4580df0a77bb985c',1,'testmod']]],
   ['testmod_4',['testmod',['../classtestmod.html#a801c18e5ea171f87bf11ef9ab5752640',1,'testmod']]],
-  ['thread_5fname_5',['thread_name',['../../libpalliate/classlogging_1_1logger.html#a8e43231ab6556eb4da2184ffa69fd978',1,'logging::logger']]],
+  ['thread_5fname_5',['thread_name',['../../libpalliate/classlogging_1_1Logger.html#a05904975be0b6ab1576b67332c3418eb',1,'logging::Logger']]],
   ['timestamp_6',['timestamp',['../../libpalliate/namespaceutil.html#a211993f85d0b44090dd95e4a7b551545',1,'util']]],
   ['title_7',['title',['../../libpalliate/classwindow.html#ace38456c6311b4413488ed6bc8809dd2',1,'window::title()'],['../classglfw__window.html#a734d15b9c8be4968e6b19f193307acd5',1,'glfw_window::title()']]],
   ['to_5fbool_8',['to_bool',['../../libpalliate/namespaceutil.html#af0b080debd3f1f7aca9c77c94089b62f',1,'util']]],

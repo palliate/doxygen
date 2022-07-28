@@ -2,7 +2,7 @@ var searchData=
 [
   ['factory_0',['Factory',['../../libpalliate/classutil_1_1Factory.html',1,'util']]],
   ['factory_2eh_1',['factory.h',['../../libpalliate/factory_8h.html',1,'']]],
-  ['fatal_2',['fatal',['../../libpalliate/namespacelogging.html#a72e7a108a3928d5e407b6a7723799826a53dcd4887683847f344507340d236621',1,'logging::fatal()'],['../../libpalliate/classlogging_1_1logger.html#afb42cbc03681a8dd8b973aa6dce00e4d',1,'logging::logger::fatal()']]],
+  ['fatal_2',['fatal',['../../libpalliate/namespacelogging.html#a72e7a108a3928d5e407b6a7723799826a53dcd4887683847f344507340d236621',1,'logging::fatal()'],['../../libpalliate/classlogging_1_1Logger.html#a3f2721316999e36bce10d4dfbff924cb',1,'logging::Logger::fatal()']]],
   ['file_3',['file',['../../libpalliate/classlogging_1_1endpoint_1_1file.html#abb690fe22b573382c27c2e3075bf2def',1,'logging::endpoint::file::file()'],['../../libpalliate/classlogging_1_1endpoint_1_1file.html',1,'logging::endpoint::file']]],
   ['file_2ecpp_4',['file.cpp',['../../libpalliate/file_8cpp.html',1,'']]],
   ['file_2eh_5',['file.h',['../../libpalliate/file_8h.html',1,'']]],

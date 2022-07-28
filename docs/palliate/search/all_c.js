@@ -29,7 +29,7 @@ var searchData=
   ['message_26',['message',['../../libpalliate/structlogging_1_1message.html',1,'logging']]],
   ['message_2eh_27',['message.h',['../../libpalliate/message_8h.html',1,'']]],
   ['message_5fevent_28',['message_event',['../../libpalliate/classtransport_1_1Client.html#a35e6ca77bfbec40a7a57e64ff1488a49',1,'transport::Client::message_event()'],['../../libpalliate/classtransport_1_1Server.html#a4b84e62f7fdd5527c6c0c52e78b5e87f',1,'transport::Server::message_event()']]],
-  ['min_5flevel_29',['min_level',['../../libpalliate/classlogging_1_1logger.html#ac8d9305ad4e5f3a2803ce412c06ad9f3',1,'logging::logger']]],
+  ['min_5flevel_29',['min_level',['../../libpalliate/classlogging_1_1Logger.html#aeca20d74efe39904a658ea6038b57790',1,'logging::Logger']]],
   ['minimized_30',['minimized',['../../libpalliate/classwindow.html#aef77ff2dda8ad9f644927c92da52a5a9a237529193a9dfc34420d7e64f538708f',1,'window']]],
   ['missed_31',['missed',['../../libpalliate/classatomic__queue.html#af232f774d78c1a601f8bf0a89288d404',1,'atomic_queue::missed()'],['../../libpalliate/classatomic__reqresp.html#ae02659f7abad946880b663a74ae1e084',1,'atomic_reqresp::missed()'],['../../libpalliate/classatomic__semaphore.html#abea314ab2dd8107ed882495cff0d8231',1,'atomic_semaphore::missed()']]],
   ['move_32',['move',['../../libpalliate/classwindow.html#afefb819e55ad27843023a8a14921ff5f',1,'window::move()'],['../classglfw__window.html#a0325671eeb63c2b6d0998c174a429931',1,'glfw_window::move(int x, int y) override']]],

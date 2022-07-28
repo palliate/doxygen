@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['annotated_0',['annotated',['../../libpalliate/structlogging_1_1annotated.html',1,'logging']]],
+  ['annotated_0',['Annotated',['../../libpalliate/structlogging_1_1Annotated.html',1,'logging']]],
   ['application_1',['Application',['../classApplication.html',1,'']]],
   ['atomic_5fcr_2',['atomic_cr',['../../libpalliate/classatomic__cr.html',1,'']]],
   ['atomic_5fcr_3c_208_20_3e_3',['atomic_cr&lt; 8 &gt;',['../../libpalliate/classatomic__cr.html',1,'']]],

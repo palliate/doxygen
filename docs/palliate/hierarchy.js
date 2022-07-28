@@ -1,6 +1,6 @@
 var hierarchy =
 [
-    [ "logging::annotated< typename T >", "../libpalliate/structlogging_1_1annotated.html", null ],
+    [ "logging::Annotated< typename T >", "../libpalliate/structlogging_1_1Annotated.html", null ],
     [ "atomic_cr< unsigned size >", "../libpalliate/classatomic__cr.html", null ],
     [ "atomic_mpsc", "../libpalliate/classatomic__mpsc.html", null ],
     [ "atomic_queue", "../libpalliate/classatomic__queue.html", null ],
@@ -47,7 +47,7 @@ var hierarchy =
     [ "logging::endpoint::file", "../libpalliate/classlogging_1_1endpoint_1_1file.html", null ],
     [ "ivshmem", "../libpalliate/classivshmem.html", null ],
     [ "library", "classlibrary.html", null ],
-    [ "logging::logger", "../libpalliate/classlogging_1_1logger.html", null ],
+    [ "logging::Logger", "../libpalliate/classlogging_1_1Logger.html", null ],
     [ "memory::manager", "../libpalliate/classmemory_1_1manager.html", [
       [ "memory::client", "../libpalliate/classmemory_1_1client.html", null ],
       [ "memory::server", "../libpalliate/classmemory_1_1server.html", null ]
@@ -67,8 +67,8 @@ var hierarchy =
     ] ],
     [ "util::rect", "../libpalliate/structutil_1_1rect.html", null ],
     [ "Endpoint::registrar", null, [
-      [ "logging::endpoint::bridge", "classlogging_1_1endpoint_1_1bridge.html", null ],
-      [ "logging::endpoint::systemd", "classlogging_1_1endpoint_1_1systemd.html", null ]
+      [ "logging::endpoint::Bridge", "classlogging_1_1endpoint_1_1Bridge.html", null ],
+      [ "logging::endpoint::Systemd", "classlogging_1_1endpoint_1_1Systemd.html", null ]
     ] ],
     [ "util::Factory< class base_t, class... Args >::registrar", "../libpalliate/structutil_1_1Factory_1_1registrar.html", null ],
     [ "runnable", "../libpalliate/classrunnable.html", [
@@ -89,7 +89,7 @@ var hierarchy =
       [ "Application", "classApplication.html", null ]
     ] ],
     [ "DataChannel::Server", null, [
-      [ "logging::endpoint::bridge", "classlogging_1_1endpoint_1_1bridge.html", null ]
+      [ "logging::endpoint::Bridge", "classlogging_1_1endpoint_1_1Bridge.html", null ]
     ] ],
     [ "rpc::tcp::Server", "../libpalliate/classrpc_1_1tcp_1_1Server.html", null ],
     [ "Servers", "../libpalliate/classServers.html", null ],

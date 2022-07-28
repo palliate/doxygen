@@ -32,7 +32,7 @@ var searchData=
   ['configuration_29',['Configuration',['../classConfiguration.html',1,'Configuration'],['../classConfiguration.html#a779947337bf652f0e773cb29f37f14ba',1,'Configuration::Configuration()']]],
   ['configuration_2ecpp_30',['configuration.cpp',['../configuration_8cpp.html',1,'']]],
   ['configuration_2eh_31',['configuration.h',['../configuration_8h.html',1,'']]],
-  ['configure_32',['configure',['../../libpalliate/classlogging_1_1logger.html#aee168a758465750b6358dae0b52a41bd',1,'logging::logger']]],
+  ['configure_32',['configure',['../../libpalliate/classlogging_1_1Logger.html#a54cb5a902b9518c44b9da942b472a676',1,'logging::Logger']]],
   ['connect_33',['connect',['../classApplication.html#a8414ddeb554674d2229f836655b20461',1,'Application']]],
   ['consumer_34',['consumer',['../../libpalliate/classconsumer.html',1,'consumer'],['../../libpalliate/classconsumer.html#ac3882c524e969022d3afe6fa2e4efdfd',1,'consumer::consumer()']]],
   ['consumer_2ecpp_35',['consumer.cpp',['../../libpalliate/consumer_8cpp.html',1,'']]],

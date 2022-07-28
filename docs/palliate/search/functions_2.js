@@ -6,7 +6,7 @@ var searchData=
   ['binary_5fdir_3',['binary_dir',['../../libpalliate/namespaceutil.html#ad7c9c525adbd8a47673863e9960173ed',1,'util']]],
   ['bootstrap_4',['bootstrap',['../../libpalliate/structrpc_1_1Context.html#af757661af32f31aba9e023b3af8dec98',1,'rpc::Context']]],
   ['branch_5',['branch',['../../libpalliate/structpatricia_1_1node__t.html#a9a3e1a5e8ea63d6025442daa9f90a95a',1,'patricia::node_t']]],
-  ['bridge_6',['bridge',['../classlogging_1_1endpoint_1_1bridge.html#a0586318c0b367f66bfc8a885255e0809',1,'logging::endpoint::bridge']]],
+  ['bridge_6',['Bridge',['../classlogging_1_1endpoint_1_1Bridge.html#aeea81b4d0c33fd72b1123c47ce43ec42',1,'logging::endpoint::Bridge']]],
   ['broadcast_7',['broadcast',['../../libpalliate/classrpc_1_1Server.html#a7d4e4af7a6de4089779ad8f2324262b1',1,'rpc::Server::broadcast()'],['../../libpalliate/classtransport_1_1Server.html#a7d4e4af7a6de4089779ad8f2324262b1',1,'transport::Server::broadcast()'],['../../libpalliate/classServers.html#aafd5b3a76987382868057e6732f81a6c',1,'Servers::broadcast()']]],
   ['build_8',['build',['../../libpalliate/namespacetransport.html#a588d3594fceba5f41ba899f24e8bf194',1,'transport']]]
 ];

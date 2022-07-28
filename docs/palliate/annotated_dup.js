@@ -2,15 +2,15 @@ var annotated_dup =
 [
     [ "logging", "namespacelogging.html", [
       [ "endpoint", "namespacelogging_1_1endpoint.html", [
-        [ "bridge", "classlogging_1_1endpoint_1_1bridge.html", "classlogging_1_1endpoint_1_1bridge" ],
+        [ "Bridge", "classlogging_1_1endpoint_1_1Bridge.html", "classlogging_1_1endpoint_1_1Bridge" ],
         [ "file", "../libpalliate/classlogging_1_1endpoint_1_1file.html", "classlogging_1_1endpoint_1_1file" ],
         [ "serial", "../libpalliate/classlogging_1_1endpoint_1_1serial.html", "classlogging_1_1endpoint_1_1serial" ],
-        [ "systemd", "classlogging_1_1endpoint_1_1systemd.html", "classlogging_1_1endpoint_1_1systemd" ],
+        [ "Systemd", "classlogging_1_1endpoint_1_1Systemd.html", "classlogging_1_1endpoint_1_1Systemd" ],
         [ "terminal", "../libpalliate/classlogging_1_1endpoint_1_1terminal.html", "classlogging_1_1endpoint_1_1terminal" ]
       ] ],
-      [ "annotated", "../libpalliate/structlogging_1_1annotated.html", "structlogging_1_1annotated" ],
+      [ "Annotated", "../libpalliate/structlogging_1_1Annotated.html", "structlogging_1_1Annotated" ],
       [ "Endpoint", "../libpalliate/classlogging_1_1Endpoint.html", "classlogging_1_1Endpoint" ],
-      [ "logger", "../libpalliate/classlogging_1_1logger.html", "classlogging_1_1logger" ],
+      [ "Logger", "../libpalliate/classlogging_1_1Logger.html", "classlogging_1_1Logger" ],
       [ "message", "../libpalliate/structlogging_1_1message.html", "structlogging_1_1message" ]
     ] ],
     [ "Application", "classApplication.html", "classApplication" ],

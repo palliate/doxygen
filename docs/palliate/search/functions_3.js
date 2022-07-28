@@ -9,7 +9,7 @@ var searchData=
   ['config_5fdir_6',['config_dir',['../../libpalliate/namespaceutil.html#ac7410bd8afe6cf1f78b754e443040daf',1,'util']]],
   ['configurable_7',['configurable',['../../libpalliate/classutil_1_1configurable.html#a5764fa657d7893a8717f4ef26c00a8a2',1,'util::configurable']]],
   ['configuration_8',['Configuration',['../classConfiguration.html#a779947337bf652f0e773cb29f37f14ba',1,'Configuration']]],
-  ['configure_9',['configure',['../../libpalliate/classlogging_1_1logger.html#aee168a758465750b6358dae0b52a41bd',1,'logging::logger']]],
+  ['configure_9',['configure',['../../libpalliate/classlogging_1_1Logger.html#a54cb5a902b9518c44b9da942b472a676',1,'logging::Logger']]],
   ['connect_10',['connect',['../classApplication.html#a8414ddeb554674d2229f836655b20461',1,'Application']]],
   ['consumer_11',['consumer',['../../libpalliate/classconsumer.html#ac3882c524e969022d3afe6fa2e4efdfd',1,'consumer']]],
   ['contains_12',['contains',['../../libpalliate/classutil_1_1Collection.html#a2f1981f420c8a9814102dd8fe4aedab1',1,'util::Collection::contains()'],['../classplugin__manager.html#aa1e634de056213ed033631cda7dc126e',1,'plugin_manager::contains()']]],
