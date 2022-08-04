@@ -81,6 +81,19 @@
     <includes id="util_8h" name="util.h" local="yes" imported="no">util/util.h</includes>
   </compound>
   <compound kind="file">
+    <name>message_queue.cpp</name>
+    <path>/__w/libpalliate/libpalliate/src/datastructures/threadsafe/</path>
+    <filename>message__queue_8cpp.html</filename>
+    <includes id="message__queue_8h" name="message_queue.h" local="yes" imported="no">message_queue.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>message_queue.h</name>
+    <path>/__w/libpalliate/libpalliate/src/datastructures/threadsafe/</path>
+    <filename>message__queue_8h.html</filename>
+    <includes id="clock_8h" name="clock.h" local="no" imported="no">util/clock.h</includes>
+    <class kind="class">MessageQueue</class>
+  </compound>
+  <compound kind="file">
     <name>mpsc.h</name>
     <path>/__w/libpalliate/libpalliate/src/datastructures/threadsafe/</path>
     <filename>mpsc_8h.html</filename>
@@ -508,10 +521,12 @@
     <name>rpc/server.h</name>
     <path>/__w/libpalliate/libpalliate/src/rpc/</path>
     <filename>rpc_2server_8h.html</filename>
-    <includes id="runnable_8h" name="runnable.h" local="no" imported="no">util/runnable.h</includes>
     <includes id="factory_8h" name="factory.h" local="no" imported="no">util/factory.h</includes>
+    <includes id="runnable_8h" name="runnable.h" local="no" imported="no">util/runnable.h</includes>
     <includes id="context_8h" name="context.h" local="yes" imported="no">context.h</includes>
     <includes id="error__handler_8h" name="error_handler.h" local="yes" imported="no">error_handler.h</includes>
+    <includes id="io_8h" name="io.h" local="yes" imported="no">io.h</includes>
+    <includes id="data__channel_8h" name="data_channel.h" local="no" imported="no">rpc/data_channel.h</includes>
     <class kind="class">rpc::Server</class>
     <namespace>rpc</namespace>
   </compound>
@@ -648,10 +663,31 @@
     <namespace>rpc</namespace>
   </compound>
   <compound kind="file">
+    <name>data_channel.cpp</name>
+    <path>/__w/libpalliate/libpalliate/src/rpc/</path>
+    <filename>data__channel_8cpp.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>data_channel.h</name>
+    <path>/__w/libpalliate/libpalliate/src/rpc/</path>
+    <filename>data__channel_8h.html</filename>
+    <includes id="io_8h" name="io.h" local="yes" imported="no">io.h</includes>
+    <class kind="class">rpc::DataChannel</class>
+    <namespace>rpc</namespace>
+  </compound>
+  <compound kind="file">
     <name>error_handler.h</name>
     <path>/__w/libpalliate/libpalliate/src/rpc/</path>
     <filename>error__handler_8h.html</filename>
     <class kind="struct">rpc::ErrorHandler</class>
+    <namespace>rpc</namespace>
+  </compound>
+  <compound kind="file">
+    <name>io.h</name>
+    <path>/__w/libpalliate/libpalliate/src/rpc/</path>
+    <filename>io_8h.html</filename>
+    <includes id="error__handler_8h" name="error_handler.h" local="yes" imported="no">error_handler.h</includes>
+    <class kind="struct">rpc::IO</class>
     <namespace>rpc</namespace>
   </compound>
   <compound kind="file">
@@ -1739,15 +1775,15 @@
       <type></type>
       <name>Context</name>
       <anchorfile>structrpc_1_1Context.html</anchorfile>
-      <anchor>ab2e39eced989d5e4e988519b912faa3a</anchor>
-      <arglist>(kj::Own&lt; kj::AsyncIoStream &gt; &amp;&amp;stream)</arglist>
+      <anchor>a61c88edbcb8e51f5710d4b1368f0f2c0</anchor>
+      <arglist>(kj::AuthenticatedStream &amp;&amp;stream)</arglist>
     </member>
     <member kind="function">
       <type></type>
       <name>Context</name>
       <anchorfile>structrpc_1_1Context.html</anchorfile>
-      <anchor>a8a105f6796a6c50f257056f7de408eb3</anchor>
-      <arglist>(kj::Own&lt; kj::AsyncIoStream &gt; &amp;&amp;stream, capnp::Capability::Client interface)</arglist>
+      <anchor>ac9951bf0d161b3d0d415eb3c058e7a3b</anchor>
+      <arglist>(kj::AuthenticatedStream &amp;&amp;stream, capnp::Capability::Client interface)</arglist>
     </member>
     <member kind="function">
       <type>T::Client</type>
@@ -1764,10 +1800,10 @@
       <arglist>()</arglist>
     </member>
     <member kind="variable">
-      <type>kj::Own&lt; kj::AsyncIoStream &gt;</type>
+      <type>kj::AuthenticatedStream</type>
       <name>stream</name>
       <anchorfile>structrpc_1_1Context.html</anchorfile>
-      <anchor>ab8692dea660d58f7b9fced8cfdb26461</anchor>
+      <anchor>a325e28480b8f7c28bb29298051e3950b</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
@@ -1790,6 +1826,32 @@
       <anchorfile>structrpc_1_1Context.html</anchorfile>
       <anchor>aaf008c1b1d2e7f18bd4b0a9aa4b5eee7</anchor>
       <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>rpc::DataChannel</name>
+    <filename>classrpc_1_1DataChannel.html</filename>
+    <templarg>typename T</templarg>
+    <member kind="function">
+      <type></type>
+      <name>DataChannel</name>
+      <anchorfile>classrpc_1_1DataChannel.html</anchorfile>
+      <anchor>a59bca2ae17f3abeb2cbf82a18e7698e9</anchor>
+      <arglist>(rpc::IO &amp;_io)</arglist>
+    </member>
+    <member kind="function">
+      <type>kj::Promise&lt; void &gt;</type>
+      <name>stream</name>
+      <anchorfile>classrpc_1_1DataChannel.html</anchorfile>
+      <anchor>afc9457c2ef030ee3d6ea382ccea70958</anchor>
+      <arglist>(::DataChannel&lt; T &gt;::Server::StreamContext context) override</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>send</name>
+      <anchorfile>classrpc_1_1DataChannel.html</anchorfile>
+      <anchor>adcf00eb2d9a4feab5193c235823f3058</anchor>
+      <arglist>(T::Reader message)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -2102,6 +2164,45 @@
       <name>base_t</name>
       <anchorfile>classutil_1_1Factory.html</anchorfile>
       <anchor>a4cb6e20d49795bbe18dcfeff2a2ba418</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>rpc::IO</name>
+    <filename>structrpc_1_1IO.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>IO</name>
+      <anchorfile>structrpc_1_1IO.html</anchorfile>
+      <anchor>aba777fded14916618706668dd2940a95</anchor>
+      <arglist>(kj::AsyncIoContext &amp;&amp;_context, kj::Executor const &amp;_executor)</arglist>
+    </member>
+    <member kind="variable">
+      <type>ErrorHandler</type>
+      <name>err_handler</name>
+      <anchorfile>structrpc_1_1IO.html</anchorfile>
+      <anchor>a8b0d81a748170ad531fc767506e987c9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>kj::TaskSet</type>
+      <name>tasks</name>
+      <anchorfile>structrpc_1_1IO.html</anchorfile>
+      <anchor>ad69ddf70b54af81ad300d0ae5caa1590</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>kj::AsyncIoContext</type>
+      <name>context</name>
+      <anchorfile>structrpc_1_1IO.html</anchorfile>
+      <anchor>a18d6c1083195bbfdfcc85f35b49fd85d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>kj::Executor const  &amp;</type>
+      <name>executor</name>
+      <anchorfile>structrpc_1_1IO.html</anchorfile>
+      <anchor>a8eb6520f3377c77148c631eddc7f517b</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -2478,6 +2579,32 @@
       <anchorfile>structlogging_1_1message.html</anchorfile>
       <anchor>a6a1b9dde5bbc6004c177dd573ad3126e</anchor>
       <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>MessageQueue</name>
+    <filename>classMessageQueue.html</filename>
+    <templarg>typename T</templarg>
+    <member kind="function">
+      <type></type>
+      <name>MessageQueue</name>
+      <anchorfile>classMessageQueue.html</anchorfile>
+      <anchor>a41e28dbf3f7713110fa2ce2ec08176dd</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>T *</type>
+      <name>dequeue</name>
+      <anchorfile>classMessageQueue.html</anchorfile>
+      <anchor>a59c4f0def3667d10f4e546600cb68bea</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>enqueue</name>
+      <anchorfile>classMessageQueue.html</anchorfile>
+      <anchor>aae24704fd5a780ed97d91962bb8c642e</anchor>
+      <arglist>(T *element)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -2968,6 +3095,20 @@
     </member>
     <member kind="function">
       <type>void</type>
+      <name>run</name>
+      <anchorfile>classrunnable.html</anchorfile>
+      <anchor>ad28f7f63b693435472d6369b80b29721</anchor>
+      <arglist>(F init, Args &amp;&amp;... args)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>run</name>
+      <anchorfile>classrunnable.html</anchorfile>
+      <anchor>a2a5f3c053d7568a16261240540662bde</anchor>
+      <arglist>(callback_f _callback, F init, Args &amp;&amp;... args)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
       <name>stop</name>
       <anchorfile>classrunnable.html</anchorfile>
       <anchor>ab7117095b1382678c42c4979871f1d25</anchor>
@@ -3082,6 +3223,13 @@
       <anchor>a7d4e4af7a6de4089779ad8f2324262b1</anchor>
       <arglist>(capnp::MessageBuilder *message)</arglist>
     </member>
+    <member kind="function">
+      <type>kj::Own&lt; DataChannel&lt; T &gt; &gt;</type>
+      <name>datachannel</name>
+      <anchorfile>classrpc_1_1Server.html</anchorfile>
+      <anchor>a2aebe33ee25ecfebc788a2803e7e2444</anchor>
+      <arglist>()</arglist>
+    </member>
     <member kind="function" protection="protected">
       <type>void</type>
       <name>accept</name>
@@ -3096,39 +3244,11 @@
       <anchor>a251f49078124dd3e8e577c2d4f659fe2</anchor>
       <arglist>(Context const *ptr)</arglist>
     </member>
-    <member kind="function" protection="protected" virtualness="virtual">
-      <type>virtual kj::Promise&lt; void &gt;</type>
-      <name>authenticate</name>
-      <anchorfile>classrpc_1_1Server.html</anchorfile>
-      <anchor>a2fa3907d5f33838d4c38fd3b2a7fe250</anchor>
-      <arglist>(kj::Own&lt; rpc::Context &gt; &amp;&amp;context)</arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>ErrorHandler</type>
-      <name>err_handler</name>
-      <anchorfile>classrpc_1_1Server.html</anchorfile>
-      <anchor>affe70e34becd368d36de2ab445c081f7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>kj::TaskSet</type>
-      <name>tasks</name>
-      <anchorfile>classrpc_1_1Server.html</anchorfile>
-      <anchor>a7426034c3d229921336cbe6b72ee1b96</anchor>
-      <arglist></arglist>
-    </member>
     <member kind="variable" protection="protected">
       <type>capnp::Capability::Client</type>
       <name>interface</name>
       <anchorfile>classrpc_1_1Server.html</anchorfile>
       <anchor>a45630a1fed178c549a49353e0766cc42</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>bool</type>
-      <name>datachannel</name>
-      <anchorfile>classrpc_1_1Server.html</anchorfile>
-      <anchor>a6271837ddc7483ef3e00ebc6f0841d2c</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable" protection="protected">
@@ -3146,10 +3266,10 @@
       <arglist></arglist>
     </member>
     <member kind="variable" protection="protected">
-      <type>std::unique_ptr&lt; kj::AsyncIoContext &gt;</type>
+      <type>kj::Own&lt; rpc::IO &gt;</type>
       <name>io</name>
       <anchorfile>classrpc_1_1Server.html</anchorfile>
-      <anchor>a5f2abd835ca1b0f63238eedfa7dc4e1d</anchor>
+      <anchor>a723ef6449caab987ab160ca7695be697</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -3733,7 +3853,9 @@
     <namespace>rpc::tcp</namespace>
     <class kind="class">rpc::Client</class>
     <class kind="struct">rpc::Context</class>
+    <class kind="class">rpc::DataChannel</class>
     <class kind="struct">rpc::ErrorHandler</class>
+    <class kind="struct">rpc::IO</class>
     <class kind="class">rpc::Server</class>
   </compound>
   <compound kind="namespace">

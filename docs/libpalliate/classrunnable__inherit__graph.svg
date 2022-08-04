@@ -12,7 +12,7 @@
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title=" ">
-<polygon fill="#bfbfbf" stroke="black" points="297,-353.5 297,-509.5 398,-509.5 398,-353.5 297,-353.5"/>
+<polygon fill="#bfbfbf" stroke="black" points="297,-331.5 297,-509.5 398,-509.5 398,-331.5 297,-331.5"/>
 <text text-anchor="middle" x="347.5" y="-497.5" font-family="Helvetica,sans-Serif" font-size="10.00">runnable</text>
 <polyline fill="none" stroke="black" points="297,-490.5 398,-490.5 "/>
 <text text-anchor="start" x="305" y="-478.5" font-family="Helvetica,sans-Serif" font-size="10.00"># thread</text>
@@ -23,10 +23,12 @@
 <text text-anchor="start" x="305" y="-426.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ operator()()</text>
 <text text-anchor="start" x="305" y="-415.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ run()</text>
 <text text-anchor="start" x="305" y="-404.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ run()</text>
-<text text-anchor="start" x="305" y="-393.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ stop()</text>
-<text text-anchor="start" x="305" y="-382.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ operator&lt;=&gt;()</text>
-<text text-anchor="start" x="305" y="-371.5" font-family="Helvetica,sans-Serif" font-size="10.00"># setup()</text>
-<text text-anchor="start" x="305" y="-360.5" font-family="Helvetica,sans-Serif" font-size="10.00"># loop()</text>
+<text text-anchor="start" x="305" y="-393.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ run()</text>
+<text text-anchor="start" x="305" y="-382.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ run()</text>
+<text text-anchor="start" x="305" y="-371.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ stop()</text>
+<text text-anchor="start" x="305" y="-360.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ operator&lt;=&gt;()</text>
+<text text-anchor="start" x="305" y="-349.5" font-family="Helvetica,sans-Serif" font-size="10.00"># setup()</text>
+<text text-anchor="start" x="305" y="-338.5" font-family="Helvetica,sans-Serif" font-size="10.00"># loop()</text>
 </a>
 </g>
 </g>
@@ -34,151 +36,148 @@
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="classconsumer.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="0,-182.5 0,-272.5 93,-272.5 93,-182.5 0,-182.5"/>
-<text text-anchor="middle" x="46.5" y="-260.5" font-family="Helvetica,sans-Serif" font-size="10.00">consumer</text>
-<polyline fill="none" stroke="black" points="0,-253.5 93,-253.5 "/>
-<text text-anchor="start" x="8" y="-241.5" font-family="Helvetica,sans-Serif" font-size="10.00"># client_handle</text>
-<polyline fill="none" stroke="black" points="0,-234.5 93,-234.5 "/>
-<text text-anchor="start" x="8" y="-222.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~consumer()</text>
-<text text-anchor="start" x="8" y="-211.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ consumer()</text>
-<text text-anchor="start" x="8" y="-200.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ loop()</text>
-<text text-anchor="start" x="8" y="-189.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ handle()</text>
+<polygon fill="none" stroke="black" points="0,-171.5 0,-261.5 93,-261.5 93,-171.5 0,-171.5"/>
+<text text-anchor="middle" x="46.5" y="-249.5" font-family="Helvetica,sans-Serif" font-size="10.00">consumer</text>
+<polyline fill="none" stroke="black" points="0,-242.5 93,-242.5 "/>
+<text text-anchor="start" x="8" y="-230.5" font-family="Helvetica,sans-Serif" font-size="10.00"># client_handle</text>
+<polyline fill="none" stroke="black" points="0,-223.5 93,-223.5 "/>
+<text text-anchor="start" x="8" y="-211.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~consumer()</text>
+<text text-anchor="start" x="8" y="-200.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ consumer()</text>
+<text text-anchor="start" x="8" y="-189.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ loop()</text>
+<text text-anchor="start" x="8" y="-178.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ handle()</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
 <title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M287.08,-413.29C233.85,-395.79 156.57,-364.44 102.5,-317 88.56,-304.77 76.84,-288.23 67.78,-272.77"/>
-<polygon fill="none" stroke="midnightblue" points="286.14,-416.67 296.73,-416.4 288.29,-410 286.14,-416.67"/>
+<path fill="none" stroke="midnightblue" d="M287.35,-398.29C234.63,-377.64 157.96,-342.44 102.5,-295 91.4,-285.5 81.31,-273.38 72.86,-261.55"/>
+<polygon fill="none" stroke="midnightblue" points="286.32,-401.64 296.9,-401.98 288.83,-395.11 286.32,-401.64"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="classproducer.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="111.5,-182.5 111.5,-272.5 213.5,-272.5 213.5,-182.5 111.5,-182.5"/>
-<text text-anchor="middle" x="162.5" y="-260.5" font-family="Helvetica,sans-Serif" font-size="10.00">producer</text>
-<polyline fill="none" stroke="black" points="111.5,-253.5 213.5,-253.5 "/>
-<text text-anchor="start" x="119.5" y="-241.5" font-family="Helvetica,sans-Serif" font-size="10.00"># data</text>
-<text text-anchor="start" x="119.5" y="-230.5" font-family="Helvetica,sans-Serif" font-size="10.00"># control</text>
-<polyline fill="none" stroke="black" points="111.5,-223.5 213.5,-223.5 "/>
-<text text-anchor="start" x="119.5" y="-211.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ producer()</text>
-<text text-anchor="start" x="119.5" y="-200.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~producer()</text>
-<text text-anchor="start" x="119.5" y="-189.5" font-family="Helvetica,sans-Serif" font-size="10.00"># control_event()</text>
+<polygon fill="none" stroke="black" points="111.5,-171.5 111.5,-261.5 213.5,-261.5 213.5,-171.5 111.5,-171.5"/>
+<text text-anchor="middle" x="162.5" y="-249.5" font-family="Helvetica,sans-Serif" font-size="10.00">producer</text>
+<polyline fill="none" stroke="black" points="111.5,-242.5 213.5,-242.5 "/>
+<text text-anchor="start" x="119.5" y="-230.5" font-family="Helvetica,sans-Serif" font-size="10.00"># data</text>
+<text text-anchor="start" x="119.5" y="-219.5" font-family="Helvetica,sans-Serif" font-size="10.00"># control</text>
+<polyline fill="none" stroke="black" points="111.5,-212.5 213.5,-212.5 "/>
+<text text-anchor="start" x="119.5" y="-200.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ producer()</text>
+<text text-anchor="start" x="119.5" y="-189.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~producer()</text>
+<text text-anchor="start" x="119.5" y="-178.5" font-family="Helvetica,sans-Serif" font-size="10.00"># control_event()</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node3 -->
 <g id="edge2" class="edge">
 <title>Node1&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M289.18,-382.69C267.16,-363.37 242.61,-340.17 222.5,-317 210.7,-303.4 199.23,-287.4 189.53,-272.77"/>
-<polygon fill="none" stroke="midnightblue" points="287,-385.44 296.84,-389.36 291.59,-380.16 287,-385.44"/>
+<path fill="none" stroke="midnightblue" d="M289.49,-364.79C267.84,-343.58 243.44,-318.73 222.5,-295 213.27,-284.54 203.79,-272.83 195.18,-261.74"/>
+<polygon fill="none" stroke="midnightblue" points="287.12,-367.36 296.72,-371.83 292,-362.35 287.12,-367.36"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="classrpc_1_1Server.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="232,-138.5 232,-316.5 339,-316.5 339,-138.5 232,-138.5"/>
-<text text-anchor="middle" x="285.5" y="-304.5" font-family="Helvetica,sans-Serif" font-size="10.00">rpc::Server</text>
-<polyline fill="none" stroke="black" points="232,-297.5 339,-297.5 "/>
-<text text-anchor="start" x="240" y="-285.5" font-family="Helvetica,sans-Serif" font-size="10.00"># err_handler</text>
-<text text-anchor="start" x="240" y="-274.5" font-family="Helvetica,sans-Serif" font-size="10.00"># tasks</text>
-<text text-anchor="start" x="240" y="-263.5" font-family="Helvetica,sans-Serif" font-size="10.00"># interface</text>
-<text text-anchor="start" x="240" y="-252.5" font-family="Helvetica,sans-Serif" font-size="10.00"># datachannel</text>
-<text text-anchor="start" x="240" y="-241.5" font-family="Helvetica,sans-Serif" font-size="10.00"># contexts_mutex</text>
-<text text-anchor="start" x="240" y="-230.5" font-family="Helvetica,sans-Serif" font-size="10.00"># contexts</text>
-<text text-anchor="start" x="240" y="-219.5" font-family="Helvetica,sans-Serif" font-size="10.00"># io</text>
-<polyline fill="none" stroke="black" points="232,-212.5 339,-212.5 "/>
-<text text-anchor="start" x="240" y="-200.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Server()</text>
-<text text-anchor="start" x="240" y="-189.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~Server()</text>
-<text text-anchor="start" x="240" y="-178.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ broadcast()</text>
-<text text-anchor="start" x="240" y="-167.5" font-family="Helvetica,sans-Serif" font-size="10.00"># accept()</text>
-<text text-anchor="start" x="240" y="-156.5" font-family="Helvetica,sans-Serif" font-size="10.00"># remove()</text>
-<text text-anchor="start" x="240" y="-145.5" font-family="Helvetica,sans-Serif" font-size="10.00"># authenticate()</text>
+<polygon fill="none" stroke="black" points="232,-144 232,-289 339,-289 339,-144 232,-144"/>
+<text text-anchor="middle" x="285.5" y="-277" font-family="Helvetica,sans-Serif" font-size="10.00">rpc::Server</text>
+<polyline fill="none" stroke="black" points="232,-270 339,-270 "/>
+<text text-anchor="start" x="240" y="-258" font-family="Helvetica,sans-Serif" font-size="10.00"># interface</text>
+<text text-anchor="start" x="240" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00"># contexts_mutex</text>
+<text text-anchor="start" x="240" y="-236" font-family="Helvetica,sans-Serif" font-size="10.00"># contexts</text>
+<text text-anchor="start" x="240" y="-225" font-family="Helvetica,sans-Serif" font-size="10.00"># io</text>
+<polyline fill="none" stroke="black" points="232,-218 339,-218 "/>
+<text text-anchor="start" x="240" y="-206" font-family="Helvetica,sans-Serif" font-size="10.00">+ Server()</text>
+<text text-anchor="start" x="240" y="-195" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~Server()</text>
+<text text-anchor="start" x="240" y="-184" font-family="Helvetica,sans-Serif" font-size="10.00">+ broadcast()</text>
+<text text-anchor="start" x="240" y="-173" font-family="Helvetica,sans-Serif" font-size="10.00">+ datachannel()</text>
+<text text-anchor="start" x="240" y="-162" font-family="Helvetica,sans-Serif" font-size="10.00"># accept()</text>
+<text text-anchor="start" x="240" y="-151" font-family="Helvetica,sans-Serif" font-size="10.00"># remove()</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
 <title>Node1&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M320.85,-343.69C318.12,-334.79 315.35,-325.74 312.61,-316.83"/>
-<polygon fill="none" stroke="midnightblue" points="317.51,-344.73 323.8,-353.27 324.21,-342.68 317.51,-344.73"/>
+<path fill="none" stroke="midnightblue" d="M317.52,-321.84C314.14,-310.82 310.75,-299.76 307.5,-289.16"/>
+<polygon fill="none" stroke="midnightblue" points="314.21,-322.95 320.49,-331.49 320.9,-320.9 314.21,-322.95"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:href="classtransport_1_1Client.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="357,-171.5 357,-283.5 462,-283.5 462,-171.5 357,-171.5"/>
-<text text-anchor="middle" x="409.5" y="-271.5" font-family="Helvetica,sans-Serif" font-size="10.00">transport::Client</text>
-<polyline fill="none" stroke="black" points="357,-264.5 462,-264.5 "/>
-<text text-anchor="start" x="365" y="-252.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ message_event</text>
-<text text-anchor="start" x="365" y="-241.5" font-family="Helvetica,sans-Serif" font-size="10.00"># packed</text>
-<polyline fill="none" stroke="black" points="357,-234.5 462,-234.5 "/>
-<text text-anchor="start" x="365" y="-222.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Client()</text>
-<text text-anchor="start" x="365" y="-211.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~Client()</text>
-<text text-anchor="start" x="365" y="-200.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ loop()</text>
-<text text-anchor="start" x="365" y="-189.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ send()</text>
-<text text-anchor="start" x="365" y="-178.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ recv()</text>
+<polygon fill="none" stroke="black" points="357,-160.5 357,-272.5 462,-272.5 462,-160.5 357,-160.5"/>
+<text text-anchor="middle" x="409.5" y="-260.5" font-family="Helvetica,sans-Serif" font-size="10.00">transport::Client</text>
+<polyline fill="none" stroke="black" points="357,-253.5 462,-253.5 "/>
+<text text-anchor="start" x="365" y="-241.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ message_event</text>
+<text text-anchor="start" x="365" y="-230.5" font-family="Helvetica,sans-Serif" font-size="10.00"># packed</text>
+<polyline fill="none" stroke="black" points="357,-223.5 462,-223.5 "/>
+<text text-anchor="start" x="365" y="-211.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Client()</text>
+<text text-anchor="start" x="365" y="-200.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~Client()</text>
+<text text-anchor="start" x="365" y="-189.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ loop()</text>
+<text text-anchor="start" x="365" y="-178.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ send()</text>
+<text text-anchor="start" x="365" y="-167.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ recv()</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node5 -->
 <g id="edge4" class="edge">
 <title>Node1&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M374.15,-343.68C380.39,-323.35 386.87,-302.23 392.55,-283.72"/>
-<polygon fill="none" stroke="midnightblue" points="370.79,-342.68 371.2,-353.27 377.49,-344.73 370.79,-342.68"/>
+<path fill="none" stroke="midnightblue" d="M377.55,-321.61C382.71,-304.78 387.91,-287.84 392.57,-272.66"/>
+<polygon fill="none" stroke="midnightblue" points="374.1,-320.9 374.51,-331.49 380.79,-322.95 374.1,-320.9"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
 <g id="a_node7"><a xlink:href="classtransport_1_1Server.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="480,-149.5 480,-305.5 585,-305.5 585,-149.5 480,-149.5"/>
-<text text-anchor="middle" x="532.5" y="-293.5" font-family="Helvetica,sans-Serif" font-size="10.00">transport::Server</text>
-<polyline fill="none" stroke="black" points="480,-286.5 585,-286.5 "/>
-<text text-anchor="start" x="488" y="-274.5" font-family="Helvetica,sans-Serif" font-size="10.00"># clients</text>
-<text text-anchor="start" x="488" y="-263.5" font-family="Helvetica,sans-Serif" font-size="10.00"># clients_mutex</text>
-<text text-anchor="start" x="488" y="-252.5" font-family="Helvetica,sans-Serif" font-size="10.00"># packed</text>
-<text text-anchor="start" x="488" y="-241.5" font-family="Helvetica,sans-Serif" font-size="10.00"># message_event</text>
-<polyline fill="none" stroke="black" points="480,-234.5 585,-234.5 "/>
-<text text-anchor="start" x="488" y="-222.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~Server()</text>
-<text text-anchor="start" x="488" y="-211.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Server()</text>
-<text text-anchor="start" x="488" y="-200.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ prepare()</text>
-<text text-anchor="start" x="488" y="-189.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ broadcast()</text>
-<text text-anchor="start" x="488" y="-178.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ set_event()</text>
-<text text-anchor="start" x="488" y="-167.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ add()</text>
-<text text-anchor="start" x="488" y="-156.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ remove()</text>
+<polygon fill="none" stroke="black" points="480,-138.5 480,-294.5 585,-294.5 585,-138.5 480,-138.5"/>
+<text text-anchor="middle" x="532.5" y="-282.5" font-family="Helvetica,sans-Serif" font-size="10.00">transport::Server</text>
+<polyline fill="none" stroke="black" points="480,-275.5 585,-275.5 "/>
+<text text-anchor="start" x="488" y="-263.5" font-family="Helvetica,sans-Serif" font-size="10.00"># clients</text>
+<text text-anchor="start" x="488" y="-252.5" font-family="Helvetica,sans-Serif" font-size="10.00"># clients_mutex</text>
+<text text-anchor="start" x="488" y="-241.5" font-family="Helvetica,sans-Serif" font-size="10.00"># packed</text>
+<text text-anchor="start" x="488" y="-230.5" font-family="Helvetica,sans-Serif" font-size="10.00"># message_event</text>
+<polyline fill="none" stroke="black" points="480,-223.5 585,-223.5 "/>
+<text text-anchor="start" x="488" y="-211.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~Server()</text>
+<text text-anchor="start" x="488" y="-200.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Server()</text>
+<text text-anchor="start" x="488" y="-189.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ prepare()</text>
+<text text-anchor="start" x="488" y="-178.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ broadcast()</text>
+<text text-anchor="start" x="488" y="-167.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ set_event()</text>
+<text text-anchor="start" x="488" y="-156.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ add()</text>
+<text text-anchor="start" x="488" y="-145.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ remove()</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node7 -->
 <g id="edge6" class="edge">
 <title>Node1&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M405.8,-382.05C427.47,-362.81 451.61,-339.84 471.5,-317 474.69,-313.34 477.86,-309.51 480.98,-305.59"/>
-<polygon fill="none" stroke="midnightblue" points="403.44,-379.46 398.24,-388.7 408.06,-384.72 403.44,-379.46"/>
+<path fill="none" stroke="midnightblue" d="M405.18,-364.37C426.58,-343.2 450.69,-318.49 471.5,-295 474.23,-291.92 476.98,-288.74 479.72,-285.51"/>
+<polygon fill="none" stroke="midnightblue" points="402.71,-361.89 398.04,-371.4 407.62,-366.88 402.71,-361.89"/>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
 <g id="a_node9"><a xlink:href="classui.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="603,-171.5 603,-283.5 722,-283.5 722,-171.5 603,-171.5"/>
-<text text-anchor="middle" x="662.5" y="-271.5" font-family="Helvetica,sans-Serif" font-size="10.00">ui</text>
-<polyline fill="none" stroke="black" points="603,-264.5 722,-264.5 "/>
-<text text-anchor="middle" x="662.5" y="-252.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="603,-245.5 722,-245.5 "/>
-<text text-anchor="start" x="611" y="-233.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ui()</text>
-<text text-anchor="start" x="611" y="-222.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ operator=()</text>
-<text text-anchor="start" x="611" y="-211.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~ui()</text>
-<text text-anchor="start" x="611" y="-200.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ attach()</text>
-<text text-anchor="start" x="611" y="-189.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Instance()</text>
-<text text-anchor="start" x="611" y="-178.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ toggle_fullscreen()</text>
+<polygon fill="none" stroke="black" points="603,-160.5 603,-272.5 722,-272.5 722,-160.5 603,-160.5"/>
+<text text-anchor="middle" x="662.5" y="-260.5" font-family="Helvetica,sans-Serif" font-size="10.00">ui</text>
+<polyline fill="none" stroke="black" points="603,-253.5 722,-253.5 "/>
+<text text-anchor="middle" x="662.5" y="-241.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="603,-234.5 722,-234.5 "/>
+<text text-anchor="start" x="611" y="-222.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ui()</text>
+<text text-anchor="start" x="611" y="-211.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ operator=()</text>
+<text text-anchor="start" x="611" y="-200.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~ui()</text>
+<text text-anchor="start" x="611" y="-189.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ attach()</text>
+<text text-anchor="start" x="611" y="-178.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Instance()</text>
+<text text-anchor="start" x="611" y="-167.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ toggle_fullscreen()</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node9 -->
 <g id="edge8" class="edge">
 <title>Node1&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M407.89,-412.02C460.87,-393.76 538.06,-362.01 594.5,-317 606.32,-307.58 617.24,-295.68 626.73,-283.69"/>
-<polygon fill="none" stroke="midnightblue" points="406.63,-408.75 398.28,-415.27 408.88,-415.38 406.63,-408.75"/>
+<path fill="none" stroke="midnightblue" d="M407.57,-396.89C460.02,-375.43 536.59,-339.83 594.5,-295 602.99,-288.43 611.24,-280.68 618.89,-272.66"/>
+<polygon fill="none" stroke="midnightblue" points="406.03,-393.74 398.07,-400.73 408.65,-400.23 406.03,-393.74"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
@@ -200,8 +199,8 @@
 <!-- Node5&#45;&gt;Node6 -->
 <g id="edge5" class="edge">
 <title>Node5&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M406.5,-161.13C405.6,-141.4 404.62,-120.06 403.77,-101.54"/>
-<polygon fill="none" stroke="midnightblue" points="403.01,-161.46 406.97,-171.29 410.01,-161.14 403.01,-161.46"/>
+<path fill="none" stroke="midnightblue" d="M406.28,-149.73C405.5,-133.65 404.67,-116.71 403.92,-101.53"/>
+<polygon fill="none" stroke="midnightblue" points="402.81,-150.33 406.79,-160.15 409.8,-149.99 402.81,-150.33"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node">
@@ -220,8 +219,8 @@
 <!-- Node7&#45;&gt;Node8 -->
 <g id="edge7" class="edge">
 <title>Node7&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M536.49,-139.41C537.37,-120.17 538.26,-100.91 538.97,-85.39"/>
-<polygon fill="none" stroke="midnightblue" points="532.99,-139.3 536.03,-149.45 539.99,-139.62 532.99,-139.3"/>
+<path fill="none" stroke="midnightblue" d="M536.78,-128C537.53,-112.71 538.26,-97.69 538.88,-85.1"/>
+<polygon fill="none" stroke="midnightblue" points="533.28,-127.9 536.29,-138.06 540.27,-128.24 533.28,-127.9"/>
 </g>
 </g>
 </svg>

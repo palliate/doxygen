@@ -47,6 +47,7 @@ var hierarchy =
     [ "util::Factory< Server, capnp::Capability::Client >", "classutil_1_1Factory.html", [
       [ "rpc::Server", "classrpc_1_1Server.html", null ]
     ] ],
+    [ "rpc::IO", "structrpc_1_1IO.html", null ],
     [ "ivshmem", "classivshmem.html", null ],
     [ "logging::Logger", "classlogging_1_1Logger.html", null ],
     [ "memory::manager", "classmemory_1_1manager.html", [
@@ -55,6 +56,7 @@ var hierarchy =
     ] ],
     [ "memory::memory_map", "classmemory_1_1memory__map.html", null ],
     [ "logging::message", "structlogging_1_1message.html", null ],
+    [ "MessageQueue< T >", "classMessageQueue.html", null ],
     [ "mpsc< T, size >", "classmpsc.html", null ],
     [ "atomic_stack< T >::node", "structatomic__stack_1_1node.html", null ],
     [ "patricia", "classpatricia.html", null ],
@@ -77,6 +79,9 @@ var hierarchy =
         [ "transport::TCP::Server", "classtransport_1_1TCP_1_1Server.html", null ]
       ] ],
       [ "ui", "classui.html", null ]
+    ] ],
+    [ "DataChannel::Server", null, [
+      [ "rpc::DataChannel< T >", "classrpc_1_1DataChannel.html", null ]
     ] ],
     [ "Servers", "classServers.html", null ],
     [ "util::uuid", "structutil_1_1uuid.html", null ],

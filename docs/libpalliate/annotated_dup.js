@@ -22,7 +22,9 @@ var annotated_dup =
       ] ],
       [ "Client", "classrpc_1_1Client.html", "classrpc_1_1Client" ],
       [ "Context", "structrpc_1_1Context.html", "structrpc_1_1Context" ],
+      [ "DataChannel", "classrpc_1_1DataChannel.html", "classrpc_1_1DataChannel" ],
       [ "ErrorHandler", "structrpc_1_1ErrorHandler.html", "structrpc_1_1ErrorHandler" ],
+      [ "IO", "structrpc_1_1IO.html", "structrpc_1_1IO" ],
       [ "Server", "classrpc_1_1Server.html", "classrpc_1_1Server" ]
     ] ],
     [ "transport", "namespacetransport.html", [
@@ -50,6 +52,7 @@ var annotated_dup =
     [ "consumer", "classconsumer.html", "classconsumer" ],
     [ "element", "structelement.html", "structelement" ],
     [ "ivshmem", "classivshmem.html", "classivshmem" ],
+    [ "MessageQueue", "classMessageQueue.html", "classMessageQueue" ],
     [ "mpsc", "classmpsc.html", "classmpsc" ],
     [ "patricia", "classpatricia.html", "classpatricia" ],
     [ "plugin", "classplugin.html", "classplugin" ],

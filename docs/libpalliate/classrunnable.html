@@ -129,6 +129,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a42e0a52707ace5412561ed203467f8e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6c84adda2b18930d439cecaf4805dae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrunnable.html#af6c84adda2b18930d439cecaf4805dae">run</a> (<a class="el" href="classrunnable.html#a0e3ca5a73604834934e7672a7764b924">callback_f</a> _callback)</td></tr>
 <tr class="separator:af6c84adda2b18930d439cecaf4805dae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad28f7f63b693435472d6369b80b29721"><td class="memTemplParams" colspan="2">template&lt;typename F , typename... Args&gt; </td></tr>
+<tr class="memitem:ad28f7f63b693435472d6369b80b29721"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classrunnable.html#ad28f7f63b693435472d6369b80b29721">run</a> (F init, Args &amp;&amp;... args)</td></tr>
+<tr class="separator:ad28f7f63b693435472d6369b80b29721"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a5f3c053d7568a16261240540662bde"><td class="memTemplParams" colspan="2">template&lt;typename F , typename... Args&gt; </td></tr>
+<tr class="memitem:a2a5f3c053d7568a16261240540662bde"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classrunnable.html#a2a5f3c053d7568a16261240540662bde">run</a> (<a class="el" href="classrunnable.html#a0e3ca5a73604834934e7672a7764b924">callback_f</a> _callback, F init, Args &amp;&amp;... args)</td></tr>
+<tr class="separator:a2a5f3c053d7568a16261240540662bde"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7117095b1382678c42c4979871f1d25"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrunnable.html#ab7117095b1382678c42c4979871f1d25">stop</a> ()</td></tr>
 <tr class="separator:ab7117095b1382678c42c4979871f1d25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95d5a63e6ef290fc57c6c7d9218369c5"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrunnable.html#a95d5a63e6ef290fc57c6c7d9218369c5">operator&lt;=&gt;</a> (<a class="el" href="classrunnable.html">runnable</a> const &amp;other) const</td></tr>
@@ -302,7 +308,7 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a42e0a52707ace5412561ed203467f8e9" name="a42e0a52707ace5412561ed203467f8e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a42e0a52707ace5412561ed203467f8e9">&#9670;&nbsp;</a></span>run() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a42e0a52707ace5412561ed203467f8e9">&#9670;&nbsp;</a></span>run() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -319,7 +325,7 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <a id="af6c84adda2b18930d439cecaf4805dae" name="af6c84adda2b18930d439cecaf4805dae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af6c84adda2b18930d439cecaf4805dae">&#9670;&nbsp;</a></span>run() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af6c84adda2b18930d439cecaf4805dae">&#9670;&nbsp;</a></span>run() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -332,6 +338,88 @@ Protected Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2a5f3c053d7568a16261240540662bde" name="a2a5f3c053d7568a16261240540662bde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a5f3c053d7568a16261240540662bde">&#9670;&nbsp;</a></span>run() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename F , typename... Args&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void runnable::run </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classrunnable.html#a0e3ca5a73604834934e7672a7764b924">callback_f</a>&#160;</td>
+          <td class="paramname"><em>_callback</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">F&#160;</td>
+          <td class="paramname"><em>init</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Args &amp;&amp;...&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad28f7f63b693435472d6369b80b29721" name="ad28f7f63b693435472d6369b80b29721"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad28f7f63b693435472d6369b80b29721">&#9670;&nbsp;</a></span>run() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename F , typename... Args&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void runnable::run </td>
+          <td>(</td>
+          <td class="paramtype">F&#160;</td>
+          <td class="paramname"><em>init</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Args &amp;&amp;...&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

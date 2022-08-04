@@ -5,5 +5,6 @@ var searchData=
   ['enable_2',['enable',['../classlogging_1_1Logger.html#af2f7ea41236b2dfa06a7bc88786395bd',1,'logging::Logger']]],
   ['end_3',['end',['../classutil_1_1Collection.html#aa9e4907f937d3ab2923ff821b7c1b629',1,'util::Collection']]],
   ['endpoint_4',['Endpoint',['../classlogging_1_1Endpoint.html#a975e51db9bd2f2edaf3be5c9c300b20b',1,'logging::Endpoint']]],
-  ['error_5',['error',['../classlogging_1_1Logger.html#af23ee806a4074b12f4171ce39e266291',1,'logging::Logger']]]
+  ['enqueue_5',['enqueue',['../classMessageQueue.html#aae24704fd5a780ed97d91962bb8c642e',1,'MessageQueue']]],
+  ['error_6',['error',['../classlogging_1_1Logger.html#af23ee806a4074b12f4171ce39e266291',1,'logging::Logger']]]
 ];

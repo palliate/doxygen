@@ -9,5 +9,6 @@ var searchData=
   ['max_5fkey_5flength_6',['max_key_length',['../namespaceutil.html#aa9c57792db3a2b3dccaf2194b4c7708f',1,'util']]],
   ['memory_5fmap_7',['memory_map',['../classmemory_1_1memory__map.html#a136dab5691137512998dd337e85a66f2',1,'memory::memory_map']]],
   ['merge_8',['merge',['../namespaceutil.html#a91ff8da411214ee3f1fdc95389ce38e6',1,'util']]],
-  ['move_9',['move',['../classwindow.html#afefb819e55ad27843023a8a14921ff5f',1,'window']]]
+  ['messagequeue_9',['MessageQueue',['../classMessageQueue.html#a41e28dbf3f7713110fa2ce2ec08176dd',1,'MessageQueue']]],
+  ['move_10',['move',['../classwindow.html#afefb819e55ad27843023a8a14921ff5f',1,'window']]]
 ];

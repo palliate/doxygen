@@ -6,7 +6,7 @@ var searchData=
   ['clients_3',['clients',['../classtransport_1_1Server.html#ac97cfe734bbc5710326b1c654924c8a3',1,'transport::Server']]],
   ['clients_5fmutex_4',['clients_mutex',['../classtransport_1_1Server.html#a04297ce5a1931ffe5e9400437e1e5e29',1,'transport::Server']]],
   ['config_5',['config',['../classutil_1_1configurable.html#a3cac56b2ee4686dc24f3b4c5e9df3554',1,'util::configurable']]],
-  ['context_6',['context',['../classrpc_1_1Client.html#ae4e094d542938b7beee86b0a7c32d39e',1,'rpc::Client']]],
+  ['context_6',['context',['../classrpc_1_1Client.html#ae4e094d542938b7beee86b0a7c32d39e',1,'rpc::Client::context()'],['../structrpc_1_1IO.html#a18d6c1083195bbfdfcc85f35b49fd85d',1,'rpc::IO::context()']]],
   ['contexts_7',['contexts',['../classrpc_1_1Server.html#a98e7bb75f79493966a23d25f900caf70',1,'rpc::Server']]],
   ['contexts_5fmutex_8',['contexts_mutex',['../classrpc_1_1Server.html#a461e850d1c05a0fe406674691fb6a66e',1,'rpc::Server']]],
   ['control_9',['control',['../classproducer.html#aeae7d6b81d2341f72bd78ceb4e6067ac',1,'producer']]],

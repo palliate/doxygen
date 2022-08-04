@@ -10,6 +10,6 @@ var searchData=
   ['request_7',['request',['../classatomic__cr.html#a9710c0cc4ce7e0b58c27f994cdd01a4c',1,'atomic_cr']]],
   ['resize_8',['resize',['../classwindow.html#a9476cbee18eb41a1a8e91c4adfdf9f05',1,'window']]],
   ['respond_9',['respond',['../classatomic__cr_1_1element.html#a950707ba2d933f0682e61e674a32cd60',1,'atomic_cr::element']]],
-  ['run_10',['run',['../classmemory_1_1server.html#a66bd9eb32455d0581abe2c82dda4dc87',1,'memory::server::run()'],['../classrunnable.html#a42e0a52707ace5412561ed203467f8e9',1,'runnable::run()'],['../classrunnable.html#af6c84adda2b18930d439cecaf4805dae',1,'runnable::run(callback_f _callback)']]],
+  ['run_10',['run',['../classmemory_1_1server.html#a66bd9eb32455d0581abe2c82dda4dc87',1,'memory::server::run()'],['../classrunnable.html#a42e0a52707ace5412561ed203467f8e9',1,'runnable::run()'],['../classrunnable.html#af6c84adda2b18930d439cecaf4805dae',1,'runnable::run(callback_f _callback)'],['../classrunnable.html#ad28f7f63b693435472d6369b80b29721',1,'runnable::run(F init, Args &amp;&amp;... args)'],['../classrunnable.html#a2a5f3c053d7568a16261240540662bde',1,'runnable::run(callback_f _callback, F init, Args &amp;&amp;... args)']]],
   ['runnable_11',['runnable',['../classrunnable.html#a8fd64913596654286fc52e92f247b6f6',1,'runnable']]]
 ];
