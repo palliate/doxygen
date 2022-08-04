@@ -12,7 +12,8 @@ var searchData=
   ['insert_5fbefore_9',['insert_before',['../../libpalliate/structmemory_1_1bin__t.html#a56e3098f47a9f47116fd4fb8512ab3bd',1,'memory::bin_t']]],
   ['instance_10',['Instance',['../../libpalliate/classui.html#aaa157ba4489ac066594540334a2fda5c',1,'ui']]],
   ['into_5ftoml_11',['into_toml',['../../libpalliate/structutil_1_1uuid.html#a133e0a5c1ad0f0819ee5a73d42085af2',1,'util::uuid']]],
-  ['is_5ffile_12',['is_file',['../../libpalliate/namespaceutil.html#a7b51aea44ee66c8397dda19963868b97',1,'util']]],
-  ['is_5fnumeric_13',['is_numeric',['../../libpalliate/namespaceutil.html#a4d65ad322ce3b71c439a6ee721f22d36',1,'util']]],
-  ['ivshmem_14',['ivshmem',['../../libpalliate/classivshmem.html#ad351bdc6547f943f8dad16dd09982cfb',1,'ivshmem::ivshmem(memory::manager &amp;_backend)'],['../../libpalliate/classivshmem.html#ad351bdc6547f943f8dad16dd09982cfb',1,'ivshmem::ivshmem(memory::manager &amp;_backend)']]]
+  ['io_12',['IO',['../../libpalliate/structrpc_1_1IO.html#aba777fded14916618706668dd2940a95',1,'rpc::IO']]],
+  ['is_5ffile_13',['is_file',['../../libpalliate/namespaceutil.html#a7b51aea44ee66c8397dda19963868b97',1,'util']]],
+  ['is_5fnumeric_14',['is_numeric',['../../libpalliate/namespaceutil.html#a4d65ad322ce3b71c439a6ee721f22d36',1,'util']]],
+  ['ivshmem_15',['ivshmem',['../../libpalliate/classivshmem.html#ad351bdc6547f943f8dad16dd09982cfb',1,'ivshmem::ivshmem(memory::manager &amp;_backend)'],['../../libpalliate/classivshmem.html#ad351bdc6547f943f8dad16dd09982cfb',1,'ivshmem::ivshmem(memory::manager &amp;_backend)']]]
 ];

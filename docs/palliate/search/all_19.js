@@ -4,7 +4,7 @@ var searchData=
   ['_7eatomic_5fqueue_1',['~atomic_queue',['../../libpalliate/classatomic__queue.html#ada2d3ee55256f7f3389ef6e071897cf2',1,'atomic_queue']]],
   ['_7ebackend_2',['~backend',['../../libpalliate/classbackend.html#af211ad78513852664f0714cff820b3d0',1,'backend']]],
   ['_7ebin_5ft_3',['~bin_t',['../../libpalliate/structmemory_1_1bin__t.html#a40e32c62c55af3b73a367113ce26a354',1,'memory::bin_t']]],
-  ['_7ebridge_4',['~Bridge',['../classlogging_1_1endpoint_1_1Bridge.html#a812b325fbb4f4b589e68f11f443a7ee4',1,'logging::endpoint::Bridge']]],
+  ['_7ebridge_4',['~Bridge',['../classlogging_1_1endpoint_1_1Bridge.html#a0a9de9c9270a30ce1fc48cdbcccd03f2',1,'logging::endpoint::Bridge']]],
   ['_7eclient_5',['~Client',['../../libpalliate/classrpc_1_1Client.html#abe8191236f9ce8fcfdf9c81bcd7b6f45',1,'rpc::Client::~Client()'],['../../libpalliate/classrpc_1_1tcp_1_1Client.html#a7cad88da919d0c2d394ce353c82ecbf0',1,'rpc::tcp::Client::~Client()'],['../../libpalliate/classtransport_1_1Client.html#af96d672ca01fa070cc9489614dab4194',1,'transport::Client::~Client()'],['../../libpalliate/classtransport_1_1TCP_1_1Client.html#af96d672ca01fa070cc9489614dab4194',1,'transport::TCP::Client::~Client()']]],
   ['_7eclient_6',['~client',['../../libpalliate/classmemory_1_1client.html#a078269f4d89e9633e3a160e429168e8a',1,'memory::client']]],
   ['_7econfigurable_7',['~configurable',['../../libpalliate/classutil_1_1configurable.html#aa786294852d8ce0e37ba1a7188a5b663',1,'util::configurable']]],

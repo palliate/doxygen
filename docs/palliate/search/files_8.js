@@ -11,5 +11,7 @@ var searchData=
   ['memory_5fmap_2ecpp_8',['memory_map.cpp',['../../libpalliate/memory__map_8cpp.html',1,'']]],
   ['memory_5fmap_2eh_9',['memory_map.h',['../../libpalliate/memory__map_8h.html',1,'']]],
   ['message_2eh_10',['message.h',['../../libpalliate/message_8h.html',1,'']]],
-  ['mpsc_2eh_11',['mpsc.h',['../../libpalliate/mpsc_8h.html',1,'']]]
+  ['message_5fqueue_2ecpp_11',['message_queue.cpp',['../../libpalliate/message__queue_8cpp.html',1,'']]],
+  ['message_5fqueue_2eh_12',['message_queue.h',['../../libpalliate/message__queue_8h.html',1,'']]],
+  ['mpsc_2eh_13',['mpsc.h',['../../libpalliate/mpsc_8h.html',1,'']]]
 ];

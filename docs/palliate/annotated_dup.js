@@ -33,6 +33,7 @@ var annotated_dup =
     [ "input", "classinput.html", "classinput" ],
     [ "ivshmem", "../libpalliate/classivshmem.html", "classivshmem" ],
     [ "library", "classlibrary.html", "classlibrary" ],
+    [ "MessageQueue", "../libpalliate/classMessageQueue.html", "classMessageQueue" ],
     [ "mpsc", "../libpalliate/classmpsc.html", "classmpsc" ],
     [ "patricia", "../libpalliate/classpatricia.html", "classpatricia" ],
     [ "plugin", "../libpalliate/classplugin.html", "classplugin" ],

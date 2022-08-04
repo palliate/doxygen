@@ -3,7 +3,7 @@ var searchData=
   ['t_0',['T',['../../libpalliate/structutil_1_1Factory_1_1registrar.html#a9c0eb38a2d03f86edb63b6ecc286d7c0',1,'util::Factory::registrar']]],
   ['tail_1',['tail',['../../libpalliate/classatomic__mpsc.html#ac5f281cc2b7deb6bb043737f6251d632',1,'atomic_mpsc']]],
   ['taskfailed_2',['taskFailed',['../../libpalliate/structrpc_1_1ErrorHandler.html#a7a31fee351ee2ab3e761800cb1180cfc',1,'rpc::ErrorHandler']]],
-  ['tasks_3',['tasks',['../../libpalliate/classrpc_1_1Server.html#a7426034c3d229921336cbe6b72ee1b96',1,'rpc::Server']]],
+  ['tasks_3',['tasks',['../../libpalliate/structrpc_1_1IO.html#ad69ddf70b54af81ad300d0ae5caa1590',1,'rpc::IO']]],
   ['tbo_4',['TBO',['../classglfw__window.html#a8569d703efc421596f86d13f488294ee',1,'glfw_window']]],
   ['tcp_5',['TCP',['../../libpalliate/namespacetransport_1_1TCP.html',1,'transport']]],
   ['terminal_6',['terminal',['../classlogging_1_1endpoint_1_1terminal.html',1,'logging::endpoint::terminal'],['../classlogging_1_1endpoint_1_1terminal.html#a2b70ef201f1dd5602a3a1427bd01afa8',1,'logging::endpoint::terminal::terminal()']]],

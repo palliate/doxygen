@@ -9,6 +9,8 @@ var classrunnable =
     [ "operator<=>", "../libpalliate/classrunnable.html#a95d5a63e6ef290fc57c6c7d9218369c5", null ],
     [ "run", "../libpalliate/classrunnable.html#a42e0a52707ace5412561ed203467f8e9", null ],
     [ "run", "../libpalliate/classrunnable.html#af6c84adda2b18930d439cecaf4805dae", null ],
+    [ "run", "../libpalliate/classrunnable.html#a2a5f3c053d7568a16261240540662bde", null ],
+    [ "run", "../libpalliate/classrunnable.html#ad28f7f63b693435472d6369b80b29721", null ],
     [ "setup", "../libpalliate/classrunnable.html#a29c37cd6327ee6c3a896628ecd6935df", null ],
     [ "stop", "../libpalliate/classrunnable.html#ab7117095b1382678c42c4979871f1d25", null ],
     [ "callback", "../libpalliate/classrunnable.html#a43fefab36614b0cf701b2af4d83cf52e", null ],

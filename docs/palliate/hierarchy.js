@@ -27,6 +27,7 @@ var hierarchy =
     [ "Configuration", "classConfiguration.html", null ],
     [ "rpc::Context", "../libpalliate/structrpc_1_1Context.html", null ],
     [ "context_guard", "structcontext__guard.html", null ],
+    [ "rpc::DataChannel< typename T >", "../libpalliate/classrpc_1_1DataChannel.html", null ],
     [ "atomic_cr< unsigned size >::element", "../libpalliate/classatomic__cr_1_1element.html", null ],
     [ "atomic_mpsc::element", "../libpalliate/structatomic__mpsc_1_1element.html", null ],
     [ "element", "../libpalliate/structelement.html", null ],
@@ -44,6 +45,7 @@ var hierarchy =
     [ "logging::Endpoint", "../libpalliate/classlogging_1_1Endpoint.html", null ],
     [ "rpc::ErrorHandler", "../libpalliate/structrpc_1_1ErrorHandler.html", null ],
     [ "util::Factory< class base_t, class... Args >", "../libpalliate/classutil_1_1Factory.html", null ],
+    [ "rpc::IO", "../libpalliate/structrpc_1_1IO.html", null ],
     [ "ivshmem", "../libpalliate/classivshmem.html", null ],
     [ "library", "classlibrary.html", null ],
     [ "logging::Logger", "../libpalliate/classlogging_1_1Logger.html", null ],
@@ -53,6 +55,7 @@ var hierarchy =
     ] ],
     [ "memory::memory_map", "../libpalliate/classmemory_1_1memory__map.html", null ],
     [ "logging::message", "../libpalliate/structlogging_1_1message.html", null ],
+    [ "MessageQueue< typename T >", "../libpalliate/classMessageQueue.html", null ],
     [ "mpsc< typename T, unsigned size >", "../libpalliate/classmpsc.html", null ],
     [ "atomic_stack< typename T >::node", "../libpalliate/structatomic__stack_1_1node.html", null ],
     [ "patricia", "../libpalliate/classpatricia.html", null ],
@@ -88,9 +91,6 @@ var hierarchy =
     ] ],
     [ "App::Server", null, [
       [ "Application", "classApplication.html", null ]
-    ] ],
-    [ "DataChannel::Server", null, [
-      [ "logging::endpoint::Bridge", "classlogging_1_1endpoint_1_1Bridge.html", null ]
     ] ],
     [ "rpc::tcp::Server", "../libpalliate/classrpc_1_1tcp_1_1Server.html", null ],
     [ "Servers", "../libpalliate/classServers.html", null ],

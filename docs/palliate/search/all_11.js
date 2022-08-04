@@ -34,7 +34,7 @@ var searchData=
   ['rpc_2ftcp_2fclient_2eh_31',['rpc/tcp/client.h',['../../libpalliate/rpc_2tcp_2client_8h.html',1,'']]],
   ['rpc_2ftcp_2fserver_2ecpp_32',['rpc/tcp/server.cpp',['../../libpalliate/rpc_2tcp_2server_8cpp.html',1,'']]],
   ['rpc_2ftcp_2fserver_2eh_33',['rpc/tcp/server.h',['../../libpalliate/rpc_2tcp_2server_8h.html',1,'']]],
-  ['run_34',['run',['../../libpalliate/classrunnable.html#a42e0a52707ace5412561ed203467f8e9',1,'runnable::run()'],['../../libpalliate/classrunnable.html#af6c84adda2b18930d439cecaf4805dae',1,'runnable::run(callback_f _callback)'],['../../libpalliate/classmemory_1_1server.html#a66bd9eb32455d0581abe2c82dda4dc87',1,'memory::server::run()']]],
+  ['run_34',['run',['../../libpalliate/classrunnable.html#ad28f7f63b693435472d6369b80b29721',1,'runnable::run(F init, Args &amp;&amp;... args)'],['../../libpalliate/classrunnable.html#a2a5f3c053d7568a16261240540662bde',1,'runnable::run(callback_f _callback, F init, Args &amp;&amp;... args)'],['../../libpalliate/classmemory_1_1server.html#a66bd9eb32455d0581abe2c82dda4dc87',1,'memory::server::run()'],['../../libpalliate/classrunnable.html#af6c84adda2b18930d439cecaf4805dae',1,'runnable::run(callback_f _callback)'],['../../libpalliate/classrunnable.html#a42e0a52707ace5412561ed203467f8e9',1,'runnable::run()']]],
   ['runnable_35',['runnable',['../../libpalliate/classrunnable.html',1,'runnable'],['../../libpalliate/classrunnable.html#a8fd64913596654286fc52e92f247b6f6',1,'runnable::runnable()']]],
   ['runnable_2ecpp_36',['runnable.cpp',['../../libpalliate/runnable_8cpp.html',1,'']]],
   ['runnable_2eh_37',['runnable.h',['../../libpalliate/runnable_8h.html',1,'']]],

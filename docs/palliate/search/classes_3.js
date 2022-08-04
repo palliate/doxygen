@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['displays_0',['displays',['../classdisplays.html',1,'']]]
+  ['datachannel_0',['DataChannel',['../../libpalliate/classrpc_1_1DataChannel.html',1,'rpc']]],
+  ['displays_1',['displays',['../classdisplays.html',1,'']]]
 ];

@@ -5,5 +5,6 @@ var searchData=
   ['enable_2',['enable',['../../libpalliate/classlogging_1_1Logger.html#af2f7ea41236b2dfa06a7bc88786395bd',1,'logging::Logger']]],
   ['end_3',['end',['../../libpalliate/classutil_1_1Collection.html#aa9e4907f937d3ab2923ff821b7c1b629',1,'util::Collection::end()'],['../classplugin__manager.html#a4235781f1922762b8a5018912f342581',1,'plugin_manager::end()']]],
   ['endpoint_4',['Endpoint',['../../libpalliate/classlogging_1_1Endpoint.html#a975e51db9bd2f2edaf3be5c9c300b20b',1,'logging::Endpoint']]],
-  ['error_5',['error',['../../libpalliate/classlogging_1_1Logger.html#af23ee806a4074b12f4171ce39e266291',1,'logging::Logger']]]
+  ['enqueue_5',['enqueue',['../../libpalliate/classMessageQueue.html#aae24704fd5a780ed97d91962bb8c642e',1,'MessageQueue']]],
+  ['error_6',['error',['../../libpalliate/classlogging_1_1Logger.html#af23ee806a4074b12f4171ce39e266291',1,'logging::Logger']]]
 ];

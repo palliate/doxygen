@@ -491,15 +491,8 @@
       <type>virtual</type>
       <name>~Bridge</name>
       <anchorfile>classlogging_1_1endpoint_1_1Bridge.html</anchorfile>
-      <anchor>a812b325fbb4f4b589e68f11f443a7ee4</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>kj::Promise&lt; void &gt;</type>
-      <name>authenticate</name>
-      <anchorfile>classlogging_1_1endpoint_1_1Bridge.html</anchorfile>
-      <anchor>a8439e2ecedfdb3ea14aa031afae42f4c</anchor>
-      <arglist>(AuthenticateContext context) override</arglist>
+      <anchor>a0a9de9c9270a30ce1fc48cdbcccd03f2</anchor>
+      <arglist>() noexcept</arglist>
     </member>
     <member kind="function">
       <type>void</type>

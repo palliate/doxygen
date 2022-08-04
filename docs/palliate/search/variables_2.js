@@ -8,7 +8,7 @@ var searchData=
   ['clients_5',['clients',['../../libpalliate/classtransport_1_1Server.html#ac97cfe734bbc5710326b1c654924c8a3',1,'transport::Server']]],
   ['clients_5fmutex_6',['clients_mutex',['../../libpalliate/classtransport_1_1Server.html#a04297ce5a1931ffe5e9400437e1e5e29',1,'transport::Server']]],
   ['config_7',['config',['../../libpalliate/classutil_1_1configurable.html#a3cac56b2ee4686dc24f3b4c5e9df3554',1,'util::configurable::config()'],['../classConfiguration.html#a416517702541b3f86ed2fdbec26c7855',1,'Configuration::config()']]],
-  ['context_8',['context',['../../libpalliate/classrpc_1_1Client.html#ae4e094d542938b7beee86b0a7c32d39e',1,'rpc::Client::context()'],['../classglfw__window.html#affe9aca9307653430fceabf031060932',1,'glfw_window::context()']]],
+  ['context_8',['context',['../../libpalliate/classrpc_1_1Client.html#ae4e094d542938b7beee86b0a7c32d39e',1,'rpc::Client::context()'],['../../libpalliate/structrpc_1_1IO.html#a18d6c1083195bbfdfcc85f35b49fd85d',1,'rpc::IO::context()'],['../classglfw__window.html#affe9aca9307653430fceabf031060932',1,'glfw_window::context()']]],
   ['contexts_9',['contexts',['../../libpalliate/classrpc_1_1Server.html#a98e7bb75f79493966a23d25f900caf70',1,'rpc::Server']]],
   ['contexts_5fmutex_10',['contexts_mutex',['../../libpalliate/classrpc_1_1Server.html#a461e850d1c05a0fe406674691fb6a66e',1,'rpc::Server']]],
   ['control_11',['control',['../../libpalliate/classproducer.html#aeae7d6b81d2341f72bd78ceb4e6067ac',1,'producer']]],
