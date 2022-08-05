@@ -24,5 +24,6 @@ var searchData=
   ['atomic_5fstack_21',['atomic_stack',['../../libpalliate/classatomic__stack.html',1,'']]],
   ['atomic_5fstack_2eh_22',['atomic_stack.h',['../../libpalliate/atomic__stack_8h.html',1,'']]],
   ['attach_23',['attach',['../../libpalliate/classui.html#a1b194bf77cb4e97083a9612d9996cec7',1,'ui']]],
-  ['attention_24',['attention',['../../libpalliate/classwindow.html#a69a48b055884eee77f8b4517ee916e93',1,'window::attention()'],['../classglfw__window.html#a989b21928120dfe08522b7d91849e184',1,'glfw_window::attention()']]]
+  ['attention_24',['attention',['../../libpalliate/classwindow.html#a69a48b055884eee77f8b4517ee916e93',1,'window::attention()'],['../classglfw__window.html#a989b21928120dfe08522b7d91849e184',1,'glfw_window::attention()']]],
+  ['authenticate_25',['authenticate',['../../libpalliate/classrpc_1_1Server.html#ae06c69840bf4d54f026e7948042bf471',1,'rpc::Server']]]
 ];

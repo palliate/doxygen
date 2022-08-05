@@ -14,6 +14,6 @@ var searchData=
   ['status_11',['status',['../classApplication.html#a8c810655142b4d1190dd5fd14c244a07',1,'Application']]],
   ['stop_12',['stop',['../../libpalliate/classrunnable.html#ab7117095b1382678c42c4979871f1d25',1,'runnable']]],
   ['stream_13',['stream',['../../libpalliate/classrpc_1_1DataChannel.html#afc9457c2ef030ee3d6ea382ccea70958',1,'rpc::DataChannel']]],
-  ['systemd_14',['systemd',['../classsystemd.html#a058fbd52d68076ab21e2f0926a81e1db',1,'systemd']]],
-  ['systemd_15',['Systemd',['../classlogging_1_1endpoint_1_1Systemd.html#ae28c686ec6ead34aa5f981c968997fdb',1,'logging::endpoint::Systemd']]]
+  ['systemd_14',['Systemd',['../classlogging_1_1endpoint_1_1Systemd.html#ae28c686ec6ead34aa5f981c968997fdb',1,'logging::endpoint::Systemd']]],
+  ['systemd_15',['systemd',['../classsystemd.html#a058fbd52d68076ab21e2f0926a81e1db',1,'systemd']]]
 ];

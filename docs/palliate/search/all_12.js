@@ -28,10 +28,8 @@ var searchData=
   ['stop_25',['stop',['../../libpalliate/classrunnable.html#ab7117095b1382678c42c4979871f1d25',1,'runnable']]],
   ['stream_26',['stream',['../../libpalliate/structrpc_1_1Context.html#a325e28480b8f7c28bb29298051e3950b',1,'rpc::Context::stream()'],['../../libpalliate/classrpc_1_1DataChannel.html#afc9457c2ef030ee3d6ea382ccea70958',1,'rpc::DataChannel::stream()']]],
   ['string_2eh_27',['string.h',['../../libpalliate/string_8h.html',1,'']]],
-  ['systemd_28',['Systemd',['../classlogging_1_1endpoint_1_1Systemd.html',1,'logging::endpoint']]],
-  ['systemd_29',['systemd',['../classsystemd.html#a058fbd52d68076ab21e2f0926a81e1db',1,'systemd']]],
-  ['systemd_30',['Systemd',['../classlogging_1_1endpoint_1_1Systemd.html#ae28c686ec6ead34aa5f981c968997fdb',1,'logging::endpoint::Systemd']]],
-  ['systemd_31',['systemd',['../classsystemd.html',1,'']]],
-  ['systemd_2ecpp_32',['systemd.cpp',['../systemd_8cpp.html',1,'']]],
-  ['systemd_2eh_33',['systemd.h',['../systemd_8h.html',1,'']]]
+  ['systemd_28',['Systemd',['../classlogging_1_1endpoint_1_1Systemd.html',1,'logging::endpoint::Systemd'],['../classlogging_1_1endpoint_1_1Systemd.html#ae28c686ec6ead34aa5f981c968997fdb',1,'logging::endpoint::Systemd::Systemd()']]],
+  ['systemd_29',['systemd',['../classsystemd.html#a058fbd52d68076ab21e2f0926a81e1db',1,'systemd::systemd()'],['../classsystemd.html',1,'systemd']]],
+  ['systemd_2ecpp_30',['systemd.cpp',['../systemd_8cpp.html',1,'']]],
+  ['systemd_2eh_31',['systemd.h',['../systemd_8h.html',1,'']]]
 ];

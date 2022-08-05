@@ -19,14 +19,13 @@ var searchData=
   ['interface_16',['interface',['../../libpalliate/classrpc_1_1Server.html#a45630a1fed178c549a49353e0766cc42',1,'rpc::Server']]],
   ['into_5ftoml_17',['into_toml',['../../libpalliate/structutil_1_1uuid.html#a133e0a5c1ad0f0819ee5a73d42085af2',1,'util::uuid']]],
   ['invalid_18',['INVALID',['../../libpalliate/namespacememory.html#a5489f7fba409dae5923725a7831d5026a08fef16c3401434dafddf345706e06b1',1,'memory']]],
-  ['io_19',['IO',['../../libpalliate/structrpc_1_1IO.html#aba777fded14916618706668dd2940a95',1,'rpc::IO']]],
-  ['io_20',['io',['../../libpalliate/classrpc_1_1Server.html#a723ef6449caab987ab160ca7695be697',1,'rpc::Server']]],
-  ['io_21',['IO',['../../libpalliate/structrpc_1_1IO.html',1,'rpc']]],
-  ['io_2eh_22',['io.h',['../../libpalliate/io_8h.html',1,'']]],
-  ['is_5ffile_23',['is_file',['../../libpalliate/namespaceutil.html#a7b51aea44ee66c8397dda19963868b97',1,'util']]],
-  ['is_5fnumeric_24',['is_numeric',['../../libpalliate/namespaceutil.html#a4d65ad322ce3b71c439a6ee721f22d36',1,'util']]],
-  ['ivshmem_25',['ivshmem',['../../libpalliate/classivshmem.html#ad351bdc6547f943f8dad16dd09982cfb',1,'ivshmem::ivshmem(memory::manager &amp;_backend)'],['../../libpalliate/classivshmem.html#ad351bdc6547f943f8dad16dd09982cfb',1,'ivshmem::ivshmem(memory::manager &amp;_backend)'],['../../libpalliate/classivshmem.html',1,'ivshmem']]],
-  ['ivshmem_2eh_26',['ivshmem.h',['../ivshmem_8h.html',1,'']]],
-  ['plugin_2ecpp_27',['plugin.cpp',['../input_2plugin_8cpp.html',1,'']]],
-  ['plugin_2eh_28',['plugin.h',['../input_2plugin_8h.html',1,'']]]
+  ['io_19',['io',['../../libpalliate/classrpc_1_1Server.html#a723ef6449caab987ab160ca7695be697',1,'rpc::Server']]],
+  ['io_20',['IO',['../../libpalliate/structrpc_1_1IO.html#aba777fded14916618706668dd2940a95',1,'rpc::IO::IO()'],['../../libpalliate/structrpc_1_1IO.html',1,'rpc::IO']]],
+  ['io_2eh_21',['io.h',['../../libpalliate/io_8h.html',1,'']]],
+  ['is_5ffile_22',['is_file',['../../libpalliate/namespaceutil.html#a7b51aea44ee66c8397dda19963868b97',1,'util']]],
+  ['is_5fnumeric_23',['is_numeric',['../../libpalliate/namespaceutil.html#a4d65ad322ce3b71c439a6ee721f22d36',1,'util']]],
+  ['ivshmem_24',['ivshmem',['../../libpalliate/classivshmem.html#ad351bdc6547f943f8dad16dd09982cfb',1,'ivshmem::ivshmem(memory::manager &amp;_backend)'],['../../libpalliate/classivshmem.html#ad351bdc6547f943f8dad16dd09982cfb',1,'ivshmem::ivshmem(memory::manager &amp;_backend)'],['../../libpalliate/classivshmem.html',1,'ivshmem']]],
+  ['ivshmem_2eh_25',['ivshmem.h',['../ivshmem_8h.html',1,'']]],
+  ['plugin_2ecpp_26',['plugin.cpp',['../input_2plugin_8cpp.html',1,'']]],
+  ['plugin_2eh_27',['plugin.h',['../input_2plugin_8h.html',1,'']]]
 ];
