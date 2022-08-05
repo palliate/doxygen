@@ -69,8 +69,8 @@ var NAVTREEINDEX =
 [
 "../index.html",
 "classrpc_1_1Server.html#a251f49078124dd3e8e577c2d4f659fe2",
-"functions_func_g.html",
-"structpatricia_1_1element__t.html#ab321cd399ed789f1939245d0d6ef0c93"
+"functions_func_e.html",
+"structpatricia_1_1element__t.html#a0dfc08271cdaf85a10f7ca60b966dcc6"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

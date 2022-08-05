@@ -105,7 +105,7 @@ $(document).ready(function(){initNavTree('classrpc_1_1Server.html',''); initResi
 <div class="dynheader">
 Inheritance diagram for rpc::Server:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classrpc_1_1Server__inherit__graph.svg" width="368" height="492"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classrpc_1_1Server__inherit__graph.svg" width="368" height="507"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -148,6 +148,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a8e0c5dcec5f72fce2e929e28b24f4e24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a251f49078124dd3e8e577c2d4f659fe2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrpc_1_1Server.html#a251f49078124dd3e8e577c2d4f659fe2">remove</a> (<a class="el" href="structrpc_1_1Context.html">Context</a> const *ptr)</td></tr>
 <tr class="separator:a251f49078124dd3e8e577c2d4f659fe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae06c69840bf4d54f026e7948042bf471"><td class="memItemLeft" align="right" valign="top">kj::Promise&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrpc_1_1Server.html#ae06c69840bf4d54f026e7948042bf471">authenticate</a> (kj::AuthenticatedStream &amp;&amp;connection)</td></tr>
+<tr class="separator:ae06c69840bf4d54f026e7948042bf471"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classrunnable"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classrunnable')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classrunnable.html">runnable</a></td></tr>
 <tr class="memitem:a29c37cd6327ee6c3a896628ecd6935df inherit pro_methods_classrunnable"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrunnable.html#a29c37cd6327ee6c3a896628ecd6935df">setup</a> ()</td></tr>
 <tr class="separator:a29c37cd6327ee6c3a896628ecd6935df inherit pro_methods_classrunnable"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -256,6 +258,32 @@ Additional Inherited Members</h2></td></tr>
           <td>(</td>
           <td class="paramtype">kj::Own&lt; kj::ConnectionReceiver &gt; &amp;&amp;&#160;</td>
           <td class="paramname"><em>listener</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae06c69840bf4d54f026e7948042bf471" name="ae06c69840bf4d54f026e7948042bf471"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae06c69840bf4d54f026e7948042bf471">&#9670;&nbsp;</a></span>authenticate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">kj::Promise&lt; void &gt; Server::authenticate </td>
+          <td>(</td>
+          <td class="paramtype">kj::AuthenticatedStream &amp;&amp;&#160;</td>
+          <td class="paramname"><em>connection</em></td><td>)</td>
           <td></td>
         </tr>
       </table>

@@ -80,27 +80,28 @@
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="classrpc_1_1Server.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="232,-144 232,-289 339,-289 339,-144 232,-144"/>
-<text text-anchor="middle" x="285.5" y="-277" font-family="Helvetica,sans-Serif" font-size="10.00">rpc::Server</text>
-<polyline fill="none" stroke="black" points="232,-270 339,-270 "/>
-<text text-anchor="start" x="240" y="-258" font-family="Helvetica,sans-Serif" font-size="10.00"># interface</text>
-<text text-anchor="start" x="240" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00"># contexts_mutex</text>
-<text text-anchor="start" x="240" y="-236" font-family="Helvetica,sans-Serif" font-size="10.00"># contexts</text>
-<text text-anchor="start" x="240" y="-225" font-family="Helvetica,sans-Serif" font-size="10.00"># io</text>
-<polyline fill="none" stroke="black" points="232,-218 339,-218 "/>
-<text text-anchor="start" x="240" y="-206" font-family="Helvetica,sans-Serif" font-size="10.00">+ Server()</text>
-<text text-anchor="start" x="240" y="-195" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~Server()</text>
-<text text-anchor="start" x="240" y="-184" font-family="Helvetica,sans-Serif" font-size="10.00">+ broadcast()</text>
-<text text-anchor="start" x="240" y="-173" font-family="Helvetica,sans-Serif" font-size="10.00">+ datachannel()</text>
-<text text-anchor="start" x="240" y="-162" font-family="Helvetica,sans-Serif" font-size="10.00"># accept()</text>
-<text text-anchor="start" x="240" y="-151" font-family="Helvetica,sans-Serif" font-size="10.00"># remove()</text>
+<polygon fill="none" stroke="black" points="232,-138.5 232,-294.5 339,-294.5 339,-138.5 232,-138.5"/>
+<text text-anchor="middle" x="285.5" y="-282.5" font-family="Helvetica,sans-Serif" font-size="10.00">rpc::Server</text>
+<polyline fill="none" stroke="black" points="232,-275.5 339,-275.5 "/>
+<text text-anchor="start" x="240" y="-263.5" font-family="Helvetica,sans-Serif" font-size="10.00"># interface</text>
+<text text-anchor="start" x="240" y="-252.5" font-family="Helvetica,sans-Serif" font-size="10.00"># contexts_mutex</text>
+<text text-anchor="start" x="240" y="-241.5" font-family="Helvetica,sans-Serif" font-size="10.00"># contexts</text>
+<text text-anchor="start" x="240" y="-230.5" font-family="Helvetica,sans-Serif" font-size="10.00"># io</text>
+<polyline fill="none" stroke="black" points="232,-223.5 339,-223.5 "/>
+<text text-anchor="start" x="240" y="-211.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Server()</text>
+<text text-anchor="start" x="240" y="-200.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~Server()</text>
+<text text-anchor="start" x="240" y="-189.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ broadcast()</text>
+<text text-anchor="start" x="240" y="-178.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ datachannel()</text>
+<text text-anchor="start" x="240" y="-167.5" font-family="Helvetica,sans-Serif" font-size="10.00"># accept()</text>
+<text text-anchor="start" x="240" y="-156.5" font-family="Helvetica,sans-Serif" font-size="10.00"># remove()</text>
+<text text-anchor="start" x="240" y="-145.5" font-family="Helvetica,sans-Serif" font-size="10.00"># authenticate()</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
 <title>Node1&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M317.52,-321.84C314.14,-310.82 310.75,-299.76 307.5,-289.16"/>
+<path fill="none" stroke="midnightblue" d="M317.48,-321.7C314.71,-312.66 311.92,-303.59 309.22,-294.77"/>
 <polygon fill="none" stroke="midnightblue" points="314.21,-322.95 320.49,-331.49 320.9,-320.9 314.21,-322.95"/>
 </g>
 <!-- Node5 -->

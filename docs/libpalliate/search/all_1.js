@@ -22,5 +22,6 @@ var searchData=
   ['atomic_5fstack_2eh_19',['atomic_stack.h',['../atomic__stack_8h.html',1,'']]],
   ['atomic_5fstack_3c_20std_3a_3apair_3c_20client_20_2a_2c_20reader_5ft_20_3e_20_3e_20',['atomic_stack&lt; std::pair&lt; Client *, reader_t &gt; &gt;',['../classatomic__stack.html',1,'']]],
   ['attach_21',['attach',['../classui.html#a1b194bf77cb4e97083a9612d9996cec7',1,'ui']]],
-  ['attention_22',['attention',['../classwindow.html#a69a48b055884eee77f8b4517ee916e93',1,'window']]]
+  ['attention_22',['attention',['../classwindow.html#a69a48b055884eee77f8b4517ee916e93',1,'window']]],
+  ['authenticate_23',['authenticate',['../classrpc_1_1Server.html#ae06c69840bf4d54f026e7948042bf471',1,'rpc::Server']]]
 ];

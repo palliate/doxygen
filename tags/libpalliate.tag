@@ -3244,6 +3244,13 @@
       <anchor>a251f49078124dd3e8e577c2d4f659fe2</anchor>
       <arglist>(Context const *ptr)</arglist>
     </member>
+    <member kind="function" protection="protected">
+      <type>kj::Promise&lt; void &gt;</type>
+      <name>authenticate</name>
+      <anchorfile>classrpc_1_1Server.html</anchorfile>
+      <anchor>ae06c69840bf4d54f026e7948042bf471</anchor>
+      <arglist>(kj::AuthenticatedStream &amp;&amp;connection)</arglist>
+    </member>
     <member kind="variable" protection="protected">
       <type>capnp::Capability::Client</type>
       <name>interface</name>

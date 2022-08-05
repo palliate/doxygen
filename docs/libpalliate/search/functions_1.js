@@ -11,5 +11,6 @@ var searchData=
   ['atomic_5freqresp_8',['atomic_reqresp',['../classatomic__reqresp.html#ae973fb4a0074544c134a8d14175beeb5',1,'atomic_reqresp']]],
   ['atomic_5fsemaphore_9',['atomic_semaphore',['../classatomic__semaphore.html#ac6fc15bf48282667feebefea2c7ac288',1,'atomic_semaphore']]],
   ['attach_10',['attach',['../classui.html#a1b194bf77cb4e97083a9612d9996cec7',1,'ui']]],
-  ['attention_11',['attention',['../classwindow.html#a69a48b055884eee77f8b4517ee916e93',1,'window']]]
+  ['attention_11',['attention',['../classwindow.html#a69a48b055884eee77f8b4517ee916e93',1,'window']]],
+  ['authenticate_12',['authenticate',['../classrpc_1_1Server.html#ae06c69840bf4d54f026e7948042bf471',1,'rpc::Server']]]
 ];
