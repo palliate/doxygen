@@ -56,8 +56,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../index.html",
-"classmpsc.html",
-"structelement.html"
+"classlogging_1_1endpoint_1_1terminal.html#a2b70ef201f1dd5602a3a1427bd01afa8",
+"structelement.html#a1a9dc3402e5120a14646f6c1eddcbb1e"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

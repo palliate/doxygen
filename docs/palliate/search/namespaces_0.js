@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['detail_0',['detail',['../../libpalliate/namespacedetail.html',1,'']]]
+  ['auth_0',['auth',['../../libpalliate/namespaceauth.html',1,'']]]
 ];

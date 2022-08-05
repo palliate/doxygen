@@ -1,6 +1,10 @@
 var searchData=
 [
-  ['name_0',['name',['../../libpalliate/classplugin.html#aeeb8d123636d7045f06b0498ae71c8c7',1,'plugin::name()'],['../classlibrary.html#a1b94bcc86dac75b5579d03f0f6412d4d',1,'library::name()']]],
-  ['network_1',['network',['../../libpalliate/structrpc_1_1Context.html#a6271873a8b9ea182c388645d6764c963',1,'rpc::Context']]],
-  ['next_2',['next',['../../libpalliate/structmemory_1_1bin__t.html#ac8ea5a4ba03c095891eec4c5748a5d18',1,'memory::bin_t::next()'],['../../libpalliate/structatomic__mpsc_1_1element.html#a0285db49c7c272055ff62e1589e7c857',1,'atomic_mpsc::element::next()'],['../../libpalliate/structatomic__stack_1_1node.html#aad4b4c6db6239edd47d375e9486a03d0',1,'atomic_stack::node::next()'],['../../libpalliate/structmemory_1_1node__t.html#acb9db24c0ef15841e3df4e56210c2a22',1,'memory::node_t::next()']]]
+  ['max_0',['max',['../../libpalliate/structelement.html#a76c4ec977e886161bc2b62a00a0852e6',1,'element']]],
+  ['maximized_1',['maximized',['../../libpalliate/classwindow.html#aef77ff2dda8ad9f644927c92da52a5a9a8766a1d48ad7c64d1c61aa0ef5c42faa',1,'window']]],
+  ['message_5fevent_2',['message_event',['../../libpalliate/classtransport_1_1Client.html#a35e6ca77bfbec40a7a57e64ff1488a49',1,'transport::Client::message_event()'],['../../libpalliate/classtransport_1_1Server.html#a4b84e62f7fdd5527c6c0c52e78b5e87f',1,'transport::Server::message_event()']]],
+  ['min_5flevel_3',['min_level',['../../libpalliate/classlogging_1_1Logger.html#aeca20d74efe39904a658ea6038b57790',1,'logging::Logger']]],
+  ['minimized_4',['minimized',['../../libpalliate/classwindow.html#aef77ff2dda8ad9f644927c92da52a5a9a237529193a9dfc34420d7e64f538708f',1,'window']]],
+  ['missed_5',['missed',['../../libpalliate/classatomic__queue.html#af232f774d78c1a601f8bf0a89288d404',1,'atomic_queue::missed()'],['../../libpalliate/classatomic__reqresp.html#ae02659f7abad946880b663a74ae1e084',1,'atomic_reqresp::missed()'],['../../libpalliate/classatomic__semaphore.html#abea314ab2dd8107ed882495cff0d8231',1,'atomic_semaphore::missed()']]],
+  ['moved_6',['moved',['../classglfw__window.html#a61944bcf3bf3b0715d8f0d3bed2b15b1',1,'glfw_window']]]
 ];

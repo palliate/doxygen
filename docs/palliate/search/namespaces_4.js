@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['rpc_0',['rpc',['../../libpalliate/namespacerpc.html',1,'']]],
-  ['tcp_1',['tcp',['../../libpalliate/namespacerpc_1_1tcp.html',1,'rpc']]]
+  ['patricia_0',['patricia',['../../libpalliate/structpatricia_1_1element__t.html',1,'']]]
 ];

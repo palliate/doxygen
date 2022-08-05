@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['tcp_0',['TCP',['../../libpalliate/namespacetransport_1_1TCP.html',1,'transport']]],
-  ['toml_1',['toml',['../../libpalliate/namespacetoml.html',1,'']]],
-  ['transport_2',['transport',['../../libpalliate/namespacetransport.html',1,'']]]
+  ['rpc_0',['rpc',['../../libpalliate/namespacerpc.html',1,'']]],
+  ['tcp_1',['tcp',['../../libpalliate/namespacerpc_1_1tcp.html',1,'rpc']]]
 ];

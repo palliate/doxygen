@@ -7,6 +7,10 @@ var hierarchy =
     [ "atomic_reqresp", "../libpalliate/classatomic__reqresp.html", null ],
     [ "atomic_semaphore", "../libpalliate/classatomic__semaphore.html", null ],
     [ "atomic_stack< typename T >", "../libpalliate/classatomic__stack.html", null ],
+    [ "auth::Authenticator", "../libpalliate/classauth_1_1Authenticator.html", [
+      [ "auth::PSK", "../libpalliate/classauth_1_1PSK.html", null ],
+      [ "auth::Token", "../libpalliate/classauth_1_1Token.html", null ]
+    ] ],
     [ "backend", "../libpalliate/classbackend.html", [
       [ "glfw_backend", "classglfw__backend.html", null ],
       [ "tray", "../libpalliate/classtray.html", [
@@ -27,7 +31,6 @@ var hierarchy =
     [ "Configuration", "classConfiguration.html", null ],
     [ "rpc::Context", "../libpalliate/structrpc_1_1Context.html", null ],
     [ "context_guard", "structcontext__guard.html", null ],
-    [ "rpc::DataChannel< typename T >", "../libpalliate/classrpc_1_1DataChannel.html", null ],
     [ "atomic_cr< unsigned size >::element", "../libpalliate/classatomic__cr_1_1element.html", null ],
     [ "atomic_mpsc::element", "../libpalliate/structatomic__mpsc_1_1element.html", null ],
     [ "element", "../libpalliate/structelement.html", null ],

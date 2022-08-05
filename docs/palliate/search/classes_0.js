@@ -8,5 +8,6 @@ var searchData=
   ['atomic_5fqueue_5',['atomic_queue',['../../libpalliate/classatomic__queue.html',1,'']]],
   ['atomic_5freqresp_6',['atomic_reqresp',['../../libpalliate/classatomic__reqresp.html',1,'']]],
   ['atomic_5fsemaphore_7',['atomic_semaphore',['../../libpalliate/classatomic__semaphore.html',1,'']]],
-  ['atomic_5fstack_8',['atomic_stack',['../../libpalliate/classatomic__stack.html',1,'']]]
+  ['atomic_5fstack_8',['atomic_stack',['../../libpalliate/classatomic__stack.html',1,'']]],
+  ['authenticator_9',['Authenticator',['../../libpalliate/classauth_1_1Authenticator.html',1,'auth']]]
 ];

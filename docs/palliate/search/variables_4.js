@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['ebo_0',['EBO',['../classglfw__window.html#a03ccca9aacc13f1a2a5bc14a3daba203',1,'glfw_window']]],
-  ['err_5fhandler_1',['err_handler',['../../libpalliate/structrpc_1_1IO.html#a8b0d81a748170ad531fc767506e987c9',1,'rpc::IO']]],
-  ['error_2',['error',['../../libpalliate/namespacelogging.html#a72e7a108a3928d5e407b6a7723799826a66700fb5e035d3906738d73fc57579f0',1,'logging']]],
-  ['executor_3',['executor',['../../libpalliate/structrpc_1_1IO.html#a8eb6520f3377c77148c631eddc7f517b',1,'rpc::IO']]],
-  ['expiration_5ftime_4',['expiration_time',['../../libpalliate/structelement.html#a47aedbe14fa4a3d2a854a28f33298295',1,'element::expiration_time()'],['../../libpalliate/structelement.html#a1a9dc3402e5120a14646f6c1eddcbb1e',1,'element::expiration_time()']]]
+  ['data_0',['data',['../../libpalliate/structlogging_1_1Annotated.html#a5bd6d6cf2a251d8eabf4f5b6171f2dff',1,'logging::Annotated::data()'],['../../libpalliate/structelement.html#a44febad4972af6eca8253bd78413f230',1,'element::data()'],['../../libpalliate/structatomic__stack_1_1node.html#ac93d7137bbf3e8995c6c2e787a1848ff',1,'atomic_stack::node::data()'],['../../libpalliate/classproducer.html#ad99965ecc495a216d5527461b10a03b9',1,'producer::data()']]],
+  ['debug_1',['debug',['../../libpalliate/namespacelogging.html#a72e7a108a3928d5e407b6a7723799826aa8e7bccd55418c8ecc7a23bb5d9afcff',1,'logging']]],
+  ['delimeter_2',['delimeter',['../../libpalliate/structutil_1_1uuid.html#a25bd0ca81702648da80e0aee3ee15a5a',1,'util::uuid']]]
 ];
