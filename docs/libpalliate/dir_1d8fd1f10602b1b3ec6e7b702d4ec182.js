@@ -7,8 +7,6 @@ var dir_1d8fd1f10602b1b3ec6e7b702d4ec182 =
     [ "rpc/constants.h", "rpc_2constants_8h.html", "rpc_2constants_8h" ],
     [ "context.cpp", "context_8cpp.html", null ],
     [ "context.h", "context_8h.html", "context_8h" ],
-    [ "data_channel.cpp", "data__channel_8cpp.html", null ],
-    [ "data_channel.h", "data__channel_8h.html", "data__channel_8h" ],
     [ "error_handler.h", "error__handler_8h.html", "error__handler_8h" ],
     [ "io.h", "io_8h.html", "io_8h" ],
     [ "rpc/server.cpp", "rpc_2server_8cpp.html", null ],

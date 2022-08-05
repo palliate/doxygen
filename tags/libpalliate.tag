@@ -1,6 +1,41 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
 <tagfile doxygen_version="1.9.4" doxygen_gitid="5d15657a55555e6181a7830a5c723af75e7577e2">
   <compound kind="file">
+    <name>authenticator.h</name>
+    <path>/__w/libpalliate/libpalliate/src/auth/</path>
+    <filename>authenticator_8h.html</filename>
+    <class kind="class">auth::Authenticator</class>
+    <namespace>auth</namespace>
+  </compound>
+  <compound kind="file">
+    <name>psk.cpp</name>
+    <path>/__w/libpalliate/libpalliate/src/auth/</path>
+    <filename>psk_8cpp.html</filename>
+    <includes id="psk_8h" name="psk.h" local="yes" imported="no">psk.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>psk.h</name>
+    <path>/__w/libpalliate/libpalliate/src/auth/</path>
+    <filename>psk_8h.html</filename>
+    <includes id="authenticator_8h" name="authenticator.h" local="yes" imported="no">authenticator.h</includes>
+    <class kind="class">auth::PSK</class>
+    <namespace>auth</namespace>
+  </compound>
+  <compound kind="file">
+    <name>token.cpp</name>
+    <path>/__w/libpalliate/libpalliate/src/auth/</path>
+    <filename>token_8cpp.html</filename>
+    <includes id="token_8h" name="token.h" local="yes" imported="no">token.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>token.h</name>
+    <path>/__w/libpalliate/libpalliate/src/auth/</path>
+    <filename>token_8h.html</filename>
+    <includes id="authenticator_8h" name="authenticator.h" local="yes" imported="no">authenticator.h</includes>
+    <class kind="class">auth::Token</class>
+    <namespace>auth</namespace>
+  </compound>
+  <compound kind="file">
     <name>atomic_cr.h</name>
     <path>/__w/libpalliate/libpalliate/src/datastructures/atomic/</path>
     <filename>atomic__cr_8h.html</filename>
@@ -526,7 +561,7 @@
     <includes id="context_8h" name="context.h" local="yes" imported="no">context.h</includes>
     <includes id="error__handler_8h" name="error_handler.h" local="yes" imported="no">error_handler.h</includes>
     <includes id="io_8h" name="io.h" local="yes" imported="no">io.h</includes>
-    <includes id="data__channel_8h" name="data_channel.h" local="no" imported="no">rpc/data_channel.h</includes>
+    <includes id="authenticator_8h" name="authenticator.h" local="no" imported="no">auth/authenticator.h</includes>
     <class kind="class">rpc::Server</class>
     <namespace>rpc</namespace>
   </compound>
@@ -660,19 +695,6 @@
     <path>/__w/libpalliate/libpalliate/src/rpc/</path>
     <filename>context_8h.html</filename>
     <class kind="struct">rpc::Context</class>
-    <namespace>rpc</namespace>
-  </compound>
-  <compound kind="file">
-    <name>data_channel.cpp</name>
-    <path>/__w/libpalliate/libpalliate/src/rpc/</path>
-    <filename>data__channel_8cpp.html</filename>
-  </compound>
-  <compound kind="file">
-    <name>data_channel.h</name>
-    <path>/__w/libpalliate/libpalliate/src/rpc/</path>
-    <filename>data__channel_8h.html</filename>
-    <includes id="io_8h" name="io.h" local="yes" imported="no">io.h</includes>
-    <class kind="class">rpc::DataChannel</class>
     <namespace>rpc</namespace>
   </compound>
   <compound kind="file">
@@ -1290,6 +1312,17 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>auth::Authenticator</name>
+    <filename>classauth_1_1Authenticator.html</filename>
+    <member kind="function" virtualness="pure">
+      <type>virtual bool</type>
+      <name>check</name>
+      <anchorfile>classauth_1_1Authenticator.html</anchorfile>
+      <anchor>a6ec9b5a141feda163d5edf0e3e6e1452</anchor>
+      <arglist>(uint64_t token)=0</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>backend</name>
     <filename>classbackend.html</filename>
     <member kind="function" virtualness="virtual">
@@ -1826,32 +1859,6 @@
       <anchorfile>structrpc_1_1Context.html</anchorfile>
       <anchor>aaf008c1b1d2e7f18bd4b0a9aa4b5eee7</anchor>
       <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>rpc::DataChannel</name>
-    <filename>classrpc_1_1DataChannel.html</filename>
-    <templarg>typename T</templarg>
-    <member kind="function">
-      <type></type>
-      <name>DataChannel</name>
-      <anchorfile>classrpc_1_1DataChannel.html</anchorfile>
-      <anchor>a59bca2ae17f3abeb2cbf82a18e7698e9</anchor>
-      <arglist>(rpc::IO &amp;_io)</arglist>
-    </member>
-    <member kind="function">
-      <type>kj::Promise&lt; void &gt;</type>
-      <name>stream</name>
-      <anchorfile>classrpc_1_1DataChannel.html</anchorfile>
-      <anchor>afc9457c2ef030ee3d6ea382ccea70958</anchor>
-      <arglist>(::DataChannel&lt; T &gt;::Server::StreamContext context) override</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>send</name>
-      <anchorfile>classrpc_1_1DataChannel.html</anchorfile>
-      <anchor>adcf00eb2d9a4feab5193c235823f3058</anchor>
-      <arglist>(T::Reader message)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -2974,6 +2981,25 @@
       <arglist></arglist>
     </member>
   </compound>
+  <compound kind="class">
+    <name>auth::PSK</name>
+    <filename>classauth_1_1PSK.html</filename>
+    <base>auth::Authenticator</base>
+    <member kind="function">
+      <type></type>
+      <name>PSK</name>
+      <anchorfile>classauth_1_1PSK.html</anchorfile>
+      <anchor>a6c762e1cd46744d84173ea74dbb118ee</anchor>
+      <arglist>(uint64_t _psk)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>check</name>
+      <anchorfile>classauth_1_1PSK.html</anchorfile>
+      <anchor>a62cba1a3c1e18ef245d39024b636a778</anchor>
+      <arglist>(uint64_t token) override</arglist>
+    </member>
+  </compound>
   <compound kind="struct">
     <name>util::rect</name>
     <filename>structutil_1_1rect.html</filename>
@@ -3095,20 +3121,6 @@
     </member>
     <member kind="function">
       <type>void</type>
-      <name>run</name>
-      <anchorfile>classrunnable.html</anchorfile>
-      <anchor>ad28f7f63b693435472d6369b80b29721</anchor>
-      <arglist>(F init, Args &amp;&amp;... args)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>run</name>
-      <anchorfile>classrunnable.html</anchorfile>
-      <anchor>a2a5f3c053d7568a16261240540662bde</anchor>
-      <arglist>(callback_f _callback, F init, Args &amp;&amp;... args)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
       <name>stop</name>
       <anchorfile>classrunnable.html</anchorfile>
       <anchor>ab7117095b1382678c42c4979871f1d25</anchor>
@@ -3201,7 +3213,7 @@
     <name>rpc::Server</name>
     <filename>classrpc_1_1Server.html</filename>
     <base virtualness="virtual">runnable</base>
-    <base>Factory&lt; Server, capnp::Capability::Client &gt;</base>
+    <base>Factory&lt; Server, capnp::Capability::Client, auth::Authenticator * &gt;</base>
     <member kind="function">
       <type></type>
       <name>Server</name>
@@ -3222,13 +3234,6 @@
       <anchorfile>classrpc_1_1Server.html</anchorfile>
       <anchor>a7d4e4af7a6de4089779ad8f2324262b1</anchor>
       <arglist>(capnp::MessageBuilder *message)</arglist>
-    </member>
-    <member kind="function">
-      <type>kj::Own&lt; DataChannel&lt; T &gt; &gt;</type>
-      <name>datachannel</name>
-      <anchorfile>classrpc_1_1Server.html</anchorfile>
-      <anchor>a2aebe33ee25ecfebc788a2803e7e2444</anchor>
-      <arglist>()</arglist>
     </member>
     <member kind="function" protection="protected">
       <type>void</type>
@@ -3259,10 +3264,10 @@
       <arglist></arglist>
     </member>
     <member kind="variable" protection="protected">
-      <type>std::mutex</type>
-      <name>contexts_mutex</name>
+      <type>auth::Authenticator *</type>
+      <name>authenticator</name>
       <anchorfile>classrpc_1_1Server.html</anchorfile>
-      <anchor>a461e850d1c05a0fe406674691fb6a66e</anchor>
+      <anchor>a982f316a7a901f12bab87ccc445d8ca9</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable" protection="protected">
@@ -3287,8 +3292,8 @@
       <type></type>
       <name>Server</name>
       <anchorfile>classrpc_1_1tcp_1_1Server.html</anchorfile>
-      <anchor>a9f629587f4e16e88642a7fdcc576cf8f</anchor>
-      <arglist>(config_t const &amp;_config, capnp::Capability::Client _interface)</arglist>
+      <anchor>a453c7879c2a7e54073e51bbf59f7ba5b</anchor>
+      <arglist>(config_t const &amp;_config, capnp::Capability::Client _interface, auth::Authenticator *_auth)</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -3443,6 +3448,18 @@
       <anchorfile>classServers.html</anchorfile>
       <anchor>a79ad2cb8b9fa26f87845cf14af6225db</anchor>
       <arglist>(std::function&lt; void(Client *, reader_t)&gt; message_event)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>auth::Token</name>
+    <filename>classauth_1_1Token.html</filename>
+    <base>auth::Authenticator</base>
+    <member kind="function">
+      <type>bool</type>
+      <name>check</name>
+      <anchorfile>classauth_1_1Token.html</anchorfile>
+      <anchor>a08bf03f1726930dd281257cd88a1ace0</anchor>
+      <arglist>(uint64_t token) override</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -3746,6 +3763,13 @@
     <filename>conceptutil_1_1toml__convertible.html</filename>
   </compound>
   <compound kind="namespace">
+    <name>auth</name>
+    <filename>namespaceauth.html</filename>
+    <class kind="class">auth::Authenticator</class>
+    <class kind="class">auth::PSK</class>
+    <class kind="class">auth::Token</class>
+  </compound>
+  <compound kind="namespace">
     <name>detail</name>
     <filename>namespacedetail.html</filename>
     <member kind="function">
@@ -3860,7 +3884,6 @@
     <namespace>rpc::tcp</namespace>
     <class kind="class">rpc::Client</class>
     <class kind="struct">rpc::Context</class>
-    <class kind="class">rpc::DataChannel</class>
     <class kind="struct">rpc::ErrorHandler</class>
     <class kind="struct">rpc::IO</class>
     <class kind="class">rpc::Server</class>

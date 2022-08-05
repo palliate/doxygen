@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.4"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>libpalliate: rpc::DataChannel&lt; T &gt; Class Template Reference</title>
+<title>libpalliate: auth::PSK Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -73,7 +73,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('classrpc_1_1DataChannel.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('classauth_1_1PSK.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -94,74 +94,43 @@ $(document).ready(function(){initNavTree('classrpc_1_1DataChannel.html',''); ini
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="classrpc_1_1DataChannel-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">rpc::DataChannel&lt; T &gt; Class Template Reference</div></div>
+<a href="classauth_1_1PSK-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">auth::PSK Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;data_channel.h&gt;</code></p>
+<p><code>#include &lt;psk.h&gt;</code></p>
 <div class="dynheader">
-Inheritance diagram for rpc::DataChannel&lt; T &gt;:</div>
+Inheritance diagram for auth::PSK:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classrpc_1_1DataChannel__inherit__graph.svg" width="206" height="243"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classauth_1_1PSK__inherit__graph.svg" width="158" height="228"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a59bca2ae17f3abeb2cbf82a18e7698e9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrpc_1_1DataChannel.html#a59bca2ae17f3abeb2cbf82a18e7698e9">DataChannel</a> (<a class="el" href="structrpc_1_1IO.html">rpc::IO</a> &amp;_io)</td></tr>
-<tr class="separator:a59bca2ae17f3abeb2cbf82a18e7698e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc9457c2ef030ee3d6ea382ccea70958"><td class="memItemLeft" align="right" valign="top">kj::Promise&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrpc_1_1DataChannel.html#afc9457c2ef030ee3d6ea382ccea70958">stream</a> (<a class="el" href="classrpc_1_1DataChannel.html#a59bca2ae17f3abeb2cbf82a18e7698e9">::DataChannel</a>&lt; T &gt;::Server::StreamContext context) override</td></tr>
-<tr class="separator:afc9457c2ef030ee3d6ea382ccea70958"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adcf00eb2d9a4feab5193c235823f3058"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrpc_1_1DataChannel.html#adcf00eb2d9a4feab5193c235823f3058">send</a> (T::Reader message)</td></tr>
-<tr class="separator:adcf00eb2d9a4feab5193c235823f3058"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c762e1cd46744d84173ea74dbb118ee"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classauth_1_1PSK.html#a6c762e1cd46744d84173ea74dbb118ee">PSK</a> (uint64_t _psk)</td></tr>
+<tr class="separator:a6c762e1cd46744d84173ea74dbb118ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62cba1a3c1e18ef245d39024b636a778"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classauth_1_1PSK.html#a62cba1a3c1e18ef245d39024b636a778">check</a> (uint64_t token) override</td></tr>
+<tr class="separator:a62cba1a3c1e18ef245d39024b636a778"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ec9b5a141feda163d5edf0e3e6e1452"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classauth_1_1Authenticator.html#a6ec9b5a141feda163d5edf0e3e6e1452">check</a> (uint64_t token)=0</td></tr>
+<tr class="separator:a6ec9b5a141feda163d5edf0e3e6e1452"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a59bca2ae17f3abeb2cbf82a18e7698e9" name="a59bca2ae17f3abeb2cbf82a18e7698e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59bca2ae17f3abeb2cbf82a18e7698e9">&#9670;&nbsp;</a></span>DataChannel()</h2>
+<a id="a6c762e1cd46744d84173ea74dbb118ee" name="a6c762e1cd46744d84173ea74dbb118ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c762e1cd46744d84173ea74dbb118ee">&#9670;&nbsp;</a></span>PSK()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classrpc_1_1DataChannel.html">rpc::DataChannel</a>&lt; T &gt;::DataChannel </td>
+          <td class="memname">auth::PSK::PSK </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structrpc_1_1IO.html">rpc::IO</a> &amp;&#160;</td>
-          <td class="paramname"><em>_io</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="adcf00eb2d9a4feab5193c235823f3058" name="adcf00eb2d9a4feab5193c235823f3058"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adcf00eb2d9a4feab5193c235823f3058">&#9670;&nbsp;</a></span>send()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classrpc_1_1DataChannel.html">rpc::DataChannel</a>&lt; T &gt;::send </td>
-          <td>(</td>
-          <td class="paramtype">T::Reader&#160;</td>
-          <td class="paramname"><em>message</em></td><td>)</td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>_psk</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -174,36 +143,38 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="afc9457c2ef030ee3d6ea382ccea70958" name="afc9457c2ef030ee3d6ea382ccea70958"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afc9457c2ef030ee3d6ea382ccea70958">&#9670;&nbsp;</a></span>stream()</h2>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a62cba1a3c1e18ef245d39024b636a778" name="a62cba1a3c1e18ef245d39024b636a778"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62cba1a3c1e18ef245d39024b636a778">&#9670;&nbsp;</a></span>check()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">kj::Promise&lt; void &gt; <a class="el" href="classrpc_1_1DataChannel.html">rpc::DataChannel</a>&lt; T &gt;::stream </td>
+          <td class="memname">bool PSK::check </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classrpc_1_1DataChannel.html#a59bca2ae17f3abeb2cbf82a18e7698e9">::DataChannel</a>&lt; T &gt;::Server::StreamContext&#160;</td>
-          <td class="paramname"><em>context</em></td><td>)</td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>token</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
+<p>Implements <a class="el" href="classauth_1_1Authenticator.html#a6ec9b5a141feda163d5edf0e3e6e1452">auth::Authenticator</a>.</p>
+
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="data__channel_8h.html">data_channel.h</a></li>
+<hr/>The documentation for this class was generated from the following files:<ul>
+<li><a class="el" href="psk_8h.html">psk.h</a></li>
+<li><a class="el" href="psk_8cpp.html">psk.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -211,7 +182,7 @@ template&lt;typename T &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespacerpc.html">rpc</a></li><li class="navelem"><a class="el" href="classrpc_1_1DataChannel.html">DataChannel</a></li>
+    <li class="navelem"><a class="el" href="namespaceauth.html">auth</a></li><li class="navelem"><a class="el" href="classauth_1_1PSK.html">PSK</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4, using the excellent <a href="https://github.com/jothepro/doxygen-awesome-css">Doxygen Awesome</a> Theme</li>
   </ul>
 </div>

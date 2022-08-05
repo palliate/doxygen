@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['io_0',['IO',['../structrpc_1_1IO.html',1,'rpc']]],
-  ['ivshmem_1',['ivshmem',['../classivshmem.html',1,'']]]
+  ['leaf_5ft_0',['leaf_t',['../structpatricia_1_1leaf__t.html',1,'patricia']]],
+  ['logger_1',['Logger',['../classlogging_1_1Logger.html',1,'logging']]]
 ];

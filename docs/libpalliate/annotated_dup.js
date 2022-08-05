@@ -1,5 +1,10 @@
 var annotated_dup =
 [
+    [ "auth", "namespaceauth.html", [
+      [ "Authenticator", "classauth_1_1Authenticator.html", "classauth_1_1Authenticator" ],
+      [ "PSK", "classauth_1_1PSK.html", "classauth_1_1PSK" ],
+      [ "Token", "classauth_1_1Token.html", "classauth_1_1Token" ]
+    ] ],
     [ "logging", "namespacelogging.html", [
       [ "Annotated", "structlogging_1_1Annotated.html", "structlogging_1_1Annotated" ],
       [ "Endpoint", "classlogging_1_1Endpoint.html", "classlogging_1_1Endpoint" ],
@@ -22,7 +27,6 @@ var annotated_dup =
       ] ],
       [ "Client", "classrpc_1_1Client.html", "classrpc_1_1Client" ],
       [ "Context", "structrpc_1_1Context.html", "structrpc_1_1Context" ],
-      [ "DataChannel", "classrpc_1_1DataChannel.html", "classrpc_1_1DataChannel" ],
       [ "ErrorHandler", "structrpc_1_1ErrorHandler.html", "structrpc_1_1ErrorHandler" ],
       [ "IO", "structrpc_1_1IO.html", "structrpc_1_1IO" ],
       [ "Server", "classrpc_1_1Server.html", "classrpc_1_1Server" ]

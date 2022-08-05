@@ -24,10 +24,13 @@ var searchData=
   ['to_5fptr_21',['to_ptr',['../classmemory_1_1manager.html#a481f7f9fb3f7c762c1f004a04b37a0f5',1,'memory::manager']]],
   ['to_5fstr_22',['to_str',['../structpatricia_1_1leaf__t.html#a06dab8fbf2f78e1a86e685c474052dde',1,'patricia::leaf_t::to_str()'],['../structmemory_1_1node__t.html#a53ca033f775beed0f47f820501dce690',1,'memory::node_t::to_str()'],['../structutil_1_1uuid.html#a4ebe9897d9cfcd9586367ffdf78475e1',1,'util::uuid::to_str()']]],
   ['toggle_5ffullscreen_23',['toggle_fullscreen',['../classui.html#aec6b0fed1a4ba4c866ccd4302bd1c33a',1,'ui']]],
-  ['toml_24',['toml',['../namespacetoml.html',1,'']]],
-  ['toml_2eh_25',['toml.h',['../toml_8h.html',1,'']]],
-  ['transport_26',['transport',['../namespacetransport.html',1,'']]],
-  ['traverse_27',['traverse',['../structpatricia_1_1node__t.html#aecf86dbf8935ae47f32522f771ceff9d',1,'patricia::node_t']]],
-  ['tray_28',['tray',['../classtray.html',1,'']]],
-  ['tray_2eh_29',['tray.h',['../tray_8h.html',1,'']]]
+  ['token_24',['Token',['../classauth_1_1Token.html',1,'auth']]],
+  ['token_2ecpp_25',['token.cpp',['../token_8cpp.html',1,'']]],
+  ['token_2eh_26',['token.h',['../token_8h.html',1,'']]],
+  ['toml_27',['toml',['../namespacetoml.html',1,'']]],
+  ['toml_2eh_28',['toml.h',['../toml_8h.html',1,'']]],
+  ['transport_29',['transport',['../namespacetransport.html',1,'']]],
+  ['traverse_30',['traverse',['../structpatricia_1_1node__t.html#aecf86dbf8935ae47f32522f771ceff9d',1,'patricia::node_t']]],
+  ['tray_31',['tray',['../classtray.html',1,'']]],
+  ['tray_2eh_32',['tray.h',['../tray_8h.html',1,'']]]
 ];

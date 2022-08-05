@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['element_0',['element',['../classatomic__cr_1_1element.html',1,'atomic_cr&lt; size &gt;::element'],['../structatomic__mpsc_1_1element.html',1,'atomic_mpsc::element'],['../structelement.html',1,'element']]],
-  ['element_5ft_1',['element_t',['../structmemory_1_1element__t.html',1,'memory::element_t'],['../structmpsc_1_1element__t.html',1,'mpsc&lt; T, size &gt;::element_t'],['../structpatricia_1_1element__t.html',1,'patricia::element_t']]],
-  ['endpoint_2',['Endpoint',['../classlogging_1_1Endpoint.html',1,'logging']]],
-  ['errorhandler_3',['ErrorHandler',['../structrpc_1_1ErrorHandler.html',1,'rpc']]]
+  ['factory_0',['Factory',['../classutil_1_1Factory.html',1,'util']]],
+  ['factory_3c_20client_20_3e_1',['Factory&lt; Client &gt;',['../classutil_1_1Factory.html',1,'util']]],
+  ['factory_3c_20endpoint_20_3e_2',['Factory&lt; Endpoint &gt;',['../classutil_1_1Factory.html',1,'util']]],
+  ['factory_3c_20server_2c_20capnp_3a_3acapability_3a_3aclient_2c_20auth_3a_3aauthenticator_20_2a_20_3e_3',['Factory&lt; Server, capnp::Capability::Client, auth::Authenticator * &gt;',['../classutil_1_1Factory.html',1,'util']]]
 ];

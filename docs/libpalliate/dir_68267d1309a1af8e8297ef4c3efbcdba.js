@@ -1,5 +1,6 @@
 var dir_68267d1309a1af8e8297ef4c3efbcdba =
 [
+    [ "auth", "dir_ecb37285c0bc658c97bb749f37c59e79.html", "dir_ecb37285c0bc658c97bb749f37c59e79" ],
     [ "datastructures", "dir_abbad7388f27bf11c01a2c2e876a0b5b.html", "dir_abbad7388f27bf11c01a2c2e876a0b5b" ],
     [ "logging", "dir_b3320b59a4aa4a7431bc8488b87009bf.html", "dir_b3320b59a4aa4a7431bc8488b87009bf" ],
     [ "memory", "dir_94d7edf6f8f3d9af5fd63c44172da41c.html", "dir_94d7edf6f8f3d9af5fd63c44172da41c" ],

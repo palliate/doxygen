@@ -8,6 +8,10 @@ var hierarchy =
     [ "atomic_reqresp", "classatomic__reqresp.html", null ],
     [ "atomic_semaphore", "classatomic__semaphore.html", null ],
     [ "atomic_stack< T >", "classatomic__stack.html", null ],
+    [ "auth::Authenticator", "classauth_1_1Authenticator.html", [
+      [ "auth::PSK", "classauth_1_1PSK.html", null ],
+      [ "auth::Token", "classauth_1_1Token.html", null ]
+    ] ],
     [ "backend", "classbackend.html", [
       [ "tray", "classtray.html", null ]
     ] ],
@@ -44,7 +48,7 @@ var hierarchy =
     [ "util::Factory< Endpoint >", "classutil_1_1Factory.html", [
       [ "logging::Endpoint", "classlogging_1_1Endpoint.html", null ]
     ] ],
-    [ "util::Factory< Server, capnp::Capability::Client >", "classutil_1_1Factory.html", [
+    [ "util::Factory< Server, capnp::Capability::Client, auth::Authenticator * >", "classutil_1_1Factory.html", [
       [ "rpc::Server", "classrpc_1_1Server.html", null ]
     ] ],
     [ "rpc::IO", "structrpc_1_1IO.html", null ],
@@ -79,9 +83,6 @@ var hierarchy =
         [ "transport::TCP::Server", "classtransport_1_1TCP_1_1Server.html", null ]
       ] ],
       [ "ui", "classui.html", null ]
-    ] ],
-    [ "DataChannel::Server", null, [
-      [ "rpc::DataChannel< T >", "classrpc_1_1DataChannel.html", null ]
     ] ],
     [ "Servers", "classServers.html", null ],
     [ "util::uuid", "structutil_1_1uuid.html", null ],

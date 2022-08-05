@@ -4,7 +4,7 @@ var searchData=
   ['factory_2eh_1',['factory.h',['../factory_8h.html',1,'']]],
   ['factory_3c_20client_20_3e_2',['Factory&lt; Client &gt;',['../classutil_1_1Factory.html',1,'util']]],
   ['factory_3c_20endpoint_20_3e_3',['Factory&lt; Endpoint &gt;',['../classutil_1_1Factory.html',1,'util']]],
-  ['factory_3c_20server_2c_20capnp_3a_3acapability_3a_3aclient_20_3e_4',['Factory&lt; Server, capnp::Capability::Client &gt;',['../classutil_1_1Factory.html',1,'util']]],
+  ['factory_3c_20server_2c_20capnp_3a_3acapability_3a_3aclient_2c_20auth_3a_3aauthenticator_20_2a_20_3e_4',['Factory&lt; Server, capnp::Capability::Client, auth::Authenticator * &gt;',['../classutil_1_1Factory.html',1,'util']]],
   ['fatal_5',['fatal',['../namespacelogging.html#a72e7a108a3928d5e407b6a7723799826a53dcd4887683847f344507340d236621',1,'logging::fatal()'],['../classlogging_1_1Logger.html#a3f2721316999e36bce10d4dfbff924cb',1,'logging::Logger::fatal()']]],
   ['filesystem_2eh_6',['filesystem.h',['../filesystem_8h.html',1,'']]],
   ['filesystem_2elinux_2ecpp_7',['filesystem.linux.cpp',['../filesystem_8linux_8cpp.html',1,'']]],

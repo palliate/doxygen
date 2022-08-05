@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['height_0',['height',['../structutil_1_1rect.html#af5be8acb57bfc534449d06d434f359c6',1,'util::rect']]]
+  ['first_0',['first',['../structmemory_1_1bin__t.html#ad8e4401151094783491a4794d70aa6d4',1,'memory::bin_t']]],
+  ['flag_1',['flag',['../structelement.html#a994f2fecdbcc5e5898f60b428ef86a57',1,'element']]],
+  ['flags_2',['flags',['../classwindow.html#a489799df18e45bdd75e9eb22f1e3b4f5',1,'window']]]
 ];

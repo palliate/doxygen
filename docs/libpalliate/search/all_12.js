@@ -1,16 +1,16 @@
 var searchData=
 [
-  ['send_0',['send',['../classrpc_1_1DataChannel.html#adcf00eb2d9a4feab5193c235823f3058',1,'rpc::DataChannel::send()'],['../classtransport_1_1Client.html#a02cb597402a3e22d4cd24386733d5a24',1,'transport::Client::send()'],['../classtransport_1_1TCP_1_1Client.html#ac124e47c22ae9703516bdcb2040a5ae5',1,'transport::TCP::Client::send()']]],
+  ['send_0',['send',['../classtransport_1_1Client.html#a02cb597402a3e22d4cd24386733d5a24',1,'transport::Client::send()'],['../classtransport_1_1TCP_1_1Client.html#ac124e47c22ae9703516bdcb2040a5ae5',1,'transport::TCP::Client::send()']]],
   ['server_1',['server',['../classmemory_1_1server.html',1,'memory']]],
   ['server_2',['Server',['../classrpc_1_1Server.html',1,'rpc::Server'],['../classrpc_1_1tcp_1_1Server.html',1,'rpc::tcp::Server']]],
   ['server_3',['server',['../classmemory_1_1server.html#afc4dec957a29610da254bd18c58d6d8a',1,'memory::server::server()'],['../structrpc_1_1Context.html#ac2962eb95dd1d7d81698f539766af02aa3e41509e5d6ef703d28550b31596f65f',1,'rpc::Context::server()']]],
-  ['server_4',['Server',['../classtransport_1_1TCP_1_1Server.html#a27e80eeedc337d15b231254ad55dbf85',1,'transport::TCP::Server::Server()'],['../classtransport_1_1Server.html#a39a4d29cad9d51f83410a2074c557fe7',1,'transport::Server::Server()'],['../classrpc_1_1tcp_1_1Server.html#a9f629587f4e16e88642a7fdcc576cf8f',1,'rpc::tcp::Server::Server()'],['../classrpc_1_1Server.html#a1de34dec61a6959ce9159a8700ea0c4a',1,'rpc::Server::Server()'],['../classtransport_1_1Server.html',1,'transport::Server'],['../classtransport_1_1TCP_1_1Server.html',1,'transport::TCP::Server']]],
+  ['server_4',['Server',['../classtransport_1_1TCP_1_1Server.html#a27e80eeedc337d15b231254ad55dbf85',1,'transport::TCP::Server::Server()'],['../classtransport_1_1Server.html#a39a4d29cad9d51f83410a2074c557fe7',1,'transport::Server::Server()'],['../classrpc_1_1tcp_1_1Server.html#a453c7879c2a7e54073e51bbf59f7ba5b',1,'rpc::tcp::Server::Server()'],['../classrpc_1_1Server.html#a1de34dec61a6959ce9159a8700ea0c4a',1,'rpc::Server::Server()'],['../classtransport_1_1Server.html',1,'transport::Server'],['../classtransport_1_1TCP_1_1Server.html',1,'transport::TCP::Server']]],
   ['servers_5',['Servers',['../classServers.html',1,'']]],
   ['servers_2ecpp_6',['servers.cpp',['../servers_8cpp.html',1,'']]],
   ['servers_2eh_7',['servers.h',['../servers_8h.html',1,'']]],
   ['set_8',['set',['../classwindow.html#a4021b4c8be7d05b9e32222473389cfc4',1,'window']]],
   ['set_5fevent_9',['set_event',['../classServers.html#a79ad2cb8b9fa26f87845cf14af6225db',1,'Servers::set_event()'],['../classtransport_1_1Server.html#ada48f2e99dce8ba31ad091277d211792',1,'transport::Server::set_event()']]],
-  ['setup_10',['setup',['../classrpc_1_1tcp_1_1Server.html#a73ed6533b423af5725c592b4f4e81e64',1,'rpc::tcp::Server::setup()'],['../classrunnable.html#a29c37cd6327ee6c3a896628ecd6935df',1,'runnable::setup()']]],
+  ['setup_10',['setup',['../classrunnable.html#a29c37cd6327ee6c3a896628ecd6935df',1,'runnable::setup()'],['../classrpc_1_1tcp_1_1Server.html#a73ed6533b423af5725c592b4f4e81e64',1,'rpc::tcp::Server::setup()']]],
   ['severity_11',['severity',['../namespacelogging.html#a72e7a108a3928d5e407b6a7723799826',1,'logging']]],
   ['side_12',['side',['../structrpc_1_1Context.html#aaf008c1b1d2e7f18bd4b0a9aa4b5eee7',1,'rpc::Context']]],
   ['size_13',['size',['../classmemory_1_1manager.html#a85a29c93505883c92042b0b27c40f421',1,'memory::manager::size()'],['../classutil_1_1Collection.html#a8eed954f30cbbe15f90fc9aa28bbd5b5',1,'util::Collection::size()']]],
@@ -18,6 +18,6 @@ var searchData=
   ['sleep_5ffor_15',['sleep_for',['../namespaceutil.html#a28ff4dd2371068677e53af40f3d1be5b',1,'util']]],
   ['socket_16',['SOCKET',['../transport_2tcp_2client_8h.html#aff55fe551a9992a54ec54621c524d0a4',1,'SOCKET():&#160;client.h'],['../transport_2tcp_2server_8h.html#aff55fe551a9992a54ec54621c524d0a4',1,'SOCKET():&#160;server.h']]],
   ['stop_17',['stop',['../classrunnable.html#ab7117095b1382678c42c4979871f1d25',1,'runnable']]],
-  ['stream_18',['stream',['../structrpc_1_1Context.html#a325e28480b8f7c28bb29298051e3950b',1,'rpc::Context::stream()'],['../classrpc_1_1DataChannel.html#afc9457c2ef030ee3d6ea382ccea70958',1,'rpc::DataChannel::stream()']]],
+  ['stream_18',['stream',['../structrpc_1_1Context.html#a325e28480b8f7c28bb29298051e3950b',1,'rpc::Context']]],
   ['string_2eh_19',['string.h',['../string_8h.html',1,'']]]
 ];

@@ -109,8 +109,8 @@ Inheritance diagram for rpc::tcp::Server:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a9f629587f4e16e88642a7fdcc576cf8f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrpc_1_1tcp_1_1Server.html#a9f629587f4e16e88642a7fdcc576cf8f">Server</a> (config_t const &amp;_config, capnp::Capability::Client _interface)</td></tr>
-<tr class="separator:a9f629587f4e16e88642a7fdcc576cf8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a453c7879c2a7e54073e51bbf59f7ba5b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrpc_1_1tcp_1_1Server.html#a453c7879c2a7e54073e51bbf59f7ba5b">Server</a> (config_t const &amp;_config, capnp::Capability::Client _interface, <a class="el" href="classauth_1_1Authenticator.html">auth::Authenticator</a> *_auth)</td></tr>
+<tr class="separator:a453c7879c2a7e54073e51bbf59f7ba5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11c30a291a18219dc34a9aebeb5719cb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrpc_1_1tcp_1_1Server.html#a11c30a291a18219dc34a9aebeb5719cb">~Server</a> () noexcept override</td></tr>
 <tr class="separator:a11c30a291a18219dc34a9aebeb5719cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73ed6533b423af5725c592b4f4e81e64"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrpc_1_1tcp_1_1Server.html#a73ed6533b423af5725c592b4f4e81e64">setup</a> () override</td></tr>
@@ -119,8 +119,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3a4fd983bbd5011098dee3125dfc2e43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a9f629587f4e16e88642a7fdcc576cf8f" name="a9f629587f4e16e88642a7fdcc576cf8f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f629587f4e16e88642a7fdcc576cf8f">&#9670;&nbsp;</a></span>Server()</h2>
+<a id="a453c7879c2a7e54073e51bbf59f7ba5b" name="a453c7879c2a7e54073e51bbf59f7ba5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a453c7879c2a7e54073e51bbf59f7ba5b">&#9670;&nbsp;</a></span>Server()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -135,7 +135,13 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">capnp::Capability::Client&#160;</td>
-          <td class="paramname"><em>_interface</em>&#160;</td>
+          <td class="paramname"><em>_interface</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classauth_1_1Authenticator.html">auth::Authenticator</a> *&#160;</td>
+          <td class="paramname"><em>_auth</em>&#160;</td>
         </tr>
         <tr>
           <td></td>

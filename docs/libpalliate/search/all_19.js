@@ -20,8 +20,8 @@ var searchData=
   ['_7eproducer_17',['~producer',['../classproducer.html#a270acc4b90a58b69212ae832b6528553',1,'producer']]],
   ['_7eregistrar_18',['~registrar',['../structutil_1_1Factory_1_1registrar.html#aaa48f233eb0d7e92c7eb47dccb25ec89',1,'util::Factory::registrar']]],
   ['_7erunnable_19',['~runnable',['../classrunnable.html#acadf1c830cb8f782dadde111a1be6080',1,'runnable']]],
-  ['_7eserver_20',['~Server',['../classrpc_1_1Server.html#a1079ff18b7c76e687ab891c6c3be8a6f',1,'rpc::Server::~Server()'],['../classrpc_1_1tcp_1_1Server.html#a11c30a291a18219dc34a9aebeb5719cb',1,'rpc::tcp::Server::~Server()'],['../classtransport_1_1Server.html#a8c9e08df9ade8395b336648d5c4af182',1,'transport::Server::~Server()']]],
-  ['_7eserver_21',['~server',['../classmemory_1_1server.html#a082284e960949ae7809b4ebbc9ceb52c',1,'memory::server']]],
+  ['_7eserver_20',['~server',['../classmemory_1_1server.html#a082284e960949ae7809b4ebbc9ceb52c',1,'memory::server']]],
+  ['_7eserver_21',['~Server',['../classrpc_1_1Server.html#a1079ff18b7c76e687ab891c6c3be8a6f',1,'rpc::Server::~Server()'],['../classrpc_1_1tcp_1_1Server.html#a11c30a291a18219dc34a9aebeb5719cb',1,'rpc::tcp::Server::~Server()'],['../classtransport_1_1Server.html#a8c9e08df9ade8395b336648d5c4af182',1,'transport::Server::~Server()']]],
   ['_7eui_22',['~ui',['../classui.html#ab0ec5ccdabbb02c2dc3f6ca8b66f26e1',1,'ui']]],
   ['_7ewindow_23',['~window',['../classwindow.html#a74c0166a724299fb28f67797854b1b2a',1,'window']]]
 ];
