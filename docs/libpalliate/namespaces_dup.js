@@ -1,13 +1,15 @@
 var namespaces_dup =
 [
-    [ "auth", "namespaceauth.html", "namespaceauth" ],
+    [ "Authentication", "namespaceAuthentication.html", "namespaceAuthentication" ],
     [ "detail", "namespacedetail.html", [
       [ "init", "namespacedetail.html#ad417d5a0e5c6b6fd05004c05b0516408", null ]
     ] ],
-    [ "logging", "namespacelogging.html", "namespacelogging" ],
+    [ "Logging", "namespaceLogging.html", "namespaceLogging" ],
     [ "memory", "namespacememory.html", "namespacememory" ],
-    [ "rpc", "namespacerpc.html", "namespacerpc" ],
+    [ "RPC", "namespaceRPC.html", "namespaceRPC" ],
+    [ "thread", "namespacethread.html", "namespacethread" ],
     [ "toml", "namespacetoml.html", null ],
     [ "transport", "namespacetransport.html", "namespacetransport" ],
+    [ "UI", "namespaceUI.html", "namespaceUI" ],
     [ "util", "namespaceutil.html", "namespaceutil" ]
 ];

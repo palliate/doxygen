@@ -1,4 +1,4 @@
 var logger_8cpp =
 [
-    [ "logger", "logger_8cpp.html#a9961c09b66545cb29298e80f301950dd", null ]
+    [ "logger", "logger_8cpp.html#aeefd35680cdb206c5a6158b0dd09a1b4", null ]
 ];

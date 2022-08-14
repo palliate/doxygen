@@ -2,38 +2,38 @@
 <tagfile doxygen_version="1.9.4" doxygen_gitid="5d15657a55555e6181a7830a5c723af75e7577e2">
   <compound kind="file">
     <name>authenticator.h</name>
-    <path>/__w/libpalliate/libpalliate/src/auth/</path>
+    <path>/__w/libpalliate/libpalliate/src/authentication/</path>
     <filename>authenticator_8h.html</filename>
-    <class kind="class">auth::Authenticator</class>
-    <namespace>auth</namespace>
+    <class kind="class">Authentication::Authenticator</class>
+    <namespace>Authentication</namespace>
   </compound>
   <compound kind="file">
     <name>psk.cpp</name>
-    <path>/__w/libpalliate/libpalliate/src/auth/</path>
+    <path>/__w/libpalliate/libpalliate/src/authentication/</path>
     <filename>psk_8cpp.html</filename>
     <includes id="psk_8h" name="psk.h" local="yes" imported="no">psk.h</includes>
   </compound>
   <compound kind="file">
     <name>psk.h</name>
-    <path>/__w/libpalliate/libpalliate/src/auth/</path>
+    <path>/__w/libpalliate/libpalliate/src/authentication/</path>
     <filename>psk_8h.html</filename>
     <includes id="authenticator_8h" name="authenticator.h" local="yes" imported="no">authenticator.h</includes>
-    <class kind="class">auth::PSK</class>
-    <namespace>auth</namespace>
+    <class kind="class">Authentication::PSK</class>
+    <namespace>Authentication</namespace>
   </compound>
   <compound kind="file">
     <name>token.cpp</name>
-    <path>/__w/libpalliate/libpalliate/src/auth/</path>
+    <path>/__w/libpalliate/libpalliate/src/authentication/</path>
     <filename>token_8cpp.html</filename>
     <includes id="token_8h" name="token.h" local="yes" imported="no">token.h</includes>
   </compound>
   <compound kind="file">
     <name>token.h</name>
-    <path>/__w/libpalliate/libpalliate/src/auth/</path>
+    <path>/__w/libpalliate/libpalliate/src/authentication/</path>
     <filename>token_8h.html</filename>
     <includes id="authenticator_8h" name="authenticator.h" local="yes" imported="no">authenticator.h</includes>
-    <class kind="class">auth::Token</class>
-    <namespace>auth</namespace>
+    <class kind="class">Authentication::Token</class>
+    <namespace>Authentication</namespace>
   </compound>
   <compound kind="file">
     <name>atomic_cr.h</name>
@@ -141,23 +141,23 @@
     <name>endpoint.h</name>
     <path>/__w/libpalliate/libpalliate/src/logging/</path>
     <filename>endpoint_8h.html</filename>
-    <includes id="message_8h" name="message.h" local="yes" imported="no">message.h</includes>
     <includes id="factory_8h" name="factory.h" local="no" imported="no">util/factory.h</includes>
-    <class kind="class">logging::Endpoint</class>
-    <namespace>logging</namespace>
+    <includes id="message_8h" name="message.h" local="yes" imported="no">message.h</includes>
+    <class kind="class">Logging::Endpoint</class>
+    <namespace>Logging</namespace>
   </compound>
   <compound kind="file">
     <name>logger.cpp</name>
     <path>/__w/libpalliate/libpalliate/src/logging/</path>
     <filename>logger_8cpp.html</filename>
     <includes id="logger_8h" name="logger.h" local="yes" imported="no">logger.h</includes>
-    <namespace>logging</namespace>
-    <namespace>logging::__</namespace>
+    <namespace>Logging</namespace>
+    <namespace>Logging::__</namespace>
     <member kind="variable">
-      <type>logging::Logger &amp;</type>
+      <type>Logging::Logger &amp;</type>
       <name>logger</name>
       <anchorfile>logger_8cpp.html</anchorfile>
-      <anchor>a9961c09b66545cb29298e80f301950dd</anchor>
+      <anchor>aeefd35680cdb206c5a6158b0dd09a1b4</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -167,13 +167,13 @@
     <filename>logger_8h.html</filename>
     <includes id="endpoint_8h" name="endpoint.h" local="yes" imported="no">endpoint.h</includes>
     <includes id="message_8h" name="message.h" local="yes" imported="no">message.h</includes>
-    <class kind="class">logging::Logger</class>
-    <namespace>logging</namespace>
+    <class kind="class">Logging::Logger</class>
+    <namespace>Logging</namespace>
     <member kind="variable">
-      <type>logging::Logger &amp;</type>
+      <type>Logging::Logger &amp;</type>
       <name>logger</name>
       <anchorfile>logger_8h.html</anchorfile>
-      <anchor>a9961c09b66545cb29298e80f301950dd</anchor>
+      <anchor>aeefd35680cdb206c5a6158b0dd09a1b4</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -181,44 +181,44 @@
     <name>message.h</name>
     <path>/__w/libpalliate/libpalliate/src/logging/</path>
     <filename>message_8h.html</filename>
-    <class kind="struct">logging::Annotated</class>
-    <class kind="struct">logging::message</class>
-    <namespace>logging</namespace>
+    <class kind="struct">Logging::Annotated</class>
+    <class kind="struct">Logging::message</class>
+    <namespace>Logging</namespace>
     <member kind="enumeration">
       <type></type>
-      <name>severity</name>
-      <anchorfile>namespacelogging.html</anchorfile>
-      <anchor>a72e7a108a3928d5e407b6a7723799826</anchor>
+      <name>Severity</name>
+      <anchorfile>namespaceLogging.html</anchorfile>
+      <anchor>aa0aabbf5046236bd92698ad87c9ab55a</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>debug</name>
-      <anchorfile>namespacelogging.html</anchorfile>
-      <anchor>a72e7a108a3928d5e407b6a7723799826aa8e7bccd55418c8ecc7a23bb5d9afcff</anchor>
+      <anchorfile>namespaceLogging.html</anchorfile>
+      <anchor>aa0aabbf5046236bd92698ad87c9ab55aa3e0930ddd5f775c603db6bd89f8b1b57</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>info</name>
-      <anchorfile>namespacelogging.html</anchorfile>
-      <anchor>a72e7a108a3928d5e407b6a7723799826a4cd4cc508dacd5b0007018c45a446ee4</anchor>
+      <anchorfile>namespaceLogging.html</anchorfile>
+      <anchor>aa0aabbf5046236bd92698ad87c9ab55aa90ffdce6eecc02ffecd67a995dba7faa</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>warning</name>
-      <anchorfile>namespacelogging.html</anchorfile>
-      <anchor>a72e7a108a3928d5e407b6a7723799826afe6af08edd74e3e77e5ec1058844088c</anchor>
+      <anchorfile>namespaceLogging.html</anchorfile>
+      <anchor>aa0aabbf5046236bd92698ad87c9ab55aaa9abee4c593dd6e8320402e6433b3369</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>error</name>
-      <anchorfile>namespacelogging.html</anchorfile>
-      <anchor>a72e7a108a3928d5e407b6a7723799826a66700fb5e035d3906738d73fc57579f0</anchor>
+      <anchorfile>namespaceLogging.html</anchorfile>
+      <anchor>aa0aabbf5046236bd92698ad87c9ab55aaceeb027b8c598adb9e3af1696a163aea</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>fatal</name>
-      <anchorfile>namespacelogging.html</anchorfile>
-      <anchor>a72e7a108a3928d5e407b6a7723799826a53dcd4887683847f344507340d236621</anchor>
+      <anchorfile>namespaceLogging.html</anchorfile>
+      <anchor>aa0aabbf5046236bd92698ad87c9ab55aa3027a6eaf95c5a493d6d825e748096ef</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -236,6 +236,11 @@
     <path>/__w/libpalliate/libpalliate/src/rpc/</path>
     <filename>rpc_2client_8cpp.html</filename>
     <includes id="rpc_2client_8h" name="rpc/client.h" local="yes" imported="no">client.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>rpc/shm/client.cpp</name>
+    <path>/__w/libpalliate/libpalliate/src/rpc/shm/</path>
+    <filename>rpc_2shm_2client_8cpp.html</filename>
   </compound>
   <compound kind="file">
     <name>rpc/tcp/client.cpp</name>
@@ -281,8 +286,13 @@
     <filename>rpc_2client_8h.html</filename>
     <includes id="factory_8h" name="factory.h" local="no" imported="no">util/factory.h</includes>
     <includes id="context_8h" name="context.h" local="yes" imported="no">context.h</includes>
-    <class kind="class">rpc::Client</class>
-    <namespace>rpc</namespace>
+    <class kind="class">RPC::Client</class>
+    <namespace>RPC</namespace>
+  </compound>
+  <compound kind="file">
+    <name>rpc/shm/client.h</name>
+    <path>/__w/libpalliate/libpalliate/src/rpc/shm/</path>
+    <filename>rpc_2shm_2client_8h.html</filename>
   </compound>
   <compound kind="file">
     <name>rpc/tcp/client.h</name>
@@ -290,9 +300,9 @@
     <filename>rpc_2tcp_2client_8h.html</filename>
     <includes id="rpc_2client_8h" name="rpc/client.h" local="no" imported="no">rpc/client.h</includes>
     <includes id="error__handler_8h" name="error_handler.h" local="no" imported="no">rpc/error_handler.h</includes>
-    <class kind="class">rpc::tcp::Client</class>
-    <namespace>rpc</namespace>
-    <namespace>rpc::tcp</namespace>
+    <class kind="class">RPC::TCP::Client</class>
+    <namespace>RPC</namespace>
+    <namespace>RPC::TCP</namespace>
   </compound>
   <compound kind="file">
     <name>transport/client.h</name>
@@ -514,6 +524,11 @@
     <includes id="logger_8h" name="logger.h" local="no" imported="no">logging/logger.h</includes>
   </compound>
   <compound kind="file">
+    <name>rpc/shm/server.cpp</name>
+    <path>/__w/libpalliate/libpalliate/src/rpc/shm/</path>
+    <filename>rpc_2shm_2server_8cpp.html</filename>
+  </compound>
+  <compound kind="file">
     <name>rpc/tcp/server.cpp</name>
     <path>/__w/libpalliate/libpalliate/src/rpc/tcp/</path>
     <filename>rpc_2tcp_2server_8cpp.html</filename>
@@ -561,18 +576,23 @@
     <includes id="context_8h" name="context.h" local="yes" imported="no">context.h</includes>
     <includes id="error__handler_8h" name="error_handler.h" local="yes" imported="no">error_handler.h</includes>
     <includes id="io_8h" name="io.h" local="yes" imported="no">io.h</includes>
-    <includes id="authenticator_8h" name="authenticator.h" local="no" imported="no">auth/authenticator.h</includes>
-    <class kind="class">rpc::Server</class>
-    <namespace>rpc</namespace>
+    <includes id="authenticator_8h" name="authenticator.h" local="no" imported="no">authentication/authenticator.h</includes>
+    <class kind="class">RPC::Server</class>
+    <namespace>RPC</namespace>
+  </compound>
+  <compound kind="file">
+    <name>rpc/shm/server.h</name>
+    <path>/__w/libpalliate/libpalliate/src/rpc/shm/</path>
+    <filename>rpc_2shm_2server_8h.html</filename>
   </compound>
   <compound kind="file">
     <name>rpc/tcp/server.h</name>
     <path>/__w/libpalliate/libpalliate/src/rpc/tcp/</path>
     <filename>rpc_2tcp_2server_8h.html</filename>
     <includes id="rpc_2server_8h" name="rpc/server.h" local="no" imported="no">rpc/server.h</includes>
-    <class kind="class">rpc::tcp::Server</class>
-    <namespace>rpc</namespace>
-    <namespace>rpc::tcp</namespace>
+    <class kind="class">RPC::TCP::Server</class>
+    <namespace>RPC</namespace>
+    <namespace>RPC::TCP</namespace>
   </compound>
   <compound kind="file">
     <name>transport/server.h</name>
@@ -694,28 +714,28 @@
     <name>context.h</name>
     <path>/__w/libpalliate/libpalliate/src/rpc/</path>
     <filename>context_8h.html</filename>
-    <class kind="struct">rpc::Context</class>
-    <namespace>rpc</namespace>
+    <class kind="struct">RPC::Context</class>
+    <namespace>RPC</namespace>
   </compound>
   <compound kind="file">
     <name>error_handler.h</name>
     <path>/__w/libpalliate/libpalliate/src/rpc/</path>
     <filename>error__handler_8h.html</filename>
-    <class kind="struct">rpc::ErrorHandler</class>
-    <namespace>rpc</namespace>
+    <class kind="struct">RPC::ErrorHandler</class>
+    <namespace>RPC</namespace>
   </compound>
   <compound kind="file">
     <name>io.h</name>
     <path>/__w/libpalliate/libpalliate/src/rpc/</path>
     <filename>io_8h.html</filename>
     <includes id="error__handler_8h" name="error_handler.h" local="yes" imported="no">error_handler.h</includes>
-    <class kind="struct">rpc::IO</class>
-    <namespace>rpc</namespace>
+    <class kind="struct">RPC::IO</class>
+    <namespace>RPC</namespace>
   </compound>
   <compound kind="file">
-    <name>rpc/shm/shm.cpp</name>
-    <path>/__w/libpalliate/libpalliate/src/rpc/shm/</path>
-    <filename>rpc_2shm_2shm_8cpp.html</filename>
+    <name>rpc/ivshm/shm.cpp</name>
+    <path>/__w/libpalliate/libpalliate/src/rpc/ivshm/</path>
+    <filename>rpc_2ivshm_2shm_8cpp.html</filename>
   </compound>
   <compound kind="file">
     <name>transport/shm/shm.cpp</name>
@@ -723,9 +743,9 @@
     <filename>transport_2shm_2shm_8cpp.html</filename>
   </compound>
   <compound kind="file">
-    <name>rpc/shm/shm.h</name>
-    <path>/__w/libpalliate/libpalliate/src/rpc/shm/</path>
-    <filename>rpc_2shm_2shm_8h.html</filename>
+    <name>rpc/ivshm/shm.h</name>
+    <path>/__w/libpalliate/libpalliate/src/rpc/ivshm/</path>
+    <filename>rpc_2ivshm_2shm_8h.html</filename>
     <includes id="manager_8h" name="manager.h" local="yes" imported="no">memory/manager.h</includes>
     <class kind="class">ivshmem</class>
   </compound>
@@ -737,38 +757,55 @@
     <class kind="class">ivshmem</class>
   </compound>
   <compound kind="file">
-    <name>backend.h</name>
+    <name>info.cpp</name>
+    <path>/__w/libpalliate/libpalliate/src/thread/</path>
+    <filename>info_8cpp.html</filename>
+    <includes id="info_8h" name="info.h" local="yes" imported="no">info.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>info.h</name>
+    <path>/__w/libpalliate/libpalliate/src/thread/</path>
+    <filename>info_8h.html</filename>
+    <class kind="struct">thread::info</class>
+    <namespace>thread</namespace>
+  </compound>
+  <compound kind="file">
+    <name>renderer.h</name>
     <path>/__w/libpalliate/libpalliate/src/ui/</path>
-    <filename>backend_8h.html</filename>
-    <includes id="window_8h" name="window.h" local="yes" imported="no">window.h</includes>
-    <class kind="class">backend</class>
+    <filename>renderer_8h.html</filename>
+    <class kind="class">UI::Renderer</class>
+    <namespace>UI</namespace>
   </compound>
   <compound kind="file">
     <name>tray.h</name>
     <path>/__w/libpalliate/libpalliate/src/ui/</path>
     <filename>tray_8h.html</filename>
-    <includes id="backend_8h" name="backend.h" local="yes" imported="no">backend.h</includes>
-    <class kind="class">tray</class>
+    <class kind="class">UI::Tray</class>
+    <namespace>UI</namespace>
   </compound>
   <compound kind="file">
     <name>ui.cpp</name>
     <path>/__w/libpalliate/libpalliate/src/ui/</path>
     <filename>ui_8cpp.html</filename>
     <includes id="ui_8h" name="ui.h" local="yes" imported="no">ui.h</includes>
-    <includes id="logger_8h" name="logger.h" local="yes" imported="no">logging/logger.h</includes>
-    <includes id="clock_8h" name="clock.h" local="yes" imported="no">util/clock.h</includes>
+    <includes id="logger_8h" name="logger.h" local="no" imported="no">logging/logger.h</includes>
+    <includes id="clock_8h" name="clock.h" local="no" imported="no">util/clock.h</includes>
   </compound>
   <compound kind="file">
     <name>ui.h</name>
     <path>/__w/libpalliate/libpalliate/src/ui/</path>
     <filename>ui_8h.html</filename>
-    <includes id="backend_8h" name="backend.h" local="yes" imported="no">backend.h</includes>
-    <includes id="atomic__stack_8h" name="atomic_stack.h" local="yes" imported="no">datastructures/atomic_stack.h</includes>
+    <includes id="renderer_8h" name="renderer.h" local="yes" imported="no">renderer.h</includes>
     <includes id="tray_8h" name="tray.h" local="yes" imported="no">tray.h</includes>
-    <includes id="rect_8h" name="rect.h" local="yes" imported="no">util/rect.h</includes>
-    <includes id="runnable_8h" name="runnable.h" local="yes" imported="no">util/runnable.h</includes>
     <includes id="window_8h" name="window.h" local="yes" imported="no">window.h</includes>
-    <class kind="class">ui</class>
+    <includes id="message__queue_8h" name="message_queue.h" local="no" imported="no">datastructures/threadsafe/message_queue.h</includes>
+    <includes id="rect_8h" name="rect.h" local="no" imported="no">util/rect.h</includes>
+    <includes id="runnable_8h" name="runnable.h" local="no" imported="no">util/runnable.h</includes>
+    <includes id="token_8h" name="token.h" local="no" imported="no">authentication/token.h</includes>
+    <includes id="rpc_2server_8h" name="rpc/server.h" local="no" imported="no">rpc/server.h</includes>
+    <includes id="collection_8h" name="collection.h" local="no" imported="no">util/collection.h</includes>
+    <class kind="class">UI::Control</class>
+    <namespace>UI</namespace>
   </compound>
   <compound kind="file">
     <name>window.cpp</name>
@@ -781,7 +818,8 @@
     <path>/__w/libpalliate/libpalliate/src/ui/</path>
     <filename>window_8h.html</filename>
     <includes id="rect_8h" name="rect.h" local="yes" imported="no">util/rect.h</includes>
-    <class kind="class">window</class>
+    <class kind="class">UI::Window</class>
+    <namespace>UI</namespace>
   </compound>
   <compound kind="file">
     <name>clock.h</name>
@@ -1021,28 +1059,28 @@
     <namespace>util</namespace>
   </compound>
   <compound kind="struct">
-    <name>logging::Annotated</name>
-    <filename>structlogging_1_1Annotated.html</filename>
+    <name>Logging::Annotated</name>
+    <filename>structLogging_1_1Annotated.html</filename>
     <templarg>typename T</templarg>
     <member kind="function">
       <type></type>
       <name>Annotated</name>
-      <anchorfile>structlogging_1_1Annotated.html</anchorfile>
-      <anchor>a39d2fdf918dc619b0519741b3ddfe6bc</anchor>
+      <anchorfile>structLogging_1_1Annotated.html</anchorfile>
+      <anchor>a220483d30c99b26a5295011e68e22ef2</anchor>
       <arglist>(T _data, std::source_location _location=std::source_location::current())</arglist>
     </member>
     <member kind="variable">
       <type>T</type>
       <name>data</name>
-      <anchorfile>structlogging_1_1Annotated.html</anchorfile>
-      <anchor>a5bd6d6cf2a251d8eabf4f5b6171f2dff</anchor>
+      <anchorfile>structLogging_1_1Annotated.html</anchorfile>
+      <anchor>a7d02aca4af8cd19f7f5cf6398379ff8b</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>std::source_location</type>
       <name>location</name>
-      <anchorfile>structlogging_1_1Annotated.html</anchorfile>
-      <anchor>a4658360ddea477c39e9107ae1d3564c8</anchor>
+      <anchorfile>structLogging_1_1Annotated.html</anchorfile>
+      <anchor>a248ec32270f7e0af0d25be78652b60fa</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -1312,32 +1350,14 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>auth::Authenticator</name>
-    <filename>classauth_1_1Authenticator.html</filename>
+    <name>Authentication::Authenticator</name>
+    <filename>classAuthentication_1_1Authenticator.html</filename>
     <member kind="function" virtualness="pure">
       <type>virtual bool</type>
       <name>check</name>
-      <anchorfile>classauth_1_1Authenticator.html</anchorfile>
-      <anchor>a6ec9b5a141feda163d5edf0e3e6e1452</anchor>
+      <anchorfile>classAuthentication_1_1Authenticator.html</anchorfile>
+      <anchor>a9ae6c2d567e95dce4ee2534f01ef3fc0</anchor>
       <arglist>(uint64_t token)=0</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>backend</name>
-    <filename>classbackend.html</filename>
-    <member kind="function" virtualness="virtual">
-      <type>virtual</type>
-      <name>~backend</name>
-      <anchorfile>classbackend.html</anchorfile>
-      <anchor>af211ad78513852664f0714cff820b3d0</anchor>
-      <arglist>()=default</arglist>
-    </member>
-    <member kind="function" virtualness="pure">
-      <type>virtual bool</type>
-      <name>render</name>
-      <anchorfile>classbackend.html</anchorfile>
-      <anchor>a34f36b7f086ca4a5efc7b63f2872dbe9</anchor>
-      <arglist>()=0</arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -1463,74 +1483,74 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>rpc::Client</name>
-    <filename>classrpc_1_1Client.html</filename>
+    <name>RPC::Client</name>
+    <filename>classRPC_1_1Client.html</filename>
     <base>Factory&lt; Client &gt;</base>
     <member kind="function">
       <type></type>
       <name>Client</name>
-      <anchorfile>classrpc_1_1Client.html</anchorfile>
-      <anchor>ae9514edf9561d5ec0fd06aa2e7fdbcee</anchor>
+      <anchorfile>classRPC_1_1Client.html</anchorfile>
+      <anchor>addf51a46219ba5da1ed510839ac9909a</anchor>
       <arglist>(Key)</arglist>
     </member>
     <member kind="function" virtualness="virtual">
       <type>virtual</type>
       <name>~Client</name>
-      <anchorfile>classrpc_1_1Client.html</anchorfile>
-      <anchor>abe8191236f9ce8fcfdf9c81bcd7b6f45</anchor>
+      <anchorfile>classRPC_1_1Client.html</anchorfile>
+      <anchor>a6f6125696cf2bf4220dc1938379ed8c1</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function" virtualness="pure">
       <type>virtual kj::WaitScope &amp;</type>
       <name>wait_scope</name>
-      <anchorfile>classrpc_1_1Client.html</anchorfile>
-      <anchor>a63ed194584068d391106ccd2acceb3e6</anchor>
+      <anchorfile>classRPC_1_1Client.html</anchorfile>
+      <anchor>a459fa7f7f66445ffaf7d585df7545cea</anchor>
       <arglist>()=0</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>recv</name>
-      <anchorfile>classrpc_1_1Client.html</anchorfile>
+      <anchorfile>classRPC_1_1Client.html</anchorfile>
       <anchor>a9145ad0948f4016beb356e6905c41a6e</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="variable">
       <type>std::function&lt; void(kj::Own&lt; capnp::MessageReader &gt; &amp;&amp;)&gt;</type>
       <name>callback</name>
-      <anchorfile>classrpc_1_1Client.html</anchorfile>
-      <anchor>aae610743321d404ce74c9b4acd75b191</anchor>
+      <anchorfile>classRPC_1_1Client.html</anchorfile>
+      <anchor>a01773b9c66b02133034be9ba70325952</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable" protection="protected">
-      <type>std::unique_ptr&lt; rpc::Context &gt;</type>
+      <type>std::unique_ptr&lt; RPC::Context &gt;</type>
       <name>context</name>
-      <anchorfile>classrpc_1_1Client.html</anchorfile>
-      <anchor>ae4e094d542938b7beee86b0a7c32d39e</anchor>
+      <anchorfile>classRPC_1_1Client.html</anchorfile>
+      <anchor>a925e0b4161e7d3db17d7f44f06060347</anchor>
       <arglist></arglist>
     </member>
   </compound>
   <compound kind="class">
-    <name>rpc::tcp::Client</name>
-    <filename>classrpc_1_1tcp_1_1Client.html</filename>
+    <name>RPC::TCP::Client</name>
+    <filename>classRPC_1_1TCP_1_1Client.html</filename>
     <member kind="function">
       <type></type>
       <name>Client</name>
-      <anchorfile>classrpc_1_1tcp_1_1Client.html</anchorfile>
+      <anchorfile>classRPC_1_1TCP_1_1Client.html</anchorfile>
       <anchor>ada9d3734004a14b9ed65ca592c3f4765</anchor>
       <arglist>(config_t const &amp;c)</arglist>
     </member>
     <member kind="function">
       <type></type>
       <name>~Client</name>
-      <anchorfile>classrpc_1_1tcp_1_1Client.html</anchorfile>
-      <anchor>a7cad88da919d0c2d394ce353c82ecbf0</anchor>
+      <anchorfile>classRPC_1_1TCP_1_1Client.html</anchorfile>
+      <anchor>aca7924f1fba5cbdc6d527d825bd56e64</anchor>
       <arglist>() noexcept override</arglist>
     </member>
     <member kind="function">
       <type>kj::WaitScope &amp;</type>
       <name>wait_scope</name>
-      <anchorfile>classrpc_1_1tcp_1_1Client.html</anchorfile>
-      <anchor>ae79849f38b3504c45d9dbd8995962bf7</anchor>
+      <anchorfile>classRPC_1_1TCP_1_1Client.html</anchorfile>
+      <anchor>a8a4b21fc1782045e109cc3f184b4df15</anchor>
       <arglist>() override</arglist>
     </member>
   </compound>
@@ -1778,87 +1798,107 @@
     </member>
   </compound>
   <compound kind="struct">
-    <name>rpc::Context</name>
-    <filename>structrpc_1_1Context.html</filename>
+    <name>RPC::Context</name>
+    <filename>structRPC_1_1Context.html</filename>
     <member kind="enumvalue">
       <name>server</name>
-      <anchorfile>structrpc_1_1Context.html</anchorfile>
-      <anchor>ac2962eb95dd1d7d81698f539766af02aa3e41509e5d6ef703d28550b31596f65f</anchor>
+      <anchorfile>structRPC_1_1Context.html</anchorfile>
+      <anchor>a12974c46a44adb112bc1da6d09b694f9a5c122d85a5b928ed485449afe7dd05ec</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>client</name>
-      <anchorfile>structrpc_1_1Context.html</anchorfile>
-      <anchor>ac2962eb95dd1d7d81698f539766af02aa813c087a98d31ef9b1234aecda92ab88</anchor>
+      <anchorfile>structRPC_1_1Context.html</anchorfile>
+      <anchor>a12974c46a44adb112bc1da6d09b694f9ada4a7b8d6751983cd00110ed073c95eb</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>server</name>
-      <anchorfile>structrpc_1_1Context.html</anchorfile>
-      <anchor>ac2962eb95dd1d7d81698f539766af02aa3e41509e5d6ef703d28550b31596f65f</anchor>
+      <anchorfile>structRPC_1_1Context.html</anchorfile>
+      <anchor>a12974c46a44adb112bc1da6d09b694f9a5c122d85a5b928ed485449afe7dd05ec</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>client</name>
-      <anchorfile>structrpc_1_1Context.html</anchorfile>
-      <anchor>ac2962eb95dd1d7d81698f539766af02aa813c087a98d31ef9b1234aecda92ab88</anchor>
+      <anchorfile>structRPC_1_1Context.html</anchorfile>
+      <anchor>a12974c46a44adb112bc1da6d09b694f9ada4a7b8d6751983cd00110ed073c95eb</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
       <type></type>
       <name>Context</name>
-      <anchorfile>structrpc_1_1Context.html</anchorfile>
-      <anchor>a61c88edbcb8e51f5710d4b1368f0f2c0</anchor>
+      <anchorfile>structRPC_1_1Context.html</anchorfile>
+      <anchor>a60de7774908c2148c312fd9c5ca77b0c</anchor>
       <arglist>(kj::AuthenticatedStream &amp;&amp;stream)</arglist>
     </member>
     <member kind="function">
       <type></type>
       <name>Context</name>
-      <anchorfile>structrpc_1_1Context.html</anchorfile>
-      <anchor>ac9951bf0d161b3d0d415eb3c058e7a3b</anchor>
+      <anchorfile>structRPC_1_1Context.html</anchorfile>
+      <anchor>a11d9b76f7c226baf35974c3398c7f8fb</anchor>
       <arglist>(kj::AuthenticatedStream &amp;&amp;stream, capnp::Capability::Client interface)</arglist>
     </member>
     <member kind="function">
       <type>T::Client</type>
       <name>get_interface</name>
-      <anchorfile>structrpc_1_1Context.html</anchorfile>
-      <anchor>a51065e7d54827455a899d63c671b98f3</anchor>
+      <anchorfile>structRPC_1_1Context.html</anchorfile>
+      <anchor>acb5f9041aa7627f75f8bca1f0c70790f</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
       <type>capnp::Capability::Client</type>
       <name>bootstrap</name>
-      <anchorfile>structrpc_1_1Context.html</anchorfile>
-      <anchor>af757661af32f31aba9e023b3af8dec98</anchor>
+      <anchorfile>structRPC_1_1Context.html</anchorfile>
+      <anchor>a7406525cff2bfe4e06ef31875b1ed4b8</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="variable">
       <type>kj::AuthenticatedStream</type>
       <name>stream</name>
-      <anchorfile>structrpc_1_1Context.html</anchorfile>
-      <anchor>a325e28480b8f7c28bb29298051e3950b</anchor>
+      <anchorfile>structRPC_1_1Context.html</anchorfile>
+      <anchor>ad5d24a2b8a93694bebb9017d0006408d</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>capnp::TwoPartyVatNetwork</type>
       <name>network</name>
-      <anchorfile>structrpc_1_1Context.html</anchorfile>
-      <anchor>a6271873a8b9ea182c388645d6764c963</anchor>
+      <anchorfile>structRPC_1_1Context.html</anchorfile>
+      <anchor>a5f42203a18c9190f93bd36e23e963297</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>capnp::RpcSystem&lt; capnp::rpc::twoparty::VatId &gt;</type>
       <name>rpc</name>
-      <anchorfile>structrpc_1_1Context.html</anchorfile>
-      <anchor>afae2ba97d1e1296b79c40dd958efa376</anchor>
+      <anchorfile>structRPC_1_1Context.html</anchorfile>
+      <anchor>a569f6df0b622453f891e32c627974f94</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>enum rpc::Context::@2</type>
+      <type>enum RPC::Context::@2</type>
       <name>side</name>
-      <anchorfile>structrpc_1_1Context.html</anchorfile>
-      <anchor>aaf008c1b1d2e7f18bd4b0a9aa4b5eee7</anchor>
+      <anchorfile>structRPC_1_1Context.html</anchorfile>
+      <anchor>a979ec59aeb05182bd186a305e2d5c5d8</anchor>
       <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>UI::Control</name>
+    <filename>classUI_1_1Control.html</filename>
+    <base>configurable&lt; config::UI &gt;</base>
+    <base>runnable</base>
+    <member kind="function">
+      <type></type>
+      <name>Control</name>
+      <anchorfile>classUI_1_1Control.html</anchorfile>
+      <anchor>ac0d30e863d893eac1c859e992cb025c8</anchor>
+      <arglist>(config_t const &amp;c)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~Control</name>
+      <anchorfile>classUI_1_1Control.html</anchorfile>
+      <anchor>aedda1328c4f8b8d49bca8f0812d3bfd1</anchor>
+      <arglist>()</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -2103,39 +2143,39 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>logging::Endpoint</name>
-    <filename>classlogging_1_1Endpoint.html</filename>
+    <name>Logging::Endpoint</name>
+    <filename>classLogging_1_1Endpoint.html</filename>
     <base>Factory&lt; Endpoint &gt;</base>
     <member kind="function">
       <type></type>
       <name>Endpoint</name>
-      <anchorfile>classlogging_1_1Endpoint.html</anchorfile>
-      <anchor>a975e51db9bd2f2edaf3be5c9c300b20b</anchor>
+      <anchorfile>classLogging_1_1Endpoint.html</anchorfile>
+      <anchor>a74134723947287c2c1bc9403d40c9a63</anchor>
       <arglist>(Key)</arglist>
     </member>
     <member kind="function" virtualness="virtual">
       <type>virtual</type>
       <name>~Endpoint</name>
-      <anchorfile>classlogging_1_1Endpoint.html</anchorfile>
-      <anchor>add1298100edfa58694eb9b043cbc1c0a</anchor>
+      <anchorfile>classLogging_1_1Endpoint.html</anchorfile>
+      <anchor>a6e86602c35d18978b236178602418266</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function" virtualness="pure">
       <type>virtual void</type>
       <name>print</name>
-      <anchorfile>classlogging_1_1Endpoint.html</anchorfile>
-      <anchor>ab6252c6fb39d5d34c2020e112b4a73d0</anchor>
+      <anchorfile>classLogging_1_1Endpoint.html</anchorfile>
+      <anchor>aa601154e78be357bbad73ac47f7aa2cb</anchor>
       <arglist>(message &amp;msg)=0</arglist>
     </member>
   </compound>
   <compound kind="struct">
-    <name>rpc::ErrorHandler</name>
-    <filename>structrpc_1_1ErrorHandler.html</filename>
+    <name>RPC::ErrorHandler</name>
+    <filename>structRPC_1_1ErrorHandler.html</filename>
     <member kind="function">
       <type>void</type>
       <name>taskFailed</name>
-      <anchorfile>structrpc_1_1ErrorHandler.html</anchorfile>
-      <anchor>a7a31fee351ee2ab3e761800cb1180cfc</anchor>
+      <anchorfile>structRPC_1_1ErrorHandler.html</anchorfile>
+      <anchor>a2b5f2f0219c6e377a456444e84553dd2</anchor>
       <arglist>(kj::Exception &amp;&amp;exception) override</arglist>
     </member>
   </compound>
@@ -2175,41 +2215,59 @@
     </member>
   </compound>
   <compound kind="struct">
-    <name>rpc::IO</name>
-    <filename>structrpc_1_1IO.html</filename>
+    <name>thread::info</name>
+    <filename>structthread_1_1info.html</filename>
+    <member kind="variable">
+      <type>std::thread::id</type>
+      <name>parent</name>
+      <anchorfile>structthread_1_1info.html</anchorfile>
+      <anchor>a7bf6d1cef9d2133ad901b51e7f2e93e3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>name</name>
+      <anchorfile>structthread_1_1info.html</anchorfile>
+      <anchor>aae6c3fe81d9a2d11a2ca15e72ea3da12</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>RPC::IO</name>
+    <filename>structRPC_1_1IO.html</filename>
     <member kind="function">
       <type></type>
       <name>IO</name>
-      <anchorfile>structrpc_1_1IO.html</anchorfile>
-      <anchor>aba777fded14916618706668dd2940a95</anchor>
+      <anchorfile>structRPC_1_1IO.html</anchorfile>
+      <anchor>a5232bfa23cfdc37f405ec10ea642e154</anchor>
       <arglist>(kj::AsyncIoContext &amp;&amp;_context, kj::Executor const &amp;_executor)</arglist>
     </member>
     <member kind="variable">
       <type>ErrorHandler</type>
       <name>err_handler</name>
-      <anchorfile>structrpc_1_1IO.html</anchorfile>
-      <anchor>a8b0d81a748170ad531fc767506e987c9</anchor>
+      <anchorfile>structRPC_1_1IO.html</anchorfile>
+      <anchor>a923392b26e8a9439b967afd3fa5b96c2</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>kj::TaskSet</type>
       <name>tasks</name>
-      <anchorfile>structrpc_1_1IO.html</anchorfile>
-      <anchor>ad69ddf70b54af81ad300d0ae5caa1590</anchor>
+      <anchorfile>structRPC_1_1IO.html</anchorfile>
+      <anchor>a3dae6685b252b31f1621241d2795a9a0</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>kj::AsyncIoContext</type>
       <name>context</name>
-      <anchorfile>structrpc_1_1IO.html</anchorfile>
-      <anchor>a18d6c1083195bbfdfcc85f35b49fd85d</anchor>
+      <anchorfile>structRPC_1_1IO.html</anchorfile>
+      <anchor>a834f72f2a4bfd0f0543daab8fe5a999d</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>kj::Executor const  &amp;</type>
       <name>executor</name>
-      <anchorfile>structrpc_1_1IO.html</anchorfile>
-      <anchor>a8eb6520f3377c77148c631eddc7f517b</anchor>
+      <anchorfile>structRPC_1_1IO.html</anchorfile>
+      <anchor>acb6552cb4d9ac823798a1ebb7b8761af</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -2272,125 +2330,125 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>logging::Logger</name>
-    <filename>classlogging_1_1Logger.html</filename>
+    <name>Logging::Logger</name>
+    <filename>classLogging_1_1Logger.html</filename>
     <member kind="function">
       <type></type>
       <name>Logger</name>
-      <anchorfile>classlogging_1_1Logger.html</anchorfile>
-      <anchor>a845f2ced80172c1be1e2d9ab8e918aa2</anchor>
+      <anchorfile>classLogging_1_1Logger.html</anchorfile>
+      <anchor>a3ce50157ed3d3292ff89b70e9af54679</anchor>
       <arglist>(Logger const &amp;)=delete</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>operator=</name>
-      <anchorfile>classlogging_1_1Logger.html</anchorfile>
-      <anchor>a8a1d919e4214c2f2d61efcc0af57148f</anchor>
+      <anchorfile>classLogging_1_1Logger.html</anchorfile>
+      <anchor>a3ddf78b7279ffc37298af0f8e7a0d9c4</anchor>
       <arglist>(Logger const &amp;)=delete</arglist>
     </member>
     <member kind="function">
       <type></type>
       <name>~Logger</name>
-      <anchorfile>classlogging_1_1Logger.html</anchorfile>
+      <anchorfile>classLogging_1_1Logger.html</anchorfile>
       <anchor>acb668a9e186a25fbaad2e4af6d1ed00a</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>configure</name>
-      <anchorfile>classlogging_1_1Logger.html</anchorfile>
-      <anchor>a54cb5a902b9518c44b9da942b472a676</anchor>
-      <arglist>(config::logging const &amp;cfg)</arglist>
+      <anchorfile>classLogging_1_1Logger.html</anchorfile>
+      <anchor>a949924db1d3635801a82fd13224dda50</anchor>
+      <arglist>(config::Logging const &amp;cfg)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>has_endpoint</name>
-      <anchorfile>classlogging_1_1Logger.html</anchorfile>
+      <anchorfile>classLogging_1_1Logger.html</anchorfile>
       <anchor>a8f7ec0036d8a376113632774f7cb229d</anchor>
       <arglist>(std::string const &amp;name) const</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>enable</name>
-      <anchorfile>classlogging_1_1Logger.html</anchorfile>
+      <anchorfile>classLogging_1_1Logger.html</anchorfile>
       <anchor>af2f7ea41236b2dfa06a7bc88786395bd</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>print</name>
-      <anchorfile>classlogging_1_1Logger.html</anchorfile>
+      <anchorfile>classLogging_1_1Logger.html</anchorfile>
       <anchor>a0670269fd3e09344126cc429ed4ba9ef</anchor>
       <arglist>(message &amp;msg)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>print</name>
-      <anchorfile>classlogging_1_1Logger.html</anchorfile>
-      <anchor>a873640980670866b9044ab14504835aa</anchor>
-      <arglist>(std::source_location location, severity level, Ts &amp;&amp;... ts)</arglist>
+      <anchorfile>classLogging_1_1Logger.html</anchorfile>
+      <anchor>a8f13853a0611146ec8b0b6cc19d5bf98</anchor>
+      <arglist>(std::source_location location, Severity level, Ts &amp;&amp;... ts)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>print</name>
-      <anchorfile>classlogging_1_1Logger.html</anchorfile>
-      <anchor>a773419b529a989d8c016ffe23f25ae9f</anchor>
-      <arglist>(Annotated&lt; severity &gt; meta, Ts &amp;&amp;... ts)</arglist>
+      <anchorfile>classLogging_1_1Logger.html</anchorfile>
+      <anchor>a554c2676af2436c7f39d8297a17b16e2</anchor>
+      <arglist>(Annotated&lt; Severity &gt; meta, Ts &amp;&amp;... ts)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>print</name>
-      <anchorfile>classlogging_1_1Logger.html</anchorfile>
-      <anchor>ae4734aecf6f8fe73592e6ef678bcf76d</anchor>
+      <anchorfile>classLogging_1_1Logger.html</anchorfile>
+      <anchor>a54b14d4b135ace17299bfa2ece0affbd</anchor>
       <arglist>(Annotated&lt; char const * &gt; meta, Ts &amp;&amp;... ts)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>debug</name>
-      <anchorfile>classlogging_1_1Logger.html</anchorfile>
-      <anchor>af3d02c7495c2309e51ca32b1c256c903</anchor>
+      <anchorfile>classLogging_1_1Logger.html</anchorfile>
+      <anchor>aaf950713fc659bbce9a02afec63366f9</anchor>
       <arglist>(Annotated&lt; char const * &gt; str, Ts &amp;&amp;... ts)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>info</name>
-      <anchorfile>classlogging_1_1Logger.html</anchorfile>
-      <anchor>a22cd5a007b967abf6dc1ce38d8d2ba87</anchor>
+      <anchorfile>classLogging_1_1Logger.html</anchorfile>
+      <anchor>ab5e0eea139ac2d7f72333ecedf91e3ca</anchor>
       <arglist>(Annotated&lt; char const * &gt; str, Ts &amp;&amp;... ts)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>warning</name>
-      <anchorfile>classlogging_1_1Logger.html</anchorfile>
-      <anchor>a04f317bbf64fdbf8d1648311484840fc</anchor>
+      <anchorfile>classLogging_1_1Logger.html</anchorfile>
+      <anchor>a17af6bb253804eb741defad2a4c0bcd2</anchor>
       <arglist>(Annotated&lt; char const * &gt; str, Ts &amp;&amp;... ts)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>error</name>
-      <anchorfile>classlogging_1_1Logger.html</anchorfile>
-      <anchor>af23ee806a4074b12f4171ce39e266291</anchor>
+      <anchorfile>classLogging_1_1Logger.html</anchorfile>
+      <anchor>a93dc3d974736b9200fb792db5f233fc4</anchor>
       <arglist>(Annotated&lt; char const * &gt; str, Ts &amp;&amp;... ts)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>fatal</name>
-      <anchorfile>classlogging_1_1Logger.html</anchorfile>
-      <anchor>a3f2721316999e36bce10d4dfbff924cb</anchor>
+      <anchorfile>classLogging_1_1Logger.html</anchorfile>
+      <anchor>a5d685bf09f3f5531e0bebbe4c514ece0</anchor>
       <arglist>(Annotated&lt; char const * &gt; str, Ts &amp;&amp;... ts)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static const std::string</type>
       <name>thread_name</name>
-      <anchorfile>classlogging_1_1Logger.html</anchorfile>
+      <anchorfile>classLogging_1_1Logger.html</anchorfile>
       <anchor>a05904975be0b6ab1576b67332c3418eb</anchor>
       <arglist>(std::string const &amp;new_name={})</arglist>
     </member>
     <member kind="variable">
-      <type>severity</type>
+      <type>Severity</type>
       <name>min_level</name>
-      <anchorfile>classlogging_1_1Logger.html</anchorfile>
-      <anchor>aeca20d74efe39904a658ea6038b57790</anchor>
+      <anchorfile>classLogging_1_1Logger.html</anchorfile>
+      <anchor>a312789da314b000b39f8ebcd4960b707</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -2550,41 +2608,41 @@
     </member>
   </compound>
   <compound kind="struct">
-    <name>logging::message</name>
-    <filename>structlogging_1_1message.html</filename>
+    <name>Logging::message</name>
+    <filename>structLogging_1_1message.html</filename>
     <member kind="variable">
-      <type>const severity</type>
+      <type>const Severity</type>
       <name>level</name>
-      <anchorfile>structlogging_1_1message.html</anchorfile>
-      <anchor>ad803fcb8ce8fa046bccbfb46bef2aed2</anchor>
+      <anchorfile>structLogging_1_1message.html</anchorfile>
+      <anchor>a9d6af2c79290be6636540bf003cd7c5b</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>const std::thread::id</type>
       <name>thread_id</name>
-      <anchorfile>structlogging_1_1message.html</anchorfile>
-      <anchor>aaed623e9629f0361a876e9457607efdc</anchor>
+      <anchorfile>structLogging_1_1message.html</anchorfile>
+      <anchor>add492fce21cde0ef3e55c6beaf78dd5b</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>const std::string</type>
       <name>thread_name</name>
-      <anchorfile>structlogging_1_1message.html</anchorfile>
-      <anchor>a73a67ef7edb030c335c1cde8e1d2e122</anchor>
+      <anchorfile>structLogging_1_1message.html</anchorfile>
+      <anchor>af94b5e1aede0735099d9f263e6da12f6</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>const std::source_location</type>
       <name>location</name>
-      <anchorfile>structlogging_1_1message.html</anchorfile>
-      <anchor>ac2ef5f66ef1f54523c25e912d74119a1</anchor>
+      <anchorfile>structLogging_1_1message.html</anchorfile>
+      <anchor>aec2e7198185b4fe6086043e9a4f4633b</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>const std::string</type>
       <name>text</name>
-      <anchorfile>structlogging_1_1message.html</anchorfile>
-      <anchor>a6a1b9dde5bbc6004c177dd573ad3126e</anchor>
+      <anchorfile>structLogging_1_1message.html</anchorfile>
+      <anchor>aa3a08cdf08e9dd883ee695877b0bcbb2</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -2982,20 +3040,20 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>auth::PSK</name>
-    <filename>classauth_1_1PSK.html</filename>
-    <base>auth::Authenticator</base>
+    <name>Authentication::PSK</name>
+    <filename>classAuthentication_1_1PSK.html</filename>
+    <base>Authentication::Authenticator</base>
     <member kind="function">
       <type></type>
       <name>PSK</name>
-      <anchorfile>classauth_1_1PSK.html</anchorfile>
-      <anchor>a6c762e1cd46744d84173ea74dbb118ee</anchor>
+      <anchorfile>classAuthentication_1_1PSK.html</anchorfile>
+      <anchor>a3cedb7c509ab21fbc6f89a331146c243</anchor>
       <arglist>(uint64_t _psk)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>check</name>
-      <anchorfile>classauth_1_1PSK.html</anchorfile>
+      <anchorfile>classAuthentication_1_1PSK.html</anchorfile>
       <anchor>a62cba1a3c1e18ef245d39024b636a778</anchor>
       <arglist>(uint64_t token) override</arglist>
     </member>
@@ -3068,6 +3126,24 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>UI::Renderer</name>
+    <filename>classUI_1_1Renderer.html</filename>
+    <member kind="function" virtualness="virtual">
+      <type>virtual</type>
+      <name>~Renderer</name>
+      <anchorfile>classUI_1_1Renderer.html</anchorfile>
+      <anchor>a1ed8a21ff4f330d28e2750daa0b7621b</anchor>
+      <arglist>()=default</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual bool</type>
+      <name>render</name>
+      <anchorfile>classUI_1_1Renderer.html</anchorfile>
+      <anchor>a32424380b79358f37f52906f3ea7034a</anchor>
+      <arglist>()=0</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>runnable</name>
     <filename>classrunnable.html</filename>
     <member kind="typedef">
@@ -3134,10 +3210,10 @@
       <arglist>(runnable const &amp;other) const</arglist>
     </member>
     <member kind="function" protection="protected" virtualness="virtual">
-      <type>virtual void</type>
+      <type>virtual bool</type>
       <name>setup</name>
       <anchorfile>classrunnable.html</anchorfile>
-      <anchor>a29c37cd6327ee6c3a896628ecd6935df</anchor>
+      <anchor>a05762391a8d79adab6e6972ed8c97471</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function" protection="protected" virtualness="pure">
@@ -3210,109 +3286,109 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>rpc::Server</name>
-    <filename>classrpc_1_1Server.html</filename>
+    <name>RPC::Server</name>
+    <filename>classRPC_1_1Server.html</filename>
     <base virtualness="virtual">runnable</base>
-    <base>Factory&lt; Server, capnp::Capability::Client, auth::Authenticator * &gt;</base>
+    <base>Factory&lt; Server, capnp::Capability::Client, Authentication::Authenticator * &gt;</base>
     <member kind="function">
       <type></type>
       <name>Server</name>
-      <anchorfile>classrpc_1_1Server.html</anchorfile>
-      <anchor>a1de34dec61a6959ce9159a8700ea0c4a</anchor>
+      <anchorfile>classRPC_1_1Server.html</anchorfile>
+      <anchor>a0eccd57fe950224d66a3f01bc1bd076c</anchor>
       <arglist>(Key)</arglist>
     </member>
     <member kind="function" virtualness="virtual">
       <type>virtual</type>
       <name>~Server</name>
-      <anchorfile>classrpc_1_1Server.html</anchorfile>
-      <anchor>a1079ff18b7c76e687ab891c6c3be8a6f</anchor>
+      <anchorfile>classRPC_1_1Server.html</anchorfile>
+      <anchor>af72d1d9a80b16070359fe3b376ef9c36</anchor>
       <arglist>() noexcept</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>broadcast</name>
-      <anchorfile>classrpc_1_1Server.html</anchorfile>
+      <anchorfile>classRPC_1_1Server.html</anchorfile>
       <anchor>a7d4e4af7a6de4089779ad8f2324262b1</anchor>
       <arglist>(capnp::MessageBuilder *message)</arglist>
     </member>
     <member kind="function" protection="protected">
       <type>void</type>
       <name>accept</name>
-      <anchorfile>classrpc_1_1Server.html</anchorfile>
+      <anchorfile>classRPC_1_1Server.html</anchorfile>
       <anchor>a8e0c5dcec5f72fce2e929e28b24f4e24</anchor>
       <arglist>(kj::Own&lt; kj::ConnectionReceiver &gt; &amp;&amp;listener)</arglist>
     </member>
     <member kind="function" protection="protected">
       <type>void</type>
       <name>remove</name>
-      <anchorfile>classrpc_1_1Server.html</anchorfile>
+      <anchorfile>classRPC_1_1Server.html</anchorfile>
       <anchor>a251f49078124dd3e8e577c2d4f659fe2</anchor>
       <arglist>(Context const *ptr)</arglist>
     </member>
     <member kind="function" protection="protected">
       <type>kj::Promise&lt; void &gt;</type>
       <name>authenticate</name>
-      <anchorfile>classrpc_1_1Server.html</anchorfile>
+      <anchorfile>classRPC_1_1Server.html</anchorfile>
       <anchor>ae06c69840bf4d54f026e7948042bf471</anchor>
       <arglist>(kj::AuthenticatedStream &amp;&amp;connection)</arglist>
     </member>
     <member kind="variable" protection="protected">
       <type>capnp::Capability::Client</type>
       <name>interface</name>
-      <anchorfile>classrpc_1_1Server.html</anchorfile>
-      <anchor>a45630a1fed178c549a49353e0766cc42</anchor>
+      <anchorfile>classRPC_1_1Server.html</anchorfile>
+      <anchor>a866d51bece811d11362e9e4899661d92</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable" protection="protected">
-      <type>auth::Authenticator *</type>
+      <type>Authentication::Authenticator *</type>
       <name>authenticator</name>
-      <anchorfile>classrpc_1_1Server.html</anchorfile>
-      <anchor>a982f316a7a901f12bab87ccc445d8ca9</anchor>
+      <anchorfile>classRPC_1_1Server.html</anchorfile>
+      <anchor>a908feb294bc012d0049d2fc1d803843f</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable" protection="protected">
       <type>std::list&lt; kj::Own&lt; Context &gt; &gt;</type>
       <name>contexts</name>
-      <anchorfile>classrpc_1_1Server.html</anchorfile>
-      <anchor>a98e7bb75f79493966a23d25f900caf70</anchor>
+      <anchorfile>classRPC_1_1Server.html</anchorfile>
+      <anchor>a780889679d417b2923c51a62d5424df4</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable" protection="protected">
-      <type>kj::Own&lt; rpc::IO &gt;</type>
+      <type>kj::Own&lt; RPC::IO &gt;</type>
       <name>io</name>
-      <anchorfile>classrpc_1_1Server.html</anchorfile>
-      <anchor>a723ef6449caab987ab160ca7695be697</anchor>
+      <anchorfile>classRPC_1_1Server.html</anchorfile>
+      <anchor>a76add49eb5b58c3e642026d1f3d83f01</anchor>
       <arglist></arglist>
     </member>
   </compound>
   <compound kind="class">
-    <name>rpc::tcp::Server</name>
-    <filename>classrpc_1_1tcp_1_1Server.html</filename>
+    <name>RPC::TCP::Server</name>
+    <filename>classRPC_1_1TCP_1_1Server.html</filename>
     <member kind="function">
       <type></type>
       <name>Server</name>
-      <anchorfile>classrpc_1_1tcp_1_1Server.html</anchorfile>
-      <anchor>a453c7879c2a7e54073e51bbf59f7ba5b</anchor>
-      <arglist>(config_t const &amp;_config, capnp::Capability::Client _interface, auth::Authenticator *_auth)</arglist>
+      <anchorfile>classRPC_1_1TCP_1_1Server.html</anchorfile>
+      <anchor>a3111b13e4cd1847ae669bc9ee240d246</anchor>
+      <arglist>(config_t const &amp;_config, capnp::Capability::Client _interface, Authentication::Authenticator *_auth)</arglist>
     </member>
     <member kind="function">
       <type></type>
       <name>~Server</name>
-      <anchorfile>classrpc_1_1tcp_1_1Server.html</anchorfile>
-      <anchor>a11c30a291a18219dc34a9aebeb5719cb</anchor>
+      <anchorfile>classRPC_1_1TCP_1_1Server.html</anchorfile>
+      <anchor>ad434c31de91e2558a23ba2a4f6804991</anchor>
       <arglist>() noexcept override</arglist>
     </member>
     <member kind="function">
-      <type>void</type>
+      <type>bool</type>
       <name>setup</name>
-      <anchorfile>classrpc_1_1tcp_1_1Server.html</anchorfile>
-      <anchor>a73ed6533b423af5725c592b4f4e81e64</anchor>
+      <anchorfile>classRPC_1_1TCP_1_1Server.html</anchorfile>
+      <anchor>a9ad00d184905d5221c98314198871dd1</anchor>
       <arglist>() override</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>loop</name>
-      <anchorfile>classrpc_1_1tcp_1_1Server.html</anchorfile>
+      <anchorfile>classRPC_1_1TCP_1_1Server.html</anchorfile>
       <anchor>a3a4fd983bbd5011098dee3125dfc2e43</anchor>
       <arglist>() override</arglist>
     </member>
@@ -3451,74 +3527,33 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>auth::Token</name>
-    <filename>classauth_1_1Token.html</filename>
-    <base>auth::Authenticator</base>
+    <name>Authentication::Token</name>
+    <filename>classAuthentication_1_1Token.html</filename>
+    <base>Authentication::Authenticator</base>
     <member kind="function">
       <type>bool</type>
       <name>check</name>
-      <anchorfile>classauth_1_1Token.html</anchorfile>
+      <anchorfile>classAuthentication_1_1Token.html</anchorfile>
       <anchor>a08bf03f1726930dd281257cd88a1ace0</anchor>
       <arglist>(uint64_t token) override</arglist>
     </member>
   </compound>
   <compound kind="class">
-    <name>tray</name>
-    <filename>classtray.html</filename>
-    <base>backend</base>
+    <name>UI::Tray</name>
+    <filename>classUI_1_1Tray.html</filename>
+    <member kind="function" virtualness="virtual">
+      <type>virtual</type>
+      <name>~Tray</name>
+      <anchorfile>classUI_1_1Tray.html</anchorfile>
+      <anchor>a18ff33bf1798f5cc74e315b207088643</anchor>
+      <arglist>()=default</arglist>
+    </member>
     <member kind="function" virtualness="pure">
       <type>virtual bool</type>
       <name>render</name>
-      <anchorfile>classtray.html</anchorfile>
-      <anchor>a61642b5276311d98cc872423523f0d6f</anchor>
+      <anchorfile>classUI_1_1Tray.html</anchorfile>
+      <anchor>a2ab4413f1f1f686461a5adcbb344cc92</anchor>
       <arglist>()=0</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>ui</name>
-    <filename>classui.html</filename>
-    <base>runnable</base>
-    <member kind="function">
-      <type></type>
-      <name>ui</name>
-      <anchorfile>classui.html</anchorfile>
-      <anchor>a3de3734002912a7b8be2284521b28402</anchor>
-      <arglist>(ui const &amp;)=delete</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>operator=</name>
-      <anchorfile>classui.html</anchorfile>
-      <anchor>a21af14ebe7cce6a28ea0485adfcbe34a</anchor>
-      <arglist>(ui const &amp;)=delete</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>~ui</name>
-      <anchorfile>classui.html</anchorfile>
-      <anchor>ab0ec5ccdabbb02c2dc3f6ca8b66f26e1</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>attach</name>
-      <anchorfile>classui.html</anchorfile>
-      <anchor>a1b194bf77cb4e97083a9612d9996cec7</anchor>
-      <arglist>(Args... args)</arglist>
-    </member>
-    <member kind="function" static="yes">
-      <type>static ui &amp;</type>
-      <name>Instance</name>
-      <anchorfile>classui.html</anchorfile>
-      <anchor>aaa157ba4489ac066594540334a2fda5c</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function" static="yes">
-      <type>static void</type>
-      <name>toggle_fullscreen</name>
-      <anchorfile>classui.html</anchorfile>
-      <anchor>aec6b0fed1a4ba4c866ccd4302bd1c33a</anchor>
-      <arglist>()</arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -3589,164 +3624,164 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>window</name>
-    <filename>classwindow.html</filename>
+    <name>UI::Window</name>
+    <filename>classUI_1_1Window.html</filename>
     <member kind="enumeration">
       <type></type>
       <name>flag</name>
-      <anchorfile>classwindow.html</anchorfile>
-      <anchor>aef77ff2dda8ad9f644927c92da52a5a9</anchor>
+      <anchorfile>classUI_1_1Window.html</anchorfile>
+      <anchor>ac5832f31e57a6720a584b2c2608b641a</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>visible</name>
-      <anchorfile>classwindow.html</anchorfile>
-      <anchor>aef77ff2dda8ad9f644927c92da52a5a9a8fd385de63f1cecd41a711f03a00330e</anchor>
+      <anchorfile>classUI_1_1Window.html</anchorfile>
+      <anchor>ac5832f31e57a6720a584b2c2608b641aa075eafb7f6f08885fd282130fbe7e681</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>minimized</name>
-      <anchorfile>classwindow.html</anchorfile>
-      <anchor>aef77ff2dda8ad9f644927c92da52a5a9a237529193a9dfc34420d7e64f538708f</anchor>
+      <anchorfile>classUI_1_1Window.html</anchorfile>
+      <anchor>ac5832f31e57a6720a584b2c2608b641aaf1c4a25e572ac83716523f9b42f4b164</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>maximized</name>
-      <anchorfile>classwindow.html</anchorfile>
-      <anchor>aef77ff2dda8ad9f644927c92da52a5a9a8766a1d48ad7c64d1c61aa0ef5c42faa</anchor>
+      <anchorfile>classUI_1_1Window.html</anchorfile>
+      <anchor>ac5832f31e57a6720a584b2c2608b641aaa212b85517624b06a684a9aeaedad0cc</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>focused</name>
-      <anchorfile>classwindow.html</anchorfile>
-      <anchor>aef77ff2dda8ad9f644927c92da52a5a9a9d99627cec2c643208a1be8c5a298592</anchor>
+      <anchorfile>classUI_1_1Window.html</anchorfile>
+      <anchor>ac5832f31e57a6720a584b2c2608b641aa02c5c173b312bd47a5f46ef4966b13d7</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>floating</name>
-      <anchorfile>classwindow.html</anchorfile>
-      <anchor>aef77ff2dda8ad9f644927c92da52a5a9aea24d58ed0be8723b9bff6355ac874d6</anchor>
+      <anchorfile>classUI_1_1Window.html</anchorfile>
+      <anchor>ac5832f31e57a6720a584b2c2608b641aa1152e3c59bf7a6795a30fa25506de6f5</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>visible</name>
-      <anchorfile>classwindow.html</anchorfile>
-      <anchor>aef77ff2dda8ad9f644927c92da52a5a9a8fd385de63f1cecd41a711f03a00330e</anchor>
+      <anchorfile>classUI_1_1Window.html</anchorfile>
+      <anchor>ac5832f31e57a6720a584b2c2608b641aa075eafb7f6f08885fd282130fbe7e681</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>minimized</name>
-      <anchorfile>classwindow.html</anchorfile>
-      <anchor>aef77ff2dda8ad9f644927c92da52a5a9a237529193a9dfc34420d7e64f538708f</anchor>
+      <anchorfile>classUI_1_1Window.html</anchorfile>
+      <anchor>ac5832f31e57a6720a584b2c2608b641aaf1c4a25e572ac83716523f9b42f4b164</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>maximized</name>
-      <anchorfile>classwindow.html</anchorfile>
-      <anchor>aef77ff2dda8ad9f644927c92da52a5a9a8766a1d48ad7c64d1c61aa0ef5c42faa</anchor>
+      <anchorfile>classUI_1_1Window.html</anchorfile>
+      <anchor>ac5832f31e57a6720a584b2c2608b641aaa212b85517624b06a684a9aeaedad0cc</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>focused</name>
-      <anchorfile>classwindow.html</anchorfile>
-      <anchor>aef77ff2dda8ad9f644927c92da52a5a9a9d99627cec2c643208a1be8c5a298592</anchor>
+      <anchorfile>classUI_1_1Window.html</anchorfile>
+      <anchor>ac5832f31e57a6720a584b2c2608b641aa02c5c173b312bd47a5f46ef4966b13d7</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>floating</name>
-      <anchorfile>classwindow.html</anchorfile>
-      <anchor>aef77ff2dda8ad9f644927c92da52a5a9aea24d58ed0be8723b9bff6355ac874d6</anchor>
+      <anchorfile>classUI_1_1Window.html</anchorfile>
+      <anchor>ac5832f31e57a6720a584b2c2608b641aa1152e3c59bf7a6795a30fa25506de6f5</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
       <type></type>
-      <name>window</name>
-      <anchorfile>classwindow.html</anchorfile>
-      <anchor>a6d3235fb1490acf32a94e5a05e26c08d</anchor>
+      <name>Window</name>
+      <anchorfile>classUI_1_1Window.html</anchorfile>
+      <anchor>a3edc73ad505be3c0bf84824c8d845a4c</anchor>
       <arglist>()=default</arglist>
     </member>
     <member kind="function" virtualness="virtual">
       <type>virtual</type>
-      <name>~window</name>
-      <anchorfile>classwindow.html</anchorfile>
-      <anchor>a74c0166a724299fb28f67797854b1b2a</anchor>
+      <name>~Window</name>
+      <anchorfile>classUI_1_1Window.html</anchorfile>
+      <anchor>a7515e683a304c7884fdee6987f136ddb</anchor>
       <arglist>()=default</arglist>
     </member>
     <member kind="function" virtualness="pure">
       <type>virtual void</type>
       <name>attention</name>
-      <anchorfile>classwindow.html</anchorfile>
-      <anchor>a69a48b055884eee77f8b4517ee916e93</anchor>
+      <anchorfile>classUI_1_1Window.html</anchorfile>
+      <anchor>ab5d48610ef3f6529ea30e5f8543d2b3e</anchor>
       <arglist>()=0</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>set</name>
-      <anchorfile>classwindow.html</anchorfile>
-      <anchor>a4021b4c8be7d05b9e32222473389cfc4</anchor>
+      <anchorfile>classUI_1_1Window.html</anchorfile>
+      <anchor>a1fe352196af4c9cb4649fa36641821a9</anchor>
       <arglist>(flag _flag, bool value=true)</arglist>
     </member>
     <member kind="function" virtualness="virtual">
       <type>virtual std::bitset&lt; 8 &gt; &amp;</type>
       <name>get_flags</name>
-      <anchorfile>classwindow.html</anchorfile>
-      <anchor>a6c3706054a72d094118f4a9132955314</anchor>
+      <anchorfile>classUI_1_1Window.html</anchorfile>
+      <anchor>afd4d3eb67c829b490c07d0fd33aefddd</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function" virtualness="pure">
       <type>virtual void</type>
       <name>resize</name>
-      <anchorfile>classwindow.html</anchorfile>
-      <anchor>a9476cbee18eb41a1a8e91c4adfdf9f05</anchor>
+      <anchorfile>classUI_1_1Window.html</anchorfile>
+      <anchor>a27ee7173f57754915e2e820840c2633e</anchor>
       <arglist>(unsigned width, unsigned height)=0</arglist>
     </member>
     <member kind="function" virtualness="pure">
       <type>virtual void</type>
       <name>move</name>
-      <anchorfile>classwindow.html</anchorfile>
-      <anchor>afefb819e55ad27843023a8a14921ff5f</anchor>
+      <anchorfile>classUI_1_1Window.html</anchorfile>
+      <anchor>a136b93b2a757a4236a8b08da0a75fb07</anchor>
       <arglist>(int x, int y)=0</arglist>
     </member>
     <member kind="function" virtualness="pure">
       <type>virtual void</type>
       <name>title</name>
-      <anchorfile>classwindow.html</anchorfile>
-      <anchor>ace38456c6311b4413488ed6bc8809dd2</anchor>
+      <anchorfile>classUI_1_1Window.html</anchorfile>
+      <anchor>ab092250df24bff55b5819a5b6f8f2a56</anchor>
       <arglist>(const std::string &amp;title)=0</arglist>
     </member>
     <member kind="function" virtualness="pure">
       <type>virtual void</type>
       <name>icon</name>
-      <anchorfile>classwindow.html</anchorfile>
-      <anchor>a576dd32de1540f82dd7963ec024b5b30</anchor>
+      <anchorfile>classUI_1_1Window.html</anchorfile>
+      <anchor>add989423bc93a69926f916944959bf52</anchor>
       <arglist>(unsigned height, unsigned width, const char *data)=0</arglist>
     </member>
     <member kind="function" virtualness="pure">
       <type>virtual void</type>
       <name>wireframe</name>
-      <anchorfile>classwindow.html</anchorfile>
-      <anchor>a8ed4e92551e894bc9cd649949294b4bb</anchor>
+      <anchorfile>classUI_1_1Window.html</anchorfile>
+      <anchor>a7a873833a94eb6e82ac7ace84ebac03e</anchor>
       <arglist>(bool status)=0</arglist>
     </member>
     <member kind="function" virtualness="pure">
       <type>virtual bool</type>
       <name>render</name>
-      <anchorfile>classwindow.html</anchorfile>
-      <anchor>a5189d6e23b54550c8ef0be530f5cee7c</anchor>
+      <anchorfile>classUI_1_1Window.html</anchorfile>
+      <anchor>a834a2743fdb2568df024ba97e7599094</anchor>
       <arglist>()=0</arglist>
     </member>
     <member kind="function" protection="protected" virtualness="pure">
       <type>virtual void</type>
       <name>handle_flag</name>
-      <anchorfile>classwindow.html</anchorfile>
-      <anchor>ab6cfb724a530ed7e385d0ce4f1bbc9f7</anchor>
+      <anchorfile>classUI_1_1Window.html</anchorfile>
+      <anchor>acee241941aced158017c896ae1cc1a23</anchor>
       <arglist>(flag _flag, bool value)=0</arglist>
     </member>
     <member kind="variable" protection="protected">
       <type>std::bitset&lt; 8 &gt;</type>
       <name>flags</name>
-      <anchorfile>classwindow.html</anchorfile>
-      <anchor>a489799df18e45bdd75e9eb22f1e3b4f5</anchor>
+      <anchorfile>classUI_1_1Window.html</anchorfile>
+      <anchor>a2df1880954dfb9b5e485ee6c9f4f4c60</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -3763,11 +3798,11 @@
     <filename>conceptutil_1_1toml__convertible.html</filename>
   </compound>
   <compound kind="namespace">
-    <name>auth</name>
-    <filename>namespaceauth.html</filename>
-    <class kind="class">auth::Authenticator</class>
-    <class kind="class">auth::PSK</class>
-    <class kind="class">auth::Token</class>
+    <name>Authentication</name>
+    <filename>namespaceAuthentication.html</filename>
+    <class kind="class">Authentication::Authenticator</class>
+    <class kind="class">Authentication::PSK</class>
+    <class kind="class">Authentication::Token</class>
   </compound>
   <compound kind="namespace">
     <name>detail</name>
@@ -3781,54 +3816,54 @@
     </member>
   </compound>
   <compound kind="namespace">
-    <name>logging</name>
-    <filename>namespacelogging.html</filename>
-    <namespace>logging::__</namespace>
-    <class kind="struct">logging::Annotated</class>
-    <class kind="class">logging::Endpoint</class>
-    <class kind="class">logging::Logger</class>
-    <class kind="struct">logging::message</class>
+    <name>Logging</name>
+    <filename>namespaceLogging.html</filename>
+    <namespace>Logging::__</namespace>
+    <class kind="struct">Logging::Annotated</class>
+    <class kind="class">Logging::Endpoint</class>
+    <class kind="class">Logging::Logger</class>
+    <class kind="struct">Logging::message</class>
     <member kind="enumeration">
       <type></type>
-      <name>severity</name>
-      <anchorfile>namespacelogging.html</anchorfile>
-      <anchor>a72e7a108a3928d5e407b6a7723799826</anchor>
+      <name>Severity</name>
+      <anchorfile>namespaceLogging.html</anchorfile>
+      <anchor>aa0aabbf5046236bd92698ad87c9ab55a</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>debug</name>
-      <anchorfile>namespacelogging.html</anchorfile>
-      <anchor>a72e7a108a3928d5e407b6a7723799826aa8e7bccd55418c8ecc7a23bb5d9afcff</anchor>
+      <anchorfile>namespaceLogging.html</anchorfile>
+      <anchor>aa0aabbf5046236bd92698ad87c9ab55aa3e0930ddd5f775c603db6bd89f8b1b57</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>info</name>
-      <anchorfile>namespacelogging.html</anchorfile>
-      <anchor>a72e7a108a3928d5e407b6a7723799826a4cd4cc508dacd5b0007018c45a446ee4</anchor>
+      <anchorfile>namespaceLogging.html</anchorfile>
+      <anchor>aa0aabbf5046236bd92698ad87c9ab55aa90ffdce6eecc02ffecd67a995dba7faa</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>warning</name>
-      <anchorfile>namespacelogging.html</anchorfile>
-      <anchor>a72e7a108a3928d5e407b6a7723799826afe6af08edd74e3e77e5ec1058844088c</anchor>
+      <anchorfile>namespaceLogging.html</anchorfile>
+      <anchor>aa0aabbf5046236bd92698ad87c9ab55aaa9abee4c593dd6e8320402e6433b3369</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>error</name>
-      <anchorfile>namespacelogging.html</anchorfile>
-      <anchor>a72e7a108a3928d5e407b6a7723799826a66700fb5e035d3906738d73fc57579f0</anchor>
+      <anchorfile>namespaceLogging.html</anchorfile>
+      <anchor>aa0aabbf5046236bd92698ad87c9ab55aaceeb027b8c598adb9e3af1696a163aea</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>fatal</name>
-      <anchorfile>namespacelogging.html</anchorfile>
-      <anchor>a72e7a108a3928d5e407b6a7723799826a53dcd4887683847f344507340d236621</anchor>
+      <anchorfile>namespaceLogging.html</anchorfile>
+      <anchor>aa0aabbf5046236bd92698ad87c9ab55aa3027a6eaf95c5a493d6d825e748096ef</anchor>
       <arglist></arglist>
     </member>
   </compound>
   <compound kind="namespace">
-    <name>logging::__</name>
-    <filename>namespacelogging_1_1____.html</filename>
+    <name>Logging::__</name>
+    <filename>namespaceLogging_1_1____.html</filename>
   </compound>
   <compound kind="namespace">
     <name>memory</name>
@@ -3879,20 +3914,25 @@
     </member>
   </compound>
   <compound kind="namespace">
-    <name>rpc</name>
-    <filename>namespacerpc.html</filename>
-    <namespace>rpc::tcp</namespace>
-    <class kind="class">rpc::Client</class>
-    <class kind="struct">rpc::Context</class>
-    <class kind="struct">rpc::ErrorHandler</class>
-    <class kind="struct">rpc::IO</class>
-    <class kind="class">rpc::Server</class>
+    <name>RPC</name>
+    <filename>namespaceRPC.html</filename>
+    <namespace>RPC::TCP</namespace>
+    <class kind="class">RPC::Client</class>
+    <class kind="struct">RPC::Context</class>
+    <class kind="struct">RPC::ErrorHandler</class>
+    <class kind="struct">RPC::IO</class>
+    <class kind="class">RPC::Server</class>
   </compound>
   <compound kind="namespace">
-    <name>rpc::tcp</name>
-    <filename>namespacerpc_1_1tcp.html</filename>
-    <class kind="class">rpc::tcp::Client</class>
-    <class kind="class">rpc::tcp::Server</class>
+    <name>RPC::TCP</name>
+    <filename>namespaceRPC_1_1TCP.html</filename>
+    <class kind="class">RPC::TCP::Client</class>
+    <class kind="class">RPC::TCP::Server</class>
+  </compound>
+  <compound kind="namespace">
+    <name>thread</name>
+    <filename>namespacethread.html</filename>
+    <class kind="struct">thread::info</class>
   </compound>
   <compound kind="namespace">
     <name>toml</name>
@@ -3952,6 +3992,14 @@
       <anchor>a8ff1ca4f59ca63030ff934ca98d6bc4f</anchor>
       <arglist></arglist>
     </member>
+  </compound>
+  <compound kind="namespace">
+    <name>UI</name>
+    <filename>namespaceUI.html</filename>
+    <class kind="class">UI::Control</class>
+    <class kind="class">UI::Renderer</class>
+    <class kind="class">UI::Tray</class>
+    <class kind="class">UI::Window</class>
   </compound>
   <compound kind="namespace">
     <name>util</name>

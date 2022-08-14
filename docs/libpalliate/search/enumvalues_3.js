@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['fatal_0',['fatal',['../namespacelogging.html#a72e7a108a3928d5e407b6a7723799826a53dcd4887683847f344507340d236621',1,'logging']]],
-  ['floating_1',['floating',['../classwindow.html#aef77ff2dda8ad9f644927c92da52a5a9aea24d58ed0be8723b9bff6355ac874d6',1,'window']]],
-  ['focused_2',['focused',['../classwindow.html#aef77ff2dda8ad9f644927c92da52a5a9a9d99627cec2c643208a1be8c5a298592',1,'window']]]
+  ['fatal_0',['fatal',['../namespaceLogging.html#aa0aabbf5046236bd92698ad87c9ab55aa3027a6eaf95c5a493d6d825e748096ef',1,'Logging']]],
+  ['floating_1',['floating',['../classUI_1_1Window.html#ac5832f31e57a6720a584b2c2608b641aa1152e3c59bf7a6795a30fa25506de6f5',1,'UI::Window']]],
+  ['focused_2',['focused',['../classUI_1_1Window.html#ac5832f31e57a6720a584b2c2608b641aa02c5c173b312bd47a5f46ef4966b13d7',1,'UI::Window']]]
 ];

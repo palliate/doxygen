@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['auth_0',['auth',['../namespaceauth.html',1,'']]]
+  ['authentication_0',['Authentication',['../namespaceAuthentication.html',1,'']]]
 ];

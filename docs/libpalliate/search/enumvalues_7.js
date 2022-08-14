@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['server_0',['server',['../structrpc_1_1Context.html#ac2962eb95dd1d7d81698f539766af02aa3e41509e5d6ef703d28550b31596f65f',1,'rpc::Context']]]
+  ['server_0',['server',['../structRPC_1_1Context.html#a12974c46a44adb112bc1da6d09b694f9a5c122d85a5b928ed485449afe7dd05ec',1,'RPC::Context']]]
 ];

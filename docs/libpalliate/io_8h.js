@@ -1,4 +1,4 @@
 var io_8h =
 [
-    [ "rpc::IO", "structrpc_1_1IO.html", "structrpc_1_1IO" ]
+    [ "RPC::IO", "structRPC_1_1IO.html", "structRPC_1_1IO" ]
 ];

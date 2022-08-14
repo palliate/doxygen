@@ -1,4 +1,4 @@
 var rpc_2client_8h =
 [
-    [ "rpc::Client", "classrpc_1_1Client.html", "classrpc_1_1Client" ]
+    [ "RPC::Client", "classRPC_1_1Client.html", "classRPC_1_1Client" ]
 ];

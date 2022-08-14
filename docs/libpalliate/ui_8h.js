@@ -1,4 +1,4 @@
 var ui_8h =
 [
-    [ "ui", "classui.html", "classui" ]
+    [ "UI::Control", "classUI_1_1Control.html", "classUI_1_1Control" ]
 ];

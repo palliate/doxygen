@@ -1,15 +1,15 @@
 var annotated_dup =
 [
-    [ "auth", "namespaceauth.html", [
-      [ "Authenticator", "classauth_1_1Authenticator.html", "classauth_1_1Authenticator" ],
-      [ "PSK", "classauth_1_1PSK.html", "classauth_1_1PSK" ],
-      [ "Token", "classauth_1_1Token.html", "classauth_1_1Token" ]
+    [ "Authentication", "namespaceAuthentication.html", [
+      [ "Authenticator", "classAuthentication_1_1Authenticator.html", "classAuthentication_1_1Authenticator" ],
+      [ "PSK", "classAuthentication_1_1PSK.html", "classAuthentication_1_1PSK" ],
+      [ "Token", "classAuthentication_1_1Token.html", "classAuthentication_1_1Token" ]
     ] ],
-    [ "logging", "namespacelogging.html", [
-      [ "Annotated", "structlogging_1_1Annotated.html", "structlogging_1_1Annotated" ],
-      [ "Endpoint", "classlogging_1_1Endpoint.html", "classlogging_1_1Endpoint" ],
-      [ "Logger", "classlogging_1_1Logger.html", "classlogging_1_1Logger" ],
-      [ "message", "structlogging_1_1message.html", "structlogging_1_1message" ]
+    [ "Logging", "namespaceLogging.html", [
+      [ "Annotated", "structLogging_1_1Annotated.html", "structLogging_1_1Annotated" ],
+      [ "Endpoint", "classLogging_1_1Endpoint.html", "classLogging_1_1Endpoint" ],
+      [ "Logger", "classLogging_1_1Logger.html", "classLogging_1_1Logger" ],
+      [ "message", "structLogging_1_1message.html", "structLogging_1_1message" ]
     ] ],
     [ "memory", "namespacememory.html", [
       [ "bin_t", "structmemory_1_1bin__t.html", "structmemory_1_1bin__t" ],
@@ -20,16 +20,19 @@ var annotated_dup =
       [ "node_t", "structmemory_1_1node__t.html", "structmemory_1_1node__t" ],
       [ "server", "classmemory_1_1server.html", "classmemory_1_1server" ]
     ] ],
-    [ "rpc", "namespacerpc.html", [
-      [ "tcp", "namespacerpc_1_1tcp.html", [
-        [ "Client", "classrpc_1_1tcp_1_1Client.html", "classrpc_1_1tcp_1_1Client" ],
-        [ "Server", "classrpc_1_1tcp_1_1Server.html", "classrpc_1_1tcp_1_1Server" ]
+    [ "RPC", "namespaceRPC.html", [
+      [ "TCP", "namespaceRPC_1_1TCP.html", [
+        [ "Client", "classRPC_1_1TCP_1_1Client.html", "classRPC_1_1TCP_1_1Client" ],
+        [ "Server", "classRPC_1_1TCP_1_1Server.html", "classRPC_1_1TCP_1_1Server" ]
       ] ],
-      [ "Client", "classrpc_1_1Client.html", "classrpc_1_1Client" ],
-      [ "Context", "structrpc_1_1Context.html", "structrpc_1_1Context" ],
-      [ "ErrorHandler", "structrpc_1_1ErrorHandler.html", "structrpc_1_1ErrorHandler" ],
-      [ "IO", "structrpc_1_1IO.html", "structrpc_1_1IO" ],
-      [ "Server", "classrpc_1_1Server.html", "classrpc_1_1Server" ]
+      [ "Client", "classRPC_1_1Client.html", "classRPC_1_1Client" ],
+      [ "Context", "structRPC_1_1Context.html", "structRPC_1_1Context" ],
+      [ "ErrorHandler", "structRPC_1_1ErrorHandler.html", "structRPC_1_1ErrorHandler" ],
+      [ "IO", "structRPC_1_1IO.html", "structRPC_1_1IO" ],
+      [ "Server", "classRPC_1_1Server.html", "classRPC_1_1Server" ]
+    ] ],
+    [ "thread", "namespacethread.html", [
+      [ "info", "structthread_1_1info.html", "structthread_1_1info" ]
     ] ],
     [ "transport", "namespacetransport.html", [
       [ "TCP", "namespacetransport_1_1TCP.html", [
@@ -38,6 +41,12 @@ var annotated_dup =
       ] ],
       [ "Client", "classtransport_1_1Client.html", "classtransport_1_1Client" ],
       [ "Server", "classtransport_1_1Server.html", "classtransport_1_1Server" ]
+    ] ],
+    [ "UI", "namespaceUI.html", [
+      [ "Control", "classUI_1_1Control.html", "classUI_1_1Control" ],
+      [ "Renderer", "classUI_1_1Renderer.html", "classUI_1_1Renderer" ],
+      [ "Tray", "classUI_1_1Tray.html", "classUI_1_1Tray" ],
+      [ "Window", "classUI_1_1Window.html", "classUI_1_1Window" ]
     ] ],
     [ "util", "namespaceutil.html", [
       [ "Collection", "classutil_1_1Collection.html", "classutil_1_1Collection" ],
@@ -52,7 +61,6 @@ var annotated_dup =
     [ "atomic_reqresp", "classatomic__reqresp.html", "classatomic__reqresp" ],
     [ "atomic_semaphore", "classatomic__semaphore.html", "classatomic__semaphore" ],
     [ "atomic_stack", "classatomic__stack.html", "classatomic__stack" ],
-    [ "backend", "classbackend.html", "classbackend" ],
     [ "consumer", "classconsumer.html", "classconsumer" ],
     [ "element", "structelement.html", "structelement" ],
     [ "ivshmem", "classivshmem.html", "classivshmem" ],
@@ -62,8 +70,5 @@ var annotated_dup =
     [ "plugin", "classplugin.html", "classplugin" ],
     [ "producer", "classproducer.html", "classproducer" ],
     [ "runnable", "classrunnable.html", "classrunnable" ],
-    [ "Servers", "classServers.html", "classServers" ],
-    [ "tray", "classtray.html", "classtray" ],
-    [ "ui", "classui.html", "classui" ],
-    [ "window", "classwindow.html", "classwindow" ]
+    [ "Servers", "classServers.html", "classServers" ]
 ];
