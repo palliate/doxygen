@@ -1,4 +1,4 @@
 var context__guard_8h =
 [
-    [ "context_guard", "structcontext__guard.html", "structcontext__guard" ]
+    [ "UI::GL::context_guard", "structUI_1_1GL_1_1context__guard.html", "structUI_1_1GL_1_1context__guard" ]
 ];

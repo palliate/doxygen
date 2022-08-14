@@ -1,5 +1,8 @@
 var searchData=
 [
-  ['node_0',['node',['../../libpalliate/structatomic__stack_1_1node.html',1,'atomic_stack']]],
-  ['node_5ft_1',['node_t',['../../libpalliate/structmemory_1_1node__t.html',1,'memory::node_t'],['../../libpalliate/structpatricia_1_1node__t.html',1,'patricia::node_t']]]
+  ['patricia_0',['patricia',['../../libpalliate/classpatricia.html',1,'']]],
+  ['plugin_1',['plugin',['../../libpalliate/classplugin.html',1,'']]],
+  ['plugin_5fmanager_2',['plugin_manager',['../classplugin__manager.html',1,'']]],
+  ['producer_3',['producer',['../../libpalliate/classproducer.html',1,'']]],
+  ['psk_4',['PSK',['../../libpalliate/classAuthentication_1_1PSK.html',1,'Authentication']]]
 ];

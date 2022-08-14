@@ -5,6 +5,6 @@ var dir_68267d1309a1af8e8297ef4c3efbcdba =
     [ "ivshmem", "dir_fe52234af07eaac75d9bcb8af5f39ac0.html", "dir_fe52234af07eaac75d9bcb8af5f39ac0" ],
     [ "logging", "dir_b3320b59a4aa4a7431bc8488b87009bf.html", "dir_b3320b59a4aa4a7431bc8488b87009bf" ],
     [ "plugin_manager", "dir_ad48cbef4074e03d059db50e9662610d.html", "dir_ad48cbef4074e03d059db50e9662610d" ],
-    [ "renderer", "dir_7bc5e25958a2fb25a8561f3aa0def6c5.html", "dir_7bc5e25958a2fb25a8561f3aa0def6c5" ],
+    [ "ui", "dir_da5c6b39c0a2f54e57df6799511cd3ab.html", "dir_da5c6b39c0a2f54e57df6799511cd3ab" ],
     [ "main.cpp", "main_8cpp.html", "main_8cpp" ]
 ];

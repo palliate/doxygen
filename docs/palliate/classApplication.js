@@ -7,6 +7,6 @@ var classApplication =
     [ "load_plugins", "classApplication.html#ab903c2f9ea44b98f2c542e05b85f0bdf", null ],
     [ "loop", "classApplication.html#ae380fbd2a978d89746454561b3ac5cca", null ],
     [ "serve", "classApplication.html#aea4183e1d12b9048e698dfdb0721820b", null ],
-    [ "setup", "classApplication.html#a0a42c17d664f9f4f1d1d30c0c99c15a2", null ],
+    [ "setup", "classApplication.html#aafa235ff452581d72e6fe9fc46ba2505", null ],
     [ "status", "classApplication.html#a8c810655142b4d1190dd5fd14c244a07", null ]
 ];

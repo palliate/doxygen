@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['_5f_5f_0',['__',['../../libpalliate/namespacelogging_1_1____.html',1,'logging']]],
-  ['endpoint_1',['endpoint',['../namespacelogging_1_1endpoint.html',1,'logging']]],
-  ['logging_2',['logging',['../namespacelogging.html',1,'']]]
+  ['_5f_5f_0',['__',['../../libpalliate/namespaceLogging_1_1____.html',1,'Logging']]],
+  ['endpoints_1',['Endpoints',['../namespaceLogging_1_1Endpoints.html',1,'Logging']]],
+  ['logging_2',['Logging',['../namespaceLogging.html',1,'']]]
 ];

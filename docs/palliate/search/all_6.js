@@ -2,8 +2,8 @@ var searchData=
 [
   ['factory_0',['Factory',['../../libpalliate/classutil_1_1Factory.html',1,'util']]],
   ['factory_2eh_1',['factory.h',['../../libpalliate/factory_8h.html',1,'']]],
-  ['fatal_2',['fatal',['../../libpalliate/namespacelogging.html#a72e7a108a3928d5e407b6a7723799826a53dcd4887683847f344507340d236621',1,'logging::fatal()'],['../../libpalliate/classlogging_1_1Logger.html#a3f2721316999e36bce10d4dfbff924cb',1,'logging::Logger::fatal()']]],
-  ['file_3',['file',['../classlogging_1_1endpoint_1_1file.html#abb690fe22b573382c27c2e3075bf2def',1,'logging::endpoint::file::file()'],['../classlogging_1_1endpoint_1_1file.html',1,'logging::endpoint::file']]],
+  ['fatal_2',['fatal',['../../libpalliate/namespaceLogging.html#aa0aabbf5046236bd92698ad87c9ab55aa3027a6eaf95c5a493d6d825e748096ef',1,'Logging::fatal()'],['../../libpalliate/classLogging_1_1Logger.html#a5d685bf09f3f5531e0bebbe4c514ece0',1,'Logging::Logger::fatal()']]],
+  ['file_3',['file',['../classLogging_1_1Endpoints_1_1file.html#abb690fe22b573382c27c2e3075bf2def',1,'Logging::Endpoints::file::file()'],['../classLogging_1_1Endpoints_1_1file.html',1,'Logging::Endpoints::file']]],
   ['file_2ecpp_4',['file.cpp',['../file_8cpp.html',1,'']]],
   ['file_2eh_5',['file.h',['../file_8h.html',1,'']]],
   ['filesystem_2eh_6',['filesystem.h',['../../libpalliate/filesystem_8h.html',1,'']]],
@@ -18,9 +18,9 @@ var searchData=
   ['find_5fprev_15',['find_prev',['../../libpalliate/structpatricia_1_1leaf__t.html#ad991525fb548a6e07f5af4f6195e1cf2',1,'patricia::leaf_t']]],
   ['finish_16',['finish',['../../libpalliate/classatomic__cr_1_1element.html#a37917d3d557260bb28b606c1b7026871',1,'atomic_cr::element::finish()'],['../../libpalliate/classmpsc.html#a3212a34b60836d62b0e1c21b7c442e0a',1,'mpsc::finish()']]],
   ['first_17',['first',['../../libpalliate/structmemory_1_1bin__t.html#ad8e4401151094783491a4794d70aa6d4',1,'memory::bin_t']]],
-  ['flag_18',['flag',['../../libpalliate/classwindow.html#aef77ff2dda8ad9f644927c92da52a5a9',1,'window::flag()'],['../../libpalliate/structelement.html#a994f2fecdbcc5e5898f60b428ef86a57',1,'element::flag()']]],
-  ['flags_19',['flags',['../../libpalliate/classwindow.html#a489799df18e45bdd75e9eb22f1e3b4f5',1,'window']]],
-  ['floating_20',['floating',['../../libpalliate/classwindow.html#aef77ff2dda8ad9f644927c92da52a5a9aea24d58ed0be8723b9bff6355ac874d6',1,'window']]],
-  ['focused_21',['focused',['../../libpalliate/classwindow.html#aef77ff2dda8ad9f644927c92da52a5a9a9d99627cec2c643208a1be8c5a298592',1,'window']]],
+  ['flag_18',['flag',['../../libpalliate/classUI_1_1Window.html#ac5832f31e57a6720a584b2c2608b641a',1,'UI::Window::flag()'],['../../libpalliate/structelement.html#a994f2fecdbcc5e5898f60b428ef86a57',1,'element::flag()']]],
+  ['flags_19',['flags',['../../libpalliate/classUI_1_1Window.html#a2df1880954dfb9b5e485ee6c9f4f4c60',1,'UI::Window']]],
+  ['floating_20',['floating',['../../libpalliate/classUI_1_1Window.html#ac5832f31e57a6720a584b2c2608b641aa1152e3c59bf7a6795a30fa25506de6f5',1,'UI::Window']]],
+  ['focused_21',['focused',['../../libpalliate/classUI_1_1Window.html#ac5832f31e57a6720a584b2c2608b641aa02c5c173b312bd47a5f46ef4966b13d7',1,'UI::Window']]],
   ['free_22',['free',['../../libpalliate/classmemory_1_1manager.html#a1ad95f4ed158d22aa3e978982aaea66c',1,'memory::manager::free()'],['../../libpalliate/classmemory_1_1memory__map.html#a5fde5927f496d61139f12be645cb5d9e',1,'memory::memory_map::free()']]]
 ];

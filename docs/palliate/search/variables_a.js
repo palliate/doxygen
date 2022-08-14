@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['level_0',['level',['../../libpalliate/structlogging_1_1message.html#ad803fcb8ce8fa046bccbfb46bef2aed2',1,'logging::message']]],
-  ['location_1',['location',['../../libpalliate/structlogging_1_1Annotated.html#a4658360ddea477c39e9107ae1d3564c8',1,'logging::Annotated::location()'],['../../libpalliate/structlogging_1_1message.html#ac2ef5f66ef1f54523c25e912d74119a1',1,'logging::message::location()']]]
+  ['level_0',['level',['../../libpalliate/structLogging_1_1message.html#a9d6af2c79290be6636540bf003cd7c5b',1,'Logging::message']]],
+  ['location_1',['location',['../../libpalliate/structLogging_1_1Annotated.html#a248ec32270f7e0af0d25be78652b60fa',1,'Logging::Annotated::location()'],['../../libpalliate/structLogging_1_1message.html#aec2e7198185b4fe6086043e9a4f4633b',1,'Logging::message::location()']]]
 ];

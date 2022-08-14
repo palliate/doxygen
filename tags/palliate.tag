@@ -105,9 +105,9 @@
     <name>systemd.h</name>
     <path>/__w/palliate/palliate/plugins/systemd/logging/</path>
     <filename>systemd_8h.html</filename>
-    <class kind="class">logging::endpoint::Systemd</class>
-    <namespace>logging</namespace>
-    <namespace>logging::endpoint</namespace>
+    <class kind="class">Logging::Endpoints::Systemd</class>
+    <namespace>Logging</namespace>
+    <namespace>Logging::Endpoints</namespace>
   </compound>
   <compound kind="file">
     <name>test.cpp</name>
@@ -133,8 +133,8 @@
     <path>/__w/palliate/palliate/src/application/</path>
     <filename>application_8cpp.html</filename>
     <includes id="application_8h" name="application.h" local="yes" imported="no">application.h</includes>
-    <includes id="backend_8h" name="backend.h" local="no" imported="no">renderer/glfw/backend.h</includes>
-    <includes id="tray_8h" name="tray.h" local="no" imported="no">renderer/tray/tray.h</includes>
+    <includes id="renderer_8h" name="renderer.h" local="no" imported="no">ui/gl/renderer.h</includes>
+    <includes id="tray_8h" name="tray.h" local="no" imported="no">ui/tray/tray.h</includes>
   </compound>
   <compound kind="file">
     <name>application.h</name>
@@ -201,9 +201,9 @@
     <name>bridge.h</name>
     <path>/__w/palliate/palliate/src/logging/</path>
     <filename>bridge_8h.html</filename>
-    <class kind="class">logging::endpoint::Bridge</class>
-    <namespace>logging</namespace>
-    <namespace>logging::endpoint</namespace>
+    <class kind="class">Logging::Endpoints::Bridge</class>
+    <namespace>Logging</namespace>
+    <namespace>Logging::Endpoints</namespace>
   </compound>
   <compound kind="file">
     <name>file.cpp</name>
@@ -215,9 +215,9 @@
     <name>file.h</name>
     <path>/__w/palliate/palliate/src/logging/</path>
     <filename>file_8h.html</filename>
-    <class kind="class">logging::endpoint::file</class>
-    <namespace>logging</namespace>
-    <namespace>logging::endpoint</namespace>
+    <class kind="class">Logging::Endpoints::file</class>
+    <namespace>Logging</namespace>
+    <namespace>Logging::Endpoints</namespace>
   </compound>
   <compound kind="file">
     <name>serial.cpp</name>
@@ -229,9 +229,9 @@
     <name>serial.h</name>
     <path>/__w/palliate/palliate/src/logging/</path>
     <filename>serial_8h.html</filename>
-    <class kind="class">logging::endpoint::serial</class>
-    <namespace>logging</namespace>
-    <namespace>logging::endpoint</namespace>
+    <class kind="class">Logging::Endpoints::serial</class>
+    <namespace>Logging</namespace>
+    <namespace>Logging::Endpoints</namespace>
   </compound>
   <compound kind="file">
     <name>terminal.cpp</name>
@@ -243,9 +243,9 @@
     <name>terminal.h</name>
     <path>/__w/palliate/palliate/src/logging/</path>
     <filename>terminal_8h.html</filename>
-    <class kind="class">logging::endpoint::terminal</class>
-    <namespace>logging</namespace>
-    <namespace>logging::endpoint</namespace>
+    <class kind="class">Logging::Endpoints::terminal</class>
+    <namespace>Logging</namespace>
+    <namespace>Logging::Endpoints</namespace>
   </compound>
   <compound kind="file">
     <name>terminal.linux.cpp</name>
@@ -326,61 +326,69 @@
     <class kind="class">plugin_manager</class>
   </compound>
   <compound kind="file">
-    <name>backend.cpp</name>
-    <path>/__w/palliate/palliate/src/renderer/glfw/</path>
-    <filename>backend_8cpp.html</filename>
-    <includes id="backend_8h" name="backend.h" local="yes" imported="no">backend.h</includes>
+    <name>context_guard.h</name>
+    <path>/__w/palliate/palliate/src/ui/gl/</path>
+    <filename>context__guard_8h.html</filename>
+    <includes id="window_8h" name="window.h" local="yes" imported="no">window.h</includes>
+    <class kind="struct">UI::GL::context_guard</class>
+    <namespace>UI</namespace>
+    <namespace>UI::GL</namespace>
+  </compound>
+  <compound kind="file">
+    <name>display.cpp</name>
+    <path>/__w/palliate/palliate/src/ui/gl/</path>
+    <filename>display_8cpp.html</filename>
+    <includes id="display_8h" name="display.h" local="yes" imported="no">display.h</includes>
+    <includes id="context__guard_8h" name="context_guard.h" local="yes" imported="no">context_guard.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>display.h</name>
+    <path>/__w/palliate/palliate/src/ui/gl/</path>
+    <filename>display_8h.html</filename>
+    <includes id="window_8h" name="window.h" local="yes" imported="no">window.h</includes>
+    <class kind="class">UI::GL::Display</class>
+    <namespace>UI</namespace>
+    <namespace>UI::GL</namespace>
+  </compound>
+  <compound kind="file">
+    <name>renderer.cpp</name>
+    <path>/__w/palliate/palliate/src/ui/gl/</path>
+    <filename>renderer_8cpp.html</filename>
+    <includes id="renderer_8h" name="renderer.h" local="yes" imported="no">renderer.h</includes>
     <includes id="window_8h" name="window.h" local="yes" imported="no">window.h</includes>
     <includes id="context__guard_8h" name="context_guard.h" local="yes" imported="no">context_guard.h</includes>
     <member kind="define">
       <type>#define</type>
       <name>GLFW_INCLUDE_NONE</name>
-      <anchorfile>backend_8cpp.html</anchorfile>
+      <anchorfile>renderer_8cpp.html</anchorfile>
       <anchor>a088324ad8995e3eb76024e3e79083d48</anchor>
       <arglist></arglist>
     </member>
   </compound>
   <compound kind="file">
-    <name>backend.h</name>
-    <path>/__w/palliate/palliate/src/renderer/glfw/</path>
-    <filename>backend_8h.html</filename>
+    <name>renderer.h</name>
+    <path>/__w/palliate/palliate/src/ui/gl/</path>
+    <filename>renderer_8h.html</filename>
+    <includes id="display_8h" name="display.h" local="yes" imported="no">display.h</includes>
     <includes id="window_8h" name="window.h" local="yes" imported="no">window.h</includes>
-    <includes id="displays_8h" name="displays.h" local="yes" imported="no">displays.h</includes>
-    <class kind="class">glfw_backend</class>
-  </compound>
-  <compound kind="file">
-    <name>context_guard.h</name>
-    <path>/__w/palliate/palliate/src/renderer/glfw/</path>
-    <filename>context__guard_8h.html</filename>
-    <includes id="window_8h" name="window.h" local="yes" imported="no">window.h</includes>
-    <class kind="struct">context_guard</class>
-  </compound>
-  <compound kind="file">
-    <name>displays.cpp</name>
-    <path>/__w/palliate/palliate/src/renderer/glfw/</path>
-    <filename>displays_8cpp.html</filename>
-    <includes id="displays_8h" name="displays.h" local="yes" imported="no">displays.h</includes>
-    <includes id="context__guard_8h" name="context_guard.h" local="yes" imported="no">context_guard.h</includes>
-  </compound>
-  <compound kind="file">
-    <name>displays.h</name>
-    <path>/__w/palliate/palliate/src/renderer/glfw/</path>
-    <filename>displays_8h.html</filename>
-    <includes id="window_8h" name="window.h" local="yes" imported="no">window.h</includes>
-    <class kind="class">displays</class>
+    <class kind="class">UI::GL::Renderer</class>
+    <namespace>UI</namespace>
+    <namespace>UI::GL</namespace>
   </compound>
   <compound kind="file">
     <name>window.cpp</name>
-    <path>/__w/palliate/palliate/src/renderer/glfw/</path>
+    <path>/__w/palliate/palliate/src/ui/gl/</path>
     <filename>window_8cpp.html</filename>
     <includes id="window_8h" name="window.h" local="yes" imported="no">window.h</includes>
     <includes id="context__guard_8h" name="context_guard.h" local="yes" imported="no">context_guard.h</includes>
   </compound>
   <compound kind="file">
     <name>window.h</name>
-    <path>/__w/palliate/palliate/src/renderer/glfw/</path>
+    <path>/__w/palliate/palliate/src/ui/gl/</path>
     <filename>window_8h.html</filename>
-    <class kind="class">glfw_window</class>
+    <class kind="class">UI::GL::Window</class>
+    <namespace>UI</namespace>
+    <namespace>UI::GL</namespace>
     <member kind="define">
       <type>#define</type>
       <name>GLFW_INCLUDE_NONE</name>
@@ -391,13 +399,14 @@
   </compound>
   <compound kind="file">
     <name>tray.h</name>
-    <path>/__w/palliate/palliate/src/renderer/tray/</path>
+    <path>/__w/palliate/palliate/src/ui/tray/</path>
     <filename>tray_8h.html</filename>
-    <class kind="class">tray_impl</class>
+    <class kind="class">UI::TrayImpl</class>
+    <namespace>UI</namespace>
   </compound>
   <compound kind="file">
     <name>tray.linux.cpp</name>
-    <path>/__w/palliate/palliate/src/renderer/tray/</path>
+    <path>/__w/palliate/palliate/src/ui/tray/</path>
     <filename>tray_8linux_8cpp.html</filename>
     <includes id="tray_8h" name="tray.h" local="yes" imported="no">tray.h</includes>
     <member kind="define">
@@ -410,14 +419,14 @@
   </compound>
   <compound kind="file">
     <name>tray.windows.cpp</name>
-    <path>/__w/palliate/palliate/src/renderer/tray/</path>
+    <path>/__w/palliate/palliate/src/ui/tray/</path>
     <filename>tray_8windows_8cpp.html</filename>
     <includes id="tray_8h" name="tray.h" local="yes" imported="no">tray.h</includes>
   </compound>
   <compound kind="class">
     <name>Application</name>
     <filename>classApplication.html</filename>
-    <base>configurable&lt; config::application &gt;</base>
+    <base>configurable&lt; config::Application &gt;</base>
     <base>runnable</base>
     <member kind="function">
       <type></type>
@@ -434,10 +443,10 @@
       <arglist>() override</arglist>
     </member>
     <member kind="function">
-      <type>void</type>
+      <type>bool</type>
       <name>setup</name>
       <anchorfile>classApplication.html</anchorfile>
-      <anchor>a0a42c17d664f9f4f1d1d30c0c99c15a2</anchor>
+      <anchor>aafa235ff452581d72e6fe9fc46ba2505</anchor>
       <arglist>() override</arglist>
     </member>
     <member kind="function">
@@ -484,28 +493,28 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>logging::endpoint::Bridge</name>
-    <filename>classlogging_1_1endpoint_1_1Bridge.html</filename>
+    <name>Logging::Endpoints::Bridge</name>
+    <filename>classLogging_1_1Endpoints_1_1Bridge.html</filename>
     <member kind="function">
       <type></type>
       <name>Bridge</name>
-      <anchorfile>classlogging_1_1endpoint_1_1Bridge.html</anchorfile>
+      <anchorfile>classLogging_1_1Endpoints_1_1Bridge.html</anchorfile>
       <anchor>aeea81b4d0c33fd72b1123c47ce43ec42</anchor>
       <arglist>(config_t const &amp;c)</arglist>
     </member>
     <member kind="function" virtualness="virtual">
       <type>virtual</type>
       <name>~Bridge</name>
-      <anchorfile>classlogging_1_1endpoint_1_1Bridge.html</anchorfile>
+      <anchorfile>classLogging_1_1Endpoints_1_1Bridge.html</anchorfile>
       <anchor>a0a9de9c9270a30ce1fc48cdbcccd03f2</anchor>
       <arglist>() noexcept</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>print</name>
-      <anchorfile>classlogging_1_1endpoint_1_1Bridge.html</anchorfile>
-      <anchor>a6080d797e72682aaa1e5365c85837c02</anchor>
-      <arglist>(logging::message &amp;msg) override</arglist>
+      <anchorfile>classLogging_1_1Endpoints_1_1Bridge.html</anchorfile>
+      <anchor>a50db4c82823c365c0872b26b0d822d32</anchor>
+      <arglist>(Logging::message &amp;msg) override</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -648,348 +657,114 @@
     </member>
   </compound>
   <compound kind="struct">
-    <name>context_guard</name>
-    <filename>structcontext__guard.html</filename>
+    <name>UI::GL::context_guard</name>
+    <filename>structUI_1_1GL_1_1context__guard.html</filename>
     <member kind="function">
       <type></type>
       <name>context_guard</name>
-      <anchorfile>structcontext__guard.html</anchorfile>
-      <anchor>a1807cc6b10a6653fe74a89f96718baee</anchor>
+      <anchorfile>structUI_1_1GL_1_1context__guard.html</anchorfile>
+      <anchor>abc28bafd3726b3297c962778c157deab</anchor>
       <arglist>(GLFWwindow *context)</arglist>
     </member>
     <member kind="function">
       <type></type>
       <name>context_guard</name>
-      <anchorfile>structcontext__guard.html</anchorfile>
-      <anchor>ac38f0d9aa5414bee280abc8942c24ff0</anchor>
-      <arglist>(glfw_window *window)</arglist>
+      <anchorfile>structUI_1_1GL_1_1context__guard.html</anchorfile>
+      <anchor>a86ff6ec4ad1cdfb21268e878e3775aa1</anchor>
+      <arglist>(Window *window)</arglist>
     </member>
     <member kind="function">
       <type></type>
       <name>context_guard</name>
-      <anchorfile>structcontext__guard.html</anchorfile>
-      <anchor>a5825eafbae4089499d1d9a725446c4b0</anchor>
+      <anchorfile>structUI_1_1GL_1_1context__guard.html</anchorfile>
+      <anchor>afba3e12e57843f3820d47a4da6307ef8</anchor>
       <arglist>(context_guard &amp;&amp;)=default</arglist>
     </member>
     <member kind="function">
       <type></type>
       <name>context_guard</name>
-      <anchorfile>structcontext__guard.html</anchorfile>
-      <anchor>aa55ac1e26532472661d7cb7f91b7536d</anchor>
+      <anchorfile>structUI_1_1GL_1_1context__guard.html</anchorfile>
+      <anchor>a8a95e66c8b90133d1fad609e051278ce</anchor>
       <arglist>(const context_guard &amp;)=delete</arglist>
     </member>
     <member kind="function">
       <type>context_guard &amp;</type>
       <name>operator=</name>
-      <anchorfile>structcontext__guard.html</anchorfile>
-      <anchor>abe5f3e0efb8caebcd4e43e13e7114c5e</anchor>
+      <anchorfile>structUI_1_1GL_1_1context__guard.html</anchorfile>
+      <anchor>a96da97e570912e611330d922eb276435</anchor>
       <arglist>(context_guard &amp;&amp;)=delete</arglist>
     </member>
     <member kind="function">
       <type>context_guard &amp;</type>
       <name>operator=</name>
-      <anchorfile>structcontext__guard.html</anchorfile>
-      <anchor>a68847a5e9218c6299837c18502da06cc</anchor>
+      <anchorfile>structUI_1_1GL_1_1context__guard.html</anchorfile>
+      <anchor>a10cdce0355d4c00d04eb5e40a11e6b1e</anchor>
       <arglist>(const context_guard &amp;)=delete</arglist>
     </member>
     <member kind="function">
       <type></type>
       <name>~context_guard</name>
-      <anchorfile>structcontext__guard.html</anchorfile>
-      <anchor>a9acde0a3db732b73fd0c9ff1a95252d4</anchor>
+      <anchorfile>structUI_1_1GL_1_1context__guard.html</anchorfile>
+      <anchor>abe27f0d79c1872bb0eb9fe6fa0946d13</anchor>
       <arglist>()</arglist>
     </member>
   </compound>
   <compound kind="class">
-    <name>displays</name>
-    <filename>classdisplays.html</filename>
-    <base>glfw_window</base>
+    <name>UI::GL::Display</name>
+    <filename>classUI_1_1GL_1_1Display.html</filename>
+    <base>UI::GL::Window</base>
     <member kind="function">
       <type></type>
-      <name>displays</name>
-      <anchorfile>classdisplays.html</anchorfile>
-      <anchor>a9f494a5dfa35fa4fa3a2092936e70c92</anchor>
+      <name>Display</name>
+      <anchorfile>classUI_1_1GL_1_1Display.html</anchorfile>
+      <anchor>ae972fffea6f7ca1d627ef48c3d841bb3</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
       <type></type>
-      <name>~displays</name>
-      <anchorfile>classdisplays.html</anchorfile>
-      <anchor>a4c83bd3de03b6dbb72b1984b60dab070</anchor>
+      <name>~Display</name>
+      <anchorfile>classUI_1_1GL_1_1Display.html</anchorfile>
+      <anchor>ac2607a6bb236c55547a4223d40d85d1f</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>initialize</name>
-      <anchorfile>classdisplays.html</anchorfile>
-      <anchor>a40c8903a98192b63d2f5d4132fc49526</anchor>
+      <anchorfile>classUI_1_1GL_1_1Display.html</anchorfile>
+      <anchor>ad6a64f06df3c0140875300c99bfca925</anchor>
       <arglist>(GLuint program) override</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>render</name>
-      <anchorfile>classdisplays.html</anchorfile>
-      <anchor>a3fd6eb05414cad137f7dfb808d877f45</anchor>
+      <anchorfile>classUI_1_1GL_1_1Display.html</anchorfile>
+      <anchor>af5d9e2d6d6fefdd864de1fc466a890b1</anchor>
       <arglist>() override</arglist>
     </member>
   </compound>
   <compound kind="class">
-    <name>logging::endpoint::file</name>
-    <filename>classlogging_1_1endpoint_1_1file.html</filename>
+    <name>Logging::Endpoints::file</name>
+    <filename>classLogging_1_1Endpoints_1_1file.html</filename>
     <member kind="function">
       <type></type>
       <name>file</name>
-      <anchorfile>classlogging_1_1endpoint_1_1file.html</anchorfile>
+      <anchorfile>classLogging_1_1Endpoints_1_1file.html</anchorfile>
       <anchor>abb690fe22b573382c27c2e3075bf2def</anchor>
       <arglist>(config_t const &amp;c)</arglist>
     </member>
     <member kind="function" virtualness="virtual">
       <type>virtual</type>
       <name>~file</name>
-      <anchorfile>classlogging_1_1endpoint_1_1file.html</anchorfile>
+      <anchorfile>classLogging_1_1Endpoints_1_1file.html</anchorfile>
       <anchor>a7174566303bcda6dc7d47cc0997c8c42</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>print</name>
-      <anchorfile>classlogging_1_1endpoint_1_1file.html</anchorfile>
+      <anchorfile>classLogging_1_1Endpoints_1_1file.html</anchorfile>
       <anchor>acc7c818c82a9735272197f1aea7c19db</anchor>
       <arglist>(message &amp;msg) override</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>glfw_backend</name>
-    <filename>classglfw__backend.html</filename>
-    <base>backend</base>
-    <member kind="function">
-      <type></type>
-      <name>glfw_backend</name>
-      <anchorfile>classglfw__backend.html</anchorfile>
-      <anchor>a4a97ab9621a119142f6ae3900aa6b3d3</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>~glfw_backend</name>
-      <anchorfile>classglfw__backend.html</anchorfile>
-      <anchor>aea59a714720cdd751770881b3b14087a</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>init_gl</name>
-      <anchorfile>classglfw__backend.html</anchorfile>
-      <anchor>a3b8f565822af02803bbb8e408a1770be</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>compile_shaders</name>
-      <anchorfile>classglfw__backend.html</anchorfile>
-      <anchor>a5416812d265d6ef9b4a1afcb49e90b46</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>render</name>
-      <anchorfile>classglfw__backend.html</anchorfile>
-      <anchor>ae016de034821ca3f52cafcef68527a82</anchor>
-      <arglist>() override</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>glfw_window</name>
-    <filename>classglfw__window.html</filename>
-    <base>window</base>
-    <member kind="function">
-      <type></type>
-      <name>glfw_window</name>
-      <anchorfile>classglfw__window.html</anchorfile>
-      <anchor>adba833ee027b26fd480cbbceec02e6be</anchor>
-      <arglist>(unsigned width, unsigned height, const std::string &amp;name, glfw_window *parent)</arglist>
-    </member>
-    <member kind="function" virtualness="virtual">
-      <type>virtual void</type>
-      <name>initialize</name>
-      <anchorfile>classglfw__window.html</anchorfile>
-      <anchor>abf786d44c54ebdcdff7d79f289b55704</anchor>
-      <arglist>(GLuint program)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>attention</name>
-      <anchorfile>classglfw__window.html</anchorfile>
-      <anchor>a989b21928120dfe08522b7d91849e184</anchor>
-      <arglist>() override</arglist>
-    </member>
-    <member kind="function">
-      <type>std::bitset&lt; 8 &gt; &amp;</type>
-      <name>get_flags</name>
-      <anchorfile>classglfw__window.html</anchorfile>
-      <anchor>a57c6bb09039d37fbfe548888ab414ccf</anchor>
-      <arglist>() override</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>resize</name>
-      <anchorfile>classglfw__window.html</anchorfile>
-      <anchor>abf9c308ef869e75141d5e5d9f6ef328b</anchor>
-      <arglist>(unsigned width, unsigned height) override</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>move</name>
-      <anchorfile>classglfw__window.html</anchorfile>
-      <anchor>a0325671eeb63c2b6d0998c174a429931</anchor>
-      <arglist>(int x, int y) override</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>title</name>
-      <anchorfile>classglfw__window.html</anchorfile>
-      <anchor>a734d15b9c8be4968e6b19f193307acd5</anchor>
-      <arglist>(const std::string &amp;title) override</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>icon</name>
-      <anchorfile>classglfw__window.html</anchorfile>
-      <anchor>ac599c6d75c7e45010055f861f7978c87</anchor>
-      <arglist>(unsigned height, unsigned width, const char *data) override</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>wireframe</name>
-      <anchorfile>classglfw__window.html</anchorfile>
-      <anchor>a20575d149781e797eb6e2331c048a15b</anchor>
-      <arglist>(bool status) override</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>render</name>
-      <anchorfile>classglfw__window.html</anchorfile>
-      <anchor>aba56d4064e25ebcc0878b79834fc8afb</anchor>
-      <arglist>() override</arglist>
-    </member>
-    <member kind="function" static="yes">
-      <type>static glfw_window *</type>
-      <name>get</name>
-      <anchorfile>classglfw__window.html</anchorfile>
-      <anchor>a3348d06a7897dc60fd133b8b23276a0a</anchor>
-      <arglist>(GLFWwindow *context)</arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>GLFWwindow *</type>
-      <name>context</name>
-      <anchorfile>classglfw__window.html</anchorfile>
-      <anchor>affe9aca9307653430fceabf031060932</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>GLuint</type>
-      <name>program</name>
-      <anchorfile>classglfw__window.html</anchorfile>
-      <anchor>a074ecd279637fa9aad8289f8f3e8a957</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>GLuint</type>
-      <name>VAO</name>
-      <anchorfile>classglfw__window.html</anchorfile>
-      <anchor>a913b855c14aab9dcf79a64748fb9fee7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>GLuint</type>
-      <name>VBO</name>
-      <anchorfile>classglfw__window.html</anchorfile>
-      <anchor>a5589749e7cd5a814e1e33dad46e2f827</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>GLuint</type>
-      <name>EBO</name>
-      <anchorfile>classglfw__window.html</anchorfile>
-      <anchor>a03ccca9aacc13f1a2a5bc14a3daba203</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>GLuint</type>
-      <name>TBO</name>
-      <anchorfile>classglfw__window.html</anchorfile>
-      <anchor>a8569d703efc421596f86d13f488294ee</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>GLuint</type>
-      <name>texture</name>
-      <anchorfile>classglfw__window.html</anchorfile>
-      <anchor>a5af9ed871a9461b75dc3a2002ea9f0a9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>GLuint</type>
-      <name>texture_shift</name>
-      <anchorfile>classglfw__window.html</anchorfile>
-      <anchor>ada3fc8ff36e49183924e69c4f89aa2c2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>unsigned</type>
-      <name>texture_width</name>
-      <anchorfile>classglfw__window.html</anchorfile>
-      <anchor>a37be84c8a32ec337d622dac7d8c9adad</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>unsigned</type>
-      <name>texture_height</name>
-      <anchorfile>classglfw__window.html</anchorfile>
-      <anchor>a9a6e1bc6b52a3cbf471e373d634f7b69</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>GLFWimage</type>
-      <name>current_icon</name>
-      <anchorfile>classglfw__window.html</anchorfile>
-      <anchor>af21f8d8aaf3c8aeb4a7946ac9cf5dd0d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>std::string</type>
-      <name>current_title</name>
-      <anchorfile>classglfw__window.html</anchorfile>
-      <anchor>ac4540343e5e22c2c8083d0633bb73102</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>util::rect</type>
-      <name>position</name>
-      <anchorfile>classglfw__window.html</anchorfile>
-      <anchor>a01b68017809625df839d8835732451e8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>float</type>
-      <name>tex_coords</name>
-      <anchorfile>classglfw__window.html</anchorfile>
-      <anchor>a20955c5d7406bb328a552e26e9b183a5</anchor>
-      <arglist>[8]</arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>std::atomic_flag</type>
-      <name>moved</name>
-      <anchorfile>classglfw__window.html</anchorfile>
-      <anchor>a61944bcf3bf3b0715d8f0d3bed2b15b1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="friend" protection="private">
-      <type>friend class</type>
-      <name>context_guard</name>
-      <anchorfile>classglfw__window.html</anchorfile>
-      <anchor>a5ba0b1a5357a4aa78f0f4470c7350621</anchor>
-      <arglist></arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -1154,46 +929,86 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>logging::endpoint::serial</name>
-    <filename>classlogging_1_1endpoint_1_1serial.html</filename>
+    <name>UI::GL::Renderer</name>
+    <filename>classUI_1_1GL_1_1Renderer.html</filename>
+    <base>UI::Renderer</base>
+    <member kind="function">
+      <type></type>
+      <name>Renderer</name>
+      <anchorfile>classUI_1_1GL_1_1Renderer.html</anchorfile>
+      <anchor>a7ebf46f54dab9905f79b80f7fddb76a6</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~Renderer</name>
+      <anchorfile>classUI_1_1GL_1_1Renderer.html</anchorfile>
+      <anchor>afeee408862d5bd6255a6882d47e6d5cd</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>init_gl</name>
+      <anchorfile>classUI_1_1GL_1_1Renderer.html</anchorfile>
+      <anchor>ad9cfc023558bef3e7b73f86b2ef9be5d</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>compile_shaders</name>
+      <anchorfile>classUI_1_1GL_1_1Renderer.html</anchorfile>
+      <anchor>a38d86ec3b0c63103211ef24883b41afc</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>render</name>
+      <anchorfile>classUI_1_1GL_1_1Renderer.html</anchorfile>
+      <anchor>a4e20ba24db9622116d35cd0338bad6b3</anchor>
+      <arglist>() override</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>Logging::Endpoints::serial</name>
+    <filename>classLogging_1_1Endpoints_1_1serial.html</filename>
     <member kind="function">
       <type></type>
       <name>serial</name>
-      <anchorfile>classlogging_1_1endpoint_1_1serial.html</anchorfile>
+      <anchorfile>classLogging_1_1Endpoints_1_1serial.html</anchorfile>
       <anchor>ac42d260df030ec4626bc04191fd2ee17</anchor>
       <arglist>(config_t const &amp;c)</arglist>
     </member>
     <member kind="function">
       <type></type>
       <name>~serial</name>
-      <anchorfile>classlogging_1_1endpoint_1_1serial.html</anchorfile>
-      <anchor>a67fc0fa282decb6abde760597ef66320</anchor>
+      <anchorfile>classLogging_1_1Endpoints_1_1serial.html</anchorfile>
+      <anchor>a8b20e789cdcb84f82620b0c9b28b3b79</anchor>
       <arglist>() override</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>print</name>
-      <anchorfile>classlogging_1_1endpoint_1_1serial.html</anchorfile>
-      <anchor>a3db479be9c39368c11db1b196fa51dfb</anchor>
-      <arglist>(logging::message &amp;msg) override</arglist>
+      <anchorfile>classLogging_1_1Endpoints_1_1serial.html</anchorfile>
+      <anchor>ae2c2245c2e6277109c59118756def3cc</anchor>
+      <arglist>(Logging::message &amp;msg) override</arglist>
     </member>
   </compound>
   <compound kind="class">
-    <name>logging::endpoint::Systemd</name>
-    <filename>classlogging_1_1endpoint_1_1Systemd.html</filename>
+    <name>Logging::Endpoints::Systemd</name>
+    <filename>classLogging_1_1Endpoints_1_1Systemd.html</filename>
     <member kind="function">
       <type></type>
       <name>Systemd</name>
-      <anchorfile>classlogging_1_1endpoint_1_1Systemd.html</anchorfile>
+      <anchorfile>classLogging_1_1Endpoints_1_1Systemd.html</anchorfile>
       <anchor>ae28c686ec6ead34aa5f981c968997fdb</anchor>
       <arglist>(config_t const &amp;c)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>print</name>
-      <anchorfile>classlogging_1_1endpoint_1_1Systemd.html</anchorfile>
-      <anchor>a60c4b103a58bb0ac53664684e405d2ba</anchor>
-      <arglist>(logging::message &amp;msg) override</arglist>
+      <anchorfile>classLogging_1_1Endpoints_1_1Systemd.html</anchorfile>
+      <anchor>ac0eb239948ef07a790fe2d0d632c98d3</anchor>
+      <arglist>(Logging::message &amp;msg) override</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -1223,28 +1038,28 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>logging::endpoint::terminal</name>
-    <filename>classlogging_1_1endpoint_1_1terminal.html</filename>
+    <name>Logging::Endpoints::terminal</name>
+    <filename>classLogging_1_1Endpoints_1_1terminal.html</filename>
     <member kind="function">
       <type></type>
       <name>terminal</name>
-      <anchorfile>classlogging_1_1endpoint_1_1terminal.html</anchorfile>
+      <anchorfile>classLogging_1_1Endpoints_1_1terminal.html</anchorfile>
       <anchor>a2b70ef201f1dd5602a3a1427bd01afa8</anchor>
       <arglist>(config_t const &amp;c)</arglist>
     </member>
     <member kind="function">
       <type></type>
       <name>~terminal</name>
-      <anchorfile>classlogging_1_1endpoint_1_1terminal.html</anchorfile>
+      <anchorfile>classLogging_1_1Endpoints_1_1terminal.html</anchorfile>
       <anchor>a1a6cd2bf48de06f78766e939afe4e38b</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>print</name>
-      <anchorfile>classlogging_1_1endpoint_1_1terminal.html</anchorfile>
-      <anchor>a22da5f78d7ef47436bb0181dbb406ff8</anchor>
-      <arglist>(logging::message &amp;msg) override</arglist>
+      <anchorfile>classLogging_1_1Endpoints_1_1terminal.html</anchorfile>
+      <anchor>a2457c2795b91f3a1125f4c96712ba5df</anchor>
+      <arglist>(Logging::message &amp;msg) override</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -1281,28 +1096,28 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>tray_impl</name>
-    <filename>classtray__impl.html</filename>
-    <base>tray</base>
+    <name>UI::TrayImpl</name>
+    <filename>classUI_1_1TrayImpl.html</filename>
+    <base>UI::Tray</base>
     <member kind="function">
       <type></type>
-      <name>tray_impl</name>
-      <anchorfile>classtray__impl.html</anchorfile>
-      <anchor>a09e4c4bf911cf6e7163046e4594be1ab</anchor>
+      <name>TrayImpl</name>
+      <anchorfile>classUI_1_1TrayImpl.html</anchorfile>
+      <anchor>a13849fef92f0ec6dbacecbb59fc719f0</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
       <type></type>
-      <name>~tray_impl</name>
-      <anchorfile>classtray__impl.html</anchorfile>
-      <anchor>ac061015193957ff941883bab326559e0</anchor>
+      <name>~TrayImpl</name>
+      <anchorfile>classUI_1_1TrayImpl.html</anchorfile>
+      <anchor>a9bab9f51f48bcafb1477bc6c783bac3c</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>render</name>
-      <anchorfile>classtray__impl.html</anchorfile>
-      <anchor>a54360c7d870ca4b1f669894b1d71f230</anchor>
+      <anchorfile>classUI_1_1TrayImpl.html</anchorfile>
+      <anchor>a84d1b0eeb90c1a87bc30bd8a6d0c6342</anchor>
       <arglist>() override</arglist>
     </member>
   </compound>
@@ -1333,6 +1148,200 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>UI::GL::Window</name>
+    <filename>classUI_1_1GL_1_1Window.html</filename>
+    <base>UI::Window</base>
+    <member kind="function">
+      <type></type>
+      <name>Window</name>
+      <anchorfile>classUI_1_1GL_1_1Window.html</anchorfile>
+      <anchor>a8bf687bce5649ae490bfd21ba7ec35b6</anchor>
+      <arglist>(unsigned width, unsigned height, const std::string &amp;name, Window *parent)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>initialize</name>
+      <anchorfile>classUI_1_1GL_1_1Window.html</anchorfile>
+      <anchor>a84214e16bea4d91cfeb214b65a9d10d6</anchor>
+      <arglist>(GLuint program)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>attention</name>
+      <anchorfile>classUI_1_1GL_1_1Window.html</anchorfile>
+      <anchor>a088ba117d4f5b35f9d1a7c8f72c6cc63</anchor>
+      <arglist>() override</arglist>
+    </member>
+    <member kind="function">
+      <type>std::bitset&lt; 8 &gt; &amp;</type>
+      <name>get_flags</name>
+      <anchorfile>classUI_1_1GL_1_1Window.html</anchorfile>
+      <anchor>ade0ad8376a27dfbc58878a38e2fc35a7</anchor>
+      <arglist>() override</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>resize</name>
+      <anchorfile>classUI_1_1GL_1_1Window.html</anchorfile>
+      <anchor>ae78ba2cc60ce3ddc2046c0e456a7378e</anchor>
+      <arglist>(unsigned width, unsigned height) override</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>move</name>
+      <anchorfile>classUI_1_1GL_1_1Window.html</anchorfile>
+      <anchor>a6de3576e5ff96d994f8bf8abe4a57522</anchor>
+      <arglist>(int x, int y) override</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>title</name>
+      <anchorfile>classUI_1_1GL_1_1Window.html</anchorfile>
+      <anchor>ab9283bb1b1024e3f8de7f8cc25c6f4a9</anchor>
+      <arglist>(const std::string &amp;title) override</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>icon</name>
+      <anchorfile>classUI_1_1GL_1_1Window.html</anchorfile>
+      <anchor>ab90ddd12cc5808e72555475eb432dea8</anchor>
+      <arglist>(unsigned height, unsigned width, const char *data) override</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>wireframe</name>
+      <anchorfile>classUI_1_1GL_1_1Window.html</anchorfile>
+      <anchor>a44dc8630906dda4a59d125bf5ef56b5e</anchor>
+      <arglist>(bool status) override</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>render</name>
+      <anchorfile>classUI_1_1GL_1_1Window.html</anchorfile>
+      <anchor>ab40de6362d6fbea8ccd536fa46c2cad9</anchor>
+      <arglist>() override</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static Window *</type>
+      <name>get</name>
+      <anchorfile>classUI_1_1GL_1_1Window.html</anchorfile>
+      <anchor>a2353ebdb5ae7bdd759d603ffca8f4b2f</anchor>
+      <arglist>(GLFWwindow *context)</arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>GLFWwindow *</type>
+      <name>context</name>
+      <anchorfile>classUI_1_1GL_1_1Window.html</anchorfile>
+      <anchor>af73921bd18e8427b1aec125656af3cb1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>GLuint</type>
+      <name>program</name>
+      <anchorfile>classUI_1_1GL_1_1Window.html</anchorfile>
+      <anchor>ae2fe722f7a8cb0deed64ff3bf0d13fbb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>GLuint</type>
+      <name>VAO</name>
+      <anchorfile>classUI_1_1GL_1_1Window.html</anchorfile>
+      <anchor>a4b484e99af4ed651b5a14fbab1b61158</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>GLuint</type>
+      <name>VBO</name>
+      <anchorfile>classUI_1_1GL_1_1Window.html</anchorfile>
+      <anchor>ac1a67b14d4e24587da496965dc71720a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>GLuint</type>
+      <name>EBO</name>
+      <anchorfile>classUI_1_1GL_1_1Window.html</anchorfile>
+      <anchor>adeee61a1259989dee66793b86563ca21</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>GLuint</type>
+      <name>TBO</name>
+      <anchorfile>classUI_1_1GL_1_1Window.html</anchorfile>
+      <anchor>a1d1a9da1ea24163b0cbc6f3e7a5506d3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>GLuint</type>
+      <name>texture</name>
+      <anchorfile>classUI_1_1GL_1_1Window.html</anchorfile>
+      <anchor>a4f9c38be1aa73e0ae22ea4d33545eef0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>GLuint</type>
+      <name>texture_shift</name>
+      <anchorfile>classUI_1_1GL_1_1Window.html</anchorfile>
+      <anchor>a137bdcddb0d6e07927e24776da304958</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>unsigned</type>
+      <name>texture_width</name>
+      <anchorfile>classUI_1_1GL_1_1Window.html</anchorfile>
+      <anchor>a5474c004488ef57f223d51a1359c15fb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>unsigned</type>
+      <name>texture_height</name>
+      <anchorfile>classUI_1_1GL_1_1Window.html</anchorfile>
+      <anchor>a81ac6a64550d7b41aed5acdbe7812104</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>GLFWimage</type>
+      <name>current_icon</name>
+      <anchorfile>classUI_1_1GL_1_1Window.html</anchorfile>
+      <anchor>a7f66b438f671f701ab422ae8ca794b0f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>std::string</type>
+      <name>current_title</name>
+      <anchorfile>classUI_1_1GL_1_1Window.html</anchorfile>
+      <anchor>a32ec3722b6265f4f8b6d15cee4bfe482</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>util::rect</type>
+      <name>position</name>
+      <anchorfile>classUI_1_1GL_1_1Window.html</anchorfile>
+      <anchor>aeb5335de49ef72eb221f323336061102</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>float</type>
+      <name>tex_coords</name>
+      <anchorfile>classUI_1_1GL_1_1Window.html</anchorfile>
+      <anchor>a5c5a22522206407b6c73bf90c3b949ea</anchor>
+      <arglist>[8]</arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>std::atomic_flag</type>
+      <name>moved</name>
+      <anchorfile>classUI_1_1GL_1_1Window.html</anchorfile>
+      <anchor>a0e265a034e574e1d148c93aeb21d7651</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="friend" protection="private">
+      <type>friend class</type>
+      <name>context_guard</name>
+      <anchorfile>classUI_1_1GL_1_1Window.html</anchorfile>
+      <anchor>a5ba0b1a5357a4aa78f0f4470c7350621</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>wm</name>
     <filename>classwm.html</filename>
     <base>plugin</base>
@@ -1359,17 +1368,31 @@
     </member>
   </compound>
   <compound kind="namespace">
-    <name>logging</name>
-    <filename>namespacelogging.html</filename>
-    <namespace>logging::endpoint</namespace>
+    <name>Logging</name>
+    <filename>namespaceLogging.html</filename>
+    <namespace>Logging::Endpoints</namespace>
   </compound>
   <compound kind="namespace">
-    <name>logging::endpoint</name>
-    <filename>namespacelogging_1_1endpoint.html</filename>
-    <class kind="class">logging::endpoint::Bridge</class>
-    <class kind="class">logging::endpoint::file</class>
-    <class kind="class">logging::endpoint::serial</class>
-    <class kind="class">logging::endpoint::Systemd</class>
-    <class kind="class">logging::endpoint::terminal</class>
+    <name>Logging::Endpoints</name>
+    <filename>namespaceLogging_1_1Endpoints.html</filename>
+    <class kind="class">Logging::Endpoints::Bridge</class>
+    <class kind="class">Logging::Endpoints::file</class>
+    <class kind="class">Logging::Endpoints::serial</class>
+    <class kind="class">Logging::Endpoints::Systemd</class>
+    <class kind="class">Logging::Endpoints::terminal</class>
+  </compound>
+  <compound kind="namespace">
+    <name>UI</name>
+    <filename>namespaceUI.html</filename>
+    <namespace>UI::GL</namespace>
+    <class kind="class">UI::TrayImpl</class>
+  </compound>
+  <compound kind="namespace">
+    <name>UI::GL</name>
+    <filename>namespaceUI_1_1GL.html</filename>
+    <class kind="struct">UI::GL::context_guard</class>
+    <class kind="class">UI::GL::Display</class>
+    <class kind="class">UI::GL::Renderer</class>
+    <class kind="class">UI::GL::Window</class>
   </compound>
 </tagfile>

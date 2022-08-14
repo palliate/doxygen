@@ -1,4 +1,4 @@
 var terminal_8h =
 [
-    [ "logging::endpoint::terminal", "classlogging_1_1endpoint_1_1terminal.html", "classlogging_1_1endpoint_1_1terminal" ]
+    [ "Logging::Endpoints::terminal", "classLogging_1_1Endpoints_1_1terminal.html", "classLogging_1_1Endpoints_1_1terminal" ]
 ];

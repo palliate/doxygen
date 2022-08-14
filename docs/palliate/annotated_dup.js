@@ -1,17 +1,30 @@
 var annotated_dup =
 [
-    [ "logging", "namespacelogging.html", [
-      [ "endpoint", "namespacelogging_1_1endpoint.html", [
-        [ "Bridge", "classlogging_1_1endpoint_1_1Bridge.html", "classlogging_1_1endpoint_1_1Bridge" ],
-        [ "file", "classlogging_1_1endpoint_1_1file.html", "classlogging_1_1endpoint_1_1file" ],
-        [ "serial", "classlogging_1_1endpoint_1_1serial.html", "classlogging_1_1endpoint_1_1serial" ],
-        [ "Systemd", "classlogging_1_1endpoint_1_1Systemd.html", "classlogging_1_1endpoint_1_1Systemd" ],
-        [ "terminal", "classlogging_1_1endpoint_1_1terminal.html", "classlogging_1_1endpoint_1_1terminal" ]
+    [ "Logging", "namespaceLogging.html", [
+      [ "Endpoints", "namespaceLogging_1_1Endpoints.html", [
+        [ "Bridge", "classLogging_1_1Endpoints_1_1Bridge.html", "classLogging_1_1Endpoints_1_1Bridge" ],
+        [ "file", "classLogging_1_1Endpoints_1_1file.html", "classLogging_1_1Endpoints_1_1file" ],
+        [ "serial", "classLogging_1_1Endpoints_1_1serial.html", "classLogging_1_1Endpoints_1_1serial" ],
+        [ "Systemd", "classLogging_1_1Endpoints_1_1Systemd.html", "classLogging_1_1Endpoints_1_1Systemd" ],
+        [ "terminal", "classLogging_1_1Endpoints_1_1terminal.html", "classLogging_1_1Endpoints_1_1terminal" ]
       ] ],
-      [ "Annotated", "../libpalliate/structlogging_1_1Annotated.html", "structlogging_1_1Annotated" ],
-      [ "Endpoint", "../libpalliate/classlogging_1_1Endpoint.html", "classlogging_1_1Endpoint" ],
-      [ "Logger", "../libpalliate/classlogging_1_1Logger.html", "classlogging_1_1Logger" ],
-      [ "message", "../libpalliate/structlogging_1_1message.html", "structlogging_1_1message" ]
+      [ "Annotated", "../libpalliate/structLogging_1_1Annotated.html", "structLogging_1_1Annotated" ],
+      [ "Endpoint", "../libpalliate/classLogging_1_1Endpoint.html", "classLogging_1_1Endpoint" ],
+      [ "Logger", "../libpalliate/classLogging_1_1Logger.html", "classLogging_1_1Logger" ],
+      [ "message", "../libpalliate/structLogging_1_1message.html", "structLogging_1_1message" ]
+    ] ],
+    [ "UI", "namespaceUI.html", [
+      [ "GL", "namespaceUI_1_1GL.html", [
+        [ "context_guard", "structUI_1_1GL_1_1context__guard.html", "structUI_1_1GL_1_1context__guard" ],
+        [ "Display", "classUI_1_1GL_1_1Display.html", "classUI_1_1GL_1_1Display" ],
+        [ "Renderer", "classUI_1_1GL_1_1Renderer.html", "classUI_1_1GL_1_1Renderer" ],
+        [ "Window", "classUI_1_1GL_1_1Window.html", "classUI_1_1GL_1_1Window" ]
+      ] ],
+      [ "Control", "../libpalliate/classUI_1_1Control.html", "classUI_1_1Control" ],
+      [ "Renderer", "../libpalliate/classUI_1_1Renderer.html", "classUI_1_1Renderer" ],
+      [ "Tray", "../libpalliate/classUI_1_1Tray.html", "classUI_1_1Tray" ],
+      [ "TrayImpl", "classUI_1_1TrayImpl.html", "classUI_1_1TrayImpl" ],
+      [ "Window", "../libpalliate/classUI_1_1Window.html", "classUI_1_1Window" ]
     ] ],
     [ "Application", "classApplication.html", "classApplication" ],
     [ "atomic_cr", "../libpalliate/classatomic__cr.html", "classatomic__cr" ],
@@ -20,16 +33,11 @@ var annotated_dup =
     [ "atomic_reqresp", "../libpalliate/classatomic__reqresp.html", "classatomic__reqresp" ],
     [ "atomic_semaphore", "../libpalliate/classatomic__semaphore.html", "classatomic__semaphore" ],
     [ "atomic_stack", "../libpalliate/classatomic__stack.html", "classatomic__stack" ],
-    [ "backend", "../libpalliate/classbackend.html", "classbackend" ],
     [ "capture", "classcapture.html", "classcapture" ],
     [ "Cli", "classCli.html", "classCli" ],
     [ "Configuration", "classConfiguration.html", "classConfiguration" ],
     [ "consumer", "../libpalliate/classconsumer.html", "classconsumer" ],
-    [ "context_guard", "structcontext__guard.html", "structcontext__guard" ],
-    [ "displays", "classdisplays.html", "classdisplays" ],
     [ "element", "../libpalliate/structelement.html", "structelement" ],
-    [ "glfw_backend", "classglfw__backend.html", "classglfw__backend" ],
-    [ "glfw_window", "classglfw__window.html", "classglfw__window" ],
     [ "input", "classinput.html", "classinput" ],
     [ "ivshmem", "../libpalliate/classivshmem.html", "classivshmem" ],
     [ "library", "classlibrary.html", "classlibrary" ],
@@ -43,10 +51,6 @@ var annotated_dup =
     [ "Servers", "../libpalliate/classServers.html", "classServers" ],
     [ "systemd", "classsystemd.html", "classsystemd" ],
     [ "testmod", "classtestmod.html", "classtestmod" ],
-    [ "tray", "../libpalliate/classtray.html", "classtray" ],
-    [ "tray_impl", "classtray__impl.html", "classtray__impl" ],
-    [ "ui", "../libpalliate/classui.html", "classui" ],
     [ "vtty", "classvtty.html", "classvtty" ],
-    [ "window", "../libpalliate/classwindow.html", "classwindow" ],
     [ "wm", "classwm.html", "classwm" ]
 ];

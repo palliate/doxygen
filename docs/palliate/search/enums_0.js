@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['flag_0',['flag',['../../libpalliate/classwindow.html#aef77ff2dda8ad9f644927c92da52a5a9',1,'window']]]
+  ['flag_0',['flag',['../../libpalliate/classUI_1_1Window.html#ac5832f31e57a6720a584b2c2608b641a',1,'UI::Window']]]
 ];

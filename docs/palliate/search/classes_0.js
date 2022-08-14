@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['annotated_0',['Annotated',['../../libpalliate/structlogging_1_1Annotated.html',1,'logging']]],
+  ['annotated_0',['Annotated',['../../libpalliate/structLogging_1_1Annotated.html',1,'Logging']]],
   ['application_1',['Application',['../classApplication.html',1,'']]],
   ['atomic_5fcr_2',['atomic_cr',['../../libpalliate/classatomic__cr.html',1,'']]],
   ['atomic_5fcr_3c_208_20_3e_3',['atomic_cr&lt; 8 &gt;',['../../libpalliate/classatomic__cr.html',1,'']]],
@@ -9,5 +9,5 @@ var searchData=
   ['atomic_5freqresp_6',['atomic_reqresp',['../../libpalliate/classatomic__reqresp.html',1,'']]],
   ['atomic_5fsemaphore_7',['atomic_semaphore',['../../libpalliate/classatomic__semaphore.html',1,'']]],
   ['atomic_5fstack_8',['atomic_stack',['../../libpalliate/classatomic__stack.html',1,'']]],
-  ['authenticator_9',['Authenticator',['../../libpalliate/classauth_1_1Authenticator.html',1,'auth']]]
+  ['authenticator_9',['Authenticator',['../../libpalliate/classAuthentication_1_1Authenticator.html',1,'Authentication']]]
 ];

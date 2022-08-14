@@ -1,4 +1,4 @@
 var tray_8h =
 [
-    [ "tray_impl", "classtray__impl.html", "classtray__impl" ]
+    [ "UI::TrayImpl", "classUI_1_1TrayImpl.html", "classUI_1_1TrayImpl" ]
 ];
