@@ -31,7 +31,7 @@ var searchData=
   ['to_5fint_28',['to_int',['../../libpalliate/namespaceutil.html#a59a85cee997adfe832494c28f51fca5d',1,'util']]],
   ['to_5foffset_29',['to_offset',['../../libpalliate/classmemory_1_1manager.html#ae0ac8e94a2ebe13cb6cb23796b2ebc0b',1,'memory::manager']]],
   ['to_5fptr_30',['to_ptr',['../../libpalliate/classmemory_1_1manager.html#a481f7f9fb3f7c762c1f004a04b37a0f5',1,'memory::manager']]],
-  ['to_5fstr_31',['to_str',['../../libpalliate/structutil_1_1uuid.html#a4ebe9897d9cfcd9586367ffdf78475e1',1,'util::uuid::to_str()'],['../../libpalliate/structmemory_1_1node__t.html#a53ca033f775beed0f47f820501dce690',1,'memory::node_t::to_str()'],['../../libpalliate/structpatricia_1_1leaf__t.html#a06dab8fbf2f78e1a86e685c474052dde',1,'patricia::leaf_t::to_str()']]],
+  ['to_5fstr_31',['to_str',['../../libpalliate/structpatricia_1_1leaf__t.html#a06dab8fbf2f78e1a86e685c474052dde',1,'patricia::leaf_t::to_str()'],['../../libpalliate/structmemory_1_1node__t.html#a53ca033f775beed0f47f820501dce690',1,'memory::node_t::to_str()'],['../../libpalliate/structutil_1_1uuid.html#a4ebe9897d9cfcd9586367ffdf78475e1',1,'util::uuid::to_str()']]],
   ['toggle_5ffullscreen_32',['toggle_fullscreen',['../../libpalliate/classui.html#aec6b0fed1a4ba4c866ccd4302bd1c33a',1,'ui']]],
   ['token_33',['Token',['../../libpalliate/classauth_1_1Token.html',1,'auth']]],
   ['token_2ecpp_34',['token.cpp',['../../libpalliate/token_8cpp.html',1,'']]],
@@ -53,7 +53,8 @@ var searchData=
   ['transport_2ftcp_2fserver_2eh_50',['transport/tcp/server.h',['../../libpalliate/transport_2tcp_2server_8h.html',1,'']]],
   ['traverse_51',['traverse',['../../libpalliate/structpatricia_1_1node__t.html#aecf86dbf8935ae47f32522f771ceff9d',1,'patricia::node_t']]],
   ['tray_52',['tray',['../../libpalliate/classtray.html',1,'']]],
-  ['tray_2eh_53',['tray.h',['../../libpalliate/tray_8h.html',1,'(Global Namespace)'],['../tray_8h.html',1,'(Global Namespace)']]],
+  ['tray_2eh_53',['tray.h',['../tray_8h.html',1,'(Global Namespace)'],['../../libpalliate/tray_8h.html',1,'(Global Namespace)']]],
   ['tray_2elinux_2ecpp_54',['tray.linux.cpp',['../tray_8linux_8cpp.html',1,'']]],
-  ['tray_5fimpl_55',['tray_impl',['../classtray__impl.html#a09e4c4bf911cf6e7163046e4594be1ab',1,'tray_impl::tray_impl()'],['../classtray__impl.html',1,'tray_impl']]]
+  ['tray_2ewindows_2ecpp_55',['tray.windows.cpp',['../tray_8windows_8cpp.html',1,'']]],
+  ['tray_5fimpl_56',['tray_impl',['../classtray__impl.html#a09e4c4bf911cf6e7163046e4594be1ab',1,'tray_impl::tray_impl()'],['../classtray__impl.html',1,'tray_impl']]]
 ];

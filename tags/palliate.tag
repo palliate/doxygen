@@ -408,6 +408,12 @@
       <arglist></arglist>
     </member>
   </compound>
+  <compound kind="file">
+    <name>tray.windows.cpp</name>
+    <path>/__w/palliate/palliate/src/renderer/tray/</path>
+    <filename>tray_8windows_8cpp.html</filename>
+    <includes id="tray_8h" name="tray.h" local="yes" imported="no">tray.h</includes>
+  </compound>
   <compound kind="class">
     <name>Application</name>
     <filename>classApplication.html</filename>

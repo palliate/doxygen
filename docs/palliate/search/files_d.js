@@ -21,5 +21,6 @@ var searchData=
   ['transport_2ftcp_2fserver_2ecpp_18',['transport/tcp/server.cpp',['../../libpalliate/transport_2tcp_2server_8cpp.html',1,'']]],
   ['transport_2ftcp_2fserver_2eh_19',['transport/tcp/server.h',['../../libpalliate/transport_2tcp_2server_8h.html',1,'']]],
   ['tray_2eh_20',['tray.h',['../../libpalliate/tray_8h.html',1,'(Global Namespace)'],['../tray_8h.html',1,'(Global Namespace)']]],
-  ['tray_2elinux_2ecpp_21',['tray.linux.cpp',['../tray_8linux_8cpp.html',1,'']]]
+  ['tray_2elinux_2ecpp_21',['tray.linux.cpp',['../tray_8linux_8cpp.html',1,'']]],
+  ['tray_2ewindows_2ecpp_22',['tray.windows.cpp',['../tray_8windows_8cpp.html',1,'']]]
 ];
