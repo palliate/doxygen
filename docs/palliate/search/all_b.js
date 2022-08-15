@@ -15,7 +15,7 @@ var searchData=
   ['load_5ffile_12',['load_file',['../classConfiguration.html#a1ab0085af110c8d7cf4bc1379dac2ba1',1,'Configuration']]],
   ['load_5fplugins_13',['load_plugins',['../classApplication.html#ab903c2f9ea44b98f2c542e05b85f0bdf',1,'Application']]],
   ['location_14',['location',['../../libpalliate/structLogging_1_1Annotated.html#a248ec32270f7e0af0d25be78652b60fa',1,'Logging::Annotated::location()'],['../../libpalliate/structLogging_1_1message.html#aec2e7198185b4fe6086043e9a4f4633b',1,'Logging::message::location()']]],
-  ['lock_15',['lock',['../../libpalliate/classutil_1_1configurable.html#a3b5774c5dd703e52991e6167274d9b80',1,'util::configurable']]],
+  ['lock_15',['lock',['../../libpalliate/classUtil_1_1configurable.html#a725a0c4a89544e9a90ed8dd7c1f4b651',1,'Util::configurable']]],
   ['logger_16',['Logger',['../../libpalliate/classLogging_1_1Logger.html#a3ce50157ed3d3292ff89b70e9af54679',1,'Logging::Logger::Logger()'],['../../libpalliate/classLogging_1_1Logger.html',1,'Logging::Logger']]],
   ['logger_2ecpp_17',['logger.cpp',['../../libpalliate/logger_8cpp.html',1,'']]],
   ['logger_2eh_18',['logger.h',['../../libpalliate/logger_8h.html',1,'']]],

@@ -5,7 +5,7 @@ var searchData=
   ['element_2eh_2',['element.h',['../../libpalliate/element_8h.html',1,'']]],
   ['element_5ft_3',['element_t',['../../libpalliate/structmemory_1_1element__t.html#a82580c629d80063148f1fde54e843895',1,'memory::element_t::element_t()'],['../../libpalliate/structpatricia_1_1element__t.html#a07715934059b4fa22a704d16b1951cf3',1,'patricia::element_t::element_t()'],['../../libpalliate/structmemory_1_1element__t.html',1,'memory::element_t'],['../../libpalliate/structmpsc_1_1element__t.html',1,'mpsc::element_t'],['../../libpalliate/structpatricia_1_1element__t.html',1,'patricia::element_t']]],
   ['enable_4',['enable',['../../libpalliate/classLogging_1_1Logger.html#af2f7ea41236b2dfa06a7bc88786395bd',1,'Logging::Logger']]],
-  ['end_5',['end',['../classplugin__manager.html#a4235781f1922762b8a5018912f342581',1,'plugin_manager::end()'],['../../libpalliate/classutil_1_1Collection.html#aa9e4907f937d3ab2923ff821b7c1b629',1,'util::Collection::end()']]],
+  ['end_5',['end',['../classplugin__manager.html#a4235781f1922762b8a5018912f342581',1,'plugin_manager::end()'],['../../libpalliate/classUtil_1_1Collection.html#a37f313d562ebaf963b008eee3fcd4744',1,'Util::Collection::end()']]],
   ['endpoint_6',['Endpoint',['../../libpalliate/classLogging_1_1Endpoint.html#a74134723947287c2c1bc9403d40c9a63',1,'Logging::Endpoint::Endpoint()'],['../../libpalliate/classLogging_1_1Endpoint.html',1,'Logging::Endpoint']]],
   ['endpoint_2eh_7',['endpoint.h',['../../libpalliate/endpoint_8h.html',1,'']]],
   ['enqueue_8',['enqueue',['../../libpalliate/classMessageQueue.html#aae24704fd5a780ed97d91962bb8c642e',1,'MessageQueue']]],

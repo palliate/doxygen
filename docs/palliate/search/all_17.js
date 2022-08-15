@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['x_0',['x',['../../libpalliate/structutil_1_1rect.html#a36bc32d94868906bab47000fb41a5db2',1,'util::rect']]]
+  ['x_0',['x',['../../libpalliate/structUtil_1_1rect.html#a877c6117a6253a75afabc3e441191477',1,'Util::rect']]]
 ];

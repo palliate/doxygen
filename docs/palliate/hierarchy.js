@@ -14,12 +14,12 @@ var hierarchy =
     [ "Cli", "classCli.html", null ],
     [ "RPC::Client", "../libpalliate/classRPC_1_1Client.html", null ],
     [ "RPC::TCP::Client", "../libpalliate/classRPC_1_1TCP_1_1Client.html", null ],
-    [ "util::Collection< class Interface, typename... Args >", "../libpalliate/classutil_1_1Collection.html", null ],
-    [ "util::configurable< typename T >", "../libpalliate/classutil_1_1configurable.html", null ],
-    [ "util::configurable< config::Application >", "../libpalliate/classutil_1_1configurable.html", [
+    [ "Util::Collection< class Interface, typename... Args >", "../libpalliate/classUtil_1_1Collection.html", null ],
+    [ "Util::configurable< typename T >", "../libpalliate/classUtil_1_1configurable.html", null ],
+    [ "Util::configurable< config::Application >", "../libpalliate/classUtil_1_1configurable.html", [
       [ "Application", "classApplication.html", null ]
     ] ],
-    [ "util::configurable< config::plugins >", "../libpalliate/classutil_1_1configurable.html", [
+    [ "Util::configurable< config::plugins >", "../libpalliate/classUtil_1_1configurable.html", [
       [ "plugin_manager", "classplugin__manager.html", null ]
     ] ],
     [ "Configuration", "classConfiguration.html", null ],
@@ -41,7 +41,7 @@ var hierarchy =
     ] ],
     [ "Logging::Endpoint", "../libpalliate/classLogging_1_1Endpoint.html", null ],
     [ "RPC::ErrorHandler", "../libpalliate/structRPC_1_1ErrorHandler.html", null ],
-    [ "util::Factory< class base_t, class... Args >", "../libpalliate/classutil_1_1Factory.html", null ],
+    [ "Util::Factory< class base_t, class... Args >", "../libpalliate/classUtil_1_1Factory.html", null ],
     [ "thread::info", "../libpalliate/structthread_1_1info.html", null ],
     [ "RPC::IO", "../libpalliate/structRPC_1_1IO.html", null ],
     [ "ivshmem", "../libpalliate/classivshmem.html", null ],
@@ -65,18 +65,22 @@ var hierarchy =
       [ "vtty", "classvtty.html", null ],
       [ "wm", "classwm.html", null ]
     ] ],
-    [ "util::rect", "../libpalliate/structutil_1_1rect.html", null ],
-    [ "Endpoint::registrar", null, [
+    [ "Util::rect", "../libpalliate/structUtil_1_1rect.html", null ],
+    [ "Endpoint::Registrar", null, [
       [ "Logging::Endpoints::Bridge", "classLogging_1_1Endpoints_1_1Bridge.html", null ],
+      [ "Logging::Endpoints::File", "classLogging_1_1Endpoints_1_1File.html", null ],
+      [ "Logging::Endpoints::Serial", "classLogging_1_1Endpoints_1_1Serial.html", null ],
       [ "Logging::Endpoints::Systemd", "classLogging_1_1Endpoints_1_1Systemd.html", null ],
-      [ "Logging::Endpoints::file", "classLogging_1_1Endpoints_1_1file.html", null ],
-      [ "Logging::Endpoints::serial", "classLogging_1_1Endpoints_1_1serial.html", null ],
-      [ "Logging::Endpoints::terminal", "classLogging_1_1Endpoints_1_1terminal.html", null ]
+      [ "Logging::Endpoints::Terminal", "classLogging_1_1Endpoints_1_1Terminal.html", null ]
     ] ],
-    [ "util::Factory< class base_t, class... Args >::registrar", "../libpalliate/structutil_1_1Factory_1_1registrar.html", null ],
-    [ "UI::Renderer", "../libpalliate/classUI_1_1Renderer.html", [
+    [ "UI::Renderer::Registrar", null, [
       [ "UI::GL::Renderer", "classUI_1_1GL_1_1Renderer.html", null ]
     ] ],
+    [ "UI::Tray::Registrar", null, [
+      [ "UI::AppIndicator::Tray", "classUI_1_1AppIndicator_1_1Tray.html", null ]
+    ] ],
+    [ "Util::Factory< class base_t, class... Args >::Registrar", "../libpalliate/structUtil_1_1Factory_1_1Registrar.html", null ],
+    [ "UI::Renderer", "../libpalliate/classUI_1_1Renderer.html", null ],
     [ "runnable", "../libpalliate/classrunnable.html", [
       [ "Application", "classApplication.html", null ],
       [ "RPC::Server", "../libpalliate/classRPC_1_1Server.html", null ],
@@ -95,10 +99,8 @@ var hierarchy =
     ] ],
     [ "RPC::TCP::Server", "../libpalliate/classRPC_1_1TCP_1_1Server.html", null ],
     [ "Servers", "../libpalliate/classServers.html", null ],
-    [ "UI::Tray", "../libpalliate/classUI_1_1Tray.html", [
-      [ "UI::TrayImpl", "classUI_1_1TrayImpl.html", null ]
-    ] ],
-    [ "util::uuid", "../libpalliate/structutil_1_1uuid.html", null ],
+    [ "UI::Tray", "../libpalliate/classUI_1_1Tray.html", null ],
+    [ "Util::uuid", "../libpalliate/structUtil_1_1uuid.html", null ],
     [ "UI::Window", "../libpalliate/classUI_1_1Window.html", [
       [ "UI::GL::Window", "classUI_1_1GL_1_1Window.html", [
         [ "UI::GL::Display", "classUI_1_1GL_1_1Display.html", null ]

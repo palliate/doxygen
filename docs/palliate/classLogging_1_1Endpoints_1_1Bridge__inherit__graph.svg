@@ -29,7 +29,7 @@
 <title>Node2</title>
 <g id="a_node2"><a xlink:title=" ">
 <polygon fill="none" stroke="black" points="0,-127.5 0,-195.5 143,-195.5 143,-127.5 0,-127.5"/>
-<text text-anchor="start" x="8" y="-183.5" font-family="Helvetica,sans-Serif" font-size="10.00">Endpoint::registrar</text>
+<text text-anchor="start" x="8" y="-183.5" font-family="Helvetica,sans-Serif" font-size="10.00">Endpoint::Registrar</text>
 <text text-anchor="middle" x="71.5" y="-172.5" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; Bridge, config::Bridge &gt;</text>
 <polyline fill="none" stroke="black" points="0,-165.5 143,-165.5 "/>
 <text text-anchor="middle" x="71.5" y="-153.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>

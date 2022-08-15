@@ -1,6 +1,6 @@
 var classUI_1_1GL_1_1Window =
 [
-    [ "Window", "classUI_1_1GL_1_1Window.html#a8bf687bce5649ae490bfd21ba7ec35b6", null ],
+    [ "Window", "classUI_1_1GL_1_1Window.html#add1c4b2db70544dd760d2a3acb0d2511", null ],
     [ "attention", "classUI_1_1GL_1_1Window.html#a088ba117d4f5b35f9d1a7c8f72c6cc63", null ],
     [ "get_flags", "classUI_1_1GL_1_1Window.html#ade0ad8376a27dfbc58878a38e2fc35a7", null ],
     [ "icon", "classUI_1_1GL_1_1Window.html#ab90ddd12cc5808e72555475eb432dea8", null ],
@@ -16,7 +16,7 @@ var classUI_1_1GL_1_1Window =
     [ "current_title", "classUI_1_1GL_1_1Window.html#a32ec3722b6265f4f8b6d15cee4bfe482", null ],
     [ "EBO", "classUI_1_1GL_1_1Window.html#adeee61a1259989dee66793b86563ca21", null ],
     [ "moved", "classUI_1_1GL_1_1Window.html#a0e265a034e574e1d148c93aeb21d7651", null ],
-    [ "position", "classUI_1_1GL_1_1Window.html#aeb5335de49ef72eb221f323336061102", null ],
+    [ "position", "classUI_1_1GL_1_1Window.html#a3974b622da89dcc206e1a07f241c7605", null ],
     [ "program", "classUI_1_1GL_1_1Window.html#ae2fe722f7a8cb0deed64ff3bf0d13fbb", null ],
     [ "TBO", "classUI_1_1GL_1_1Window.html#a1d1a9da1ea24163b0cbc6f3e7a5506d3", null ],
     [ "tex_coords", "classUI_1_1GL_1_1Window.html#a5c5a22522206407b6c73bf90c3b949ea", null ],

@@ -3,10 +3,10 @@ var annotated_dup =
     [ "Logging", "namespaceLogging.html", [
       [ "Endpoints", "namespaceLogging_1_1Endpoints.html", [
         [ "Bridge", "classLogging_1_1Endpoints_1_1Bridge.html", "classLogging_1_1Endpoints_1_1Bridge" ],
-        [ "file", "classLogging_1_1Endpoints_1_1file.html", "classLogging_1_1Endpoints_1_1file" ],
-        [ "serial", "classLogging_1_1Endpoints_1_1serial.html", "classLogging_1_1Endpoints_1_1serial" ],
+        [ "File", "classLogging_1_1Endpoints_1_1File.html", "classLogging_1_1Endpoints_1_1File" ],
+        [ "Serial", "classLogging_1_1Endpoints_1_1Serial.html", "classLogging_1_1Endpoints_1_1Serial" ],
         [ "Systemd", "classLogging_1_1Endpoints_1_1Systemd.html", "classLogging_1_1Endpoints_1_1Systemd" ],
-        [ "terminal", "classLogging_1_1Endpoints_1_1terminal.html", "classLogging_1_1Endpoints_1_1terminal" ]
+        [ "Terminal", "classLogging_1_1Endpoints_1_1Terminal.html", "classLogging_1_1Endpoints_1_1Terminal" ]
       ] ],
       [ "Annotated", "../libpalliate/structLogging_1_1Annotated.html", "structLogging_1_1Annotated" ],
       [ "Endpoint", "../libpalliate/classLogging_1_1Endpoint.html", "classLogging_1_1Endpoint" ],
@@ -14,6 +14,9 @@ var annotated_dup =
       [ "message", "../libpalliate/structLogging_1_1message.html", "structLogging_1_1message" ]
     ] ],
     [ "UI", "namespaceUI.html", [
+      [ "AppIndicator", "namespaceUI_1_1AppIndicator.html", [
+        [ "Tray", "classUI_1_1AppIndicator_1_1Tray.html", "classUI_1_1AppIndicator_1_1Tray" ]
+      ] ],
       [ "GL", "namespaceUI_1_1GL.html", [
         [ "context_guard", "structUI_1_1GL_1_1context__guard.html", "structUI_1_1GL_1_1context__guard" ],
         [ "Display", "classUI_1_1GL_1_1Display.html", "classUI_1_1GL_1_1Display" ],
@@ -23,7 +26,6 @@ var annotated_dup =
       [ "Control", "../libpalliate/classUI_1_1Control.html", "classUI_1_1Control" ],
       [ "Renderer", "../libpalliate/classUI_1_1Renderer.html", "classUI_1_1Renderer" ],
       [ "Tray", "../libpalliate/classUI_1_1Tray.html", "classUI_1_1Tray" ],
-      [ "TrayImpl", "classUI_1_1TrayImpl.html", "classUI_1_1TrayImpl" ],
       [ "Window", "../libpalliate/classUI_1_1Window.html", "classUI_1_1Window" ]
     ] ],
     [ "Application", "classApplication.html", "classApplication" ],

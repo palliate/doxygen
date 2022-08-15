@@ -1,6 +1,4 @@
 var dir_17f034bcca759dd7309c3bc58f61bb5d =
 [
-    [ "tray.h", "tray_8h.html", "tray_8h" ],
-    [ "tray.linux.cpp", "tray_8linux_8cpp.html", "tray_8linux_8cpp" ],
-    [ "tray.windows.cpp", "tray_8windows_8cpp.html", null ]
+    [ "appindicator", "dir_412d4cd36571ace359f32f24bfd1abf8.html", "dir_412d4cd36571ace359f32f24bfd1abf8" ]
 ];

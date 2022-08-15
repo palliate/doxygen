@@ -112,9 +112,9 @@ Inheritance diagram for UI::GL::Window:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a8bf687bce5649ae490bfd21ba7ec35b6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1GL_1_1Window.html#a8bf687bce5649ae490bfd21ba7ec35b6">Window</a> (unsigned width, unsigned height, const std::string &amp;name, <a class="el" href="classUI_1_1GL_1_1Window.html">Window</a> *parent)</td></tr>
-<tr class="separator:a8bf687bce5649ae490bfd21ba7ec35b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84214e16bea4d91cfeb214b65a9d10d6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1GL_1_1Window.html#a84214e16bea4d91cfeb214b65a9d10d6">initialize</a> (GLuint <a class="el" href="classUI_1_1GL_1_1Window.html#ae2fe722f7a8cb0deed64ff3bf0d13fbb">program</a>)</td></tr>
+<tr class="memitem:add1c4b2db70544dd760d2a3acb0d2511"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1GL_1_1Window.html#add1c4b2db70544dd760d2a3acb0d2511">Window</a> (std::string const &amp;name, <a class="elRef" href="../libpalliate/structUtil_1_1rect.html">Util::rect</a> <a class="el" href="classUI_1_1GL_1_1Window.html#a3974b622da89dcc206e1a07f241c7605">position</a>, <a class="el" href="classUI_1_1GL_1_1Window.html">Window</a> *parent)</td></tr>
+<tr class="separator:add1c4b2db70544dd760d2a3acb0d2511"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84214e16bea4d91cfeb214b65a9d10d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1GL_1_1Window.html#a84214e16bea4d91cfeb214b65a9d10d6">initialize</a> (GLuint <a class="el" href="classUI_1_1GL_1_1Window.html#ae2fe722f7a8cb0deed64ff3bf0d13fbb">program</a>)</td></tr>
 <tr class="separator:a84214e16bea4d91cfeb214b65a9d10d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a088ba117d4f5b35f9d1a7c8f72c6cc63"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1GL_1_1Window.html#a088ba117d4f5b35f9d1a7c8f72c6cc63">attention</a> () override</td></tr>
 <tr class="separator:a088ba117d4f5b35f9d1a7c8f72c6cc63"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -187,8 +187,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a7f66b438f671f701ab422ae8ca794b0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32ec3722b6265f4f8b6d15cee4bfe482"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1GL_1_1Window.html#a32ec3722b6265f4f8b6d15cee4bfe482">current_title</a></td></tr>
 <tr class="separator:a32ec3722b6265f4f8b6d15cee4bfe482"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb5335de49ef72eb221f323336061102"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../libpalliate/structutil_1_1rect.html">util::rect</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1GL_1_1Window.html#aeb5335de49ef72eb221f323336061102">position</a> = {0}</td></tr>
-<tr class="separator:aeb5335de49ef72eb221f323336061102"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3974b622da89dcc206e1a07f241c7605"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../libpalliate/structUtil_1_1rect.html">Util::rect</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1GL_1_1Window.html#a3974b622da89dcc206e1a07f241c7605">position</a> = {0}</td></tr>
+<tr class="separator:a3974b622da89dcc206e1a07f241c7605"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c5a22522206407b6c73bf90c3b949ea"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1GL_1_1Window.html#a5c5a22522206407b6c73bf90c3b949ea">tex_coords</a> [8] = {1.0f, 0.0f, 1.0f, 1.0f, 0.0f, 1.0f, 0.0f, 0.0f}</td></tr>
 <tr class="separator:a5c5a22522206407b6c73bf90c3b949ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e265a034e574e1d148c93aeb21d7651"><td class="memItemLeft" align="right" valign="top">std::atomic_flag&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1GL_1_1Window.html#a0e265a034e574e1d148c93aeb21d7651">moved</a> = ATOMIC_FLAG_INIT</td></tr>
@@ -222,8 +222,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:acee241941aced158017c896ae1cc1a23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a8bf687bce5649ae490bfd21ba7ec35b6" name="a8bf687bce5649ae490bfd21ba7ec35b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8bf687bce5649ae490bfd21ba7ec35b6">&#9670;&nbsp;</a></span>Window()</h2>
+<a id="add1c4b2db70544dd760d2a3acb0d2511" name="add1c4b2db70544dd760d2a3acb0d2511"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add1c4b2db70544dd760d2a3acb0d2511">&#9670;&nbsp;</a></span>Window()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -231,20 +231,14 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">Window::Window </td>
           <td>(</td>
-          <td class="paramtype">unsigned&#160;</td>
-          <td class="paramname"><em>width</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned&#160;</td>
-          <td class="paramname"><em>height</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
           <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="elRef" href="../libpalliate/structUtil_1_1rect.html">Util::rect</a>&#160;</td>
+          <td class="paramname"><em>position</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -392,9 +386,6 @@ Additional Inherited Members</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void Window::initialize </td>
@@ -404,14 +395,7 @@ Additional Inherited Members</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-
-<p>Reimplemented in <a class="el" href="classUI_1_1GL_1_1Display.html#ad6a64f06df3c0140875300c99bfca925">UI::GL::Display</a>.</p>
 
 </div>
 </div>
@@ -708,8 +692,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="aeb5335de49ef72eb221f323336061102" name="aeb5335de49ef72eb221f323336061102"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb5335de49ef72eb221f323336061102">&#9670;&nbsp;</a></span>position</h2>
+<a id="a3974b622da89dcc206e1a07f241c7605" name="a3974b622da89dcc206e1a07f241c7605"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3974b622da89dcc206e1a07f241c7605">&#9670;&nbsp;</a></span>position</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -718,7 +702,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="elRef" href="../libpalliate/structutil_1_1rect.html">util::rect</a> UI::GL::Window::position = {0}</td>
+          <td class="memname"><a class="elRef" href="../libpalliate/structUtil_1_1rect.html">Util::rect</a> UI::GL::Window::position = {0}</td>
         </tr>
       </table>
   </td>

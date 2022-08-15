@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['basename_0',['basename',['../../libpalliate/namespaceutil.html#aee407cb6fb68403461bd3c148d52ad0f',1,'util']]],
-  ['begin_1',['begin',['../../libpalliate/classutil_1_1Collection.html#a2ab8b0d695ac29d93549989b1c2a7874',1,'util::Collection::begin()'],['../classplugin__manager.html#a1826108c177017762d46cca46dcdfc29',1,'plugin_manager::begin()']]],
+  ['basename_0',['basename',['../../libpalliate/namespaceUtil.html#a0325e369eeb6bf0865a40e9ee8c652ae',1,'Util']]],
+  ['begin_1',['begin',['../../libpalliate/classUtil_1_1Collection.html#a29fab6573b0a972628a64442b7697ede',1,'Util::Collection::begin()'],['../classplugin__manager.html#a1826108c177017762d46cca46dcdfc29',1,'plugin_manager::begin()']]],
   ['bin_5ft_2',['bin_t',['../../libpalliate/structmemory_1_1bin__t.html#a76f1876a035b3aa32c043cceb44cf971',1,'memory::bin_t::bin_t()'],['../../libpalliate/structmemory_1_1bin__t.html#ae965dd2eac9f225d8a7c8db87336357b',1,'memory::bin_t::bin_t(node_t *_first)']]],
-  ['binary_5fdir_3',['binary_dir',['../../libpalliate/namespaceutil.html#ad7c9c525adbd8a47673863e9960173ed',1,'util']]],
+  ['binary_5fdir_3',['binary_dir',['../../libpalliate/namespaceUtil.html#aab5f449d223fc82a24b41d92a9e0c88d',1,'Util']]],
   ['bootstrap_4',['bootstrap',['../../libpalliate/structRPC_1_1Context.html#a7406525cff2bfe4e06ef31875b1ed4b8',1,'RPC::Context']]],
   ['branch_5',['branch',['../../libpalliate/structpatricia_1_1node__t.html#a9a3e1a5e8ea63d6025442daa9f90a95a',1,'patricia::node_t']]],
   ['bridge_6',['Bridge',['../classLogging_1_1Endpoints_1_1Bridge.html#aeea81b4d0c33fd72b1123c47ce43ec42',1,'Logging::Endpoints::Bridge']]],

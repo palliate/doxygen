@@ -1,4 +1,4 @@
 var file_8h =
 [
-    [ "Logging::Endpoints::file", "classLogging_1_1Endpoints_1_1file.html", "classLogging_1_1Endpoints_1_1file" ]
+    [ "Logging::Endpoints::File", "classLogging_1_1Endpoints_1_1File.html", "classLogging_1_1Endpoints_1_1File" ]
 ];

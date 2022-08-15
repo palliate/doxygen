@@ -133,8 +133,6 @@
     <path>/__w/palliate/palliate/src/application/</path>
     <filename>application_8cpp.html</filename>
     <includes id="application_8h" name="application.h" local="yes" imported="no">application.h</includes>
-    <includes id="renderer_8h" name="renderer.h" local="no" imported="no">ui/gl/renderer.h</includes>
-    <includes id="tray_8h" name="tray.h" local="no" imported="no">ui/tray/tray.h</includes>
   </compound>
   <compound kind="file">
     <name>application.h</name>
@@ -215,7 +213,7 @@
     <name>file.h</name>
     <path>/__w/palliate/palliate/src/logging/</path>
     <filename>file_8h.html</filename>
-    <class kind="class">Logging::Endpoints::file</class>
+    <class kind="class">Logging::Endpoints::File</class>
     <namespace>Logging</namespace>
     <namespace>Logging::Endpoints</namespace>
   </compound>
@@ -229,7 +227,7 @@
     <name>serial.h</name>
     <path>/__w/palliate/palliate/src/logging/</path>
     <filename>serial_8h.html</filename>
-    <class kind="class">Logging::Endpoints::serial</class>
+    <class kind="class">Logging::Endpoints::Serial</class>
     <namespace>Logging</namespace>
     <namespace>Logging::Endpoints</namespace>
   </compound>
@@ -243,7 +241,7 @@
     <name>terminal.h</name>
     <path>/__w/palliate/palliate/src/logging/</path>
     <filename>terminal_8h.html</filename>
-    <class kind="class">Logging::Endpoints::terminal</class>
+    <class kind="class">Logging::Endpoints::Terminal</class>
     <namespace>Logging</namespace>
     <namespace>Logging::Endpoints</namespace>
   </compound>
@@ -398,30 +396,25 @@
     </member>
   </compound>
   <compound kind="file">
-    <name>tray.h</name>
-    <path>/__w/palliate/palliate/src/ui/tray/</path>
-    <filename>tray_8h.html</filename>
-    <class kind="class">UI::TrayImpl</class>
-    <namespace>UI</namespace>
-  </compound>
-  <compound kind="file">
-    <name>tray.linux.cpp</name>
-    <path>/__w/palliate/palliate/src/ui/tray/</path>
-    <filename>tray_8linux_8cpp.html</filename>
+    <name>tray.cpp</name>
+    <path>/__w/palliate/palliate/src/ui/tray/appindicator/</path>
+    <filename>tray_8cpp.html</filename>
     <includes id="tray_8h" name="tray.h" local="yes" imported="no">tray.h</includes>
     <member kind="define">
       <type>#define</type>
       <name>GDK_PIXBUF_DISABLE_DEPRECATED</name>
-      <anchorfile>tray_8linux_8cpp.html</anchorfile>
+      <anchorfile>tray_8cpp.html</anchorfile>
       <anchor>a291fd99be095900be884f4a158270ca0</anchor>
       <arglist></arglist>
     </member>
   </compound>
   <compound kind="file">
-    <name>tray.windows.cpp</name>
-    <path>/__w/palliate/palliate/src/ui/tray/</path>
-    <filename>tray_8windows_8cpp.html</filename>
-    <includes id="tray_8h" name="tray.h" local="yes" imported="no">tray.h</includes>
+    <name>tray.h</name>
+    <path>/__w/palliate/palliate/src/ui/tray/appindicator/</path>
+    <filename>tray_8h.html</filename>
+    <class kind="class">UI::AppIndicator::Tray</class>
+    <namespace>UI</namespace>
+    <namespace>UI::AppIndicator</namespace>
   </compound>
   <compound kind="class">
     <name>Application</name>
@@ -624,14 +617,14 @@
       <type>std::optional&lt; T &gt;</type>
       <name>find</name>
       <anchorfile>classConfiguration.html</anchorfile>
-      <anchor>a6d4e6e0d95d0ccd0b3bbdf4281e6b9bf</anchor>
+      <anchor>a815d8e3a60d97aa9455fa651de26194f</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
       <type>T</type>
       <name>find_default</name>
       <anchorfile>classConfiguration.html</anchorfile>
-      <anchor>a8c3d20e78ac203a389c30547d3b18d33</anchor>
+      <anchor>a80bef6777c6bbb7b91e93dcd0c98259e</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
@@ -731,8 +724,8 @@
       <type>void</type>
       <name>initialize</name>
       <anchorfile>classUI_1_1GL_1_1Display.html</anchorfile>
-      <anchor>ad6a64f06df3c0140875300c99bfca925</anchor>
-      <arglist>(GLuint program) override</arglist>
+      <anchor>a50ef8eacde7f4fa14ad58c6f24248743</anchor>
+      <arglist>(GLuint program)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
@@ -743,27 +736,27 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>Logging::Endpoints::file</name>
-    <filename>classLogging_1_1Endpoints_1_1file.html</filename>
+    <name>Logging::Endpoints::File</name>
+    <filename>classLogging_1_1Endpoints_1_1File.html</filename>
     <member kind="function">
       <type></type>
-      <name>file</name>
-      <anchorfile>classLogging_1_1Endpoints_1_1file.html</anchorfile>
-      <anchor>abb690fe22b573382c27c2e3075bf2def</anchor>
+      <name>File</name>
+      <anchorfile>classLogging_1_1Endpoints_1_1File.html</anchorfile>
+      <anchor>a27c0d7b1c16b48f7dec4c799b1b97bd9</anchor>
       <arglist>(config_t const &amp;c)</arglist>
     </member>
     <member kind="function" virtualness="virtual">
       <type>virtual</type>
-      <name>~file</name>
-      <anchorfile>classLogging_1_1Endpoints_1_1file.html</anchorfile>
-      <anchor>a7174566303bcda6dc7d47cc0997c8c42</anchor>
+      <name>~File</name>
+      <anchorfile>classLogging_1_1Endpoints_1_1File.html</anchorfile>
+      <anchor>ac704ebdf5f57d7a1c5ddf409d797fb69</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>print</name>
-      <anchorfile>classLogging_1_1Endpoints_1_1file.html</anchorfile>
-      <anchor>acc7c818c82a9735272197f1aea7c19db</anchor>
+      <anchorfile>classLogging_1_1Endpoints_1_1File.html</anchorfile>
+      <anchor>aeacc9981c96b6ace62ee8207ac3efc4a</anchor>
       <arglist>(message &amp;msg) override</arglist>
     </member>
   </compound>
@@ -931,13 +924,26 @@
   <compound kind="class">
     <name>UI::GL::Renderer</name>
     <filename>classUI_1_1GL_1_1Renderer.html</filename>
-    <base>UI::Renderer</base>
+    <member kind="typedef">
+      <type>void *</type>
+      <name>Icon</name>
+      <anchorfile>classUI_1_1GL_1_1Renderer.html</anchorfile>
+      <anchor>ae092a856de0fd65ca4388cae77762563</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>uint64_t</type>
+      <name>WindowHandle</name>
+      <anchorfile>classUI_1_1GL_1_1Renderer.html</anchorfile>
+      <anchor>a6f135e8240dc2fc64960d0781635613a</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="function">
       <type></type>
       <name>Renderer</name>
       <anchorfile>classUI_1_1GL_1_1Renderer.html</anchorfile>
-      <anchor>a7ebf46f54dab9905f79b80f7fddb76a6</anchor>
-      <arglist>()</arglist>
+      <anchor>add574b2faf27cf97968579e8b83b3635</anchor>
+      <arglist>(config_t const &amp;c)</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -967,29 +973,43 @@
       <anchor>a4e20ba24db9622116d35cd0338bad6b3</anchor>
       <arglist>() override</arglist>
     </member>
+    <member kind="function">
+      <type>WindowHandle</type>
+      <name>create</name>
+      <anchorfile>classUI_1_1GL_1_1Renderer.html</anchorfile>
+      <anchor>abefbd1c87ad87fade5e0a741461c37ac</anchor>
+      <arglist>(std::string const &amp;title, Util::rect position, Window::flag flags={Window::visible}, Icon icon=nullptr)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>close</name>
+      <anchorfile>classUI_1_1GL_1_1Renderer.html</anchorfile>
+      <anchor>a04a9294920b28d10115fe3d98494b23e</anchor>
+      <arglist>(WindowHandle handle)</arglist>
+    </member>
   </compound>
   <compound kind="class">
-    <name>Logging::Endpoints::serial</name>
-    <filename>classLogging_1_1Endpoints_1_1serial.html</filename>
+    <name>Logging::Endpoints::Serial</name>
+    <filename>classLogging_1_1Endpoints_1_1Serial.html</filename>
     <member kind="function">
       <type></type>
-      <name>serial</name>
-      <anchorfile>classLogging_1_1Endpoints_1_1serial.html</anchorfile>
-      <anchor>ac42d260df030ec4626bc04191fd2ee17</anchor>
+      <name>Serial</name>
+      <anchorfile>classLogging_1_1Endpoints_1_1Serial.html</anchorfile>
+      <anchor>a8e4de85b983e27cab5caaed752c6bc51</anchor>
       <arglist>(config_t const &amp;c)</arglist>
     </member>
     <member kind="function">
       <type></type>
-      <name>~serial</name>
-      <anchorfile>classLogging_1_1Endpoints_1_1serial.html</anchorfile>
-      <anchor>a8b20e789cdcb84f82620b0c9b28b3b79</anchor>
+      <name>~Serial</name>
+      <anchorfile>classLogging_1_1Endpoints_1_1Serial.html</anchorfile>
+      <anchor>a0cc8dfa3efb2a353f9420d8a0794657f</anchor>
       <arglist>() override</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>print</name>
-      <anchorfile>classLogging_1_1Endpoints_1_1serial.html</anchorfile>
-      <anchor>ae2c2245c2e6277109c59118756def3cc</anchor>
+      <anchorfile>classLogging_1_1Endpoints_1_1Serial.html</anchorfile>
+      <anchor>a386d78b243c432cb52632e24bea50e2a</anchor>
       <arglist>(Logging::message &amp;msg) override</arglist>
     </member>
   </compound>
@@ -1038,27 +1058,27 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>Logging::Endpoints::terminal</name>
-    <filename>classLogging_1_1Endpoints_1_1terminal.html</filename>
+    <name>Logging::Endpoints::Terminal</name>
+    <filename>classLogging_1_1Endpoints_1_1Terminal.html</filename>
     <member kind="function">
       <type></type>
-      <name>terminal</name>
-      <anchorfile>classLogging_1_1Endpoints_1_1terminal.html</anchorfile>
-      <anchor>a2b70ef201f1dd5602a3a1427bd01afa8</anchor>
+      <name>Terminal</name>
+      <anchorfile>classLogging_1_1Endpoints_1_1Terminal.html</anchorfile>
+      <anchor>ae4b8b0139f1415c6174e7fa82b48dbf1</anchor>
       <arglist>(config_t const &amp;c)</arglist>
     </member>
     <member kind="function">
       <type></type>
-      <name>~terminal</name>
-      <anchorfile>classLogging_1_1Endpoints_1_1terminal.html</anchorfile>
-      <anchor>a1a6cd2bf48de06f78766e939afe4e38b</anchor>
+      <name>~Terminal</name>
+      <anchorfile>classLogging_1_1Endpoints_1_1Terminal.html</anchorfile>
+      <anchor>add5a7d4dd45b68af9a0afb1cc845af2f</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>print</name>
-      <anchorfile>classLogging_1_1Endpoints_1_1terminal.html</anchorfile>
-      <anchor>a2457c2795b91f3a1125f4c96712ba5df</anchor>
+      <anchorfile>classLogging_1_1Endpoints_1_1Terminal.html</anchorfile>
+      <anchor>adb22fabc18d60c58335aca2f6a5e0e92</anchor>
       <arglist>(Logging::message &amp;msg) override</arglist>
     </member>
   </compound>
@@ -1096,28 +1116,27 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>UI::TrayImpl</name>
-    <filename>classUI_1_1TrayImpl.html</filename>
-    <base>UI::Tray</base>
+    <name>UI::AppIndicator::Tray</name>
+    <filename>classUI_1_1AppIndicator_1_1Tray.html</filename>
     <member kind="function">
       <type></type>
-      <name>TrayImpl</name>
-      <anchorfile>classUI_1_1TrayImpl.html</anchorfile>
-      <anchor>a13849fef92f0ec6dbacecbb59fc719f0</anchor>
-      <arglist>()</arglist>
+      <name>Tray</name>
+      <anchorfile>classUI_1_1AppIndicator_1_1Tray.html</anchorfile>
+      <anchor>aff145333926bcc25a119ef62cc4592f0</anchor>
+      <arglist>(config_t const &amp;c)</arglist>
     </member>
     <member kind="function">
       <type></type>
-      <name>~TrayImpl</name>
-      <anchorfile>classUI_1_1TrayImpl.html</anchorfile>
-      <anchor>a9bab9f51f48bcafb1477bc6c783bac3c</anchor>
+      <name>~Tray</name>
+      <anchorfile>classUI_1_1AppIndicator_1_1Tray.html</anchorfile>
+      <anchor>a065c805b03e6da03697725851f634b78</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>render</name>
-      <anchorfile>classUI_1_1TrayImpl.html</anchorfile>
-      <anchor>a84d1b0eeb90c1a87bc30bd8a6d0c6342</anchor>
+      <anchorfile>classUI_1_1AppIndicator_1_1Tray.html</anchorfile>
+      <anchor>ad0e71bc147f16764907286476d587c9e</anchor>
       <arglist>() override</arglist>
     </member>
   </compound>
@@ -1155,11 +1174,11 @@
       <type></type>
       <name>Window</name>
       <anchorfile>classUI_1_1GL_1_1Window.html</anchorfile>
-      <anchor>a8bf687bce5649ae490bfd21ba7ec35b6</anchor>
-      <arglist>(unsigned width, unsigned height, const std::string &amp;name, Window *parent)</arglist>
+      <anchor>add1c4b2db70544dd760d2a3acb0d2511</anchor>
+      <arglist>(std::string const &amp;name, Util::rect position, Window *parent)</arglist>
     </member>
-    <member kind="function" virtualness="virtual">
-      <type>virtual void</type>
+    <member kind="function">
+      <type>void</type>
       <name>initialize</name>
       <anchorfile>classUI_1_1GL_1_1Window.html</anchorfile>
       <anchor>a84214e16bea4d91cfeb214b65a9d10d6</anchor>
@@ -1313,10 +1332,10 @@
       <arglist></arglist>
     </member>
     <member kind="variable" protection="protected">
-      <type>util::rect</type>
+      <type>Util::rect</type>
       <name>position</name>
       <anchorfile>classUI_1_1GL_1_1Window.html</anchorfile>
-      <anchor>aeb5335de49ef72eb221f323336061102</anchor>
+      <anchor>a3974b622da89dcc206e1a07f241c7605</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable" protection="protected">
@@ -1376,16 +1395,21 @@
     <name>Logging::Endpoints</name>
     <filename>namespaceLogging_1_1Endpoints.html</filename>
     <class kind="class">Logging::Endpoints::Bridge</class>
-    <class kind="class">Logging::Endpoints::file</class>
-    <class kind="class">Logging::Endpoints::serial</class>
+    <class kind="class">Logging::Endpoints::File</class>
+    <class kind="class">Logging::Endpoints::Serial</class>
     <class kind="class">Logging::Endpoints::Systemd</class>
-    <class kind="class">Logging::Endpoints::terminal</class>
+    <class kind="class">Logging::Endpoints::Terminal</class>
   </compound>
   <compound kind="namespace">
     <name>UI</name>
     <filename>namespaceUI.html</filename>
+    <namespace>UI::AppIndicator</namespace>
     <namespace>UI::GL</namespace>
-    <class kind="class">UI::TrayImpl</class>
+  </compound>
+  <compound kind="namespace">
+    <name>UI::AppIndicator</name>
+    <filename>namespaceUI_1_1AppIndicator.html</filename>
+    <class kind="class">UI::AppIndicator::Tray</class>
   </compound>
   <compound kind="namespace">
     <name>UI::GL</name>

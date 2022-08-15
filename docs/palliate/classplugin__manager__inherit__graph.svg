@@ -34,9 +34,9 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a target="_parent" xlink:href="../libpalliate/classutil_1_1configurable.html" xlink:title=" ">
+<g id="a_node2"><a target="_parent" xlink:href="../libpalliate/classUtil_1_1configurable.html" xlink:title=" ">
 <polygon fill="none" stroke="black" points="6,-204.5 6,-305.5 116,-305.5 116,-204.5 6,-204.5"/>
-<text text-anchor="start" x="14" y="-293.5" font-family="Helvetica,sans-Serif" font-size="10.00">util::configurable</text>
+<text text-anchor="start" x="14" y="-293.5" font-family="Helvetica,sans-Serif" font-size="10.00">Util::configurable</text>
 <text text-anchor="middle" x="61" y="-282.5" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; config::plugins &gt;</text>
 <polyline fill="none" stroke="black" points="6,-275.5 116,-275.5 "/>
 <text text-anchor="start" x="14" y="-263.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ config</text>
