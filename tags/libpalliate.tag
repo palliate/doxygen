@@ -773,6 +773,7 @@
     <name>renderer.h</name>
     <path>/__w/libpalliate/libpalliate/src/ui/</path>
     <filename>renderer_8h.html</filename>
+    <includes id="factory_8h" name="factory.h" local="no" imported="no">util/factory.h</includes>
     <class kind="class">UI::Renderer</class>
     <namespace>UI</namespace>
   </compound>
@@ -780,6 +781,7 @@
     <name>tray.h</name>
     <path>/__w/libpalliate/libpalliate/src/ui/</path>
     <filename>tray_8h.html</filename>
+    <includes id="factory_8h" name="factory.h" local="no" imported="no">util/factory.h</includes>
     <class kind="class">UI::Tray</class>
     <namespace>UI</namespace>
   </compound>
@@ -825,40 +827,40 @@
     <name>clock.h</name>
     <path>/__w/libpalliate/libpalliate/src/util/</path>
     <filename>clock_8h.html</filename>
-    <namespace>util</namespace>
+    <namespace>Util</namespace>
     <member kind="function">
       <type>uint64_t</type>
       <name>timestamp</name>
-      <anchorfile>namespaceutil.html</anchorfile>
-      <anchor>a211993f85d0b44090dd95e4a7b551545</anchor>
+      <anchorfile>namespaceUtil.html</anchorfile>
+      <anchor>a2e6d4760f1370764948fe6ad1c38dc00</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>sleep_for</name>
-      <anchorfile>namespaceutil.html</anchorfile>
-      <anchor>a28ff4dd2371068677e53af40f3d1be5b</anchor>
+      <anchorfile>namespaceUtil.html</anchorfile>
+      <anchor>a9a407cb32ff754596b25a37b3b211f05</anchor>
       <arglist>(auto duration)</arglist>
     </member>
     <member kind="function">
       <type>T</type>
       <name>wait</name>
-      <anchorfile>namespaceutil.html</anchorfile>
-      <anchor>a5171aaaa27dfde89ecb0319b157874fa</anchor>
+      <anchorfile>namespaceUtil.html</anchorfile>
+      <anchor>ab0227141c18bf2e63476d98b3488566a</anchor>
       <arglist>(std::atomic&lt; T &gt; *p, T value)</arglist>
     </member>
     <member kind="function">
       <type>T</type>
       <name>wait_undesired</name>
-      <anchorfile>namespaceutil.html</anchorfile>
-      <anchor>a6945bf8bbdf0205f8a0803e63cda042e</anchor>
+      <anchorfile>namespaceUtil.html</anchorfile>
+      <anchor>a767caa2db75ed3f78720b77934709db0</anchor>
       <arglist>(std::atomic&lt; T &gt; *p, T undesired)</arglist>
     </member>
     <member kind="function">
       <type>T</type>
       <name>wait_desired</name>
-      <anchorfile>namespaceutil.html</anchorfile>
-      <anchor>a9eba3c287782cbce127626d9ad74912f</anchor>
+      <anchorfile>namespaceUtil.html</anchorfile>
+      <anchor>a763f052563ce589c6bab769e1f8106bd</anchor>
       <arglist>(std::atomic&lt; T &gt; *p, T desired)</arglist>
     </member>
   </compound>
@@ -866,23 +868,23 @@
     <name>collection.h</name>
     <path>/__w/libpalliate/libpalliate/src/util/</path>
     <filename>collection_8h.html</filename>
-    <class kind="class">util::Collection</class>
-    <namespace>util</namespace>
-    <concept>util::is_factory</concept>
+    <class kind="class">Util::Collection</class>
+    <namespace>Util</namespace>
+    <concept>Util::is_factory</concept>
   </compound>
   <compound kind="file">
     <name>concepts.h</name>
     <path>/__w/libpalliate/libpalliate/src/util/</path>
     <filename>concepts_8h.html</filename>
-    <namespace>util</namespace>
-    <concept>util::is_named</concept>
+    <namespace>Util</namespace>
+    <concept>Util::is_named</concept>
   </compound>
   <compound kind="file">
     <name>configurable.h</name>
     <path>/__w/libpalliate/libpalliate/src/util/</path>
     <filename>configurable_8h.html</filename>
-    <class kind="class">util::configurable</class>
-    <namespace>util</namespace>
+    <class kind="class">Util::configurable</class>
+    <namespace>Util</namespace>
   </compound>
   <compound kind="file">
     <name>factory.h</name>
@@ -892,56 +894,56 @@
     <includes id="collection_8h" name="collection.h" local="no" imported="no">util/collection.h</includes>
     <includes id="concepts_8h" name="concepts.h" local="yes" imported="no">concepts.h</includes>
     <includes id="configurable_8h" name="configurable.h" local="yes" imported="no">configurable.h</includes>
-    <class kind="class">util::Factory</class>
-    <class kind="struct">util::Factory::registrar</class>
-    <namespace>util</namespace>
+    <class kind="class">Util::Factory</class>
+    <class kind="struct">Util::Factory::Registrar</class>
+    <namespace>Util</namespace>
   </compound>
   <compound kind="file">
     <name>filesystem.h</name>
     <path>/__w/libpalliate/libpalliate/src/util/</path>
     <filename>filesystem_8h.html</filename>
-    <namespace>util</namespace>
+    <namespace>Util</namespace>
     <namespace>toml</namespace>
     <member kind="function">
       <type>std::string_view</type>
       <name>remove_file_extension</name>
-      <anchorfile>namespaceutil.html</anchorfile>
-      <anchor>a0e5257e7e83846d3465993f58a9ce917</anchor>
+      <anchorfile>namespaceUtil.html</anchorfile>
+      <anchor>ad290b9d5ed4f6ff70c3e3b127c693eea</anchor>
       <arglist>(std::string_view file)</arglist>
     </member>
     <member kind="function">
       <type>std::string_view</type>
       <name>basename</name>
-      <anchorfile>namespaceutil.html</anchorfile>
-      <anchor>aee407cb6fb68403461bd3c148d52ad0f</anchor>
+      <anchorfile>namespaceUtil.html</anchorfile>
+      <anchor>a0325e369eeb6bf0865a40e9ee8c652ae</anchor>
       <arglist>(std::string_view path)</arglist>
     </member>
     <member kind="function">
       <type>std::string_view</type>
       <name>remove_basedir</name>
-      <anchorfile>namespaceutil.html</anchorfile>
-      <anchor>a9eb772a26c1ab47b1b4fa0f299634ac8</anchor>
+      <anchorfile>namespaceUtil.html</anchorfile>
+      <anchor>a5c79e5c319e1b732c8bbfcdeca215d9f</anchor>
       <arglist>(std::string_view path)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>is_file</name>
-      <anchorfile>namespaceutil.html</anchorfile>
-      <anchor>a7b51aea44ee66c8397dda19963868b97</anchor>
+      <anchorfile>namespaceUtil.html</anchorfile>
+      <anchor>ac5b5575d72c8dc5f111b9dafb179d1db</anchor>
       <arglist>(std::string const &amp;path)</arglist>
     </member>
     <member kind="function">
       <type>std::filesystem::path</type>
       <name>binary_dir</name>
-      <anchorfile>namespaceutil.html</anchorfile>
-      <anchor>ad7c9c525adbd8a47673863e9960173ed</anchor>
+      <anchorfile>namespaceUtil.html</anchorfile>
+      <anchor>aab5f449d223fc82a24b41d92a9e0c88d</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
       <type>std::filesystem::path</type>
       <name>config_dir</name>
-      <anchorfile>namespaceutil.html</anchorfile>
-      <anchor>ac7410bd8afe6cf1f78b754e443040daf</anchor>
+      <anchorfile>namespaceUtil.html</anchorfile>
+      <anchor>ab5f78c8ff5b51f0033f8d6f089ecaa34</anchor>
       <arglist>()</arglist>
     </member>
   </compound>
@@ -961,8 +963,8 @@
     <name>rect.h</name>
     <path>/__w/libpalliate/libpalliate/src/util/</path>
     <filename>rect_8h.html</filename>
-    <class kind="struct">util::rect</class>
-    <namespace>util</namespace>
+    <class kind="struct">Util::rect</class>
+    <namespace>Util</namespace>
   </compound>
   <compound kind="file">
     <name>runnable.cpp</name>
@@ -981,40 +983,40 @@
     <name>string.h</name>
     <path>/__w/libpalliate/libpalliate/src/util/</path>
     <filename>string_8h.html</filename>
-    <namespace>util</namespace>
+    <namespace>Util</namespace>
     <member kind="function">
       <type>bool</type>
       <name>iequal</name>
-      <anchorfile>namespaceutil.html</anchorfile>
-      <anchor>ae1c935c09a8ea8a65f35335ab1439772</anchor>
+      <anchorfile>namespaceUtil.html</anchorfile>
+      <anchor>ada84f8d63451d9721b5e8b2ec91708ff</anchor>
       <arglist>(std::string_view lhs, std::string_view rhs)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>is_numeric</name>
-      <anchorfile>namespaceutil.html</anchorfile>
-      <anchor>a4d65ad322ce3b71c439a6ee721f22d36</anchor>
+      <anchorfile>namespaceUtil.html</anchorfile>
+      <anchor>add34ad82c59476c21b310094f0d65df3</anchor>
       <arglist>(std::string_view str)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>to_bool</name>
-      <anchorfile>namespaceutil.html</anchorfile>
-      <anchor>af0b080debd3f1f7aca9c77c94089b62f</anchor>
+      <anchorfile>namespaceUtil.html</anchorfile>
+      <anchor>ab45808b6135b734b05faa136d26a023c</anchor>
       <arglist>(std::string_view str)</arglist>
     </member>
     <member kind="function">
       <type>int</type>
       <name>to_int</name>
-      <anchorfile>namespaceutil.html</anchorfile>
-      <anchor>a59a85cee997adfe832494c28f51fca5d</anchor>
+      <anchorfile>namespaceUtil.html</anchorfile>
+      <anchor>a5731088ff48577d9c0e610f628fd920d</anchor>
       <arglist>(std::string_view str)</arglist>
     </member>
     <member kind="function">
       <type>size_t</type>
       <name>max_key_length</name>
-      <anchorfile>namespaceutil.html</anchorfile>
-      <anchor>aa9c57792db3a2b3dccaf2194b4c7708f</anchor>
+      <anchorfile>namespaceUtil.html</anchorfile>
+      <anchor>a64a30f124c799312740f9529e59695ce</anchor>
       <arglist>(std::unordered_map&lt; K, V &gt; storage)</arglist>
     </member>
   </compound>
@@ -1022,13 +1024,13 @@
     <name>toml.h</name>
     <path>/__w/libpalliate/libpalliate/src/util/</path>
     <filename>toml_8h.html</filename>
-    <namespace>util</namespace>
-    <concept>util::toml_convertible</concept>
+    <namespace>Util</namespace>
+    <concept>Util::toml_convertible</concept>
     <member kind="function">
       <type>void</type>
       <name>merge</name>
-      <anchorfile>namespaceutil.html</anchorfile>
-      <anchor>a91ff8da411214ee3f1fdc95389ce38e6</anchor>
+      <anchorfile>namespaceUtil.html</anchorfile>
+      <anchor>aed5039a5c63d17088ee192e122bd332d</anchor>
       <arglist>(toml::table &amp;target, toml::table const &amp;source, bool overwrite=false)</arglist>
     </member>
   </compound>
@@ -1036,12 +1038,12 @@
     <name>util.h</name>
     <path>/__w/libpalliate/libpalliate/src/util/</path>
     <filename>util_8h.html</filename>
-    <namespace>util</namespace>
+    <namespace>Util</namespace>
     <member kind="function">
       <type>std::string</type>
       <name>print_binary</name>
-      <anchorfile>namespaceutil.html</anchorfile>
-      <anchor>a27808b38a1c5eb0838a765220546e51d</anchor>
+      <anchorfile>namespaceUtil.html</anchorfile>
+      <anchor>a4191f9f214259a4d7c51084412091ca0</anchor>
       <arglist>(T number, bool ommit_trailing_zero=false, bool ommit_trailing_one=false, int mask_after=-1)</arglist>
     </member>
   </compound>
@@ -1055,8 +1057,8 @@
     <name>uuid.h</name>
     <path>/__w/libpalliate/libpalliate/src/util/</path>
     <filename>uuid_8h.html</filename>
-    <class kind="struct">util::uuid</class>
-    <namespace>util</namespace>
+    <class kind="struct">Util::uuid</class>
+    <namespace>Util</namespace>
   </compound>
   <compound kind="struct">
     <name>Logging::Annotated</name>
@@ -1649,111 +1651,111 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>util::Collection</name>
-    <filename>classutil_1_1Collection.html</filename>
+    <name>Util::Collection</name>
+    <filename>classUtil_1_1Collection.html</filename>
     <templarg>class Interface</templarg>
     <templarg>typename... Args</templarg>
     <member kind="function">
       <type>auto</type>
       <name>create</name>
-      <anchorfile>classutil_1_1Collection.html</anchorfile>
-      <anchor>ab161555990d62512358adf931a22c285</anchor>
+      <anchorfile>classUtil_1_1Collection.html</anchorfile>
+      <anchor>adb417bdf104bf27fec94b4de97edae17</anchor>
       <arglist>(toml::table const &amp;node, Args &amp;&amp;... args)</arglist>
     </member>
     <member kind="function">
       <type>auto</type>
       <name>insert</name>
-      <anchorfile>classutil_1_1Collection.html</anchorfile>
-      <anchor>ab8d7d84c15a97d7b8f451fab1b7f79be</anchor>
+      <anchorfile>classUtil_1_1Collection.html</anchorfile>
+      <anchor>a8fdf1026aaaa6139c2970ade81ae3e02</anchor>
       <arglist>(toml::key const &amp;key, toml::table const &amp;config, Args &amp;&amp;... args)</arglist>
     </member>
     <member kind="function">
       <type>auto &amp;</type>
       <name>operator&lt;&lt;</name>
-      <anchorfile>classutil_1_1Collection.html</anchorfile>
-      <anchor>a80225a34509d1e49a96ad6230b5ddc94</anchor>
+      <anchorfile>classUtil_1_1Collection.html</anchorfile>
+      <anchor>a3fa660b17ce4e65d8809b7106e61c553</anchor>
       <arglist>(toml::table const &amp;node)</arglist>
     </member>
     <member kind="function">
       <type>auto</type>
       <name>operator[]</name>
-      <anchorfile>classutil_1_1Collection.html</anchorfile>
-      <anchor>af7e2d53bb701b14edc5d589e44090bc5</anchor>
+      <anchorfile>classUtil_1_1Collection.html</anchorfile>
+      <anchor>a21e76834db138ccd653ce0bdeca2feed</anchor>
       <arglist>(std::string key)</arglist>
     </member>
     <member kind="function">
       <type>auto</type>
       <name>begin</name>
-      <anchorfile>classutil_1_1Collection.html</anchorfile>
-      <anchor>a2ab8b0d695ac29d93549989b1c2a7874</anchor>
+      <anchorfile>classUtil_1_1Collection.html</anchorfile>
+      <anchor>a29fab6573b0a972628a64442b7697ede</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
       <type>auto</type>
       <name>end</name>
-      <anchorfile>classutil_1_1Collection.html</anchorfile>
-      <anchor>aa9e4907f937d3ab2923ff821b7c1b629</anchor>
+      <anchorfile>classUtil_1_1Collection.html</anchorfile>
+      <anchor>a37f313d562ebaf963b008eee3fcd4744</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>contains</name>
-      <anchorfile>classutil_1_1Collection.html</anchorfile>
-      <anchor>a2f1981f420c8a9814102dd8fe4aedab1</anchor>
+      <anchorfile>classUtil_1_1Collection.html</anchorfile>
+      <anchor>a197e0dc86da959b615ce208a50394c73</anchor>
       <arglist>(std::string const &amp;key) const</arglist>
     </member>
     <member kind="function">
       <type>auto</type>
       <name>size</name>
-      <anchorfile>classutil_1_1Collection.html</anchorfile>
-      <anchor>a8eed954f30cbbe15f90fc9aa28bbd5b5</anchor>
+      <anchorfile>classUtil_1_1Collection.html</anchorfile>
+      <anchor>acb8fb9255e8358876c05b40be3a080c1</anchor>
       <arglist>() const noexcept</arglist>
     </member>
   </compound>
   <compound kind="class">
-    <name>util::configurable</name>
-    <filename>classutil_1_1configurable.html</filename>
+    <name>Util::configurable</name>
+    <filename>classUtil_1_1configurable.html</filename>
     <templarg>typename T</templarg>
     <member kind="typedef">
       <type>T</type>
       <name>config_t</name>
-      <anchorfile>classutil_1_1configurable.html</anchorfile>
-      <anchor>acb858e7cdaecd78385d669120af839be</anchor>
+      <anchorfile>classUtil_1_1configurable.html</anchorfile>
+      <anchor>a6630f453cc75ab6dd2173a1377dde3e0</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
       <type></type>
       <name>configurable</name>
-      <anchorfile>classutil_1_1configurable.html</anchorfile>
-      <anchor>a5764fa657d7893a8717f4ef26c00a8a2</anchor>
+      <anchorfile>classUtil_1_1configurable.html</anchorfile>
+      <anchor>accb00e7430de71f0805018b1dd2f5ad4</anchor>
       <arglist>(config_t cfg)</arglist>
     </member>
     <member kind="function" virtualness="virtual">
       <type>virtual</type>
       <name>~configurable</name>
-      <anchorfile>classutil_1_1configurable.html</anchorfile>
-      <anchor>aa786294852d8ce0e37ba1a7188a5b663</anchor>
+      <anchorfile>classUtil_1_1configurable.html</anchorfile>
+      <anchor>aecffa501c54815c8b6994b8d61e8fe9a</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
       <type>auto</type>
       <name>lock</name>
-      <anchorfile>classutil_1_1configurable.html</anchorfile>
-      <anchor>a3b5774c5dd703e52991e6167274d9b80</anchor>
+      <anchorfile>classUtil_1_1configurable.html</anchorfile>
+      <anchor>a725a0c4a89544e9a90ed8dd7c1f4b651</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="variable">
       <type>config_t</type>
       <name>config</name>
-      <anchorfile>classutil_1_1configurable.html</anchorfile>
-      <anchor>a3cac56b2ee4686dc24f3b4c5e9df3554</anchor>
+      <anchorfile>classUtil_1_1configurable.html</anchorfile>
+      <anchor>a68b2e36346fcb38aafc3392e61efc27a</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable" protection="protected">
       <type>std::mutex</type>
       <name>_lock</name>
-      <anchorfile>classutil_1_1configurable.html</anchorfile>
-      <anchor>abfafa4aa15f72afabc0b63e21730087f</anchor>
+      <anchorfile>classUtil_1_1configurable.html</anchorfile>
+      <anchor>a178b3769afc70bd08236fd568f9a1a45</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -2180,37 +2182,37 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>util::Factory</name>
-    <filename>classutil_1_1Factory.html</filename>
+    <name>Util::Factory</name>
+    <filename>classUtil_1_1Factory.html</filename>
     <templarg>class base_t</templarg>
     <templarg>class... Args</templarg>
-    <class kind="struct">util::Factory::registrar</class>
+    <class kind="struct">Util::Factory::Registrar</class>
     <member kind="typedef">
-      <type>util::Collection&lt; base_t, Args... &gt;</type>
+      <type>Util::Collection&lt; base_t, Args... &gt;</type>
       <name>Collection</name>
-      <anchorfile>classutil_1_1Factory.html</anchorfile>
-      <anchor>a160f6fe28d047c2f0ffb8adf93652d02</anchor>
+      <anchorfile>classUtil_1_1Factory.html</anchorfile>
+      <anchor>ac7fced29f657a53301dcc694d7c34342</anchor>
       <arglist></arglist>
     </member>
     <member kind="function" static="yes">
       <type>static std::unique_ptr&lt; base_t &gt;</type>
       <name>make</name>
-      <anchorfile>classutil_1_1Factory.html</anchorfile>
-      <anchor>afc2aeba859345a8685e9977eb19025b4</anchor>
+      <anchorfile>classUtil_1_1Factory.html</anchorfile>
+      <anchor>aa7707c83f6f111f2c031f1164a43f2b5</anchor>
       <arglist>(toml::value const &amp;node, std::string const &amp;key, T &amp;&amp;... args)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static auto &amp;</type>
       <name>map</name>
-      <anchorfile>classutil_1_1Factory.html</anchorfile>
-      <anchor>a852f8039628bd76ecb53faf1dc99719d</anchor>
+      <anchorfile>classUtil_1_1Factory.html</anchorfile>
+      <anchor>acd7018f40568c2eb5bd240e5a87f5578</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="variable">
       <type>friend</type>
       <name>base_t</name>
-      <anchorfile>classutil_1_1Factory.html</anchorfile>
-      <anchor>a4cb6e20d49795bbe18dcfeff2a2ba418</anchor>
+      <anchorfile>classUtil_1_1Factory.html</anchorfile>
+      <anchor>a8e3829966e3b5786dc1164322fc41ee3</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -3059,81 +3061,89 @@
     </member>
   </compound>
   <compound kind="struct">
-    <name>util::rect</name>
-    <filename>structutil_1_1rect.html</filename>
+    <name>Util::rect</name>
+    <filename>structUtil_1_1rect.html</filename>
     <member kind="variable">
       <type>int</type>
       <name>x</name>
-      <anchorfile>structutil_1_1rect.html</anchorfile>
-      <anchor>a36bc32d94868906bab47000fb41a5db2</anchor>
+      <anchorfile>structUtil_1_1rect.html</anchorfile>
+      <anchor>a877c6117a6253a75afabc3e441191477</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>int</type>
       <name>y</name>
-      <anchorfile>structutil_1_1rect.html</anchorfile>
-      <anchor>a54d585c67893d42bdf70dd994a3278bb</anchor>
+      <anchorfile>structUtil_1_1rect.html</anchorfile>
+      <anchor>affcf0ab841817677d854a8b31ee4d19d</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>unsigned</type>
       <name>width</name>
-      <anchorfile>structutil_1_1rect.html</anchorfile>
-      <anchor>adf21eb2e93d2edc96c80d29f796d5491</anchor>
+      <anchorfile>structUtil_1_1rect.html</anchorfile>
+      <anchor>a6ea348a91c6eef4a827c851ac21605e3</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>unsigned</type>
       <name>height</name>
-      <anchorfile>structutil_1_1rect.html</anchorfile>
-      <anchor>af5be8acb57bfc534449d06d434f359c6</anchor>
+      <anchorfile>structUtil_1_1rect.html</anchorfile>
+      <anchor>a2b5db49a797f69b07437d45dbdf06244</anchor>
       <arglist></arglist>
     </member>
   </compound>
   <compound kind="struct">
-    <name>util::Factory::registrar</name>
-    <filename>structutil_1_1Factory_1_1registrar.html</filename>
+    <name>Util::Factory::Registrar</name>
+    <filename>structUtil_1_1Factory_1_1Registrar.html</filename>
     <templarg>class T</templarg>
     <templarg>class Config</templarg>
     <base>configurable&lt; Config &gt;</base>
     <member kind="function" virtualness="virtual">
       <type>virtual</type>
-      <name>~registrar</name>
-      <anchorfile>structutil_1_1Factory_1_1registrar.html</anchorfile>
-      <anchor>aaa48f233eb0d7e92c7eb47dccb25ec89</anchor>
+      <name>~Registrar</name>
+      <anchorfile>structUtil_1_1Factory_1_1Registrar.html</anchorfile>
+      <anchor>a1ff9d1766c80ddf37b6383eece6710ef</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static bool</type>
       <name>register_type</name>
-      <anchorfile>structutil_1_1Factory_1_1registrar.html</anchorfile>
-      <anchor>a872939412eb732519186d4c971a2d6ca</anchor>
+      <anchorfile>structUtil_1_1Factory_1_1Registrar.html</anchorfile>
+      <anchor>a14921bd3d7e2826f1d7163799dfc7e23</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="variable">
       <type>friend</type>
       <name>T</name>
-      <anchorfile>structutil_1_1Factory_1_1registrar.html</anchorfile>
-      <anchor>a9c0eb38a2d03f86edb63b6ecc286d7c0</anchor>
+      <anchorfile>structUtil_1_1Factory_1_1Registrar.html</anchorfile>
+      <anchor>ab61ad7063b1c9ed49dde878416c34d84</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable" static="yes">
       <type>static bool</type>
       <name>registered</name>
-      <anchorfile>structutil_1_1Factory_1_1registrar.html</anchorfile>
-      <anchor>a51a29016f020525a742cacba1ea0ed6d</anchor>
+      <anchorfile>structUtil_1_1Factory_1_1Registrar.html</anchorfile>
+      <anchor>a78f9bdbaa8818e52ae73cf5fdca475c1</anchor>
       <arglist></arglist>
     </member>
   </compound>
   <compound kind="class">
     <name>UI::Renderer</name>
     <filename>classUI_1_1Renderer.html</filename>
+    <base>Factory&lt; Renderer &gt;</base>
+    <member kind="function">
+      <type></type>
+      <name>Renderer</name>
+      <anchorfile>classUI_1_1Renderer.html</anchorfile>
+      <anchor>ab024f4e22ef9f3bcefd2acc84c0f90c5</anchor>
+      <arglist>(Key)</arglist>
+    </member>
     <member kind="function" virtualness="virtual">
       <type>virtual</type>
       <name>~Renderer</name>
       <anchorfile>classUI_1_1Renderer.html</anchorfile>
-      <anchor>a1ed8a21ff4f330d28e2750daa0b7621b</anchor>
-      <arglist>()=default</arglist>
+      <anchor>aa03b137cebd19f11a9e31bda04571a51</anchor>
+      <arglist>()</arglist>
     </member>
     <member kind="function" virtualness="pure">
       <type>virtual bool</type>
@@ -3541,12 +3551,20 @@
   <compound kind="class">
     <name>UI::Tray</name>
     <filename>classUI_1_1Tray.html</filename>
+    <base>Factory&lt; Tray &gt;</base>
+    <member kind="function">
+      <type></type>
+      <name>Tray</name>
+      <anchorfile>classUI_1_1Tray.html</anchorfile>
+      <anchor>a451c4e47115ab11b1a4789b5b75f87b0</anchor>
+      <arglist>(Key)</arglist>
+    </member>
     <member kind="function" virtualness="virtual">
       <type>virtual</type>
       <name>~Tray</name>
       <anchorfile>classUI_1_1Tray.html</anchorfile>
-      <anchor>a18ff33bf1798f5cc74e315b207088643</anchor>
-      <arglist>()=default</arglist>
+      <anchor>a50e3d227368618561c4ca2adb9dfafa3</anchor>
+      <arglist>()</arglist>
     </member>
     <member kind="function" virtualness="pure">
       <type>virtual bool</type>
@@ -3557,69 +3575,69 @@
     </member>
   </compound>
   <compound kind="struct">
-    <name>util::uuid</name>
-    <filename>structutil_1_1uuid.html</filename>
+    <name>Util::uuid</name>
+    <filename>structUtil_1_1uuid.html</filename>
     <member kind="function">
       <type></type>
       <name>uuid</name>
-      <anchorfile>structutil_1_1uuid.html</anchorfile>
+      <anchorfile>structUtil_1_1uuid.html</anchorfile>
       <anchor>ad00a1793fedd71952899ec73ef4784fc</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
       <type></type>
       <name>uuid</name>
-      <anchorfile>structutil_1_1uuid.html</anchorfile>
-      <anchor>a4a9c1598130051da891b001ef9a7cdd4</anchor>
+      <anchorfile>structUtil_1_1uuid.html</anchorfile>
+      <anchor>a7e436aab85bc7db32e25f9dc3e81e796</anchor>
       <arglist>(uint64_t v)</arglist>
     </member>
     <member kind="function">
       <type></type>
       <name>uuid</name>
-      <anchorfile>structutil_1_1uuid.html</anchorfile>
-      <anchor>ad7e711b5568dce48380ac0d387cbdc6c</anchor>
+      <anchorfile>structUtil_1_1uuid.html</anchorfile>
+      <anchor>a61021079556534c416a7ec01d61014b3</anchor>
       <arglist>(const char v[])</arglist>
     </member>
     <member kind="function">
       <type></type>
       <name>uuid</name>
-      <anchorfile>structutil_1_1uuid.html</anchorfile>
-      <anchor>ae8cd23caf7554e2c91ce28e5cb6dd97b</anchor>
+      <anchorfile>structUtil_1_1uuid.html</anchorfile>
+      <anchor>ac93f96c849d7ba94fa36e3c90362a968</anchor>
       <arglist>(std::string v)</arglist>
     </member>
     <member kind="function">
       <type></type>
       <name>uuid</name>
-      <anchorfile>structutil_1_1uuid.html</anchorfile>
-      <anchor>a1b359473e6c3a5d1b502e069b1e68b2d</anchor>
+      <anchorfile>structUtil_1_1uuid.html</anchorfile>
+      <anchor>a8415cfd1fb32cc05f7e12ecdb79eae3b</anchor>
       <arglist>(const toml::value &amp;v)</arglist>
     </member>
     <member kind="function">
       <type>std::string</type>
       <name>to_str</name>
-      <anchorfile>structutil_1_1uuid.html</anchorfile>
+      <anchorfile>structUtil_1_1uuid.html</anchorfile>
       <anchor>a4ebe9897d9cfcd9586367ffdf78475e1</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
       <type>toml::basic_value&lt; toml::preserve_comments &gt;</type>
       <name>into_toml</name>
-      <anchorfile>structutil_1_1uuid.html</anchorfile>
+      <anchorfile>structUtil_1_1uuid.html</anchorfile>
       <anchor>a133e0a5c1ad0f0819ee5a73d42085af2</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="variable">
       <type>uint64_t</type>
       <name>value</name>
-      <anchorfile>structutil_1_1uuid.html</anchorfile>
-      <anchor>a68346a1e70be6b0fbe1155dad2f927cb</anchor>
+      <anchorfile>structUtil_1_1uuid.html</anchorfile>
+      <anchor>a94634b56e6e6e86aeceb5bf1fc001e71</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable" static="yes">
       <type>static constexpr char</type>
       <name>delimeter</name>
-      <anchorfile>structutil_1_1uuid.html</anchorfile>
-      <anchor>a25bd0ca81702648da80e0aee3ee15a5a</anchor>
+      <anchorfile>structUtil_1_1uuid.html</anchorfile>
+      <anchor>aeb709aa5b45e45a8604efdcbafc9fa69</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -3786,16 +3804,16 @@
     </member>
   </compound>
   <compound kind="concept">
-    <name>util::is_factory</name>
-    <filename>conceptutil_1_1is__factory.html</filename>
+    <name>Util::is_factory</name>
+    <filename>conceptUtil_1_1is__factory.html</filename>
   </compound>
   <compound kind="concept">
-    <name>util::is_named</name>
-    <filename>conceptutil_1_1is__named.html</filename>
+    <name>Util::is_named</name>
+    <filename>conceptUtil_1_1is__named.html</filename>
   </compound>
   <compound kind="concept">
-    <name>util::toml_convertible</name>
-    <filename>conceptutil_1_1toml__convertible.html</filename>
+    <name>Util::toml_convertible</name>
+    <filename>conceptUtil_1_1toml__convertible.html</filename>
   </compound>
   <compound kind="namespace">
     <name>Authentication</name>
@@ -4002,140 +4020,140 @@
     <class kind="class">UI::Window</class>
   </compound>
   <compound kind="namespace">
-    <name>util</name>
-    <filename>namespaceutil.html</filename>
-    <class kind="class">util::Collection</class>
-    <class kind="class">util::configurable</class>
-    <class kind="class">util::Factory</class>
-    <class kind="struct">util::rect</class>
-    <class kind="struct">util::uuid</class>
-    <concept>util::is_factory</concept>
-    <concept>util::is_named</concept>
-    <concept>util::toml_convertible</concept>
+    <name>Util</name>
+    <filename>namespaceUtil.html</filename>
+    <class kind="class">Util::Collection</class>
+    <class kind="class">Util::configurable</class>
+    <class kind="class">Util::Factory</class>
+    <class kind="struct">Util::rect</class>
+    <class kind="struct">Util::uuid</class>
+    <concept>Util::is_factory</concept>
+    <concept>Util::is_named</concept>
+    <concept>Util::toml_convertible</concept>
     <member kind="function">
       <type>uint64_t</type>
       <name>timestamp</name>
-      <anchorfile>namespaceutil.html</anchorfile>
-      <anchor>a211993f85d0b44090dd95e4a7b551545</anchor>
+      <anchorfile>namespaceUtil.html</anchorfile>
+      <anchor>a2e6d4760f1370764948fe6ad1c38dc00</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>sleep_for</name>
-      <anchorfile>namespaceutil.html</anchorfile>
-      <anchor>a28ff4dd2371068677e53af40f3d1be5b</anchor>
+      <anchorfile>namespaceUtil.html</anchorfile>
+      <anchor>a9a407cb32ff754596b25a37b3b211f05</anchor>
       <arglist>(auto duration)</arglist>
     </member>
     <member kind="function">
       <type>T</type>
       <name>wait</name>
-      <anchorfile>namespaceutil.html</anchorfile>
-      <anchor>a5171aaaa27dfde89ecb0319b157874fa</anchor>
+      <anchorfile>namespaceUtil.html</anchorfile>
+      <anchor>ab0227141c18bf2e63476d98b3488566a</anchor>
       <arglist>(std::atomic&lt; T &gt; *p, T value)</arglist>
     </member>
     <member kind="function">
       <type>T</type>
       <name>wait_undesired</name>
-      <anchorfile>namespaceutil.html</anchorfile>
-      <anchor>a6945bf8bbdf0205f8a0803e63cda042e</anchor>
+      <anchorfile>namespaceUtil.html</anchorfile>
+      <anchor>a767caa2db75ed3f78720b77934709db0</anchor>
       <arglist>(std::atomic&lt; T &gt; *p, T undesired)</arglist>
     </member>
     <member kind="function">
       <type>T</type>
       <name>wait_desired</name>
-      <anchorfile>namespaceutil.html</anchorfile>
-      <anchor>a9eba3c287782cbce127626d9ad74912f</anchor>
+      <anchorfile>namespaceUtil.html</anchorfile>
+      <anchor>a763f052563ce589c6bab769e1f8106bd</anchor>
       <arglist>(std::atomic&lt; T &gt; *p, T desired)</arglist>
     </member>
     <member kind="function">
       <type>std::string_view</type>
       <name>remove_file_extension</name>
-      <anchorfile>namespaceutil.html</anchorfile>
-      <anchor>a0e5257e7e83846d3465993f58a9ce917</anchor>
+      <anchorfile>namespaceUtil.html</anchorfile>
+      <anchor>ad290b9d5ed4f6ff70c3e3b127c693eea</anchor>
       <arglist>(std::string_view file)</arglist>
     </member>
     <member kind="function">
       <type>std::string_view</type>
       <name>basename</name>
-      <anchorfile>namespaceutil.html</anchorfile>
-      <anchor>aee407cb6fb68403461bd3c148d52ad0f</anchor>
+      <anchorfile>namespaceUtil.html</anchorfile>
+      <anchor>a0325e369eeb6bf0865a40e9ee8c652ae</anchor>
       <arglist>(std::string_view path)</arglist>
     </member>
     <member kind="function">
       <type>std::string_view</type>
       <name>remove_basedir</name>
-      <anchorfile>namespaceutil.html</anchorfile>
-      <anchor>a9eb772a26c1ab47b1b4fa0f299634ac8</anchor>
+      <anchorfile>namespaceUtil.html</anchorfile>
+      <anchor>a5c79e5c319e1b732c8bbfcdeca215d9f</anchor>
       <arglist>(std::string_view path)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>is_file</name>
-      <anchorfile>namespaceutil.html</anchorfile>
-      <anchor>a7b51aea44ee66c8397dda19963868b97</anchor>
+      <anchorfile>namespaceUtil.html</anchorfile>
+      <anchor>ac5b5575d72c8dc5f111b9dafb179d1db</anchor>
       <arglist>(std::string const &amp;path)</arglist>
     </member>
     <member kind="function">
       <type>std::filesystem::path</type>
       <name>binary_dir</name>
-      <anchorfile>namespaceutil.html</anchorfile>
-      <anchor>ad7c9c525adbd8a47673863e9960173ed</anchor>
+      <anchorfile>namespaceUtil.html</anchorfile>
+      <anchor>aab5f449d223fc82a24b41d92a9e0c88d</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
       <type>std::filesystem::path</type>
       <name>config_dir</name>
-      <anchorfile>namespaceutil.html</anchorfile>
-      <anchor>ac7410bd8afe6cf1f78b754e443040daf</anchor>
+      <anchorfile>namespaceUtil.html</anchorfile>
+      <anchor>ab5f78c8ff5b51f0033f8d6f089ecaa34</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>iequal</name>
-      <anchorfile>namespaceutil.html</anchorfile>
-      <anchor>ae1c935c09a8ea8a65f35335ab1439772</anchor>
+      <anchorfile>namespaceUtil.html</anchorfile>
+      <anchor>ada84f8d63451d9721b5e8b2ec91708ff</anchor>
       <arglist>(std::string_view lhs, std::string_view rhs)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>is_numeric</name>
-      <anchorfile>namespaceutil.html</anchorfile>
-      <anchor>a4d65ad322ce3b71c439a6ee721f22d36</anchor>
+      <anchorfile>namespaceUtil.html</anchorfile>
+      <anchor>add34ad82c59476c21b310094f0d65df3</anchor>
       <arglist>(std::string_view str)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>to_bool</name>
-      <anchorfile>namespaceutil.html</anchorfile>
-      <anchor>af0b080debd3f1f7aca9c77c94089b62f</anchor>
+      <anchorfile>namespaceUtil.html</anchorfile>
+      <anchor>ab45808b6135b734b05faa136d26a023c</anchor>
       <arglist>(std::string_view str)</arglist>
     </member>
     <member kind="function">
       <type>int</type>
       <name>to_int</name>
-      <anchorfile>namespaceutil.html</anchorfile>
-      <anchor>a59a85cee997adfe832494c28f51fca5d</anchor>
+      <anchorfile>namespaceUtil.html</anchorfile>
+      <anchor>a5731088ff48577d9c0e610f628fd920d</anchor>
       <arglist>(std::string_view str)</arglist>
     </member>
     <member kind="function">
       <type>size_t</type>
       <name>max_key_length</name>
-      <anchorfile>namespaceutil.html</anchorfile>
-      <anchor>aa9c57792db3a2b3dccaf2194b4c7708f</anchor>
+      <anchorfile>namespaceUtil.html</anchorfile>
+      <anchor>a64a30f124c799312740f9529e59695ce</anchor>
       <arglist>(std::unordered_map&lt; K, V &gt; storage)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>merge</name>
-      <anchorfile>namespaceutil.html</anchorfile>
-      <anchor>a91ff8da411214ee3f1fdc95389ce38e6</anchor>
+      <anchorfile>namespaceUtil.html</anchorfile>
+      <anchor>aed5039a5c63d17088ee192e122bd332d</anchor>
       <arglist>(toml::table &amp;target, toml::table const &amp;source, bool overwrite=false)</arglist>
     </member>
     <member kind="function">
       <type>std::string</type>
       <name>print_binary</name>
-      <anchorfile>namespaceutil.html</anchorfile>
-      <anchor>a27808b38a1c5eb0838a765220546e51d</anchor>
+      <anchorfile>namespaceUtil.html</anchorfile>
+      <anchor>a4191f9f214259a4d7c51084412091ca0</anchor>
       <arglist>(T number, bool ommit_trailing_zero=false, bool ommit_trailing_one=false, int mask_after=-1)</arglist>
     </member>
   </compound>

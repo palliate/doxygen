@@ -1,5 +1,5 @@
 var toml_8h =
 [
-    [ "util::toml_convertible", "conceptutil_1_1toml__convertible.html", null ],
-    [ "merge", "toml_8h.html#a91ff8da411214ee3f1fdc95389ce38e6", null ]
+    [ "Util::toml_convertible", "conceptUtil_1_1toml__convertible.html", null ],
+    [ "merge", "toml_8h.html#aed5039a5c63d17088ee192e122bd332d", null ]
 ];

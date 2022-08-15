@@ -13,14 +13,14 @@ var hierarchy =
       [ "Authentication::Token", "classAuthentication_1_1Token.html", null ]
     ] ],
     [ "base_t", null, [
-      [ "util::Factory< base_t, Args >::registrar< T, Config >", "structutil_1_1Factory_1_1registrar.html", null ]
+      [ "Util::Factory< base_t, Args >::Registrar< T, Config >", "structUtil_1_1Factory_1_1Registrar.html", null ]
     ] ],
-    [ "util::Collection< Interface, Args >", "classutil_1_1Collection.html", null ],
-    [ "util::configurable< T >", "classutil_1_1configurable.html", null ],
-    [ "util::configurable< Config >", "classutil_1_1configurable.html", [
-      [ "util::Factory< base_t, Args >::registrar< T, Config >", "structutil_1_1Factory_1_1registrar.html", null ]
+    [ "Util::Collection< Interface, Args >", "classUtil_1_1Collection.html", null ],
+    [ "Util::configurable< T >", "classUtil_1_1configurable.html", null ],
+    [ "Util::configurable< Config >", "classUtil_1_1configurable.html", [
+      [ "Util::Factory< base_t, Args >::Registrar< T, Config >", "structUtil_1_1Factory_1_1Registrar.html", null ]
     ] ],
-    [ "util::configurable< config::UI >", "classutil_1_1configurable.html", [
+    [ "Util::configurable< config::UI >", "classUtil_1_1configurable.html", [
       [ "UI::Control", "classUI_1_1Control.html", null ]
     ] ],
     [ "RPC::Context", "structRPC_1_1Context.html", null ],
@@ -41,15 +41,21 @@ var hierarchy =
     [ "kj::TaskSet::ErrorHandler", null, [
       [ "RPC::ErrorHandler", "structRPC_1_1ErrorHandler.html", null ]
     ] ],
-    [ "util::Factory< base_t, Args >", "classutil_1_1Factory.html", null ],
-    [ "util::Factory< Client >", "classutil_1_1Factory.html", [
+    [ "Util::Factory< base_t, Args >", "classUtil_1_1Factory.html", null ],
+    [ "Util::Factory< Client >", "classUtil_1_1Factory.html", [
       [ "RPC::Client", "classRPC_1_1Client.html", null ]
     ] ],
-    [ "util::Factory< Endpoint >", "classutil_1_1Factory.html", [
+    [ "Util::Factory< Endpoint >", "classUtil_1_1Factory.html", [
       [ "Logging::Endpoint", "classLogging_1_1Endpoint.html", null ]
     ] ],
-    [ "util::Factory< Server, capnp::Capability::Client, Authentication::Authenticator * >", "classutil_1_1Factory.html", [
+    [ "Util::Factory< Renderer >", "classUtil_1_1Factory.html", [
+      [ "UI::Renderer", "classUI_1_1Renderer.html", null ]
+    ] ],
+    [ "Util::Factory< Server, capnp::Capability::Client, Authentication::Authenticator * >", "classUtil_1_1Factory.html", [
       [ "RPC::Server", "classRPC_1_1Server.html", null ]
+    ] ],
+    [ "Util::Factory< Tray >", "classUtil_1_1Factory.html", [
+      [ "UI::Tray", "classUI_1_1Tray.html", null ]
     ] ],
     [ "thread::info", "structthread_1_1info.html", null ],
     [ "RPC::IO", "structRPC_1_1IO.html", null ],
@@ -66,14 +72,13 @@ var hierarchy =
     [ "atomic_stack< T >::node", "structatomic__stack_1_1node.html", null ],
     [ "patricia", "classpatricia.html", null ],
     [ "plugin", "classplugin.html", null ],
-    [ "util::rect", "structutil_1_1rect.html", null ],
-    [ "RPC::Client::registrar", null, [
+    [ "Util::rect", "structUtil_1_1rect.html", null ],
+    [ "RPC::Client::Registrar", null, [
       [ "RPC::TCP::Client", "classRPC_1_1TCP_1_1Client.html", null ]
     ] ],
-    [ "RPC::Server::registrar", null, [
+    [ "RPC::Server::Registrar", null, [
       [ "RPC::TCP::Server", "classRPC_1_1TCP_1_1Server.html", null ]
     ] ],
-    [ "UI::Renderer", "classUI_1_1Renderer.html", null ],
     [ "runnable", "classrunnable.html", [
       [ "RPC::Server", "classRPC_1_1Server.html", null ],
       [ "UI::Control", "classUI_1_1Control.html", null ],
@@ -90,7 +95,6 @@ var hierarchy =
       [ "UI::Control", "classUI_1_1Control.html", null ]
     ] ],
     [ "Servers", "classServers.html", null ],
-    [ "UI::Tray", "classUI_1_1Tray.html", null ],
-    [ "util::uuid", "structutil_1_1uuid.html", null ],
+    [ "Util::uuid", "structUtil_1_1uuid.html", null ],
     [ "UI::Window", "classUI_1_1Window.html", null ]
 ];

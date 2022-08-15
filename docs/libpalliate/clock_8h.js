@@ -1,8 +1,8 @@
 var clock_8h =
 [
-    [ "sleep_for", "clock_8h.html#a28ff4dd2371068677e53af40f3d1be5b", null ],
-    [ "timestamp", "clock_8h.html#a211993f85d0b44090dd95e4a7b551545", null ],
-    [ "wait", "clock_8h.html#a5171aaaa27dfde89ecb0319b157874fa", null ],
-    [ "wait_desired", "clock_8h.html#a9eba3c287782cbce127626d9ad74912f", null ],
-    [ "wait_undesired", "clock_8h.html#a6945bf8bbdf0205f8a0803e63cda042e", null ]
+    [ "sleep_for", "clock_8h.html#a9a407cb32ff754596b25a37b3b211f05", null ],
+    [ "timestamp", "clock_8h.html#a2e6d4760f1370764948fe6ad1c38dc00", null ],
+    [ "wait", "clock_8h.html#ab0227141c18bf2e63476d98b3488566a", null ],
+    [ "wait_desired", "clock_8h.html#a763f052563ce589c6bab769e1f8106bd", null ],
+    [ "wait_undesired", "clock_8h.html#a767caa2db75ed3f78720b77934709db0", null ]
 ];

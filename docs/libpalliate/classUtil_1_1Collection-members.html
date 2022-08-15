@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.4"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>libpalliate: util::toml_convertible Concept Reference</title>
+<title>libpalliate: Member List</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -73,7 +73,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('conceptutil_1_1toml__convertible.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('classUtil_1_1Collection.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -92,25 +92,26 @@ $(document).ready(function(){initNavTree('conceptutil_1_1toml__convertible.html'
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">util::toml_convertible Concept Reference</div></div>
+  <div class="headertitle"><div class="title">Util::Collection&lt; Interface, Args &gt; Member List</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;toml.h&gt;</code></p>
-<h2 class="groupheader">Concept definition</h2>
-<div class="fragment"><div class="line"><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
-<div class="line"><span class="keyword">concept </span><a class="code hl_concept" href="conceptutil_1_1toml__convertible.html">util::toml_convertible</a> =  <span class="keyword">requires</span>(T t) {</div>
-<div class="line">  { toml::find&lt;T&gt;(toml::value(), toml::key()) } -&gt; std::same_as&lt;T&gt;;</div>
-<div class="line">  { t.into_toml() } -&gt; std::convertible_to&lt;toml::value&gt;;</div>
-<div class="line">}</div>
-<div class="ttc" id="aconceptutil_1_1toml__convertible_html"><div class="ttname"><a href="conceptutil_1_1toml__convertible.html">util::toml_convertible</a></div><div class="ttdef"><b>Definition:</b> toml.h:7</div></div>
-</div><!-- fragment --></div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="classUtil_1_1Collection.html">Util::Collection&lt; Interface, Args &gt;</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="classUtil_1_1Collection.html#a29fab6573b0a972628a64442b7697ede">begin</a>()</td><td class="entry"><a class="el" href="classUtil_1_1Collection.html">Util::Collection&lt; Interface, Args &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classUtil_1_1Collection.html#a197e0dc86da959b615ce208a50394c73">contains</a>(std::string const &amp;key) const</td><td class="entry"><a class="el" href="classUtil_1_1Collection.html">Util::Collection&lt; Interface, Args &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classUtil_1_1Collection.html#adb417bdf104bf27fec94b4de97edae17">create</a>(toml::table const &amp;node, Args &amp;&amp;... args)</td><td class="entry"><a class="el" href="classUtil_1_1Collection.html">Util::Collection&lt; Interface, Args &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classUtil_1_1Collection.html#a37f313d562ebaf963b008eee3fcd4744">end</a>()</td><td class="entry"><a class="el" href="classUtil_1_1Collection.html">Util::Collection&lt; Interface, Args &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classUtil_1_1Collection.html#a8fdf1026aaaa6139c2970ade81ae3e02">insert</a>(toml::key const &amp;key, toml::table const &amp;config, Args &amp;&amp;... args)</td><td class="entry"><a class="el" href="classUtil_1_1Collection.html">Util::Collection&lt; Interface, Args &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classUtil_1_1Collection.html#a3fa660b17ce4e65d8809b7106e61c553">operator&lt;&lt;</a>(toml::table const &amp;node)</td><td class="entry"><a class="el" href="classUtil_1_1Collection.html">Util::Collection&lt; Interface, Args &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classUtil_1_1Collection.html#a21e76834db138ccd653ce0bdeca2feed">operator[]</a>(std::string key)</td><td class="entry"><a class="el" href="classUtil_1_1Collection.html">Util::Collection&lt; Interface, Args &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classUtil_1_1Collection.html#acb8fb9255e8358876c05b40be3a080c1">size</a>() const noexcept</td><td class="entry"><a class="el" href="classUtil_1_1Collection.html">Util::Collection&lt; Interface, Args &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.9.3-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespaceutil.html">util</a></li><li class="navelem"><a class="el" href="conceptutil_1_1toml__convertible.html">toml_convertible</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4, using the excellent <a href="https://github.com/jothepro/doxygen-awesome-css">Doxygen Awesome</a> Theme</li>
   </ul>
 </div>

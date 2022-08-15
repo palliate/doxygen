@@ -25,9 +25,9 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="classutil_1_1configurable.html" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classUtil_1_1configurable.html" target="_top" xlink:title=" ">
 <polygon fill="none" stroke="black" points="0,-133 0,-234 104,-234 104,-133 0,-133"/>
-<text text-anchor="start" x="8" y="-222" font-family="Helvetica,sans-Serif" font-size="10.00">util::configurable</text>
+<text text-anchor="start" x="8" y="-222" font-family="Helvetica,sans-Serif" font-size="10.00">Util::configurable</text>
 <text text-anchor="middle" x="52" y="-211" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; config::UI &gt;</text>
 <polyline fill="none" stroke="black" points="0,-204 104,-204 "/>
 <text text-anchor="start" x="8" y="-192" font-family="Helvetica,sans-Serif" font-size="10.00">+ config</text>

@@ -11,5 +11,5 @@ var namespaces_dup =
     [ "toml", "namespacetoml.html", null ],
     [ "transport", "namespacetransport.html", "namespacetransport" ],
     [ "UI", "namespaceUI.html", "namespaceUI" ],
-    [ "util", "namespaceutil.html", "namespaceutil" ]
+    [ "Util", "namespaceUtil.html", "namespaceUtil" ]
 ];

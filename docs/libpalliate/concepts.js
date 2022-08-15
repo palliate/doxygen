@@ -1,8 +1,8 @@
 var concepts =
 [
-    [ "util", "namespaceutil.html", [
-      [ "is_factory", "conceptutil_1_1is__factory.html", null ],
-      [ "is_named", "conceptutil_1_1is__named.html", null ],
-      [ "toml_convertible", "conceptutil_1_1toml__convertible.html", null ]
+    [ "Util", "namespaceUtil.html", [
+      [ "is_factory", "conceptUtil_1_1is__factory.html", null ],
+      [ "is_named", "conceptUtil_1_1is__named.html", null ],
+      [ "toml_convertible", "conceptUtil_1_1toml__convertible.html", null ]
     ] ]
 ];

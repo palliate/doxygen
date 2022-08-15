@@ -48,12 +48,12 @@ var annotated_dup =
       [ "Tray", "classUI_1_1Tray.html", "classUI_1_1Tray" ],
       [ "Window", "classUI_1_1Window.html", "classUI_1_1Window" ]
     ] ],
-    [ "util", "namespaceutil.html", [
-      [ "Collection", "classutil_1_1Collection.html", "classutil_1_1Collection" ],
-      [ "configurable", "classutil_1_1configurable.html", "classutil_1_1configurable" ],
-      [ "Factory", "classutil_1_1Factory.html", "classutil_1_1Factory" ],
-      [ "rect", "structutil_1_1rect.html", "structutil_1_1rect" ],
-      [ "uuid", "structutil_1_1uuid.html", "structutil_1_1uuid" ]
+    [ "Util", "namespaceUtil.html", [
+      [ "Collection", "classUtil_1_1Collection.html", "classUtil_1_1Collection" ],
+      [ "configurable", "classUtil_1_1configurable.html", "classUtil_1_1configurable" ],
+      [ "Factory", "classUtil_1_1Factory.html", "classUtil_1_1Factory" ],
+      [ "rect", "structUtil_1_1rect.html", "structUtil_1_1rect" ],
+      [ "uuid", "structUtil_1_1uuid.html", "structUtil_1_1uuid" ]
     ] ],
     [ "atomic_cr", "classatomic__cr.html", "classatomic__cr" ],
     [ "atomic_mpsc", "classatomic__mpsc.html", "classatomic__mpsc" ],

@@ -1,4 +1,4 @@
 var uuid_8h =
 [
-    [ "util::uuid", "structutil_1_1uuid.html", "structutil_1_1uuid" ]
+    [ "Util::uuid", "structUtil_1_1uuid.html", "structUtil_1_1uuid" ]
 ];
