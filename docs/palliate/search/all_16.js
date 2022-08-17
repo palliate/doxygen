@@ -5,7 +5,7 @@ var searchData=
   ['plugin_2eh_2',['plugin.h',['../wm_2plugin_8h.html',1,'']]],
   ['wait_3',['wait',['../../libpalliate/namespaceUtil.html#ab0227141c18bf2e63476d98b3488566a',1,'Util']]],
   ['wait_5fdesired_4',['wait_desired',['../../libpalliate/namespaceUtil.html#a763f052563ce589c6bab769e1f8106bd',1,'Util']]],
-  ['wait_5fscope_5',['wait_scope',['../../libpalliate/classRPC_1_1Client.html#a459fa7f7f66445ffaf7d585df7545cea',1,'RPC::Client::wait_scope()'],['../../libpalliate/classRPC_1_1TCP_1_1Client.html#a8a4b21fc1782045e109cc3f184b4df15',1,'RPC::TCP::Client::wait_scope()']]],
+  ['wait_5fscope_5',['wait_scope',['../../libpalliate/classRPC_1_1TCP_1_1Client.html#a8a4b21fc1782045e109cc3f184b4df15',1,'RPC::TCP::Client::wait_scope()'],['../../libpalliate/structThreading_1_1Worker.html#a2624928cfed0a93b743c6093213ecc49',1,'Threading::Worker::wait_scope()'],['../../libpalliate/classRPC_1_1Client.html#a459fa7f7f66445ffaf7d585df7545cea',1,'RPC::Client::wait_scope()']]],
   ['wait_5fundesired_6',['wait_undesired',['../../libpalliate/namespaceUtil.html#a767caa2db75ed3f78720b77934709db0',1,'Util']]],
   ['waive_7',['WAIVE',['../../libpalliate/namespacememory.html#a5489f7fba409dae5923725a7831d5026a26ac6ccdbd6eb122a03e0fdadf2a8b33',1,'memory']]],
   ['warning_8',['warning',['../../libpalliate/namespaceLogging.html#aa0aabbf5046236bd92698ad87c9ab55aaa9abee4c593dd6e8320402e6433b3369',1,'Logging::warning()'],['../../libpalliate/classLogging_1_1Logger.html#a17af6bb253804eb741defad2a4c0bcd2',1,'Logging::Logger::warning()']]],
@@ -16,5 +16,10 @@ var searchData=
   ['window_2eh_13',['window.h',['../../libpalliate/window_8h.html',1,'(Global Namespace)'],['../window_8h.html',1,'(Global Namespace)']]],
   ['windowhandle_14',['WindowHandle',['../classUI_1_1GL_1_1Renderer.html#a6f135e8240dc2fc64960d0781635613a',1,'UI::GL::Renderer']]],
   ['wireframe_15',['wireframe',['../../libpalliate/classUI_1_1Window.html#a7a873833a94eb6e82ac7ace84ebac03e',1,'UI::Window::wireframe()'],['../classUI_1_1GL_1_1Window.html#a44dc8630906dda4a59d125bf5ef56b5e',1,'UI::GL::Window::wireframe()']]],
-  ['wm_16',['wm',['../classwm.html#a62fa9d948c1ab5a7f6bce05141e2b7ad',1,'wm::wm()'],['../classwm.html',1,'wm']]]
+  ['wm_16',['wm',['../classwm.html#a62fa9d948c1ab5a7f6bce05141e2b7ad',1,'wm::wm()'],['../classwm.html',1,'wm']]],
+  ['worker_17',['Worker',['../../libpalliate/structThreading_1_1Worker.html',1,'Threading']]],
+  ['worker_18',['worker',['../../libpalliate/structThreading_1_1Runnable.html#a8241520128ff3cd12e6eadc219b981e9',1,'Threading::Runnable']]],
+  ['worker_19',['Worker',['../../libpalliate/structThreading_1_1Worker.html#a3754817df06ffe220f7f0d903c78ccac',1,'Threading::Worker']]],
+  ['worker_2ecpp_20',['worker.cpp',['../../libpalliate/worker_8cpp.html',1,'']]],
+  ['worker_2eh_21',['worker.h',['../../libpalliate/worker_8h.html',1,'']]]
 ];

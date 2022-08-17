@@ -19,6 +19,5 @@ var searchData=
   ['rpc_2ftcp_2fclient_2eh_16',['rpc/tcp/client.h',['../../libpalliate/rpc_2tcp_2client_8h.html',1,'']]],
   ['rpc_2ftcp_2fserver_2ecpp_17',['rpc/tcp/server.cpp',['../../libpalliate/rpc_2tcp_2server_8cpp.html',1,'']]],
   ['rpc_2ftcp_2fserver_2eh_18',['rpc/tcp/server.h',['../../libpalliate/rpc_2tcp_2server_8h.html',1,'']]],
-  ['runnable_2ecpp_19',['runnable.cpp',['../../libpalliate/runnable_8cpp.html',1,'']]],
-  ['runnable_2eh_20',['runnable.h',['../../libpalliate/runnable_8h.html',1,'']]]
+  ['runnable_2ecpp_19',['runnable.cpp',['../../libpalliate/runnable_8cpp.html',1,'']]]
 ];

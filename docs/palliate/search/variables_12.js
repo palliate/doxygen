@@ -10,7 +10,5 @@ var searchData=
   ['texture_5fheight_7',['texture_height',['../classUI_1_1GL_1_1Window.html#a81ac6a64550d7b41aed5acdbe7812104',1,'UI::GL::Window']]],
   ['texture_5fshift_8',['texture_shift',['../classUI_1_1GL_1_1Window.html#a137bdcddb0d6e07927e24776da304958',1,'UI::GL::Window']]],
   ['texture_5fwidth_9',['texture_width',['../classUI_1_1GL_1_1Window.html#a5474c004488ef57f223d51a1359c15fb',1,'UI::GL::Window']]],
-  ['thread_10',['thread',['../../libpalliate/classrunnable.html#a2af67a3067df242083a64c3add4f150a',1,'runnable']]],
-  ['thread_5fid_11',['thread_id',['../../libpalliate/structLogging_1_1message.html#add492fce21cde0ef3e55c6beaf78dd5b',1,'Logging::message']]],
-  ['thread_5fname_12',['thread_name',['../../libpalliate/structLogging_1_1message.html#af94b5e1aede0735099d9f263e6da12f6',1,'Logging::message']]]
+  ['thread_10',['thread',['../../libpalliate/structLogging_1_1message.html#a4a2934779a1b4a24f48e52e2642307ff',1,'Logging::message::thread()'],['../../libpalliate/classrunnable.html#a2af67a3067df242083a64c3add4f150a',1,'runnable::thread()'],['../../libpalliate/structThreading_1_1Runnable.html#af3577c106c8e7a459ca2890cc6c9806b',1,'Threading::Runnable::thread()']]]
 ];

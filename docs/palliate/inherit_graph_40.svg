@@ -12,25 +12,25 @@
 <g id="node1" class="node">
 <title>Node0</title>
 <g id="a_node1"><a xlink:title=" ">
-<polygon fill="none" stroke="#bfbfbf" points="0,-0.5 0,-19.5 103,-19.5 103,-0.5 0,-0.5"/>
-<text text-anchor="middle" x="51.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">UI::Tray::Registrar</text>
+<polygon fill="none" stroke="#bfbfbf" points="0,-0.5 0,-19.5 128,-19.5 128,-0.5 0,-0.5"/>
+<text text-anchor="middle" x="64" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">UI::Renderer::Registrar</text>
 </a>
 </g>
 </g>
 <!-- Node1 -->
 <g id="node2" class="node">
 <title>Node1</title>
-<g id="a_node2"><a xlink:href="classUI_1_1AppIndicator_1_1Tray.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="139,-0.5 139,-19.5 260,-19.5 260,-0.5 139,-0.5"/>
-<text text-anchor="middle" x="199.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">UI::AppIndicator::Tray</text>
+<g id="a_node2"><a xlink:href="classUI_1_1GL_1_1Renderer.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="164,-0.5 164,-19.5 260,-19.5 260,-0.5 164,-0.5"/>
+<text text-anchor="middle" x="212" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">UI::GL::Renderer</text>
 </a>
 </g>
 </g>
 <!-- Node0&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
 <title>Node0&#45;&gt;Node1</title>
-<path fill="none" stroke="midnightblue" d="M113.33,-10C121.79,-10 130.47,-10 138.9,-10"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="113.15,-6.5 103.15,-10 113.15,-13.5 113.15,-6.5"/>
+<path fill="none" stroke="midnightblue" d="M138.26,-10C146.86,-10 155.45,-10 163.56,-10"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="138.19,-6.5 128.19,-10 138.19,-13.5 138.19,-6.5"/>
 </g>
 </g>
 </svg>

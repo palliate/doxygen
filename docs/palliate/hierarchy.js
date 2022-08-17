@@ -42,7 +42,7 @@ var hierarchy =
     [ "Logging::Endpoint", "../libpalliate/classLogging_1_1Endpoint.html", null ],
     [ "RPC::ErrorHandler", "../libpalliate/structRPC_1_1ErrorHandler.html", null ],
     [ "Util::Factory< class base_t, class... Args >", "../libpalliate/classUtil_1_1Factory.html", null ],
-    [ "thread::info", "../libpalliate/structthread_1_1info.html", null ],
+    [ "Threading::Info", "../libpalliate/structThreading_1_1Info.html", null ],
     [ "RPC::IO", "../libpalliate/structRPC_1_1IO.html", null ],
     [ "ivshmem", "../libpalliate/classivshmem.html", null ],
     [ "library", "classlibrary.html", null ],
@@ -82,9 +82,7 @@ var hierarchy =
     [ "Util::Factory< class base_t, class... Args >::Registrar", "../libpalliate/structUtil_1_1Factory_1_1Registrar.html", null ],
     [ "UI::Renderer", "../libpalliate/classUI_1_1Renderer.html", null ],
     [ "runnable", "../libpalliate/classrunnable.html", [
-      [ "Application", "classApplication.html", null ],
       [ "RPC::Server", "../libpalliate/classRPC_1_1Server.html", null ],
-      [ "UI::Control", "../libpalliate/classUI_1_1Control.html", null ],
       [ "consumer", "../libpalliate/classconsumer.html", null ],
       [ "producer", "../libpalliate/classproducer.html", null ],
       [ "transport::Client", "../libpalliate/classtransport_1_1Client.html", [
@@ -94,16 +92,22 @@ var hierarchy =
         [ "transport::TCP::Server", "../libpalliate/classtransport_1_1TCP_1_1Server.html", null ]
       ] ]
     ] ],
+    [ "Threading::Runnable< class T, typename... RunArgs >", "../libpalliate/structThreading_1_1Runnable.html", null ],
     [ "App::Server", null, [
       [ "Application", "classApplication.html", null ]
     ] ],
     [ "RPC::TCP::Server", "../libpalliate/classRPC_1_1TCP_1_1Server.html", null ],
     [ "Servers", "../libpalliate/classServers.html", null ],
     [ "UI::Tray", "../libpalliate/classUI_1_1Tray.html", null ],
+    [ "UI::UI", "../libpalliate/classUI_1_1UI.html", null ],
     [ "Util::uuid", "../libpalliate/structUtil_1_1uuid.html", null ],
     [ "UI::Window", "../libpalliate/classUI_1_1Window.html", [
       [ "UI::GL::Window", "classUI_1_1GL_1_1Window.html", [
         [ "UI::GL::Display", "classUI_1_1GL_1_1Display.html", null ]
       ] ]
+    ] ],
+    [ "Threading::Worker", "../libpalliate/structThreading_1_1Worker.html", [
+      [ "Application", "classApplication.html", null ],
+      [ "UI::Control", "../libpalliate/classUI_1_1Control.html", null ]
     ] ]
 ];
