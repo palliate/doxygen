@@ -1,4 +1,5 @@
 var info_8h =
 [
-    [ "thread::info", "structthread_1_1info.html", "structthread_1_1info" ]
+    [ "Threading::Info", "structThreading_1_1Info.html", "structThreading_1_1Info" ],
+    [ "info", "info_8h.html#ad3d000913dc6bb90db255fa4a658968e", null ]
 ];

@@ -7,7 +7,7 @@ var namespaces_dup =
     [ "Logging", "namespaceLogging.html", "namespaceLogging" ],
     [ "memory", "namespacememory.html", "namespacememory" ],
     [ "RPC", "namespaceRPC.html", "namespaceRPC" ],
-    [ "thread", "namespacethread.html", "namespacethread" ],
+    [ "Threading", "namespaceThreading.html", "namespaceThreading" ],
     [ "toml", "namespacetoml.html", null ],
     [ "transport", "namespacetransport.html", "namespacetransport" ],
     [ "UI", "namespaceUI.html", "namespaceUI" ],

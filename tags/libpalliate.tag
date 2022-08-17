@@ -181,6 +181,7 @@
     <name>message.h</name>
     <path>/__w/libpalliate/libpalliate/src/logging/</path>
     <filename>message_8h.html</filename>
+    <includes id="info_8h" name="info.h" local="no" imported="no">threading/info.h</includes>
     <class kind="struct">Logging::Annotated</class>
     <class kind="struct">Logging::message</class>
     <namespace>Logging</namespace>
@@ -309,7 +310,7 @@
     <path>/__w/libpalliate/libpalliate/src/transport/</path>
     <filename>transport_2client_8h.html</filename>
     <includes id="transport_2constants_8h" name="transport/constants.h" local="yes" imported="no">constants.h</includes>
-    <includes id="runnable_8h" name="runnable.h" local="no" imported="no">util/runnable.h</includes>
+    <includes id="util_2runnable_8h" name="util/runnable.h" local="no" imported="no">util/runnable.h</includes>
     <class kind="class">transport::Client</class>
     <namespace>transport</namespace>
   </compound>
@@ -572,7 +573,7 @@
     <path>/__w/libpalliate/libpalliate/src/rpc/</path>
     <filename>rpc_2server_8h.html</filename>
     <includes id="factory_8h" name="factory.h" local="no" imported="no">util/factory.h</includes>
-    <includes id="runnable_8h" name="runnable.h" local="no" imported="no">util/runnable.h</includes>
+    <includes id="util_2runnable_8h" name="util/runnable.h" local="no" imported="no">util/runnable.h</includes>
     <includes id="context_8h" name="context.h" local="yes" imported="no">context.h</includes>
     <includes id="error__handler_8h" name="error_handler.h" local="yes" imported="no">error_handler.h</includes>
     <includes id="io_8h" name="io.h" local="yes" imported="no">io.h</includes>
@@ -600,7 +601,7 @@
     <filename>transport_2server_8h.html</filename>
     <includes id="transport_2client_8h" name="transport/client.h" local="yes" imported="no">client.h</includes>
     <includes id="transport_2constants_8h" name="transport/constants.h" local="yes" imported="no">constants.h</includes>
-    <includes id="runnable_8h" name="runnable.h" local="no" imported="no">util/runnable.h</includes>
+    <includes id="util_2runnable_8h" name="util/runnable.h" local="no" imported="no">util/runnable.h</includes>
     <class kind="class">transport::Server</class>
     <namespace>transport</namespace>
   </compound>
@@ -632,7 +633,7 @@
     <path>/__w/libpalliate/libpalliate/src/plugin/</path>
     <filename>consumer_8h.html</filename>
     <includes id="transport_2client_8h" name="transport/client.h" local="no" imported="no">transport/client.h</includes>
-    <includes id="runnable_8h" name="runnable.h" local="no" imported="no">util/runnable.h</includes>
+    <includes id="util_2runnable_8h" name="util/runnable.h" local="no" imported="no">util/runnable.h</includes>
     <class kind="class">consumer</class>
   </compound>
   <compound kind="file">
@@ -686,7 +687,7 @@
     <includes id="transport_2client_8h" name="transport/client.h" local="no" imported="no">transport/client.h</includes>
     <includes id="transport_2constants_8h" name="transport/constants.h" local="no" imported="no">transport/constants.h</includes>
     <includes id="transport_2server_8h" name="transport/server.h" local="no" imported="no">transport/server.h</includes>
-    <includes id="runnable_8h" name="runnable.h" local="no" imported="no">util/runnable.h</includes>
+    <includes id="util_2runnable_8h" name="util/runnable.h" local="no" imported="no">util/runnable.h</includes>
     <includes id="atomic__stack_8h" name="atomic_stack.h" local="no" imported="no">datastructures/atomic_stack.h</includes>
     <class kind="class">producer</class>
   </compound>
@@ -733,6 +734,33 @@
     <namespace>RPC</namespace>
   </compound>
   <compound kind="file">
+    <name>info.h</name>
+    <path>/__w/libpalliate/libpalliate/src/threading/</path>
+    <filename>info_8h.html</filename>
+    <class kind="struct">Threading::Info</class>
+    <namespace>Threading</namespace>
+    <member kind="variable">
+      <type>thread_local struct Threading::Info</type>
+      <name>info</name>
+      <anchorfile>namespaceThreading.html</anchorfile>
+      <anchor>ad3d000913dc6bb90db255fa4a658968e</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>worker.cpp</name>
+    <path>/__w/libpalliate/libpalliate/src/threading/</path>
+    <filename>worker_8cpp.html</filename>
+    <includes id="worker_8h" name="worker.h" local="yes" imported="no">worker.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>worker.h</name>
+    <path>/__w/libpalliate/libpalliate/src/threading/</path>
+    <filename>worker_8h.html</filename>
+    <class kind="struct">Threading::Worker</class>
+    <namespace>Threading</namespace>
+  </compound>
+  <compound kind="file">
     <name>rpc/ivshm/shm.cpp</name>
     <path>/__w/libpalliate/libpalliate/src/rpc/ivshm/</path>
     <filename>rpc_2ivshm_2shm_8cpp.html</filename>
@@ -755,19 +783,6 @@
     <filename>transport_2shm_2shm_8h.html</filename>
     <includes id="manager_8h" name="manager.h" local="yes" imported="no">memory/manager.h</includes>
     <class kind="class">ivshmem</class>
-  </compound>
-  <compound kind="file">
-    <name>info.cpp</name>
-    <path>/__w/libpalliate/libpalliate/src/thread/</path>
-    <filename>info_8cpp.html</filename>
-    <includes id="info_8h" name="info.h" local="yes" imported="no">info.h</includes>
-  </compound>
-  <compound kind="file">
-    <name>info.h</name>
-    <path>/__w/libpalliate/libpalliate/src/thread/</path>
-    <filename>info_8h.html</filename>
-    <class kind="struct">thread::info</class>
-    <namespace>thread</namespace>
   </compound>
   <compound kind="file">
     <name>renderer.h</name>
@@ -802,11 +817,12 @@
     <includes id="window_8h" name="window.h" local="yes" imported="no">window.h</includes>
     <includes id="message__queue_8h" name="message_queue.h" local="no" imported="no">datastructures/threadsafe/message_queue.h</includes>
     <includes id="rect_8h" name="rect.h" local="no" imported="no">util/rect.h</includes>
-    <includes id="runnable_8h" name="runnable.h" local="no" imported="no">util/runnable.h</includes>
+    <includes id="threading_2runnable_8h" name="threading/runnable.h" local="no" imported="no">threading/runnable.h</includes>
     <includes id="token_8h" name="token.h" local="no" imported="no">authentication/token.h</includes>
     <includes id="rpc_2server_8h" name="rpc/server.h" local="no" imported="no">rpc/server.h</includes>
     <includes id="collection_8h" name="collection.h" local="no" imported="no">util/collection.h</includes>
     <class kind="class">UI::Control</class>
+    <class kind="class">UI::UI</class>
     <namespace>UI</namespace>
   </compound>
   <compound kind="file">
@@ -970,13 +986,22 @@
     <name>runnable.cpp</name>
     <path>/__w/libpalliate/libpalliate/src/util/</path>
     <filename>runnable_8cpp.html</filename>
-    <includes id="runnable_8h" name="runnable.h" local="yes" imported="no">runnable.h</includes>
+    <includes id="util_2runnable_8h" name="util/runnable.h" local="yes" imported="no">runnable.h</includes>
     <includes id="logger_8h" name="logger.h" local="no" imported="no">logging/logger.h</includes>
   </compound>
   <compound kind="file">
-    <name>runnable.h</name>
+    <name>threading/runnable.h</name>
+    <path>/__w/libpalliate/libpalliate/src/threading/</path>
+    <filename>threading_2runnable_8h.html</filename>
+    <includes id="worker_8h" name="worker.h" local="yes" imported="no">worker.h</includes>
+    <includes id="info_8h" name="info.h" local="yes" imported="no">info.h</includes>
+    <class kind="struct">Threading::Runnable</class>
+    <namespace>Threading</namespace>
+  </compound>
+  <compound kind="file">
+    <name>util/runnable.h</name>
     <path>/__w/libpalliate/libpalliate/src/util/</path>
-    <filename>runnable_8h.html</filename>
+    <filename>util_2runnable_8h.html</filename>
     <class kind="class">runnable</class>
   </compound>
   <compound kind="file">
@@ -1727,8 +1752,8 @@
       <type></type>
       <name>configurable</name>
       <anchorfile>classUtil_1_1configurable.html</anchorfile>
-      <anchor>accb00e7430de71f0805018b1dd2f5ad4</anchor>
-      <arglist>(config_t cfg)</arglist>
+      <anchor>a96b80e3c954870bf0ede2ab9a32bb685</anchor>
+      <arglist>(config_t const &amp;cfg)</arglist>
     </member>
     <member kind="function" virtualness="virtual">
       <type>virtual</type>
@@ -1887,7 +1912,7 @@
     <name>UI::Control</name>
     <filename>classUI_1_1Control.html</filename>
     <base>configurable&lt; config::UI &gt;</base>
-    <base>runnable</base>
+    <base>Threading::Worker</base>
     <member kind="function">
       <type></type>
       <name>Control</name>
@@ -1899,8 +1924,8 @@
       <type></type>
       <name>~Control</name>
       <anchorfile>classUI_1_1Control.html</anchorfile>
-      <anchor>aedda1328c4f8b8d49bca8f0812d3bfd1</anchor>
-      <arglist>()</arglist>
+      <anchor>a18d0ece30456846848d291542a78445c</anchor>
+      <arglist>() noexcept</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -2217,20 +2242,34 @@
     </member>
   </compound>
   <compound kind="struct">
-    <name>thread::info</name>
-    <filename>structthread_1_1info.html</filename>
+    <name>Threading::Info</name>
+    <filename>structThreading_1_1Info.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>Info</name>
+      <anchorfile>structThreading_1_1Info.html</anchorfile>
+      <anchor>a21eb59dc5914e1e17184fadde860dab4</anchor>
+      <arglist>()</arglist>
+    </member>
     <member kind="variable">
-      <type>std::thread::id</type>
+      <type>std::size_t</type>
       <name>parent</name>
-      <anchorfile>structthread_1_1info.html</anchorfile>
-      <anchor>a7bf6d1cef9d2133ad901b51e7f2e93e3</anchor>
+      <anchorfile>structThreading_1_1Info.html</anchorfile>
+      <anchor>a762d8244038f9904007f2cf3191cdd97</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::size_t const</type>
+      <name>id</name>
+      <anchorfile>structThreading_1_1Info.html</anchorfile>
+      <anchor>a8073e3c74a61dfab53d2b88c802334e0</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>std::string</type>
       <name>name</name>
-      <anchorfile>structthread_1_1info.html</anchorfile>
-      <anchor>aae6c3fe81d9a2d11a2ca15e72ea3da12</anchor>
+      <anchorfile>structThreading_1_1Info.html</anchorfile>
+      <anchor>ae3d4470c7edf05749f2c5b26e835804d</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -2620,17 +2659,10 @@
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>const std::thread::id</type>
-      <name>thread_id</name>
+      <type>const Threading::Info</type>
+      <name>thread</name>
       <anchorfile>structLogging_1_1message.html</anchorfile>
-      <anchor>add492fce21cde0ef3e55c6beaf78dd5b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>const std::string</type>
-      <name>thread_name</name>
-      <anchorfile>structLogging_1_1message.html</anchorfile>
-      <anchor>af94b5e1aede0735099d9f263e6da12f6</anchor>
+      <anchor>a4a2934779a1b4a24f48e52e2642307ff</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
@@ -3248,6 +3280,96 @@
       <arglist></arglist>
     </member>
   </compound>
+  <compound kind="struct">
+    <name>Threading::Runnable</name>
+    <filename>structThreading_1_1Runnable.html</filename>
+    <templarg>class T</templarg>
+    <templarg>typename... RunArgs</templarg>
+    <member kind="typedef">
+      <type>std::function&lt; void()&gt;</type>
+      <name>callback_f</name>
+      <anchorfile>structThreading_1_1Runnable.html</anchorfile>
+      <anchor>ad3a495b53b62f395b2b0e348e713b50f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>std::stop_callback&lt; callback_f &gt;</type>
+      <name>callback_t</name>
+      <anchorfile>structThreading_1_1Runnable.html</anchorfile>
+      <anchor>a14066c67b3441334c95297e9d6750ea9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>Runnable</name>
+      <anchorfile>structThreading_1_1Runnable.html</anchorfile>
+      <anchor>a23ca02a5c67cc69400dbc0202abe08ab</anchor>
+      <arglist>(std::string const &amp;_name, Args &amp;&amp;... args)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual</type>
+      <name>~Runnable</name>
+      <anchorfile>structThreading_1_1Runnable.html</anchorfile>
+      <anchor>a89df19f61cf809caaefeb5cd33277320</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>run</name>
+      <anchorfile>structThreading_1_1Runnable.html</anchorfile>
+      <anchor>a88b64a1599d1929c7fd75c72bc9ee02f</anchor>
+      <arglist>(RunArgs &amp;&amp;... args)</arglist>
+    </member>
+    <member kind="function">
+      <type>kj::Executor const &amp;</type>
+      <name>get_executor</name>
+      <anchorfile>structThreading_1_1Runnable.html</anchorfile>
+      <anchor>a03f589c49408831b4c8acc9af7973ff1</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>stop</name>
+      <anchorfile>structThreading_1_1Runnable.html</anchorfile>
+      <anchor>aff29d2294700a7edd06eba0e0618c60f</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>auto</type>
+      <name>operator&lt;=&gt;</name>
+      <anchorfile>structThreading_1_1Runnable.html</anchorfile>
+      <anchor>a885c900c4c3fd2785aa561978b476f0c</anchor>
+      <arglist>(Runnable&lt; _T, _RunArgs... &gt; const &amp;other) const</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>on_stop</name>
+      <anchorfile>structThreading_1_1Runnable.html</anchorfile>
+      <anchor>a431017570ce30763d62ef30cc0819def</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>std::jthread</type>
+      <name>thread</name>
+      <anchorfile>structThreading_1_1Runnable.html</anchorfile>
+      <anchor>af3577c106c8e7a459ca2890cc6c9806b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>std::unique_ptr&lt; T &gt;</type>
+      <name>worker</name>
+      <anchorfile>structThreading_1_1Runnable.html</anchorfile>
+      <anchor>a8241520128ff3cd12e6eadc219b981e9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>std::string</type>
+      <name>name</name>
+      <anchorfile>structThreading_1_1Runnable.html</anchorfile>
+      <anchor>ac995ad33e2bc7af2345fdf902557d71c</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
   <compound kind="class">
     <name>memory::server</name>
     <filename>classmemory_1_1server.html</filename>
@@ -3574,6 +3696,19 @@
       <arglist>()=0</arglist>
     </member>
   </compound>
+  <compound kind="class">
+    <name>UI::UI</name>
+    <filename>classUI_1_1UI.html</filename>
+    <base>Runnable&lt; Control &gt;</base>
+    <base>configurable&lt; config::UI &gt;</base>
+    <member kind="function">
+      <type></type>
+      <name>UI</name>
+      <anchorfile>classUI_1_1UI.html</anchorfile>
+      <anchor>ae702c5a9eaee15e7441002f9c2157298</anchor>
+      <arglist>(config::UI const &amp;c)</arglist>
+    </member>
+  </compound>
   <compound kind="struct">
     <name>Util::uuid</name>
     <filename>structUtil_1_1uuid.html</filename>
@@ -3803,6 +3938,59 @@
       <arglist></arglist>
     </member>
   </compound>
+  <compound kind="struct">
+    <name>Threading::Worker</name>
+    <filename>structThreading_1_1Worker.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>Worker</name>
+      <anchorfile>structThreading_1_1Worker.html</anchorfile>
+      <anchor>a3754817df06ffe220f7f0d903c78ccac</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual</type>
+      <name>~Worker</name>
+      <anchorfile>structThreading_1_1Worker.html</anchorfile>
+      <anchor>a1fa2a0ce5944789f7f820b03c5644140</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>operator()</name>
+      <anchorfile>structThreading_1_1Worker.html</anchorfile>
+      <anchor>abae4a85c125db8793b75295c79b165d5</anchor>
+      <arglist>(std::stop_token token={})</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual bool</type>
+      <name>loop</name>
+      <anchorfile>structThreading_1_1Worker.html</anchorfile>
+      <anchor>ad3200f00771e70d1b2ea686993526847</anchor>
+      <arglist>()=0</arglist>
+    </member>
+    <member kind="variable">
+      <type>kj::Executor const  &amp;</type>
+      <name>executor</name>
+      <anchorfile>structThreading_1_1Worker.html</anchorfile>
+      <anchor>a8f4dec4214069609f4ad5a0d53d96104</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>kj::EventLoop</type>
+      <name>event_loop</name>
+      <anchorfile>structThreading_1_1Worker.html</anchorfile>
+      <anchor>a53dd8edb67974143782c3da74a1698f3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>kj::WaitScope</type>
+      <name>wait_scope</name>
+      <anchorfile>structThreading_1_1Worker.html</anchorfile>
+      <anchor>a2624928cfed0a93b743c6093213ecc49</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
   <compound kind="concept">
     <name>Util::is_factory</name>
     <filename>conceptUtil_1_1is__factory.html</filename>
@@ -3948,9 +4136,18 @@
     <class kind="class">RPC::TCP::Server</class>
   </compound>
   <compound kind="namespace">
-    <name>thread</name>
-    <filename>namespacethread.html</filename>
-    <class kind="struct">thread::info</class>
+    <name>Threading</name>
+    <filename>namespaceThreading.html</filename>
+    <class kind="struct">Threading::Info</class>
+    <class kind="struct">Threading::Runnable</class>
+    <class kind="struct">Threading::Worker</class>
+    <member kind="variable">
+      <type>thread_local struct Threading::Info</type>
+      <name>info</name>
+      <anchorfile>namespaceThreading.html</anchorfile>
+      <anchor>ad3d000913dc6bb90db255fa4a658968e</anchor>
+      <arglist></arglist>
+    </member>
   </compound>
   <compound kind="namespace">
     <name>toml</name>
@@ -4017,6 +4214,7 @@
     <class kind="class">UI::Control</class>
     <class kind="class">UI::Renderer</class>
     <class kind="class">UI::Tray</class>
+    <class kind="class">UI::UI</class>
     <class kind="class">UI::Window</class>
   </compound>
   <compound kind="namespace">

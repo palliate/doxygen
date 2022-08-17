@@ -31,8 +31,10 @@ var annotated_dup =
       [ "IO", "structRPC_1_1IO.html", "structRPC_1_1IO" ],
       [ "Server", "classRPC_1_1Server.html", "classRPC_1_1Server" ]
     ] ],
-    [ "thread", "namespacethread.html", [
-      [ "info", "structthread_1_1info.html", "structthread_1_1info" ]
+    [ "Threading", "namespaceThreading.html", [
+      [ "Info", "structThreading_1_1Info.html", "structThreading_1_1Info" ],
+      [ "Runnable", "structThreading_1_1Runnable.html", "structThreading_1_1Runnable" ],
+      [ "Worker", "structThreading_1_1Worker.html", "structThreading_1_1Worker" ]
     ] ],
     [ "transport", "namespacetransport.html", [
       [ "TCP", "namespacetransport_1_1TCP.html", [
@@ -46,6 +48,7 @@ var annotated_dup =
       [ "Control", "classUI_1_1Control.html", "classUI_1_1Control" ],
       [ "Renderer", "classUI_1_1Renderer.html", "classUI_1_1Renderer" ],
       [ "Tray", "classUI_1_1Tray.html", "classUI_1_1Tray" ],
+      [ "UI", "classUI_1_1UI.html", "classUI_1_1UI" ],
       [ "Window", "classUI_1_1Window.html", "classUI_1_1Window" ]
     ] ],
     [ "Util", "namespaceUtil.html", [

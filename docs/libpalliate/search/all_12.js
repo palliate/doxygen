@@ -10,14 +10,14 @@ var searchData=
   ['servers_2eh_7',['servers.h',['../servers_8h.html',1,'']]],
   ['set_8',['set',['../classUI_1_1Window.html#a1fe352196af4c9cb4649fa36641821a9',1,'UI::Window']]],
   ['set_5fevent_9',['set_event',['../classServers.html#a79ad2cb8b9fa26f87845cf14af6225db',1,'Servers::set_event()'],['../classtransport_1_1Server.html#ada48f2e99dce8ba31ad091277d211792',1,'transport::Server::set_event()']]],
-  ['setup_10',['setup',['../classrunnable.html#a05762391a8d79adab6e6972ed8c97471',1,'runnable::setup()'],['../classRPC_1_1TCP_1_1Server.html#a9ad00d184905d5221c98314198871dd1',1,'RPC::TCP::Server::setup()']]],
+  ['setup_10',['setup',['../classRPC_1_1TCP_1_1Server.html#a9ad00d184905d5221c98314198871dd1',1,'RPC::TCP::Server::setup()'],['../classrunnable.html#a05762391a8d79adab6e6972ed8c97471',1,'runnable::setup()']]],
   ['severity_11',['Severity',['../namespaceLogging.html#aa0aabbf5046236bd92698ad87c9ab55a',1,'Logging']]],
   ['side_12',['side',['../structRPC_1_1Context.html#a979ec59aeb05182bd186a305e2d5c5d8',1,'RPC::Context']]],
   ['size_13',['size',['../classmemory_1_1manager.html#a85a29c93505883c92042b0b27c40f421',1,'memory::manager::size()'],['../classUtil_1_1Collection.html#acb8fb9255e8358876c05b40be3a080c1',1,'Util::Collection::size()']]],
   ['size_5fto_5fpages_14',['size_to_pages',['../classmemory_1_1manager.html#ad78b9374780721101350847b5bddaba8',1,'memory::manager']]],
   ['sleep_5ffor_15',['sleep_for',['../namespaceUtil.html#a9a407cb32ff754596b25a37b3b211f05',1,'Util']]],
   ['socket_16',['SOCKET',['../transport_2tcp_2client_8h.html#aff55fe551a9992a54ec54621c524d0a4',1,'SOCKET():&#160;client.h'],['../transport_2tcp_2server_8h.html#aff55fe551a9992a54ec54621c524d0a4',1,'SOCKET():&#160;server.h']]],
-  ['stop_17',['stop',['../classrunnable.html#ab7117095b1382678c42c4979871f1d25',1,'runnable']]],
+  ['stop_17',['stop',['../structThreading_1_1Runnable.html#aff29d2294700a7edd06eba0e0618c60f',1,'Threading::Runnable::stop()'],['../classrunnable.html#ab7117095b1382678c42c4979871f1d25',1,'runnable::stop()']]],
   ['stream_18',['stream',['../structRPC_1_1Context.html#ad5d24a2b8a93694bebb9017d0006408d',1,'RPC::Context']]],
   ['string_2eh_19',['string.h',['../string_8h.html',1,'']]]
 ];

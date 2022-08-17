@@ -21,7 +21,8 @@ var hierarchy =
       [ "Util::Factory< base_t, Args >::Registrar< T, Config >", "structUtil_1_1Factory_1_1Registrar.html", null ]
     ] ],
     [ "Util::configurable< config::UI >", "classUtil_1_1configurable.html", [
-      [ "UI::Control", "classUI_1_1Control.html", null ]
+      [ "UI::Control", "classUI_1_1Control.html", null ],
+      [ "UI::UI", "classUI_1_1UI.html", null ]
     ] ],
     [ "RPC::Context", "structRPC_1_1Context.html", null ],
     [ "atomic_cr< size >::element", "classatomic__cr_1_1element.html", null ],
@@ -57,7 +58,7 @@ var hierarchy =
     [ "Util::Factory< Tray >", "classUtil_1_1Factory.html", [
       [ "UI::Tray", "classUI_1_1Tray.html", null ]
     ] ],
-    [ "thread::info", "structthread_1_1info.html", null ],
+    [ "Threading::Info", "structThreading_1_1Info.html", null ],
     [ "RPC::IO", "structRPC_1_1IO.html", null ],
     [ "ivshmem", "classivshmem.html", null ],
     [ "Logging::Logger", "classLogging_1_1Logger.html", null ],
@@ -81,7 +82,6 @@ var hierarchy =
     ] ],
     [ "runnable", "classrunnable.html", [
       [ "RPC::Server", "classRPC_1_1Server.html", null ],
-      [ "UI::Control", "classUI_1_1Control.html", null ],
       [ "consumer", "classconsumer.html", null ],
       [ "producer", "classproducer.html", null ],
       [ "transport::Client", "classtransport_1_1Client.html", [
@@ -91,10 +91,17 @@ var hierarchy =
         [ "transport::TCP::Server", "classtransport_1_1TCP_1_1Server.html", null ]
       ] ]
     ] ],
+    [ "Threading::Runnable< T, RunArgs >", "structThreading_1_1Runnable.html", null ],
+    [ "Threading::Runnable< Control >", "structThreading_1_1Runnable.html", [
+      [ "UI::UI", "classUI_1_1UI.html", null ]
+    ] ],
     [ "UIC::Server", null, [
       [ "UI::Control", "classUI_1_1Control.html", null ]
     ] ],
     [ "Servers", "classServers.html", null ],
     [ "Util::uuid", "structUtil_1_1uuid.html", null ],
-    [ "UI::Window", "classUI_1_1Window.html", null ]
+    [ "UI::Window", "classUI_1_1Window.html", null ],
+    [ "Threading::Worker", "structThreading_1_1Worker.html", [
+      [ "UI::Control", "classUI_1_1Control.html", null ]
+    ] ]
 ];

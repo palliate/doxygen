@@ -1,6 +1,6 @@
 <map id="UI::Control" name="UI::Control">
-<area shape="rect" id="node1" title=" " alt="" coords="183,263,289,355"/>
-<area shape="rect" id="node2" href="$classUtil_1_1configurable.html" title=" " alt="" coords="5,42,144,178"/>
-<area shape="rect" id="node3" href="$classrunnable.html" title=" " alt="" coords="169,5,303,215"/>
-<area shape="rect" id="node4" title=" " alt="" coords="327,71,422,149"/>
+<area shape="rect" id="node1" title=" " alt="" coords="186,204,291,296"/>
+<area shape="rect" id="node2" href="$classUtil_1_1configurable.html" title=" " alt="" coords="5,13,144,149"/>
+<area shape="rect" id="node3" href="$structThreading_1_1Worker.html" title=" " alt="" coords="169,5,309,156"/>
+<area shape="rect" id="node4" title=" " alt="" coords="333,42,427,119"/>
 </map>
