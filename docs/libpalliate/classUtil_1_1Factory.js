@@ -1,6 +1,6 @@
 var classUtil_1_1Factory =
 [
     [ "Registrar", "structUtil_1_1Factory_1_1Registrar.html", "structUtil_1_1Factory_1_1Registrar" ],
-    [ "Collection", "classUtil_1_1Factory.html#ac7fced29f657a53301dcc694d7c34342", null ],
-    [ "base_t", "classUtil_1_1Factory.html#a8e3829966e3b5786dc1164322fc41ee3", null ]
+    [ "Collection", "classUtil_1_1Factory.html#ad48232589543ea79c73c1915fbbe812b", null ],
+    [ "Base", "classUtil_1_1Factory.html#af7889c323e97357e7b9e6e7cb9779d3f", null ]
 ];

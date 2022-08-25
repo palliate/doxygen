@@ -1,5 +1,5 @@
 <map id="UI::UI" name="UI::UI">
-<area shape="rect" id="node1" title=" " alt="" coords="138,263,199,340"/>
-<area shape="rect" id="node2" href="$structThreading_1_1Runnable.html" title=" " alt="" coords="5,5,161,215"/>
-<area shape="rect" id="node3" href="$classUtil_1_1configurable.html" title=" " alt="" coords="186,42,325,178"/>
+<area shape="rect" id="node1" title=" " alt="" coords="147,277,208,355"/>
+<area shape="rect" id="node2" href="$structThreading_1_1Runnable.html" title=" " alt="" coords="5,5,173,229"/>
+<area shape="rect" id="node3" href="$classUtil_1_1configurable.html" title=" " alt="" coords="197,49,336,185"/>
 </map>

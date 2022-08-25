@@ -113,9 +113,11 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a23ca02a5c67cc69400dbc0202abe08ab"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
-<tr class="memitem:a23ca02a5c67cc69400dbc0202abe08ab"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structThreading_1_1Runnable.html#a23ca02a5c67cc69400dbc0202abe08ab">Runnable</a> (std::string const &amp;_name, Args &amp;&amp;... args)</td></tr>
-<tr class="separator:a23ca02a5c67cc69400dbc0202abe08ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68bcc08baac58c7bbebdcf3334cbc6d7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structThreading_1_1Runnable.html#a68bcc08baac58c7bbebdcf3334cbc6d7">Runnable</a> (std::string const &amp;_name)</td></tr>
+<tr class="separator:a68bcc08baac58c7bbebdcf3334cbc6d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a733985ef0e446eaa29260b7dd50d33"><td class="memTemplParams" colspan="2">template&lt;typename Ctor &gt; </td></tr>
+<tr class="memitem:a1a733985ef0e446eaa29260b7dd50d33"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structThreading_1_1Runnable.html#a1a733985ef0e446eaa29260b7dd50d33">Runnable</a> (toml::value const &amp;node, std::string const &amp;key, Ctor &amp;&amp;ctor)</td></tr>
+<tr class="separator:a1a733985ef0e446eaa29260b7dd50d33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89df19f61cf809caaefeb5cd33277320"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structThreading_1_1Runnable.html#a89df19f61cf809caaefeb5cd33277320">~Runnable</a> ()</td></tr>
 <tr class="separator:a89df19f61cf809caaefeb5cd33277320"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88b64a1599d1929c7fd75c72bc9ee02f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structThreading_1_1Runnable.html#a88b64a1599d1929c7fd75c72bc9ee02f">run</a> (RunArgs &amp;&amp;... args)</td></tr>
@@ -176,15 +178,13 @@ template&lt;class T , typename... RunArgs&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a23ca02a5c67cc69400dbc0202abe08ab" name="a23ca02a5c67cc69400dbc0202abe08ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a23ca02a5c67cc69400dbc0202abe08ab">&#9670;&nbsp;</a></span>Runnable()</h2>
+<a id="a68bcc08baac58c7bbebdcf3334cbc6d7" name="a68bcc08baac58c7bbebdcf3334cbc6d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68bcc08baac58c7bbebdcf3334cbc6d7">&#9670;&nbsp;</a></span>Runnable() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;class T , typename... RunArgs&gt; </div>
-<div class="memtemplate">
-template&lt;typename... Args&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -193,13 +193,49 @@ template&lt;typename... Args&gt; </div>
           <td class="memname"><a class="el" href="structThreading_1_1Runnable.html">Threading::Runnable</a>&lt; T, RunArgs &gt;::Runnable </td>
           <td>(</td>
           <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>_name</em>, </td>
+          <td class="paramname"><em>_name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1a733985ef0e446eaa29260b7dd50d33" name="a1a733985ef0e446eaa29260b7dd50d33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a733985ef0e446eaa29260b7dd50d33">&#9670;&nbsp;</a></span>Runnable() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , typename... RunArgs&gt; </div>
+<div class="memtemplate">
+template&lt;typename Ctor &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structThreading_1_1Runnable.html">Threading::Runnable</a>&lt; T, RunArgs &gt;::Runnable </td>
+          <td>(</td>
+          <td class="paramtype">toml::value const &amp;&#160;</td>
+          <td class="paramname"><em>node</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Args &amp;&amp;...&#160;</td>
-          <td class="paramname"><em>args</em>&#160;</td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Ctor &amp;&amp;&#160;</td>
+          <td class="paramname"><em>ctor</em>&#160;</td>
         </tr>
         <tr>
           <td></td>

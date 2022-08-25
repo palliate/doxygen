@@ -15,7 +15,7 @@ var searchData=
   ['clients_12',['clients',['../classtransport_1_1Server.html#ac97cfe734bbc5710326b1c654924c8a3',1,'transport::Server']]],
   ['clients_5fmutex_13',['clients_mutex',['../classtransport_1_1Server.html#a04297ce5a1931ffe5e9400437e1e5e29',1,'transport::Server']]],
   ['clock_2eh_14',['clock.h',['../clock_8h.html',1,'']]],
-  ['collection_15',['Collection',['../classUtil_1_1Factory.html#ac7fced29f657a53301dcc694d7c34342',1,'Util::Factory::Collection()'],['../classUtil_1_1Collection.html',1,'Util::Collection&lt; Interface, Args &gt;']]],
+  ['collection_15',['Collection',['../classUtil_1_1Factory.html#ad48232589543ea79c73c1915fbbe812b',1,'Util::Factory::Collection()'],['../classUtil_1_1Collection.html',1,'Util::Collection&lt; Interface, Args &gt;']]],
   ['collection_2eh_16',['collection.h',['../collection_8h.html',1,'']]],
   ['concepts_2eh_17',['concepts.h',['../concepts_8h.html',1,'']]],
   ['config_18',['config',['../classUtil_1_1configurable.html#a68b2e36346fcb38aafc3392e61efc27a',1,'Util::configurable']]],

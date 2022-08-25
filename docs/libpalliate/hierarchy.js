@@ -12,13 +12,13 @@ var hierarchy =
       [ "Authentication::PSK", "classAuthentication_1_1PSK.html", null ],
       [ "Authentication::Token", "classAuthentication_1_1Token.html", null ]
     ] ],
-    [ "base_t", null, [
-      [ "Util::Factory< base_t, Args >::Registrar< T, Config >", "structUtil_1_1Factory_1_1Registrar.html", null ]
+    [ "Base", null, [
+      [ "Util::Factory< Base, Args >::Registrar< T, Config >", "structUtil_1_1Factory_1_1Registrar.html", null ]
     ] ],
     [ "Util::Collection< Interface, Args >", "classUtil_1_1Collection.html", null ],
     [ "Util::configurable< T >", "classUtil_1_1configurable.html", null ],
     [ "Util::configurable< Config >", "classUtil_1_1configurable.html", [
-      [ "Util::Factory< base_t, Args >::Registrar< T, Config >", "structUtil_1_1Factory_1_1Registrar.html", null ]
+      [ "Util::Factory< Base, Args >::Registrar< T, Config >", "structUtil_1_1Factory_1_1Registrar.html", null ]
     ] ],
     [ "Util::configurable< config::UI >", "classUtil_1_1configurable.html", [
       [ "UI::Control", "classUI_1_1Control.html", null ],
@@ -42,7 +42,7 @@ var hierarchy =
     [ "kj::TaskSet::ErrorHandler", null, [
       [ "RPC::ErrorHandler", "structRPC_1_1ErrorHandler.html", null ]
     ] ],
-    [ "Util::Factory< base_t, Args >", "classUtil_1_1Factory.html", null ],
+    [ "Util::Factory< Base, Args >", "classUtil_1_1Factory.html", null ],
     [ "Util::Factory< Client >", "classUtil_1_1Factory.html", [
       [ "RPC::Client", "classRPC_1_1Client.html", null ]
     ] ],
@@ -92,7 +92,7 @@ var hierarchy =
       ] ]
     ] ],
     [ "Threading::Runnable< T, RunArgs >", "structThreading_1_1Runnable.html", null ],
-    [ "Threading::Runnable< Control >", "structThreading_1_1Runnable.html", [
+    [ "Threading::Runnable< Control, config::UI >", "structThreading_1_1Runnable.html", [
       [ "UI::UI", "classUI_1_1UI.html", null ]
     ] ],
     [ "UIC::Server", null, [

@@ -892,8 +892,10 @@
     <name>concepts.h</name>
     <path>/__w/libpalliate/libpalliate/src/util/</path>
     <filename>concepts_8h.html</filename>
+    <includes id="worker_8h" name="worker.h" local="no" imported="no">threading/worker.h</includes>
     <namespace>Util</namespace>
     <concept>Util::is_named</concept>
+    <concept>Util::is_worker</concept>
   </compound>
   <compound kind="file">
     <name>configurable.h</name>
@@ -906,10 +908,11 @@
     <name>factory.h</name>
     <path>/__w/libpalliate/libpalliate/src/util/</path>
     <filename>factory_8h.html</filename>
-    <includes id="toml_8h" name="toml.h" local="no" imported="no">util/toml.h</includes>
     <includes id="collection_8h" name="collection.h" local="no" imported="no">util/collection.h</includes>
+    <includes id="toml_8h" name="toml.h" local="no" imported="no">util/toml.h</includes>
     <includes id="concepts_8h" name="concepts.h" local="yes" imported="no">concepts.h</includes>
     <includes id="configurable_8h" name="configurable.h" local="yes" imported="no">configurable.h</includes>
+    <includes id="threading_2runnable_8h" name="threading/runnable.h" local="no" imported="no">threading/runnable.h</includes>
     <class kind="class">Util::Factory</class>
     <class kind="struct">Util::Factory::Registrar</class>
     <namespace>Util</namespace>
@@ -993,8 +996,8 @@
     <name>threading/runnable.h</name>
     <path>/__w/libpalliate/libpalliate/src/threading/</path>
     <filename>threading_2runnable_8h.html</filename>
-    <includes id="worker_8h" name="worker.h" local="yes" imported="no">worker.h</includes>
     <includes id="info_8h" name="info.h" local="yes" imported="no">info.h</includes>
+    <includes id="worker_8h" name="worker.h" local="yes" imported="no">worker.h</includes>
     <class kind="struct">Threading::Runnable</class>
     <namespace>Threading</namespace>
   </compound>
@@ -2209,35 +2212,42 @@
   <compound kind="class">
     <name>Util::Factory</name>
     <filename>classUtil_1_1Factory.html</filename>
-    <templarg>class base_t</templarg>
+    <templarg>class Base</templarg>
     <templarg>class... Args</templarg>
     <class kind="struct">Util::Factory::Registrar</class>
     <member kind="typedef">
-      <type>Util::Collection&lt; base_t, Args... &gt;</type>
+      <type>Util::Collection&lt; Base, Args... &gt;</type>
       <name>Collection</name>
       <anchorfile>classUtil_1_1Factory.html</anchorfile>
-      <anchor>ac7fced29f657a53301dcc694d7c34342</anchor>
+      <anchor>ad48232589543ea79c73c1915fbbe812b</anchor>
       <arglist></arglist>
     </member>
     <member kind="function" static="yes">
-      <type>static std::unique_ptr&lt; base_t &gt;</type>
+      <type>static auto</type>
       <name>make</name>
       <anchorfile>classUtil_1_1Factory.html</anchorfile>
-      <anchor>aa7707c83f6f111f2c031f1164a43f2b5</anchor>
-      <arglist>(toml::value const &amp;node, std::string const &amp;key, T &amp;&amp;... args)</arglist>
+      <anchor>a32bdee0209e858b3c1df79a008ac1b44</anchor>
+      <arglist>(toml::value const &amp;node, std::string const &amp;key, Ts &amp;&amp;... args) -&gt; std::unique_ptr&lt; Threading::Runnable&lt; T &gt; &gt;</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static auto</type>
+      <name>make</name>
+      <anchorfile>classUtil_1_1Factory.html</anchorfile>
+      <anchor>a982fb47f752eb2c4e4152101a5e7c45c</anchor>
+      <arglist>(toml::value const &amp;node, std::string const &amp;key, Ts &amp;&amp;... args) -&gt; std::unique_ptr&lt; T &gt;</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static auto &amp;</type>
       <name>map</name>
       <anchorfile>classUtil_1_1Factory.html</anchorfile>
-      <anchor>acd7018f40568c2eb5bd240e5a87f5578</anchor>
+      <anchor>a274397e893c3240561ea0cbb4777dd76</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="variable">
       <type>friend</type>
-      <name>base_t</name>
+      <name>Base</name>
       <anchorfile>classUtil_1_1Factory.html</anchorfile>
-      <anchor>a8e3829966e3b5786dc1164322fc41ee3</anchor>
+      <anchor>af7889c323e97357e7b9e6e7cb9779d3f</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -3134,28 +3144,28 @@
       <type>virtual</type>
       <name>~Registrar</name>
       <anchorfile>structUtil_1_1Factory_1_1Registrar.html</anchorfile>
-      <anchor>a1ff9d1766c80ddf37b6383eece6710ef</anchor>
-      <arglist>()</arglist>
+      <anchor>a06657200af6cdcd94e0bb89a21afa687</anchor>
+      <arglist>() noexcept(noexcept(std::declval&lt; Util::configurable&lt; Config &gt; &gt;().~configurable()))</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static bool</type>
       <name>register_type</name>
       <anchorfile>structUtil_1_1Factory_1_1Registrar.html</anchorfile>
-      <anchor>a14921bd3d7e2826f1d7163799dfc7e23</anchor>
+      <anchor>a57740097d8b1ffff67a86811c8e05efa</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="variable">
       <type>friend</type>
       <name>T</name>
       <anchorfile>structUtil_1_1Factory_1_1Registrar.html</anchorfile>
-      <anchor>ab61ad7063b1c9ed49dde878416c34d84</anchor>
+      <anchor>aff9b4bdf72880fc9f687a5b09c14940d</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable" static="yes">
       <type>static bool</type>
       <name>registered</name>
       <anchorfile>structUtil_1_1Factory_1_1Registrar.html</anchorfile>
-      <anchor>a78f9bdbaa8818e52ae73cf5fdca475c1</anchor>
+      <anchor>a03332220090eb629b0cc4de36f32794d</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -3303,8 +3313,15 @@
       <type></type>
       <name>Runnable</name>
       <anchorfile>structThreading_1_1Runnable.html</anchorfile>
-      <anchor>a23ca02a5c67cc69400dbc0202abe08ab</anchor>
-      <arglist>(std::string const &amp;_name, Args &amp;&amp;... args)</arglist>
+      <anchor>a68bcc08baac58c7bbebdcf3334cbc6d7</anchor>
+      <arglist>(std::string const &amp;_name)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>Runnable</name>
+      <anchorfile>structThreading_1_1Runnable.html</anchorfile>
+      <anchor>a1a733985ef0e446eaa29260b7dd50d33</anchor>
+      <arglist>(toml::value const &amp;node, std::string const &amp;key, Ctor &amp;&amp;ctor)</arglist>
     </member>
     <member kind="function" virtualness="virtual">
       <type>virtual</type>
@@ -3699,7 +3716,7 @@
   <compound kind="class">
     <name>UI::UI</name>
     <filename>classUI_1_1UI.html</filename>
-    <base>Runnable&lt; Control &gt;</base>
+    <base>Runnable&lt; Control, config::UI &gt;</base>
     <base>configurable&lt; config::UI &gt;</base>
     <member kind="function">
       <type></type>
@@ -4000,6 +4017,10 @@
     <filename>conceptUtil_1_1is__named.html</filename>
   </compound>
   <compound kind="concept">
+    <name>Util::is_worker</name>
+    <filename>conceptUtil_1_1is__worker.html</filename>
+  </compound>
+  <compound kind="concept">
     <name>Util::toml_convertible</name>
     <filename>conceptUtil_1_1toml__convertible.html</filename>
   </compound>
@@ -4227,6 +4248,7 @@
     <class kind="struct">Util::uuid</class>
     <concept>Util::is_factory</concept>
     <concept>Util::is_named</concept>
+    <concept>Util::is_worker</concept>
     <concept>Util::toml_convertible</concept>
     <member kind="function">
       <type>uint64_t</type>

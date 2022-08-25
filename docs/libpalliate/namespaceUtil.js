@@ -7,6 +7,7 @@ var namespaceUtil =
     [ "uuid", "structUtil_1_1uuid.html", "structUtil_1_1uuid" ],
     [ "is_factory", "conceptUtil_1_1is__factory.html", null ],
     [ "is_named", "conceptUtil_1_1is__named.html", null ],
+    [ "is_worker", "conceptUtil_1_1is__worker.html", null ],
     [ "toml_convertible", "conceptUtil_1_1toml__convertible.html", null ],
     [ "basename", "namespaceUtil.html#a0325e369eeb6bf0865a40e9ee8c652ae", null ],
     [ "binary_dir", "namespaceUtil.html#aab5f449d223fc82a24b41d92a9e0c88d", null ],
