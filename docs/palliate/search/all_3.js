@@ -19,7 +19,7 @@ var searchData=
   ['clients_5fmutex_16',['clients_mutex',['../../libpalliate/classtransport_1_1Server.html#a04297ce5a1931ffe5e9400437e1e5e29',1,'transport::Server']]],
   ['clock_2eh_17',['clock.h',['../../libpalliate/clock_8h.html',1,'']]],
   ['close_18',['close',['../classUI_1_1GL_1_1Renderer.html#a04a9294920b28d10115fe3d98494b23e',1,'UI::GL::Renderer']]],
-  ['collection_19',['Collection',['../../libpalliate/classUtil_1_1Factory.html#ac7fced29f657a53301dcc694d7c34342',1,'Util::Factory::Collection()'],['../../libpalliate/classUtil_1_1Collection.html',1,'Util::Collection&lt; class Interface, typename... Args &gt;']]],
+  ['collection_19',['Collection',['../../libpalliate/classUtil_1_1Factory.html#ad48232589543ea79c73c1915fbbe812b',1,'Util::Factory::Collection()'],['../../libpalliate/classUtil_1_1Collection.html',1,'Util::Collection&lt; class Interface, typename... Args &gt;']]],
   ['collection_2eh_20',['collection.h',['../../libpalliate/collection_8h.html',1,'']]],
   ['compile_5fshaders_21',['compile_shaders',['../classUI_1_1GL_1_1Renderer.html#a38d86ec3b0c63103211ef24883b41afc',1,'UI::GL::Renderer']]],
   ['concepts_2eh_22',['concepts.h',['../../libpalliate/concepts_8h.html',1,'']]],

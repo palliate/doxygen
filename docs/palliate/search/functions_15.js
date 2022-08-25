@@ -25,7 +25,7 @@ var searchData=
   ['_7eplugin_22',['~plugin',['../../libpalliate/classplugin.html#ac51eb269648cffefe2914fac6e9e0185',1,'plugin']]],
   ['_7eplugin_5fmanager_23',['~plugin_manager',['../classplugin__manager.html#a268e2811a5a6b2a69eca06759f67e1d4',1,'plugin_manager']]],
   ['_7eproducer_24',['~producer',['../../libpalliate/classproducer.html#a270acc4b90a58b69212ae832b6528553',1,'producer']]],
-  ['_7eregistrar_25',['~Registrar',['../../libpalliate/structUtil_1_1Factory_1_1Registrar.html#a1ff9d1766c80ddf37b6383eece6710ef',1,'Util::Factory::Registrar']]],
+  ['_7eregistrar_25',['~Registrar',['../../libpalliate/structUtil_1_1Factory_1_1Registrar.html#a06657200af6cdcd94e0bb89a21afa687',1,'Util::Factory::Registrar']]],
   ['_7erenderer_26',['~Renderer',['../../libpalliate/classUI_1_1Renderer.html#aa03b137cebd19f11a9e31bda04571a51',1,'UI::Renderer::~Renderer()'],['../classUI_1_1GL_1_1Renderer.html#afeee408862d5bd6255a6882d47e6d5cd',1,'UI::GL::Renderer::~Renderer()']]],
   ['_7erunnable_27',['~runnable',['../../libpalliate/classrunnable.html#acadf1c830cb8f782dadde111a1be6080',1,'runnable']]],
   ['_7erunnable_28',['~Runnable',['../../libpalliate/structThreading_1_1Runnable.html#a89df19f61cf809caaefeb5cd33277320',1,'Threading::Runnable']]],

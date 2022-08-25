@@ -41,7 +41,7 @@ var hierarchy =
     ] ],
     [ "Logging::Endpoint", "../libpalliate/classLogging_1_1Endpoint.html", null ],
     [ "RPC::ErrorHandler", "../libpalliate/structRPC_1_1ErrorHandler.html", null ],
-    [ "Util::Factory< class base_t, class... Args >", "../libpalliate/classUtil_1_1Factory.html", null ],
+    [ "Util::Factory< class Base, class... Args >", "../libpalliate/classUtil_1_1Factory.html", null ],
     [ "Threading::Info", "../libpalliate/structThreading_1_1Info.html", null ],
     [ "RPC::IO", "../libpalliate/structRPC_1_1IO.html", null ],
     [ "ivshmem", "../libpalliate/classivshmem.html", null ],
@@ -79,7 +79,7 @@ var hierarchy =
     [ "UI::Tray::Registrar", null, [
       [ "UI::AppIndicator::Tray", "classUI_1_1AppIndicator_1_1Tray.html", null ]
     ] ],
-    [ "Util::Factory< class base_t, class... Args >::Registrar", "../libpalliate/structUtil_1_1Factory_1_1Registrar.html", null ],
+    [ "Util::Factory< class Base, class... Args >::Registrar", "../libpalliate/structUtil_1_1Factory_1_1Registrar.html", null ],
     [ "UI::Renderer", "../libpalliate/classUI_1_1Renderer.html", null ],
     [ "runnable", "../libpalliate/classrunnable.html", [
       [ "RPC::Server", "../libpalliate/classRPC_1_1Server.html", null ],
