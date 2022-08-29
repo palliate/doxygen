@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['windowhandle_0',['WindowHandle',['../classUI_1_1GL_1_1Renderer.html#a6f135e8240dc2fc64960d0781635613a',1,'UI::GL::Renderer']]]
+  ['reader_5ft_0',['reader_t',['../../libpalliate/namespacetransport.html#a94c6d91bd665f4c87753eb6c327ef45f',1,'transport']]],
+  ['request_5ft_1',['request_t',['../../libpalliate/classatomic__cr.html#adb45c11eeb16e64831db8d8c8e495cc3',1,'atomic_cr']]],
+  ['response_5ft_2',['response_t',['../../libpalliate/classatomic__cr.html#a0c71d9d0aa6a277625bcb6b76b1da068',1,'atomic_cr']]]
 ];

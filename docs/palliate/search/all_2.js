@@ -1,9 +1,9 @@
 var searchData=
 [
   ['base_0',['base',['../../libpalliate/classmemory_1_1manager.html#a594bb1a33c323ff0bb2a9c5de7d237aa',1,'memory::manager']]],
-  ['base_1',['Base',['../../libpalliate/classUtil_1_1Factory.html#af7889c323e97357e7b9e6e7cb9779d3f',1,'Util::Factory']]],
+  ['base_1',['Base',['../../libpalliate/classModule_1_1Factory.html#a0a3acb3e3916137399d0467e963b0c4f',1,'Module::Factory']]],
   ['basename_2',['basename',['../../libpalliate/namespaceUtil.html#a0325e369eeb6bf0865a40e9ee8c652ae',1,'Util']]],
-  ['begin_3',['begin',['../../libpalliate/classUtil_1_1Collection.html#a29fab6573b0a972628a64442b7697ede',1,'Util::Collection::begin()'],['../classplugin__manager.html#a1826108c177017762d46cca46dcdfc29',1,'plugin_manager::begin()']]],
+  ['begin_3',['begin',['../../libpalliate/classModule_1_1Factory_1_1Collection.html#a3820dde3a827572852e28898e2304a50',1,'Module::Factory::Collection::begin()'],['../classplugin__manager.html#a1826108c177017762d46cca46dcdfc29',1,'plugin_manager::begin()']]],
   ['bin_2ecpp_4',['bin.cpp',['../../libpalliate/bin_8cpp.html',1,'']]],
   ['bin_2eh_5',['bin.h',['../../libpalliate/bin_8h.html',1,'']]],
   ['bin_5ft_6',['bin_t',['../../libpalliate/structmemory_1_1bin__t.html#a76f1876a035b3aa32c043cceb44cf971',1,'memory::bin_t::bin_t()'],['../../libpalliate/structmemory_1_1bin__t.html#ae965dd2eac9f225d8a7c8db87336357b',1,'memory::bin_t::bin_t(node_t *_first)'],['../../libpalliate/structmemory_1_1bin__t.html',1,'memory::bin_t']]],

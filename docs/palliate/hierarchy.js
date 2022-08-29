@@ -14,7 +14,7 @@ var hierarchy =
     [ "Cli", "classCli.html", null ],
     [ "RPC::Client", "../libpalliate/classRPC_1_1Client.html", null ],
     [ "RPC::TCP::Client", "../libpalliate/classRPC_1_1TCP_1_1Client.html", null ],
-    [ "Util::Collection< class Interface, typename... Args >", "../libpalliate/classUtil_1_1Collection.html", null ],
+    [ "Module::Factory::Collection", "../libpalliate/classModule_1_1Factory_1_1Collection.html", null ],
     [ "Util::configurable< typename T >", "../libpalliate/classUtil_1_1configurable.html", null ],
     [ "Util::configurable< config::Application >", "../libpalliate/classUtil_1_1configurable.html", [
       [ "Application", "classApplication.html", null ]
@@ -41,7 +41,7 @@ var hierarchy =
     ] ],
     [ "Logging::Endpoint", "../libpalliate/classLogging_1_1Endpoint.html", null ],
     [ "RPC::ErrorHandler", "../libpalliate/structRPC_1_1ErrorHandler.html", null ],
-    [ "Util::Factory< class Base, class... Args >", "../libpalliate/classUtil_1_1Factory.html", null ],
+    [ "Module::Factory< class Base, class... Args >", "../libpalliate/classModule_1_1Factory.html", null ],
     [ "Threading::Info", "../libpalliate/structThreading_1_1Info.html", null ],
     [ "RPC::IO", "../libpalliate/structRPC_1_1IO.html", null ],
     [ "ivshmem", "../libpalliate/classivshmem.html", null ],
@@ -73,13 +73,13 @@ var hierarchy =
       [ "Logging::Endpoints::Systemd", "classLogging_1_1Endpoints_1_1Systemd.html", null ],
       [ "Logging::Endpoints::Terminal", "classLogging_1_1Endpoints_1_1Terminal.html", null ]
     ] ],
+    [ "Module::Factory::Registrar< class T, class Config >", "../libpalliate/structModule_1_1Factory_1_1Registrar.html", null ],
     [ "UI::Renderer::Registrar", null, [
       [ "UI::GL::Renderer", "classUI_1_1GL_1_1Renderer.html", null ]
     ] ],
     [ "UI::Tray::Registrar", null, [
       [ "UI::AppIndicator::Tray", "classUI_1_1AppIndicator_1_1Tray.html", null ]
     ] ],
-    [ "Util::Factory< class Base, class... Args >::Registrar", "../libpalliate/structUtil_1_1Factory_1_1Registrar.html", null ],
     [ "UI::Renderer", "../libpalliate/classUI_1_1Renderer.html", null ],
     [ "runnable", "../libpalliate/classrunnable.html", [
       [ "RPC::Server", "../libpalliate/classRPC_1_1Server.html", null ],

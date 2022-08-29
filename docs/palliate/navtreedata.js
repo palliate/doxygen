@@ -57,7 +57,7 @@ var NAVTREEINDEX =
 [
 "../index.html",
 "classUI_1_1UI.html",
-"library_8h.html"
+"library_8linux_8cpp.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

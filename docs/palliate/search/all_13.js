@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['t_0',['T',['../../libpalliate/structUtil_1_1Factory_1_1Registrar.html#aff9b4bdf72880fc9f687a5b09c14940d',1,'Util::Factory::Registrar']]],
+  ['t_0',['T',['../../libpalliate/structModule_1_1Factory_1_1Registrar.html#a084153937e5bdcfb48dd3f7bb2a90575',1,'Module::Factory::Registrar']]],
   ['tail_1',['tail',['../../libpalliate/classatomic__mpsc.html#ac5f281cc2b7deb6bb043737f6251d632',1,'atomic_mpsc']]],
   ['taskfailed_2',['taskFailed',['../../libpalliate/structRPC_1_1ErrorHandler.html#a2b5f2f0219c6e377a456444e84553dd2',1,'RPC::ErrorHandler']]],
   ['tasks_3',['tasks',['../../libpalliate/structRPC_1_1IO.html#a3dae6685b252b31f1621241d2795a9a0',1,'RPC::IO']]],

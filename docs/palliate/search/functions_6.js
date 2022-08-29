@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['fatal_0',['fatal',['../../libpalliate/classLogging_1_1Logger.html#a5d685bf09f3f5531e0bebbe4c514ece0',1,'Logging::Logger']]],
+  ['fatal_0',['fatal',['../../libpalliate/classLogging_1_1Logger.html#a8e2887e4eaa29a3f0ceb4a02f2e8a5cd',1,'Logging::Logger']]],
   ['file_1',['File',['../classLogging_1_1Endpoints_1_1File.html#a27c0d7b1c16b48f7dec4c799b1b97bd9',1,'Logging::Endpoints::File']]],
   ['find_2',['find',['../../libpalliate/classpatricia.html#a412a58404a59eba6bcf459001df41be9',1,'patricia::find()'],['../classConfiguration.html#a815d8e3a60d97aa9455fa651de26194f',1,'Configuration::find()'],['../classConfiguration.html#af225d30a00dbfe1b72e3a6f3fa823004',1,'Configuration::find(std::string const &amp;key)']]],
   ['find_5fbin_3',['find_bin',['../../libpalliate/classmemory_1_1memory__map.html#aabf8a080a56ee0b44763312dbc6167ea',1,'memory::memory_map']]],

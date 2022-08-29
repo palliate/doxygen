@@ -25,7 +25,7 @@ var searchData=
   ['_7eplugin_22',['~plugin',['../../libpalliate/classplugin.html#ac51eb269648cffefe2914fac6e9e0185',1,'plugin']]],
   ['_7eplugin_5fmanager_23',['~plugin_manager',['../classplugin__manager.html#a268e2811a5a6b2a69eca06759f67e1d4',1,'plugin_manager']]],
   ['_7eproducer_24',['~producer',['../../libpalliate/classproducer.html#a270acc4b90a58b69212ae832b6528553',1,'producer']]],
-  ['_7eregistrar_25',['~Registrar',['../../libpalliate/structUtil_1_1Factory_1_1Registrar.html#a06657200af6cdcd94e0bb89a21afa687',1,'Util::Factory::Registrar']]],
+  ['_7eregistrar_25',['~Registrar',['../../libpalliate/structModule_1_1Factory_1_1Registrar.html#ab7990811c8df91d575df4d35b385a928',1,'Module::Factory::Registrar']]],
   ['_7erenderer_26',['~Renderer',['../../libpalliate/classUI_1_1Renderer.html#aa03b137cebd19f11a9e31bda04571a51',1,'UI::Renderer::~Renderer()'],['../classUI_1_1GL_1_1Renderer.html#afeee408862d5bd6255a6882d47e6d5cd',1,'UI::GL::Renderer::~Renderer()']]],
   ['_7erunnable_27',['~runnable',['../../libpalliate/classrunnable.html#acadf1c830cb8f782dadde111a1be6080',1,'runnable']]],
   ['_7erunnable_28',['~Runnable',['../../libpalliate/structThreading_1_1Runnable.html#a89df19f61cf809caaefeb5cd33277320',1,'Threading::Runnable']]],
@@ -35,5 +35,5 @@ var searchData=
   ['_7eterminal_32',['~Terminal',['../classLogging_1_1Endpoints_1_1Terminal.html#add5a7d4dd45b68af9a0afb1cc845af2f',1,'Logging::Endpoints::Terminal']]],
   ['_7etray_33',['~Tray',['../../libpalliate/classUI_1_1Tray.html#a50e3d227368618561c4ca2adb9dfafa3',1,'UI::Tray::~Tray()'],['../classUI_1_1AppIndicator_1_1Tray.html#a065c805b03e6da03697725851f634b78',1,'UI::AppIndicator::Tray::~Tray()']]],
   ['_7ewindow_34',['~Window',['../../libpalliate/classUI_1_1Window.html#a7515e683a304c7884fdee6987f136ddb',1,'UI::Window']]],
-  ['_7eworker_35',['~Worker',['../../libpalliate/structThreading_1_1Worker.html#a1fa2a0ce5944789f7f820b03c5644140',1,'Threading::Worker']]]
+  ['_7eworker_35',['~Worker',['../../libpalliate/structThreading_1_1Worker.html#aa8e4543ef1e93fd9d884269ba30c5bfe',1,'Threading::Worker']]]
 ];

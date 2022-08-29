@@ -21,7 +21,7 @@ var searchData=
   ['setup_18',['setup',['../../libpalliate/classrunnable.html#a05762391a8d79adab6e6972ed8c97471',1,'runnable::setup()'],['../../libpalliate/classRPC_1_1TCP_1_1Server.html#a9ad00d184905d5221c98314198871dd1',1,'RPC::TCP::Server::setup()']]],
   ['severity_19',['Severity',['../../libpalliate/namespaceLogging.html#aa0aabbf5046236bd92698ad87c9ab55a',1,'Logging']]],
   ['side_20',['side',['../../libpalliate/structRPC_1_1Context.html#a979ec59aeb05182bd186a305e2d5c5d8',1,'RPC::Context']]],
-  ['size_21',['size',['../../libpalliate/classUtil_1_1Collection.html#acb8fb9255e8358876c05b40be3a080c1',1,'Util::Collection::size()'],['../../libpalliate/classmemory_1_1manager.html#a85a29c93505883c92042b0b27c40f421',1,'memory::manager::size()']]],
+  ['size_21',['size',['../../libpalliate/classModule_1_1Factory_1_1Collection.html#a90b854ed8765bd9f31af0a33cc0d94ba',1,'Module::Factory::Collection::size()'],['../../libpalliate/classmemory_1_1manager.html#a85a29c93505883c92042b0b27c40f421',1,'memory::manager::size()']]],
   ['size_5fto_5fpages_22',['size_to_pages',['../../libpalliate/classmemory_1_1manager.html#ad78b9374780721101350847b5bddaba8',1,'memory::manager']]],
   ['sleep_5ffor_23',['sleep_for',['../../libpalliate/namespaceUtil.html#a9a407cb32ff754596b25a37b3b211f05',1,'Util']]],
   ['status_24',['status',['../classApplication.html#a8c810655142b4d1190dd5fd14c244a07',1,'Application']]],
