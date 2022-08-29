@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['fatal_0',['fatal',['../classLogging_1_1Logger.html#a5d685bf09f3f5531e0bebbe4c514ece0',1,'Logging::Logger']]],
+  ['fatal_0',['fatal',['../classLogging_1_1Logger.html#a8e2887e4eaa29a3f0ceb4a02f2e8a5cd',1,'Logging::Logger']]],
   ['find_1',['find',['../classpatricia.html#a412a58404a59eba6bcf459001df41be9',1,'patricia']]],
   ['find_5fbin_2',['find_bin',['../classmemory_1_1memory__map.html#aabf8a080a56ee0b44763312dbc6167ea',1,'memory::memory_map']]],
   ['find_5ffirst_3',['find_first',['../structpatricia_1_1node__t.html#a578db190222c56abc39f965178edb559',1,'patricia::node_t::find_first()'],['../classpatricia.html#ac38c40ef7a80326ccef5d17f98ac088a',1,'patricia::find_first(element_t *subtree)'],['../classpatricia.html#a40e193a8c00a097ec836cbcb1be875f7',1,'patricia::find_first()']]],

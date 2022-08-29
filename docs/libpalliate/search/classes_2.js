@@ -2,7 +2,7 @@ var searchData=
 [
   ['client_0',['client',['../classmemory_1_1client.html',1,'memory']]],
   ['client_1',['Client',['../classRPC_1_1Client.html',1,'RPC::Client'],['../classRPC_1_1TCP_1_1Client.html',1,'RPC::TCP::Client'],['../classtransport_1_1Client.html',1,'transport::Client'],['../classtransport_1_1TCP_1_1Client.html',1,'transport::TCP::Client']]],
-  ['collection_2',['Collection',['../classUtil_1_1Collection.html',1,'Util']]],
+  ['collection_2',['Collection',['../classModule_1_1Factory_1_1Collection.html',1,'Module::Factory']]],
   ['configurable_3',['configurable',['../classUtil_1_1configurable.html',1,'Util']]],
   ['configurable_3c_20config_20_3e_4',['configurable&lt; Config &gt;',['../classUtil_1_1configurable.html',1,'Util']]],
   ['configurable_3c_20config_3a_3aui_20_3e_5',['configurable&lt; config::UI &gt;',['../classUtil_1_1configurable.html',1,'Util']]],

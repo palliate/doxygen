@@ -1,5 +1,6 @@
 var factory_8h =
 [
-    [ "Util::Factory< Base, Args >", "classUtil_1_1Factory.html", "classUtil_1_1Factory" ],
-    [ "Util::Factory< Base, Args >::Registrar< T, Config >", "structUtil_1_1Factory_1_1Registrar.html", "structUtil_1_1Factory_1_1Registrar" ]
+    [ "Module::Factory< Base, Args >", "classModule_1_1Factory.html", "classModule_1_1Factory" ],
+    [ "Module::Factory< Base, Args >::Collection", "classModule_1_1Factory_1_1Collection.html", "classModule_1_1Factory_1_1Collection" ],
+    [ "Module::Factory< Base, Args >::Registrar< T, Config >", "structModule_1_1Factory_1_1Registrar.html", "structModule_1_1Factory_1_1Registrar" ]
 ];

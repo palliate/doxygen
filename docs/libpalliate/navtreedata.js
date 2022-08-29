@@ -69,8 +69,8 @@ var NAVTREEINDEX =
 [
 "../index.html",
 "classatomic__cr_1_1element.html#a950707ba2d933f0682e61e674a32cd60",
-"dir_ba53cbcb17986adb8234547f4330ea65.html",
-"structRPC_1_1IO.html#a5232bfa23cfdc37f405ec10ea642e154"
+"dir_da5c6b39c0a2f54e57df6799511cd3ab.html",
+"structRPC_1_1ErrorHandler.html#a2b5f2f0219c6e377a456444e84553dd2"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

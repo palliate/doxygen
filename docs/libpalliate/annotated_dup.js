@@ -20,6 +20,9 @@ var annotated_dup =
       [ "node_t", "structmemory_1_1node__t.html", "structmemory_1_1node__t" ],
       [ "server", "classmemory_1_1server.html", "classmemory_1_1server" ]
     ] ],
+    [ "Module", "namespaceModule.html", [
+      [ "Factory", "classModule_1_1Factory.html", "classModule_1_1Factory" ]
+    ] ],
     [ "RPC", "namespaceRPC.html", [
       [ "TCP", "namespaceRPC_1_1TCP.html", [
         [ "Client", "classRPC_1_1TCP_1_1Client.html", "classRPC_1_1TCP_1_1Client" ],
@@ -52,9 +55,7 @@ var annotated_dup =
       [ "Window", "classUI_1_1Window.html", "classUI_1_1Window" ]
     ] ],
     [ "Util", "namespaceUtil.html", [
-      [ "Collection", "classUtil_1_1Collection.html", "classUtil_1_1Collection" ],
       [ "configurable", "classUtil_1_1configurable.html", "classUtil_1_1configurable" ],
-      [ "Factory", "classUtil_1_1Factory.html", "classUtil_1_1Factory" ],
       [ "rect", "structUtil_1_1rect.html", "structUtil_1_1rect" ],
       [ "uuid", "structUtil_1_1uuid.html", "structUtil_1_1uuid" ]
     ] ],

@@ -60,9 +60,9 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="classUtil_1_1Factory.html" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classModule_1_1Factory.html" target="_top" xlink:title=" ">
 <polygon fill="none" stroke="black" points="119.5,-210 119.5,-311 301.5,-311 301.5,-210 119.5,-210"/>
-<text text-anchor="start" x="127.5" y="-299" font-family="Helvetica,sans-Serif" font-size="10.00">Util::Factory&lt; Server,</text>
+<text text-anchor="start" x="127.5" y="-299" font-family="Helvetica,sans-Serif" font-size="10.00">Module::Factory&lt; Server,</text>
 <text text-anchor="start" x="127.5" y="-288" font-family="Helvetica,sans-Serif" font-size="10.00"> capnp::Capability::Client,</text>
 <text text-anchor="middle" x="210.5" y="-277" font-family="Helvetica,sans-Serif" font-size="10.00"> Authentication::Authenticator * &gt;</text>
 <polyline fill="none" stroke="black" points="119.5,-270 301.5,-270 "/>

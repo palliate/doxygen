@@ -1,7 +1,7 @@
 var structThreading_1_1Worker =
 [
     [ "Worker", "structThreading_1_1Worker.html#a3754817df06ffe220f7f0d903c78ccac", null ],
-    [ "~Worker", "structThreading_1_1Worker.html#a1fa2a0ce5944789f7f820b03c5644140", null ],
+    [ "~Worker", "structThreading_1_1Worker.html#aa8e4543ef1e93fd9d884269ba30c5bfe", null ],
     [ "loop", "structThreading_1_1Worker.html#ad3200f00771e70d1b2ea686993526847", null ],
     [ "operator()", "structThreading_1_1Worker.html#abae4a85c125db8793b75295c79b165d5", null ],
     [ "event_loop", "structThreading_1_1Worker.html#a53dd8edb67974143782c3da74a1698f3", null ],

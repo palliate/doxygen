@@ -8,9 +8,9 @@ var searchData=
   ['configurable_5',['configurable',['../classUtil_1_1configurable.html#a96b80e3c954870bf0ede2ab9a32bb685',1,'Util::configurable']]],
   ['configure_6',['configure',['../classLogging_1_1Logger.html#a949924db1d3635801a82fd13224dda50',1,'Logging::Logger']]],
   ['consumer_7',['consumer',['../classconsumer.html#ac3882c524e969022d3afe6fa2e4efdfd',1,'consumer']]],
-  ['contains_8',['contains',['../classUtil_1_1Collection.html#a197e0dc86da959b615ce208a50394c73',1,'Util::Collection']]],
+  ['contains_8',['contains',['../classModule_1_1Factory_1_1Collection.html#a274fde4951b958bc81d5265fac753bd2',1,'Module::Factory::Collection']]],
   ['context_9',['Context',['../structRPC_1_1Context.html#a60de7774908c2148c312fd9c5ca77b0c',1,'RPC::Context::Context(kj::AuthenticatedStream &amp;&amp;stream)'],['../structRPC_1_1Context.html#a11d9b76f7c226baf35974c3398c7f8fb',1,'RPC::Context::Context(kj::AuthenticatedStream &amp;&amp;stream, capnp::Capability::Client interface)']]],
   ['control_10',['Control',['../classUI_1_1Control.html#ac0d30e863d893eac1c859e992cb025c8',1,'UI::Control']]],
   ['control_5fevent_11',['control_event',['../classproducer.html#ad627868148b621f3e4311e66ba3ece5d',1,'producer']]],
-  ['create_12',['create',['../classUtil_1_1Collection.html#adb417bdf104bf27fec94b4de97edae17',1,'Util::Collection']]]
+  ['create_12',['create',['../classModule_1_1Factory_1_1Collection.html#ae3e8ff69e4032dfe2ef68205334d9b20',1,'Module::Factory::Collection']]]
 ];

@@ -1,4 +1,4 @@
 <map id="UI::Tray" name="UI::Tray">
-<area shape="rect" id="node1" title=" " alt="" coords="39,160,129,267"/>
-<area shape="rect" id="node2" href="$classUtil_1_1Factory.html" title=" " alt="" coords="5,5,163,112"/>
+<area shape="rect" id="node1" title=" " alt="" coords="52,160,141,267"/>
+<area shape="rect" id="node2" href="$classModule_1_1Factory.html" title=" " alt="" coords="5,5,188,112"/>
 </map>

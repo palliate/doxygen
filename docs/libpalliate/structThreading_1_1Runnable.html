@@ -95,6 +95,7 @@ $(document).ready(function(){initNavTree('structThreading_1_1Runnable.html','');
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="structThreading_1_1Runnable-members.html">List of all members</a>  </div>
@@ -113,11 +114,10 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a68bcc08baac58c7bbebdcf3334cbc6d7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structThreading_1_1Runnable.html#a68bcc08baac58c7bbebdcf3334cbc6d7">Runnable</a> (std::string const &amp;_name)</td></tr>
-<tr class="separator:a68bcc08baac58c7bbebdcf3334cbc6d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a733985ef0e446eaa29260b7dd50d33"><td class="memTemplParams" colspan="2">template&lt;typename Ctor &gt; </td></tr>
-<tr class="memitem:a1a733985ef0e446eaa29260b7dd50d33"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structThreading_1_1Runnable.html#a1a733985ef0e446eaa29260b7dd50d33">Runnable</a> (toml::value const &amp;node, std::string const &amp;key, Ctor &amp;&amp;ctor)</td></tr>
-<tr class="separator:a1a733985ef0e446eaa29260b7dd50d33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a988d1f733c8adb48e22ab7cd80486aa2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structThreading_1_1Runnable.html#a988d1f733c8adb48e22ab7cd80486aa2">Runnable</a> (std::string const &amp;_name)</td></tr>
+<tr class="separator:a988d1f733c8adb48e22ab7cd80486aa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d141d20efa880bf83600e40860c6b80"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structThreading_1_1Runnable.html#a2d141d20efa880bf83600e40860c6b80">Runnable</a> (toml::value const &amp;node, std::string const &amp;key, auto &amp;&amp;ctor)</td></tr>
+<tr class="separator:a2d141d20efa880bf83600e40860c6b80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89df19f61cf809caaefeb5cd33277320"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structThreading_1_1Runnable.html#a89df19f61cf809caaefeb5cd33277320">~Runnable</a> ()</td></tr>
 <tr class="separator:a89df19f61cf809caaefeb5cd33277320"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88b64a1599d1929c7fd75c72bc9ee02f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structThreading_1_1Runnable.html#a88b64a1599d1929c7fd75c72bc9ee02f">run</a> (RunArgs &amp;&amp;... args)</td></tr>
@@ -130,6 +130,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a885c900c4c3fd2785aa561978b476f0c"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structThreading_1_1Runnable.html#a885c900c4c3fd2785aa561978b476f0c">operator&lt;=&gt;</a> (<a class="el" href="structThreading_1_1Runnable.html">Runnable</a>&lt; _T, _RunArgs... &gt; const &amp;other) const</td></tr>
 <tr class="separator:a885c900c4c3fd2785aa561978b476f0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a8241520128ff3cd12e6eadc219b981e9"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structThreading_1_1Runnable.html#a8241520128ff3cd12e6eadc219b981e9">worker</a></td></tr>
+<tr class="separator:a8241520128ff3cd12e6eadc219b981e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a431017570ce30763d62ef30cc0819def"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structThreading_1_1Runnable.html#a431017570ce30763d62ef30cc0819def">on_stop</a> ()</td></tr>
@@ -139,8 +144,6 @@ Protected Member Functions</h2></td></tr>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:af3577c106c8e7a459ca2890cc6c9806b"><td class="memItemLeft" align="right" valign="top">std::jthread&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structThreading_1_1Runnable.html#af3577c106c8e7a459ca2890cc6c9806b">thread</a></td></tr>
 <tr class="separator:af3577c106c8e7a459ca2890cc6c9806b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8241520128ff3cd12e6eadc219b981e9"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structThreading_1_1Runnable.html#a8241520128ff3cd12e6eadc219b981e9">worker</a></td></tr>
-<tr class="separator:a8241520128ff3cd12e6eadc219b981e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac995ad33e2bc7af2345fdf902557d71c"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structThreading_1_1Runnable.html#ac995ad33e2bc7af2345fdf902557d71c">name</a></td></tr>
 <tr class="separator:ac995ad33e2bc7af2345fdf902557d71c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -178,8 +181,8 @@ template&lt;class T , typename... RunArgs&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a68bcc08baac58c7bbebdcf3334cbc6d7" name="a68bcc08baac58c7bbebdcf3334cbc6d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a68bcc08baac58c7bbebdcf3334cbc6d7">&#9670;&nbsp;</a></span>Runnable() <span class="overload">[1/2]</span></h2>
+<a id="a988d1f733c8adb48e22ab7cd80486aa2" name="a988d1f733c8adb48e22ab7cd80486aa2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a988d1f733c8adb48e22ab7cd80486aa2">&#9670;&nbsp;</a></span>Runnable() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -206,15 +209,13 @@ template&lt;class T , typename... RunArgs&gt; </div>
 
 </div>
 </div>
-<a id="a1a733985ef0e446eaa29260b7dd50d33" name="a1a733985ef0e446eaa29260b7dd50d33"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a733985ef0e446eaa29260b7dd50d33">&#9670;&nbsp;</a></span>Runnable() <span class="overload">[2/2]</span></h2>
+<a id="a2d141d20efa880bf83600e40860c6b80" name="a2d141d20efa880bf83600e40860c6b80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d141d20efa880bf83600e40860c6b80">&#9670;&nbsp;</a></span>Runnable() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;class T , typename... RunArgs&gt; </div>
-<div class="memtemplate">
-template&lt;typename Ctor &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -234,7 +235,7 @@ template&lt;typename Ctor &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Ctor &amp;&amp;&#160;</td>
+          <td class="paramtype">auto &amp;&amp;&#160;</td>
           <td class="paramname"><em>ctor</em>&#160;</td>
         </tr>
         <tr>
@@ -475,19 +476,11 @@ template&lt;class T , typename... RunArgs&gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;class T , typename... RunArgs&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">std::unique_ptr&lt;T&gt; <a class="el" href="structThreading_1_1Runnable.html">Threading::Runnable</a>&lt; T, RunArgs &gt;::worker</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
