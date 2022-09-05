@@ -1,6 +1,6 @@
 var namespaceUtil =
 [
-    [ "configurable", "classUtil_1_1configurable.html", "classUtil_1_1configurable" ],
+    [ "Configurable", "classUtil_1_1Configurable.html", "classUtil_1_1Configurable" ],
     [ "rect", "structUtil_1_1rect.html", "structUtil_1_1rect" ],
     [ "uuid", "structUtil_1_1uuid.html", "structUtil_1_1uuid" ],
     [ "is_named", "conceptUtil_1_1is__named.html", null ],

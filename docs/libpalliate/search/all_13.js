@@ -24,7 +24,7 @@ var searchData=
   ['to_5foffset_21',['to_offset',['../classmemory_1_1manager.html#ae0ac8e94a2ebe13cb6cb23796b2ebc0b',1,'memory::manager']]],
   ['to_5fptr_22',['to_ptr',['../classmemory_1_1manager.html#a481f7f9fb3f7c762c1f004a04b37a0f5',1,'memory::manager']]],
   ['to_5fstr_23',['to_str',['../structpatricia_1_1leaf__t.html#a06dab8fbf2f78e1a86e685c474052dde',1,'patricia::leaf_t::to_str()'],['../structmemory_1_1node__t.html#a53ca033f775beed0f47f820501dce690',1,'memory::node_t::to_str()'],['../structUtil_1_1uuid.html#a4ebe9897d9cfcd9586367ffdf78475e1',1,'Util::uuid::to_str()']]],
-  ['token_24',['Token',['../classAuthentication_1_1Token.html',1,'Authentication']]],
+  ['token_24',['Token',['../classAuthentication_1_1Token.html',1,'Authentication::Token'],['../classAuthentication_1_1Token.html#afb4736ee0302b89f01e767d32a69041a',1,'Authentication::Token::Token()']]],
   ['token_2ecpp_25',['token.cpp',['../token_8cpp.html',1,'']]],
   ['token_2eh_26',['token.h',['../token_8h.html',1,'']]],
   ['toml_27',['toml',['../namespacetoml.html',1,'']]],

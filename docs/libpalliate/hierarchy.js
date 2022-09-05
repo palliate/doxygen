@@ -16,11 +16,11 @@ var hierarchy =
       [ "Module::Factory< Base, Args >::Registrar< T, Config >", "structModule_1_1Factory_1_1Registrar.html", null ]
     ] ],
     [ "Module::Factory< Base, Args >::Collection", "classModule_1_1Factory_1_1Collection.html", null ],
-    [ "Util::configurable< T >", "classUtil_1_1configurable.html", null ],
-    [ "Util::configurable< Config >", "classUtil_1_1configurable.html", [
+    [ "Util::Configurable< T >", "classUtil_1_1Configurable.html", null ],
+    [ "Util::Configurable< Config >", "classUtil_1_1Configurable.html", [
       [ "Module::Factory< Base, Args >::Registrar< T, Config >", "structModule_1_1Factory_1_1Registrar.html", null ]
     ] ],
-    [ "Util::configurable< config::UI >", "classUtil_1_1configurable.html", [
+    [ "Util::Configurable< config::UI >", "classUtil_1_1Configurable.html", [
       [ "UI::Control", "classUI_1_1Control.html", null ],
       [ "UI::UI", "classUI_1_1UI.html", null ]
     ] ],

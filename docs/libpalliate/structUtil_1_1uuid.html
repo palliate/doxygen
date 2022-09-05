@@ -93,6 +93,7 @@ $(document).ready(function(){initNavTree('structUtil_1_1uuid.html',''); initResi
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
@@ -103,18 +104,25 @@ $(document).ready(function(){initNavTree('structUtil_1_1uuid.html',''); initResi
 
 <p><code>#include &lt;uuid.h&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a8fdf00b86bc751ff3d2b58bfe7361ecc"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structUtil_1_1uuid.html#a8fdf00b86bc751ff3d2b58bfe7361ecc">value_t</a> = uint64_t</td></tr>
+<tr class="separator:a8fdf00b86bc751ff3d2b58bfe7361ecc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ad00a1793fedd71952899ec73ef4784fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structUtil_1_1uuid.html#ad00a1793fedd71952899ec73ef4784fc">uuid</a> ()</td></tr>
 <tr class="separator:ad00a1793fedd71952899ec73ef4784fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e436aab85bc7db32e25f9dc3e81e796"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structUtil_1_1uuid.html#a7e436aab85bc7db32e25f9dc3e81e796">uuid</a> (uint64_t v)</td></tr>
-<tr class="separator:a7e436aab85bc7db32e25f9dc3e81e796"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6d22f8ad7a619c6fc34793a1f3f68ac"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structUtil_1_1uuid.html#ab6d22f8ad7a619c6fc34793a1f3f68ac">uuid</a> (<a class="el" href="structUtil_1_1uuid.html#a8fdf00b86bc751ff3d2b58bfe7361ecc">value_t</a> v)</td></tr>
+<tr class="separator:ab6d22f8ad7a619c6fc34793a1f3f68ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61021079556534c416a7ec01d61014b3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structUtil_1_1uuid.html#a61021079556534c416a7ec01d61014b3">uuid</a> (const char v[])</td></tr>
 <tr class="separator:a61021079556534c416a7ec01d61014b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac93f96c849d7ba94fa36e3c90362a968"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structUtil_1_1uuid.html#ac93f96c849d7ba94fa36e3c90362a968">uuid</a> (std::string v)</td></tr>
 <tr class="separator:ac93f96c849d7ba94fa36e3c90362a968"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8415cfd1fb32cc05f7e12ecdb79eae3b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structUtil_1_1uuid.html#a8415cfd1fb32cc05f7e12ecdb79eae3b">uuid</a> (const toml::value &amp;v)</td></tr>
 <tr class="separator:a8415cfd1fb32cc05f7e12ecdb79eae3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7115f503547023efa261cd08541997c7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structUtil_1_1uuid.html#a7115f503547023efa261cd08541997c7">operator value_t</a> () const</td></tr>
+<tr class="separator:a7115f503547023efa261cd08541997c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ebe9897d9cfcd9586367ffdf78475e1"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structUtil_1_1uuid.html#a4ebe9897d9cfcd9586367ffdf78475e1">to_str</a> () const</td></tr>
 <tr class="separator:a4ebe9897d9cfcd9586367ffdf78475e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a133e0a5c1ad0f0819ee5a73d42085af2"><td class="memItemLeft" align="right" valign="top">toml::basic_value&lt; toml::preserve_comments &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structUtil_1_1uuid.html#a133e0a5c1ad0f0819ee5a73d42085af2">into_toml</a> () const</td></tr>
@@ -122,14 +130,29 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a94634b56e6e6e86aeceb5bf1fc001e71"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structUtil_1_1uuid.html#a94634b56e6e6e86aeceb5bf1fc001e71">value</a></td></tr>
-<tr class="separator:a94634b56e6e6e86aeceb5bf1fc001e71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a328015eda6c23e50cc2f9c982fdb6fb4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structUtil_1_1uuid.html#a8fdf00b86bc751ff3d2b58bfe7361ecc">value_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structUtil_1_1uuid.html#a328015eda6c23e50cc2f9c982fdb6fb4">value</a></td></tr>
+<tr class="separator:a328015eda6c23e50cc2f9c982fdb6fb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:aeb709aa5b45e45a8604efdcbafc9fa69"><td class="memItemLeft" align="right" valign="top">static constexpr char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structUtil_1_1uuid.html#aeb709aa5b45e45a8604efdcbafc9fa69">delimeter</a> = '-'</td></tr>
 <tr class="separator:aeb709aa5b45e45a8604efdcbafc9fa69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a8fdf00b86bc751ff3d2b58bfe7361ecc" name="a8fdf00b86bc751ff3d2b58bfe7361ecc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fdf00b86bc751ff3d2b58bfe7361ecc">&#9670;&nbsp;</a></span>value_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structUtil_1_1uuid.html#a8fdf00b86bc751ff3d2b58bfe7361ecc">Util::uuid::value_t</a> =  uint64_t</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad00a1793fedd71952899ec73ef4784fc" name="ad00a1793fedd71952899ec73ef4784fc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad00a1793fedd71952899ec73ef4784fc">&#9670;&nbsp;</a></span>uuid() <span class="overload">[1/5]</span></h2>
@@ -148,8 +171,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a7e436aab85bc7db32e25f9dc3e81e796" name="a7e436aab85bc7db32e25f9dc3e81e796"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e436aab85bc7db32e25f9dc3e81e796">&#9670;&nbsp;</a></span>uuid() <span class="overload">[2/5]</span></h2>
+<a id="ab6d22f8ad7a619c6fc34793a1f3f68ac" name="ab6d22f8ad7a619c6fc34793a1f3f68ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6d22f8ad7a619c6fc34793a1f3f68ac">&#9670;&nbsp;</a></span>uuid() <span class="overload">[2/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -160,7 +183,7 @@ Static Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">Util::uuid::uuid </td>
           <td>(</td>
-          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramtype"><a class="el" href="structUtil_1_1uuid.html#a8fdf00b86bc751ff3d2b58bfe7361ecc">value_t</a>&#160;</td>
           <td class="paramname"><em>v</em></td><td>)</td>
           <td></td>
         </tr>
@@ -270,6 +293,31 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a7115f503547023efa261cd08541997c7" name="a7115f503547023efa261cd08541997c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7115f503547023efa261cd08541997c7">&#9670;&nbsp;</a></span>operator value_t()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Util::uuid::operator <a class="el" href="structUtil_1_1uuid.html#a8fdf00b86bc751ff3d2b58bfe7361ecc">value_t</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4ebe9897d9cfcd9586367ffdf78475e1" name="a4ebe9897d9cfcd9586367ffdf78475e1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4ebe9897d9cfcd9586367ffdf78475e1">&#9670;&nbsp;</a></span>to_str()</h2>
 
@@ -310,14 +358,14 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a94634b56e6e6e86aeceb5bf1fc001e71" name="a94634b56e6e6e86aeceb5bf1fc001e71"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94634b56e6e6e86aeceb5bf1fc001e71">&#9670;&nbsp;</a></span>value</h2>
+<a id="a328015eda6c23e50cc2f9c982fdb6fb4" name="a328015eda6c23e50cc2f9c982fdb6fb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a328015eda6c23e50cc2f9c982fdb6fb4">&#9670;&nbsp;</a></span>value</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint64_t Util::uuid::value</td>
+          <td class="memname"><a class="el" href="structUtil_1_1uuid.html#a8fdf00b86bc751ff3d2b58bfe7361ecc">value_t</a> Util::uuid::value</td>
         </tr>
       </table>
 </div><div class="memdoc">

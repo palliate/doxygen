@@ -111,10 +111,10 @@ Inheritance diagram for Authentication::PSK:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a3cedb7c509ab21fbc6f89a331146c243"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAuthentication_1_1PSK.html#a3cedb7c509ab21fbc6f89a331146c243">PSK</a> (uint64_t _psk)</td></tr>
 <tr class="separator:a3cedb7c509ab21fbc6f89a331146c243"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62cba1a3c1e18ef245d39024b636a778"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAuthentication_1_1PSK.html#a62cba1a3c1e18ef245d39024b636a778">check</a> (uint64_t token) override</td></tr>
-<tr class="separator:a62cba1a3c1e18ef245d39024b636a778"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ae6c2d567e95dce4ee2534f01ef3fc0"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAuthentication_1_1Authenticator.html#a9ae6c2d567e95dce4ee2534f01ef3fc0">check</a> (uint64_t token)=0</td></tr>
-<tr class="separator:a9ae6c2d567e95dce4ee2534f01ef3fc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a542e4d0f4da352f96f42f41b93d54027"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAuthentication_1_1PSK.html#a542e4d0f4da352f96f42f41b93d54027">check</a> (<a class="el" href="structUtil_1_1uuid.html">Util::uuid</a> uuid, uint64_t token) override</td></tr>
+<tr class="separator:a542e4d0f4da352f96f42f41b93d54027"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a226ede58ab895384072bce6d8d322c0f"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAuthentication_1_1Authenticator.html#a226ede58ab895384072bce6d8d322c0f">check</a> (<a class="el" href="structUtil_1_1uuid.html">Util::uuid</a> uuid, uint64_t token)=0</td></tr>
+<tr class="separator:a226ede58ab895384072bce6d8d322c0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a3cedb7c509ab21fbc6f89a331146c243" name="a3cedb7c509ab21fbc6f89a331146c243"></a>
@@ -136,7 +136,7 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -144,8 +144,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a62cba1a3c1e18ef245d39024b636a778" name="a62cba1a3c1e18ef245d39024b636a778"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a62cba1a3c1e18ef245d39024b636a778">&#9670;&nbsp;</a></span>check()</h2>
+<a id="a542e4d0f4da352f96f42f41b93d54027" name="a542e4d0f4da352f96f42f41b93d54027"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a542e4d0f4da352f96f42f41b93d54027">&#9670;&nbsp;</a></span>check()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -156,9 +156,19 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">bool PSK::check </td>
           <td>(</td>
-          <td class="paramtype">uint64_t&#160;</td>
-          <td class="paramname"><em>token</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="structUtil_1_1uuid.html">Util::uuid</a>&#160;</td>
+          <td class="paramname"><em>uuid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>token</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -168,7 +178,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classAuthentication_1_1Authenticator.html#a9ae6c2d567e95dce4ee2534f01ef3fc0">Authentication::Authenticator</a>.</p>
+<p>Implements <a class="el" href="classAuthentication_1_1Authenticator.html#a226ede58ab895384072bce6d8d322c0f">Authentication::Authenticator</a>.</p>
 
 </div>
 </div>

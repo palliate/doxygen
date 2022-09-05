@@ -11,9 +11,9 @@
 <!-- Node0 -->
 <g id="node1" class="node">
 <title>Node0</title>
-<g id="a_node1"><a xlink:href="classUtil_1_1configurable.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="13,-49.5 13,-79.5 113,-79.5 113,-49.5 13,-49.5"/>
-<text text-anchor="start" x="21" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">Util::configurable</text>
+<g id="a_node1"><a xlink:href="classUtil_1_1Configurable.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="12.5,-49.5 12.5,-79.5 113.5,-79.5 113.5,-49.5 12.5,-49.5"/>
+<text text-anchor="start" x="20.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">Util::Configurable</text>
 <text text-anchor="middle" x="63" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; config::UI &gt;</text>
 </a>
 </g>
@@ -45,8 +45,8 @@
 <!-- Node0&#45;&gt;Node4 -->
 <g id="edge2" class="edge">
 <title>Node0&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M123.09,-53.67C141.17,-50.36 159.9,-46.93 173.72,-44.4"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="122.36,-50.25 113.15,-55.5 123.62,-57.14 122.36,-50.25"/>
+<path fill="none" stroke="midnightblue" d="M123.44,-53.61C141.47,-50.31 160.11,-46.89 173.84,-44.38"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="122.73,-50.18 113.53,-55.43 123.99,-57.07 122.73,-50.18"/>
 </g>
 <!-- Node5 -->
 <g id="node4" class="node">

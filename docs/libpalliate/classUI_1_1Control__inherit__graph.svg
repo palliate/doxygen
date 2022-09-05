@@ -5,36 +5,36 @@
  -->
 <!-- Title: UI::Control Pages: 1 -->
 <svg width="325pt" height="226pt"
- viewBox="0.00 0.00 324.50 226.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ viewBox="0.00 0.00 325.00 226.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 222)">
 <title>UI::Control</title>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title=" ">
-<polygon fill="#bfbfbf" stroke="black" points="135.5,-0.5 135.5,-68.5 214.5,-68.5 214.5,-0.5 135.5,-0.5"/>
-<text text-anchor="middle" x="175" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">UI::Control</text>
-<polyline fill="none" stroke="black" points="135.5,-49.5 214.5,-49.5 "/>
-<text text-anchor="middle" x="175" y="-37.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="135.5,-30.5 214.5,-30.5 "/>
-<text text-anchor="start" x="143.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Control()</text>
-<text text-anchor="start" x="143.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~Control()</text>
+<polygon fill="#bfbfbf" stroke="black" points="136,-0.5 136,-68.5 215,-68.5 215,-0.5 136,-0.5"/>
+<text text-anchor="middle" x="175.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">UI::Control</text>
+<polyline fill="none" stroke="black" points="136,-49.5 215,-49.5 "/>
+<text text-anchor="middle" x="175.5" y="-37.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="136,-30.5 215,-30.5 "/>
+<text text-anchor="start" x="144" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Control()</text>
+<text text-anchor="start" x="144" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~Control()</text>
 </a>
 </g>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="classUtil_1_1configurable.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="0,-111 0,-212 104,-212 104,-111 0,-111"/>
-<text text-anchor="start" x="8" y="-200" font-family="Helvetica,sans-Serif" font-size="10.00">Util::configurable</text>
-<text text-anchor="middle" x="52" y="-189" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; config::UI &gt;</text>
-<polyline fill="none" stroke="black" points="0,-182 104,-182 "/>
+<g id="a_node2"><a xlink:href="classUtil_1_1Configurable.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="0,-111 0,-212 105,-212 105,-111 0,-111"/>
+<text text-anchor="start" x="8" y="-200" font-family="Helvetica,sans-Serif" font-size="10.00">Util::Configurable</text>
+<text text-anchor="middle" x="52.5" y="-189" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; config::UI &gt;</text>
+<polyline fill="none" stroke="black" points="0,-182 105,-182 "/>
 <text text-anchor="start" x="8" y="-170" font-family="Helvetica,sans-Serif" font-size="10.00">+ config</text>
 <text text-anchor="start" x="8" y="-159" font-family="Helvetica,sans-Serif" font-size="10.00"># _lock</text>
-<polyline fill="none" stroke="black" points="0,-152 104,-152 "/>
-<text text-anchor="start" x="8" y="-140" font-family="Helvetica,sans-Serif" font-size="10.00">+ configurable()</text>
-<text text-anchor="start" x="8" y="-129" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~configurable()</text>
+<polyline fill="none" stroke="black" points="0,-152 105,-152 "/>
+<text text-anchor="start" x="8" y="-140" font-family="Helvetica,sans-Serif" font-size="10.00">+ Configurable()</text>
+<text text-anchor="start" x="8" y="-129" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~Configurable()</text>
 <text text-anchor="start" x="8" y="-118" font-family="Helvetica,sans-Serif" font-size="10.00">+ lock()</text>
 </a>
 </g>
@@ -42,51 +42,51 @@
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
 <title>Node2&#45;&gt;Node1</title>
-<path fill="none" stroke="midnightblue" d="M108.22,-103.37C119.94,-91.46 131.91,-79.29 142.43,-68.6"/>
-<polygon fill="none" stroke="midnightblue" points="105.49,-101.15 100.97,-110.74 110.47,-106.06 105.49,-101.15"/>
+<path fill="none" stroke="midnightblue" d="M108.72,-103.37C120.44,-91.46 132.41,-79.29 142.93,-68.6"/>
+<polygon fill="none" stroke="midnightblue" points="105.99,-101.15 101.47,-110.74 110.97,-106.06 105.99,-101.15"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="structThreading_1_1Worker.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="122.5,-105.5 122.5,-217.5 227.5,-217.5 227.5,-105.5 122.5,-105.5"/>
-<text text-anchor="middle" x="175" y="-205.5" font-family="Helvetica,sans-Serif" font-size="10.00">Threading::Worker</text>
-<polyline fill="none" stroke="black" points="122.5,-198.5 227.5,-198.5 "/>
-<text text-anchor="start" x="130.5" y="-186.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ executor</text>
-<text text-anchor="start" x="130.5" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00"># event_loop</text>
-<text text-anchor="start" x="130.5" y="-164.5" font-family="Helvetica,sans-Serif" font-size="10.00"># wait_scope</text>
-<polyline fill="none" stroke="black" points="122.5,-157.5 227.5,-157.5 "/>
-<text text-anchor="start" x="130.5" y="-145.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Worker()</text>
-<text text-anchor="start" x="130.5" y="-134.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~Worker()</text>
-<text text-anchor="start" x="130.5" y="-123.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ operator()()</text>
-<text text-anchor="start" x="130.5" y="-112.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ loop()</text>
+<polygon fill="none" stroke="black" points="123,-105.5 123,-217.5 228,-217.5 228,-105.5 123,-105.5"/>
+<text text-anchor="middle" x="175.5" y="-205.5" font-family="Helvetica,sans-Serif" font-size="10.00">Threading::Worker</text>
+<polyline fill="none" stroke="black" points="123,-198.5 228,-198.5 "/>
+<text text-anchor="start" x="131" y="-186.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ executor</text>
+<text text-anchor="start" x="131" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00"># event_loop</text>
+<text text-anchor="start" x="131" y="-164.5" font-family="Helvetica,sans-Serif" font-size="10.00"># wait_scope</text>
+<polyline fill="none" stroke="black" points="123,-157.5 228,-157.5 "/>
+<text text-anchor="start" x="131" y="-145.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Worker()</text>
+<text text-anchor="start" x="131" y="-134.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~Worker()</text>
+<text text-anchor="start" x="131" y="-123.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ operator()()</text>
+<text text-anchor="start" x="131" y="-112.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ loop()</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node1 -->
 <g id="edge2" class="edge">
 <title>Node3&#45;&gt;Node1</title>
-<path fill="none" stroke="midnightblue" d="M175,-95.26C175,-85.99 175,-76.8 175,-68.51"/>
-<polygon fill="none" stroke="midnightblue" points="171.5,-95.31 175,-105.31 178.5,-95.31 171.5,-95.31"/>
+<path fill="none" stroke="midnightblue" d="M175.5,-95.26C175.5,-85.99 175.5,-76.8 175.5,-68.51"/>
+<polygon fill="none" stroke="midnightblue" points="172,-95.31 175.5,-105.31 179,-95.31 172,-95.31"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:title=" ">
-<polygon fill="none" stroke="black" points="245.5,-133 245.5,-190 316.5,-190 316.5,-133 245.5,-133"/>
-<text text-anchor="middle" x="281" y="-178" font-family="Helvetica,sans-Serif" font-size="10.00">UIC::Server</text>
-<polyline fill="none" stroke="black" points="245.5,-171 316.5,-171 "/>
-<text text-anchor="middle" x="281" y="-159" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="245.5,-152 316.5,-152 "/>
-<text text-anchor="middle" x="281" y="-140" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polygon fill="none" stroke="black" points="246,-133 246,-190 317,-190 317,-133 246,-133"/>
+<text text-anchor="middle" x="281.5" y="-178" font-family="Helvetica,sans-Serif" font-size="10.00">UIC::Server</text>
+<polyline fill="none" stroke="black" points="246,-171 317,-171 "/>
+<text text-anchor="middle" x="281.5" y="-159" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="246,-152 317,-152 "/>
+<text text-anchor="middle" x="281.5" y="-140" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node1 -->
 <g id="edge3" class="edge">
 <title>Node4&#45;&gt;Node1</title>
-<path fill="none" stroke="midnightblue" d="M253.09,-124.66C247.81,-118.07 242.29,-111.29 237,-105 226.9,-93 215.56,-80.11 205.36,-68.74"/>
-<polygon fill="none" stroke="midnightblue" points="250.64,-127.21 259.6,-132.86 256.12,-122.86 250.64,-127.21"/>
+<path fill="none" stroke="midnightblue" d="M253.59,-124.66C248.31,-118.07 242.79,-111.29 237.5,-105 227.4,-93 216.06,-80.11 205.86,-68.74"/>
+<polygon fill="none" stroke="midnightblue" points="251.14,-127.21 260.1,-132.86 256.62,-122.86 251.14,-127.21"/>
 </g>
 </g>
 </svg>

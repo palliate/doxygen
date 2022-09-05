@@ -1,4 +1,4 @@
 var configurable_8h =
 [
-    [ "Util::configurable< T >", "classUtil_1_1configurable.html", "classUtil_1_1configurable" ]
+    [ "Util::Configurable< T >", "classUtil_1_1Configurable.html", "classUtil_1_1Configurable" ]
 ];

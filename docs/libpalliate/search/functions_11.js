@@ -9,6 +9,7 @@ var searchData=
   ['to_5foffset_6',['to_offset',['../classmemory_1_1manager.html#ae0ac8e94a2ebe13cb6cb23796b2ebc0b',1,'memory::manager']]],
   ['to_5fptr_7',['to_ptr',['../classmemory_1_1manager.html#a481f7f9fb3f7c762c1f004a04b37a0f5',1,'memory::manager']]],
   ['to_5fstr_8',['to_str',['../structpatricia_1_1leaf__t.html#a06dab8fbf2f78e1a86e685c474052dde',1,'patricia::leaf_t::to_str()'],['../structmemory_1_1node__t.html#a53ca033f775beed0f47f820501dce690',1,'memory::node_t::to_str()'],['../structUtil_1_1uuid.html#a4ebe9897d9cfcd9586367ffdf78475e1',1,'Util::uuid::to_str()']]],
-  ['traverse_9',['traverse',['../structpatricia_1_1node__t.html#aecf86dbf8935ae47f32522f771ceff9d',1,'patricia::node_t']]],
-  ['tray_10',['Tray',['../classUI_1_1Tray.html#a451c4e47115ab11b1a4789b5b75f87b0',1,'UI::Tray']]]
+  ['token_9',['Token',['../classAuthentication_1_1Token.html#afb4736ee0302b89f01e767d32a69041a',1,'Authentication::Token']]],
+  ['traverse_10',['traverse',['../structpatricia_1_1node__t.html#aecf86dbf8935ae47f32522f771ceff9d',1,'patricia::node_t']]],
+  ['tray_11',['Tray',['../classUI_1_1Tray.html#a451c4e47115ab11b1a4789b5b75f87b0',1,'UI::Tray']]]
 ];

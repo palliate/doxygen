@@ -4,6 +4,7 @@
     <name>authenticator.h</name>
     <path>/__w/libpalliate/libpalliate/src/authentication/</path>
     <filename>authenticator_8h.html</filename>
+    <includes id="uuid_8h" name="uuid.h" local="no" imported="no">util/uuid.h</includes>
     <class kind="class">Authentication::Authenticator</class>
     <namespace>Authentication</namespace>
   </compound>
@@ -26,6 +27,7 @@
     <path>/__w/libpalliate/libpalliate/src/authentication/</path>
     <filename>token_8cpp.html</filename>
     <includes id="token_8h" name="token.h" local="yes" imported="no">token.h</includes>
+    <includes id="logger_8h" name="logger.h" local="no" imported="no">logging/logger.h</includes>
   </compound>
   <compound kind="file">
     <name>token.h</name>
@@ -832,7 +834,7 @@
     <includes id="message__queue_8h" name="message_queue.h" local="no" imported="no">datastructures/threadsafe/message_queue.h</includes>
     <includes id="rect_8h" name="rect.h" local="no" imported="no">util/rect.h</includes>
     <includes id="threading_2runnable_8h" name="threading/runnable.h" local="no" imported="no">threading/runnable.h</includes>
-    <includes id="token_8h" name="token.h" local="no" imported="no">authentication/token.h</includes>
+    <includes id="psk_8h" name="psk.h" local="no" imported="no">authentication/psk.h</includes>
     <includes id="rpc_2server_8h" name="rpc/server.h" local="no" imported="no">rpc/server.h</includes>
     <class kind="class">UI::Control</class>
     <class kind="class">UI::UI</class>
@@ -906,7 +908,7 @@
     <name>configurable.h</name>
     <path>/__w/libpalliate/libpalliate/src/util/</path>
     <filename>configurable_8h.html</filename>
-    <class kind="class">Util::configurable</class>
+    <class kind="class">Util::Configurable</class>
     <namespace>Util</namespace>
   </compound>
   <compound kind="file">
@@ -1378,8 +1380,8 @@
       <type>virtual bool</type>
       <name>check</name>
       <anchorfile>classAuthentication_1_1Authenticator.html</anchorfile>
-      <anchor>a9ae6c2d567e95dce4ee2534f01ef3fc0</anchor>
-      <arglist>(uint64_t token)=0</arglist>
+      <anchor>a226ede58ab895384072bce6d8d322c0f</anchor>
+      <arglist>(Util::uuid uuid, uint64_t token)=0</arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -1731,49 +1733,49 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>Util::configurable</name>
-    <filename>classUtil_1_1configurable.html</filename>
+    <name>Util::Configurable</name>
+    <filename>classUtil_1_1Configurable.html</filename>
     <templarg>typename T</templarg>
     <member kind="typedef">
       <type>T</type>
       <name>config_t</name>
-      <anchorfile>classUtil_1_1configurable.html</anchorfile>
-      <anchor>a6630f453cc75ab6dd2173a1377dde3e0</anchor>
+      <anchorfile>classUtil_1_1Configurable.html</anchorfile>
+      <anchor>a7f7398855b8a7a01317191ed18549c83</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
       <type></type>
-      <name>configurable</name>
-      <anchorfile>classUtil_1_1configurable.html</anchorfile>
-      <anchor>a96b80e3c954870bf0ede2ab9a32bb685</anchor>
+      <name>Configurable</name>
+      <anchorfile>classUtil_1_1Configurable.html</anchorfile>
+      <anchor>ad2e2ce3f709627119107ca7afffca3c5</anchor>
       <arglist>(config_t const &amp;cfg)</arglist>
     </member>
     <member kind="function" virtualness="virtual">
       <type>virtual</type>
-      <name>~configurable</name>
-      <anchorfile>classUtil_1_1configurable.html</anchorfile>
-      <anchor>aecffa501c54815c8b6994b8d61e8fe9a</anchor>
+      <name>~Configurable</name>
+      <anchorfile>classUtil_1_1Configurable.html</anchorfile>
+      <anchor>a2bf2967ffb4cbb7158ab6a2a90566d91</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
       <type>auto</type>
       <name>lock</name>
-      <anchorfile>classUtil_1_1configurable.html</anchorfile>
-      <anchor>a725a0c4a89544e9a90ed8dd7c1f4b651</anchor>
+      <anchorfile>classUtil_1_1Configurable.html</anchorfile>
+      <anchor>a7b0450613f67b9a9c53d5488e99fe263</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="variable">
       <type>config_t</type>
       <name>config</name>
-      <anchorfile>classUtil_1_1configurable.html</anchorfile>
-      <anchor>a68b2e36346fcb38aafc3392e61efc27a</anchor>
+      <anchorfile>classUtil_1_1Configurable.html</anchorfile>
+      <anchor>ad96ba7f83073d4002396fa263b70f8e0</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable" protection="protected">
       <type>std::mutex</type>
       <name>_lock</name>
-      <anchorfile>classUtil_1_1configurable.html</anchorfile>
-      <anchor>a178b3769afc70bd08236fd568f9a1a45</anchor>
+      <anchorfile>classUtil_1_1Configurable.html</anchorfile>
+      <anchor>a716653c6d87f0f9ecae0c4655fd95071</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -1904,7 +1906,7 @@
   <compound kind="class">
     <name>UI::Control</name>
     <filename>classUI_1_1Control.html</filename>
-    <base>configurable&lt; config::UI &gt;</base>
+    <base>Configurable&lt; config::UI &gt;</base>
     <base>Threading::Worker</base>
     <member kind="function">
       <type></type>
@@ -3089,8 +3091,8 @@
       <type>bool</type>
       <name>check</name>
       <anchorfile>classAuthentication_1_1PSK.html</anchorfile>
-      <anchor>a62cba1a3c1e18ef245d39024b636a778</anchor>
-      <arglist>(uint64_t token) override</arglist>
+      <anchor>a542e4d0f4da352f96f42f41b93d54027</anchor>
+      <arglist>(Util::uuid uuid, uint64_t token) override</arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -3130,13 +3132,13 @@
     <filename>structModule_1_1Factory_1_1Registrar.html</filename>
     <templarg>class T</templarg>
     <templarg>class Config</templarg>
-    <base>configurable&lt; Config &gt;</base>
+    <base>Configurable&lt; Config &gt;</base>
     <member kind="function" virtualness="virtual">
       <type>virtual</type>
       <name>~Registrar</name>
       <anchorfile>structModule_1_1Factory_1_1Registrar.html</anchorfile>
-      <anchor>ab7990811c8df91d575df4d35b385a928</anchor>
-      <arglist>() noexcept(noexcept(std::declval&lt; Util::configurable&lt; Config &gt; &gt;().~configurable()))</arglist>
+      <anchor>a087762f661c2a6bb6c9cd38dc57ce131</anchor>
+      <arglist>() noexcept(noexcept(std::declval&lt; Util::Configurable&lt; Config &gt; &gt;().~Configurable()))</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static bool</type>
@@ -3671,11 +3673,39 @@
     <filename>classAuthentication_1_1Token.html</filename>
     <base>Authentication::Authenticator</base>
     <member kind="function">
+      <type></type>
+      <name>Token</name>
+      <anchorfile>classAuthentication_1_1Token.html</anchorfile>
+      <anchor>afb4736ee0302b89f01e767d32a69041a</anchor>
+      <arglist>(kj::Executor const &amp;executor)</arglist>
+    </member>
+    <member kind="function">
       <type>bool</type>
       <name>check</name>
       <anchorfile>classAuthentication_1_1Token.html</anchorfile>
-      <anchor>a08bf03f1726930dd281257cd88a1ace0</anchor>
-      <arglist>(uint64_t token) override</arglist>
+      <anchor>a0ca6054171b9ac5ba43058d245288b51</anchor>
+      <arglist>(Util::uuid uuid, uint64_t token) override</arglist>
+    </member>
+    <member kind="function">
+      <type>uint64_t</type>
+      <name>add</name>
+      <anchorfile>classAuthentication_1_1Token.html</anchorfile>
+      <anchor>a66c483dd9150f61b1d41bf296bd15c4b</anchor>
+      <arglist>(Util::uuid uuid, uint64_t value=0)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>clear</name>
+      <anchorfile>classAuthentication_1_1Token.html</anchorfile>
+      <anchor>aa82cb2b6a7055ab37744fc5268729823</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>size_t</type>
+      <name>count</name>
+      <anchorfile>classAuthentication_1_1Token.html</anchorfile>
+      <anchor>a19d7ad1ea0ef14a012ee246136597aa4</anchor>
+      <arglist>()</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -3708,7 +3738,7 @@
     <name>UI::UI</name>
     <filename>classUI_1_1UI.html</filename>
     <base>Runnable&lt; Control, config::UI &gt;</base>
-    <base>configurable&lt; config::UI &gt;</base>
+    <base>Configurable&lt; config::UI &gt;</base>
     <member kind="function">
       <type></type>
       <name>UI</name>
@@ -3720,6 +3750,13 @@
   <compound kind="struct">
     <name>Util::uuid</name>
     <filename>structUtil_1_1uuid.html</filename>
+    <member kind="typedef">
+      <type>uint64_t</type>
+      <name>value_t</name>
+      <anchorfile>structUtil_1_1uuid.html</anchorfile>
+      <anchor>a8fdf00b86bc751ff3d2b58bfe7361ecc</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="function">
       <type></type>
       <name>uuid</name>
@@ -3731,8 +3768,8 @@
       <type></type>
       <name>uuid</name>
       <anchorfile>structUtil_1_1uuid.html</anchorfile>
-      <anchor>a7e436aab85bc7db32e25f9dc3e81e796</anchor>
-      <arglist>(uint64_t v)</arglist>
+      <anchor>ab6d22f8ad7a619c6fc34793a1f3f68ac</anchor>
+      <arglist>(value_t v)</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -3756,6 +3793,13 @@
       <arglist>(const toml::value &amp;v)</arglist>
     </member>
     <member kind="function">
+      <type></type>
+      <name>operator value_t</name>
+      <anchorfile>structUtil_1_1uuid.html</anchorfile>
+      <anchor>a7115f503547023efa261cd08541997c7</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
       <type>std::string</type>
       <name>to_str</name>
       <anchorfile>structUtil_1_1uuid.html</anchorfile>
@@ -3770,10 +3814,10 @@
       <arglist>() const</arglist>
     </member>
     <member kind="variable">
-      <type>uint64_t</type>
+      <type>value_t</type>
       <name>value</name>
       <anchorfile>structUtil_1_1uuid.html</anchorfile>
-      <anchor>a94634b56e6e6e86aeceb5bf1fc001e71</anchor>
+      <anchor>a328015eda6c23e50cc2f9c982fdb6fb4</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable" static="yes">
@@ -4233,7 +4277,7 @@
   <compound kind="namespace">
     <name>Util</name>
     <filename>namespaceUtil.html</filename>
-    <class kind="class">Util::configurable</class>
+    <class kind="class">Util::Configurable</class>
     <class kind="struct">Util::rect</class>
     <class kind="struct">Util::uuid</class>
     <concept>Util::is_named</concept>
