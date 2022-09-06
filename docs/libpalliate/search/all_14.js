@@ -4,7 +4,7 @@ var searchData=
   ['is_5fworker_1',['is_worker',['../conceptUtil_1_1is__worker.html',1,'Util']]],
   ['runnable_2eh_2',['runnable.h',['../util_2runnable_8h.html',1,'']]],
   ['toml_5fconvertible_3',['toml_convertible',['../conceptUtil_1_1toml__convertible.html',1,'Util']]],
-  ['ui_4',['UI',['../namespaceUI.html',1,'UI'],['../classUI_1_1UI.html#ae702c5a9eaee15e7441002f9c2157298',1,'UI::UI::UI()'],['../classUI_1_1UI.html',1,'UI::UI']]],
+  ['ui_4',['UI',['../namespaceUI.html',1,'']]],
   ['ui_2ecpp_5',['ui.cpp',['../ui_8cpp.html',1,'']]],
   ['ui_2eh_6',['ui.h',['../ui_8h.html',1,'']]],
   ['unlink_7',['unlink',['../structmemory_1_1node__t.html#acf294062229d0048ebb2bd0c228e67fb',1,'memory::node_t']]],

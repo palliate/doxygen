@@ -10,6 +10,7 @@ var structThreading_1_1Runnable =
     [ "operator<=>", "structThreading_1_1Runnable.html#a885c900c4c3fd2785aa561978b476f0c", null ],
     [ "run", "structThreading_1_1Runnable.html#a88b64a1599d1929c7fd75c72bc9ee02f", null ],
     [ "stop", "structThreading_1_1Runnable.html#aff29d2294700a7edd06eba0e0618c60f", null ],
+    [ "exception", "structThreading_1_1Runnable.html#ad20683b9d10624d9b6f7b2351852ba22", null ],
     [ "name", "structThreading_1_1Runnable.html#ac995ad33e2bc7af2345fdf902557d71c", null ],
     [ "thread", "structThreading_1_1Runnable.html#af3577c106c8e7a459ca2890cc6c9806b", null ],
     [ "worker", "structThreading_1_1Runnable.html#a8241520128ff3cd12e6eadc219b981e9", null ]

@@ -153,6 +153,7 @@
     <path>/__w/libpalliate/libpalliate/src/logging/</path>
     <filename>logger_8cpp.html</filename>
     <includes id="logger_8h" name="logger.h" local="yes" imported="no">logger.h</includes>
+    <includes id="printer_8h" name="printer.h" local="yes" imported="no">printer.h</includes>
     <namespace>Logging</namespace>
     <namespace>Logging::__</namespace>
     <member kind="variable">
@@ -167,7 +168,6 @@
     <name>logger.h</name>
     <path>/__w/libpalliate/libpalliate/src/logging/</path>
     <filename>logger_8h.html</filename>
-    <includes id="endpoint_8h" name="endpoint.h" local="yes" imported="no">endpoint.h</includes>
     <includes id="message_8h" name="message.h" local="yes" imported="no">message.h</includes>
     <class kind="class">Logging::Logger</class>
     <namespace>Logging</namespace>
@@ -224,6 +224,22 @@
       <anchor>aa0aabbf5046236bd92698ad87c9ab55aa3027a6eaf95c5a493d6d825e748096ef</anchor>
       <arglist></arglist>
     </member>
+  </compound>
+  <compound kind="file">
+    <name>printer.cpp</name>
+    <path>/__w/libpalliate/libpalliate/src/logging/</path>
+    <filename>printer_8cpp.html</filename>
+    <includes id="printer_8h" name="printer.h" local="yes" imported="no">printer.h</includes>
+    <includes id="logger_8h" name="logger.h" local="yes" imported="no">logger.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>printer.h</name>
+    <path>/__w/libpalliate/libpalliate/src/logging/</path>
+    <filename>printer_8h.html</filename>
+    <includes id="endpoint_8h" name="endpoint.h" local="yes" imported="no">endpoint.h</includes>
+    <includes id="message_8h" name="message.h" local="yes" imported="no">message.h</includes>
+    <class kind="class">Logging::Printer</class>
+    <namespace>Logging</namespace>
   </compound>
   <compound kind="file">
     <name>memory/client.cpp</name>
@@ -837,7 +853,6 @@
     <includes id="psk_8h" name="psk.h" local="no" imported="no">authentication/psk.h</includes>
     <includes id="rpc_2server_8h" name="rpc/server.h" local="no" imported="no">rpc/server.h</includes>
     <class kind="class">UI::Control</class>
-    <class kind="class">UI::UI</class>
     <namespace>UI</namespace>
   </compound>
   <compound kind="file">
@@ -992,6 +1007,7 @@
     <filename>threading_2runnable_8h.html</filename>
     <includes id="info_8h" name="info.h" local="yes" imported="no">info.h</includes>
     <includes id="worker_8h" name="worker.h" local="yes" imported="no">worker.h</includes>
+    <includes id="logger_8h" name="logger.h" local="no" imported="no">logging/logger.h</includes>
     <class kind="struct">Threading::Runnable</class>
     <namespace>Threading</namespace>
   </compound>
@@ -2380,8 +2396,8 @@
       <type></type>
       <name>Logger</name>
       <anchorfile>classLogging_1_1Logger.html</anchorfile>
-      <anchor>a3ce50157ed3d3292ff89b70e9af54679</anchor>
-      <arglist>(Logger const &amp;)=delete</arglist>
+      <anchor>ab39018f113ef7c4d3c99f237ee7360b1</anchor>
+      <arglist>(Printer const &amp;)=delete</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -2405,18 +2421,18 @@
       <arglist>(config::Logging const &amp;cfg)</arglist>
     </member>
     <member kind="function">
-      <type>bool</type>
-      <name>has_endpoint</name>
-      <anchorfile>classLogging_1_1Logger.html</anchorfile>
-      <anchor>a8f7ec0036d8a376113632774f7cb229d</anchor>
-      <arglist>(std::string const &amp;name) const</arglist>
-    </member>
-    <member kind="function">
       <type>void</type>
       <name>enable</name>
       <anchorfile>classLogging_1_1Logger.html</anchorfile>
       <anchor>af2f7ea41236b2dfa06a7bc88786395bd</anchor>
       <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>has_endpoint</name>
+      <anchorfile>classLogging_1_1Logger.html</anchorfile>
+      <anchor>a8f7ec0036d8a376113632774f7cb229d</anchor>
+      <arglist>(std::string const &amp;name) const</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -2480,20 +2496,6 @@
       <anchorfile>classLogging_1_1Logger.html</anchorfile>
       <anchor>a8e2887e4eaa29a3f0ceb4a02f2e8a5cd</anchor>
       <arglist>(Annotated&lt; char const * &gt; str, auto &amp;&amp;... ts)</arglist>
-    </member>
-    <member kind="function" static="yes">
-      <type>static const std::string</type>
-      <name>thread_name</name>
-      <anchorfile>classLogging_1_1Logger.html</anchorfile>
-      <anchor>a05904975be0b6ab1576b67332c3418eb</anchor>
-      <arglist>(std::string const &amp;new_name={})</arglist>
-    </member>
-    <member kind="variable">
-      <type>Severity</type>
-      <name>min_level</name>
-      <anchorfile>classLogging_1_1Logger.html</anchorfile>
-      <anchor>a312789da314b000b39f8ebcd4960b707</anchor>
-      <arglist></arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -3037,6 +3039,38 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>Logging::Printer</name>
+    <filename>classLogging_1_1Printer.html</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>enable</name>
+      <anchorfile>classLogging_1_1Printer.html</anchorfile>
+      <anchor>af39968c488d907f66b4ceacda4816265</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>configure</name>
+      <anchorfile>classLogging_1_1Printer.html</anchorfile>
+      <anchor>a35dd25fd2ce2aba98e4a1e5d4a5c500b</anchor>
+      <arglist>(config::Logging const &amp;cfg)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>has_endpoint</name>
+      <anchorfile>classLogging_1_1Printer.html</anchorfile>
+      <anchor>a186214135c2a22761b664d665c62ff9a</anchor>
+      <arglist>(std::string const &amp;name) const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>print</name>
+      <anchorfile>classLogging_1_1Printer.html</anchorfile>
+      <anchor>adb4c1e468bf58437527fe6c269a70042</anchor>
+      <arglist>(message &amp;msg)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>producer</name>
     <filename>classproducer.html</filename>
     <base>runnable</base>
@@ -3364,6 +3398,13 @@
       <anchorfile>structThreading_1_1Runnable.html</anchorfile>
       <anchor>a431017570ce30763d62ef30cc0819def</anchor>
       <arglist>()</arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>std::exception_ptr</type>
+      <name>exception</name>
+      <anchorfile>structThreading_1_1Runnable.html</anchorfile>
+      <anchor>ad20683b9d10624d9b6f7b2351852ba22</anchor>
+      <arglist></arglist>
     </member>
     <member kind="variable" protection="protected">
       <type>std::jthread</type>
@@ -3734,19 +3775,6 @@
       <arglist>()=0</arglist>
     </member>
   </compound>
-  <compound kind="class">
-    <name>UI::UI</name>
-    <filename>classUI_1_1UI.html</filename>
-    <base>Runnable&lt; Control, config::UI &gt;</base>
-    <base>Configurable&lt; config::UI &gt;</base>
-    <member kind="function">
-      <type></type>
-      <name>UI</name>
-      <anchorfile>classUI_1_1UI.html</anchorfile>
-      <anchor>ae702c5a9eaee15e7441002f9c2157298</anchor>
-      <arglist>(config::UI const &amp;c)</arglist>
-    </member>
-  </compound>
   <compound kind="struct">
     <name>Util::uuid</name>
     <filename>structUtil_1_1uuid.html</filename>
@@ -4081,6 +4109,7 @@
     <class kind="class">Logging::Endpoint</class>
     <class kind="class">Logging::Logger</class>
     <class kind="struct">Logging::message</class>
+    <class kind="class">Logging::Printer</class>
     <member kind="enumeration">
       <type></type>
       <name>Severity</name>
@@ -4271,7 +4300,6 @@
     <class kind="class">UI::Control</class>
     <class kind="class">UI::Renderer</class>
     <class kind="class">UI::Tray</class>
-    <class kind="class">UI::UI</class>
     <class kind="class">UI::Window</class>
   </compound>
   <compound kind="namespace">

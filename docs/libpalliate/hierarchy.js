@@ -21,8 +21,7 @@ var hierarchy =
       [ "Module::Factory< Base, Args >::Registrar< T, Config >", "structModule_1_1Factory_1_1Registrar.html", null ]
     ] ],
     [ "Util::Configurable< config::UI >", "classUtil_1_1Configurable.html", [
-      [ "UI::Control", "classUI_1_1Control.html", null ],
-      [ "UI::UI", "classUI_1_1UI.html", null ]
+      [ "UI::Control", "classUI_1_1Control.html", null ]
     ] ],
     [ "RPC::Context", "structRPC_1_1Context.html", null ],
     [ "atomic_cr< size >::element", "classatomic__cr_1_1element.html", null ],
@@ -73,6 +72,7 @@ var hierarchy =
     [ "atomic_stack< T >::node", "structatomic__stack_1_1node.html", null ],
     [ "patricia", "classpatricia.html", null ],
     [ "plugin", "classplugin.html", null ],
+    [ "Logging::Printer", "classLogging_1_1Printer.html", null ],
     [ "Util::rect", "structUtil_1_1rect.html", null ],
     [ "RPC::Client::Registrar", null, [
       [ "RPC::TCP::Client", "classRPC_1_1TCP_1_1Client.html", null ]
@@ -92,9 +92,6 @@ var hierarchy =
       ] ]
     ] ],
     [ "Threading::Runnable< T, RunArgs >", "structThreading_1_1Runnable.html", null ],
-    [ "Threading::Runnable< Control, config::UI >", "structThreading_1_1Runnable.html", [
-      [ "UI::UI", "classUI_1_1UI.html", null ]
-    ] ],
     [ "UIC::Server", null, [
       [ "UI::Control", "classUI_1_1Control.html", null ]
     ] ],

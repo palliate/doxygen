@@ -11,8 +11,9 @@ var searchData=
   ['window_2ecpp_8',['window.cpp',['../window_8cpp.html',1,'']]],
   ['window_2eh_9',['window.h',['../window_8h.html',1,'']]],
   ['wireframe_10',['wireframe',['../classUI_1_1Window.html#a7a873833a94eb6e82ac7ace84ebac03e',1,'UI::Window']]],
-  ['worker_11',['Worker',['../structThreading_1_1Worker.html',1,'Threading::Worker'],['../structThreading_1_1Worker.html#a3754817df06ffe220f7f0d903c78ccac',1,'Threading::Worker::Worker()']]],
+  ['worker_11',['Worker',['../structThreading_1_1Worker.html',1,'Threading']]],
   ['worker_12',['worker',['../structThreading_1_1Runnable.html#a8241520128ff3cd12e6eadc219b981e9',1,'Threading::Runnable']]],
-  ['worker_2ecpp_13',['worker.cpp',['../worker_8cpp.html',1,'']]],
-  ['worker_2eh_14',['worker.h',['../worker_8h.html',1,'']]]
+  ['worker_13',['Worker',['../structThreading_1_1Worker.html#a3754817df06ffe220f7f0d903c78ccac',1,'Threading::Worker']]],
+  ['worker_2ecpp_14',['worker.cpp',['../worker_8cpp.html',1,'']]],
+  ['worker_2eh_15',['worker.h',['../worker_8h.html',1,'']]]
 ];

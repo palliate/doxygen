@@ -2,8 +2,8 @@ var searchData=
 [
   ['_7eatomic_5fqueue_0',['~atomic_queue',['../classatomic__queue.html#ada2d3ee55256f7f3389ef6e071897cf2',1,'atomic_queue']]],
   ['_7ebin_5ft_1',['~bin_t',['../structmemory_1_1bin__t.html#a40e32c62c55af3b73a367113ce26a354',1,'memory::bin_t']]],
-  ['_7eclient_2',['~client',['../classmemory_1_1client.html#a078269f4d89e9633e3a160e429168e8a',1,'memory::client']]],
-  ['_7eclient_3',['~Client',['../classRPC_1_1Client.html#a6f6125696cf2bf4220dc1938379ed8c1',1,'RPC::Client::~Client()'],['../classRPC_1_1TCP_1_1Client.html#aca7924f1fba5cbdc6d527d825bd56e64',1,'RPC::TCP::Client::~Client()'],['../classtransport_1_1Client.html#af96d672ca01fa070cc9489614dab4194',1,'transport::Client::~Client()'],['../classtransport_1_1TCP_1_1Client.html#af96d672ca01fa070cc9489614dab4194',1,'transport::TCP::Client::~Client()']]],
+  ['_7eclient_2',['~Client',['../classRPC_1_1Client.html#a6f6125696cf2bf4220dc1938379ed8c1',1,'RPC::Client::~Client()'],['../classRPC_1_1TCP_1_1Client.html#aca7924f1fba5cbdc6d527d825bd56e64',1,'RPC::TCP::Client::~Client()'],['../classtransport_1_1Client.html#af96d672ca01fa070cc9489614dab4194',1,'transport::Client::~Client()'],['../classtransport_1_1TCP_1_1Client.html#af96d672ca01fa070cc9489614dab4194',1,'transport::TCP::Client::~Client()']]],
+  ['_7eclient_3',['~client',['../classmemory_1_1client.html#a078269f4d89e9633e3a160e429168e8a',1,'memory::client']]],
   ['_7econfigurable_4',['~Configurable',['../classUtil_1_1Configurable.html#a2bf2967ffb4cbb7158ab6a2a90566d91',1,'Util::Configurable']]],
   ['_7econsumer_5',['~consumer',['../classconsumer.html#ae41e7e395b5e2cfa3b6d833a3a9d91ef',1,'consumer']]],
   ['_7econtrol_6',['~Control',['../classUI_1_1Control.html#a18d0ece30456846848d291542a78445c',1,'UI::Control']]],

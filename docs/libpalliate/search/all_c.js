@@ -25,13 +25,12 @@ var searchData=
   ['message_5fqueue_2ecpp_22',['message_queue.cpp',['../message__queue_8cpp.html',1,'']]],
   ['message_5fqueue_2eh_23',['message_queue.h',['../message__queue_8h.html',1,'']]],
   ['messagequeue_24',['MessageQueue',['../classMessageQueue.html',1,'MessageQueue&lt; T &gt;'],['../classMessageQueue.html#a41e28dbf3f7713110fa2ce2ec08176dd',1,'MessageQueue::MessageQueue()']]],
-  ['min_5flevel_25',['min_level',['../classLogging_1_1Logger.html#a312789da314b000b39f8ebcd4960b707',1,'Logging::Logger']]],
-  ['minimized_26',['minimized',['../classUI_1_1Window.html#ac5832f31e57a6720a584b2c2608b641aaf1c4a25e572ac83716523f9b42f4b164',1,'UI::Window']]],
-  ['missed_27',['missed',['../classatomic__queue.html#af232f774d78c1a601f8bf0a89288d404',1,'atomic_queue::missed()'],['../classatomic__reqresp.html#ae02659f7abad946880b663a74ae1e084',1,'atomic_reqresp::missed()'],['../classatomic__semaphore.html#abea314ab2dd8107ed882495cff0d8231',1,'atomic_semaphore::missed()']]],
-  ['module_28',['Module',['../namespaceModule.html',1,'']]],
-  ['move_29',['move',['../classUI_1_1Window.html#a136b93b2a757a4236a8b08da0a75fb07',1,'UI::Window']]],
-  ['mpsc_30',['mpsc',['../classmpsc.html',1,'']]],
-  ['mpsc_2eh_31',['mpsc.h',['../mpsc_8h.html',1,'']]],
-  ['server_2ecpp_32',['server.cpp',['../memory_2server_8cpp.html',1,'']]],
-  ['server_2eh_33',['server.h',['../memory_2server_8h.html',1,'']]]
+  ['minimized_25',['minimized',['../classUI_1_1Window.html#ac5832f31e57a6720a584b2c2608b641aaf1c4a25e572ac83716523f9b42f4b164',1,'UI::Window']]],
+  ['missed_26',['missed',['../classatomic__queue.html#af232f774d78c1a601f8bf0a89288d404',1,'atomic_queue::missed()'],['../classatomic__reqresp.html#ae02659f7abad946880b663a74ae1e084',1,'atomic_reqresp::missed()'],['../classatomic__semaphore.html#abea314ab2dd8107ed882495cff0d8231',1,'atomic_semaphore::missed()']]],
+  ['module_27',['Module',['../namespaceModule.html',1,'']]],
+  ['move_28',['move',['../classUI_1_1Window.html#a136b93b2a757a4236a8b08da0a75fb07',1,'UI::Window']]],
+  ['mpsc_29',['mpsc',['../classmpsc.html',1,'']]],
+  ['mpsc_2eh_30',['mpsc.h',['../mpsc_8h.html',1,'']]],
+  ['server_2ecpp_31',['server.cpp',['../memory_2server_8cpp.html',1,'']]],
+  ['server_2eh_32',['server.h',['../memory_2server_8h.html',1,'']]]
 ];

@@ -1,6 +1,6 @@
 var classLogging_1_1Logger =
 [
-    [ "Logger", "classLogging_1_1Logger.html#a3ce50157ed3d3292ff89b70e9af54679", null ],
+    [ "Logger", "classLogging_1_1Logger.html#ab39018f113ef7c4d3c99f237ee7360b1", null ],
     [ "~Logger", "classLogging_1_1Logger.html#acb668a9e186a25fbaad2e4af6d1ed00a", null ],
     [ "configure", "classLogging_1_1Logger.html#a949924db1d3635801a82fd13224dda50", null ],
     [ "debug", "classLogging_1_1Logger.html#aa609fc6258824fb3623c2e75fe539daa", null ],
@@ -14,6 +14,5 @@ var classLogging_1_1Logger =
     [ "print", "classLogging_1_1Logger.html#a515925090004620d1fea19deb5ef660a", null ],
     [ "print", "classLogging_1_1Logger.html#a0670269fd3e09344126cc429ed4ba9ef", null ],
     [ "print", "classLogging_1_1Logger.html#a4ddc714dcd670f4020422970dfdf36de", null ],
-    [ "warning", "classLogging_1_1Logger.html#abab2a4760c05033343ef9689b01f2ef0", null ],
-    [ "min_level", "classLogging_1_1Logger.html#a312789da314b000b39f8ebcd4960b707", null ]
+    [ "warning", "classLogging_1_1Logger.html#abab2a4760c05033343ef9689b01f2ef0", null ]
 ];

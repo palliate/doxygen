@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['base_0',['base',['../classmemory_1_1manager.html#a594bb1a33c323ff0bb2a9c5de7d237aa',1,'memory::manager']]],
-  ['base_1',['Base',['../classModule_1_1Factory.html#a0a3acb3e3916137399d0467e963b0c4f',1,'Module::Factory']]],
+  ['base_0',['Base',['../classModule_1_1Factory.html#a0a3acb3e3916137399d0467e963b0c4f',1,'Module::Factory']]],
+  ['base_1',['base',['../classmemory_1_1manager.html#a594bb1a33c323ff0bb2a9c5de7d237aa',1,'memory::manager']]],
   ['basename_2',['basename',['../namespaceUtil.html#a0325e369eeb6bf0865a40e9ee8c652ae',1,'Util']]],
   ['begin_3',['begin',['../classModule_1_1Factory_1_1Collection.html#a3820dde3a827572852e28898e2304a50',1,'Module::Factory::Collection']]],
   ['bin_2ecpp_4',['bin.cpp',['../bin_8cpp.html',1,'']]],

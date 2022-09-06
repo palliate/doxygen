@@ -9,7 +9,8 @@ var annotated_dup =
       [ "Annotated", "structLogging_1_1Annotated.html", "structLogging_1_1Annotated" ],
       [ "Endpoint", "classLogging_1_1Endpoint.html", "classLogging_1_1Endpoint" ],
       [ "Logger", "classLogging_1_1Logger.html", "classLogging_1_1Logger" ],
-      [ "message", "structLogging_1_1message.html", "structLogging_1_1message" ]
+      [ "message", "structLogging_1_1message.html", "structLogging_1_1message" ],
+      [ "Printer", "classLogging_1_1Printer.html", "classLogging_1_1Printer" ]
     ] ],
     [ "memory", "namespacememory.html", [
       [ "bin_t", "structmemory_1_1bin__t.html", "structmemory_1_1bin__t" ],
@@ -51,7 +52,6 @@ var annotated_dup =
       [ "Control", "classUI_1_1Control.html", "classUI_1_1Control" ],
       [ "Renderer", "classUI_1_1Renderer.html", "classUI_1_1Renderer" ],
       [ "Tray", "classUI_1_1Tray.html", "classUI_1_1Tray" ],
-      [ "UI", "classUI_1_1UI.html", "classUI_1_1UI" ],
       [ "Window", "classUI_1_1Window.html", "classUI_1_1Window" ]
     ] ],
     [ "Util", "namespaceUtil.html", [

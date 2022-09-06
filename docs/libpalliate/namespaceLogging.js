@@ -5,6 +5,7 @@ var namespaceLogging =
     [ "Endpoint", "classLogging_1_1Endpoint.html", "classLogging_1_1Endpoint" ],
     [ "Logger", "classLogging_1_1Logger.html", "classLogging_1_1Logger" ],
     [ "message", "structLogging_1_1message.html", "structLogging_1_1message" ],
+    [ "Printer", "classLogging_1_1Printer.html", "classLogging_1_1Printer" ],
     [ "Severity", "namespaceLogging.html#aa0aabbf5046236bd92698ad87c9ab55a", [
       [ "debug", "namespaceLogging.html#aa0aabbf5046236bd92698ad87c9ab55aa3e0930ddd5f775c603db6bd89f8b1b57", null ],
       [ "info", "namespaceLogging.html#aa0aabbf5046236bd92698ad87c9ab55aa90ffdce6eecc02ffecd67a995dba7faa", null ],
