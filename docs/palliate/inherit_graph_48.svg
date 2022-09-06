@@ -11,9 +11,9 @@
 <!-- Node0 -->
 <g id="node1" class="node">
 <title>Node0</title>
-<g id="a_node1"><a target="_parent" xlink:href="../libpalliate/classUtil_1_1configurable.html" xlink:title=" ">
+<g id="a_node1"><a target="_parent" xlink:href="../libpalliate/classUtil_1_1Configurable.html" xlink:title=" ">
 <polygon fill="none" stroke="black" points="0,-77 0,-107 129,-107 129,-77 0,-77"/>
-<text text-anchor="start" x="8" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00">Util::configurable</text>
+<text text-anchor="start" x="8" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00">Util::Configurable</text>
 <text text-anchor="middle" x="64.5" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; config::Application &gt;</text>
 </a>
 </g>

@@ -419,7 +419,7 @@
   <compound kind="class">
     <name>Application</name>
     <filename>classApplication.html</filename>
-    <base>configurable&lt; config::Application &gt;</base>
+    <base>Configurable&lt; config::Application &gt;</base>
     <base>Threading::Worker</base>
     <member kind="function">
       <type></type>
@@ -828,7 +828,7 @@
   <compound kind="class">
     <name>plugin_manager</name>
     <filename>classplugin__manager.html</filename>
-    <base>configurable&lt; config::plugins &gt;</base>
+    <base>Configurable&lt; config::plugins &gt;</base>
     <member kind="typedef">
       <type>std::shared_ptr&lt; library &gt;</type>
       <name>library_ptr</name>

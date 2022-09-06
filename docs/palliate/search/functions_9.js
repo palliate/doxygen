@@ -2,8 +2,8 @@ var searchData=
 [
   ['icon_0',['icon',['../classUI_1_1GL_1_1Window.html#ab90ddd12cc5808e72555475eb432dea8',1,'UI::GL::Window::icon()'],['../../libpalliate/classUI_1_1Window.html#add989423bc93a69926f916944959bf52',1,'UI::Window::icon()']]],
   ['iequal_1',['iequal',['../../libpalliate/namespaceUtil.html#ada84f8d63451d9721b5e8b2ec91708ff',1,'Util']]],
-  ['info_2',['info',['../../libpalliate/classLogging_1_1Logger.html#a54c56df29c5fb128e17e9ffc1f3b0d4b',1,'Logging::Logger']]],
-  ['info_3',['Info',['../../libpalliate/structThreading_1_1Info.html#a21eb59dc5914e1e17184fadde860dab4',1,'Threading::Info']]],
+  ['info_2',['Info',['../../libpalliate/structThreading_1_1Info.html#a21eb59dc5914e1e17184fadde860dab4',1,'Threading::Info']]],
+  ['info_3',['info',['../../libpalliate/classLogging_1_1Logger.html#a54c56df29c5fb128e17e9ffc1f3b0d4b',1,'Logging::Logger']]],
   ['init_4',['init',['../../libpalliate/namespacedetail.html#ad417d5a0e5c6b6fd05004c05b0516408',1,'detail']]],
   ['init_5fgl_5',['init_gl',['../classUI_1_1GL_1_1Renderer.html#ad9cfc023558bef3e7b73f86b2ef9be5d',1,'UI::GL::Renderer']]],
   ['initialize_6',['initialize',['../classUI_1_1GL_1_1Display.html#a50ef8eacde7f4fa14ad58c6f24248743',1,'UI::GL::Display::initialize()'],['../classUI_1_1GL_1_1Window.html#a84214e16bea4d91cfeb214b65a9d10d6',1,'UI::GL::Window::initialize()']]],

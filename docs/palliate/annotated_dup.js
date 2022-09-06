@@ -11,7 +11,8 @@ var annotated_dup =
       [ "Annotated", "../libpalliate/structLogging_1_1Annotated.html", "structLogging_1_1Annotated" ],
       [ "Endpoint", "../libpalliate/classLogging_1_1Endpoint.html", "classLogging_1_1Endpoint" ],
       [ "Logger", "../libpalliate/classLogging_1_1Logger.html", "classLogging_1_1Logger" ],
-      [ "message", "../libpalliate/structLogging_1_1message.html", "structLogging_1_1message" ]
+      [ "message", "../libpalliate/structLogging_1_1message.html", "structLogging_1_1message" ],
+      [ "Printer", "../libpalliate/classLogging_1_1Printer.html", "classLogging_1_1Printer" ]
     ] ],
     [ "UI", "namespaceUI.html", [
       [ "AppIndicator", "namespaceUI_1_1AppIndicator.html", [
@@ -26,7 +27,6 @@ var annotated_dup =
       [ "Control", "../libpalliate/classUI_1_1Control.html", "classUI_1_1Control" ],
       [ "Renderer", "../libpalliate/classUI_1_1Renderer.html", "classUI_1_1Renderer" ],
       [ "Tray", "../libpalliate/classUI_1_1Tray.html", "classUI_1_1Tray" ],
-      [ "UI", "../libpalliate/classUI_1_1UI.html", "classUI_1_1UI" ],
       [ "Window", "../libpalliate/classUI_1_1Window.html", "classUI_1_1Window" ]
     ] ],
     [ "Application", "classApplication.html", "classApplication" ],

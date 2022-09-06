@@ -1,7 +1,7 @@
 var searchData=
 [
   ['accept_0',['accept',['../../libpalliate/classRPC_1_1Server.html#a8e0c5dcec5f72fce2e929e28b24f4e24',1,'RPC::Server']]],
-  ['add_1',['add',['../../libpalliate/classtransport_1_1Server.html#a22201fbd657b6081e4b3676e081c7bc5',1,'transport::Server::add()'],['../../libpalliate/classServers.html#a23e9d9aa1dd071b071e21f60c63eb339',1,'Servers::add()']]],
+  ['add_1',['add',['../../libpalliate/classtransport_1_1Server.html#a22201fbd657b6081e4b3676e081c7bc5',1,'transport::Server::add()'],['../../libpalliate/classServers.html#a23e9d9aa1dd071b071e21f60c63eb339',1,'Servers::add()'],['../../libpalliate/classAuthentication_1_1Token.html#a66c483dd9150f61b1d41bf296bd15c4b',1,'Authentication::Token::add()']]],
   ['add_5freader_2',['add_reader',['../../libpalliate/classatomic__semaphore.html#abe8bec37943f99266771d7798026a072',1,'atomic_semaphore']]],
   ['alloc_3',['alloc',['../../libpalliate/classmemory_1_1manager.html#a05ea67584c8ec004fce63a65a2130e40',1,'memory::manager::alloc()'],['../../libpalliate/classmemory_1_1memory__map.html#a23ce898098f5305ec27a3371ffe9c952',1,'memory::memory_map::alloc()']]],
   ['annotated_4',['Annotated',['../../libpalliate/structLogging_1_1Annotated.html#a220483d30c99b26a5295011e68e22ef2',1,'Logging::Annotated']]],

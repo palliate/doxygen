@@ -5,8 +5,10 @@ var searchData=
   ['plugin_2eh_2',['plugin.h',['../../libpalliate/plugin_8h.html',1,'']]],
   ['plugin_5fmanager_2ecpp_3',['plugin_manager.cpp',['../plugin__manager_8cpp.html',1,'']]],
   ['plugin_5fmanager_2eh_4',['plugin_manager.h',['../plugin__manager_8h.html',1,'']]],
-  ['producer_2ecpp_5',['producer.cpp',['../../libpalliate/producer_8cpp.html',1,'']]],
-  ['producer_2eh_6',['producer.h',['../../libpalliate/producer_8h.html',1,'']]],
-  ['psk_2ecpp_7',['psk.cpp',['../../libpalliate/psk_8cpp.html',1,'']]],
-  ['psk_2eh_8',['psk.h',['../../libpalliate/psk_8h.html',1,'']]]
+  ['printer_2ecpp_5',['printer.cpp',['../../libpalliate/printer_8cpp.html',1,'']]],
+  ['printer_2eh_6',['printer.h',['../../libpalliate/printer_8h.html',1,'']]],
+  ['producer_2ecpp_7',['producer.cpp',['../../libpalliate/producer_8cpp.html',1,'']]],
+  ['producer_2eh_8',['producer.h',['../../libpalliate/producer_8h.html',1,'']]],
+  ['psk_2ecpp_9',['psk.cpp',['../../libpalliate/psk_8cpp.html',1,'']]],
+  ['psk_2eh_10',['psk.h',['../../libpalliate/psk_8h.html',1,'']]]
 ];

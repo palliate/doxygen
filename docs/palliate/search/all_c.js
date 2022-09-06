@@ -33,12 +33,11 @@ var searchData=
   ['message_5fqueue_2ecpp_30',['message_queue.cpp',['../../libpalliate/message__queue_8cpp.html',1,'']]],
   ['message_5fqueue_2eh_31',['message_queue.h',['../../libpalliate/message__queue_8h.html',1,'']]],
   ['messagequeue_32',['MessageQueue',['../../libpalliate/classMessageQueue.html#a41e28dbf3f7713110fa2ce2ec08176dd',1,'MessageQueue::MessageQueue()'],['../../libpalliate/classMessageQueue.html',1,'MessageQueue&lt; typename T &gt;']]],
-  ['min_5flevel_33',['min_level',['../../libpalliate/classLogging_1_1Logger.html#a312789da314b000b39f8ebcd4960b707',1,'Logging::Logger']]],
-  ['minimized_34',['minimized',['../../libpalliate/classUI_1_1Window.html#ac5832f31e57a6720a584b2c2608b641aaf1c4a25e572ac83716523f9b42f4b164',1,'UI::Window']]],
-  ['missed_35',['missed',['../../libpalliate/classatomic__queue.html#af232f774d78c1a601f8bf0a89288d404',1,'atomic_queue::missed()'],['../../libpalliate/classatomic__reqresp.html#ae02659f7abad946880b663a74ae1e084',1,'atomic_reqresp::missed()'],['../../libpalliate/classatomic__semaphore.html#abea314ab2dd8107ed882495cff0d8231',1,'atomic_semaphore::missed()']]],
-  ['module_36',['Module',['../../libpalliate/namespaceModule.html',1,'']]],
-  ['move_37',['move',['../../libpalliate/classUI_1_1Window.html#a136b93b2a757a4236a8b08da0a75fb07',1,'UI::Window::move()'],['../classUI_1_1GL_1_1Window.html#a6de3576e5ff96d994f8bf8abe4a57522',1,'UI::GL::Window::move(int x, int y) override']]],
-  ['moved_38',['moved',['../classUI_1_1GL_1_1Window.html#a0e265a034e574e1d148c93aeb21d7651',1,'UI::GL::Window']]],
-  ['mpsc_39',['mpsc',['../../libpalliate/classmpsc.html',1,'mpsc&lt; typename T, unsigned size &gt;'],['../../libpalliate/structmpsc_1_1element__t.html',1,'mpsc']]],
-  ['mpsc_2eh_40',['mpsc.h',['../../libpalliate/mpsc_8h.html',1,'']]]
+  ['minimized_33',['minimized',['../../libpalliate/classUI_1_1Window.html#ac5832f31e57a6720a584b2c2608b641aaf1c4a25e572ac83716523f9b42f4b164',1,'UI::Window']]],
+  ['missed_34',['missed',['../../libpalliate/classatomic__queue.html#af232f774d78c1a601f8bf0a89288d404',1,'atomic_queue::missed()'],['../../libpalliate/classatomic__reqresp.html#ae02659f7abad946880b663a74ae1e084',1,'atomic_reqresp::missed()'],['../../libpalliate/classatomic__semaphore.html#abea314ab2dd8107ed882495cff0d8231',1,'atomic_semaphore::missed()']]],
+  ['module_35',['Module',['../../libpalliate/namespaceModule.html',1,'']]],
+  ['move_36',['move',['../../libpalliate/classUI_1_1Window.html#a136b93b2a757a4236a8b08da0a75fb07',1,'UI::Window::move()'],['../classUI_1_1GL_1_1Window.html#a6de3576e5ff96d994f8bf8abe4a57522',1,'UI::GL::Window::move(int x, int y) override']]],
+  ['moved_37',['moved',['../classUI_1_1GL_1_1Window.html#a0e265a034e574e1d148c93aeb21d7651',1,'UI::GL::Window']]],
+  ['mpsc_38',['mpsc',['../../libpalliate/classmpsc.html',1,'mpsc&lt; typename T, unsigned size &gt;'],['../../libpalliate/structmpsc_1_1element__t.html',1,'mpsc']]],
+  ['mpsc_2eh_39',['mpsc.h',['../../libpalliate/mpsc_8h.html',1,'']]]
 ];

@@ -31,16 +31,16 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a target="_parent" xlink:href="../libpalliate/classUtil_1_1configurable.html" xlink:title=" ">
+<g id="a_node2"><a target="_parent" xlink:href="../libpalliate/classUtil_1_1Configurable.html" xlink:title=" ">
 <polygon fill="none" stroke="black" points="0,-177 0,-278 129,-278 129,-177 0,-177"/>
-<text text-anchor="start" x="8" y="-266" font-family="Helvetica,sans-Serif" font-size="10.00">Util::configurable</text>
+<text text-anchor="start" x="8" y="-266" font-family="Helvetica,sans-Serif" font-size="10.00">Util::Configurable</text>
 <text text-anchor="middle" x="64.5" y="-255" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; config::Application &gt;</text>
 <polyline fill="none" stroke="black" points="0,-248 129,-248 "/>
 <text text-anchor="start" x="8" y="-236" font-family="Helvetica,sans-Serif" font-size="10.00">+ config</text>
 <text text-anchor="start" x="8" y="-225" font-family="Helvetica,sans-Serif" font-size="10.00"># _lock</text>
 <polyline fill="none" stroke="black" points="0,-218 129,-218 "/>
-<text text-anchor="start" x="8" y="-206" font-family="Helvetica,sans-Serif" font-size="10.00">+ configurable()</text>
-<text text-anchor="start" x="8" y="-195" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~configurable()</text>
+<text text-anchor="start" x="8" y="-206" font-family="Helvetica,sans-Serif" font-size="10.00">+ Configurable()</text>
+<text text-anchor="start" x="8" y="-195" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~Configurable()</text>
 <text text-anchor="start" x="8" y="-184" font-family="Helvetica,sans-Serif" font-size="10.00">+ lock()</text>
 </a>
 </g>

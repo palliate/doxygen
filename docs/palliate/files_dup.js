@@ -29,6 +29,8 @@ var files_dup =
     [ "logger.cpp", "../libpalliate/logger_8cpp.html", null ],
     [ "logger.h", "../libpalliate/logger_8h.html", null ],
     [ "message.h", "../libpalliate/message_8h.html", null ],
+    [ "printer.cpp", "../libpalliate/printer_8cpp.html", null ],
+    [ "printer.h", "../libpalliate/printer_8h.html", null ],
     [ "memory/client.cpp", "../libpalliate/memory_2client_8cpp.html", null ],
     [ "rpc/client.cpp", "../libpalliate/rpc_2client_8cpp.html", null ],
     [ "rpc/shm/client.cpp", "../libpalliate/rpc_2shm_2client_8cpp.html", null ],

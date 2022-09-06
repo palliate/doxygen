@@ -15,11 +15,11 @@ var hierarchy =
     [ "RPC::Client", "../libpalliate/classRPC_1_1Client.html", null ],
     [ "RPC::TCP::Client", "../libpalliate/classRPC_1_1TCP_1_1Client.html", null ],
     [ "Module::Factory::Collection", "../libpalliate/classModule_1_1Factory_1_1Collection.html", null ],
-    [ "Util::configurable< typename T >", "../libpalliate/classUtil_1_1configurable.html", null ],
-    [ "Util::configurable< config::Application >", "../libpalliate/classUtil_1_1configurable.html", [
+    [ "Util::Configurable< typename T >", "../libpalliate/classUtil_1_1Configurable.html", null ],
+    [ "Util::Configurable< config::Application >", "../libpalliate/classUtil_1_1Configurable.html", [
       [ "Application", "classApplication.html", null ]
     ] ],
-    [ "Util::configurable< config::plugins >", "../libpalliate/classUtil_1_1configurable.html", [
+    [ "Util::Configurable< config::plugins >", "../libpalliate/classUtil_1_1Configurable.html", [
       [ "plugin_manager", "classplugin__manager.html", null ]
     ] ],
     [ "Configuration", "classConfiguration.html", null ],
@@ -65,6 +65,7 @@ var hierarchy =
       [ "vtty", "classvtty.html", null ],
       [ "wm", "classwm.html", null ]
     ] ],
+    [ "Logging::Printer", "../libpalliate/classLogging_1_1Printer.html", null ],
     [ "Util::rect", "../libpalliate/structUtil_1_1rect.html", null ],
     [ "Endpoint::Registrar", null, [
       [ "Logging::Endpoints::Bridge", "classLogging_1_1Endpoints_1_1Bridge.html", null ],
@@ -99,7 +100,6 @@ var hierarchy =
     [ "RPC::TCP::Server", "../libpalliate/classRPC_1_1TCP_1_1Server.html", null ],
     [ "Servers", "../libpalliate/classServers.html", null ],
     [ "UI::Tray", "../libpalliate/classUI_1_1Tray.html", null ],
-    [ "UI::UI", "../libpalliate/classUI_1_1UI.html", null ],
     [ "Util::uuid", "../libpalliate/structUtil_1_1uuid.html", null ],
     [ "UI::Window", "../libpalliate/classUI_1_1Window.html", [
       [ "UI::GL::Window", "classUI_1_1GL_1_1Window.html", [

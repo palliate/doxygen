@@ -5,6 +5,7 @@ var namespaceLogging =
     [ "Endpoint", "../libpalliate/classLogging_1_1Endpoint.html", "classLogging_1_1Endpoint" ],
     [ "Logger", "../libpalliate/classLogging_1_1Logger.html", "classLogging_1_1Logger" ],
     [ "message", "../libpalliate/structLogging_1_1message.html", "structLogging_1_1message" ],
+    [ "Printer", "../libpalliate/classLogging_1_1Printer.html", "classLogging_1_1Printer" ],
     [ "Severity", "../libpalliate/namespaceLogging.html#aa0aabbf5046236bd92698ad87c9ab55a", null ],
     [ "debug", "../libpalliate/namespaceLogging.html#aa0aabbf5046236bd92698ad87c9ab55aa3e0930ddd5f775c603db6bd89f8b1b57", null ],
     [ "error", "../libpalliate/namespaceLogging.html#aa0aabbf5046236bd92698ad87c9ab55aaceeb027b8c598adb9e3af1696a163aea", null ],
