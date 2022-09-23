@@ -28,8 +28,9 @@ var searchData=
   ['token_2eh_25',['token.h',['../token_8h.html',1,'']]],
   ['toml_26',['toml',['../namespacetoml.html',1,'']]],
   ['toml_2eh_27',['toml.h',['../toml_8h.html',1,'']]],
-  ['transport_28',['transport',['../namespacetransport.html',1,'']]],
-  ['traverse_29',['traverse',['../structpatricia_1_1node__t.html#aecf86dbf8935ae47f32522f771ceff9d',1,'patricia::node_t']]],
-  ['tray_30',['Tray',['../classUI_1_1Tray.html#a451c4e47115ab11b1a4789b5b75f87b0',1,'UI::Tray::Tray()'],['../classUI_1_1Tray.html',1,'UI::Tray']]],
-  ['tray_2eh_31',['tray.h',['../tray_8h.html',1,'']]]
+  ['toml_5fvalue_28',['toml_value',['../structUtil_1_1Config.html#a78c1d064e45d29f3d0e9e57275bc9c89',1,'Util::Config']]],
+  ['transport_29',['transport',['../namespacetransport.html',1,'']]],
+  ['traverse_30',['traverse',['../structpatricia_1_1node__t.html#aecf86dbf8935ae47f32522f771ceff9d',1,'patricia::node_t']]],
+  ['tray_31',['Tray',['../classUI_1_1Tray.html#a451c4e47115ab11b1a4789b5b75f87b0',1,'UI::Tray::Tray()'],['../classUI_1_1Tray.html',1,'UI::Tray']]],
+  ['tray_2eh_32',['tray.h',['../tray_8h.html',1,'']]]
 ];

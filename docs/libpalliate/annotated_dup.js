@@ -55,6 +55,9 @@ var annotated_dup =
       [ "Window", "classUI_1_1Window.html", "classUI_1_1Window" ]
     ] ],
     [ "Util", "namespaceUtil.html", [
+      [ "Build", "structUtil_1_1Build.html", "structUtil_1_1Build" ],
+      [ "CliOption", "structUtil_1_1CliOption.html", "structUtil_1_1CliOption" ],
+      [ "Config", "structUtil_1_1Config.html", "structUtil_1_1Config" ],
       [ "Configurable", "classUtil_1_1Configurable.html", "classUtil_1_1Configurable" ],
       [ "rect", "structUtil_1_1rect.html", "structUtil_1_1rect" ],
       [ "uuid", "structUtil_1_1uuid.html", "structUtil_1_1uuid" ]

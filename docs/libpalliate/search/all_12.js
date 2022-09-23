@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['send_0',['send',['../classtransport_1_1Client.html#a02cb597402a3e22d4cd24386733d5a24',1,'transport::Client::send()'],['../classtransport_1_1TCP_1_1Client.html#ac124e47c22ae9703516bdcb2040a5ae5',1,'transport::TCP::Client::send()']]],
+  ['send_0',['send',['../classtransport_1_1TCP_1_1Client.html#ac124e47c22ae9703516bdcb2040a5ae5',1,'transport::TCP::Client::send()'],['../classtransport_1_1Client.html#a02cb597402a3e22d4cd24386733d5a24',1,'transport::Client::send()']]],
   ['server_1',['server',['../classmemory_1_1server.html',1,'memory']]],
   ['server_2',['Server',['../classRPC_1_1Server.html',1,'RPC::Server'],['../classRPC_1_1TCP_1_1Server.html',1,'RPC::TCP::Server']]],
-  ['server_3',['server',['../classmemory_1_1server.html#afc4dec957a29610da254bd18c58d6d8a',1,'memory::server::server()'],['../structRPC_1_1Context.html#a12974c46a44adb112bc1da6d09b694f9a5c122d85a5b928ed485449afe7dd05ec',1,'RPC::Context::server()']]],
-  ['server_4',['Server',['../classtransport_1_1TCP_1_1Server.html#a27e80eeedc337d15b231254ad55dbf85',1,'transport::TCP::Server::Server()'],['../classtransport_1_1Server.html#a39a4d29cad9d51f83410a2074c557fe7',1,'transport::Server::Server()'],['../classRPC_1_1TCP_1_1Server.html#a3111b13e4cd1847ae669bc9ee240d246',1,'RPC::TCP::Server::Server()'],['../classRPC_1_1Server.html#a0eccd57fe950224d66a3f01bc1bd076c',1,'RPC::Server::Server()'],['../classtransport_1_1Server.html',1,'transport::Server'],['../classtransport_1_1TCP_1_1Server.html',1,'transport::TCP::Server']]],
+  ['server_3',['server',['../structRPC_1_1Context.html#a12974c46a44adb112bc1da6d09b694f9a5c122d85a5b928ed485449afe7dd05ec',1,'RPC::Context::server()'],['../classmemory_1_1server.html#afc4dec957a29610da254bd18c58d6d8a',1,'memory::server::server()']]],
+  ['server_4',['Server',['../classRPC_1_1Server.html#a0eccd57fe950224d66a3f01bc1bd076c',1,'RPC::Server::Server()'],['../classRPC_1_1TCP_1_1Server.html#a3111b13e4cd1847ae669bc9ee240d246',1,'RPC::TCP::Server::Server()'],['../classtransport_1_1Server.html#a39a4d29cad9d51f83410a2074c557fe7',1,'transport::Server::Server()'],['../classtransport_1_1TCP_1_1Server.html#a27e80eeedc337d15b231254ad55dbf85',1,'transport::TCP::Server::Server()'],['../classtransport_1_1Server.html',1,'transport::Server'],['../classtransport_1_1TCP_1_1Server.html',1,'transport::TCP::Server']]],
   ['servers_5',['Servers',['../classServers.html',1,'']]],
   ['servers_2ecpp_6',['servers.cpp',['../servers_8cpp.html',1,'']]],
   ['servers_2eh_7',['servers.h',['../servers_8h.html',1,'']]],
@@ -12,12 +12,14 @@ var searchData=
   ['set_5fevent_9',['set_event',['../classServers.html#a79ad2cb8b9fa26f87845cf14af6225db',1,'Servers::set_event()'],['../classtransport_1_1Server.html#ada48f2e99dce8ba31ad091277d211792',1,'transport::Server::set_event()']]],
   ['setup_10',['setup',['../classRPC_1_1TCP_1_1Server.html#a9ad00d184905d5221c98314198871dd1',1,'RPC::TCP::Server::setup()'],['../classrunnable.html#a05762391a8d79adab6e6972ed8c97471',1,'runnable::setup()']]],
   ['severity_11',['Severity',['../namespaceLogging.html#aa0aabbf5046236bd92698ad87c9ab55a',1,'Logging']]],
-  ['side_12',['side',['../structRPC_1_1Context.html#a979ec59aeb05182bd186a305e2d5c5d8',1,'RPC::Context']]],
-  ['size_13',['size',['../classmemory_1_1manager.html#a85a29c93505883c92042b0b27c40f421',1,'memory::manager::size()'],['../classModule_1_1Factory_1_1Collection.html#a90b854ed8765bd9f31af0a33cc0d94ba',1,'Module::Factory::Collection::size()']]],
-  ['size_5fto_5fpages_14',['size_to_pages',['../classmemory_1_1manager.html#ad78b9374780721101350847b5bddaba8',1,'memory::manager']]],
-  ['sleep_5ffor_15',['sleep_for',['../namespaceUtil.html#a9a407cb32ff754596b25a37b3b211f05',1,'Util']]],
-  ['socket_16',['SOCKET',['../transport_2tcp_2client_8h.html#aff55fe551a9992a54ec54621c524d0a4',1,'SOCKET():&#160;client.h'],['../transport_2tcp_2server_8h.html#aff55fe551a9992a54ec54621c524d0a4',1,'SOCKET():&#160;server.h']]],
-  ['stop_17',['stop',['../structThreading_1_1Runnable.html#aff29d2294700a7edd06eba0e0618c60f',1,'Threading::Runnable::stop()'],['../classrunnable.html#ab7117095b1382678c42c4979871f1d25',1,'runnable::stop()']]],
-  ['stream_18',['stream',['../structRPC_1_1Context.html#ad5d24a2b8a93694bebb9017d0006408d',1,'RPC::Context']]],
-  ['string_2eh_19',['string.h',['../string_8h.html',1,'']]]
+  ['shorthand_12',['shorthand',['../structUtil_1_1CliOption.html#aa75323705b8fb1ed4d8be14361877555',1,'Util::CliOption']]],
+  ['side_13',['side',['../structRPC_1_1Context.html#a979ec59aeb05182bd186a305e2d5c5d8',1,'RPC::Context']]],
+  ['size_14',['size',['../classmemory_1_1manager.html#a85a29c93505883c92042b0b27c40f421',1,'memory::manager::size()'],['../classModule_1_1Factory_1_1Collection.html#a90b854ed8765bd9f31af0a33cc0d94ba',1,'Module::Factory::Collection::size()']]],
+  ['size_5fto_5fpages_15',['size_to_pages',['../classmemory_1_1manager.html#ad78b9374780721101350847b5bddaba8',1,'memory::manager']]],
+  ['sleep_5ffor_16',['sleep_for',['../namespaceUtil.html#a9a407cb32ff754596b25a37b3b211f05',1,'Util']]],
+  ['socket_17',['SOCKET',['../transport_2tcp_2client_8h.html#aff55fe551a9992a54ec54621c524d0a4',1,'SOCKET():&#160;client.h'],['../transport_2tcp_2server_8h.html#aff55fe551a9992a54ec54621c524d0a4',1,'SOCKET():&#160;server.h']]],
+  ['stop_18',['stop',['../structThreading_1_1Runnable.html#aff29d2294700a7edd06eba0e0618c60f',1,'Threading::Runnable::stop()'],['../classrunnable.html#ab7117095b1382678c42c4979871f1d25',1,'runnable::stop()']]],
+  ['str_19',['str',['../structUtil_1_1Build.html#a00064eb2b637bb6aebd1788e99f49c6c',1,'Util::Build']]],
+  ['stream_20',['stream',['../structRPC_1_1Context.html#ad5d24a2b8a93694bebb9017d0006408d',1,'RPC::Context']]],
+  ['string_2eh_21',['string.h',['../string_8h.html',1,'']]]
 ];

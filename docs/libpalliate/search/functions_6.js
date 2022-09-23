@@ -8,5 +8,6 @@ var searchData=
   ['find_5fnext_5',['find_next',['../structpatricia_1_1leaf__t.html#a446834e0e631d1c999ba35069f76abef',1,'patricia::leaf_t']]],
   ['find_5fprev_6',['find_prev',['../structpatricia_1_1leaf__t.html#ad991525fb548a6e07f5af4f6195e1cf2',1,'patricia::leaf_t']]],
   ['finish_7',['finish',['../classatomic__cr_1_1element.html#a37917d3d557260bb28b606c1b7026871',1,'atomic_cr::element::finish()'],['../classmpsc.html#a3212a34b60836d62b0e1c21b7c442e0a',1,'mpsc::finish()']]],
-  ['free_8',['free',['../classmemory_1_1memory__map.html#a5fde5927f496d61139f12be645cb5d9e',1,'memory::memory_map::free()'],['../classmemory_1_1manager.html#a1ad95f4ed158d22aa3e978982aaea66c',1,'memory::manager::free()']]]
+  ['free_8',['free',['../classmemory_1_1memory__map.html#a5fde5927f496d61139f12be645cb5d9e',1,'memory::memory_map::free()'],['../classmemory_1_1manager.html#a1ad95f4ed158d22aa3e978982aaea66c',1,'memory::manager::free()']]],
+  ['from_5ftoml_9',['from_toml',['../structUtil_1_1Config.html#a4b462cc408f101818ae93ea3005753ec',1,'Util::Config']]]
 ];

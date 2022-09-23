@@ -24,5 +24,6 @@ var searchData=
   ['floating_21',['floating',['../classUI_1_1Window.html#ac5832f31e57a6720a584b2c2608b641aa1152e3c59bf7a6795a30fa25506de6f5',1,'UI::Window']]],
   ['focused_22',['focused',['../classUI_1_1Window.html#ac5832f31e57a6720a584b2c2608b641aa02c5c173b312bd47a5f46ef4966b13d7',1,'UI::Window']]],
   ['free_23',['free',['../classmemory_1_1memory__map.html#a5fde5927f496d61139f12be645cb5d9e',1,'memory::memory_map::free()'],['../classmemory_1_1manager.html#a1ad95f4ed158d22aa3e978982aaea66c',1,'memory::manager::free()']]],
-  ['functype_24',['FuncType',['../classModule_1_1Factory.html#abc7dec66e36188f13c3258a0e36dadf7',1,'Module::Factory']]]
+  ['from_5ftoml_24',['from_toml',['../structUtil_1_1Config.html#a4b462cc408f101818ae93ea3005753ec',1,'Util::Config']]],
+  ['functype_25',['FuncType',['../classModule_1_1Factory.html#abc7dec66e36188f13c3258a0e36dadf7',1,'Module::Factory']]]
 ];

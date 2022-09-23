@@ -13,5 +13,5 @@ var searchData=
   ['respond_10',['respond',['../classatomic__cr_1_1element.html#a950707ba2d933f0682e61e674a32cd60',1,'atomic_cr::element']]],
   ['run_11',['run',['../classmemory_1_1server.html#a66bd9eb32455d0581abe2c82dda4dc87',1,'memory::server::run()'],['../structThreading_1_1Runnable.html#a88b64a1599d1929c7fd75c72bc9ee02f',1,'Threading::Runnable::run()'],['../classrunnable.html#a42e0a52707ace5412561ed203467f8e9',1,'runnable::run()'],['../classrunnable.html#af6c84adda2b18930d439cecaf4805dae',1,'runnable::run(callback_f _callback)']]],
   ['runnable_12',['runnable',['../classrunnable.html#a8fd64913596654286fc52e92f247b6f6',1,'runnable']]],
-  ['runnable_13',['Runnable',['../structThreading_1_1Runnable.html#a988d1f733c8adb48e22ab7cd80486aa2',1,'Threading::Runnable::Runnable(std::string const &amp;_name)'],['../structThreading_1_1Runnable.html#a2d141d20efa880bf83600e40860c6b80',1,'Threading::Runnable::Runnable(toml::value const &amp;node, std::string const &amp;key, auto &amp;&amp;ctor)']]]
+  ['runnable_13',['Runnable',['../structThreading_1_1Runnable.html#aea1f64f112f6e32315027ccad6b283b2',1,'Threading::Runnable::Runnable(std::string const &amp;name)'],['../structThreading_1_1Runnable.html#a2d141d20efa880bf83600e40860c6b80',1,'Threading::Runnable::Runnable(toml::value const &amp;node, std::string const &amp;key, auto &amp;&amp;ctor)']]]
 ];
