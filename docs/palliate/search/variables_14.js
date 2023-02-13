@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['value_0',['value',['../../libpalliate/structUtil_1_1uuid.html#a328015eda6c23e50cc2f9c982fdb6fb4',1,'Util::uuid']]],
-  ['vao_1',['VAO',['../classUI_1_1GL_1_1Window.html#a4b484e99af4ed651b5a14fbab1b61158',1,'UI::GL::Window']]],
-  ['vbo_2',['VBO',['../classUI_1_1GL_1_1Window.html#ac1a67b14d4e24587da496965dc71720a',1,'UI::GL::Window']]],
-  ['visible_3',['visible',['../../libpalliate/classUI_1_1Window.html#ac5832f31e57a6720a584b2c2608b641aa075eafb7f6f08885fd282130fbe7e681',1,'UI::Window']]]
+  ['unused_0',['UNUSED',['../../libpalliate/classatomic__cr.html#a805df950e26e64524d14bf44c2aa7f6faa342d63b4bcba020a3b172c580dd4dc6',1,'atomic_cr::UNUSED()'],['../../libpalliate/namespacememory.html#a5489f7fba409dae5923725a7831d5026a8ac40d941598ae0db2ec23c50389c675',1,'memory::UNUSED()']]],
+  ['used_1',['used',['../../libpalliate/structmpsc_1_1element__t.html#a66bae648e15710837a6963f676942e39',1,'mpsc::element_t']]],
+  ['uuid_2',['uuid',['../../libpalliate/namespacetransport.html#ad81281f4f8754e5e329167abb7219623',1,'transport']]]
 ];

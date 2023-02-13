@@ -10,5 +10,6 @@ var searchData=
   ['producer_2ecpp_7',['producer.cpp',['../../libpalliate/producer_8cpp.html',1,'']]],
   ['producer_2eh_8',['producer.h',['../../libpalliate/producer_8h.html',1,'']]],
   ['psk_2ecpp_9',['psk.cpp',['../../libpalliate/psk_8cpp.html',1,'']]],
-  ['psk_2eh_10',['psk.h',['../../libpalliate/psk_8h.html',1,'']]]
+  ['psk_2eh_10',['psk.h',['../../libpalliate/psk_8h.html',1,'']]],
+  ['readme_2emd_11',['README.md',['../plugins_2capture_2README_8md.html',1,'(Global Namespace)'],['../plugins_2input_2README_8md.html',1,'(Global Namespace)'],['../plugins_2README_8md.html',1,'(Global Namespace)'],['../plugins_2systemd_2logging_2README_8md.html',1,'(Global Namespace)'],['../plugins_2systemd_2README_8md.html',1,'(Global Namespace)'],['../plugins_2vtty_2README_8md.html',1,'(Global Namespace)'],['../plugins_2wm_2README_8md.html',1,'(Global Namespace)']]]
 ];

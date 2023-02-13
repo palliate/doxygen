@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['manager_0',['manager',['../../libpalliate/classmemory_1_1manager.html',1,'memory']]],
-  ['memory_5fmap_1',['memory_map',['../../libpalliate/classmemory_1_1memory__map.html',1,'memory']]],
-  ['message_2',['message',['../../libpalliate/structLogging_1_1message.html',1,'Logging']]],
-  ['messagequeue_3',['MessageQueue',['../../libpalliate/classMessageQueue.html',1,'']]],
-  ['mpsc_4',['mpsc',['../../libpalliate/classmpsc.html',1,'']]]
+  ['leaf_5ft_0',['leaf_t',['../../libpalliate/structpatricia_1_1leaf__t.html',1,'patricia']]],
+  ['library_1',['library',['../classlibrary.html',1,'']]],
+  ['logger_2',['Logger',['../../libpalliate/classLogging_1_1Logger.html',1,'Logging']]]
 ];

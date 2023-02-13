@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['terminal_0',['Terminal',['../classLogging_1_1Endpoints_1_1Terminal.html',1,'Logging::Endpoints']]],
-  ['testmod_1',['testmod',['../classtestmod.html',1,'']]],
-  ['token_2',['Token',['../../libpalliate/classAuthentication_1_1Token.html',1,'Authentication']]],
-  ['tray_3',['Tray',['../classUI_1_1AppIndicator_1_1Tray.html',1,'UI::AppIndicator::Tray'],['../../libpalliate/classUI_1_1Tray.html',1,'UI::Tray']]]
+  ['serial_0',['Serial',['../classLogging_1_1Endpoints_1_1Serial.html',1,'Logging::Endpoints']]],
+  ['server_1',['server',['../../libpalliate/classmemory_1_1server.html',1,'memory']]],
+  ['server_2',['Server',['../../libpalliate/classRPC_1_1Server.html',1,'RPC::Server'],['../../libpalliate/classRPC_1_1TCP_1_1Server.html',1,'RPC::TCP::Server'],['../../libpalliate/classtransport_1_1Server.html',1,'transport::Server'],['../../libpalliate/classtransport_1_1TCP_1_1Server.html',1,'transport::TCP::Server']]],
+  ['servers_3',['Servers',['../../libpalliate/classServers.html',1,'']]],
+  ['systemd_4',['Systemd',['../classLogging_1_1Endpoints_1_1Systemd.html',1,'Logging::Endpoints']]],
+  ['systemd_5',['systemd',['../classsystemd.html',1,'']]]
 ];

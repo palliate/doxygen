@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['height_0',['height',['../../libpalliate/structUtil_1_1rect.html#a2b5db49a797f69b07437d45dbdf06244',1,'Util::rect']]]
+  ['git_0',['git',['../../libpalliate/structUtil_1_1Build.html#a5bffa94b6e83f9ccdd94ebacb877fc7b',1,'Util::Build']]]
 ];

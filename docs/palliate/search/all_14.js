@@ -10,7 +10,7 @@ var searchData=
   ['ui_2eh_7',['ui.h',['../../libpalliate/ui_8h.html',1,'']]],
   ['unlink_8',['unlink',['../../libpalliate/structmemory_1_1node__t.html#acf294062229d0048ebb2bd0c228e67fb',1,'memory::node_t']]],
   ['unload_9',['unload',['../classplugin__manager.html#ab5bdcabee3ddfd03fbe6823f4df638e5',1,'plugin_manager::unload(std::string const &amp;mod_name)'],['../classplugin__manager.html#a04f4fd892d8f09136863cf0e9d42d978',1,'plugin_manager::unload(library_ptr mod)']]],
-  ['unused_10',['UNUSED',['../../libpalliate/classatomic__cr.html#a805df950e26e64524d14bf44c2aa7f6faa342d63b4bcba020a3b172c580dd4dc6',1,'atomic_cr::UNUSED()'],['../../libpalliate/namespacememory.html#a5489f7fba409dae5923725a7831d5026a8ac40d941598ae0db2ec23c50389c675',1,'memory::UNUSED()']]],
+  ['unused_10',['UNUSED',['../../libpalliate/namespacememory.html#a5489f7fba409dae5923725a7831d5026a8ac40d941598ae0db2ec23c50389c675',1,'memory::UNUSED()'],['../../libpalliate/classatomic__cr.html#a805df950e26e64524d14bf44c2aa7f6faa342d63b4bcba020a3b172c580dd4dc6',1,'atomic_cr::UNUSED()']]],
   ['used_11',['used',['../../libpalliate/structmpsc_1_1element__t.html#a66bae648e15710837a6963f676942e39',1,'mpsc::element_t']]],
   ['util_12',['Util',['../../libpalliate/namespaceUtil.html',1,'']]],
   ['util_2eh_13',['util.h',['../../libpalliate/util_8h.html',1,'']]],

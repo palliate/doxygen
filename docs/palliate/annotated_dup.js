@@ -53,7 +53,6 @@ var annotated_dup =
     [ "runnable", "../libpalliate/classrunnable.html", "classrunnable" ],
     [ "Servers", "../libpalliate/classServers.html", "classServers" ],
     [ "systemd", "classsystemd.html", "classsystemd" ],
-    [ "testmod", "classtestmod.html", "classtestmod" ],
     [ "vtty", "classvtty.html", "classvtty" ],
     [ "wm", "classwm.html", "classwm" ]
 ];

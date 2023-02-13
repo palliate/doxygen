@@ -26,6 +26,7 @@ var menudata={children:[
 {text:"Landing page",url:"../index.html"},
 {text:"Core library documentation",url:"../libpalliate/index.html"},
 {text:"Main Page",url:"index.html"},
+{text:"Related Pages",url:"pages.html"},
 {text:"Namespaces",url:"namespaces.html",children:[
 {text:"Namespace List",url:"namespaces.html"}]},
 {text:"Classes",url:"annotated.html",children:[

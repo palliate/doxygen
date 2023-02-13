@@ -7,11 +7,13 @@ var searchData=
   ['client_5fhandle_4',['client_handle',['../../libpalliate/classconsumer.html#adb9d8615889a66b56e3314aa39435af7',1,'consumer']]],
   ['clients_5',['clients',['../../libpalliate/classtransport_1_1Server.html#ac97cfe734bbc5710326b1c654924c8a3',1,'transport::Server']]],
   ['clients_5fmutex_6',['clients_mutex',['../../libpalliate/classtransport_1_1Server.html#a04297ce5a1931ffe5e9400437e1e5e29',1,'transport::Server']]],
-  ['config_7',['config',['../../libpalliate/classUtil_1_1Configurable.html#ad96ba7f83073d4002396fa263b70f8e0',1,'Util::Configurable::config()'],['../classConfiguration.html#a416517702541b3f86ed2fdbec26c7855',1,'Configuration::config()']]],
-  ['context_8',['context',['../../libpalliate/classRPC_1_1Client.html#a925e0b4161e7d3db17d7f44f06060347',1,'RPC::Client::context()'],['../../libpalliate/structRPC_1_1IO.html#a834f72f2a4bfd0f0543daab8fe5a999d',1,'RPC::IO::context()'],['../classUI_1_1GL_1_1Window.html#af73921bd18e8427b1aec125656af3cb1',1,'UI::GL::Window::context()']]],
-  ['contexts_9',['contexts',['../../libpalliate/classRPC_1_1Server.html#a780889679d417b2923c51a62d5424df4',1,'RPC::Server']]],
-  ['control_10',['control',['../../libpalliate/classproducer.html#aeae7d6b81d2341f72bd78ceb4e6067ac',1,'producer']]],
-  ['count_11',['count',['../../libpalliate/classatomic__cr.html#aec0e1e80414365959696930fc417960c',1,'atomic_cr']]],
-  ['current_5ficon_12',['current_icon',['../classUI_1_1GL_1_1Window.html#a7f66b438f671f701ab422ae8ca794b0f',1,'UI::GL::Window']]],
-  ['current_5ftitle_13',['current_title',['../classUI_1_1GL_1_1Window.html#a32ec3722b6265f4f8b6d15cee4bfe482',1,'UI::GL::Window']]]
+  ['commit_7',['commit',['../../libpalliate/structUtil_1_1Build_1_1Git.html#ad20a9e320515d6eba494b8af7345217b',1,'Util::Build::Git']]],
+  ['commit_5fshort_8',['commit_short',['../../libpalliate/structUtil_1_1Build_1_1Git.html#abe8ea11d377f2ee3be0f24abca86cddf',1,'Util::Build::Git']]],
+  ['config_9',['config',['../../libpalliate/classUtil_1_1Configurable.html#ad96ba7f83073d4002396fa263b70f8e0',1,'Util::Configurable::config()'],['../classConfiguration.html#a416517702541b3f86ed2fdbec26c7855',1,'Configuration::config()']]],
+  ['context_10',['context',['../../libpalliate/classRPC_1_1Client.html#a925e0b4161e7d3db17d7f44f06060347',1,'RPC::Client::context()'],['../../libpalliate/structRPC_1_1IO.html#a834f72f2a4bfd0f0543daab8fe5a999d',1,'RPC::IO::context()'],['../classUI_1_1GL_1_1Window.html#af73921bd18e8427b1aec125656af3cb1',1,'UI::GL::Window::context()']]],
+  ['contexts_11',['contexts',['../../libpalliate/classRPC_1_1Server.html#a780889679d417b2923c51a62d5424df4',1,'RPC::Server']]],
+  ['control_12',['control',['../../libpalliate/classproducer.html#aeae7d6b81d2341f72bd78ceb4e6067ac',1,'producer']]],
+  ['count_13',['count',['../../libpalliate/classatomic__cr.html#aec0e1e80414365959696930fc417960c',1,'atomic_cr']]],
+  ['current_5ficon_14',['current_icon',['../classUI_1_1GL_1_1Window.html#a7f66b438f671f701ab422ae8ca794b0f',1,'UI::GL::Window']]],
+  ['current_5ftitle_15',['current_title',['../classUI_1_1GL_1_1Window.html#a32ec3722b6265f4f8b6d15cee4bfe482',1,'UI::GL::Window']]]
 ];

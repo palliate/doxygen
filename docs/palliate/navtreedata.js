@@ -27,6 +27,25 @@ var NAVTREE =
   [ "palliate", "index.html", [
     [ "Landing page", "../index.html", null ],
     [ "Core library documentation", "../libpalliate/index.html", null ],
+    [ "control", "md____w_palliate_palliate_src_application_README.html", null ],
+    [ "configuration", "md____w_palliate_palliate_src_configuration_README.html", null ],
+    [ "linux", "md____w_palliate_palliate_src_ivshmem_platform_linux_README.html", null ],
+    [ "platform", "md____w_palliate_palliate_src_ivshmem_platform_README.html", null ],
+    [ "windows", "md____w_palliate_palliate_src_ivshmem_platform_windows_README.html", null ],
+    [ "ivshmem", "md____w_palliate_palliate_src_ivshmem_README.html", null ],
+    [ "logging", "md____w_palliate_palliate_src_logging_README.html", null ],
+    [ "plugin_manager", "md____w_palliate_palliate_src_plugin_manager_README.html", null ],
+    [ "app", "md____w_palliate_palliate_src_README.html", null ],
+    [ "glfw", "md____w_palliate_palliate_src_ui_gl_README.html", null ],
+    [ "renderer", "md____w_palliate_palliate_src_ui_README.html", null ],
+    [ "tray", "md____w_palliate_palliate_src_ui_tray_README.html", null ],
+    [ "capture", "md____w_palliate_palliate_plugins_capture_README.html", null ],
+    [ "input", "md____w_palliate_palliate_plugins_input_README.html", null ],
+    [ "plugins", "md____w_palliate_palliate_plugins_README.html", null ],
+    [ "logging", "md____w_palliate_palliate_plugins_systemd_logging_README.html", null ],
+    [ "systemd", "md____w_palliate_palliate_plugins_systemd_README.html", null ],
+    [ "vtty", "md____w_palliate_palliate_plugins_vtty_README.html", null ],
+    [ "wm", "md____w_palliate_palliate_plugins_wm_README.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ]
     ] ],
@@ -56,8 +75,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../index.html",
-"classUI_1_1Tray.html",
-"input_2plugin_8h.html"
+"classUI_1_1Renderer.html#ab024f4e22ef9f3bcefd2acc84c0f90c5",
+"ivshmem_8h.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

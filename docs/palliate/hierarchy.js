@@ -11,10 +11,13 @@ var hierarchy =
       [ "Authentication::PSK", "../libpalliate/classAuthentication_1_1PSK.html", null ],
       [ "Authentication::Token", "../libpalliate/classAuthentication_1_1Token.html", null ]
     ] ],
+    [ "Util::Build", "../libpalliate/structUtil_1_1Build.html", null ],
     [ "Cli", "classCli.html", null ],
     [ "RPC::Client", "../libpalliate/classRPC_1_1Client.html", null ],
     [ "RPC::TCP::Client", "../libpalliate/classRPC_1_1TCP_1_1Client.html", null ],
+    [ "Util::CliOption", "../libpalliate/structUtil_1_1CliOption.html", null ],
     [ "Module::Factory::Collection", "../libpalliate/classModule_1_1Factory_1_1Collection.html", null ],
+    [ "Util::Config", "../libpalliate/structUtil_1_1Config.html", null ],
     [ "Util::Configurable< typename T >", "../libpalliate/classUtil_1_1Configurable.html", null ],
     [ "Util::Configurable< config::Application >", "../libpalliate/classUtil_1_1Configurable.html", [
       [ "Application", "classApplication.html", null ]
@@ -42,6 +45,7 @@ var hierarchy =
     [ "Logging::Endpoint", "../libpalliate/classLogging_1_1Endpoint.html", null ],
     [ "RPC::ErrorHandler", "../libpalliate/structRPC_1_1ErrorHandler.html", null ],
     [ "Module::Factory< class Base, class... Args >", "../libpalliate/classModule_1_1Factory.html", null ],
+    [ "Util::Build::Git", "../libpalliate/structUtil_1_1Build_1_1Git.html", null ],
     [ "Threading::Info", "../libpalliate/structThreading_1_1Info.html", null ],
     [ "RPC::IO", "../libpalliate/structRPC_1_1IO.html", null ],
     [ "ivshmem", "../libpalliate/classivshmem.html", null ],
@@ -61,7 +65,6 @@ var hierarchy =
       [ "capture", "classcapture.html", null ],
       [ "input", "classinput.html", null ],
       [ "systemd", "classsystemd.html", null ],
-      [ "testmod", "classtestmod.html", null ],
       [ "vtty", "classvtty.html", null ],
       [ "wm", "classwm.html", null ]
     ] ],

@@ -15,25 +15,6 @@
     <namespace>Logging::Endpoints</namespace>
   </compound>
   <compound kind="file">
-    <name>test.cpp</name>
-    <path>/__w/palliate/palliate/plugins/testplugin/</path>
-    <filename>test_8cpp.html</filename>
-    <includes id="test_8h" name="test.h" local="yes" imported="no">test.h</includes>
-    <member kind="function">
-      <type></type>
-      <name>REGISTER_PLUGIN</name>
-      <anchorfile>test_8cpp.html</anchorfile>
-      <anchor>a3b4def47e0382bb0a656a1406a00370e</anchor>
-      <arglist>(testmod)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>test.h</name>
-    <path>/__w/palliate/palliate/plugins/testplugin/</path>
-    <filename>test_8h.html</filename>
-    <class kind="class">testmod</class>
-  </compound>
-  <compound kind="file">
     <name>capture/plugin.cpp</name>
     <path>/__w/palliate/palliate/plugins/capture/</path>
     <filename>capture_2plugin_8cpp.html</filename>
@@ -216,6 +197,101 @@
     <class kind="class">Logging::Endpoints::File</class>
     <namespace>Logging</namespace>
     <namespace>Logging::Endpoints</namespace>
+  </compound>
+  <compound kind="file">
+    <name>plugins/capture/README.md</name>
+    <path>/__w/palliate/palliate/plugins/capture/</path>
+    <filename>plugins_2capture_2README_8md.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>plugins/input/README.md</name>
+    <path>/__w/palliate/palliate/plugins/input/</path>
+    <filename>plugins_2input_2README_8md.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>plugins/README.md</name>
+    <path>/__w/palliate/palliate/plugins/</path>
+    <filename>plugins_2README_8md.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>plugins/systemd/logging/README.md</name>
+    <path>/__w/palliate/palliate/plugins/systemd/logging/</path>
+    <filename>plugins_2systemd_2logging_2README_8md.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>plugins/systemd/README.md</name>
+    <path>/__w/palliate/palliate/plugins/systemd/</path>
+    <filename>plugins_2systemd_2README_8md.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>plugins/vtty/README.md</name>
+    <path>/__w/palliate/palliate/plugins/vtty/</path>
+    <filename>plugins_2vtty_2README_8md.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>plugins/wm/README.md</name>
+    <path>/__w/palliate/palliate/plugins/wm/</path>
+    <filename>plugins_2wm_2README_8md.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>src/application/README.md</name>
+    <path>/__w/palliate/palliate/src/application/</path>
+    <filename>src_2application_2README_8md.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>src/configuration/README.md</name>
+    <path>/__w/palliate/palliate/src/configuration/</path>
+    <filename>src_2configuration_2README_8md.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>src/ivshmem/platform/linux/README.md</name>
+    <path>/__w/palliate/palliate/src/ivshmem/platform/linux/</path>
+    <filename>src_2ivshmem_2platform_2linux_2README_8md.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>src/ivshmem/platform/README.md</name>
+    <path>/__w/palliate/palliate/src/ivshmem/platform/</path>
+    <filename>src_2ivshmem_2platform_2README_8md.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>src/ivshmem/platform/windows/README.md</name>
+    <path>/__w/palliate/palliate/src/ivshmem/platform/windows/</path>
+    <filename>src_2ivshmem_2platform_2windows_2README_8md.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>src/ivshmem/README.md</name>
+    <path>/__w/palliate/palliate/src/ivshmem/</path>
+    <filename>src_2ivshmem_2README_8md.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>src/logging/README.md</name>
+    <path>/__w/palliate/palliate/src/logging/</path>
+    <filename>src_2logging_2README_8md.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>src/plugin_manager/README.md</name>
+    <path>/__w/palliate/palliate/src/plugin_manager/</path>
+    <filename>src_2plugin__manager_2README_8md.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>src/README.md</name>
+    <path>/__w/palliate/palliate/src/</path>
+    <filename>src_2README_8md.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>src/ui/gl/README.md</name>
+    <path>/__w/palliate/palliate/src/ui/gl/</path>
+    <filename>src_2ui_2gl_2README_8md.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>src/ui/README.md</name>
+    <path>/__w/palliate/palliate/src/ui/</path>
+    <filename>src_2ui_2README_8md.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>src/ui/tray/README.md</name>
+    <path>/__w/palliate/palliate/src/ui/tray/</path>
+    <filename>src_2ui_2tray_2README_8md.html</filename>
   </compound>
   <compound kind="file">
     <name>serial.cpp</name>
@@ -1076,39 +1152,6 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>testmod</name>
-    <filename>classtestmod.html</filename>
-    <base>plugin</base>
-    <member kind="function">
-      <type></type>
-      <name>testmod</name>
-      <anchorfile>classtestmod.html</anchorfile>
-      <anchor>a801c18e5ea171f87bf11ef9ab5752640</anchor>
-      <arglist>(std::string_view _name)</arglist>
-    </member>
-    <member kind="function">
-      <type>std::unique_ptr&lt; producer &gt;</type>
-      <name>make_producer</name>
-      <anchorfile>classtestmod.html</anchorfile>
-      <anchor>a5ada07d3f6c55e758f2e29b298088cfa</anchor>
-      <arglist>() override</arglist>
-    </member>
-    <member kind="function">
-      <type>std::unique_ptr&lt; consumer &gt;</type>
-      <name>make_consumer</name>
-      <anchorfile>classtestmod.html</anchorfile>
-      <anchor>a91c8e129c166e21cd49bdae6aa6238c3</anchor>
-      <arglist>(transport::Client &amp;handle) override</arglist>
-    </member>
-    <member kind="function">
-      <type>int</type>
-      <name>test</name>
-      <anchorfile>classtestmod.html</anchorfile>
-      <anchor>a31fd3a392ea95e0c4580df0a77bb985c</anchor>
-      <arglist>()</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
     <name>UI::AppIndicator::Tray</name>
     <filename>classUI_1_1AppIndicator_1_1Tray.html</filename>
     <member kind="function">
@@ -1411,5 +1454,100 @@
     <class kind="class">UI::GL::Display</class>
     <class kind="class">UI::GL::Renderer</class>
     <class kind="class">UI::GL::Window</class>
+  </compound>
+  <compound kind="page">
+    <name>md____w_palliate_palliate_src_application_README</name>
+    <title>control</title>
+    <filename>md____w_palliate_palliate_src_application_README.html</filename>
+  </compound>
+  <compound kind="page">
+    <name>md____w_palliate_palliate_src_configuration_README</name>
+    <title>configuration</title>
+    <filename>md____w_palliate_palliate_src_configuration_README.html</filename>
+  </compound>
+  <compound kind="page">
+    <name>md____w_palliate_palliate_src_ivshmem_platform_linux_README</name>
+    <title>linux</title>
+    <filename>md____w_palliate_palliate_src_ivshmem_platform_linux_README.html</filename>
+  </compound>
+  <compound kind="page">
+    <name>md____w_palliate_palliate_src_ivshmem_platform_README</name>
+    <title>platform</title>
+    <filename>md____w_palliate_palliate_src_ivshmem_platform_README.html</filename>
+  </compound>
+  <compound kind="page">
+    <name>md____w_palliate_palliate_src_ivshmem_platform_windows_README</name>
+    <title>windows</title>
+    <filename>md____w_palliate_palliate_src_ivshmem_platform_windows_README.html</filename>
+  </compound>
+  <compound kind="page">
+    <name>md____w_palliate_palliate_src_ivshmem_README</name>
+    <title>ivshmem</title>
+    <filename>md____w_palliate_palliate_src_ivshmem_README.html</filename>
+  </compound>
+  <compound kind="page">
+    <name>md____w_palliate_palliate_src_logging_README</name>
+    <title>logging</title>
+    <filename>md____w_palliate_palliate_src_logging_README.html</filename>
+  </compound>
+  <compound kind="page">
+    <name>md____w_palliate_palliate_src_plugin_manager_README</name>
+    <title>plugin_manager</title>
+    <filename>md____w_palliate_palliate_src_plugin_manager_README.html</filename>
+  </compound>
+  <compound kind="page">
+    <name>md____w_palliate_palliate_src_README</name>
+    <title>app</title>
+    <filename>md____w_palliate_palliate_src_README.html</filename>
+  </compound>
+  <compound kind="page">
+    <name>md____w_palliate_palliate_src_ui_gl_README</name>
+    <title>glfw</title>
+    <filename>md____w_palliate_palliate_src_ui_gl_README.html</filename>
+  </compound>
+  <compound kind="page">
+    <name>md____w_palliate_palliate_src_ui_README</name>
+    <title>renderer</title>
+    <filename>md____w_palliate_palliate_src_ui_README.html</filename>
+  </compound>
+  <compound kind="page">
+    <name>md____w_palliate_palliate_src_ui_tray_README</name>
+    <title>tray</title>
+    <filename>md____w_palliate_palliate_src_ui_tray_README.html</filename>
+  </compound>
+  <compound kind="page">
+    <name>md____w_palliate_palliate_plugins_capture_README</name>
+    <title>capture</title>
+    <filename>md____w_palliate_palliate_plugins_capture_README.html</filename>
+  </compound>
+  <compound kind="page">
+    <name>md____w_palliate_palliate_plugins_input_README</name>
+    <title>input</title>
+    <filename>md____w_palliate_palliate_plugins_input_README.html</filename>
+  </compound>
+  <compound kind="page">
+    <name>md____w_palliate_palliate_plugins_README</name>
+    <title>plugins</title>
+    <filename>md____w_palliate_palliate_plugins_README.html</filename>
+  </compound>
+  <compound kind="page">
+    <name>md____w_palliate_palliate_plugins_systemd_logging_README</name>
+    <title>logging</title>
+    <filename>md____w_palliate_palliate_plugins_systemd_logging_README.html</filename>
+  </compound>
+  <compound kind="page">
+    <name>md____w_palliate_palliate_plugins_systemd_README</name>
+    <title>systemd</title>
+    <filename>md____w_palliate_palliate_plugins_systemd_README.html</filename>
+  </compound>
+  <compound kind="page">
+    <name>md____w_palliate_palliate_plugins_vtty_README</name>
+    <title>vtty</title>
+    <filename>md____w_palliate_palliate_plugins_vtty_README.html</filename>
+  </compound>
+  <compound kind="page">
+    <name>md____w_palliate_palliate_plugins_wm_README</name>
+    <title>wm</title>
+    <filename>md____w_palliate_palliate_plugins_wm_README.html</filename>
   </compound>
 </tagfile>

@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['base_0',['Base',['../../libpalliate/classModule_1_1Factory.html#a0a3acb3e3916137399d0467e963b0c4f',1,'Module::Factory']]],
-  ['base_1',['base',['../../libpalliate/classmemory_1_1manager.html#a594bb1a33c323ff0bb2a9c5de7d237aa',1,'memory::manager']]],
+  ['base_0',['base',['../../libpalliate/classmemory_1_1manager.html#a594bb1a33c323ff0bb2a9c5de7d237aa',1,'memory::manager']]],
+  ['base_1',['Base',['../../libpalliate/classModule_1_1Factory.html#a0a3acb3e3916137399d0467e963b0c4f',1,'Module::Factory']]],
   ['basename_2',['basename',['../../libpalliate/namespaceUtil.html#a0325e369eeb6bf0865a40e9ee8c652ae',1,'Util']]],
   ['begin_3',['begin',['../../libpalliate/classModule_1_1Factory_1_1Collection.html#a3820dde3a827572852e28898e2304a50',1,'Module::Factory::Collection::begin()'],['../classplugin__manager.html#a1826108c177017762d46cca46dcdfc29',1,'plugin_manager::begin()']]],
   ['bin_2ecpp_4',['bin.cpp',['../../libpalliate/bin_8cpp.html',1,'']]],
@@ -16,5 +16,8 @@ var searchData=
   ['bridge_2eh_13',['bridge.h',['../bridge_8h.html',1,'']]],
   ['broadcast_14',['broadcast',['../../libpalliate/classRPC_1_1Server.html#a7d4e4af7a6de4089779ad8f2324262b1',1,'RPC::Server::broadcast()'],['../../libpalliate/classtransport_1_1Server.html#a7d4e4af7a6de4089779ad8f2324262b1',1,'transport::Server::broadcast()'],['../../libpalliate/classServers.html#aafd5b3a76987382868057e6732f81a6c',1,'Servers::broadcast()']]],
   ['build_15',['build',['../../libpalliate/namespacetransport.html#a588d3594fceba5f41ba899f24e8bf194',1,'transport']]],
-  ['builder_5ft_16',['builder_t',['../../libpalliate/namespacetransport.html#a0eb232425bd97e075552bb60e1ba2677',1,'transport']]]
+  ['build_16',['Build',['../../libpalliate/structUtil_1_1Build.html',1,'Util']]],
+  ['build_2ecpp_17',['build.cpp',['../../libpalliate/build_8cpp.html',1,'']]],
+  ['build_2eh_18',['build.h',['../../libpalliate/build_8h.html',1,'']]],
+  ['builder_5ft_19',['builder_t',['../../libpalliate/namespacetransport.html#a0eb232425bd97e075552bb60e1ba2677',1,'transport']]]
 ];
