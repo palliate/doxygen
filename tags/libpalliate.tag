@@ -107,8 +107,6 @@
     <path>/__w/libpalliate/libpalliate/src/logging/</path>
     <filename>logger_8cpp.html</filename>
     <includes id="printer_8h" name="printer.h" local="yes" imported="no">printer.h</includes>
-    <namespace>Logging</namespace>
-    <namespace>Logging::__</namespace>
     <member kind="variable">
       <type>Logging::Logger &amp;</type>
       <name>logger</name>
@@ -2775,12 +2773,7 @@
   <compound kind="namespace">
     <name>Logging</name>
     <filename>namespaceLogging.html</filename>
-    <namespace>Logging::__</namespace>
     <class kind="class">Logging::Printer</class>
-  </compound>
-  <compound kind="namespace">
-    <name>Logging::__</name>
-    <filename>namespaceLogging_1_1____.html</filename>
   </compound>
   <compound kind="namespace">
     <name>memory</name>
