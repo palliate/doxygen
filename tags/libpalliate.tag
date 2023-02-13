@@ -737,6 +737,11 @@
     <class kind="class">Servers</class>
   </compound>
   <compound kind="file">
+    <name>README.md</name>
+    <path>/__w/libpalliate/libpalliate/src/protocol/</path>
+    <filename>README_8md.html</filename>
+  </compound>
+  <compound kind="file">
     <name>context.cpp</name>
     <path>/__w/libpalliate/libpalliate/src/rpc/</path>
     <filename>context_8cpp.html</filename>
@@ -4611,5 +4616,10 @@
       <anchor>a4191f9f214259a4d7c51084412091ca0</anchor>
       <arglist>(T number, bool ommit_trailing_zero=false, bool ommit_trailing_one=false, int mask_after=-1)</arglist>
     </member>
+  </compound>
+  <compound kind="page">
+    <name>md____w_libpalliate_libpalliate_src_protocol_README</name>
+    <title>palliate-protocol</title>
+    <filename>md____w_libpalliate_libpalliate_src_protocol_README.html</filename>
   </compound>
 </tagfile>
