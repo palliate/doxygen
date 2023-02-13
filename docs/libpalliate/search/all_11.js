@@ -13,7 +13,7 @@ var searchData=
   ['registered_10',['registered',['../structModule_1_1Factory_1_1Registrar.html#a63eb00a9b72ab2f73615ab57e628ab20',1,'Module::Factory::Registrar']]],
   ['registrar_11',['Registrar',['../structModule_1_1Factory_1_1Registrar.html',1,'Module::Factory']]],
   ['remote_5furl_12',['remote_url',['../structUtil_1_1Build_1_1Git.html#a8b3a6c2848df45352c324fc31ce65605',1,'Util::Build::Git']]],
-  ['remove_13',['remove',['../classpatricia.html#aabdf1be9cad8b8e4720fb1b67e94e115',1,'patricia::remove(pkey_t key)'],['../classpatricia.html#a2fcc568288e27bfe53fcac14187fbfe4',1,'patricia::remove(T *value)'],['../classServers.html#ab83929ebe8f364cb1a7efbddd32d98d6',1,'Servers::remove()'],['../classRPC_1_1Server.html#a251f49078124dd3e8e577c2d4f659fe2',1,'RPC::Server::remove()'],['../classtransport_1_1Server.html#a8a8ae4f62d6d895c8991faa001549b59',1,'transport::Server::remove()']]],
+  ['remove_13',['remove',['../classServers.html#ab83929ebe8f364cb1a7efbddd32d98d6',1,'Servers::remove()'],['../classRPC_1_1Server.html#a251f49078124dd3e8e577c2d4f659fe2',1,'RPC::Server::remove()'],['../classtransport_1_1Server.html#a8a8ae4f62d6d895c8991faa001549b59',1,'transport::Server::remove()'],['../classpatricia.html#aabdf1be9cad8b8e4720fb1b67e94e115',1,'patricia::remove(pkey_t key)'],['../classpatricia.html#a2fcc568288e27bfe53fcac14187fbfe4',1,'patricia::remove(T *value)']]],
   ['remove_5fbasedir_14',['remove_basedir',['../namespaceUtil.html#a5c79e5c319e1b732c8bbfcdeca215d9f',1,'Util']]],
   ['remove_5ffile_5fextension_15',['remove_file_extension',['../namespaceUtil.html#ad290b9d5ed4f6ff70c3e3b127c693eea',1,'Util']]],
   ['remove_5freader_16',['remove_reader',['../classatomic__semaphore.html#aace5f9281f89aa88a2426d8a713f4886',1,'atomic_semaphore']]],

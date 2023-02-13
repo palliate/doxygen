@@ -242,6 +242,217 @@
     <namespace>Logging</namespace>
   </compound>
   <compound kind="file">
+    <name>memory/client.cpp</name>
+    <path>/__w/libpalliate/libpalliate/src/memory/</path>
+    <filename>memory_2client_8cpp.html</filename>
+    <includes id="memory_2client_8h" name="memory/client.h" local="yes" imported="no">client.h</includes>
+    <includes id="memory_2constants_8h" name="memory/constants.h" local="yes" imported="no">constants.h</includes>
+    <includes id="manager_8h" name="manager.h" local="yes" imported="no">manager.h</includes>
+    <includes id="util_8h" name="util.h" local="yes" imported="no">util/util.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>rpc/client.cpp</name>
+    <path>/__w/libpalliate/libpalliate/src/rpc/</path>
+    <filename>rpc_2client_8cpp.html</filename>
+    <includes id="rpc_2client_8h" name="rpc/client.h" local="yes" imported="no">client.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>rpc/shm/client.cpp</name>
+    <path>/__w/libpalliate/libpalliate/src/rpc/shm/</path>
+    <filename>rpc_2shm_2client_8cpp.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>rpc/tcp/client.cpp</name>
+    <path>/__w/libpalliate/libpalliate/src/rpc/tcp/</path>
+    <filename>rpc_2tcp_2client_8cpp.html</filename>
+    <includes id="rpc_2tcp_2client_8h" name="rpc/tcp/client.h" local="yes" imported="no">client.h</includes>
+    <includes id="logger_8h" name="logger.h" local="no" imported="no">logging/logger.h</includes>
+    <includes id="context_8h" name="context.h" local="no" imported="no">rpc/context.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>transport/client.cpp</name>
+    <path>/__w/libpalliate/libpalliate/src/transport/</path>
+    <filename>transport_2client_8cpp.html</filename>
+    <includes id="transport_2client_8h" name="transport/client.h" local="yes" imported="no">client.h</includes>
+    <includes id="logger_8h" name="logger.h" local="no" imported="no">logging/logger.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>transport/tcp/client.cpp</name>
+    <path>/__w/libpalliate/libpalliate/src/transport/tcp/</path>
+    <filename>transport_2tcp_2client_8cpp.html</filename>
+    <includes id="transport_2tcp_2client_8h" name="transport/tcp/client.h" local="yes" imported="no">client.h</includes>
+    <includes id="logger_8h" name="logger.h" local="no" imported="no">logging/logger.h</includes>
+    <includes id="clock_8h" name="clock.h" local="no" imported="no">util/clock.h</includes>
+    <member kind="define">
+      <type>#define</type>
+      <name>INVALID_SOCKET</name>
+      <anchorfile>transport_2tcp_2client_8cpp.html</anchorfile>
+      <anchor>a26769957ec1a2beaf223f33b66ee64ab</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>memory/client.h</name>
+    <path>/__w/libpalliate/libpalliate/src/memory/</path>
+    <filename>memory_2client_8h.html</filename>
+    <includes id="manager_8h" name="manager.h" local="yes" imported="no">manager.h</includes>
+    <class kind="class">memory::client</class>
+    <namespace>memory</namespace>
+  </compound>
+  <compound kind="file">
+    <name>rpc/client.h</name>
+    <path>/__w/libpalliate/libpalliate/src/rpc/</path>
+    <filename>rpc_2client_8h.html</filename>
+    <includes id="factory_8h" name="factory.h" local="no" imported="no">module/factory.h</includes>
+    <includes id="context_8h" name="context.h" local="yes" imported="no">context.h</includes>
+    <class kind="class">RPC::Client</class>
+    <namespace>RPC</namespace>
+  </compound>
+  <compound kind="file">
+    <name>rpc/shm/client.h</name>
+    <path>/__w/libpalliate/libpalliate/src/rpc/shm/</path>
+    <filename>rpc_2shm_2client_8h.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>rpc/tcp/client.h</name>
+    <path>/__w/libpalliate/libpalliate/src/rpc/tcp/</path>
+    <filename>rpc_2tcp_2client_8h.html</filename>
+    <includes id="rpc_2client_8h" name="rpc/client.h" local="no" imported="no">rpc/client.h</includes>
+    <includes id="error__handler_8h" name="error_handler.h" local="no" imported="no">rpc/error_handler.h</includes>
+    <class kind="class">RPC::TCP::Client</class>
+    <namespace>RPC</namespace>
+    <namespace>RPC::TCP</namespace>
+  </compound>
+  <compound kind="file">
+    <name>transport/client.h</name>
+    <path>/__w/libpalliate/libpalliate/src/transport/</path>
+    <filename>transport_2client_8h.html</filename>
+    <includes id="transport_2constants_8h" name="transport/constants.h" local="yes" imported="no">constants.h</includes>
+    <includes id="util_2runnable_8h" name="util/runnable.h" local="no" imported="no">util/runnable.h</includes>
+    <class kind="class">transport::Client</class>
+    <namespace>transport</namespace>
+  </compound>
+  <compound kind="file">
+    <name>transport/tcp/client.h</name>
+    <path>/__w/libpalliate/libpalliate/src/transport/tcp/</path>
+    <filename>transport_2tcp_2client_8h.html</filename>
+    <includes id="transport_2client_8h" name="transport/client.h" local="yes" imported="no">../client.h</includes>
+    <class kind="class">transport::TCP::Client</class>
+    <namespace>transport</namespace>
+    <namespace>transport::TCP</namespace>
+    <member kind="define">
+      <type>#define</type>
+      <name>SOCKET</name>
+      <anchorfile>transport_2tcp_2client_8h.html</anchorfile>
+      <anchor>aff55fe551a9992a54ec54621c524d0a4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>kj::FdOutputStream</type>
+      <name>outstream_t</name>
+      <anchorfile>namespacetransport_1_1TCP.html</anchorfile>
+      <anchor>aabd9e1b22d41e152cc2ed080fafd284f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>kj::FdInputStream</type>
+      <name>instream_t</name>
+      <anchorfile>namespacetransport_1_1TCP.html</anchorfile>
+      <anchor>a8ff1ca4f59ca63030ff934ca98d6bc4f</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>memory/constants.h</name>
+    <path>/__w/libpalliate/libpalliate/src/memory/</path>
+    <filename>memory_2constants_8h.html</filename>
+    <namespace>memory</namespace>
+    <member kind="typedef">
+      <type>unsigned</type>
+      <name>offset_t</name>
+      <anchorfile>namespacememory.html</anchorfile>
+      <anchor>a49b99d557a2403a7fe32340facbed47a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UNUSED</name>
+      <anchorfile>namespacememory.html</anchorfile>
+      <anchor>a5489f7fba409dae5923725a7831d5026a8ac40d941598ae0db2ec23c50389c675</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>INVALID</name>
+      <anchorfile>namespacememory.html</anchorfile>
+      <anchor>a5489f7fba409dae5923725a7831d5026a08fef16c3401434dafddf345706e06b1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>CLAIM</name>
+      <anchorfile>namespacememory.html</anchorfile>
+      <anchor>a5489f7fba409dae5923725a7831d5026a8d05fbc89387ae09bab99bb89896957c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>WAIVE</name>
+      <anchorfile>namespacememory.html</anchorfile>
+      <anchor>a5489f7fba409dae5923725a7831d5026a26ac6ccdbd6eb122a03e0fdadf2a8b33</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>PRINT</name>
+      <anchorfile>namespacememory.html</anchorfile>
+      <anchor>a5489f7fba409dae5923725a7831d5026a19d3245a9e35942a3c1bae88fe8f88eb</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>rpc/constants.h</name>
+    <path>/__w/libpalliate/libpalliate/src/rpc/</path>
+    <filename>rpc_2constants_8h.html</filename>
+    <namespace>transport</namespace>
+    <member kind="typedef">
+      <type>std::unique_ptr&lt;::capnp::MessageReader &gt;</type>
+      <name>reader_t</name>
+      <anchorfile>namespacetransport.html</anchorfile>
+      <anchor>a94c6d91bd665f4c87753eb6c327ef45f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>std::unique_ptr&lt; capnp::MessageBuilder &gt;</type>
+      <name>builder_t</name>
+      <anchorfile>namespacetransport.html</anchorfile>
+      <anchor>a0eb232425bd97e075552bb60e1ba2677</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>std::tuple&lt; transport::builder_t, typename T::Data::Builder &gt;</type>
+      <name>build</name>
+      <anchorfile>namespacetransport.html</anchorfile>
+      <anchor>a588d3594fceba5f41ba899f24e8bf194</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="variable">
+      <type>uint64_t</type>
+      <name>uuid</name>
+      <anchorfile>namespacetransport.html</anchorfile>
+      <anchor>ad81281f4f8754e5e329167abb7219623</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>transport/constants.h</name>
+    <path>/__w/libpalliate/libpalliate/src/transport/</path>
+    <filename>transport_2constants_8h.html</filename>
+    <namespace>transport</namespace>
+    <member kind="function">
+      <type>std::tuple&lt; transport::builder_t, typename T::Data::Builder &gt;</type>
+      <name>build</name>
+      <anchorfile>namespacetransport.html</anchorfile>
+      <anchor>a588d3594fceba5f41ba899f24e8bf194</anchor>
+      <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>bin.cpp</name>
     <path>/__w/libpalliate/libpalliate/src/memory/datastructures/</path>
     <filename>bin_8cpp.html</filename>
@@ -315,6 +526,118 @@
     <includes id="atomic__cr_8h" name="atomic_cr.h" local="yes" imported="no">datastructures/atomic/atomic_cr.h</includes>
     <class kind="class">memory::manager</class>
     <namespace>memory</namespace>
+  </compound>
+  <compound kind="file">
+    <name>memory/server.cpp</name>
+    <path>/__w/libpalliate/libpalliate/src/memory/</path>
+    <filename>memory_2server_8cpp.html</filename>
+    <includes id="manager_8h" name="manager.h" local="yes" imported="no">manager.h</includes>
+    <includes id="memory_2server_8h" name="memory/server.h" local="yes" imported="no">server.h</includes>
+    <includes id="util_8h" name="util.h" local="yes" imported="no">util/util.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>rpc/server.cpp</name>
+    <path>/__w/libpalliate/libpalliate/src/rpc/</path>
+    <filename>rpc_2server_8cpp.html</filename>
+    <includes id="rpc_2server_8h" name="rpc/server.h" local="yes" imported="no">server.h</includes>
+    <includes id="logger_8h" name="logger.h" local="no" imported="no">logging/logger.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>rpc/shm/server.cpp</name>
+    <path>/__w/libpalliate/libpalliate/src/rpc/shm/</path>
+    <filename>rpc_2shm_2server_8cpp.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>rpc/tcp/server.cpp</name>
+    <path>/__w/libpalliate/libpalliate/src/rpc/tcp/</path>
+    <filename>rpc_2tcp_2server_8cpp.html</filename>
+    <includes id="rpc_2tcp_2server_8h" name="rpc/tcp/server.h" local="yes" imported="no">server.h</includes>
+    <includes id="logger_8h" name="logger.h" local="no" imported="no">logging/logger.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>transport/server.cpp</name>
+    <path>/__w/libpalliate/libpalliate/src/transport/</path>
+    <filename>transport_2server_8cpp.html</filename>
+    <includes id="transport_2server_8h" name="transport/server.h" local="yes" imported="no">server.h</includes>
+    <includes id="logger_8h" name="logger.h" local="no" imported="no">logging/logger.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>transport/tcp/server.cpp</name>
+    <path>/__w/libpalliate/libpalliate/src/transport/tcp/</path>
+    <filename>transport_2tcp_2server_8cpp.html</filename>
+    <includes id="transport_2tcp_2server_8h" name="transport/tcp/server.h" local="yes" imported="no">server.h</includes>
+    <includes id="transport_2tcp_2client_8h" name="transport/tcp/client.h" local="yes" imported="no">client.h</includes>
+    <includes id="logger_8h" name="logger.h" local="no" imported="no">logging/logger.h</includes>
+    <member kind="define">
+      <type>#define</type>
+      <name>INVALID_SOCKET</name>
+      <anchorfile>transport_2tcp_2server_8cpp.html</anchorfile>
+      <anchor>a26769957ec1a2beaf223f33b66ee64ab</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>memory/server.h</name>
+    <path>/__w/libpalliate/libpalliate/src/memory/</path>
+    <filename>memory_2server_8h.html</filename>
+    <includes id="memory__map_8h" name="memory_map.h" local="yes" imported="no">datastructures/memory_map.h</includes>
+    <includes id="logger_8h" name="logger.h" local="yes" imported="no">logging/logger.h</includes>
+    <includes id="manager_8h" name="manager.h" local="yes" imported="no">manager.h</includes>
+    <class kind="class">memory::server</class>
+    <namespace>memory</namespace>
+  </compound>
+  <compound kind="file">
+    <name>rpc/server.h</name>
+    <path>/__w/libpalliate/libpalliate/src/rpc/</path>
+    <filename>rpc_2server_8h.html</filename>
+    <includes id="authenticator_8h" name="authenticator.h" local="no" imported="no">authentication/authenticator.h</includes>
+    <includes id="factory_8h" name="factory.h" local="no" imported="no">module/factory.h</includes>
+    <includes id="util_2runnable_8h" name="util/runnable.h" local="no" imported="no">util/runnable.h</includes>
+    <includes id="context_8h" name="context.h" local="yes" imported="no">context.h</includes>
+    <includes id="error__handler_8h" name="error_handler.h" local="yes" imported="no">error_handler.h</includes>
+    <includes id="io_8h" name="io.h" local="yes" imported="no">io.h</includes>
+    <class kind="class">RPC::Server</class>
+    <namespace>RPC</namespace>
+  </compound>
+  <compound kind="file">
+    <name>rpc/shm/server.h</name>
+    <path>/__w/libpalliate/libpalliate/src/rpc/shm/</path>
+    <filename>rpc_2shm_2server_8h.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>rpc/tcp/server.h</name>
+    <path>/__w/libpalliate/libpalliate/src/rpc/tcp/</path>
+    <filename>rpc_2tcp_2server_8h.html</filename>
+    <includes id="rpc_2server_8h" name="rpc/server.h" local="no" imported="no">rpc/server.h</includes>
+    <class kind="class">RPC::TCP::Server</class>
+    <namespace>RPC</namespace>
+    <namespace>RPC::TCP</namespace>
+  </compound>
+  <compound kind="file">
+    <name>transport/server.h</name>
+    <path>/__w/libpalliate/libpalliate/src/transport/</path>
+    <filename>transport_2server_8h.html</filename>
+    <includes id="transport_2client_8h" name="transport/client.h" local="yes" imported="no">client.h</includes>
+    <includes id="transport_2constants_8h" name="transport/constants.h" local="yes" imported="no">constants.h</includes>
+    <includes id="util_2runnable_8h" name="util/runnable.h" local="no" imported="no">util/runnable.h</includes>
+    <class kind="class">transport::Server</class>
+    <namespace>transport</namespace>
+  </compound>
+  <compound kind="file">
+    <name>transport/tcp/server.h</name>
+    <path>/__w/libpalliate/libpalliate/src/transport/tcp/</path>
+    <filename>transport_2tcp_2server_8h.html</filename>
+    <includes id="transport_2server_8h" name="transport/server.h" local="yes" imported="no">../server.h</includes>
+    <class kind="class">transport::TCP::Server</class>
+    <namespace>transport</namespace>
+    <namespace>transport::TCP</namespace>
+    <member kind="define">
+      <type>#define</type>
+      <name>SOCKET</name>
+      <anchorfile>transport_2tcp_2server_8h.html</anchorfile>
+      <anchor>aff55fe551a9992a54ec54621c524d0a4</anchor>
+      <arglist></arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>factory.h</name>
@@ -456,6 +779,22 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>threading/runnable.h</name>
+    <path>/__w/libpalliate/libpalliate/src/threading/</path>
+    <filename>threading_2runnable_8h.html</filename>
+    <includes id="info_8h" name="info.h" local="yes" imported="no">info.h</includes>
+    <includes id="worker_8h" name="worker.h" local="yes" imported="no">worker.h</includes>
+    <includes id="logger_8h" name="logger.h" local="no" imported="no">logging/logger.h</includes>
+    <class kind="struct">Threading::Runnable</class>
+    <namespace>Threading</namespace>
+  </compound>
+  <compound kind="file">
+    <name>util/runnable.h</name>
+    <path>/__w/libpalliate/libpalliate/src/util/</path>
+    <filename>util_2runnable_8h.html</filename>
+    <class kind="class">runnable</class>
+  </compound>
+  <compound kind="file">
     <name>worker.cpp</name>
     <path>/__w/libpalliate/libpalliate/src/threading/</path>
     <filename>worker_8cpp.html</filename>
@@ -468,146 +807,6 @@
     <filename>worker_8h.html</filename>
     <class kind="struct">Threading::Worker</class>
     <namespace>Threading</namespace>
-  </compound>
-  <compound kind="file">
-    <name>memory/client.cpp</name>
-    <path>/__w/libpalliate/libpalliate/src/memory/</path>
-    <filename>memory_2client_8cpp.html</filename>
-    <includes id="memory_2client_8h" name="memory/client.h" local="yes" imported="no">client.h</includes>
-    <includes id="memory_2constants_8h" name="memory/constants.h" local="yes" imported="no">constants.h</includes>
-    <includes id="manager_8h" name="manager.h" local="yes" imported="no">manager.h</includes>
-    <includes id="util_8h" name="util.h" local="yes" imported="no">util/util.h</includes>
-  </compound>
-  <compound kind="file">
-    <name>rpc/client.cpp</name>
-    <path>/__w/libpalliate/libpalliate/src/rpc/</path>
-    <filename>rpc_2client_8cpp.html</filename>
-    <includes id="rpc_2client_8h" name="rpc/client.h" local="yes" imported="no">client.h</includes>
-  </compound>
-  <compound kind="file">
-    <name>rpc/shm/client.cpp</name>
-    <path>/__w/libpalliate/libpalliate/src/rpc/shm/</path>
-    <filename>rpc_2shm_2client_8cpp.html</filename>
-  </compound>
-  <compound kind="file">
-    <name>rpc/tcp/client.cpp</name>
-    <path>/__w/libpalliate/libpalliate/src/rpc/tcp/</path>
-    <filename>rpc_2tcp_2client_8cpp.html</filename>
-    <includes id="rpc_2tcp_2client_8h" name="rpc/tcp/client.h" local="yes" imported="no">client.h</includes>
-    <includes id="logger_8h" name="logger.h" local="no" imported="no">logging/logger.h</includes>
-    <includes id="context_8h" name="context.h" local="no" imported="no">rpc/context.h</includes>
-  </compound>
-  <compound kind="file">
-    <name>transport/client.cpp</name>
-    <path>/__w/libpalliate/libpalliate/src/transport/</path>
-    <filename>transport_2client_8cpp.html</filename>
-    <includes id="transport_2client_8h" name="transport/client.h" local="yes" imported="no">client.h</includes>
-    <includes id="logger_8h" name="logger.h" local="no" imported="no">logging/logger.h</includes>
-  </compound>
-  <compound kind="file">
-    <name>transport/tcp/client.cpp</name>
-    <path>/__w/libpalliate/libpalliate/src/transport/tcp/</path>
-    <filename>transport_2tcp_2client_8cpp.html</filename>
-    <includes id="transport_2tcp_2client_8h" name="transport/tcp/client.h" local="yes" imported="no">client.h</includes>
-    <includes id="logger_8h" name="logger.h" local="no" imported="no">logging/logger.h</includes>
-    <includes id="clock_8h" name="clock.h" local="no" imported="no">util/clock.h</includes>
-    <member kind="define">
-      <type>#define</type>
-      <name>INVALID_SOCKET</name>
-      <anchorfile>transport_2tcp_2client_8cpp.html</anchorfile>
-      <anchor>a26769957ec1a2beaf223f33b66ee64ab</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>memory/constants.h</name>
-    <path>/__w/libpalliate/libpalliate/src/memory/</path>
-    <filename>memory_2constants_8h.html</filename>
-    <namespace>memory</namespace>
-    <member kind="typedef">
-      <type>unsigned</type>
-      <name>offset_t</name>
-      <anchorfile>namespacememory.html</anchorfile>
-      <anchor>a49b99d557a2403a7fe32340facbed47a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <name>UNUSED</name>
-      <anchorfile>namespacememory.html</anchorfile>
-      <anchor>a5489f7fba409dae5923725a7831d5026a8ac40d941598ae0db2ec23c50389c675</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <name>INVALID</name>
-      <anchorfile>namespacememory.html</anchorfile>
-      <anchor>a5489f7fba409dae5923725a7831d5026a08fef16c3401434dafddf345706e06b1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <name>CLAIM</name>
-      <anchorfile>namespacememory.html</anchorfile>
-      <anchor>a5489f7fba409dae5923725a7831d5026a8d05fbc89387ae09bab99bb89896957c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <name>WAIVE</name>
-      <anchorfile>namespacememory.html</anchorfile>
-      <anchor>a5489f7fba409dae5923725a7831d5026a26ac6ccdbd6eb122a03e0fdadf2a8b33</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <name>PRINT</name>
-      <anchorfile>namespacememory.html</anchorfile>
-      <anchor>a5489f7fba409dae5923725a7831d5026a19d3245a9e35942a3c1bae88fe8f88eb</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>rpc/constants.h</name>
-    <path>/__w/libpalliate/libpalliate/src/rpc/</path>
-    <filename>rpc_2constants_8h.html</filename>
-    <namespace>transport</namespace>
-    <member kind="typedef">
-      <type>std::unique_ptr&lt;::capnp::MessageReader &gt;</type>
-      <name>reader_t</name>
-      <anchorfile>namespacetransport.html</anchorfile>
-      <anchor>a94c6d91bd665f4c87753eb6c327ef45f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="typedef">
-      <type>std::unique_ptr&lt; capnp::MessageBuilder &gt;</type>
-      <name>builder_t</name>
-      <anchorfile>namespacetransport.html</anchorfile>
-      <anchor>a0eb232425bd97e075552bb60e1ba2677</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function">
-      <type>std::tuple&lt; transport::builder_t, typename T::Data::Builder &gt;</type>
-      <name>build</name>
-      <anchorfile>namespacetransport.html</anchorfile>
-      <anchor>a588d3594fceba5f41ba899f24e8bf194</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="variable">
-      <type>uint64_t</type>
-      <name>uuid</name>
-      <anchorfile>namespacetransport.html</anchorfile>
-      <anchor>ad81281f4f8754e5e329167abb7219623</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>transport/constants.h</name>
-    <path>/__w/libpalliate/libpalliate/src/transport/</path>
-    <filename>transport_2constants_8h.html</filename>
-    <namespace>transport</namespace>
-    <member kind="function">
-      <type>std::tuple&lt; transport::builder_t, typename T::Data::Builder &gt;</type>
-      <name>build</name>
-      <anchorfile>namespacetransport.html</anchorfile>
-      <anchor>a588d3594fceba5f41ba899f24e8bf194</anchor>
-      <arglist>()</arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>rpc/ivshm/shm.cpp</name>
@@ -632,189 +831,6 @@
     <filename>transport_2shm_2shm_8h.html</filename>
     <includes id="manager_8h" name="manager.h" local="yes" imported="no">memory/manager.h</includes>
     <class kind="class">ivshmem</class>
-  </compound>
-  <compound kind="file">
-    <name>memory/client.h</name>
-    <path>/__w/libpalliate/libpalliate/src/memory/</path>
-    <filename>memory_2client_8h.html</filename>
-    <includes id="manager_8h" name="manager.h" local="yes" imported="no">manager.h</includes>
-    <class kind="class">memory::client</class>
-    <namespace>memory</namespace>
-  </compound>
-  <compound kind="file">
-    <name>rpc/client.h</name>
-    <path>/__w/libpalliate/libpalliate/src/rpc/</path>
-    <filename>rpc_2client_8h.html</filename>
-    <includes id="factory_8h" name="factory.h" local="no" imported="no">module/factory.h</includes>
-    <includes id="context_8h" name="context.h" local="yes" imported="no">context.h</includes>
-    <class kind="class">RPC::Client</class>
-    <namespace>RPC</namespace>
-  </compound>
-  <compound kind="file">
-    <name>rpc/shm/client.h</name>
-    <path>/__w/libpalliate/libpalliate/src/rpc/shm/</path>
-    <filename>rpc_2shm_2client_8h.html</filename>
-  </compound>
-  <compound kind="file">
-    <name>rpc/tcp/client.h</name>
-    <path>/__w/libpalliate/libpalliate/src/rpc/tcp/</path>
-    <filename>rpc_2tcp_2client_8h.html</filename>
-    <includes id="rpc_2client_8h" name="rpc/client.h" local="no" imported="no">rpc/client.h</includes>
-    <includes id="error__handler_8h" name="error_handler.h" local="no" imported="no">rpc/error_handler.h</includes>
-    <class kind="class">RPC::TCP::Client</class>
-    <namespace>RPC</namespace>
-    <namespace>RPC::TCP</namespace>
-  </compound>
-  <compound kind="file">
-    <name>transport/client.h</name>
-    <path>/__w/libpalliate/libpalliate/src/transport/</path>
-    <filename>transport_2client_8h.html</filename>
-    <includes id="transport_2constants_8h" name="transport/constants.h" local="yes" imported="no">constants.h</includes>
-    <includes id="util_2runnable_8h" name="util/runnable.h" local="no" imported="no">util/runnable.h</includes>
-    <class kind="class">transport::Client</class>
-    <namespace>transport</namespace>
-  </compound>
-  <compound kind="file">
-    <name>transport/tcp/client.h</name>
-    <path>/__w/libpalliate/libpalliate/src/transport/tcp/</path>
-    <filename>transport_2tcp_2client_8h.html</filename>
-    <includes id="transport_2client_8h" name="transport/client.h" local="yes" imported="no">../client.h</includes>
-    <class kind="class">transport::TCP::Client</class>
-    <namespace>transport</namespace>
-    <namespace>transport::TCP</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>SOCKET</name>
-      <anchorfile>transport_2tcp_2client_8h.html</anchorfile>
-      <anchor>aff55fe551a9992a54ec54621c524d0a4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="typedef">
-      <type>kj::FdOutputStream</type>
-      <name>outstream_t</name>
-      <anchorfile>namespacetransport_1_1TCP.html</anchorfile>
-      <anchor>aabd9e1b22d41e152cc2ed080fafd284f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="typedef">
-      <type>kj::FdInputStream</type>
-      <name>instream_t</name>
-      <anchorfile>namespacetransport_1_1TCP.html</anchorfile>
-      <anchor>a8ff1ca4f59ca63030ff934ca98d6bc4f</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>memory/server.cpp</name>
-    <path>/__w/libpalliate/libpalliate/src/memory/</path>
-    <filename>memory_2server_8cpp.html</filename>
-    <includes id="manager_8h" name="manager.h" local="yes" imported="no">manager.h</includes>
-    <includes id="memory_2server_8h" name="memory/server.h" local="yes" imported="no">server.h</includes>
-    <includes id="util_8h" name="util.h" local="yes" imported="no">util/util.h</includes>
-  </compound>
-  <compound kind="file">
-    <name>rpc/server.cpp</name>
-    <path>/__w/libpalliate/libpalliate/src/rpc/</path>
-    <filename>rpc_2server_8cpp.html</filename>
-    <includes id="rpc_2server_8h" name="rpc/server.h" local="yes" imported="no">server.h</includes>
-    <includes id="logger_8h" name="logger.h" local="no" imported="no">logging/logger.h</includes>
-  </compound>
-  <compound kind="file">
-    <name>rpc/shm/server.cpp</name>
-    <path>/__w/libpalliate/libpalliate/src/rpc/shm/</path>
-    <filename>rpc_2shm_2server_8cpp.html</filename>
-  </compound>
-  <compound kind="file">
-    <name>rpc/tcp/server.cpp</name>
-    <path>/__w/libpalliate/libpalliate/src/rpc/tcp/</path>
-    <filename>rpc_2tcp_2server_8cpp.html</filename>
-    <includes id="rpc_2tcp_2server_8h" name="rpc/tcp/server.h" local="yes" imported="no">server.h</includes>
-    <includes id="logger_8h" name="logger.h" local="no" imported="no">logging/logger.h</includes>
-  </compound>
-  <compound kind="file">
-    <name>transport/server.cpp</name>
-    <path>/__w/libpalliate/libpalliate/src/transport/</path>
-    <filename>transport_2server_8cpp.html</filename>
-    <includes id="transport_2server_8h" name="transport/server.h" local="yes" imported="no">server.h</includes>
-    <includes id="logger_8h" name="logger.h" local="no" imported="no">logging/logger.h</includes>
-  </compound>
-  <compound kind="file">
-    <name>transport/tcp/server.cpp</name>
-    <path>/__w/libpalliate/libpalliate/src/transport/tcp/</path>
-    <filename>transport_2tcp_2server_8cpp.html</filename>
-    <includes id="transport_2tcp_2server_8h" name="transport/tcp/server.h" local="yes" imported="no">server.h</includes>
-    <includes id="transport_2tcp_2client_8h" name="transport/tcp/client.h" local="yes" imported="no">client.h</includes>
-    <includes id="logger_8h" name="logger.h" local="no" imported="no">logging/logger.h</includes>
-    <member kind="define">
-      <type>#define</type>
-      <name>INVALID_SOCKET</name>
-      <anchorfile>transport_2tcp_2server_8cpp.html</anchorfile>
-      <anchor>a26769957ec1a2beaf223f33b66ee64ab</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>memory/server.h</name>
-    <path>/__w/libpalliate/libpalliate/src/memory/</path>
-    <filename>memory_2server_8h.html</filename>
-    <includes id="memory__map_8h" name="memory_map.h" local="yes" imported="no">datastructures/memory_map.h</includes>
-    <includes id="logger_8h" name="logger.h" local="yes" imported="no">logging/logger.h</includes>
-    <includes id="manager_8h" name="manager.h" local="yes" imported="no">manager.h</includes>
-    <class kind="class">memory::server</class>
-    <namespace>memory</namespace>
-  </compound>
-  <compound kind="file">
-    <name>rpc/server.h</name>
-    <path>/__w/libpalliate/libpalliate/src/rpc/</path>
-    <filename>rpc_2server_8h.html</filename>
-    <includes id="authenticator_8h" name="authenticator.h" local="no" imported="no">authentication/authenticator.h</includes>
-    <includes id="factory_8h" name="factory.h" local="no" imported="no">module/factory.h</includes>
-    <includes id="util_2runnable_8h" name="util/runnable.h" local="no" imported="no">util/runnable.h</includes>
-    <includes id="context_8h" name="context.h" local="yes" imported="no">context.h</includes>
-    <includes id="error__handler_8h" name="error_handler.h" local="yes" imported="no">error_handler.h</includes>
-    <includes id="io_8h" name="io.h" local="yes" imported="no">io.h</includes>
-    <class kind="class">RPC::Server</class>
-    <namespace>RPC</namespace>
-  </compound>
-  <compound kind="file">
-    <name>rpc/shm/server.h</name>
-    <path>/__w/libpalliate/libpalliate/src/rpc/shm/</path>
-    <filename>rpc_2shm_2server_8h.html</filename>
-  </compound>
-  <compound kind="file">
-    <name>rpc/tcp/server.h</name>
-    <path>/__w/libpalliate/libpalliate/src/rpc/tcp/</path>
-    <filename>rpc_2tcp_2server_8h.html</filename>
-    <includes id="rpc_2server_8h" name="rpc/server.h" local="no" imported="no">rpc/server.h</includes>
-    <class kind="class">RPC::TCP::Server</class>
-    <namespace>RPC</namespace>
-    <namespace>RPC::TCP</namespace>
-  </compound>
-  <compound kind="file">
-    <name>transport/server.h</name>
-    <path>/__w/libpalliate/libpalliate/src/transport/</path>
-    <filename>transport_2server_8h.html</filename>
-    <includes id="transport_2client_8h" name="transport/client.h" local="yes" imported="no">client.h</includes>
-    <includes id="transport_2constants_8h" name="transport/constants.h" local="yes" imported="no">constants.h</includes>
-    <includes id="util_2runnable_8h" name="util/runnable.h" local="no" imported="no">util/runnable.h</includes>
-    <class kind="class">transport::Server</class>
-    <namespace>transport</namespace>
-  </compound>
-  <compound kind="file">
-    <name>transport/tcp/server.h</name>
-    <path>/__w/libpalliate/libpalliate/src/transport/tcp/</path>
-    <filename>transport_2tcp_2server_8h.html</filename>
-    <includes id="transport_2server_8h" name="transport/server.h" local="yes" imported="no">../server.h</includes>
-    <class kind="class">transport::TCP::Server</class>
-    <namespace>transport</namespace>
-    <namespace>transport::TCP</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>SOCKET</name>
-      <anchorfile>transport_2tcp_2server_8h.html</anchorfile>
-      <anchor>aff55fe551a9992a54ec54621c524d0a4</anchor>
-      <arglist></arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>renderer.h</name>
@@ -1028,22 +1044,6 @@
     <filename>runnable_8cpp.html</filename>
     <includes id="util_2runnable_8h" name="util/runnable.h" local="yes" imported="no">runnable.h</includes>
     <includes id="logger_8h" name="logger.h" local="no" imported="no">logging/logger.h</includes>
-  </compound>
-  <compound kind="file">
-    <name>threading/runnable.h</name>
-    <path>/__w/libpalliate/libpalliate/src/threading/</path>
-    <filename>threading_2runnable_8h.html</filename>
-    <includes id="info_8h" name="info.h" local="yes" imported="no">info.h</includes>
-    <includes id="worker_8h" name="worker.h" local="yes" imported="no">worker.h</includes>
-    <includes id="logger_8h" name="logger.h" local="no" imported="no">logging/logger.h</includes>
-    <class kind="struct">Threading::Runnable</class>
-    <namespace>Threading</namespace>
-  </compound>
-  <compound kind="file">
-    <name>util/runnable.h</name>
-    <path>/__w/libpalliate/libpalliate/src/util/</path>
-    <filename>util_2runnable_8h.html</filename>
-    <class kind="class">runnable</class>
   </compound>
   <compound kind="file">
     <name>string.h</name>
