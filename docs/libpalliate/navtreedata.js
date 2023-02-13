@@ -34,21 +34,18 @@ var NAVTREE =
         [ "Functions", "namespacemembers_func.html", null ],
         [ "Variables", "namespacemembers_vars.html", null ],
         [ "Typedefs", "namespacemembers_type.html", null ],
-        [ "Enumerations", "namespacemembers_enum.html", null ],
         [ "Enumerator", "namespacemembers_eval.html", null ]
       ] ]
     ] ],
-    [ "Concepts", "concepts.html", "concepts" ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", "functions_dup" ],
-        [ "Functions", "functions_func.html", "functions_func" ],
+        [ "Functions", "functions_func.html", null ],
         [ "Variables", "functions_vars.html", null ],
         [ "Typedefs", "functions_type.html", null ],
-        [ "Enumerations", "functions_enum.html", null ],
         [ "Enumerator", "functions_eval.html", null ],
         [ "Related Functions", "functions_rela.html", null ]
       ] ]
@@ -68,10 +65,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../index.html",
-"classatomic__cr.html#a0c71d9d0aa6a277625bcb6b76b1da068",
-"dir_5a0b8a96bb53e775f4b54ca4f19ddbaf.html",
-"structRPC_1_1Context.html#a11d9b76f7c226baf35974c3398c7f8fb",
-"transport_2tcp_2client_8h.html#a8ff1ca4f59ca63030ff934ca98d6bc4f"
+"classtransport_1_1Client.html",
+"structUtil_1_1CliOption.html#a4e22ae8079e93ff9ae7abd4e0483eb54"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

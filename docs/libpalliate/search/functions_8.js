@@ -1,6 +1,10 @@
 var searchData=
 [
-  ['handle_0',['handle',['../classconsumer.html#ac1728735dec2db0a6a58ff92a5afa021',1,'consumer']]],
-  ['handle_5fflag_1',['handle_flag',['../classUI_1_1Window.html#acee241941aced158017c896ae1cc1a23',1,'UI::Window']]],
-  ['has_5fendpoint_2',['has_endpoint',['../classLogging_1_1Logger.html#a8f7ec0036d8a376113632774f7cb229d',1,'Logging::Logger::has_endpoint()'],['../classLogging_1_1Printer.html#a186214135c2a22761b664d665c62ff9a',1,'Logging::Printer::has_endpoint()']]]
+  ['init_0',['init',['../namespacedetail.html#ad417d5a0e5c6b6fd05004c05b0516408',1,'detail']]],
+  ['insert_1',['insert',['../classpatricia.html#a659ac04ca615587c9376b5b3833504ba',1,'patricia']]],
+  ['insert_5fafter_2',['insert_after',['../structmemory_1_1bin__t.html#a284a3baa28f4361a0ef0452ea7d04abc',1,'memory::bin_t']]],
+  ['insert_5fbefore_3',['insert_before',['../structmemory_1_1bin__t.html#a56e3098f47a9f47116fd4fb8512ab3bd',1,'memory::bin_t']]],
+  ['into_5ftoml_4',['into_toml',['../structUtil_1_1Config.html#a59606241fbb26e25d4ce90314ef3eaf5',1,'Util::Config']]],
+  ['io_5',['IO',['../structRPC_1_1IO.html#aaedb060e7ef4d265711f9143b35f901c',1,'RPC::IO']]],
+  ['ivshmem_6',['ivshmem',['../classivshmem.html#ad351bdc6547f943f8dad16dd09982cfb',1,'ivshmem::ivshmem(memory::manager &amp;_backend)'],['../classivshmem.html#ad351bdc6547f943f8dad16dd09982cfb',1,'ivshmem::ivshmem(memory::manager &amp;_backend)']]]
 ];

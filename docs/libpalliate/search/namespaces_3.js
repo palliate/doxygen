@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['memory_0',['memory',['../namespacememory.html',1,'']]],
-  ['module_1',['Module',['../namespaceModule.html',1,'']]]
+  ['rpc_0',['RPC',['../namespaceRPC.html',1,'']]],
+  ['tcp_1',['TCP',['../namespaceRPC_1_1TCP.html',1,'RPC']]]
 ];

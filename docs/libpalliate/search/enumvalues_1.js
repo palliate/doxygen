@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['debug_0',['debug',['../namespaceLogging.html#aa0aabbf5046236bd92698ad87c9ab55aa3e0930ddd5f775c603db6bd89f8b1b57',1,'Logging']]]
+  ['invalid_0',['INVALID',['../namespacememory.html#a5489f7fba409dae5923725a7831d5026a08fef16c3401434dafddf345706e06b1',1,'memory']]]
 ];

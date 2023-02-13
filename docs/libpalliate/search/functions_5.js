@@ -1,10 +1,12 @@
 var searchData=
 [
-  ['element_0',['element',['../classatomic__cr_1_1element.html#ac6fad9f66567eb37086a629c28ac0ceb',1,'atomic_cr::element::element()=default'],['../classatomic__cr_1_1element.html#ad8fedb7badc30f7bf4c1491c9aca21ad',1,'atomic_cr::element::element(unsigned char *memory)']]],
-  ['element_5ft_1',['element_t',['../structpatricia_1_1element__t.html#a07715934059b4fa22a704d16b1951cf3',1,'patricia::element_t::element_t()'],['../structmemory_1_1element__t.html#a82580c629d80063148f1fde54e843895',1,'memory::element_t::element_t()']]],
-  ['enable_2',['enable',['../classLogging_1_1Logger.html#af2f7ea41236b2dfa06a7bc88786395bd',1,'Logging::Logger::enable()'],['../classLogging_1_1Printer.html#af39968c488d907f66b4ceacda4816265',1,'Logging::Printer::enable()']]],
-  ['end_3',['end',['../classModule_1_1Factory_1_1Collection.html#a6b42c5f369a3826806357d34c8aac369',1,'Module::Factory::Collection']]],
-  ['endpoint_4',['Endpoint',['../classLogging_1_1Endpoint.html#a74134723947287c2c1bc9403d40c9a63',1,'Logging::Endpoint']]],
-  ['enqueue_5',['enqueue',['../classMessageQueue.html#aae24704fd5a780ed97d91962bb8c642e',1,'MessageQueue']]],
-  ['error_6',['error',['../classLogging_1_1Logger.html#ac620b088dc2a92ee64eeb6c3a0731654',1,'Logging::Logger']]]
+  ['find_0',['find',['../classpatricia.html#a412a58404a59eba6bcf459001df41be9',1,'patricia']]],
+  ['find_5fbin_1',['find_bin',['../classmemory_1_1memory__map.html#aabf8a080a56ee0b44763312dbc6167ea',1,'memory::memory_map']]],
+  ['find_5ffirst_2',['find_first',['../structpatricia_1_1node__t.html#a578db190222c56abc39f965178edb559',1,'patricia::node_t::find_first()'],['../classpatricia.html#ac38c40ef7a80326ccef5d17f98ac088a',1,'patricia::find_first(element_t *subtree)'],['../classpatricia.html#a40e193a8c00a097ec836cbcb1be875f7',1,'patricia::find_first()']]],
+  ['find_5flast_3',['find_last',['../structpatricia_1_1node__t.html#a9dbf99e917f8ab79e6667996f543e198',1,'patricia::node_t::find_last()'],['../classpatricia.html#a5b01353f563f2fc8ddb30b8768d7c5f7',1,'patricia::find_last(element_t *subtree)'],['../classpatricia.html#a6e83b055ddcc4f2c5c443e35dc5d1da3',1,'patricia::find_last()']]],
+  ['find_5fnext_4',['find_next',['../structpatricia_1_1leaf__t.html#a446834e0e631d1c999ba35069f76abef',1,'patricia::leaf_t']]],
+  ['find_5fprev_5',['find_prev',['../structpatricia_1_1leaf__t.html#ad991525fb548a6e07f5af4f6195e1cf2',1,'patricia::leaf_t']]],
+  ['finish_6',['finish',['../classatomic__cr_1_1element.html#a37917d3d557260bb28b606c1b7026871',1,'atomic_cr::element::finish()'],['../classmpsc.html#a3212a34b60836d62b0e1c21b7c442e0a',1,'mpsc::finish()']]],
+  ['free_7',['free',['../classmemory_1_1memory__map.html#a5fde5927f496d61139f12be645cb5d9e',1,'memory::memory_map::free()'],['../classmemory_1_1manager.html#a1ad95f4ed158d22aa3e978982aaea66c',1,'memory::manager::free()']]],
+  ['from_5ftoml_8',['from_toml',['../structUtil_1_1Config.html#a4b462cc408f101818ae93ea3005753ec',1,'Util::Config']]]
 ];

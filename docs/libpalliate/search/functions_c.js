@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['next_0',['next',['../structpatricia_1_1node__t.html#a5300ca7794d6e7ddd5b9fae9404867bd',1,'patricia::node_t']]],
-  ['node_1',['node',['../structatomic__stack_1_1node.html#a9a95b98ce7605d256b5a3853dedfea0c',1,'atomic_stack::node']]],
-  ['node_5ft_2',['node_t',['../structpatricia_1_1node__t.html#a3c3d333d01ff0c9e6d3a0b72e46d5454',1,'patricia::node_t::node_t()'],['../structmemory_1_1node__t.html#a5c49c4a16eea1d71f8c6b710e6511def',1,'memory::node_t::node_t()']]]
+  ['operator_28_29_0',['operator()',['../classrunnable.html#a2490159bff269a448bf21446bebcecb3',1,'runnable']]],
+  ['operator_3c_3d_3e_1',['operator&lt;=&gt;',['../classrunnable.html#a95d5a63e6ef290fc57c6c7d9218369c5',1,'runnable']]]
 ];

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['data_0',['data',['../structelement.html#a44febad4972af6eca8253bd78413f230',1,'element::data()'],['../structatomic__stack_1_1node.html#ac93d7137bbf3e8995c6c2e787a1848ff',1,'atomic_stack::node::data()'],['../structLogging_1_1Annotated.html#a7d02aca4af8cd19f7f5cf6398379ff8b',1,'Logging::Annotated::data()'],['../classproducer.html#ad99965ecc495a216d5527461b10a03b9',1,'producer::data()']]],
-  ['delimeter_1',['delimeter',['../structUtil_1_1uuid.html#aeb709aa5b45e45a8604efdcbafc9fa69',1,'Util::uuid']]],
-  ['description_2',['description',['../structUtil_1_1CliOption.html#a4e22ae8079e93ff9ae7abd4e0483eb54',1,'Util::CliOption']]]
+  ['err_5fhandler_0',['err_handler',['../structRPC_1_1IO.html#a923392b26e8a9439b967afd3fa5b96c2',1,'RPC::IO']]],
+  ['executor_1',['executor',['../structRPC_1_1IO.html#acb6552cb4d9ac823798a1ebb7b8761af',1,'RPC::IO']]],
+  ['expiration_5ftime_2',['expiration_time',['../structelement.html#a47aedbe14fa4a3d2a854a28f33298295',1,'element::expiration_time()'],['../structelement.html#a1a9dc3402e5120a14646f6c1eddcbb1e',1,'element::expiration_time()']]]
 ];

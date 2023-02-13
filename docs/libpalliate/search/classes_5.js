@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['info_0',['Info',['../structThreading_1_1Info.html',1,'Threading']]],
-  ['io_1',['IO',['../structRPC_1_1IO.html',1,'RPC']]],
-  ['ivshmem_2',['ivshmem',['../classivshmem.html',1,'']]]
+  ['leaf_5ft_0',['leaf_t',['../structpatricia_1_1leaf__t.html',1,'patricia']]]
 ];

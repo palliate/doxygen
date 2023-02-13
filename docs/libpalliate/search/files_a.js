@@ -7,7 +7,5 @@ var searchData=
   ['printer_2eh_4',['printer.h',['../printer_8h.html',1,'']]],
   ['producer_2ecpp_5',['producer.cpp',['../producer_8cpp.html',1,'']]],
   ['producer_2eh_6',['producer.h',['../producer_8h.html',1,'']]],
-  ['project_5finfo_2ecpp_7',['project_info.cpp',['../project__info_8cpp.html',1,'']]],
-  ['psk_2ecpp_8',['psk.cpp',['../psk_8cpp.html',1,'']]],
-  ['psk_2eh_9',['psk.h',['../psk_8h.html',1,'']]]
+  ['psk_2ecpp_7',['psk.cpp',['../psk_8cpp.html',1,'']]]
 ];

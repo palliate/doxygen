@@ -7,10 +7,8 @@ var searchData=
   ['manager_2eh_4',['manager.h',['../manager_8h.html',1,'']]],
   ['memory_5fmap_2ecpp_5',['memory_map.cpp',['../memory__map_8cpp.html',1,'']]],
   ['memory_5fmap_2eh_6',['memory_map.h',['../memory__map_8h.html',1,'']]],
-  ['message_2eh_7',['message.h',['../message_8h.html',1,'']]],
-  ['message_5fqueue_2ecpp_8',['message_queue.cpp',['../message__queue_8cpp.html',1,'']]],
-  ['message_5fqueue_2eh_9',['message_queue.h',['../message__queue_8h.html',1,'']]],
-  ['mpsc_2eh_10',['mpsc.h',['../mpsc_8h.html',1,'']]],
-  ['server_2ecpp_11',['server.cpp',['../memory_2server_8cpp.html',1,'']]],
-  ['server_2eh_12',['server.h',['../memory_2server_8h.html',1,'']]]
+  ['message_5fqueue_2ecpp_7',['message_queue.cpp',['../message__queue_8cpp.html',1,'']]],
+  ['mpsc_2eh_8',['mpsc.h',['../mpsc_8h.html',1,'']]],
+  ['server_2ecpp_9',['server.cpp',['../memory_2server_8cpp.html',1,'']]],
+  ['server_2eh_10',['server.h',['../memory_2server_8h.html',1,'']]]
 ];
