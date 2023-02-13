@@ -27,7 +27,6 @@ var NAVTREE =
   [ "libpalliate", "index.html", [
     [ "Landing page", "../index.html", null ],
     [ "Application documentation", "../palliate/index.html", null ],
-    [ "palliate-protocol", "md____w_libpalliate_libpalliate_src_protocol_README.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -69,10 +68,10 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../index.html",
-"classUtil_1_1Configurable.html#ad96ba7f83073d4002396fa263b70f8e0",
-"dir_40bb855b7b2023435b78cde29725ed48.html",
-"structRPC_1_1Context.html",
-"structpatricia_1_1leaf__t.html#ad991525fb548a6e07f5af4f6195e1cf2"
+"classatomic__cr.html#a0c71d9d0aa6a277625bcb6b76b1da068",
+"dir_5a0b8a96bb53e775f4b54ca4f19ddbaf.html",
+"structRPC_1_1Context.html#a11d9b76f7c226baf35974c3398c7f8fb",
+"transport_2tcp_2client_8h.html#a8ff1ca4f59ca63030ff934ca98d6bc4f"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

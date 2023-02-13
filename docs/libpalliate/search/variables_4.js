@@ -2,5 +2,5 @@ var searchData=
 [
   ['data_0',['data',['../structelement.html#a44febad4972af6eca8253bd78413f230',1,'element::data()'],['../structatomic__stack_1_1node.html#ac93d7137bbf3e8995c6c2e787a1848ff',1,'atomic_stack::node::data()'],['../structLogging_1_1Annotated.html#a7d02aca4af8cd19f7f5cf6398379ff8b',1,'Logging::Annotated::data()'],['../classproducer.html#ad99965ecc495a216d5527461b10a03b9',1,'producer::data()']]],
   ['delimeter_1',['delimeter',['../structUtil_1_1uuid.html#aeb709aa5b45e45a8604efdcbafc9fa69',1,'Util::uuid']]],
-  ['description_2',['description',['../structUtil_1_1Build.html#a425c63742fd0a6bedb19e4994d69d785',1,'Util::Build::description()'],['../structUtil_1_1CliOption.html#a4e22ae8079e93ff9ae7abd4e0483eb54',1,'Util::CliOption::description()']]]
+  ['description_2',['description',['../structUtil_1_1CliOption.html#a4e22ae8079e93ff9ae7abd4e0483eb54',1,'Util::CliOption']]]
 ];

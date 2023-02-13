@@ -15,7 +15,6 @@ var hierarchy =
     [ "Base", null, [
       [ "Module::Factory< Base, Args >::Registrar< T, Config >", "structModule_1_1Factory_1_1Registrar.html", null ]
     ] ],
-    [ "Util::Build", "structUtil_1_1Build.html", null ],
     [ "Util::CliOption", "structUtil_1_1CliOption.html", null ],
     [ "Module::Factory< Base, Args >::Collection", "classModule_1_1Factory_1_1Collection.html", null ],
     [ "Util::Config", "structUtil_1_1Config.html", null ],
@@ -61,7 +60,6 @@ var hierarchy =
       [ "UI::Tray", "classUI_1_1Tray.html", null ]
     ] ],
     [ "toml::from< std::filesystem::path >", null, null ],
-    [ "Util::Build::Git", "structUtil_1_1Build_1_1Git.html", null ],
     [ "Threading::Info", "structThreading_1_1Info.html", null ],
     [ "toml::into< std::filesystem::path >", null, null ],
     [ "RPC::IO", "structRPC_1_1IO.html", null ],

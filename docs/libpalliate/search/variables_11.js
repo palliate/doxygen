@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['shorthand_0',['shorthand',['../structUtil_1_1CliOption.html#aa75323705b8fb1ed4d8be14361877555',1,'Util::CliOption']]],
-  ['side_1',['side',['../structRPC_1_1Context.html#a979ec59aeb05182bd186a305e2d5c5d8',1,'RPC::Context']]],
-  ['size_2',['size',['../classmemory_1_1manager.html#a85a29c93505883c92042b0b27c40f421',1,'memory::manager']]],
-  ['stream_3',['stream',['../structRPC_1_1Context.html#ad5d24a2b8a93694bebb9017d0006408d',1,'RPC::Context']]]
+  ['t_0',['T',['../structModule_1_1Factory_1_1Registrar.html#a084153937e5bdcfb48dd3f7bb2a90575',1,'Module::Factory::Registrar']]],
+  ['tail_1',['tail',['../classatomic__mpsc.html#ac5f281cc2b7deb6bb043737f6251d632',1,'atomic_mpsc']]],
+  ['tasks_2',['tasks',['../structRPC_1_1IO.html#a3dae6685b252b31f1621241d2795a9a0',1,'RPC::IO']]],
+  ['text_3',['text',['../structLogging_1_1message.html#aa3a08cdf08e9dd883ee695877b0bcbb2',1,'Logging::message']]],
+  ['thread_4',['thread',['../structLogging_1_1message.html#a4a2934779a1b4a24f48e52e2642307ff',1,'Logging::message::thread()'],['../structThreading_1_1Runnable.html#af3577c106c8e7a459ca2890cc6c9806b',1,'Threading::Runnable::thread()'],['../classrunnable.html#a2af67a3067df242083a64c3add4f150a',1,'runnable::thread()']]]
 ];

@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['rect_0',['rect',['../structUtil_1_1rect.html',1,'Util']]],
-  ['registrar_1',['Registrar',['../structModule_1_1Factory_1_1Registrar.html',1,'Module::Factory']]],
-  ['renderer_2',['Renderer',['../classUI_1_1Renderer.html',1,'UI']]],
-  ['runnable_3',['runnable',['../classrunnable.html',1,'']]],
-  ['runnable_4',['Runnable',['../structThreading_1_1Runnable.html',1,'Threading']]]
+  ['server_0',['server',['../classmemory_1_1server.html',1,'memory']]],
+  ['server_1',['Server',['../classRPC_1_1Server.html',1,'RPC::Server'],['../classRPC_1_1TCP_1_1Server.html',1,'RPC::TCP::Server'],['../classtransport_1_1Server.html',1,'transport::Server'],['../classtransport_1_1TCP_1_1Server.html',1,'transport::TCP::Server']]],
+  ['servers_2',['Servers',['../classServers.html',1,'']]]
 ];

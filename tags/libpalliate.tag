@@ -140,6 +140,11 @@
     <class kind="struct">mpsc::element_t</class>
   </compound>
   <compound kind="file">
+    <name>dummy.cpp</name>
+    <path>/__w/libpalliate/libpalliate/src/</path>
+    <filename>dummy_8cpp.html</filename>
+  </compound>
+  <compound kind="file">
     <name>endpoint.h</name>
     <path>/__w/libpalliate/libpalliate/src/logging/</path>
     <filename>endpoint_8h.html</filename>
@@ -737,11 +742,6 @@
     <class kind="class">Servers</class>
   </compound>
   <compound kind="file">
-    <name>README.md</name>
-    <path>/__w/libpalliate/libpalliate/src/protocol/</path>
-    <filename>README_8md.html</filename>
-  </compound>
-  <compound kind="file">
     <name>context.cpp</name>
     <path>/__w/libpalliate/libpalliate/src/rpc/</path>
     <filename>context_8cpp.html</filename>
@@ -891,20 +891,6 @@
     <namespace>UI</namespace>
   </compound>
   <compound kind="file">
-    <name>build.cpp</name>
-    <path>/__w/libpalliate/libpalliate/src/util/</path>
-    <filename>build_8cpp.html</filename>
-    <includes id="build_8h" name="build.h" local="yes" imported="no">build.h</includes>
-  </compound>
-  <compound kind="file">
-    <name>build.h</name>
-    <path>/__w/libpalliate/libpalliate/src/util/</path>
-    <filename>build_8h.html</filename>
-    <class kind="struct">Util::Build</class>
-    <class kind="struct">Util::Build::Git</class>
-    <namespace>Util</namespace>
-  </compound>
-  <compound kind="file">
     <name>cli.h</name>
     <path>/__w/libpalliate/libpalliate/src/util/</path>
     <filename>cli_8h.html</filename>
@@ -1035,6 +1021,11 @@
     <path>/__w/libpalliate/libpalliate/src/util/</path>
     <filename>filesystem_8windows_8cpp.html</filename>
     <includes id="filesystem_8h" name="filesystem.h" local="yes" imported="no">filesystem.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>project_info.cpp</name>
+    <path>/__w/libpalliate/libpalliate/src/util/</path>
+    <filename>project__info_8cpp.html</filename>
   </compound>
   <compound kind="file">
     <name>rect.h</name>
@@ -1512,53 +1503,6 @@
       <name>first</name>
       <anchorfile>structmemory_1_1bin__t.html</anchorfile>
       <anchor>ad8e4401151094783491a4794d70aa6d4</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
-    <name>Util::Build</name>
-    <filename>structUtil_1_1Build.html</filename>
-    <class kind="struct">Util::Build::Git</class>
-    <member kind="function">
-      <type>const std::string</type>
-      <name>str</name>
-      <anchorfile>structUtil_1_1Build.html</anchorfile>
-      <anchor>a00064eb2b637bb6aebd1788e99f49c6c</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="variable">
-      <type>std::string_view</type>
-      <name>name</name>
-      <anchorfile>structUtil_1_1Build.html</anchorfile>
-      <anchor>af3dea0a49da87a1587a1840ec1db9553</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>std::string_view</type>
-      <name>version</name>
-      <anchorfile>structUtil_1_1Build.html</anchorfile>
-      <anchor>a583ae093a051dd7e826068abd5a91ff2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>std::string_view</type>
-      <name>description</name>
-      <anchorfile>structUtil_1_1Build.html</anchorfile>
-      <anchor>a425c63742fd0a6bedb19e4994d69d785</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>std::string_view</type>
-      <name>root</name>
-      <anchorfile>structUtil_1_1Build.html</anchorfile>
-      <anchor>a57bca8915e3125f21955303d0f56545a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>const std::optional&lt; Git &gt;</type>
-      <name>git</name>
-      <anchorfile>structUtil_1_1Build.html</anchorfile>
-      <anchor>a5bffa94b6e83f9ccdd94ebacb877fc7b</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -2394,45 +2338,6 @@
       <name>Base</name>
       <anchorfile>classModule_1_1Factory.html</anchorfile>
       <anchor>a0a3acb3e3916137399d0467e963b0c4f</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
-    <name>Util::Build::Git</name>
-    <filename>structUtil_1_1Build_1_1Git.html</filename>
-    <member kind="variable">
-      <type>std::string_view</type>
-      <name>remote_url</name>
-      <anchorfile>structUtil_1_1Build_1_1Git.html</anchorfile>
-      <anchor>a8b3a6c2848df45352c324fc31ce65605</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>std::string_view</type>
-      <name>web_url</name>
-      <anchorfile>structUtil_1_1Build_1_1Git.html</anchorfile>
-      <anchor>a4ab51cda8a14d764c80b9f66f9877187</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>std::string_view</type>
-      <name>commit</name>
-      <anchorfile>structUtil_1_1Build_1_1Git.html</anchorfile>
-      <anchor>ad20a9e320515d6eba494b8af7345217b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>std::string_view</type>
-      <name>commit_short</name>
-      <anchorfile>structUtil_1_1Build_1_1Git.html</anchorfile>
-      <anchor>abe8ea11d377f2ee3be0f24abca86cddf</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>bool</type>
-      <name>modified</name>
-      <anchorfile>structUtil_1_1Build_1_1Git.html</anchorfile>
-      <anchor>a387289779be9f2b1fc05a44a22a4bcf9</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -4481,7 +4386,6 @@
   <compound kind="namespace">
     <name>Util</name>
     <filename>namespaceUtil.html</filename>
-    <class kind="struct">Util::Build</class>
     <class kind="struct">Util::CliOption</class>
     <class kind="struct">Util::Config</class>
     <class kind="class">Util::Configurable</class>
@@ -4616,10 +4520,5 @@
       <anchor>a4191f9f214259a4d7c51084412091ca0</anchor>
       <arglist>(T number, bool ommit_trailing_zero=false, bool ommit_trailing_one=false, int mask_after=-1)</arglist>
     </member>
-  </compound>
-  <compound kind="page">
-    <name>md____w_libpalliate_libpalliate_src_protocol_README</name>
-    <title>palliate-protocol</title>
-    <filename>md____w_libpalliate_libpalliate_src_protocol_README.html</filename>
   </compound>
 </tagfile>
