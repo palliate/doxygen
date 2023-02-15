@@ -1,8 +1,5 @@
 var annotated_dup =
 [
-    [ "Logging", "namespaceLogging.html", [
-      [ "Printer", "classLogging_1_1Printer.html", "classLogging_1_1Printer" ]
-    ] ],
     [ "memory", "namespacememory.html", [
       [ "bin_t", "structmemory_1_1bin__t.html", "structmemory_1_1bin__t" ],
       [ "client", "classmemory_1_1client.html", "classmemory_1_1client" ],

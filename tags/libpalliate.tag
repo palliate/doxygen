@@ -106,7 +106,6 @@
     <name>logger.cpp</name>
     <path>/__w/libpalliate/libpalliate/src/logging/</path>
     <filename>logger_8cpp.html</filename>
-    <includes id="printer_8h" name="printer.h" local="yes" imported="no">printer.h</includes>
     <member kind="variable">
       <type>Logging::Logger &amp;</type>
       <name>logger</name>
@@ -119,14 +118,6 @@
     <name>printer.cpp</name>
     <path>/__w/libpalliate/libpalliate/src/logging/</path>
     <filename>printer_8cpp.html</filename>
-    <includes id="printer_8h" name="printer.h" local="yes" imported="no">printer.h</includes>
-  </compound>
-  <compound kind="file">
-    <name>printer.h</name>
-    <path>/__w/libpalliate/libpalliate/src/logging/</path>
-    <filename>printer_8h.html</filename>
-    <class kind="class">Logging::Printer</class>
-    <namespace>Logging</namespace>
   </compound>
   <compound kind="file">
     <name>memory/client.cpp</name>
@@ -2274,38 +2265,6 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>Logging::Printer</name>
-    <filename>classLogging_1_1Printer.html</filename>
-    <member kind="function">
-      <type>void</type>
-      <name>enable</name>
-      <anchorfile>classLogging_1_1Printer.html</anchorfile>
-      <anchor>af39968c488d907f66b4ceacda4816265</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>configure</name>
-      <anchorfile>classLogging_1_1Printer.html</anchorfile>
-      <anchor>a35dd25fd2ce2aba98e4a1e5d4a5c500b</anchor>
-      <arglist>(config::Logging const &amp;cfg)</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>has_endpoint</name>
-      <anchorfile>classLogging_1_1Printer.html</anchorfile>
-      <anchor>a186214135c2a22761b664d665c62ff9a</anchor>
-      <arglist>(std::string const &amp;name) const</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>print</name>
-      <anchorfile>classLogging_1_1Printer.html</anchorfile>
-      <anchor>adb4c1e468bf58437527fe6c269a70042</anchor>
-      <arglist>(message &amp;msg)</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
     <name>producer</name>
     <filename>classproducer.html</filename>
     <base>runnable</base>
@@ -2769,11 +2728,6 @@
       <anchor>ad417d5a0e5c6b6fd05004c05b0516408</anchor>
       <arglist>(std::string_view name)</arglist>
     </member>
-  </compound>
-  <compound kind="namespace">
-    <name>Logging</name>
-    <filename>namespaceLogging.html</filename>
-    <class kind="class">Logging::Printer</class>
   </compound>
   <compound kind="namespace">
     <name>memory</name>

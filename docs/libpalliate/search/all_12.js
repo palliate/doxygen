@@ -2,9 +2,9 @@ var searchData=
 [
   ['send_0',['send',['../classtransport_1_1Client.html#a02cb597402a3e22d4cd24386733d5a24',1,'transport::Client::send()'],['../classtransport_1_1TCP_1_1Client.html#ac124e47c22ae9703516bdcb2040a5ae5',1,'transport::TCP::Client::send()']]],
   ['server_1',['server',['../classmemory_1_1server.html',1,'memory']]],
-  ['server_2',['Server',['../classRPC_1_1Server.html',1,'RPC::Server'],['../classRPC_1_1TCP_1_1Server.html',1,'RPC::TCP::Server'],['../classtransport_1_1Server.html#a39a4d29cad9d51f83410a2074c557fe7',1,'transport::Server::Server()'],['../classtransport_1_1TCP_1_1Server.html#a27e80eeedc337d15b231254ad55dbf85',1,'transport::TCP::Server::Server()'],['../classRPC_1_1TCP_1_1Server.html#a3111b13e4cd1847ae669bc9ee240d246',1,'RPC::TCP::Server::Server()'],['../classRPC_1_1Server.html#a0eccd57fe950224d66a3f01bc1bd076c',1,'RPC::Server::Server()']]],
-  ['server_3',['server',['../classmemory_1_1server.html#afc4dec957a29610da254bd18c58d6d8a',1,'memory::server::server()'],['../structRPC_1_1Context.html#a12974c46a44adb112bc1da6d09b694f9a5c122d85a5b928ed485449afe7dd05ec',1,'RPC::Context::server()']]],
-  ['server_4',['Server',['../classtransport_1_1Server.html',1,'transport::Server'],['../classtransport_1_1TCP_1_1Server.html',1,'transport::TCP::Server']]],
+  ['server_2',['Server',['../classRPC_1_1Server.html',1,'RPC::Server'],['../classRPC_1_1TCP_1_1Server.html',1,'RPC::TCP::Server']]],
+  ['server_3',['server',['../structRPC_1_1Context.html#a12974c46a44adb112bc1da6d09b694f9a5c122d85a5b928ed485449afe7dd05ec',1,'RPC::Context::server()'],['../classmemory_1_1server.html#afc4dec957a29610da254bd18c58d6d8a',1,'memory::server::server()']]],
+  ['server_4',['Server',['../classtransport_1_1TCP_1_1Server.html#a27e80eeedc337d15b231254ad55dbf85',1,'transport::TCP::Server::Server()'],['../classtransport_1_1Server.html#a39a4d29cad9d51f83410a2074c557fe7',1,'transport::Server::Server()'],['../classRPC_1_1TCP_1_1Server.html#a3111b13e4cd1847ae669bc9ee240d246',1,'RPC::TCP::Server::Server()'],['../classRPC_1_1Server.html#a0eccd57fe950224d66a3f01bc1bd076c',1,'RPC::Server::Server()'],['../classtransport_1_1Server.html',1,'transport::Server'],['../classtransport_1_1TCP_1_1Server.html',1,'transport::TCP::Server']]],
   ['servers_5',['Servers',['../classServers.html',1,'']]],
   ['servers_2ecpp_6',['servers.cpp',['../servers_8cpp.html',1,'']]],
   ['servers_2eh_7',['servers.h',['../servers_8h.html',1,'']]],

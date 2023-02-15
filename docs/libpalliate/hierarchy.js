@@ -42,7 +42,6 @@ var hierarchy =
     [ "atomic_stack< T >::node", "structatomic__stack_1_1node.html", null ],
     [ "patricia", "classpatricia.html", null ],
     [ "plugin", "classplugin.html", null ],
-    [ "Logging::Printer", "classLogging_1_1Printer.html", null ],
     [ "Util::rect", "structUtil_1_1rect.html", null ],
     [ "RPC::Client::Registrar", null, [
       [ "RPC::TCP::Client", "classRPC_1_1TCP_1_1Client.html", null ]

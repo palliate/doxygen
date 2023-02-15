@@ -15,6 +15,6 @@ var searchData=
   ['_7eplugin_12',['~plugin',['../classplugin.html#ac51eb269648cffefe2914fac6e9e0185',1,'plugin']]],
   ['_7eproducer_13',['~producer',['../classproducer.html#a270acc4b90a58b69212ae832b6528553',1,'producer']]],
   ['_7erunnable_14',['~runnable',['../classrunnable.html#acadf1c830cb8f782dadde111a1be6080',1,'runnable']]],
-  ['_7eserver_15',['~server',['../classmemory_1_1server.html#a082284e960949ae7809b4ebbc9ceb52c',1,'memory::server']]],
-  ['_7eserver_16',['~Server',['../classRPC_1_1Server.html#af72d1d9a80b16070359fe3b376ef9c36',1,'RPC::Server::~Server()'],['../classRPC_1_1TCP_1_1Server.html#ad434c31de91e2558a23ba2a4f6804991',1,'RPC::TCP::Server::~Server()'],['../classtransport_1_1Server.html#a8c9e08df9ade8395b336648d5c4af182',1,'transport::Server::~Server()']]]
+  ['_7eserver_15',['~Server',['../classRPC_1_1Server.html#af72d1d9a80b16070359fe3b376ef9c36',1,'RPC::Server::~Server()'],['../classRPC_1_1TCP_1_1Server.html#ad434c31de91e2558a23ba2a4f6804991',1,'RPC::TCP::Server::~Server()'],['../classtransport_1_1Server.html#a8c9e08df9ade8395b336648d5c4af182',1,'transport::Server::~Server()']]],
+  ['_7eserver_16',['~server',['../classmemory_1_1server.html#a082284e960949ae7809b4ebbc9ceb52c',1,'memory::server']]]
 ];
