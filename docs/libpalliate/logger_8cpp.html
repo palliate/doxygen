@@ -90,17 +90,26 @@ $(document).ready(function(){initNavTree('logger_8cpp.html',''); initResizable()
 
 <div class="header">
   <div class="summary">
+<a href="#namespaces">Namespaces</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">logger.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;cstddef&gt;</code><br />
-<code>#include &lt;palliate/logging/logger.hpp&gt;</code><br />
+<div class="textblock"><code>#include &lt;palliate/logging/logger.hpp&gt;</code><br />
 <code>#include &lt;palliate/logging/printer.hpp&gt;</code><br />
+<code>#include &lt;atomic&gt;</code><br />
+<code>#include &lt;cstddef&gt;</code><br />
+<code>#include &lt;memory&gt;</code><br />
+<code>#include &lt;new&gt;</code><br />
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:namespaceLogging"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceLogging.html">Logging</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:aeefd35680cdb206c5a6158b0dd09a1b4"><td class="memItemLeft" align="right" valign="top">Logging::Logger &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logger_8cpp.html#aeefd35680cdb206c5a6158b0dd09a1b4">logger</a> = reinterpret_cast&lt;Logger&amp;&gt;(storage)</td></tr>
+<tr class="memitem:aeefd35680cdb206c5a6158b0dd09a1b4"><td class="memItemLeft" align="right" valign="top">Logging::Logger &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logger_8cpp.html#aeefd35680cdb206c5a6158b0dd09a1b4">logger</a></td></tr>
 <tr class="separator:aeefd35680cdb206c5a6158b0dd09a1b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Variable Documentation</h2>
@@ -111,11 +120,13 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Logging::Logger&amp; logger = reinterpret_cast&lt;Logger&amp;&gt;(storage)</td>
+          <td class="memname">Logging::Logger&amp; logger</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">    <span class="keyword">reinterpret_cast&lt;</span>Logging::Logger&amp;<span class="keyword">&gt;</span>(Logging::logger_storage)</div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->

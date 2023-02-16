@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['rpc_0',['RPC',['../namespaceRPC.html',1,'']]],
-  ['tcp_1',['TCP',['../namespaceRPC_1_1TCP.html',1,'RPC']]]
+  ['endpoints_0',['Endpoints',['../namespaceLogging_1_1Endpoints.html',1,'Logging']]],
+  ['logging_1',['Logging',['../namespaceLogging.html',1,'']]]
 ];

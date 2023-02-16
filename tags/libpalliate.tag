@@ -4,11 +4,73 @@
     <name>psk.cpp</name>
     <path>/__w/libpalliate/libpalliate/src/authentication/</path>
     <filename>psk_8cpp.html</filename>
+    <namespace>Authentication</namespace>
+  </compound>
+  <compound kind="file">
+    <name>unittest/psk.cpp</name>
+    <path>/__w/libpalliate/libpalliate/src/authentication/unittest/</path>
+    <filename>unittest_2psk_8cpp.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>TEST</name>
+      <anchorfile>unittest_2psk_8cpp.html</anchorfile>
+      <anchor>ac8a52cedd6c444660e89f583ea341986</anchor>
+      <arglist>(PSKTest, min)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>TEST</name>
+      <anchorfile>unittest_2psk_8cpp.html</anchorfile>
+      <anchor>a5a9ca783830a625b37a7ab66414de560</anchor>
+      <arglist>(PSKTest, max)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>TEST</name>
+      <anchorfile>unittest_2psk_8cpp.html</anchorfile>
+      <anchor>a475c78dbcba213f246637cad6c7b2d7a</anchor>
+      <arglist>(PSKTest, random)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>token.cpp</name>
     <path>/__w/libpalliate/libpalliate/src/authentication/</path>
     <filename>token_8cpp.html</filename>
+    <namespace>Authentication</namespace>
+  </compound>
+  <compound kind="file">
+    <name>unittest/token.cpp</name>
+    <path>/__w/libpalliate/libpalliate/src/authentication/unittest/</path>
+    <filename>unittest_2token_8cpp.html</filename>
+    <class kind="class">TokenTest</class>
+    <member kind="function">
+      <type></type>
+      <name>TEST_F</name>
+      <anchorfile>unittest_2token_8cpp.html</anchorfile>
+      <anchor>a65dffd3c03c0c7db9197c54e1af2364f</anchor>
+      <arglist>(TokenTest, min)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>TEST_F</name>
+      <anchorfile>unittest_2token_8cpp.html</anchorfile>
+      <anchor>aeb7b548d7fa71281a0218198ab0e2138</anchor>
+      <arglist>(TokenTest, max)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>TEST_F</name>
+      <anchorfile>unittest_2token_8cpp.html</anchorfile>
+      <anchor>ab85ba56ed36c2bac4400344a12e60bdb</anchor>
+      <arglist>(TokenTest, random_forced)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>TEST_F</name>
+      <anchorfile>unittest_2token_8cpp.html</anchorfile>
+      <anchor>af739bf2f37c001cb985036df03730825</anchor>
+      <arglist>(TokenTest, token_refresh)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>atomic_cr.h</name>
@@ -98,14 +160,10 @@
     <class kind="struct">mpsc::element_t</class>
   </compound>
   <compound kind="file">
-    <name>dummy.cpp</name>
-    <path>/__w/libpalliate/libpalliate/src/</path>
-    <filename>dummy_8cpp.html</filename>
-  </compound>
-  <compound kind="file">
     <name>logger.cpp</name>
     <path>/__w/libpalliate/libpalliate/src/logging/</path>
     <filename>logger_8cpp.html</filename>
+    <namespace>Logging</namespace>
     <member kind="variable">
       <type>Logging::Logger &amp;</type>
       <name>logger</name>
@@ -118,6 +176,70 @@
     <name>printer.cpp</name>
     <path>/__w/libpalliate/libpalliate/src/logging/</path>
     <filename>printer_8cpp.html</filename>
+    <namespace>Logging</namespace>
+  </compound>
+  <compound kind="file">
+    <name>dummy.cpp</name>
+    <path>/__w/libpalliate/libpalliate/src/logging/unittest/</path>
+    <filename>dummy_8cpp.html</filename>
+    <includes id="dummy_8hpp" name="dummy.hpp" local="yes" imported="no">endpoints/dummy.hpp</includes>
+    <member kind="function">
+      <type></type>
+      <name>TEST</name>
+      <anchorfile>dummy_8cpp.html</anchorfile>
+      <anchor>a6ff9a606e0350f4f2bc2595b91274376</anchor>
+      <arglist>(Logging, print)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>endpoints/dummy.cpp</name>
+    <path>/__w/libpalliate/libpalliate/src/logging/unittest/endpoints/</path>
+    <filename>endpoints_2dummy_8cpp.html</filename>
+    <includes id="dummy_8hpp" name="dummy.hpp" local="yes" imported="no">dummy.hpp</includes>
+  </compound>
+  <compound kind="file">
+    <name>dummy.hpp</name>
+    <path>/__w/libpalliate/libpalliate/src/logging/unittest/endpoints/</path>
+    <filename>dummy_8hpp.html</filename>
+    <class kind="struct">Logging::Endpoints::DummyConfig</class>
+    <class kind="class">Logging::Endpoints::Dummy</class>
+    <namespace>Logging</namespace>
+    <namespace>Logging::Endpoints</namespace>
+  </compound>
+  <compound kind="file">
+    <name>logging.cpp</name>
+    <path>/__w/libpalliate/libpalliate/src/logging/unittest/</path>
+    <filename>logging_8cpp.html</filename>
+    <includes id="dummy_8hpp" name="dummy.hpp" local="yes" imported="no">endpoints/dummy.hpp</includes>
+    <class kind="class">LoggingTest</class>
+    <member kind="function">
+      <type></type>
+      <name>TEST</name>
+      <anchorfile>logging_8cpp.html</anchorfile>
+      <anchor>ae92575543589ef83112bbfb94de9bb59</anchor>
+      <arglist>(Logging, ensure_global_logger)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>TEST_F</name>
+      <anchorfile>logging_8cpp.html</anchorfile>
+      <anchor>a585c1d7bd6a213d4e3c6ee5354732f15</anchor>
+      <arglist>(LoggingTest, enable)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>TEST_F</name>
+      <anchorfile>logging_8cpp.html</anchorfile>
+      <anchor>a209627ee35e1859221fc1f3807720f56</anchor>
+      <arglist>(LoggingTest, print_levels)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>TEST_F</name>
+      <anchorfile>logging_8cpp.html</anchorfile>
+      <anchor>acfa1ca9a3f9a1086b2b867c6ba2499b6</anchor>
+      <arglist>(LoggingTest, print_raw)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>memory/client.cpp</name>
@@ -586,6 +708,18 @@
     <filename>info_8cpp.html</filename>
   </compound>
   <compound kind="file">
+    <name>unittest/info.cpp</name>
+    <path>/__w/libpalliate/libpalliate/src/project/unittest/</path>
+    <filename>unittest_2info_8cpp.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>TEST</name>
+      <anchorfile>unittest_2info_8cpp.html</anchorfile>
+      <anchor>ad4e1ae4ffb00dd0d82098a3e92ce5a5f</anchor>
+      <arglist>(project, to_string)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>context.cpp</name>
     <path>/__w/libpalliate/libpalliate/src/rpc/</path>
     <filename>context_8cpp.html</filename>
@@ -651,6 +785,25 @@
     <name>window.cpp</name>
     <path>/__w/libpalliate/libpalliate/src/ui/</path>
     <filename>window_8cpp.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>unittest_main.cpp</name>
+    <path>/__w/libpalliate/libpalliate/src/</path>
+    <filename>unittest__main_8cpp.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>TEST</name>
+      <anchorfile>unittest__main_8cpp.html</anchorfile>
+      <anchor>a19946b8e4313d54bfed22e1d3db7103e</anchor>
+      <arglist>(Dummy, AlwaysPasses)</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>main</name>
+      <anchorfile>unittest__main_8cpp.html</anchorfile>
+      <anchor>a3c04138a5bfe5d72780bb7e82a18e627</anchor>
+      <arglist>(int argc, char **argv)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>cli.h</name>
@@ -1434,6 +1587,77 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>Logging::Endpoints::Dummy</name>
+    <filename>classLogging_1_1Endpoints_1_1Dummy.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>Dummy</name>
+      <anchorfile>classLogging_1_1Endpoints_1_1Dummy.html</anchorfile>
+      <anchor>a0a382623cccc7feb496d9e5ab6808edc</anchor>
+      <arglist>(DummyConfig const &amp;config)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~Dummy</name>
+      <anchorfile>classLogging_1_1Endpoints_1_1Dummy.html</anchorfile>
+      <anchor>a89215fa1746c81591ce8878099f0bae5</anchor>
+      <arglist>() override=default</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>print</name>
+      <anchorfile>classLogging_1_1Endpoints_1_1Dummy.html</anchorfile>
+      <anchor>a59fef09ef608ff3383deafa9a9e6b55c</anchor>
+      <arglist>(Logging::Message const &amp;msg) override</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flush</name>
+      <anchorfile>classLogging_1_1Endpoints_1_1Dummy.html</anchorfile>
+      <anchor>a2de2d5dcc58394ab6ec125873ad0c9b5</anchor>
+      <arglist>() override</arglist>
+    </member>
+    <member kind="variable">
+      <type>std::list&lt; Logging::Message &gt;</type>
+      <name>messages</name>
+      <anchorfile>classLogging_1_1Endpoints_1_1Dummy.html</anchorfile>
+      <anchor>aa82040dbc3cf5940263c7e8280205139</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>Logging::Endpoints::DummyConfig</name>
+    <filename>structLogging_1_1Endpoints_1_1DummyConfig.html</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>from_toml</name>
+      <anchorfile>structLogging_1_1Endpoints_1_1DummyConfig.html</anchorfile>
+      <anchor>a85b1ea9a6a5f461e3ae2b4cef35de475</anchor>
+      <arglist>(const toml::value &amp;v)</arglist>
+    </member>
+    <member kind="function">
+      <type>toml::value</type>
+      <name>into_toml</name>
+      <anchorfile>structLogging_1_1Endpoints_1_1DummyConfig.html</anchorfile>
+      <anchor>a935efc210302ae309cdf5a34499a064d</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static auto</type>
+      <name>name</name>
+      <anchorfile>structLogging_1_1Endpoints_1_1DummyConfig.html</anchorfile>
+      <anchor>a5978f2068cbc6ffc1d7dc7c15d32ce96</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="variable">
+      <type>bool</type>
+      <name>enabled</name>
+      <anchorfile>structLogging_1_1Endpoints_1_1DummyConfig.html</anchorfile>
+      <anchor>a12b2c80a896429fd91fb9f549120113f</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>atomic_cr::element</name>
     <filename>classatomic__cr_1_1element.html</filename>
     <member kind="function">
@@ -1780,6 +2004,31 @@
       <anchorfile>structpatricia_1_1leaf__t.html</anchorfile>
       <anchor>a06dab8fbf2f78e1a86e685c474052dde</anchor>
       <arglist>()=0</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>LoggingTest</name>
+    <filename>classLoggingTest.html</filename>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>SetUp</name>
+      <anchorfile>classLoggingTest.html</anchorfile>
+      <anchor>ade99aa1e8f0fb82f06c12a12247b56f6</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>TearDown</name>
+      <anchorfile>classLoggingTest.html</anchorfile>
+      <anchor>a5dfb12e5c9393b0d0a5c74cfa80f899c</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>Dummy *</type>
+      <name>dummy</name>
+      <anchorfile>classLoggingTest.html</anchorfile>
+      <anchor>adcb5a1602796539ba4a59a597c60a315</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -2718,6 +2967,56 @@
       <arglist>(std::function&lt; void(Client *, reader_t)&gt; message_event)</arglist>
     </member>
   </compound>
+  <compound kind="class">
+    <name>TokenTest</name>
+    <filename>classTokenTest.html</filename>
+    <member kind="function" protection="protected">
+      <type></type>
+      <name>~TokenTest</name>
+      <anchorfile>classTokenTest.html</anchorfile>
+      <anchor>afe8cf5374fd8a6bb6d7863caa45fa5ee</anchor>
+      <arglist>() noexcept override=default</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>void</type>
+      <name>SetUp</name>
+      <anchorfile>classTokenTest.html</anchorfile>
+      <anchor>ab042991b812bf42cc87c7460d90460f1</anchor>
+      <arglist>() override</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>void</type>
+      <name>TearDown</name>
+      <anchorfile>classTokenTest.html</anchorfile>
+      <anchor>a12301fa997c7b62535d2dcf771d4489e</anchor>
+      <arglist>() override</arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>kj::EventLoop</type>
+      <name>event_loop</name>
+      <anchorfile>classTokenTest.html</anchorfile>
+      <anchor>ad5fcbd193ac0a357ab37d523182859ec</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>kj::WaitScope</type>
+      <name>wait_scope</name>
+      <anchorfile>classTokenTest.html</anchorfile>
+      <anchor>a9945a52415155f58f8a3e94046c8a0f4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>kj::Executor const  &amp;</type>
+      <name>executor</name>
+      <anchorfile>classTokenTest.html</anchorfile>
+      <anchor>ac3145029799c7abd8efc0e19e75b7e79</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="namespace">
+    <name>Authentication</name>
+    <filename>namespaceAuthentication.html</filename>
+  </compound>
   <compound kind="namespace">
     <name>detail</name>
     <filename>namespacedetail.html</filename>
@@ -2728,6 +3027,17 @@
       <anchor>ad417d5a0e5c6b6fd05004c05b0516408</anchor>
       <arglist>(std::string_view name)</arglist>
     </member>
+  </compound>
+  <compound kind="namespace">
+    <name>Logging</name>
+    <filename>namespaceLogging.html</filename>
+    <namespace>Logging::Endpoints</namespace>
+  </compound>
+  <compound kind="namespace">
+    <name>Logging::Endpoints</name>
+    <filename>namespaceLogging_1_1Endpoints.html</filename>
+    <class kind="class">Logging::Endpoints::Dummy</class>
+    <class kind="struct">Logging::Endpoints::DummyConfig</class>
   </compound>
   <compound kind="namespace">
     <name>memory</name>

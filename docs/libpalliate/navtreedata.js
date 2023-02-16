@@ -54,6 +54,7 @@ var NAVTREE =
       [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [
         [ "All", "globals.html", null ],
+        [ "Functions", "globals_func.html", null ],
         [ "Variables", "globals_vars.html", null ],
         [ "Typedefs", "globals_type.html", null ],
         [ "Macros", "globals_defs.html", null ]
@@ -65,8 +66,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../index.html",
-"classtransport_1_1Client.html#a7321574b5f18600eccbd3d4aab1c0ce9",
-"structUtil_1_1rect.html#a2b5db49a797f69b07437d45dbdf06244"
+"classrunnable.html#a05762391a8d79adab6e6972ed8c97471",
+"structRPC_1_1Context.html#a5f42203a18c9190f93bd36e23e963297"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

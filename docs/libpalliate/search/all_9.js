@@ -11,11 +11,12 @@ var searchData=
   ['insert_5fbefore_8',['insert_before',['../structmemory_1_1bin__t.html#a56e3098f47a9f47116fd4fb8512ab3bd',1,'memory::bin_t']]],
   ['instream_5ft_9',['instream_t',['../namespacetransport_1_1TCP.html#a8ff1ca4f59ca63030ff934ca98d6bc4f',1,'transport::TCP']]],
   ['interface_10',['interface',['../classRPC_1_1Server.html#a866d51bece811d11362e9e4899661d92',1,'RPC::Server']]],
-  ['into_5ftoml_11',['into_toml',['../structUtil_1_1Config.html#a59606241fbb26e25d4ce90314ef3eaf5',1,'Util::Config']]],
+  ['into_5ftoml_11',['into_toml',['../structLogging_1_1Endpoints_1_1DummyConfig.html#a935efc210302ae309cdf5a34499a064d',1,'Logging::Endpoints::DummyConfig::into_toml()'],['../structUtil_1_1Config.html#a59606241fbb26e25d4ce90314ef3eaf5',1,'Util::Config::into_toml()']]],
   ['invalid_12',['INVALID',['../namespacememory.html#a5489f7fba409dae5923725a7831d5026a08fef16c3401434dafddf345706e06b1',1,'memory']]],
   ['invalid_5fsocket_13',['INVALID_SOCKET',['../transport_2tcp_2server_8cpp.html#a26769957ec1a2beaf223f33b66ee64ab',1,'INVALID_SOCKET():&#160;server.cpp'],['../transport_2tcp_2client_8cpp.html#a26769957ec1a2beaf223f33b66ee64ab',1,'INVALID_SOCKET():&#160;client.cpp']]],
-  ['io_14',['io',['../classRPC_1_1Server.html#a76add49eb5b58c3e642026d1f3d83f01',1,'RPC::Server']]],
-  ['io_15',['IO',['../structRPC_1_1IO.html#aaedb060e7ef4d265711f9143b35f901c',1,'RPC::IO::IO()'],['../structRPC_1_1IO.html',1,'RPC::IO']]],
-  ['io_2eh_16',['io.h',['../io_8h.html',1,'']]],
-  ['ivshmem_17',['ivshmem',['../classivshmem.html#ad351bdc6547f943f8dad16dd09982cfb',1,'ivshmem::ivshmem(memory::manager &amp;_backend)'],['../classivshmem.html#ad351bdc6547f943f8dad16dd09982cfb',1,'ivshmem::ivshmem(memory::manager &amp;_backend)'],['../classivshmem.html',1,'ivshmem']]]
+  ['io_14',['IO',['../structRPC_1_1IO.html#aaedb060e7ef4d265711f9143b35f901c',1,'RPC::IO']]],
+  ['io_15',['io',['../classRPC_1_1Server.html#a76add49eb5b58c3e642026d1f3d83f01',1,'RPC::Server']]],
+  ['io_16',['IO',['../structRPC_1_1IO.html',1,'RPC']]],
+  ['io_2eh_17',['io.h',['../io_8h.html',1,'']]],
+  ['ivshmem_18',['ivshmem',['../classivshmem.html#ad351bdc6547f943f8dad16dd09982cfb',1,'ivshmem::ivshmem(memory::manager &amp;_backend)'],['../classivshmem.html#ad351bdc6547f943f8dad16dd09982cfb',1,'ivshmem::ivshmem(memory::manager &amp;_backend)'],['../classivshmem.html',1,'ivshmem']]]
 ];

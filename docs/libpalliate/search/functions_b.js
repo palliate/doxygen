@@ -1,6 +1,9 @@
 var searchData=
 [
-  ['next_0',['next',['../structpatricia_1_1node__t.html#a5300ca7794d6e7ddd5b9fae9404867bd',1,'patricia::node_t']]],
-  ['node_1',['node',['../structatomic__stack_1_1node.html#a9a95b98ce7605d256b5a3853dedfea0c',1,'atomic_stack::node']]],
-  ['node_5ft_2',['node_t',['../structpatricia_1_1node__t.html#a3c3d333d01ff0c9e6d3a0b72e46d5454',1,'patricia::node_t::node_t()'],['../structmemory_1_1node__t.html#a5c49c4a16eea1d71f8c6b710e6511def',1,'memory::node_t::node_t()']]]
+  ['main_0',['main',['../unittest__main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'unittest_main.cpp']]],
+  ['make_5fconsumer_1',['make_consumer',['../classplugin.html#a4c613f683d2b735ae9f0103fcd8bef30',1,'plugin']]],
+  ['make_5fproducer_2',['make_producer',['../classplugin.html#ac32ba21a634870abc22befb331828819',1,'plugin']]],
+  ['manager_3',['manager',['../classmemory_1_1manager.html#a9d6ce350941f033a2d1fd6d396fb9d64',1,'memory::manager']]],
+  ['mask_4',['mask',['../structpatricia_1_1element__t.html#ab321cd399ed789f1939245d0d6ef0c93',1,'patricia::element_t']]],
+  ['memory_5fmap_5',['memory_map',['../classmemory_1_1memory__map.html#a136dab5691137512998dd337e85a66f2',1,'memory::memory_map']]]
 ];

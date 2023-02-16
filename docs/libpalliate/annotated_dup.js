@@ -1,5 +1,11 @@
 var annotated_dup =
 [
+    [ "Logging", "namespaceLogging.html", [
+      [ "Endpoints", "namespaceLogging_1_1Endpoints.html", [
+        [ "Dummy", "classLogging_1_1Endpoints_1_1Dummy.html", "classLogging_1_1Endpoints_1_1Dummy" ],
+        [ "DummyConfig", "structLogging_1_1Endpoints_1_1DummyConfig.html", "structLogging_1_1Endpoints_1_1DummyConfig" ]
+      ] ]
+    ] ],
     [ "memory", "namespacememory.html", [
       [ "bin_t", "structmemory_1_1bin__t.html", "structmemory_1_1bin__t" ],
       [ "client", "classmemory_1_1client.html", "classmemory_1_1client" ],
@@ -42,10 +48,12 @@ var annotated_dup =
     [ "consumer", "classconsumer.html", "classconsumer" ],
     [ "element", "structelement.html", "structelement" ],
     [ "ivshmem", "classivshmem.html", "classivshmem" ],
+    [ "LoggingTest", "classLoggingTest.html", "classLoggingTest" ],
     [ "mpsc", "classmpsc.html", "classmpsc" ],
     [ "patricia", "classpatricia.html", "classpatricia" ],
     [ "plugin", "classplugin.html", "classplugin" ],
     [ "producer", "classproducer.html", "classproducer" ],
     [ "runnable", "classrunnable.html", "classrunnable" ],
-    [ "Servers", "classServers.html", "classServers" ]
+    [ "Servers", "classServers.html", "classServers" ],
+    [ "TokenTest", "classTokenTest.html", "classTokenTest" ]
 ];

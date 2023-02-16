@@ -10,6 +10,7 @@ var hierarchy =
     [ "Util::CliOption", "structUtil_1_1CliOption.html", null ],
     [ "Util::Config", "structUtil_1_1Config.html", null ],
     [ "RPC::Context", "structRPC_1_1Context.html", null ],
+    [ "Logging::Endpoints::DummyConfig", "structLogging_1_1Endpoints_1_1DummyConfig.html", null ],
     [ "atomic_cr< size >::element", "classatomic__cr_1_1element.html", null ],
     [ "atomic_mpsc::element", "structatomic__mpsc_1_1element.html", null ],
     [ "element", "structelement.html", null ],
@@ -43,6 +44,9 @@ var hierarchy =
     [ "patricia", "classpatricia.html", null ],
     [ "plugin", "classplugin.html", null ],
     [ "Util::rect", "structUtil_1_1rect.html", null ],
+    [ "Endpoint::Registrar", null, [
+      [ "Logging::Endpoints::Dummy", "classLogging_1_1Endpoints_1_1Dummy.html", null ]
+    ] ],
     [ "RPC::Client::Registrar", null, [
       [ "RPC::TCP::Client", "classRPC_1_1TCP_1_1Client.html", null ]
     ] ],
@@ -60,5 +64,9 @@ var hierarchy =
         [ "transport::TCP::Server", "classtransport_1_1TCP_1_1Server.html", null ]
       ] ]
     ] ],
-    [ "Servers", "classServers.html", null ]
+    [ "Servers", "classServers.html", null ],
+    [ "testing::Test", null, [
+      [ "LoggingTest", "classLoggingTest.html", null ],
+      [ "TokenTest", "classTokenTest.html", null ]
+    ] ]
 ];

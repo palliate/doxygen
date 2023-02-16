@@ -1,5 +1,10 @@
 var searchData=
 [
-  ['leaf_5ft_0',['leaf_t',['../structpatricia_1_1leaf__t.html#ae089a5a3b44a52eb8ec5e78e356777d0',1,'patricia::leaf_t']]],
-  ['loop_1',['loop',['../classconsumer.html#a0b2389e21c50045e8e649cdb5ae4e3d4',1,'consumer::loop()'],['../classRPC_1_1TCP_1_1Server.html#a3a4fd983bbd5011098dee3125dfc2e43',1,'RPC::TCP::Server::loop()'],['../classtransport_1_1Client.html#a9c7dee1c80c67a92026d2043ba01f044',1,'transport::Client::loop()'],['../classtransport_1_1TCP_1_1Server.html#a3a4fd983bbd5011098dee3125dfc2e43',1,'transport::TCP::Server::loop()'],['../classrunnable.html#a384ff934ec8c466eb7ef018ffe10e909',1,'runnable::loop()']]]
+  ['init_0',['init',['../namespacedetail.html#ad417d5a0e5c6b6fd05004c05b0516408',1,'detail']]],
+  ['insert_1',['insert',['../classpatricia.html#a659ac04ca615587c9376b5b3833504ba',1,'patricia']]],
+  ['insert_5fafter_2',['insert_after',['../structmemory_1_1bin__t.html#a284a3baa28f4361a0ef0452ea7d04abc',1,'memory::bin_t']]],
+  ['insert_5fbefore_3',['insert_before',['../structmemory_1_1bin__t.html#a56e3098f47a9f47116fd4fb8512ab3bd',1,'memory::bin_t']]],
+  ['into_5ftoml_4',['into_toml',['../structLogging_1_1Endpoints_1_1DummyConfig.html#a935efc210302ae309cdf5a34499a064d',1,'Logging::Endpoints::DummyConfig::into_toml()'],['../structUtil_1_1Config.html#a59606241fbb26e25d4ce90314ef3eaf5',1,'Util::Config::into_toml()']]],
+  ['io_5',['IO',['../structRPC_1_1IO.html#aaedb060e7ef4d265711f9143b35f901c',1,'RPC::IO']]],
+  ['ivshmem_6',['ivshmem',['../classivshmem.html#ad351bdc6547f943f8dad16dd09982cfb',1,'ivshmem::ivshmem(memory::manager &amp;_backend)'],['../classivshmem.html#ad351bdc6547f943f8dad16dd09982cfb',1,'ivshmem::ivshmem(memory::manager &amp;_backend)']]]
 ];

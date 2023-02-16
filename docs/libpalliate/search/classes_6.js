@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['manager_0',['manager',['../classmemory_1_1manager.html',1,'memory']]],
-  ['memory_5fmap_1',['memory_map',['../classmemory_1_1memory__map.html',1,'memory']]],
-  ['mpsc_2',['mpsc',['../classmpsc.html',1,'']]]
+  ['leaf_5ft_0',['leaf_t',['../structpatricia_1_1leaf__t.html',1,'patricia']]],
+  ['loggingtest_1',['LoggingTest',['../classLoggingTest.html',1,'']]]
 ];
