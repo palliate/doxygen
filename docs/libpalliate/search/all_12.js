@@ -10,7 +10,7 @@ var searchData=
   ['servers_2eh_7',['servers.h',['../servers_8h.html',1,'']]],
   ['set_5fevent_8',['set_event',['../classServers.html#a79ad2cb8b9fa26f87845cf14af6225db',1,'Servers::set_event()'],['../classtransport_1_1Server.html#ada48f2e99dce8ba31ad091277d211792',1,'transport::Server::set_event()']]],
   ['setup_9',['setup',['../classRPC_1_1TCP_1_1Server.html#a9ad00d184905d5221c98314198871dd1',1,'RPC::TCP::Server::setup()'],['../classrunnable.html#a05762391a8d79adab6e6972ed8c97471',1,'runnable::setup()']]],
-  ['setup_10',['SetUp',['../classLoggingTest.html#ade99aa1e8f0fb82f06c12a12247b56f6',1,'LoggingTest::SetUp()'],['../classTokenTest.html#ab042991b812bf42cc87c7460d90460f1',1,'TokenTest::SetUp()']]],
+  ['setup_10',['SetUp',['../classLoggingTest.html#ade99aa1e8f0fb82f06c12a12247b56f6',1,'LoggingTest::SetUp()'],['../classToken.html#ad9e6314c3aaa62e617113d1ac979f19c',1,'Token::SetUp()']]],
   ['shorthand_11',['shorthand',['../structUtil_1_1CliOption.html#aa75323705b8fb1ed4d8be14361877555',1,'Util::CliOption']]],
   ['side_12',['side',['../structRPC_1_1Context.html#a979ec59aeb05182bd186a305e2d5c5d8',1,'RPC::Context']]],
   ['size_13',['size',['../classmemory_1_1manager.html#a85a29c93505883c92042b0b27c40f421',1,'memory::manager']]],

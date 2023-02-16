@@ -55,5 +55,5 @@ var annotated_dup =
     [ "producer", "classproducer.html", "classproducer" ],
     [ "runnable", "classrunnable.html", "classrunnable" ],
     [ "Servers", "classServers.html", "classServers" ],
-    [ "TokenTest", "classTokenTest.html", "classTokenTest" ]
+    [ "Token", "classToken.html", "classToken" ]
 ];

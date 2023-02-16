@@ -14,22 +14,22 @@
       <type></type>
       <name>TEST</name>
       <anchorfile>unittest_2psk_8cpp.html</anchorfile>
-      <anchor>ac8a52cedd6c444660e89f583ea341986</anchor>
-      <arglist>(PSKTest, min)</arglist>
+      <anchor>a7adb0c2170c9b5ad04e72e9384b206eb</anchor>
+      <arglist>(PSK, min)</arglist>
     </member>
     <member kind="function">
       <type></type>
       <name>TEST</name>
       <anchorfile>unittest_2psk_8cpp.html</anchorfile>
-      <anchor>a5a9ca783830a625b37a7ab66414de560</anchor>
-      <arglist>(PSKTest, max)</arglist>
+      <anchor>accc698f5b88b1565a5a2408d5bf487b9</anchor>
+      <arglist>(PSK, max)</arglist>
     </member>
     <member kind="function">
       <type></type>
       <name>TEST</name>
       <anchorfile>unittest_2psk_8cpp.html</anchorfile>
-      <anchor>a475c78dbcba213f246637cad6c7b2d7a</anchor>
-      <arglist>(PSKTest, random)</arglist>
+      <anchor>ab6ee2bcb098b7bd085cc3d1dcc67cdfe</anchor>
+      <arglist>(PSK, random)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -42,34 +42,34 @@
     <name>unittest/token.cpp</name>
     <path>/__w/libpalliate/libpalliate/src/authentication/unittest/</path>
     <filename>unittest_2token_8cpp.html</filename>
-    <class kind="class">TokenTest</class>
+    <class kind="class">Token</class>
     <member kind="function">
       <type></type>
       <name>TEST_F</name>
       <anchorfile>unittest_2token_8cpp.html</anchorfile>
-      <anchor>a65dffd3c03c0c7db9197c54e1af2364f</anchor>
-      <arglist>(TokenTest, min)</arglist>
+      <anchor>aaf83314f67606d0abaceeda590190c3a</anchor>
+      <arglist>(Token, min)</arglist>
     </member>
     <member kind="function">
       <type></type>
       <name>TEST_F</name>
       <anchorfile>unittest_2token_8cpp.html</anchorfile>
-      <anchor>aeb7b548d7fa71281a0218198ab0e2138</anchor>
-      <arglist>(TokenTest, max)</arglist>
+      <anchor>a52e1adc242033a3403602eeade4d46d9</anchor>
+      <arglist>(Token, max)</arglist>
     </member>
     <member kind="function">
       <type></type>
       <name>TEST_F</name>
       <anchorfile>unittest_2token_8cpp.html</anchorfile>
-      <anchor>ab85ba56ed36c2bac4400344a12e60bdb</anchor>
-      <arglist>(TokenTest, random_forced)</arglist>
+      <anchor>a746c1f6dde62e81da4d65b5532adb6ff</anchor>
+      <arglist>(Token, random_forced)</arglist>
     </member>
     <member kind="function">
       <type></type>
       <name>TEST_F</name>
       <anchorfile>unittest_2token_8cpp.html</anchorfile>
-      <anchor>af739bf2f37c001cb985036df03730825</anchor>
-      <arglist>(TokenTest, token_refresh)</arglist>
+      <anchor>a40a328d0f3e5130f7f471839e6b561b7</anchor>
+      <arglist>(Token, token_refresh)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -2968,48 +2968,48 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>TokenTest</name>
-    <filename>classTokenTest.html</filename>
+    <name>Token</name>
+    <filename>classToken.html</filename>
     <member kind="function" protection="protected">
       <type></type>
-      <name>~TokenTest</name>
-      <anchorfile>classTokenTest.html</anchorfile>
-      <anchor>afe8cf5374fd8a6bb6d7863caa45fa5ee</anchor>
+      <name>~Token</name>
+      <anchorfile>classToken.html</anchorfile>
+      <anchor>a900815760a2ff37a2feac84d4fbbe8cb</anchor>
       <arglist>() noexcept override=default</arglist>
     </member>
     <member kind="function" protection="protected">
       <type>void</type>
       <name>SetUp</name>
-      <anchorfile>classTokenTest.html</anchorfile>
-      <anchor>ab042991b812bf42cc87c7460d90460f1</anchor>
+      <anchorfile>classToken.html</anchorfile>
+      <anchor>ad9e6314c3aaa62e617113d1ac979f19c</anchor>
       <arglist>() override</arglist>
     </member>
     <member kind="function" protection="protected">
       <type>void</type>
       <name>TearDown</name>
-      <anchorfile>classTokenTest.html</anchorfile>
-      <anchor>a12301fa997c7b62535d2dcf771d4489e</anchor>
+      <anchorfile>classToken.html</anchorfile>
+      <anchor>aa02ad164c138f16a65e0bf51f66b2bb9</anchor>
       <arglist>() override</arglist>
     </member>
     <member kind="variable" protection="protected">
       <type>kj::EventLoop</type>
       <name>event_loop</name>
-      <anchorfile>classTokenTest.html</anchorfile>
-      <anchor>ad5fcbd193ac0a357ab37d523182859ec</anchor>
+      <anchorfile>classToken.html</anchorfile>
+      <anchor>a5d1452cc69f9d1544188f0f835b4c6df</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable" protection="protected">
       <type>kj::WaitScope</type>
       <name>wait_scope</name>
-      <anchorfile>classTokenTest.html</anchorfile>
-      <anchor>a9945a52415155f58f8a3e94046c8a0f4</anchor>
+      <anchorfile>classToken.html</anchorfile>
+      <anchor>add8b22bf68de87d665a69d214af207b1</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable" protection="protected">
       <type>kj::Executor const  &amp;</type>
       <name>executor</name>
-      <anchorfile>classTokenTest.html</anchorfile>
-      <anchor>ac3145029799c7abd8efc0e19e75b7e79</anchor>
+      <anchorfile>classToken.html</anchorfile>
+      <anchor>afe0c8b6eb784b7c7d245f8f1160ae44d</anchor>
       <arglist></arglist>
     </member>
   </compound>

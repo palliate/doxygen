@@ -67,6 +67,6 @@ var hierarchy =
     [ "Servers", "classServers.html", null ],
     [ "testing::Test", null, [
       [ "LoggingTest", "classLoggingTest.html", null ],
-      [ "TokenTest", "classTokenTest.html", null ]
+      [ "Token", "classToken.html", null ]
     ] ]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['tokentest_0',['TokenTest',['../classTokenTest.html',1,'']]]
+  ['token_0',['Token',['../classToken.html',1,'']]]
 ];

@@ -18,5 +18,5 @@ var searchData=
   ['_7erunnable_15',['~runnable',['../classrunnable.html#acadf1c830cb8f782dadde111a1be6080',1,'runnable']]],
   ['_7eserver_16',['~Server',['../classRPC_1_1Server.html#af72d1d9a80b16070359fe3b376ef9c36',1,'RPC::Server::~Server()'],['../classRPC_1_1TCP_1_1Server.html#ad434c31de91e2558a23ba2a4f6804991',1,'RPC::TCP::Server::~Server()'],['../classtransport_1_1Server.html#a8c9e08df9ade8395b336648d5c4af182',1,'transport::Server::~Server()']]],
   ['_7eserver_17',['~server',['../classmemory_1_1server.html#a082284e960949ae7809b4ebbc9ceb52c',1,'memory::server']]],
-  ['_7etokentest_18',['~TokenTest',['../classTokenTest.html#afe8cf5374fd8a6bb6d7863caa45fa5ee',1,'TokenTest']]]
+  ['_7etoken_18',['~Token',['../classToken.html#a900815760a2ff37a2feac84d4fbbe8cb',1,'Token']]]
 ];
