@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['toml_5fvalue_0',['toml_value',['../../libpalliate/structUtil_1_1Config.html#a78c1d064e45d29f3d0e9e57275bc9c89',1,'Util::Config']]]
+  ['windowhandle_0',['WindowHandle',['../classUI_1_1GL_1_1Renderer.html#a6f135e8240dc2fc64960d0781635613a',1,'UI::GL::Renderer']]]
 ];

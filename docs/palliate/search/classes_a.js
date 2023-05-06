@@ -1,5 +1,8 @@
 var searchData=
 [
-  ['node_0',['node',['../../libpalliate/structatomic__stack_1_1node.html',1,'atomic_stack']]],
-  ['node_5ft_1',['node_t',['../../libpalliate/structmemory_1_1node__t.html',1,'memory::node_t'],['../../libpalliate/structpatricia_1_1node__t.html',1,'patricia::node_t']]]
+  ['palliatedummyconan_0',['PalliateDummyConan',['../classconanfile_1_1PalliateDummyConan.html',1,'conanfile']]],
+  ['patricia_1',['patricia',['../../libpalliate/classpatricia.html',1,'']]],
+  ['plugin_2',['plugin',['../../libpalliate/classplugin.html',1,'']]],
+  ['plugin_5fmanager_3',['plugin_manager',['../classplugin__manager.html',1,'']]],
+  ['producer_4',['producer',['../../libpalliate/classproducer.html',1,'']]]
 ];

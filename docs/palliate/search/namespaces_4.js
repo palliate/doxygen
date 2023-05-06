@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['patricia_0',['patricia',['../../libpalliate/structpatricia_1_1element__t.html',1,'']]]
+  ['endpoints_0',['Endpoints',['../namespaceLogging_1_1Endpoints.html',1,'Logging']]],
+  ['logging_1',['Logging',['../namespaceLogging.html',1,'']]]
 ];

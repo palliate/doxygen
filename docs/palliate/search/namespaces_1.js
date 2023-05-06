@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['detail_0',['detail',['../../libpalliate/namespacedetail.html',1,'']]]
+  ['build_0',['build',['../namespacebuild.html',1,'']]]
 ];

@@ -1,9 +1,6 @@
 var searchData=
 [
-  ['serial_0',['Serial',['../classLogging_1_1Endpoints_1_1Serial.html',1,'Logging::Endpoints']]],
-  ['server_1',['server',['../../libpalliate/classmemory_1_1server.html',1,'memory']]],
-  ['server_2',['Server',['../../libpalliate/classRPC_1_1Server.html',1,'RPC::Server'],['../../libpalliate/classRPC_1_1TCP_1_1Server.html',1,'RPC::TCP::Server'],['../../libpalliate/classtransport_1_1Server.html',1,'transport::Server'],['../../libpalliate/classtransport_1_1TCP_1_1Server.html',1,'transport::TCP::Server']]],
-  ['servers_3',['Servers',['../../libpalliate/classServers.html',1,'']]],
-  ['systemd_4',['Systemd',['../classLogging_1_1Endpoints_1_1Systemd.html',1,'Logging::Endpoints']]],
-  ['systemd_5',['systemd',['../classsystemd.html',1,'']]]
+  ['terminal_0',['Terminal',['../classpalliate_1_1Logging_1_1Endpoints_1_1Terminal.html',1,'palliate::Logging::Endpoints']]],
+  ['token_1',['Token',['../../libpalliate/classToken.html',1,'']]],
+  ['tray_2',['Tray',['../classUI_1_1AppIndicator_1_1Tray.html',1,'UI::AppIndicator']]]
 ];

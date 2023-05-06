@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['object_0',['object',['../classlibrary.html#add89e397df9362051c9c3f49c50c4f06',1,'library']]]
+  ['queue_0',['queue',['../../libpalliate/classmemory_1_1manager.html#aa7830023ea080d1881d2ff3dc497dd15',1,'memory::manager']]]
 ];

@@ -92,6 +92,7 @@ $(document).ready(function(){initNavTree('classCli.html',''); initResizable(); }
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="classCli-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Cli Class Reference</div></div>
 </div><!--header-->
@@ -101,10 +102,8 @@ $(document).ready(function(){initNavTree('classCli.html',''); initResizable(); }
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a06e278a3ce0dadd470d1e5fb2f0d58c1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCli.html#a06e278a3ce0dadd470d1e5fb2f0d58c1">Cli</a> (int argc, char *argv[])</td></tr>
-<tr class="separator:a06e278a3ce0dadd470d1e5fb2f0d58c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad30fe82b57d5b6b1308d4989ae5b63ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCli.html#ad30fe82b57d5b6b1308d4989ae5b63ff">tokenize</a> ()</td></tr>
-<tr class="separator:ad30fe82b57d5b6b1308d4989ae5b63ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab049c4d85ecdb6bc77af64aff83a1a7b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCli.html#ab049c4d85ecdb6bc77af64aff83a1a7b">Cli</a> (std::span&lt; char const *const &gt; args)</td></tr>
+<tr class="separator:ab049c4d85ecdb6bc77af64aff83a1a7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10482f1daad9f4afdc377629dc3fd341"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCli.html#a10482f1daad9f4afdc377629dc3fd341">map_into</a> (toml::table &amp;target)</td></tr>
 <tr class="separator:a10482f1daad9f4afdc377629dc3fd341"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -112,32 +111,35 @@ Public Member Functions</h2></td></tr>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a2f48b9d8a48f30dd73de0b7c81fbc0e6"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCli.html#a2f48b9d8a48f30dd73de0b7c81fbc0e6">help</a> ()</td></tr>
 <tr class="separator:a2f48b9d8a48f30dd73de0b7c81fbc0e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:af82d0e6bf57222ec653a4cd046973520"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; std::string_view, std::string_view &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCli.html#af82d0e6bf57222ec653a4cd046973520">tokens</a></td></tr>
+<tr class="separator:af82d0e6bf57222ec653a4cd046973520"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a06e278a3ce0dadd470d1e5fb2f0d58c1" name="a06e278a3ce0dadd470d1e5fb2f0d58c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a06e278a3ce0dadd470d1e5fb2f0d58c1">&#9670;&nbsp;</a></span>Cli()</h2>
+<a id="ab049c4d85ecdb6bc77af64aff83a1a7b" name="ab049c4d85ecdb6bc77af64aff83a1a7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab049c4d85ecdb6bc77af64aff83a1a7b">&#9670;&nbsp;</a></span>Cli()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">Cli::Cli </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>argc</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">std::span&lt; char const *const &gt;&#160;</td>
+          <td class="paramname"><em>args</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">char *&#160;</td>
-          <td class="paramname"><em>argv</em>[]&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -186,17 +188,15 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ad30fe82b57d5b6b1308d4989ae5b63ff" name="ad30fe82b57d5b6b1308d4989ae5b63ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad30fe82b57d5b6b1308d4989ae5b63ff">&#9670;&nbsp;</a></span>tokenize()</h2>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="af82d0e6bf57222ec653a4cd046973520" name="af82d0e6bf57222ec653a4cd046973520"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af82d0e6bf57222ec653a4cd046973520">&#9670;&nbsp;</a></span>tokens</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Cli::tokenize </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname">std::unordered_map&lt;std::string_view, std::string_view&gt; Cli::tokens</td>
         </tr>
       </table>
 </div><div class="memdoc">

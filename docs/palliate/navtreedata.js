@@ -47,7 +47,11 @@ var NAVTREE =
     [ "vtty", "md____w_palliate_palliate_plugins_vtty_README.html", null ],
     [ "wm", "md____w_palliate_palliate_plugins_wm_README.html", null ],
     [ "Namespaces", "namespaces.html", [
-      [ "Namespace List", "namespaces.html", "namespaces_dup" ]
+      [ "Namespace List", "namespaces.html", "namespaces_dup" ],
+      [ "Namespace Members", "namespacemembers.html", [
+        [ "All", "namespacemembers.html", null ],
+        [ "Functions", "namespacemembers_func.html", null ]
+      ] ]
     ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
@@ -75,8 +79,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../index.html",
-"classUI_1_1Renderer.html#ab024f4e22ef9f3bcefd2acc84c0f90c5",
-"ivshmem_8h.html"
+"classbuild_1_1Deploy.html#a51e12953cff52e4aaab1c406ad8a584b",
+"plugin_8h.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

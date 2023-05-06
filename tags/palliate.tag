@@ -1,6 +1,13 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
 <tagfile doxygen_version="1.9.4" doxygen_gitid="5d15657a55555e6181a7830a5c723af75e7577e2">
   <compound kind="file">
+    <name>conanfile.py</name>
+    <path>/__w/palliate/palliate/plugins/dummy/</path>
+    <filename>conanfile_8py.html</filename>
+    <class kind="class">conanfile::PalliateDummyConan</class>
+    <namespace>conanfile</namespace>
+  </compound>
+  <compound kind="file">
     <name>systemd.cpp</name>
     <path>/__w/palliate/palliate/plugins/systemd/logging/</path>
     <filename>systemd_8cpp.html</filename>
@@ -25,6 +32,19 @@
       <anchorfile>capture_2plugin_8cpp.html</anchorfile>
       <anchor>aa30de626816541e098dba3f8f7435f2f</anchor>
       <arglist>(capture)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>dummy/src/plugin.cpp</name>
+    <path>/__w/palliate/palliate/plugins/dummy/src/</path>
+    <filename>dummy_2src_2plugin_8cpp.html</filename>
+    <includes id="dummy_2src_2plugin_8h" name="dummy/src/plugin.h" local="yes" imported="no">plugin.h</includes>
+    <member kind="function">
+      <type>void</type>
+      <name>foo</name>
+      <anchorfile>dummy_2src_2plugin_8cpp.html</anchorfile>
+      <anchor>ac07863d69ae41a4e395b31f73b35fbcd</anchor>
+      <arglist>()</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -86,6 +106,18 @@
     <class kind="class">capture</class>
   </compound>
   <compound kind="file">
+    <name>dummy/src/plugin.h</name>
+    <path>/__w/palliate/palliate/plugins/dummy/src/</path>
+    <filename>dummy_2src_2plugin_8h.html</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>foo</name>
+      <anchorfile>dummy_2src_2plugin_8h.html</anchorfile>
+      <anchor>ac07863d69ae41a4e395b31f73b35fbcd</anchor>
+      <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>input/plugin.h</name>
     <path>/__w/palliate/palliate/plugins/input/</path>
     <filename>input_2plugin_8h.html</filename>
@@ -110,18 +142,29 @@
     <class kind="class">wm</class>
   </compound>
   <compound kind="file">
-    <name>application.cpp</name>
-    <path>/__w/palliate/palliate/src/application/</path>
-    <filename>application_8cpp.html</filename>
-    <includes id="application_8h" name="application.h" local="yes" imported="no">application.h</includes>
-  </compound>
-  <compound kind="file">
     <name>application.h</name>
     <path>/__w/palliate/palliate/src/application/</path>
     <filename>application_8h.html</filename>
+    <class kind="class">Application</class>
+  </compound>
+  <compound kind="file">
+    <name>old/application.h</name>
+    <path>/__w/palliate/palliate/src/application/old/</path>
+    <filename>old_2application_8h.html</filename>
     <includes id="configuration_8h" name="configuration.h" local="yes" imported="no">configuration/configuration.h</includes>
     <includes id="plugin__manager_8h" name="plugin_manager.h" local="yes" imported="no">plugin_manager/plugin_manager.h</includes>
     <class kind="class">Application</class>
+  </compound>
+  <compound kind="file">
+    <name>application.cpp</name>
+    <path>/__w/palliate/palliate/src/application/</path>
+    <filename>application_8cpp.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>old/application.cpp</name>
+    <path>/__w/palliate/palliate/src/application/old/</path>
+    <filename>old_2application_8cpp.html</filename>
+    <includes id="old_2application_8h" name="old/application.h" local="yes" imported="no">application.h</includes>
   </compound>
   <compound kind="file">
     <name>README.dox</name>
@@ -133,6 +176,30 @@
     <path>/__w/palliate/palliate/src/configuration/</path>
     <filename>cli_8cpp.html</filename>
     <includes id="cli_8h" name="cli.h" local="yes" imported="no">cli.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>test/cli.cpp</name>
+    <path>/__w/palliate/palliate/src/configuration/test/</path>
+    <filename>test_2cli_8cpp.html</filename>
+    <includes id="cli_8h" name="cli.h" local="yes" imported="no">../cli.h</includes>
+    <class kind="struct">palliate::Tests::CliParams</class>
+    <class kind="class">palliate::Tests::CliFixture</class>
+    <namespace>palliate</namespace>
+    <namespace>palliate::Tests</namespace>
+    <member kind="function">
+      <type></type>
+      <name>TEST_P</name>
+      <anchorfile>namespacepalliate_1_1Tests.html</anchorfile>
+      <anchor>aeb5146d4422816e06b26abdbdb4123f4</anchor>
+      <arglist>(CliFixture, BasicTests)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>INSTANTIATE_TEST_CASE_P</name>
+      <anchorfile>namespacepalliate_1_1Tests.html</anchorfile>
+      <anchor>a1195ebaf49f89a350ffae483770fa0d4</anchor>
+      <arglist>(CliTests, CliFixture, ::testing::Values(CliParams{{}, {}}, CliParams{{&quot;&quot;, &quot;--foo&quot;}, {{&quot;foo&quot;, &quot;true&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo&quot;, &quot;bar&quot;}, {{&quot;foo&quot;, &quot;bar&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo=bar&quot;}, {{&quot;foo&quot;, &quot;bar&quot;}}}, CliParams{{&quot;&quot;, &quot;-f&quot;}, {{&quot;f&quot;, &quot;true&quot;}}}, CliParams{{&quot;&quot;, &quot;-f&quot;, &quot;bar&quot;}, {{&quot;f&quot;, &quot;bar&quot;}}}, CliParams{{&quot;&quot;, &quot;-f=bar&quot;}, {{&quot;f&quot;, &quot;bar&quot;}}}, CliParams{{&quot;&quot;, &quot;-fo&quot;}, {{&quot;f&quot;, &quot;true&quot;}, {&quot;o&quot;, &quot;true&quot;}}}, CliParams{{&quot;&quot;, &quot;-of&quot;}, {{&quot;f&quot;, &quot;true&quot;}, {&quot;o&quot;, &quot;true&quot;}}}, CliParams{{&quot;&quot;, &quot;-f&quot;, &quot;--bar&quot;}, {{&quot;f&quot;, &quot;true&quot;}, {&quot;bar&quot;, &quot;true&quot;}}}, CliParams{{&quot;&quot;, &quot;--bar&quot;, &quot;-f&quot;}, {{&quot;f&quot;, &quot;true&quot;}, {&quot;bar&quot;, &quot;true&quot;}}}, CliParams{{&quot;&quot;, &quot;-f&quot;, &quot;foo&quot;, &quot;--bar&quot;}, {{&quot;f&quot;, &quot;foo&quot;}, {&quot;bar&quot;, &quot;true&quot;}}}, CliParams{{&quot;&quot;, &quot;-f=foo&quot;, &quot;--bar&quot;}, {{&quot;f&quot;, &quot;foo&quot;}, {&quot;bar&quot;, &quot;true&quot;}}}, CliParams{{&quot;&quot;, &quot;--bar&quot;, &quot;-f&quot;, &quot;foo&quot;}, {{&quot;f&quot;, &quot;foo&quot;}, {&quot;bar&quot;, &quot;true&quot;}}}, CliParams{{&quot;&quot;, &quot;--bar&quot;, &quot;-f=foo&quot;}, {{&quot;f&quot;, &quot;foo&quot;}, {&quot;bar&quot;, &quot;true&quot;}}}, CliParams{{&quot;&quot;, &quot;-f&quot;, &quot;--bar&quot;, &quot;foo&quot;}, {{&quot;f&quot;, &quot;true&quot;}, {&quot;bar&quot;, &quot;foo&quot;}}}, CliParams{{&quot;&quot;, &quot;-f&quot;, &quot;--bar=foo&quot;}, {{&quot;f&quot;, &quot;true&quot;}, {&quot;bar&quot;, &quot;foo&quot;}}}, CliParams{{&quot;&quot;, &quot;--bar&quot;, &quot;foo&quot;, &quot;-f&quot;}, {{&quot;f&quot;, &quot;true&quot;}, {&quot;bar&quot;, &quot;foo&quot;}}}, CliParams{{&quot;&quot;, &quot;--bar=foo&quot;, &quot;-f&quot;}, {{&quot;f&quot;, &quot;true&quot;}, {&quot;bar&quot;, &quot;foo&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo&quot;, &quot;3&quot;}, {{&quot;foo&quot;, &quot;3&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo=3&quot;}, {{&quot;foo&quot;, &quot;3&quot;}}}, CliParams{{&quot;&quot;, &quot;-f&quot;, &quot;3&quot;}, {{&quot;f&quot;, &quot;3&quot;}}}, CliParams{{&quot;&quot;, &quot;-f=3&quot;}, {{&quot;f&quot;, &quot;3&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo&quot;, &quot;-3&quot;}, {{&quot;foo&quot;, &quot;-3&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo=-3&quot;}, {{&quot;foo&quot;, &quot;-3&quot;}}}, CliParams{{&quot;&quot;, &quot;-f&quot;, &quot;-3&quot;}, {{&quot;f&quot;, &quot;-3&quot;}}}, CliParams{{&quot;&quot;, &quot;-f=-3&quot;}, {{&quot;f&quot;, &quot;-3&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo&quot;, &quot;3.21&quot;}, {{&quot;foo&quot;, &quot;3.21&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo=3.21&quot;}, {{&quot;foo&quot;, &quot;3.21&quot;}}}, CliParams{{&quot;&quot;, &quot;-f&quot;, &quot;3.21&quot;}, {{&quot;f&quot;, &quot;3.21&quot;}}}, CliParams{{&quot;&quot;, &quot;-f=3.21&quot;}, {{&quot;f&quot;, &quot;3.21&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo&quot;, &quot;-3.21&quot;}, {{&quot;foo&quot;, &quot;-3.21&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo=-3.21&quot;}, {{&quot;foo&quot;, &quot;-3.21&quot;}}}, CliParams{{&quot;&quot;, &quot;-f&quot;, &quot;-3.21&quot;}, {{&quot;f&quot;, &quot;-3.21&quot;}}}, CliParams{{&quot;&quot;, &quot;-f=-3.21&quot;}, {{&quot;f&quot;, &quot;-3.21&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo.bar&quot;, &quot;value&quot;}, {{&quot;foo.bar&quot;, &quot;value&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo.bar&quot;, &quot;value.dot&quot;}, {{&quot;foo.bar&quot;, &quot;value.dot&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo.bar=value&quot;}, {{&quot;foo.bar&quot;, &quot;value&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo.bar=value.dot&quot;}, {{&quot;foo.bar&quot;, &quot;value.dot&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo.bar&quot;, &quot;value&quot;, &quot;--foo.bar.baz&quot;, &quot;value&quot;}, {{&quot;foo.bar&quot;, &quot;value&quot;}, {&quot;foo.bar.baz&quot;, &quot;value&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo.bar&quot;, &quot;value.dot&quot;, &quot;--foo.bar.baz&quot;, &quot;value.dot&quot;}, {{&quot;foo.bar&quot;, &quot;value.dot&quot;}, {&quot;foo.bar.baz&quot;, &quot;value.dot&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo.bar&quot;, &quot;value&quot;, &quot;--foo.bar.baz=value&quot;}, {{&quot;foo.bar&quot;, &quot;value&quot;}, {&quot;foo.bar.baz&quot;, &quot;value&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo.bar&quot;, &quot;value&quot;, &quot;--foo.bar.baz=value.dot&quot;}, {{&quot;foo.bar&quot;, &quot;value&quot;}, {&quot;foo.bar.baz&quot;, &quot;value.dot&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo.bar=value&quot;, &quot;--foo.bar.baz&quot;, &quot;value&quot;}, {{&quot;foo.bar&quot;, &quot;value&quot;}, {&quot;foo.bar.baz&quot;, &quot;value&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo.bar=value.dot&quot;, &quot;--foo.bar.baz&quot;, &quot;value&quot;}, {{&quot;foo.bar&quot;, &quot;value.dot&quot;}, {&quot;foo.bar.baz&quot;, &quot;value&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo.bar=value&quot;, &quot;--foo.bar.baz&quot;, &quot;value.dot&quot;}, {{&quot;foo.bar&quot;, &quot;value&quot;}, {&quot;foo.bar.baz&quot;, &quot;value.dot&quot;}}}))</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>cli.h</name>
@@ -152,6 +219,11 @@
     <filename>configuration_8h.html</filename>
     <includes id="cli_8h" name="cli.h" local="yes" imported="no">cli.h</includes>
     <class kind="class">Configuration</class>
+  </compound>
+  <compound kind="file">
+    <name>map.h</name>
+    <path>/__w/palliate/palliate/src/configuration/</path>
+    <filename>map_8h.html</filename>
   </compound>
   <compound kind="file">
     <name>ivshmem.h</name>
@@ -311,27 +383,31 @@
     <name>terminal.cpp</name>
     <path>/__w/palliate/palliate/src/logging/</path>
     <filename>terminal_8cpp.html</filename>
-    <includes id="terminal_8h" name="terminal.h" local="yes" imported="no">terminal.h</includes>
+    <includes id="terminal_8hpp" name="terminal.hpp" local="yes" imported="no">terminal.hpp</includes>
+    <namespace>palliate</namespace>
+    <namespace>palliate::Logging</namespace>
+    <namespace>palliate::Logging::Endpoints</namespace>
   </compound>
   <compound kind="file">
-    <name>terminal.h</name>
+    <name>terminal.hpp</name>
     <path>/__w/palliate/palliate/src/logging/</path>
-    <filename>terminal_8h.html</filename>
-    <class kind="class">Logging::Endpoints::Terminal</class>
-    <namespace>Logging</namespace>
-    <namespace>Logging::Endpoints</namespace>
+    <filename>terminal_8hpp.html</filename>
+    <class kind="class">palliate::Logging::Endpoints::Terminal</class>
+    <namespace>palliate</namespace>
+    <namespace>palliate::Logging</namespace>
+    <namespace>palliate::Logging::Endpoints</namespace>
   </compound>
   <compound kind="file">
     <name>terminal.linux.cpp</name>
     <path>/__w/palliate/palliate/src/logging/</path>
     <filename>terminal_8linux_8cpp.html</filename>
-    <includes id="terminal_8h" name="terminal.h" local="yes" imported="no">terminal.h</includes>
+    <includes id="terminal_8hpp" name="terminal.hpp" local="yes" imported="no">terminal.hpp</includes>
   </compound>
   <compound kind="file">
     <name>terminal.windows.cpp</name>
     <path>/__w/palliate/palliate/src/logging/</path>
     <filename>terminal_8windows_8cpp.html</filename>
-    <includes id="terminal_8h" name="terminal.h" local="yes" imported="no">terminal.h</includes>
+    <includes id="terminal_8hpp" name="terminal.hpp" local="yes" imported="no">terminal.hpp</includes>
     <member kind="define">
       <type>#define</type>
       <name>WIN32_LEAN_AND_MEAN</name>
@@ -344,21 +420,15 @@
     <name>main.cpp</name>
     <path>/__w/palliate/palliate/src/</path>
     <filename>main_8cpp.html</filename>
-    <includes id="application_8h" name="application.h" local="yes" imported="no">application/application.h</includes>
+    <includes id="terminal_8hpp" name="terminal.hpp" local="yes" imported="no">logging/terminal.hpp</includes>
     <includes id="configuration_8h" name="configuration.h" local="yes" imported="no">configuration/configuration.h</includes>
-    <member kind="function">
-      <type>void</type>
-      <name>terminate_handler</name>
-      <anchorfile>main_8cpp.html</anchorfile>
-      <anchor>a6d3e224dbaae674825482b0dbb1d8579</anchor>
-      <arglist>()</arglist>
-    </member>
+    <includes id="cli_8h" name="cli.h" local="yes" imported="no">configuration/cli.h</includes>
     <member kind="function">
       <type>int</type>
       <name>main</name>
       <anchorfile>main_8cpp.html</anchorfile>
-      <anchor>a0ddf1224851353fc92bfbff6f499fa97</anchor>
-      <arglist>(int argc, char *argv[])</arglist>
+      <anchor>af7889d36a8acae4c30beb10792c40eb1</anchor>
+      <arglist>(int const argc, char const *const *const argv)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -398,6 +468,17 @@
     <filename>plugin__manager_8h.html</filename>
     <includes id="library_8h" name="library.h" local="yes" imported="no">library.h</includes>
     <class kind="class">plugin_manager</class>
+  </compound>
+  <compound kind="file">
+    <name>build.py</name>
+    <path>/__w/palliate/palliate/src/tools/</path>
+    <filename>build_8py.html</filename>
+    <class kind="class">build::BuildTypes</class>
+    <class kind="class">build::Build</class>
+    <class kind="class">build::Build::Settings</class>
+    <class kind="class">build::Deploy</class>
+    <class kind="class">build::Deploy::Settings</class>
+    <namespace>build</namespace>
   </compound>
   <compound kind="file">
     <name>context_guard.h</name>
@@ -492,11 +573,28 @@
     <namespace>UI</namespace>
     <namespace>UI::AppIndicator</namespace>
   </compound>
+  <compound kind="file">
+    <name>unittest_main.cpp</name>
+    <path>/__w/palliate/palliate/src/</path>
+    <filename>unittest__main_8cpp.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>TEST</name>
+      <anchorfile>unittest__main_8cpp.html</anchorfile>
+      <anchor>a19946b8e4313d54bfed22e1d3db7103e</anchor>
+      <arglist>(Dummy, AlwaysPasses)</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>main</name>
+      <anchorfile>unittest__main_8cpp.html</anchorfile>
+      <anchor>a3c04138a5bfe5d72780bb7e82a18e627</anchor>
+      <arglist>(int argc, char **argv)</arglist>
+    </member>
+  </compound>
   <compound kind="class">
     <name>Application</name>
     <filename>classApplication.html</filename>
-    <base>Configurable&lt; config::Application &gt;</base>
-    <base>Threading::Worker</base>
     <member kind="function">
       <type></type>
       <name>Application</name>
@@ -580,6 +678,57 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>build::Build</name>
+    <filename>classbuild_1_1Build.html</filename>
+    <class kind="class">build::Build::Settings</class>
+    <member kind="function">
+      <type>def</type>
+      <name>run</name>
+      <anchorfile>classbuild_1_1Build.html</anchorfile>
+      <anchor>ad3a90de4956c1a68f278e2e4770fb622</anchor>
+      <arglist>(self, source_tree)</arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type></type>
+      <name>ingest</name>
+      <anchorfile>classbuild_1_1Build.html</anchorfile>
+      <anchor>a8867fdd9e33d0baf05e94d607794de51</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>bool</type>
+      <name>private</name>
+      <anchorfile>classbuild_1_1Build.html</anchorfile>
+      <anchor>aacfe63165862f0a88bbf20782af78959</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>build::BuildTypes</name>
+    <filename>classbuild_1_1BuildTypes.html</filename>
+    <member kind="variable" static="yes">
+      <type>string</type>
+      <name>RELWITHDEBINFO</name>
+      <anchorfile>classbuild_1_1BuildTypes.html</anchorfile>
+      <anchor>a195c8610b3e72f2204b0d39ee56143e6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>string</type>
+      <name>RELEASE</name>
+      <anchorfile>classbuild_1_1BuildTypes.html</anchorfile>
+      <anchor>ac4d0d68f9b9c396f606e33d0c1f27bf2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>string</type>
+      <name>DEBUG</name>
+      <anchorfile>classbuild_1_1BuildTypes.html</anchorfile>
+      <anchor>ad607e2279569a2d95d41b9c887310a19</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>capture</name>
     <filename>classcapture.html</filename>
     <base>plugin</base>
@@ -612,15 +761,8 @@
       <type></type>
       <name>Cli</name>
       <anchorfile>classCli.html</anchorfile>
-      <anchor>a06e278a3ce0dadd470d1e5fb2f0d58c1</anchor>
-      <arglist>(int argc, char *argv[])</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>tokenize</name>
-      <anchorfile>classCli.html</anchorfile>
-      <anchor>ad30fe82b57d5b6b1308d4989ae5b63ff</anchor>
-      <arglist>()</arglist>
+      <anchor>ab049c4d85ecdb6bc77af64aff83a1a7b</anchor>
+      <arglist>(std::span&lt; char const *const &gt; args)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -636,23 +778,45 @@
       <anchor>a2f48b9d8a48f30dd73de0b7c81fbc0e6</anchor>
       <arglist>()</arglist>
     </member>
+    <member kind="variable">
+      <type>std::unordered_map&lt; std::string_view, std::string_view &gt;</type>
+      <name>tokens</name>
+      <anchorfile>classCli.html</anchorfile>
+      <anchor>af82d0e6bf57222ec653a4cd046973520</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>palliate::Tests::CliFixture</name>
+    <filename>classpalliate_1_1Tests_1_1CliFixture.html</filename>
+  </compound>
+  <compound kind="struct">
+    <name>palliate::Tests::CliParams</name>
+    <filename>structpalliate_1_1Tests_1_1CliParams.html</filename>
+    <member kind="variable">
+      <type>std::vector&lt; char const  * &gt;</type>
+      <name>args</name>
+      <anchorfile>structpalliate_1_1Tests_1_1CliParams.html</anchorfile>
+      <anchor>a9ee428d035ec7be973f1ebd8832b3e9f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::vector&lt; std::tuple&lt; std::string_view, std::string_view &gt; &gt;</type>
+      <name>expected</name>
+      <anchorfile>structpalliate_1_1Tests_1_1CliParams.html</anchorfile>
+      <anchor>a9f83c49db1502eedf24f17ca630f70a8</anchor>
+      <arglist></arglist>
+    </member>
   </compound>
   <compound kind="class">
     <name>Configuration</name>
     <filename>classConfiguration.html</filename>
     <member kind="function">
-      <type></type>
-      <name>Configuration</name>
-      <anchorfile>classConfiguration.html</anchorfile>
-      <anchor>a779947337bf652f0e773cb29f37f14ba</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
       <type>void</type>
       <name>parse_cli</name>
       <anchorfile>classConfiguration.html</anchorfile>
-      <anchor>ac6cfac2f9462a86ee65e61547d248c10</anchor>
-      <arglist>(int argc, char *argv[])</arglist>
+      <anchor>a9592465ec1da60bd007a5752e945738d</anchor>
+      <arglist>(std::span&lt; char const *const &gt; args)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -686,14 +850,14 @@
       <type>std::optional&lt; T &gt;</type>
       <name>find</name>
       <anchorfile>classConfiguration.html</anchorfile>
-      <anchor>a815d8e3a60d97aa9455fa651de26194f</anchor>
+      <anchor>a9e007dcbbde35858900bca2974f90a67</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
       <type>T</type>
       <name>find_default</name>
       <anchorfile>classConfiguration.html</anchorfile>
-      <anchor>a80bef6777c6bbb7b91e93dcd0c98259e</anchor>
+      <anchor>a2e597b2bae3c60d441bd31effdd167f4</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
@@ -709,13 +873,6 @@
       <anchorfile>classConfiguration.html</anchorfile>
       <anchor>a80bc52f7253e08e3b3fbe065eafad655</anchor>
       <arglist>(std::string const &amp;key)</arglist>
-    </member>
-    <member kind="variable">
-      <type>toml::value</type>
-      <name>config</name>
-      <anchorfile>classConfiguration.html</anchorfile>
-      <anchor>a416517702541b3f86ed2fdbec26c7855</anchor>
-      <arglist></arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -769,6 +926,39 @@
       <anchorfile>structUI_1_1GL_1_1context__guard.html</anchorfile>
       <anchor>abe27f0d79c1872bb0eb9fe6fa0946d13</anchor>
       <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>build::Deploy</name>
+    <filename>classbuild_1_1Deploy.html</filename>
+    <class kind="class">build::Deploy::Settings</class>
+    <member kind="function">
+      <type>def</type>
+      <name>copy_libraries</name>
+      <anchorfile>classbuild_1_1Deploy.html</anchorfile>
+      <anchor>a51e12953cff52e4aaab1c406ad8a584b</anchor>
+      <arglist>(self, Path source, Path target)</arglist>
+    </member>
+    <member kind="function">
+      <type>def</type>
+      <name>run</name>
+      <anchorfile>classbuild_1_1Deploy.html</anchorfile>
+      <anchor>a759b6a8c56626eb2b552da2a41735506</anchor>
+      <arglist>(self, source_tree)</arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type></type>
+      <name>ingest</name>
+      <anchorfile>classbuild_1_1Deploy.html</anchorfile>
+      <anchor>a8a6e6f0aa64c545871ccb524d46a78e8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>bool</type>
+      <name>private</name>
+      <anchorfile>classbuild_1_1Deploy.html</anchorfile>
+      <anchor>a5dd0b518aa3231ff597205c8f401ca5b</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -902,9 +1092,68 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>conanfile::PalliateDummyConan</name>
+    <filename>classconanfile_1_1PalliateDummyConan.html</filename>
+    <member kind="function">
+      <type>def</type>
+      <name>requirements</name>
+      <anchorfile>classconanfile_1_1PalliateDummyConan.html</anchorfile>
+      <anchor>a289df60cd5a8260fa3b84841e942f328</anchor>
+      <arglist>(self)</arglist>
+    </member>
+    <member kind="function">
+      <type>def</type>
+      <name>build</name>
+      <anchorfile>classconanfile_1_1PalliateDummyConan.html</anchorfile>
+      <anchor>ae8e841f4674d87b4f4ef4acfdc9ef028</anchor>
+      <arglist>(self)</arglist>
+    </member>
+    <member kind="function">
+      <type>def</type>
+      <name>imports</name>
+      <anchorfile>classconanfile_1_1PalliateDummyConan.html</anchorfile>
+      <anchor>a837b72bb4d8decee2934e73bef32da4e</anchor>
+      <arglist>(self)</arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>string</type>
+      <name>generators</name>
+      <anchorfile>classconanfile_1_1PalliateDummyConan.html</anchorfile>
+      <anchor>ab9e5aa1edcb3a58ac12c1294e4173792</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>string</type>
+      <name>settings</name>
+      <anchorfile>classconanfile_1_1PalliateDummyConan.html</anchorfile>
+      <anchor>a8796254adcef028eabcf611f955a97a3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>dictionary</type>
+      <name>options</name>
+      <anchorfile>classconanfile_1_1PalliateDummyConan.html</anchorfile>
+      <anchor>a060b8e375b1fd460732bc9d307387835</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>dictionary</type>
+      <name>default_options</name>
+      <anchorfile>classconanfile_1_1PalliateDummyConan.html</anchorfile>
+      <anchor>a14878f124ca0f991f742252ae062865d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>string</type>
+      <name>requires</name>
+      <anchorfile>classconanfile_1_1PalliateDummyConan.html</anchorfile>
+      <anchor>af7dc534c83accced6cec872408200a56</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>plugin_manager</name>
     <filename>classplugin__manager.html</filename>
-    <base>Configurable&lt; config::plugins &gt;</base>
     <member kind="typedef">
       <type>std::shared_ptr&lt; library &gt;</type>
       <name>library_ptr</name>
@@ -1083,6 +1332,28 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>build::Build::Settings</name>
+    <filename>classbuild_1_1Build_1_1Settings.html</filename>
+  </compound>
+  <compound kind="class">
+    <name>build::Deploy::Settings</name>
+    <filename>classbuild_1_1Deploy_1_1Settings.html</filename>
+    <member kind="variable" static="yes">
+      <type></type>
+      <name>Path</name>
+      <anchorfile>classbuild_1_1Deploy_1_1Settings.html</anchorfile>
+      <anchor>aec722e0aa30b2a96303eb4adb49769c2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type></type>
+      <name>bool</name>
+      <anchorfile>classbuild_1_1Deploy_1_1Settings.html</anchorfile>
+      <anchor>a3eb060d5567044e66e08eca36cdaaa79</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>Logging::Endpoints::Systemd</name>
     <filename>classLogging_1_1Endpoints_1_1Systemd.html</filename>
     <member kind="function">
@@ -1127,28 +1398,28 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>Logging::Endpoints::Terminal</name>
-    <filename>classLogging_1_1Endpoints_1_1Terminal.html</filename>
+    <name>palliate::Logging::Endpoints::Terminal</name>
+    <filename>classpalliate_1_1Logging_1_1Endpoints_1_1Terminal.html</filename>
     <member kind="function">
       <type></type>
       <name>Terminal</name>
-      <anchorfile>classLogging_1_1Endpoints_1_1Terminal.html</anchorfile>
+      <anchorfile>classpalliate_1_1Logging_1_1Endpoints_1_1Terminal.html</anchorfile>
       <anchor>ae4b8b0139f1415c6174e7fa82b48dbf1</anchor>
       <arglist>(config_t const &amp;c)</arglist>
     </member>
     <member kind="function">
       <type></type>
       <name>~Terminal</name>
-      <anchorfile>classLogging_1_1Endpoints_1_1Terminal.html</anchorfile>
+      <anchorfile>classpalliate_1_1Logging_1_1Endpoints_1_1Terminal.html</anchorfile>
       <anchor>add5a7d4dd45b68af9a0afb1cc845af2f</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>print</name>
-      <anchorfile>classLogging_1_1Endpoints_1_1Terminal.html</anchorfile>
-      <anchor>adb22fabc18d60c58335aca2f6a5e0e92</anchor>
-      <arglist>(Logging::message &amp;msg) override</arglist>
+      <anchorfile>classpalliate_1_1Logging_1_1Endpoints_1_1Terminal.html</anchorfile>
+      <anchor>a31610f6b5fcff136234a893db7b5a937</anchor>
+      <arglist>(Message const &amp;msg) override</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -1205,7 +1476,6 @@
   <compound kind="class">
     <name>UI::GL::Window</name>
     <filename>classUI_1_1GL_1_1Window.html</filename>
-    <base>UI::Window</base>
     <member kind="function">
       <type></type>
       <name>Window</name>
@@ -1423,6 +1693,18 @@
     </member>
   </compound>
   <compound kind="namespace">
+    <name>build</name>
+    <filename>namespacebuild.html</filename>
+    <class kind="class">build::Build</class>
+    <class kind="class">build::BuildTypes</class>
+    <class kind="class">build::Deploy</class>
+  </compound>
+  <compound kind="namespace">
+    <name>conanfile</name>
+    <filename>namespaceconanfile.html</filename>
+    <class kind="class">conanfile::PalliateDummyConan</class>
+  </compound>
+  <compound kind="namespace">
     <name>Logging</name>
     <filename>namespaceLogging.html</filename>
     <namespace>Logging::Endpoints</namespace>
@@ -1434,7 +1716,42 @@
     <class kind="class">Logging::Endpoints::File</class>
     <class kind="class">Logging::Endpoints::Serial</class>
     <class kind="class">Logging::Endpoints::Systemd</class>
-    <class kind="class">Logging::Endpoints::Terminal</class>
+  </compound>
+  <compound kind="namespace">
+    <name>palliate</name>
+    <filename>namespacepalliate.html</filename>
+    <namespace>palliate::Logging</namespace>
+    <namespace>palliate::Tests</namespace>
+  </compound>
+  <compound kind="namespace">
+    <name>palliate::Logging</name>
+    <filename>namespacepalliate_1_1Logging.html</filename>
+    <namespace>palliate::Logging::Endpoints</namespace>
+  </compound>
+  <compound kind="namespace">
+    <name>palliate::Logging::Endpoints</name>
+    <filename>namespacepalliate_1_1Logging_1_1Endpoints.html</filename>
+    <class kind="class">palliate::Logging::Endpoints::Terminal</class>
+  </compound>
+  <compound kind="namespace">
+    <name>palliate::Tests</name>
+    <filename>namespacepalliate_1_1Tests.html</filename>
+    <class kind="class">palliate::Tests::CliFixture</class>
+    <class kind="struct">palliate::Tests::CliParams</class>
+    <member kind="function">
+      <type></type>
+      <name>TEST_P</name>
+      <anchorfile>namespacepalliate_1_1Tests.html</anchorfile>
+      <anchor>aeb5146d4422816e06b26abdbdb4123f4</anchor>
+      <arglist>(CliFixture, BasicTests)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>INSTANTIATE_TEST_CASE_P</name>
+      <anchorfile>namespacepalliate_1_1Tests.html</anchorfile>
+      <anchor>a1195ebaf49f89a350ffae483770fa0d4</anchor>
+      <arglist>(CliTests, CliFixture, ::testing::Values(CliParams{{}, {}}, CliParams{{&quot;&quot;, &quot;--foo&quot;}, {{&quot;foo&quot;, &quot;true&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo&quot;, &quot;bar&quot;}, {{&quot;foo&quot;, &quot;bar&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo=bar&quot;}, {{&quot;foo&quot;, &quot;bar&quot;}}}, CliParams{{&quot;&quot;, &quot;-f&quot;}, {{&quot;f&quot;, &quot;true&quot;}}}, CliParams{{&quot;&quot;, &quot;-f&quot;, &quot;bar&quot;}, {{&quot;f&quot;, &quot;bar&quot;}}}, CliParams{{&quot;&quot;, &quot;-f=bar&quot;}, {{&quot;f&quot;, &quot;bar&quot;}}}, CliParams{{&quot;&quot;, &quot;-fo&quot;}, {{&quot;f&quot;, &quot;true&quot;}, {&quot;o&quot;, &quot;true&quot;}}}, CliParams{{&quot;&quot;, &quot;-of&quot;}, {{&quot;f&quot;, &quot;true&quot;}, {&quot;o&quot;, &quot;true&quot;}}}, CliParams{{&quot;&quot;, &quot;-f&quot;, &quot;--bar&quot;}, {{&quot;f&quot;, &quot;true&quot;}, {&quot;bar&quot;, &quot;true&quot;}}}, CliParams{{&quot;&quot;, &quot;--bar&quot;, &quot;-f&quot;}, {{&quot;f&quot;, &quot;true&quot;}, {&quot;bar&quot;, &quot;true&quot;}}}, CliParams{{&quot;&quot;, &quot;-f&quot;, &quot;foo&quot;, &quot;--bar&quot;}, {{&quot;f&quot;, &quot;foo&quot;}, {&quot;bar&quot;, &quot;true&quot;}}}, CliParams{{&quot;&quot;, &quot;-f=foo&quot;, &quot;--bar&quot;}, {{&quot;f&quot;, &quot;foo&quot;}, {&quot;bar&quot;, &quot;true&quot;}}}, CliParams{{&quot;&quot;, &quot;--bar&quot;, &quot;-f&quot;, &quot;foo&quot;}, {{&quot;f&quot;, &quot;foo&quot;}, {&quot;bar&quot;, &quot;true&quot;}}}, CliParams{{&quot;&quot;, &quot;--bar&quot;, &quot;-f=foo&quot;}, {{&quot;f&quot;, &quot;foo&quot;}, {&quot;bar&quot;, &quot;true&quot;}}}, CliParams{{&quot;&quot;, &quot;-f&quot;, &quot;--bar&quot;, &quot;foo&quot;}, {{&quot;f&quot;, &quot;true&quot;}, {&quot;bar&quot;, &quot;foo&quot;}}}, CliParams{{&quot;&quot;, &quot;-f&quot;, &quot;--bar=foo&quot;}, {{&quot;f&quot;, &quot;true&quot;}, {&quot;bar&quot;, &quot;foo&quot;}}}, CliParams{{&quot;&quot;, &quot;--bar&quot;, &quot;foo&quot;, &quot;-f&quot;}, {{&quot;f&quot;, &quot;true&quot;}, {&quot;bar&quot;, &quot;foo&quot;}}}, CliParams{{&quot;&quot;, &quot;--bar=foo&quot;, &quot;-f&quot;}, {{&quot;f&quot;, &quot;true&quot;}, {&quot;bar&quot;, &quot;foo&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo&quot;, &quot;3&quot;}, {{&quot;foo&quot;, &quot;3&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo=3&quot;}, {{&quot;foo&quot;, &quot;3&quot;}}}, CliParams{{&quot;&quot;, &quot;-f&quot;, &quot;3&quot;}, {{&quot;f&quot;, &quot;3&quot;}}}, CliParams{{&quot;&quot;, &quot;-f=3&quot;}, {{&quot;f&quot;, &quot;3&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo&quot;, &quot;-3&quot;}, {{&quot;foo&quot;, &quot;-3&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo=-3&quot;}, {{&quot;foo&quot;, &quot;-3&quot;}}}, CliParams{{&quot;&quot;, &quot;-f&quot;, &quot;-3&quot;}, {{&quot;f&quot;, &quot;-3&quot;}}}, CliParams{{&quot;&quot;, &quot;-f=-3&quot;}, {{&quot;f&quot;, &quot;-3&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo&quot;, &quot;3.21&quot;}, {{&quot;foo&quot;, &quot;3.21&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo=3.21&quot;}, {{&quot;foo&quot;, &quot;3.21&quot;}}}, CliParams{{&quot;&quot;, &quot;-f&quot;, &quot;3.21&quot;}, {{&quot;f&quot;, &quot;3.21&quot;}}}, CliParams{{&quot;&quot;, &quot;-f=3.21&quot;}, {{&quot;f&quot;, &quot;3.21&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo&quot;, &quot;-3.21&quot;}, {{&quot;foo&quot;, &quot;-3.21&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo=-3.21&quot;}, {{&quot;foo&quot;, &quot;-3.21&quot;}}}, CliParams{{&quot;&quot;, &quot;-f&quot;, &quot;-3.21&quot;}, {{&quot;f&quot;, &quot;-3.21&quot;}}}, CliParams{{&quot;&quot;, &quot;-f=-3.21&quot;}, {{&quot;f&quot;, &quot;-3.21&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo.bar&quot;, &quot;value&quot;}, {{&quot;foo.bar&quot;, &quot;value&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo.bar&quot;, &quot;value.dot&quot;}, {{&quot;foo.bar&quot;, &quot;value.dot&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo.bar=value&quot;}, {{&quot;foo.bar&quot;, &quot;value&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo.bar=value.dot&quot;}, {{&quot;foo.bar&quot;, &quot;value.dot&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo.bar&quot;, &quot;value&quot;, &quot;--foo.bar.baz&quot;, &quot;value&quot;}, {{&quot;foo.bar&quot;, &quot;value&quot;}, {&quot;foo.bar.baz&quot;, &quot;value&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo.bar&quot;, &quot;value.dot&quot;, &quot;--foo.bar.baz&quot;, &quot;value.dot&quot;}, {{&quot;foo.bar&quot;, &quot;value.dot&quot;}, {&quot;foo.bar.baz&quot;, &quot;value.dot&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo.bar&quot;, &quot;value&quot;, &quot;--foo.bar.baz=value&quot;}, {{&quot;foo.bar&quot;, &quot;value&quot;}, {&quot;foo.bar.baz&quot;, &quot;value&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo.bar&quot;, &quot;value&quot;, &quot;--foo.bar.baz=value.dot&quot;}, {{&quot;foo.bar&quot;, &quot;value&quot;}, {&quot;foo.bar.baz&quot;, &quot;value.dot&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo.bar=value&quot;, &quot;--foo.bar.baz&quot;, &quot;value&quot;}, {{&quot;foo.bar&quot;, &quot;value&quot;}, {&quot;foo.bar.baz&quot;, &quot;value&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo.bar=value.dot&quot;, &quot;--foo.bar.baz&quot;, &quot;value&quot;}, {{&quot;foo.bar&quot;, &quot;value.dot&quot;}, {&quot;foo.bar.baz&quot;, &quot;value&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo.bar=value&quot;, &quot;--foo.bar.baz&quot;, &quot;value.dot&quot;}, {{&quot;foo.bar&quot;, &quot;value&quot;}, {&quot;foo.bar.baz&quot;, &quot;value.dot&quot;}}}))</arglist>
+    </member>
   </compound>
   <compound kind="namespace">
     <name>UI</name>

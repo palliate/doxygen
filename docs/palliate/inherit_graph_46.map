@@ -1,4 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,143,32"/>
-<area shape="rect" id="node2" href="$classUI_1_1AppIndicator_1_1Tray.html" title=" " alt="" coords="191,5,352,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="8,107,143,133"/>
+<area shape="rect" id="node2" href="$classApplication.html" title=" " alt="" coords="209,56,304,83"/>
+<area shape="rect" id="node3" href="$classplugin__manager.html" title=" " alt="" coords="193,107,320,133"/>
+<area shape="rect" id="node4" title=" " alt="" coords="27,5,124,32"/>
+<area shape="rect" id="node5" title=" " alt="" coords="5,56,145,83"/>
 </map>
