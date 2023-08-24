@@ -8,20 +8,6 @@
     <namespace>conanfile</namespace>
   </compound>
   <compound kind="file">
-    <name>systemd.cpp</name>
-    <path>/__w/palliate/palliate/plugins/systemd/logging/</path>
-    <filename>systemd_8cpp.html</filename>
-    <includes id="systemd_8h" name="systemd.h" local="yes" imported="no">systemd.h</includes>
-  </compound>
-  <compound kind="file">
-    <name>systemd.h</name>
-    <path>/__w/palliate/palliate/plugins/systemd/logging/</path>
-    <filename>systemd_8h.html</filename>
-    <class kind="class">Logging::Endpoints::Systemd</class>
-    <namespace>Logging</namespace>
-    <namespace>Logging::Endpoints</namespace>
-  </compound>
-  <compound kind="file">
     <name>capture/plugin.cpp</name>
     <path>/__w/palliate/palliate/plugins/capture/</path>
     <filename>capture_2plugin_8cpp.html</filename>
@@ -142,6 +128,31 @@
     <class kind="class">wm</class>
   </compound>
   <compound kind="file">
+    <name>systemd.cpp</name>
+    <path>/__w/palliate/palliate/plugins/systemd/logging/</path>
+    <filename>systemd_8cpp.html</filename>
+    <includes id="systemd_8h" name="systemd.h" local="yes" imported="no">systemd.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>systemd.h</name>
+    <path>/__w/palliate/palliate/plugins/systemd/logging/</path>
+    <filename>systemd_8h.html</filename>
+    <class kind="class">Logging::Endpoints::Systemd</class>
+    <namespace>Logging</namespace>
+    <namespace>Logging::Endpoints</namespace>
+  </compound>
+  <compound kind="file">
+    <name>application.cpp</name>
+    <path>/__w/palliate/palliate/src/application/</path>
+    <filename>application_8cpp.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>old/application.cpp</name>
+    <path>/__w/palliate/palliate/src/application/old/</path>
+    <filename>old_2application_8cpp.html</filename>
+    <includes id="old_2application_8h" name="old/application.h" local="yes" imported="no">application.h</includes>
+  </compound>
+  <compound kind="file">
     <name>application.h</name>
     <path>/__w/palliate/palliate/src/application/</path>
     <filename>application_8h.html</filename>
@@ -156,20 +167,33 @@
     <class kind="class">Application</class>
   </compound>
   <compound kind="file">
-    <name>application.cpp</name>
-    <path>/__w/palliate/palliate/src/application/</path>
-    <filename>application_8cpp.html</filename>
-  </compound>
-  <compound kind="file">
-    <name>old/application.cpp</name>
-    <path>/__w/palliate/palliate/src/application/old/</path>
-    <filename>old_2application_8cpp.html</filename>
-    <includes id="old_2application_8h" name="old/application.h" local="yes" imported="no">application.h</includes>
-  </compound>
-  <compound kind="file">
     <name>README.dox</name>
     <path>/__w/palliate/palliate/src/application/</path>
     <filename>README_8dox.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>cli.h</name>
+    <path>/__w/palliate/palliate/src/configuration/</path>
+    <filename>cli_8h.html</filename>
+    <class kind="class">Cli</class>
+  </compound>
+  <compound kind="file">
+    <name>configuration.cpp</name>
+    <path>/__w/palliate/palliate/src/configuration/</path>
+    <filename>configuration_8cpp.html</filename>
+    <includes id="configuration_8h" name="configuration.h" local="yes" imported="no">configuration.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>configuration.h</name>
+    <path>/__w/palliate/palliate/src/configuration/</path>
+    <filename>configuration_8h.html</filename>
+    <includes id="cli_8h" name="cli.h" local="yes" imported="no">cli.h</includes>
+    <class kind="class">Configuration</class>
+  </compound>
+  <compound kind="file">
+    <name>map.h</name>
+    <path>/__w/palliate/palliate/src/configuration/</path>
+    <filename>map_8h.html</filename>
   </compound>
   <compound kind="file">
     <name>cli.cpp</name>
@@ -200,30 +224,6 @@
       <anchor>a1195ebaf49f89a350ffae483770fa0d4</anchor>
       <arglist>(CliTests, CliFixture, ::testing::Values(CliParams{{}, {}}, CliParams{{&quot;&quot;, &quot;--foo&quot;}, {{&quot;foo&quot;, &quot;true&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo&quot;, &quot;bar&quot;}, {{&quot;foo&quot;, &quot;bar&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo=bar&quot;}, {{&quot;foo&quot;, &quot;bar&quot;}}}, CliParams{{&quot;&quot;, &quot;-f&quot;}, {{&quot;f&quot;, &quot;true&quot;}}}, CliParams{{&quot;&quot;, &quot;-f&quot;, &quot;bar&quot;}, {{&quot;f&quot;, &quot;bar&quot;}}}, CliParams{{&quot;&quot;, &quot;-f=bar&quot;}, {{&quot;f&quot;, &quot;bar&quot;}}}, CliParams{{&quot;&quot;, &quot;-fo&quot;}, {{&quot;f&quot;, &quot;true&quot;}, {&quot;o&quot;, &quot;true&quot;}}}, CliParams{{&quot;&quot;, &quot;-of&quot;}, {{&quot;f&quot;, &quot;true&quot;}, {&quot;o&quot;, &quot;true&quot;}}}, CliParams{{&quot;&quot;, &quot;-f&quot;, &quot;--bar&quot;}, {{&quot;f&quot;, &quot;true&quot;}, {&quot;bar&quot;, &quot;true&quot;}}}, CliParams{{&quot;&quot;, &quot;--bar&quot;, &quot;-f&quot;}, {{&quot;f&quot;, &quot;true&quot;}, {&quot;bar&quot;, &quot;true&quot;}}}, CliParams{{&quot;&quot;, &quot;-f&quot;, &quot;foo&quot;, &quot;--bar&quot;}, {{&quot;f&quot;, &quot;foo&quot;}, {&quot;bar&quot;, &quot;true&quot;}}}, CliParams{{&quot;&quot;, &quot;-f=foo&quot;, &quot;--bar&quot;}, {{&quot;f&quot;, &quot;foo&quot;}, {&quot;bar&quot;, &quot;true&quot;}}}, CliParams{{&quot;&quot;, &quot;--bar&quot;, &quot;-f&quot;, &quot;foo&quot;}, {{&quot;f&quot;, &quot;foo&quot;}, {&quot;bar&quot;, &quot;true&quot;}}}, CliParams{{&quot;&quot;, &quot;--bar&quot;, &quot;-f=foo&quot;}, {{&quot;f&quot;, &quot;foo&quot;}, {&quot;bar&quot;, &quot;true&quot;}}}, CliParams{{&quot;&quot;, &quot;-f&quot;, &quot;--bar&quot;, &quot;foo&quot;}, {{&quot;f&quot;, &quot;true&quot;}, {&quot;bar&quot;, &quot;foo&quot;}}}, CliParams{{&quot;&quot;, &quot;-f&quot;, &quot;--bar=foo&quot;}, {{&quot;f&quot;, &quot;true&quot;}, {&quot;bar&quot;, &quot;foo&quot;}}}, CliParams{{&quot;&quot;, &quot;--bar&quot;, &quot;foo&quot;, &quot;-f&quot;}, {{&quot;f&quot;, &quot;true&quot;}, {&quot;bar&quot;, &quot;foo&quot;}}}, CliParams{{&quot;&quot;, &quot;--bar=foo&quot;, &quot;-f&quot;}, {{&quot;f&quot;, &quot;true&quot;}, {&quot;bar&quot;, &quot;foo&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo&quot;, &quot;3&quot;}, {{&quot;foo&quot;, &quot;3&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo=3&quot;}, {{&quot;foo&quot;, &quot;3&quot;}}}, CliParams{{&quot;&quot;, &quot;-f&quot;, &quot;3&quot;}, {{&quot;f&quot;, &quot;3&quot;}}}, CliParams{{&quot;&quot;, &quot;-f=3&quot;}, {{&quot;f&quot;, &quot;3&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo&quot;, &quot;-3&quot;}, {{&quot;foo&quot;, &quot;-3&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo=-3&quot;}, {{&quot;foo&quot;, &quot;-3&quot;}}}, CliParams{{&quot;&quot;, &quot;-f&quot;, &quot;-3&quot;}, {{&quot;f&quot;, &quot;-3&quot;}}}, CliParams{{&quot;&quot;, &quot;-f=-3&quot;}, {{&quot;f&quot;, &quot;-3&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo&quot;, &quot;3.21&quot;}, {{&quot;foo&quot;, &quot;3.21&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo=3.21&quot;}, {{&quot;foo&quot;, &quot;3.21&quot;}}}, CliParams{{&quot;&quot;, &quot;-f&quot;, &quot;3.21&quot;}, {{&quot;f&quot;, &quot;3.21&quot;}}}, CliParams{{&quot;&quot;, &quot;-f=3.21&quot;}, {{&quot;f&quot;, &quot;3.21&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo&quot;, &quot;-3.21&quot;}, {{&quot;foo&quot;, &quot;-3.21&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo=-3.21&quot;}, {{&quot;foo&quot;, &quot;-3.21&quot;}}}, CliParams{{&quot;&quot;, &quot;-f&quot;, &quot;-3.21&quot;}, {{&quot;f&quot;, &quot;-3.21&quot;}}}, CliParams{{&quot;&quot;, &quot;-f=-3.21&quot;}, {{&quot;f&quot;, &quot;-3.21&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo.bar&quot;, &quot;value&quot;}, {{&quot;foo.bar&quot;, &quot;value&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo.bar&quot;, &quot;value.dot&quot;}, {{&quot;foo.bar&quot;, &quot;value.dot&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo.bar=value&quot;}, {{&quot;foo.bar&quot;, &quot;value&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo.bar=value.dot&quot;}, {{&quot;foo.bar&quot;, &quot;value.dot&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo.bar&quot;, &quot;value&quot;, &quot;--foo.bar.baz&quot;, &quot;value&quot;}, {{&quot;foo.bar&quot;, &quot;value&quot;}, {&quot;foo.bar.baz&quot;, &quot;value&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo.bar&quot;, &quot;value.dot&quot;, &quot;--foo.bar.baz&quot;, &quot;value.dot&quot;}, {{&quot;foo.bar&quot;, &quot;value.dot&quot;}, {&quot;foo.bar.baz&quot;, &quot;value.dot&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo.bar&quot;, &quot;value&quot;, &quot;--foo.bar.baz=value&quot;}, {{&quot;foo.bar&quot;, &quot;value&quot;}, {&quot;foo.bar.baz&quot;, &quot;value&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo.bar&quot;, &quot;value&quot;, &quot;--foo.bar.baz=value.dot&quot;}, {{&quot;foo.bar&quot;, &quot;value&quot;}, {&quot;foo.bar.baz&quot;, &quot;value.dot&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo.bar=value&quot;, &quot;--foo.bar.baz&quot;, &quot;value&quot;}, {{&quot;foo.bar&quot;, &quot;value&quot;}, {&quot;foo.bar.baz&quot;, &quot;value&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo.bar=value.dot&quot;, &quot;--foo.bar.baz&quot;, &quot;value&quot;}, {{&quot;foo.bar&quot;, &quot;value.dot&quot;}, {&quot;foo.bar.baz&quot;, &quot;value&quot;}}}, CliParams{{&quot;&quot;, &quot;--foo.bar=value&quot;, &quot;--foo.bar.baz&quot;, &quot;value.dot&quot;}, {{&quot;foo.bar&quot;, &quot;value&quot;}, {&quot;foo.bar.baz&quot;, &quot;value.dot&quot;}}}))</arglist>
     </member>
-  </compound>
-  <compound kind="file">
-    <name>cli.h</name>
-    <path>/__w/palliate/palliate/src/configuration/</path>
-    <filename>cli_8h.html</filename>
-    <class kind="class">Cli</class>
-  </compound>
-  <compound kind="file">
-    <name>configuration.cpp</name>
-    <path>/__w/palliate/palliate/src/configuration/</path>
-    <filename>configuration_8cpp.html</filename>
-    <includes id="configuration_8h" name="configuration.h" local="yes" imported="no">configuration.h</includes>
-  </compound>
-  <compound kind="file">
-    <name>configuration.h</name>
-    <path>/__w/palliate/palliate/src/configuration/</path>
-    <filename>configuration_8h.html</filename>
-    <includes id="cli_8h" name="cli.h" local="yes" imported="no">cli.h</includes>
-    <class kind="class">Configuration</class>
-  </compound>
-  <compound kind="file">
-    <name>map.h</name>
-    <path>/__w/palliate/palliate/src/configuration/</path>
-    <filename>map_8h.html</filename>
   </compound>
   <compound kind="file">
     <name>ivshmem.h</name>
@@ -269,101 +269,6 @@
     <class kind="class">Logging::Endpoints::File</class>
     <namespace>Logging</namespace>
     <namespace>Logging::Endpoints</namespace>
-  </compound>
-  <compound kind="file">
-    <name>plugins/capture/README.md</name>
-    <path>/__w/palliate/palliate/plugins/capture/</path>
-    <filename>plugins_2capture_2README_8md.html</filename>
-  </compound>
-  <compound kind="file">
-    <name>plugins/input/README.md</name>
-    <path>/__w/palliate/palliate/plugins/input/</path>
-    <filename>plugins_2input_2README_8md.html</filename>
-  </compound>
-  <compound kind="file">
-    <name>plugins/README.md</name>
-    <path>/__w/palliate/palliate/plugins/</path>
-    <filename>plugins_2README_8md.html</filename>
-  </compound>
-  <compound kind="file">
-    <name>plugins/systemd/logging/README.md</name>
-    <path>/__w/palliate/palliate/plugins/systemd/logging/</path>
-    <filename>plugins_2systemd_2logging_2README_8md.html</filename>
-  </compound>
-  <compound kind="file">
-    <name>plugins/systemd/README.md</name>
-    <path>/__w/palliate/palliate/plugins/systemd/</path>
-    <filename>plugins_2systemd_2README_8md.html</filename>
-  </compound>
-  <compound kind="file">
-    <name>plugins/vtty/README.md</name>
-    <path>/__w/palliate/palliate/plugins/vtty/</path>
-    <filename>plugins_2vtty_2README_8md.html</filename>
-  </compound>
-  <compound kind="file">
-    <name>plugins/wm/README.md</name>
-    <path>/__w/palliate/palliate/plugins/wm/</path>
-    <filename>plugins_2wm_2README_8md.html</filename>
-  </compound>
-  <compound kind="file">
-    <name>src/application/README.md</name>
-    <path>/__w/palliate/palliate/src/application/</path>
-    <filename>src_2application_2README_8md.html</filename>
-  </compound>
-  <compound kind="file">
-    <name>src/configuration/README.md</name>
-    <path>/__w/palliate/palliate/src/configuration/</path>
-    <filename>src_2configuration_2README_8md.html</filename>
-  </compound>
-  <compound kind="file">
-    <name>src/ivshmem/platform/linux/README.md</name>
-    <path>/__w/palliate/palliate/src/ivshmem/platform/linux/</path>
-    <filename>src_2ivshmem_2platform_2linux_2README_8md.html</filename>
-  </compound>
-  <compound kind="file">
-    <name>src/ivshmem/platform/README.md</name>
-    <path>/__w/palliate/palliate/src/ivshmem/platform/</path>
-    <filename>src_2ivshmem_2platform_2README_8md.html</filename>
-  </compound>
-  <compound kind="file">
-    <name>src/ivshmem/platform/windows/README.md</name>
-    <path>/__w/palliate/palliate/src/ivshmem/platform/windows/</path>
-    <filename>src_2ivshmem_2platform_2windows_2README_8md.html</filename>
-  </compound>
-  <compound kind="file">
-    <name>src/ivshmem/README.md</name>
-    <path>/__w/palliate/palliate/src/ivshmem/</path>
-    <filename>src_2ivshmem_2README_8md.html</filename>
-  </compound>
-  <compound kind="file">
-    <name>src/logging/README.md</name>
-    <path>/__w/palliate/palliate/src/logging/</path>
-    <filename>src_2logging_2README_8md.html</filename>
-  </compound>
-  <compound kind="file">
-    <name>src/plugin_manager/README.md</name>
-    <path>/__w/palliate/palliate/src/plugin_manager/</path>
-    <filename>src_2plugin__manager_2README_8md.html</filename>
-  </compound>
-  <compound kind="file">
-    <name>src/README.md</name>
-    <path>/__w/palliate/palliate/src/</path>
-    <filename>src_2README_8md.html</filename>
-  </compound>
-  <compound kind="file">
-    <name>src/ui/gl/README.md</name>
-    <path>/__w/palliate/palliate/src/ui/gl/</path>
-    <filename>src_2ui_2gl_2README_8md.html</filename>
-  </compound>
-  <compound kind="file">
-    <name>src/ui/README.md</name>
-    <path>/__w/palliate/palliate/src/ui/</path>
-    <filename>src_2ui_2README_8md.html</filename>
-  </compound>
-  <compound kind="file">
-    <name>src/ui/tray/README.md</name>
-    <path>/__w/palliate/palliate/src/ui/tray/</path>
-    <filename>src_2ui_2tray_2README_8md.html</filename>
   </compound>
   <compound kind="file">
     <name>serial.cpp</name>
@@ -572,6 +477,101 @@
     <class kind="class">UI::AppIndicator::Tray</class>
     <namespace>UI</namespace>
     <namespace>UI::AppIndicator</namespace>
+  </compound>
+  <compound kind="file">
+    <name>plugins/capture/README.md</name>
+    <path>/__w/palliate/palliate/plugins/capture/</path>
+    <filename>plugins_2capture_2README_8md.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>plugins/input/README.md</name>
+    <path>/__w/palliate/palliate/plugins/input/</path>
+    <filename>plugins_2input_2README_8md.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>plugins/README.md</name>
+    <path>/__w/palliate/palliate/plugins/</path>
+    <filename>plugins_2README_8md.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>plugins/systemd/logging/README.md</name>
+    <path>/__w/palliate/palliate/plugins/systemd/logging/</path>
+    <filename>plugins_2systemd_2logging_2README_8md.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>plugins/systemd/README.md</name>
+    <path>/__w/palliate/palliate/plugins/systemd/</path>
+    <filename>plugins_2systemd_2README_8md.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>plugins/vtty/README.md</name>
+    <path>/__w/palliate/palliate/plugins/vtty/</path>
+    <filename>plugins_2vtty_2README_8md.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>plugins/wm/README.md</name>
+    <path>/__w/palliate/palliate/plugins/wm/</path>
+    <filename>plugins_2wm_2README_8md.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>src/application/README.md</name>
+    <path>/__w/palliate/palliate/src/application/</path>
+    <filename>src_2application_2README_8md.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>src/configuration/README.md</name>
+    <path>/__w/palliate/palliate/src/configuration/</path>
+    <filename>src_2configuration_2README_8md.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>src/ivshmem/platform/linux/README.md</name>
+    <path>/__w/palliate/palliate/src/ivshmem/platform/linux/</path>
+    <filename>src_2ivshmem_2platform_2linux_2README_8md.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>src/ivshmem/platform/README.md</name>
+    <path>/__w/palliate/palliate/src/ivshmem/platform/</path>
+    <filename>src_2ivshmem_2platform_2README_8md.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>src/ivshmem/platform/windows/README.md</name>
+    <path>/__w/palliate/palliate/src/ivshmem/platform/windows/</path>
+    <filename>src_2ivshmem_2platform_2windows_2README_8md.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>src/ivshmem/README.md</name>
+    <path>/__w/palliate/palliate/src/ivshmem/</path>
+    <filename>src_2ivshmem_2README_8md.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>src/logging/README.md</name>
+    <path>/__w/palliate/palliate/src/logging/</path>
+    <filename>src_2logging_2README_8md.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>src/plugin_manager/README.md</name>
+    <path>/__w/palliate/palliate/src/plugin_manager/</path>
+    <filename>src_2plugin__manager_2README_8md.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>src/README.md</name>
+    <path>/__w/palliate/palliate/src/</path>
+    <filename>src_2README_8md.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>src/ui/gl/README.md</name>
+    <path>/__w/palliate/palliate/src/ui/gl/</path>
+    <filename>src_2ui_2gl_2README_8md.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>src/ui/README.md</name>
+    <path>/__w/palliate/palliate/src/ui/</path>
+    <filename>src_2ui_2README_8md.html</filename>
+  </compound>
+  <compound kind="file">
+    <name>src/ui/tray/README.md</name>
+    <path>/__w/palliate/palliate/src/ui/tray/</path>
+    <filename>src_2ui_2tray_2README_8md.html</filename>
   </compound>
   <compound kind="file">
     <name>unittest_main.cpp</name>
